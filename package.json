@@ -1,0 +1,14 @@
+{
+  "name": "wild-papagayo",
+  "version": "1.0.0",
+  "description": "Wild Papagayo private tour website",
+  "scripts": {
+    "build:css": "cleancss -o style.min.css style.css && echo CSS built OK",
+    "watch:css": "nodemon --watch style.css --ext css --exec \"npm run build:css\"",
+    "build": "npm run build:css"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "nodemon": "^3.1.10"
+  }
+}
