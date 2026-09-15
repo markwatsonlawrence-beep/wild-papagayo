@@ -1,0 +1,417 @@
+{
+    "id":  "congotrail",
+    "name":  "Congo Trail Half-Day Adventure",
+    "slug":  "congotrail",
+    "status":  "active",
+    "page_file":  "tours/congotrail.html",
+    "page_url":  "../tours/congotrail.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/congotrail",
+    "category":  "Experience",
+    "short_description":  "Six zip lines, hanging bridges, 45 minutes on ATV and horseback riding through Guanacaste dry forest. Half-day private adventure at Congo Trail with certified bilingual guide.",
+    "hero_image":  "images/congotrail1.webp",
+    "hero_image_alt":  "Congo Trail Half-Day Adventure in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "wildlife-watching",
+                         "ziplining"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Half Day (approx. 6 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  225,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/congotrail.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "wildlife",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  72,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "arrival"
+                                      ],
+                      "avoid_after":  [
+                                          "wildlife"
+                                      ],
+                      "tags":  [
+                                   "wildlife",
+                                   "canopy",
+                                   "monkeys",
+                                   "zip-line",
+                                   "forest"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Easy",
+                         "duration_hours":  6,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "wildlife-watching",
+                                               "ziplining"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Congo Trail · Canopy Adventure · Guanacaste",
+                         "hero_title_html":  "Congo Trail Zipline \u0026amp; ATV Private Adventure",
+                         "hero_chips":  [
+                                            "🎿 6 Zip Lines",
+                                            "🌉 Hanging Bridges",
+                                            "🏍️ ATV Adventure",
+                                            "🐴 Scenic Horseback Ride"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Three Adventures. One Incredible Morning.",
+                                                    "intro":  "Experience the perfect balance of adrenaline and authentic Guanacaste landscapes. Soar through the forest on thrilling zip lines, ride an ATV along scenic trails, and finish with a peaceful horseback ride,all in one unforgettable private half-day adventure..",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🌲",
+                                                                      "title":  "Zip Line Adventure",
+                                                                      "description":  "Fly across six exciting zip line cables above the tropical rainforest while enjoying spectacular panoramic views and an unforgettable adrenaline rush."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🏍️",
+                                                                      "title":  "ATV Adventure",
+                                                                      "description":  "Explore jungle trails, dusty backroads, and hidden landscapes on an exciting off-road ATV ride through the beautiful Guanacaste countryside."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🐴",
+                                                                      "title":  "Horseback Ride",
+                                                                      "description":  "Prefer a slower pace? Choose a scenic horseback ride through peaceful forest trails while enjoying the natural beauty of the surrounding landscape."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "⚡",
+                                                                   "title":  "Three Adventures. One Incredible Morning.",
+                                                                   "text":  "Experience zip lining, horseback riding and ATV, all in one perfectly organized morning, leaving you plenty of time to relax and enjoy the rest of your vacation."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Minimum age for ATV is \u003cstrong\u003e6 years old\u003c/strong\u003e.",
+                                                                        "Minimum age for horseback riding is \u003cstrong\u003e5 years old\u003c/strong\u003e. Younger participants must be accompanied by a guide throughout.",
+                                                                        "Children aged 3 to 6 must complete the zip line tour accompanied by a certified guide at all times.",
+                                                                        "Closed-toe shoes are mandatory for ATV and zip lining. Sandals are not permitted on these activities.",
+                                                                        "Participants should be in reasonable physical health. Guests with heart conditions, back injuries or pregnancy should consult their physician before booking.",
+                                                                        "Medium difficulty rating, suitable for most fitness levels. No prior experience required for any activity."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Sunscreen and insect repellent are strongly recommended. Apply before departure.",
+                                                                     "Guests should inform the guide of any medical conditions, injuries or physical limitations prior to departure.",
+                                                                     "Cameras and phones are welcome, secure mounting or bags recommended for ATV segments.",
+                                                                     "All safety equipment (helmets, harnesses) is provided and inspected by certified staff."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Meet your certified private guide at the activity site. Transportation is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "6 Zip Line Cables + 45 Min ATV + 45 Min Horseback",
+                                                                   "price":  "205",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Half Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Thrill Seekers",
+                                                              "Adventure Seekers",
+                                                              "Families"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "buenavistamegacombo.html",
+                                                "image":  "../images/Buenavista1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Buena Vista Mega Combo"
+                                            },
+                                            {
+                                                "href":  "congotrailcanopy.html",
+                                                "image":  "../images/congotrailnew1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Congo Trail Canopy"
+                                            },
+                                            {
+                                                "href":  "atvmountainride.html",
+                                                "image":  "../images/atvmountain1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "ATV Mountain Ride"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "ATV adventure through Congo Trail dry forest, Guanacaste",
+                                             "src":  "../images/congotrail1.webp"
+                                         },
+                                         {
+                                             "alt":  "Zip line through the canopy at Congo Trail, Costa Rica",
+                                             "src":  "../images/congotrail2.webp"
+                                         },
+                                         {
+                                             "alt":  "Hanging bridge in the dry forest, Congo Trail",
+                                             "src":  "../images/congotrail3.webp"
+                                         },
+                                         {
+                                             "alt":  "Horseback riding through jungle trails, Guanacaste",
+                                             "src":  "../images/congotrail4.webp"
+                                         },
+                                         {
+                                             "alt":  "Private group on ATV at Congo Trail adventure park",
+                                             "src":  "../images/congotrail5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "6 zip line cables through the dry forest canopy",
+                                                     "45 minutes of private ATV riding",
+                                                     "45 minutes of horseback riding",
+                                                     "All safety gear and equipment"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eThree thrills. One morning.\u003c/strong\u003e A private half-day adventure through Guanacaste\u0027s dry forest, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Half Day · Approx. 6 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🌲",
+                                                      "label":  "Highlights",
+                                                      "value":  "6 Zip Lines, ATV \u0026 Horseback"
+                                                  },
+                                                  {
+                                                      "icon":  "🪖",
+                                                      "label":  "Safety Gear",
+                                                      "value":  "Helmets \u0026 harnesses provided"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Zipline Canopy Tour",
+                                                     "text":  "Fly across six zip line cables above the tropical dry forest."
+                                                 },
+                                                 {
+                                                     "title":  "ATV Adventure",
+                                                     "text":  "45 minutes riding jungle trails and dusty backroads."
+                                                 },
+                                                 {
+                                                     "title":  "Horseback Ride",
+                                                     "text":  "45 minutes on a scenic horseback ride through peaceful forest trails."
+                                                 },
+                                                 {
+                                                     "title":  "Private Return",
+                                                     "text":  "Relax on the private journey back to your resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 6 hours, combining all three activities, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The minimum age is 6 for ATV and 5 for horseback riding, younger participants must be accompanied by a guide throughout. Children aged 3 to 6 can complete the zipline accompanied by a certified guide."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "No, this is a half-day excursion and does not include a meal. Bottled water and snacks are provided."
+                                     },
+                                     {
+                                         "question":  "Do I need prior experience?",
+                                         "answer":  "No prior experience is required for any of the three activities. All safety equipment is provided and inspected by certified staff."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Closed-toe shoes are mandatory for the ATV and zipline. Sandals are not permitted on these activities."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Costa Rica\u0027s tropical weather can change quickly. Tours normally operate in light rain, but safety always comes first, if conditions prevent an activity from operating safely, our team will contact you to discuss the available options."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Congo Trail Zipline \u0026 ATV Private Adventure | Wild Papagayo",
+    "seo_description_override":  "Private half-day Congo Trail adventure from Papagayo: zipline, ATV and horseback riding through Guanacaste dry forest, hotel pickup included."
+}

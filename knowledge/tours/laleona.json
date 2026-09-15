@@ -1,0 +1,424 @@
+{
+    "id":  "laleona",
+    "name":  "La Leona Waterfall — Zip Line \u0026 Tubing",
+    "slug":  "laleona",
+    "status":  "active",
+    "page_file":  "tours/laleona.html",
+    "page_url":  "../tours/laleona.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/laleona",
+    "category":  "Experience",
+    "short_description":  "Private La Leona Waterfall experience, a 3-hour hike through 5 river pools in a stone canyon. The Classic option adds zip line, The Plus option adds tubing. Available November to April only.",
+    "hero_image":  "images/laleona1.webp",
+    "hero_image_alt":  "La Leona Waterfall — Zip Line \u0026 Tubing in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "waterfalls",
+                         "ziplining",
+                         "tubing"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  230,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/laleona.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "ocean",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  76,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "adventure",
+                                          "resort"
+                                      ],
+                      "avoid_after":  [
+                                          "ocean"
+                                      ],
+                      "tags":  [
+                                   "catamaran",
+                                   "ocean",
+                                   "sunset",
+                                   "sailing",
+                                   "snorkeling",
+                                   "beach",
+                                   "pacific"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "waterfalls",
+                                               "ziplining",
+                                               "tubing"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · La Leona · Canyon \u0026 Waterfall · Guanacaste",
+                         "hero_title_html":  "La Leona Waterfall Private Canyon Adventure",
+                         "hero_chips":  [
+                                            "💦 Hidden Waterfall",
+                                            "🏞️ Stone Canyon",
+                                            "🥾 River Hiking",
+                                            "⚡ Zip Line or Tubing"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Hike, Swim \u0026 Discover La Leona Waterfall",
+                                                    "intro":  "Venture deep into one of Guanacaste\u0027s best-kept secrets on an exciting adventure that combines hiking, river crossings, swimming, and spectacular canyon scenery. This experience is perfect for travelers looking for an active day surrounded by Costa Rica\u0027s incredible natural beauty.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🥾",
+                                                                      "title":  "Guided Canyon Hike",
+                                                                      "description":  "Follow your experienced guide through forest trails, rocky riverbeds, and natural canyon formations while discovering one of Costa Rica\u0027s most scenic hidden locations."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Natural River Pools",
+                                                                      "description":  "Swim through five crystal-clear river pools carved into the canyon as you make your way toward the spectacular La Leona Waterfall."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌊",
+                                                                      "title":  "La Leona Waterfall",
+                                                                      "description":  "Reach the hidden waterfall deep inside the canyon, where powerful turquoise waters create one of Guanacaste\u0027s most breathtaking natural settings."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "⚡",
+                                                                      "title":  "Choose Your Adventure",
+                                                                      "description":  "Select the Classic option with an exciting zip line experience above the forest canopy, or upgrade to the PLUS option and enjoy an unforgettable river tubing adventure through refreshing Class I–II rapids."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "Costa Rica\u0027s Hidden Canyon Adventure",
+                                                                   "text":  "Hike, swim, climb, and explore your way to the spectacular La Leona Waterfall before completing your adventure with either an exhilarating zip line experience or an exciting river tubing descent. A true adventure for travelers seeking something beyond the ordinary."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear swimwear under quick-dry shorts or leggings, you will be wet for most of the hike.",
+                                                                     "Bring water shoes or secure-strap sandals, open flip-flops will not stay on in the river pools.",
+                                                                     "Bring a dry change of clothing and a small towel for after the experience.",
+                                                                     "Waterproof cases for phones and cameras are strongly recommended.",
+                                                                     "Please inform us of any dietary restrictions for lunch and swimming ability at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "Experiences affected by extreme weather events or unsafe river levels will be rescheduled whenever possible. If rescheduling is not possible, a full refund will be issued. Normal rainfall does not constitute an unsafe condition."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to La Leona. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "classic",
+                                                                   "badge":  "👑 CLASSIC",
+                                                                   "heading":  "La Leona Waterfall + Lunch + Zip Line",
+                                                                   "price":  "240",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+"option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "La Leona Waterfall + Lunch + Tubing",
+                                                                   "price":  "240",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate to Challenging",
+                                             "duration":  "Full Day",
+                                             "availability":  "Nov – Apr",
+                                             "best_for":  [
+                                                              "Adventure Seekers",
+                                                              "Active Travelers",
+                                                              "Nature Lovers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "hikingrinconnationalpark.html",
+                                                "image":  "../images/rincon1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hiking Rincón National Park"
+                                            },
+                                            {
+                                                "href":  "celesteriver.html",
+                                                "image":  "../images/celeste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Celeste River Hike"
+                                            },
+                                            {
+                                                "href":  "waterfalllovers.html",
+                                                "image":  "../images/waterfalllovers1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Waterfall Lovers"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "La Leona Waterfall in tropical stone canyon, Costa Rica",
+                                             "src":  "../images/laleona1.webp"
+                                         },
+                                         {
+                                             "alt":  "Natural river pools inside stone canyon on La Leona hike",
+                                             "src":  "../images/laleona2.webp"
+                                         },
+                                         {
+                                             "alt":  "Swimming beneath La Leona Waterfall in natural pool",
+                                             "src":  "../images/laleona3.webp"
+                                         },
+                                         {
+                                             "alt":  "Zip line option above canopy near La Leona Waterfall",
+                                             "src":  "../images/laleona4.webp"
+                                         },
+                                         {
+                                             "alt":  "Tubing through rapids below La Leona Waterfall, Costa Rica",
+                                             "src":  "../images/laleona5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "3-hour guided hike through 5 natural canyon river pools",
+                                                     "Swim at La Leona Waterfall",
+                                                     "Classic option: Zip line descent over canopy",
+                                                     "Plus option: Tubing descent through river rapids",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eInto the canyon. Behind the falls.\u003c/strong\u003e A private canyon hike through five river pools to a hidden waterfall, from Papagayo. Seasonal, November to April.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "💦",
+                                                      "label":  "Highlights",
+                                                      "value":  "5 River Pools \u0026 Hidden Waterfall"
+                                                  },
+                                                  {
+                                                      "icon":  "📅",
+                                                      "label":  "Season",
+                                                      "value":  "November to April only"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Canyon Hike Begins",
+                                                     "text":  "Follow forest trails and rocky riverbeds into the stone canyon."
+                                                 },
+                                                 {
+                                                     "title":  "Five River Pools",
+                                                     "text":  "Swim through five crystal-clear pools carved into the canyon."
+                                                 },
+                                                 {
+                                                     "title":  "La Leona Waterfall",
+                                                     "text":  "Reach the hidden waterfall deep inside the canyon."
+                                                 },
+                                                 {
+                                                     "title":  "Zip Line or Tubing",
+                                                     "text":  "Classic finishes with a zip line above the canopy. Plus finishes with a river tubing descent."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "Is this tour available year-round?",
+                                         "answer":  "No, La Leona is only available from November to April, depending on river and canyon conditions."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between Classic and Plus?",
+                                         "answer":  "Classic finishes the adventure with a zip line above the canopy. Plus finishes with a river tubing descent through the rapids."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The recommended minimum age is 8, and guests should be comfortable swimming, since most of the hike takes place in and around river pools."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Swimwear under quick-dry shorts or leggings, water shoes or secure-strap sandals, and a dry change of clothes for after."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "This tour runs seasonally from November to April. Private availability is limited within the season, early reservations are recommended."
+                     },
+    "seo_title_override":  "La Leona Waterfall Private Canyon Adventure | Wild Papagayo",
+    "seo_description_override":  "Private La Leona Waterfall canyon hike from Papagayo with zipline or tubing option, hotel pickup and lunch included. Seasonal, November to April."
+}

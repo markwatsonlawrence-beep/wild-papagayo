@@ -107,15 +107,151 @@ function ConvertTo-HtmlSafe {
 New-Item -ItemType Directory -Force $outDir | Out-Null
 $template = [System.IO.File]::ReadAllText($templatePath, [System.Text.Encoding]::UTF8)
 
+# Commercial pricing source of truth (Excel -> tour-pricing.json). Public
+# "From $X" prices, guest-tier qualifiers, and disclaimer copy are derived
+# from here -- never from the deprecated page_content.pricing_tiers.options[].
+# price/note or pricing.from_price fields (kept in knowledge/tours/*.json for
+# now, but no longer read for public price rendering).
+#
+# A tour/option is only migrated to this derived-pricing path once its
+# page_content.pricing_tiers.options[] entry carries an explicit option_id
+# that resolves against tour-pricing.json -- Tour Slug + Option ID is the
+# only authoritative key, never array position, heading, badge or display
+# label. Options without option_id keep rendering from the legacy fields
+# unchanged, which is what scopes a partial rollout (e.g. a single pilot
+# tour) without needing a separate CLI filter.
+$pricingJsonPath = Join-Path $root "tour-pricing.json"
+if (-not (Test-Path $pricingJsonPath)) {
+    throw "tour-pricing.json not found -- cannot generate tour pages without the commercial pricing source. Run 'npm run pricing:convert' first."
+}
+$pricingData = Read-Utf8Json $pricingJsonPath
+
+function Get-DerivedPriceInfo {
+    # Resolves an estimator option's minimum public per-person price and
+    # which guest tier(s) produce it. Throws (fails the build) rather than
+    # guessing whenever the data can't support a confident public price --
+    # matches the project-wide rule that missing/ambiguous pricing must
+    # never silently render as $0, a wrong number, or a stale legacy value.
+    param($EstOpt, [string]$TourId, [string]$OptionId)
+    if ($EstOpt.estimator_status -eq 'manual_quote') {
+        return [pscustomobject]@{ isManualQuote = $true; price = $null; guestLabels = @(); zoneApplies = $null }
+    }
+    if ($EstOpt.estimator_status -ne 'active') {
+        throw "Tour '$TourId' option '$OptionId': unrecognized estimator_status '$($EstOpt.estimator_status)' in tour-pricing.json."
+    }
+    $zoneApplies = $EstOpt.zone_adjustment_applies
+    if ($zoneApplies -isnot [bool]) {
+        throw "Tour '$TourId' option '$OptionId': zone_adjustment_applies is not an explicit boolean (found: '$zoneApplies'). Refusing to render a public price without a confirmed zone policy -- fix tour-pricing.json/the Excel source."
+    }
+    $tiers = @()
+    if ($null -ne $EstOpt.pp_2)     { $tiers += [pscustomobject]@{ label = '2';  value = [double]$EstOpt.pp_2 } }
+    if ($null -ne $EstOpt.pp_3)     { $tiers += [pscustomobject]@{ label = '3';  value = [double]$EstOpt.pp_3 } }
+    if ($null -ne $EstOpt.pp_4plus) { $tiers += [pscustomobject]@{ label = '4+'; value = [double]$EstOpt.pp_4plus } }
+    if ($tiers.Count -eq 0) {
+        throw "Tour '$TourId' option '$OptionId': estimator_status is 'active' but no pp_2/pp_3/pp_4plus pricing is present in tour-pricing.json."
+    }
+    $minVal = ($tiers | Measure-Object -Property value -Minimum).Minimum
+    $guestLabels = @($tiers | Where-Object { $_.value -eq $minVal } | ForEach-Object { $_.label })
+    return [pscustomobject]@{ isManualQuote = $false; price = $minVal; guestLabels = $guestLabels; zoneApplies = $zoneApplies }
+}
+
+function Format-GuestPhrase {
+    param([string[]]$GuestLabels)
+    return 'groups of ' + ($GuestLabels -join ' or ') + ' guests'
+}
+
+function Format-DerivedPrice {
+    param([double]$Value)
+    if ($Value -eq [Math]::Floor($Value)) { return [string]([int]$Value) }
+    return [string]$Value
+}
+
+function Get-PricingDisclaimer {
+    param([Parameter(Mandatory)][pscustomobject]$PriceInfo)
+    if ($PriceInfo.isManualQuote) {
+        return 'Pricing and availability require confirmation. Request a personalized quote below.'
+    }
+    if ($PriceInfo.zoneApplies -eq $false) {
+        return 'Private pricing varies by group size. Get your personalized estimate below.'
+    }
+    return 'Private pricing varies by group size and pickup location. Get your personalized estimate below.'
+}
+
+# Collected during generation, checked after every file is written: for each
+# derived price actually rendered, confirm the exact dollar amount written to
+# disk -- looked up deterministically via data-option-id, never by scanning
+# for arbitrary "$" text -- matches what was computed from tour-pricing.json.
+# This is what stops a future code change from silently reintroducing a
+# legacy/stale price without anyone noticing.
+$priceValidationChecks = New-Object System.Collections.Generic.List[object]
+
 $files = Get-ChildItem $tourDir -Filter "*.json" -File | Sort-Object Name
 $generated = 0
 $skipped = @()
+
+# ---- Production scope guard ----
+# The "absent from tour-pricing.json -> skip this tour's regeneration"
+# mechanism below is only safe because exactly one currently-published tour
+# (slothadventure, Estimator Status = INACTIVE) is expected to be absent.
+# It must never silently become a catch-all for a tour that was supposed to
+# ship but got dropped by a bad Excel edit or a broken converter run --
+# that would silently freeze a tour's public price on stale legacy data
+# with no warning. Verify the exact expected release shape up front and
+# abort the whole build if it doesn't match.
+$expectedExcludedTours = @('slothadventure')
+$expectedActiveTourCount = 31
+$expectedManualQuoteTours = @('ostionalturtles')
+
+$allTourIds = @($files | ForEach-Object { [string](Read-Utf8Json $_.FullName).id })
+$pricingTourIds = @($pricingData.tours.PSObject.Properties.Name)
+
+$missingFromPricing = @($allTourIds | Where-Object { $pricingTourIds -notcontains $_ })
+$unexpectedlyMissing = @($missingFromPricing | Where-Object { $expectedExcludedTours -notcontains $_ })
+if ($unexpectedlyMissing.Count -gt 0) {
+    throw "Scope guard failed: published tour(s) unexpectedly absent from tour-pricing.json (would otherwise be silently skipped): $($unexpectedlyMissing -join ', '). Absence from tour-pricing.json must never be a silent-skip mechanism for a tour that was supposed to ship -- fix the Excel/converter output before regenerating."
+}
+$expectedButPresent = @($expectedExcludedTours | Where-Object { $missingFromPricing -notcontains $_ })
+if ($expectedButPresent.Count -gt 0) {
+    throw "Scope guard failed: tour(s) expected to be excluded are now present in tour-pricing.json: $($expectedButPresent -join ', '). If this is an intentional onboarding (e.g. slothadventure going ACTIVE), update `$expectedExcludedTours in tour-generator.ps1 deliberately -- do not let this pass silently."
+}
+
+$manualQuoteTourIds = @($pricingTourIds | Where-Object {
+    $entry = Get-PropertyValue $pricingData.tours $_ $null
+    @($entry.options) | Where-Object { $_.estimator_status -eq 'manual_quote' } | Select-Object -First 1
+})
+$activeTourIds = @($pricingTourIds | Where-Object { $manualQuoteTourIds -notcontains $_ })
+
+$manualQuoteJoined = (@($manualQuoteTourIds | Sort-Object)) -join ','
+$expectedManualQuoteJoined = (@($expectedManualQuoteTours | Sort-Object)) -join ','
+if ($manualQuoteJoined -ne $expectedManualQuoteJoined) {
+    throw "Scope guard failed: expected MANUAL QUOTE tour(s) [$($expectedManualQuoteTours -join ', ')], found [$($manualQuoteTourIds -join ', ')]."
+}
+if ($activeTourIds.Count -ne $expectedActiveTourCount) {
+    throw "Scope guard failed: expected exactly $expectedActiveTourCount ACTIVE tours in tour-pricing.json, found $($activeTourIds.Count): $($activeTourIds -join ', ')"
+}
+if ($pricingTourIds.Count -ne ($expectedActiveTourCount + $expectedManualQuoteTours.Count)) {
+    throw "Scope guard failed: expected exactly $($expectedActiveTourCount + $expectedManualQuoteTours.Count) tours total in tour-pricing.json, found $($pricingTourIds.Count)."
+}
+Write-Host "Scope guard passed: $($pricingTourIds.Count) tours in tour-pricing.json ($($activeTourIds.Count) ACTIVE + $($manualQuoteTourIds.Count) MANUAL QUOTE), $($expectedExcludedTours.Count) intentionally excluded ($($expectedExcludedTours -join ', '))." -ForegroundColor Green
 
 foreach ($file in $files) {
     $tour = Read-Utf8Json $file.FullName
     $id = [string]$tour.id
     $pc = Get-PropertyValue $tour 'page_content' $null
     if (-not $pc) { $skipped += "$id (no page_content -- run the extraction step first)"; continue }
+
+    # Tours not present in tour-pricing.json's production estimator dataset
+    # (currently only slothadventure -- Estimator Status = INACTIVE) are
+    # skipped entirely: their tours/*.html is never touched by this run, not
+    # even regenerated with unrelated/unrelated-to-pricing content. This is
+    # a permanent, data-driven rule (keyed off tour-pricing.json membership,
+    # never a hardcoded slug) -- it replaces the earlier manual
+    # "regenerate everything, then restore the excluded file from a backup"
+    # workflow, which was never meant to be the long-term process.
+    if (-not (Get-PropertyValue $pricingData.tours $id $null)) {
+        $skipped += "$id (not present in tour-pricing.json production dataset -- tours/$id.html left untouched)"
+        continue
+    }
 
     $name = [string]$tour.name
     $slug = [string]$tour.slug
@@ -374,12 +510,54 @@ foreach ($file in $files) {
 
     $options = @(Get-PropertyValue $pricingTiers 'options' @())
     $optionsCount = [Math]::Max(1, $options.Count)
-    $optionsHtml = ($options | ForEach-Object {
-        $borderStyle = if ($options.Count -gt 1 -and $_ -eq $options[-1]) { ' style="border: 2px solid #062448;"' } else { '' }
-        $headingTag = if ($_.heading) { '<h3 style="font-size:.82rem; font-weight:700; color:#062448; margin-bottom:12px; line-height:1.4;">' + (ConvertTo-HtmlSafe $_.heading) + '</h3>' } else { '' }
-        $priceHtml = if ($_.price) { '<div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + [string]$_.price + ' <small>p.p.</small></strong></div>' } else { '' }
-        $noteHtml = if ($_.note) { '<p class="hiace-note"><span class="price-note">' + (ConvertTo-HtmlSafe $_.note) + '</span></p>' } else { '' }
-        '<div class="tour-option-price-card"' + $borderStyle + '><span class="option-badge">' + $_.badge + '</span>' + $headingTag + $priceHtml + $noteHtml + '</div>'
+
+    # Resolve each editorial option against tour-pricing.json via Tour Slug +
+    # Option ID. An option with no option_id property is not yet migrated
+    # and keeps its legacy rendering untouched (see header comment above).
+    $tourPricingEntry = Get-PropertyValue $pricingData.tours $id $null
+    $derivedOptions = $options | ForEach-Object {
+        $opt = $_
+        $optionId = [string](Get-PropertyValue $opt 'option_id' '')
+        $estOpt = $null
+        if ($optionId) {
+            if (-not $tourPricingEntry) {
+                throw "Tour '$id' option '$optionId': page_content declares an option_id but this tour has no entry at all in tour-pricing.json."
+            }
+            $estOpt = @($tourPricingEntry.options) | Where-Object { $_.id -eq $optionId } | Select-Object -First 1
+            if (-not $estOpt) {
+                throw "Tour '$id': page_content option_id '$optionId' has no matching entry in tour-pricing.json. Fix the Excel/Option ID mapping before regenerating."
+            }
+        }
+        [pscustomobject]@{ editorial = $opt; optionId = $optionId; estOpt = $estOpt }
+    }
+
+    $optionsHtml = ($derivedOptions | ForEach-Object {
+        $opt = $_.editorial
+        $optionId = $_.optionId
+        $estOpt = $_.estOpt
+        $borderStyle = if ($options.Count -gt 1 -and $opt -eq $options[-1]) { ' style="border: 2px solid #062448;"' } else { '' }
+        $headingTag = if ($opt.heading) { '<h3 style="font-size:.82rem; font-weight:700; color:#062448; margin-bottom:12px; line-height:1.4;">' + (ConvertTo-HtmlSafe $opt.heading) + '</h3>' } else { '' }
+
+        if ($estOpt) {
+            $priceInfo = Get-DerivedPriceInfo -EstOpt $estOpt -TourId $id -OptionId $optionId
+            if ($priceInfo.isManualQuote) {
+                $priceHtml = ''
+            } else {
+                $priceStr = Format-DerivedPrice $priceInfo.price
+                $guestPhrase = Format-GuestPhrase $priceInfo.guestLabels
+                $priceHtml = '<div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + $priceStr + ' <small>p.p.</small></strong></div><p class="tour-from-qualifier">for ' + $guestPhrase + '</p>'
+                $priceValidationChecks.Add([pscustomobject]@{ slug = $slug; optionId = $optionId; expected = $priceStr }) | Out-Null
+            }
+            $noteHtml = '<p class="hiace-note"><span class="price-note">' + (ConvertTo-HtmlSafe (Get-PricingDisclaimer $priceInfo)) + '</span></p>'
+            $dataAttr = ' data-option-id="' + (ConvertTo-HtmlSafe $optionId) + '"'
+        } else {
+            # Legacy path -- deprecated fields, unmigrated tour/option, unchanged from current production behavior.
+            $priceHtml = if ($opt.price) { '<div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + [string]$opt.price + ' <small>p.p.</small></strong></div>' } else { '' }
+            $noteHtml = if ($opt.note) { '<p class="hiace-note"><span class="price-note">' + (ConvertTo-HtmlSafe $opt.note) + '</span></p>' } else { '' }
+            $dataAttr = ''
+        }
+
+        '<div class="tour-option-price-card"' + $borderStyle + $dataAttr + '><span class="option-badge">' + $opt.badge + '</span>' + $headingTag + $priceHtml + $noteHtml + '</div>'
     }) -join "`n"
 
     $bookingOptionsHtml = ($options | ForEach-Object { '<option>' + (ConvertTo-HtmlSafe $_.heading) + '</option>' }) -join "`n"
@@ -389,19 +567,34 @@ foreach ($file in $files) {
     # Tour at a Glance, so mobile visitors and crawlers see it before the
     # long-form content) ----
     #
-    # This is the page's single CANONICAL starting-price presentation, so it
-    # follows the same price_confirmed gate as JSON-LD: only pricing.from_price,
-    # and only once confirmed, may be shown here as "From $X". It is never
-    # auto-filled from options[0], the cheapest option, or guide_only --
-    # those are separate purchasable configurations, not verified confirmation
-    # that this number is the tour's public starting price.
-    #
-    # Individual pricing_tiers.options[] cards (rendered separately below,
-    # each with its own badge + full descriptive heading) are unaffected by
-    # this gate -- they're already clearly labeled as specific configurations,
-    # not presented as "the" tour price.
+    # Derived-pricing path: once at least one option on this tour has been
+    # migrated (has a resolved estOpt), the teaser shows the tour-wide
+    # minimum derived price across every ACTIVE migrated option -- the same
+    # Tour Slug + Option ID source as the cards below, never a separate
+    # editorial field. A tour whose migrated options are all MANUAL QUOTE
+    # gets the neutral "Private pricing available" message instead of a
+    # number. Tours with no migrated options at all keep the legacy
+    # price_confirmed-gated behavior, unchanged.
+    $migratedOptions = @($derivedOptions | Where-Object { $_.estOpt })
     $priceTeaserHtml = ""
-    if ($priceConfirmed -and $canonicalFromPrice) {
+    if ($migratedOptions.Count -gt 0) {
+        $activeMigrated = @($migratedOptions | Where-Object { $_.estOpt.estimator_status -eq 'active' })
+        if ($activeMigrated.Count -gt 0) {
+            $teaserCandidates = $activeMigrated | ForEach-Object {
+                $pi = Get-DerivedPriceInfo -EstOpt $_.estOpt -TourId $id -OptionId $_.optionId
+                [pscustomobject]@{ entry = $_; priceInfo = $pi }
+            }
+            $winner = $teaserCandidates | Sort-Object { $_.priceInfo.price } | Select-Object -First 1
+            $priceStr = Format-DerivedPrice $winner.priceInfo.price
+            $guestPhrase = Format-GuestPhrase $winner.priceInfo.guestLabels
+            $teaserBadge = $winner.entry.editorial.badge
+            $priceTeaserHtml = '<div class="tour-price-teaser reveal" data-option-id="' + (ConvertTo-HtmlSafe $winner.entry.optionId) + '"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + $priceStr + ' <small>p.p.</small></strong></div><p class="tour-from-qualifier">for ' + $guestPhrase + '</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
+            $priceValidationChecks.Add([pscustomobject]@{ slug = $slug; optionId = $winner.entry.optionId; expected = $priceStr; isTeaser = $true }) | Out-Null
+        } else {
+            $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
+        }
+    } elseif ($priceConfirmed -and $canonicalFromPrice) {
+        # Legacy path -- unmigrated tour, unchanged from current production behavior.
         $primaryOptForBadge = $options | Where-Object { [bool](Get-PropertyValue $_ 'is_primary' $false) } | Select-Object -First 1
         $teaserBadge = if ($primaryOptForBadge) { $primaryOptForBadge.badge } elseif ($options.Count -gt 0) { $options[0].badge } else { 'PRIVATE TOUR' }
         $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + [string]$canonicalFromPrice + ' <small>p.p.</small></strong></div><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
@@ -544,3 +737,45 @@ foreach ($stat in ($tourRelatedStats | Sort-Object tour)) {
         Write-Host "    #$n [$($e.reason)] $($e.article.slug) -- $($e.article.title)"
     }
 }
+
+# ── Derived public pricing validation ──
+# For every price actually rendered from tour-pricing.json during this run,
+# re-read the written HTML and confirm the exact dollar amount present next
+# to that option's data-option-id matches what was computed. Looked up
+# deterministically by slug + option_id, never by scanning for arbitrary "$"
+# text on the page. A mismatch here means a future change reintroduced a
+# stale/legacy value (or a formatting bug) and the build must not succeed.
+Write-Host ""
+Write-Host "== Derived Public Pricing Validation ==" -ForegroundColor Cyan
+$pricingMismatches = New-Object System.Collections.Generic.List[object]
+$checksBySlug = $priceValidationChecks | Group-Object slug
+foreach ($group in $checksBySlug) {
+    $slugForCheck = $group.Name
+    $htmlPath = Join-Path $outDir "$slugForCheck.html"
+    if (-not (Test-Path $htmlPath)) {
+        $pricingMismatches.Add("Tour '$slugForCheck': expected generated file not found at $htmlPath") | Out-Null
+        continue
+    }
+    $writtenHtml = [System.IO.File]::ReadAllText($htmlPath, [System.Text.Encoding]::UTF8)
+    foreach ($check in $group.Group) {
+        $isTeaser = [bool](Get-PropertyValue $check 'isTeaser' $false)
+        $containerClass = if ($isTeaser) { 'tour-price-teaser' } else { 'tour-option-price-card' }
+        $pattern = '<div class="' + [regex]::Escape($containerClass) + '(?:\s[^"]*)?"[^>]*data-option-id="' + [regex]::Escape($check.optionId) + '"[\s\S]{0,400}?from-amount">\$([\d,.]+)'
+        $m = [regex]::Match($writtenHtml, $pattern)
+        if (-not $m.Success) {
+            $pricingMismatches.Add("Tour '$slugForCheck' option '$($check.optionId)' ($containerClass): could not find a rendered price to verify against expected `$$($check.expected)") | Out-Null
+            continue
+        }
+        $actual = $m.Groups[1].Value.Replace(',', '')
+        if ($actual -ne $check.expected) {
+            $pricingMismatches.Add("Tour '$slugForCheck' option '$($check.optionId)' ($containerClass): expected `$$($check.expected) but HTML contains `$$actual") | Out-Null
+        }
+    }
+}
+Write-Host "Checks performed: $($priceValidationChecks.Count)"
+if ($pricingMismatches.Count -gt 0) {
+    Write-Host "MISMATCHES FOUND: $($pricingMismatches.Count)" -ForegroundColor Red
+    $pricingMismatches | ForEach-Object { Write-Host "  $_" -ForegroundColor Red }
+    throw "Derived public pricing validation failed -- refusing to leave a build with a price mismatch between tour-pricing.json and the generated HTML."
+}
+Write-Host "All derived prices verified against tour-pricing.json by Tour Slug + Option ID. 0 mismatches." -ForegroundColor Green

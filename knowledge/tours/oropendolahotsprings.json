@@ -1,0 +1,392 @@
+{
+    "id": "oropendolahotsprings",
+    "name": "Oropendola Waterfall & Rio Negro Hot Springs Tour",
+    "slug": "oropendolahotsprings",
+    "status": "active",
+    "page_file": "tours/oropendolahotsprings.html",
+    "page_url": "../tours/oropendolahotsprings.html",
+    "canonical_url": "https://wildpapagayo.com/tours/oropendolahotsprings",
+    "category": "Waterfall & Hot Springs",
+    "short_description": "Private tour to Oropendola Waterfall's crystal-clear swimming pool and the natural Rio Negro hot springs at the base of Rincon de la Vieja Volcano. Certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
+    "hero_image": "images/oropendola1.webp",
+    "hero_image_alt": "Oropendola Waterfall falling into a crystal-clear pool, Guanacaste, Costa Rica",
+    "destination_ids": [
+        "rincon-de-la-vieja"
+    ],
+    "activity_ids": [
+        "waterfalls",
+        "hot-springs"
+    ],
+    "pickup_zone_ids": [
+        "papagayo",
+        "playa-hermosa",
+        "playa-coco"
+    ],
+    "best_for": [
+        "Families",
+        "Couples",
+        "Nature lovers",
+        "First-time visitors"
+    ],
+    "difficulty": "Easy",
+    "duration_label": "Half Day (approx. 5-6 hours)",
+    "minimum_age": 0,
+    "included": [
+        "Private air-conditioned transportation",
+        "Certified bilingual guide",
+        "Oropendola Waterfall access",
+        "Rio Negro hot springs access"
+    ],
+    "what_to_bring": [
+        "Swimsuit",
+        "Towel",
+        "Water shoes or sandals with grip",
+        "Sunscreen",
+        "Insect repellent",
+        "Change of clothes",
+        "Reusable water bottle"
+    ],
+    "season_ids": [
+        "all-year"
+    ],
+    "featured_hotel_ids": [],
+    "related_article_slugs": [],
+    "aliases": [
+        "Oropendola Waterfall Tour",
+        "Rio Negro Hot Springs Tour"
+    ],
+    "pricing": {
+        "from_price": null,
+        "currency": "USD",
+        "pricing_note": "Pricing not yet confirmed as a standalone tour -- this combination is currently sold bundled inside the Rincon de la Vieja Hiking Tour ($215 with hot springs) and the Waterfall Lovers Tour ($220 with hot springs). Confirm a standalone rate with operations before publishing structured recommendations."
+    },
+    "source": {
+        "type": "new-tour-page",
+        "path": "tours/oropendolahotsprings.html"
+    },
+    "review_notes": [
+        "Price intentionally left blank -- this experience already exists bundled into 2 other tours at $205-220; confirm whether the standalone version should be priced lower (shorter, no hike/horseback) before publishing.",
+        "Confirm exact duration for the standalone version without the hike or horseback ride add-ons.",
+        "Confirm whether self-serve volcanic mud is officially part of this experience or an unofficial visitor activity before promising it in marketing copy."
+    ],
+    "last_reviewed": "2026-07-27",
+    "itinerary": {
+        "category": "wellness",
+        "intensity": "light",
+        "pickup_zones": [
+            "papagayo",
+            "playa-hermosa",
+            "playa-coco"
+        ],
+        "priority": 72,
+        "min_stay": 3,
+        "max_stay": 14,
+        "ideal_after": [
+            "arrival",
+            "adventure",
+            "resort"
+        ],
+        "avoid_after": [],
+        "tags": [
+            "waterfall",
+            "hot-springs",
+            "wellness",
+            "family"
+        ]
+    },
+    "intelligence": {
+        "schema_version": "2.0",
+        "intelligence_status": "auto_generated_review_required",
+        "primary_category": "Wellness & Nature",
+        "difficulty": "Easy",
+        "duration_hours": 5.5,
+        "duration_type": "Half Day",
+        "energy_level": "Low",
+        "minimum_age": 0,
+        "best_for": [
+            "Families",
+            "Couples",
+            "Nature lovers",
+            "First-time visitors"
+        ],
+        "traveler_scores": {
+            "families": 85,
+            "couples": 95,
+            "seniors": 75,
+            "adventure": 45,
+            "wildlife": 40,
+            "relaxation": 95,
+            "private": 85
+        },
+        "pickup_zone_ids": [
+            "papagayo",
+            "playa-hermosa",
+            "playa-coco"
+        ],
+        "season_ids": [
+            "all-year"
+        ],
+        "activity_tags": [
+            "waterfalls",
+            "hot-springs"
+        ],
+        "itinerary_rules": {
+            "ideal_after": [
+                "arrival",
+                "adventure"
+            ],
+            "avoid_after": [],
+            "recovery_day_recommended": false
+        },
+        "stay_fit": {
+            "minimum_nights": 3,
+            "ideal_nights": [
+                4,
+                7,
+                10,
+                14
+            ],
+            "preferred_trip_day": [
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "recommendation_priority": 74,
+        "balance_tags": [
+            "balanced",
+            "wellness"
+        ],
+        "editorial_review": {
+            "required": true,
+            "notes": [
+                "Verify pricing before this tour appears in customer-facing recommendations.",
+                "Decide whether to keep this as a standalone product alongside the existing bundled versions, or fold it back into those 2 tours.",
+                "Confirm duration and inclusions for the standalone (non-hiking, non-horseback) version."
+            ]
+        },
+        "last_generated": "2026-07-27"
+    },
+    "page_content": {
+        "hero_region_label": "Private Collection · Rincon de la Vieja · Guanacaste · Costa Rica",
+        "hero_title_html": "Oropendola Waterfall &amp; Rio Negro Hot Springs",
+        "hero_chips": [
+            "💦 Oropendola Waterfall",
+            "♨️ Natural Hot Springs",
+            "🏊 Crystal-Clear Swimming Pool",
+            "🌋 Rincon de la Vieja Volcano"
+        ],
+        "experience_section": {
+            "tag": "The Experience",
+            "title": "A Waterfall Swim and a Volcanic Soak, in One Private Day",
+            "intro": "At the base of Rincon de la Vieja Volcano, the Rio Negro carves through forest and volcanic rock to form Oropendola Waterfall, a striking cascade into a crystal-clear swimming pool, and a string of natural hot spring pools warmed by the volcano below. This private half-day tour combines both in one relaxed, easy-access outing.",
+            "items": [
+                {
+                    "icon": "💦",
+                    "title": "Oropendola Waterfall",
+                    "description": "A waterfall dropping into a crystal-clear pool set in a rock canyon, one of Guanacaste's most photographed swimming spots."
+                },
+                {
+                    "icon": "♨️",
+                    "title": "Rio Negro Hot Springs",
+                    "description": "A series of natural hot spring pools built along the riverbank, warmed by the geothermal activity of Rincon de la Vieja Volcano, with natural volcanic mud nearby that visitors are welcome to apply."
+                },
+                {
+                    "icon": "🌲",
+                    "title": "Easy Access, Real Nature",
+                    "description": "Short, easy walking access to both sites, no technical hiking required, set in Guanacaste's dry forest at the base of the volcano."
+                },
+                {
+                    "icon": "🇨🇷",
+                    "title": "A Relaxed Introduction to Rincon de la Vieja",
+                    "description": "A gentler, wellness-focused alternative to the full national park hike, ideal for families and travelers who want the waterfall and hot springs without a long trek."
+                }
+            ],
+            "footer": {
+                "icon": "🌋",
+                "title": "Nature and Wellness at the Base of a Volcano",
+                "text": "Swim beneath a waterfall, then soak in mineral-rich hot spring pools warmed by the same volcano, an easy, relaxed private day for travelers of every age."
+            }
+        },
+        "accordion": {
+            "before_you_arrive": [
+                "Bring a swimsuit, towel and a change of clothes, you'll be in the water at both stops.",
+                "Water shoes or sandals with grip are recommended, the terrain around the pools is natural rock.",
+                "Apply reef-safe sunscreen and insect repellent before departure.",
+                "The waterfall pool and hot spring pools are shared with other visitors on busy days.",
+                "Please inform us of any relevant health conditions at booking, hot springs are not recommended for some medical conditions."
+            ],
+            "reservation_policy": [
+                "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                "Tour rescheduling must be requested at least 24 hours in advance."
+            ]
+        },
+        "pricing_tiers": {
+            "options": [
+                {
+"option_id":  "full-experience",
+                    "badge": "👑 PRIVATE TOUR",
+                    "heading": "Oropendola Waterfall + Rio Negro Hot Springs, Private Transportation & Guide",
+                    "price": "",
+                    "note": "Pricing not yet published as a standalone tour, contact us on WhatsApp for a custom quote based on your pickup zone and group size."
+                }
+            ]
+        },
+        "quick_stats": {
+            "difficulty": "Easy",
+            "duration": "Half Day",
+            "availability": "Daily",
+            "best_for": [
+                "Families",
+                "Couples",
+                "First-Time Visitors"
+            ]
+        },
+        "testimonials": [],
+        "cross_sell": [
+            {
+                "href": "hikingrinconnationalpark.html",
+                "image": "../images/rincon1.webp",
+                "label": "Private Tour",
+                "title": "Rincon de la Vieja Hiking Tour"
+            },
+            {
+                "href": "waterfalllovers.html",
+                "image": "../images/waterfalllovers2.webp",
+                "label": "Private Tour",
+                "title": "Waterfall Lovers Tour"
+            },
+            {
+                "href": "haciendaguachipelin.html",
+                "image": "../images/guachipelin1.webp",
+                "label": "Private Tour",
+                "title": "Hacienda Guachipelín Extreme"
+            }
+        ],
+        "gallery": [
+            {
+                "alt": "Oropendola Waterfall falling into its swimming pool with visitors, Guanacaste",
+                "src": "../images/oropendola1.webp"
+            },
+            {
+                "alt": "Close view of Oropendola Waterfall dropping into the pool below",
+                "src": "../images/oropendola2.webp"
+            },
+            {
+                "alt": "Natural Rio Negro hot spring pool beside the river, Guanacaste",
+                "src": "../images/oropendola3.webp"
+            },
+            {
+                "alt": "Visitors relaxing in the Rio Negro hot spring pool beneath the hanging bridge",
+                "src": "../images/oropendola4.webp"
+            },
+            {
+                "alt": "Natural volcanic mud at the Rio Negro hot springs area",
+                "src": "../images/oropendola5.webp"
+            }
+        ],
+        "what_to_pack": [
+            "Swimsuit",
+            "Towel",
+            "Water shoes or sandals",
+            "Sunscreen",
+            "Insect repellent",
+            "Change of clothes",
+            "Reusable water bottle",
+            "Camera"
+        ],
+        "everything_included": [
+            "Private air-conditioned transportation",
+            "Certified bilingual guide",
+            "Oropendola Waterfall access",
+            "Rio Negro hot springs access"
+        ],
+        "hero_subtitle_html": "<strong>A waterfall swim and a volcanic soak.</strong> A private half-day at the base of Rincon de la Vieja Volcano, from Papagayo and Guanacaste.",
+        "tour_at_a_glance": [
+            {
+                "icon": "🕒",
+                "label": "Duration",
+                "value": "Half Day · Approx. 5-6 Hours"
+            },
+            {
+                "icon": "🚙",
+                "label": "Pickup",
+                "value": "Private hotel pickup & return"
+            },
+            {
+                "icon": "👥",
+                "label": "Experience",
+                "value": "100% Private"
+            },
+            {
+                "icon": "🗣️",
+                "label": "Guide",
+                "value": "Certified bilingual local guide"
+            },
+            {
+                "icon": "💦",
+                "label": "Highlights",
+                "value": "Waterfall Pool & Natural Hot Springs"
+            },
+            {
+                "icon": "🧗",
+                "label": "Difficulty",
+                "value": "Easy, no hiking required"
+            }
+        ],
+        "tour_at_a_glance_note": "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+        "itinerary_steps": [
+            {
+                "title": "Private Hotel Pickup",
+                "text": "Your private guide meets you directly at your hotel or resort in Guanacaste."
+            },
+            {
+                "title": "Oropendola Waterfall",
+                "text": "Swim in the crystal-clear pool beneath the waterfall."
+            },
+            {
+                "title": "Rio Negro Hot Springs",
+                "text": "Relax in natural hot spring pools warmed by Rincon de la Vieja Volcano."
+            },
+            {
+                "title": "Private Return",
+                "text": "Relax on the private journey back to your resort."
+            }
+        ],
+        "faq": [
+            {
+                "question": "Is this a private tour?",
+                "answer": "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+            },
+            {
+                "question": "Is hotel pickup included?",
+                "answer": "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+            },
+            {
+                "question": "How much does this tour cost?",
+                "answer": "Pricing for this standalone tour is confirmed directly with our concierge based on your pickup zone and group size, contact us on WhatsApp for a custom quote."
+            },
+            {
+                "question": "Is hiking required?",
+                "answer": "No, access to both the waterfall and the hot springs is short and easy, with no technical hiking required."
+            },
+            {
+                "question": "Can children participate?",
+                "answer": "Yes, this tour is suitable for all ages."
+            },
+            {
+                "question": "What should I bring?",
+                "answer": "A swimsuit, towel, water shoes or sandals with grip, and a change of clothes, you'll be in the water at both stops."
+            },
+            {
+                "question": "Can I cancel my reservation?",
+                "answer": "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+            }
+        ]
+    },
+    "seo_title_override": "Oropendola Waterfall & Hot Springs Private Tour | Wild Papagayo",
+    "seo_description_override": "Private Oropendola Waterfall and Rio Negro hot springs tour from Papagayo, easy access, certified guide and hotel pickup, no hiking required."
+}

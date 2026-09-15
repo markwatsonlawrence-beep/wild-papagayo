@@ -1,0 +1,415 @@
+{
+    "id":  "congotrailcanopy",
+    "name":  "Congo Trail Canopy \u0026 Extreme Zip Line",
+    "slug":  "congotrailcanopy",
+    "status":  "active",
+    "page_file":  "tours/congotrailcanopy.html",
+    "page_url":  "../tours/congotrailcanopy.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/congotrailcanopy",
+    "category":  "Experience",
+    "short_description":  "Private Congo Trail experience, 11-station zip line through tropical forest with 3 hanging bridges, plus extreme cables including Superman and Tarzan Swing. The Plus option adds 2 hours ATV.",
+    "hero_image":  "images/congotrailnew1.webp",
+    "hero_image_alt":  "Congo Trail Canopy \u0026 Extreme Zip Line in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "ziplining",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Friends",
+                     "Active couples"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Half Day (approx. 7 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  190,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/congotrailcanopy.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  75,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "canopy",
+                                   "zip-line",
+                                   "monkeys",
+                                   "forest",
+                                   "adrenaline"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  7,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Friends",
+                                          "Active couples"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  70,
+                                                 "couples":  85,
+                                                 "seniors":  45,
+                                                 "adventure":  100,
+                                                 "wildlife":  45,
+                                                 "relaxation":  25,
+                                                 "private":  75
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "ziplining",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Congo Trail · Canopy Tour · Guanacaste",
+                         "hero_title_html":  "Congo Trail Canopy \u0026amp; Extreme Zipline Private Tour",
+                         "hero_chips":  [
+                                            "🎿 11 Zip Lines",
+                                            "🌉 3 Hanging Bridges",
+                                            "⚡ Superman \u0026 Tarzan Swing",
+                                            "🏍️ ATV Upgrade"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "The Ultimate Canopy Adventure in Guanacaste",
+                                                    "intro":  "Experience one of Guanacaste\u0027s most exciting aerial adventures. Fly across 11 zip lines, cross hanging bridges high above the forest, conquer the Superman Cable and Tarzan Swing, and upgrade your day with an unforgettable private ATV ride through tropical trails..",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🌲",
+                                                                      "title":  "11 Zip Line Cables",
+                                                                      "description":  "Fly across eleven exciting zip line platforms offering spectacular views of the tropical dry forest while enjoying an unforgettable aerial adventure."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌉",
+                                                                      "title":  "Hanging Bridges",
+                                                                      "description":  "Walk across three suspended bridges surrounded by dry forest where monkeys, birds, and other wildlife can often be spotted in their natural habitat."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦸",
+                                                                      "title":  "Superman \u0026 Tarzan Swing",
+                                                                      "description":  "Finish your canopy adventure with two of the park\u0027s most thrilling attractions, including the famous Superman Cable and the exhilarating Tarzan Swing."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🏍️",
+                                                                      "title":  "PLUS: Private ATV Tour",
+                                                                      "description":  "Upgrade to the PLUS option and continue your adventure with a two-hour private ATV ride through scenic jungle trails and hidden landscapes."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "⚡",
+                                                                   "title":  "Adventure From Every Angle",
+                                                                   "text":  "From soaring high above the jungle canopy to conquering the Superman Cable, Tarzan Swing, and optional ATV adventure, this half-day experience delivers nonstop excitement while leaving plenty of time to enjoy the rest of your vacation."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear athletic closed-toe shoes, required for all zip line activities and ATV.",
+                                                                     "Avoid loose jewellery or accessories that may catch on equipment.",
+                                                                     "Athletic or outdoor clothing, comfortable for movement, can get dusty on ATV.",
+                                                                     "Secure cameras and phones during the zip line section. A chest or wrist mount is ideal. Bring a light snack if needed as this is a morning-only experience."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Meet your certified private guide at the activity site. Transportation is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "classic",
+                                                                   "badge":  "👑 CLASSIC",
+                                                                   "heading":  "Zip Line 11 cables + Extreme 3 cables (Superman + Tarzan Swing)",
+                                                                   "price":  "170",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+"option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "Zip Line 11 cables + Extreme 3 cables + ATV 2 hours",
+                                                                   "price":  "255",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Half Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Thrill Seekers",
+                                                              "Adventure Seekers",
+                                                              "Families"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "congotrail.html",
+                                                "image":  "../images/congotrail1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Congo Trail Combo"
+                                            },
+                                            {
+                                                "href":  "canyoningtubing.html",
+                                                "image":  "../images/canyoningtubing1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Canyoning \u0026 River Tubing"
+                                            },
+                                            {
+                                                "href":  "buenavistamegacombo.html",
+                                                "image":  "../images/Buenavista1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Buena Vista Mega Combo"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Zip line through tropical forest at Congo Trail, Costa Rica",
+                                             "src":  "../images/congotrailnew1.webp"
+                                         },
+                                         {
+                                             "alt":  "Howler monkeys foraging in the canopy above Congo Trail zip lines",
+                                             "src":  "../images/congotrailnew2.webp"
+                                         },
+                                         {
+                                             "alt":  "Hanging bridge through rainforest at Congo Trail Guanacaste",
+                                             "src":  "../images/congotrailnew3.webp"
+                                         },
+                                         {
+                                             "alt":  "Superman extreme zip line cable at Congo Trail",
+                                             "src":  "../images/congotrailnew4.webp"
+                                         },
+                                         {
+                                             "alt":  "ATV ride through tropical trails at Congo Trail Plus",
+                                             "src":  "../images/congotrailnew5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Experienced certified bilingual local guide",
+                                                     "11-station zip line through tropical forest",
+                                                     "3 hanging bridges",
+                                                     "3 extreme cables, Superman and Tarzan Swing",
+                                                     "All safety equipment (harness, helmet, gloves)",
+                                                     "Plus option only: 2-hour private ATV ride"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eFourteen cables. Three bridges. Monkeys above.\u003c/strong\u003e A private half-day canopy adventure through Guanacaste\u0027s dry forest, from Papagayo.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Half Day · Approx. 7 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🌲",
+                                                      "label":  "Highlights",
+                                                      "value":  "11 Zip Lines \u0026 3 Hanging Bridges"
+                                                  },
+                                                  {
+                                                      "icon":  "🪖",
+                                                      "label":  "Safety Gear",
+                                                      "value":  "Harness, helmet \u0026 gloves provided"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Zipline Canopy Tour",
+                                                     "text":  "Fly across 11 zip line cables through the tropical dry forest canopy."
+                                                 },
+                                                 {
+                                                     "title":  "Hanging Bridges",
+                                                     "text":  "Walk across three suspended bridges, keeping an eye out for monkeys and birds."
+                                                 },
+                                                 {
+                                                     "title":  "Superman \u0026 Tarzan Swing",
+                                                     "text":  "Finish with the park\u0027s two most thrilling attractions."
+                                                 },
+                                                 {
+                                                     "title":  "PLUS: Private ATV Ride",
+                                                     "text":  "With the Plus option, continue with a 2-hour private ATV ride through jungle trails."
+                                                 },
+                                                 {
+                                                     "title":  "Private Return",
+                                                     "text":  "Relax on the private journey back to your resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between Classic and Plus?",
+                                         "answer":  "Classic includes the 11 zip lines, 3 hanging bridges and extreme cables. Plus adds a 2-hour private ATV ride through jungle trails."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full day, including private transportation from Papagayo, Playa Hermosa or Playas del Coco, takes approximately 7 hours. Classic focuses on the zip lines and hanging bridges, while Plus adds about 2 additional hours for the ATV ride."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The recommended minimum age is 8. Please let us know the ages of all guests when booking."
+                                     },
+                                     {
+                                         "question":  "Will we see monkeys?",
+                                         "answer":  "Wildlife sightings occur in a natural forest and cannot be guaranteed on any single visit, though howler and white-faced monkey sightings are frequent along the zip line route."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Athletic closed-toe shoes are required for all activities, avoid loose jewelry or accessories that could catch on equipment."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Congo Trail Canopy \u0026 Extreme Zipline Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Congo Trail canopy tour from Papagayo: 11 zip lines, 3 hanging bridges, Superman and Tarzan Swing, hotel pickup included."
+}

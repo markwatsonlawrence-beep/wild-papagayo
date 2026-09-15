@@ -1,0 +1,431 @@
+{
+    "id":  "haciendaguachipelin",
+    "name":  "Hacienda Guachipelín Extreme",
+    "slug":  "haciendaguachipelin",
+    "status":  "active",
+    "page_file":  "tours/haciendaguachipelin.html",
+    "page_url":  "../tours/haciendaguachipelin.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/haciendaguachipelin",
+    "category":  "Adventure",
+    "short_description":  "Private full-day extreme adventure at Hacienda Guachipelín, zipline, rappel, rock climbing, river tubing and hot springs in Guanacaste. Certified bilingual guide. Book with Wild Papagayo.",
+    "hero_image":  "images/guachipelin1.webp",
+    "hero_image_alt":  "Hacienda Guachipelín Extreme in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "ziplining",
+                         "hot-springs",
+                         "horseback-riding",
+                         "waterfalls",
+                         "tubing"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  275,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/haciendaguachipelin.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "heavy",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  85,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "nature",
+                                          "resort"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "zip-line",
+                                   "tubing",
+                                   "hot-springs",
+                                   "horse",
+                                   "combo",
+                                   "volcano",
+                                   "full-day"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "ziplining",
+                                               "hot-springs",
+                                               "horseback-riding",
+                                               "waterfalls",
+                                               "tubing"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Hacienda Guachipelín · Adventure · Guanacaste",
+                         "hero_title_html":  "Hacienda Guachipelin Adventure Private Tour",
+                         "hero_chips":  [
+                                            "🎿 Zip Line",
+                                            "🧗 Rappel \u0026 Climbing",
+                                            "🏄 River Tubing",
+                                            "♨️ Hot Springs"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "If you\u0027re looking for Costa Rica\u0027s most complete adventure, this is it. Experience volcanic canyons, zip lines, rappelling, Tarzan swings, river tubing, horseback riding, and natural hot springs,all in one unforgettable private day.",
+                                                    "intro":  "Discover why Hacienda Guachipelín is one of Costa Rica\u0027s most renowned adventure destinations. This action-packed experience combines adrenaline, breathtaking volcanic landscapes, and natural hot springs into one unforgettable private tour designed for adventure lovers.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🧗",
+                                                                      "title":  "Volcanic Canyon Rappelling",
+                                                                      "description":  "Descend spectacular rock walls inside a volcanic river canyon using professional safety equipment while surrounded by lush tropical scenery."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌲",
+                                                                      "title":  "Zip Line Adventure",
+                                                                      "description":  "Fly above the rainforest canopy on an exciting network of zip lines featuring breathtaking views of rivers, forests, and volcanic landscapes."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌊",
+                                                                      "title":  "Tarzan Swing \u0026 River Tubing",
+                                                                      "description":  "Experience the thrill of the famous Tarzan Swing before navigating exciting white-water tubing rapids through scenic volcanic rivers."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "Natural Hot Springs",
+                                                                      "description":  "End your adventure by relaxing in naturally heated thermal pools and volcanic mud baths, the perfect way to recover after an action-filled day."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🔥",
+                                                                   "title":  "One Day. Endless Adrenaline.",
+                                                                   "text":  "From soaring over volcanic canyons to relaxing in natural hot springs, every activity has been carefully designed to deliver the ultimate adventure in Rincón de la Vieja."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Weather in Costa Rica can change quickly; some activities may be rescheduled for safety reasons.",
+                                                                     "Children must be supervised at all times and follow the guide\u0027s instructions.",
+                                                                     "This is a full-day adventure combining multiple high-intensity experiences; physical fitness is recommended.",
+                                                                     "Guests should inform the guide of any medical conditions or special needs prior to the tour.",
+                                                                     "Meals, snacks, and drinks are included as specified in the itinerary."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Hacienda Guachipelin. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Zip Line + Rappel + Rock Climbing + River Tubing + Horseback + Hot Springs",
+                                                                   "price":  "245",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Adventure Seekers",
+                                                              "Thrill Lovers",
+                                                              "Active Travelers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "buenavistamegacombo.html",
+                                                "image":  "../images/Buenavista1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Buena Vista Mega Combo"
+                                            },
+                                            {
+                                                "href":  "congotrail.html",
+                                                "image":  "../images/congotrail1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Congo Trail Combo"
+                                            },
+                                            {
+                                                "href":  "canyoningtubing.html",
+                                                "image":  "../images/canyoningtubing1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Canyoning \u0026 River Tubing"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Hacienda Guachipelín zipline over the canyon, Guanacaste",
+                                             "src":  "../images/guachipelin1.webp"
+                                         },
+                                         {
+                                             "alt":  "Hacienda Guachipelín river tubing adventure",
+                                             "src":  "../images/guachipelin2.webp"
+                                         },
+                                         {
+                                             "alt":  "Hacienda Guachipelín rappel descent into the canyon",
+                                             "src":  "../images/guachipelin3.webp"
+                                         },
+                                         {
+                                             "alt":  "Hacienda Guachipelín horseback riding through the trails",
+                                             "src":  "../images/guachipelin4.webp"
+                                         },
+                                         {
+                                             "alt":  "Hacienda Guachipelín hanging bridges over the river gorge",
+                                             "src":  "../images/guachipelin5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Long pants (for horseback)",
+                                              "Comfortable closed-toe shoes or boots",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Traditional Costa Rican lunch (gluten-free options available)",
+                                                     "Canyon canopy zipline experience",
+                                                     "Rappel",
+                                                     "Rock climbing",
+                                                     "Tarzan swing over the canyon",
+                                                     "Horseback riding (25 minutes)",
+                                                     "White-water river tubing (approx. 1 hour)",
+                                                     "Natural thermal hot springs access"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eInto the canyon. Beyond the ordinary.\u003c/strong\u003e A private full-day adventure combo at the base of Rincon de la Vieja Volcano, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🎿",
+                                                      "label":  "Highlights",
+                                                      "value":  "Zipline, Rappel, Tubing \u0026 Horseback"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Arrival at Hacienda Guachipelin",
+                                                     "text":  "Gear up for a full day of adventure at the base of Rincon de la Vieja Volcano."
+                                                 },
+                                                 {
+                                                     "title":  "Zipline \u0026 Canyon Rappel",
+                                                     "text":  "Fly above the rainforest canopy, then descend volcanic rock walls with professional safety equipment."
+                                                 },
+                                                 {
+                                                     "title":  "Tarzan Swing \u0026 River Tubing",
+                                                     "text":  "Swing over the canyon, then navigate white-water tubing rapids through the volcanic river."
+                                                 },
+                                                 {
+                                                     "title":  "Horseback Riding",
+                                                     "text":  "A 25-minute horseback ride through the hacienda\u0027s trails."
+                                                 },
+                                                 {
+                                                     "title":  "Hot Springs \u0026 Lunch",
+                                                     "text":  "Relax in natural thermal pools and volcanic mud, then enjoy a traditional Costa Rican lunch before your private return."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 8 hours, including the drive and all six activities, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included, with gluten-free options available on request."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The recommended minimum age is 8, due to the physical intensity of the activities. Please let us know the ages of all guests when booking."
+                                     },
+                                     {
+                                         "question":  "Do I need prior experience for the zipline or rappel?",
+                                         "answer":  "No prior experience is necessary. All activities include professional safety equipment and instruction from certified guides."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Comfortable closed-toe shoes or boots, long pants for horseback riding, swimwear and a towel for the hot springs, and a reusable water bottle."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Weather in Costa Rica can change quickly, and some activities may be adjusted or rescheduled for safety reasons. Our team will contact you to discuss the available options if conditions require it."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Hacienda Guachipelin Adventure Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Rincon de la Vieja adventure from Papagayo: zipline, rappel, river tubing, horseback riding and hot springs, hotel pickup and lunch included."
+}

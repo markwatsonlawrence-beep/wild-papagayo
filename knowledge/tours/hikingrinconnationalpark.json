@@ -1,0 +1,460 @@
+{
+    "id":  "hikingrinconnationalpark",
+    "name":  "Rincon de la Vieja Hiking Tour",
+    "slug":  "hikingrinconnationalpark",
+    "status":  "active",
+    "page_file":  "tours/hikingrinconnationalpark.html",
+    "page_url":  "../tours/hikingrinconnationalpark.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/hikingrinconnationalpark",
+    "category":  "Volcano \u0026 Hiking",
+    "short_description":  "Private full-day hiking in Rincon de la Vieja National Park, Guanacaste. Volcanoes, hot springs and wildlife with a certified bilingual guide. Book via WhatsApp.",
+    "hero_image":  "images/rincon1.webp",
+    "hero_image_alt":  "Rincon de la Vieja Hiking Tour in Costa Rica",
+    "destination_ids":  [
+                            "rincon-de-la-vieja"
+                        ],
+    "activity_ids":  [
+                         "hiking",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Couples",
+                     "Wellness travelers",
+                     "Nature lovers"
+                 ],
+    "difficulty":  "Easy to Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  220,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/hikingrinconnationalpark.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "heavy",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  82,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "wellness"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "volcano",
+                                   "hiking",
+                                   "national-park",
+                                   "rincon",
+                                   "crater",
+                                   "geothermal"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Volcano \u0026 Wellness",
+                         "difficulty":  "Easy to Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Couples",
+                                          "Wellness travelers",
+                                          "Nature lovers"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  85,
+                                                 "couples":  95,
+                                                 "seniors":  80,
+                                                 "adventure":  65,
+                                                 "wildlife":  65,
+                                                 "relaxation":  90,
+                                                 "private":  90
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "hiking",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "volcano-wellness"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Rincón de la Vieja · National Park Hiking · Guanacaste",
+                         "hero_title_html":  "Rincon de la Vieja Volcano Private Hiking Tour",
+                         "hero_chips":  [
+                                            "🌋 Active Volcano",
+                                            "🥾 Rainforest Hiking",
+                                            "♨️ Hot Springs Option",
+                                            "🐒 Wildlife Encounters"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Rincon de la Vieja Volcano Hike: What to Expect",
+                                                    "intro":  "Explore Rincon de la Vieja Volcano on a private hiking tour through the Las Pailas Trail, where active fumaroles, bubbling mud pots, rainforest and volcanic landscapes come together in one of Guanacaste\u0027s most distinctive national park experiences. Private hotel pickup is available from Papagayo and selected Guanacaste resorts. The Las Pailas hike is considered moderate and is best suited for travelers comfortable walking on uneven natural terrain.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🌋",
+                                                                      "title":  "Active Volcanic Features",
+                                                                      "description":  "Witness steaming fumaroles, bubbling mud pots, volcanic vents, and geothermal activity that reveal the powerful forces still shaping Rincón de la Vieja Volcano."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🥾",
+                                                                      "title":  "Scenic Hiking Trails",
+                                                                      "description":  "Follow well-maintained rainforest trails through one of Costa Rica\u0027s most spectacular national parks while enjoying breathtaking volcanic scenery."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦜",
+                                                                      "title":  "Wildlife \u0026 Nature",
+                                                                      "description":  "Keep an eye out for monkeys, toucans, coatis, tropical birds, butterflies, and countless native plant species that thrive in this protected ecosystem."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "👨‍🏫",
+                                                                      "title":  "Certified Naturalist Guide",
+                                                                      "description":  "Learn about the volcano\u0027s fascinating geology, local wildlife, and the ecological importance of this UNESCO-recognized region from your expert guide."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌋",
+                                                                   "title":  "Walk Through the Heart of an Active Volcano",
+                                                                   "text":  "Experience the incredible contrast of steaming volcanic landscapes, lush tropical rainforest, and abundant wildlife on one of Costa Rica\u0027s most unforgettable guided hikes through Rincón de la Vieja National Park."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Rincon de la Vieja National Park is closed every Monday, the tour runs Tuesday through Sunday.",
+                                                                     "Wear comfortable clothing and sturdy closed-toe walking shoes. The Las Pailas Trail covers approximately 3 km (2 miles) of moderate terrain.",
+                                                                     "Bring a light rain jacket, weather in the park can change throughout the day.",
+                                                                     "Apply sunscreen and bug spray before departure. The trail passes through both open and forested areas.",
+                                                                     "Please inform us of any dietary restrictions or relevant health conditions at the time of booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                                                                      "Tour rescheduling must be requested at least 48 hours in advance. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Weather in the park can change throughout the day. Tours normally operate in light rain, but safety always comes first.",
+                                                                  "If conditions prevent the hike from operating safely, our team will contact you to discuss the available options, including rescheduling."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Rincon de la Vieja. Transportation, national park entrance and lunch are not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "classic",
+                                                                   "badge":  "👑 CLASSIC",
+                                                                   "heading":  "Hiking at Rincon de la Vieja National Park + Waterfall Oropendola + Lunch",
+                                                                   "price":  "205",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+"option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "Hiking at Rincon de la Vieja National Park + Waterfall Oropendola + Hot Spring + Volcanic Mud + Lunch",
+                                                                   "price":  "215",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Tue – Sun",
+                                             "best_for":  [
+                                                              "Hikers",
+                                                              "Nature Lovers",
+                                                              "Adventure Seekers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "celesteriver.html",
+                                                "image":  "../images/celeste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Celeste River Hike"
+                                            },
+                                            {
+                                                "href":  "laleona.html",
+                                                "image":  "../images/laleona1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "La Leona Waterfall"
+                                            },
+                                            {
+                                                "href":  "floatingtenorio.html",
+                                                "image":  "../images/floatingtenorio1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Floating Tenorio"
+                                            },
+                                            {
+                                                "href":  "../private-tours/rincon-de-la-vieja-from-papagayo.html",
+                                                "image":  "../images/rincon1.webp",
+                                                "label":  "Travel Guide",
+                                                "title":  "Rincon de la Vieja from Papagayo"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Rincon de la Vieja National Park, Costa Rica",
+                                             "src":  "../images/rincon1.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park photo 2",
+                                             "src":  "../images/rincon3.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park 3",
+                                             "src":  "../images/rincon4.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park 4",
+                                             "src":  "../images/rincon5.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park 5",
+                                             "src":  "../images/rincon1.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park 6",
+                                             "src":  "../images/rincon6.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park 7",
+                                             "src":  "../images/rincon7.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park 8",
+                                             "src":  "../images/rincon8.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park 9",
+                                             "src":  "../images/rincon9.webp"
+                                         },
+                                         {
+                                             "alt":  "Rincon National Park 10",
+                                             "src":  "../images/rincon10.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera or phone",
+                                              "Binoculars",
+                                              "Reusable water bottle",
+                                              "Comfortable clothing",
+                                              "Sturdy closed-toe walking shoes",
+                                              "Light rain jacket",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Experienced certified bilingual local guide",
+                                                     "National Park entrance coordination",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and fresh tropical juices",
+                                                     "Traditional Costa Rican lunch (Buffet · Gluten Free option)"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eWalk through an active volcano.\u003c/strong\u003e A private full-day hike through fumaroles, mud pots and rainforest, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🌋",
+                                                      "label":  "Highlights",
+                                                      "value":  "Volcanic Fumaroles \u0026 Oropendola Waterfall"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Scenic Journey to Rincon de la Vieja",
+                                                     "text":  "Relax in your private air-conditioned vehicle on the way to the national park."
+                                                 },
+                                                 {
+                                                     "title":  "Las Pailas Trail",
+                                                     "text":  "Hike approximately 3 km through active fumaroles, bubbling mud pots and volcanic vents with your naturalist guide."
+                                                 },
+                                                 {
+                                                     "title":  "Oropendola Waterfall",
+                                                     "text":  "Visit the waterfall\u0027s turquoise swimming pool."
+                                                 },
+                                                 {
+                                                     "title":  "PLUS: Hot Springs \u0026 Volcanic Mud",
+                                                     "text":  "With the Plus option, relax in the Rio Negro hot springs and volcanic mud before heading back."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican buffet lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 8 hours, including the drive, the Las Pailas trail and the waterfall stop, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between Classic and Plus?",
+                                         "answer":  "Classic includes the national park hike and Oropendola Waterfall. Plus adds the Rio Negro hot springs and volcanic mud."
+                                     },
+                                     {
+                                         "question":  "Is the park open every day?",
+                                         "answer":  "Rincon de la Vieja National Park is closed every Monday, this tour runs Tuesday through Sunday."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican buffet lunch is included, with a gluten-free option available."
+                                     },
+                                     {
+                                         "question":  "Can children participate?",
+                                         "answer":  "Yes, this tour is suitable for all ages. The Las Pailas trail covers approximately 3 km of moderate terrain."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Sturdy closed-toe walking shoes, a light rain jacket, sunscreen and insect repellent. Swimwear and a towel if you choose the Plus option."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     },
+                                     {
+                                         "question":  "How difficult is the Rincon de la Vieja volcano hike?",
+                                         "answer":  "The Las Pailas Trail is rated moderate, roughly 3km over uneven natural terrain with some inclines. It suits travelers with a reasonable baseline fitness level rather than absolute beginners."
+                                     },
+                                     {
+                                         "question":  "How long is the Las Pailas Trail?",
+                                         "answer":  "The Las Pailas Trail itself is approximately 3km, hiked with your naturalist guide past active fumaroles, bubbling mud pots and volcanic vents. Combined with transport, hotel pickup and lunch, the full private tour runs a full day."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Rincon de la Vieja Volcano Hike | Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Rincon de la Vieja hiking tour from Papagayo: volcanic fumaroles, mud pots, Oropendola Waterfall, hot springs option, hotel pickup and lunch included."
+}

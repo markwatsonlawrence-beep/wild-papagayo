@@ -1,0 +1,409 @@
+{
+    "id":  "canyonadventurepark",
+    "name":  "Canyon Adventure Park — Zip, Rappel, Climb \u0026 Raft",
+    "slug":  "canyonadventurepark",
+    "status":  "active",
+    "page_file":  "tours/canyonadventurepark.html",
+    "page_url":  "../tours/canyonadventurepark.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/canyonadventurepark",
+    "category":  "Experience",
+    "short_description":  "Private half-day at Canyon Adventure Park, zip line 7 cables with bird\u0027s-eye canopy views, rappel, rock climbing and 2-mile Class II-III rafting. Lunch included. Minimum age 5.",
+    "hero_image":  "images/canyonadventure1.webp",
+    "hero_image_alt":  "Canyon Adventure Park — Zip, Rappel, Climb \u0026 Raft in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "ziplining",
+                         "rafting"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Half Day (approx. 7 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  230,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/canyonadventurepark.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "heavy",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  80,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "nature",
+                                          "resort"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "zip-line",
+                                   "canopy",
+                                   "canyon",
+                                   "adventure",
+                                   "adrenaline"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  7,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "ziplining",
+                                               "rafting"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Guanacaste · Canyon Adventure Park",
+                         "hero_title_html":  "Canyon Adventure Park Private Tour \u0026#8212; Zip, Rappel, Climb \u0026amp; Raft",
+                         "hero_chips":  [
+                                            "🎿 8 Zip Lines",
+                                            "🧗 Rappelling",
+                                            "🪨 Rock Climbing",
+                                            "🚣 2-Mile River Rafting"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Four Adventures in One Action-Packed Morning",
+                                                    "intro":  "Get ready for a complete adventure experience at Canyon Adventure Park. This tour combines zip lining, rappelling, rock climbing, and river rafting into one unforgettable morning surrounded by tropical jungle and incredible natural scenery.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🌲",
+                                                                      "title":  "Zip Line Canopy Tour",
+                                                                      "description":  "Fly across 7 exciting zip line cables above the river canyon while enjoying spectacular views of the surrounding tropical landscape."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🧗",
+                                                                      "title":  "Rappelling Adventure",
+                                                                      "description":  "Descend natural rock formations with professional safety equipment and the support of experienced local guides."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🪨",
+                                                                      "title":  "Rock Climbing",
+                                                                      "description":  "Challenge yourself on a guided rock-climbing experience designed to be fun, safe, and accessible for adventurous travelers."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🚣",
+                                                                      "title":  "River Rafting",
+                                                                      "description":  "Enjoy 2 miles of Class II–III rafting through tropical jungle, combining excitement, teamwork, and beautiful river scenery."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "⚡",
+                                                                   "title":  "Four Adventures. One Epic Morning.",
+                                                                   "text":  "Zip through the dry forest canopy, rappel natural rock formations, conquer a guided climbing wall, and finish with exciting Class II–III rafting,all in one unforgettable private adventure."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear athletic clothing and closed-toe shoes that can get wet. No flip-flops or open-toe sandals.",
+                                                                     "Bring a dry change of clothing for after the rafting section.",
+                                                                     "Secure cameras and phones in waterproof bags for the rafting section.",
+                                                                     "Apply sunscreen before departure. The zip line and rock climbing involve extended time in the open.",
+                                                                     "Please inform us of children\u0027s ages and any dietary restrictions for lunch at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Zip Line + Rappel + Rock Climbing + River Rafting + Lunch",
+                                                                   "price":  "230",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Half Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Thrill Seekers",
+                                                              "Outdoor Adventurers",
+                                                              "Active Travelers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "canyoningtubing.html",
+                                                "image":  "../images/canyoningtubing1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Canyoning \u0026 River Tubing"
+                                            },
+                                            {
+                                                "href":  "atvmountainride.html",
+                                                "image":  "../images/atvmountain1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "ATV Mountain Ride"
+                                            },
+                                            {
+                                                "href":  "congotrail.html",
+                                                "image":  "../images/congotrail1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Congo Trail Combo"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Zip line over tropical rainforest canopy at Canyon Adventure Park",
+                                             "src":  "../images/canyonadventure1.webp"
+                                         },
+                                         {
+                                             "alt":  "Rappel down canyon wall at Canyon Adventure Park, Costa Rica",
+                                             "src":  "../images/canyonadventure2.webp"
+                                         },
+                                         {
+                                             "alt":  "Rock climbing at Canyon Adventure Park Guanacaste",
+                                             "src":  "../images/canyonadventure3.webp"
+                                         },
+                                         {
+                                             "alt":  "Class III rafting on the river at Canyon Adventure Park",
+                                             "src":  "../images/canyonadventure4.webp"
+                                         },
+                                         {
+                                             "alt":  "Rainforest lunch at Canyon Adventure Park after four activities",
+                                             "src":  "../images/canyonadventure5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Zip Line, 7 cables over the canopy",
+                                                     "Rappel",
+                                                     "Rock Climbing",
+                                                     "River Rafting, 2 miles Class II \u0026amp; III",
+                                                     "All safety equipment (helmets, harnesses, life jackets)",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eZip. Rappel. Climb. Raft. All before lunch.\u003c/strong\u003e A private half-day, four-activity adventure from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Half Day · Approx. 7 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🧗",
+                                                      "label":  "Highlights",
+                                                      "value":  "Zipline, Rappel, Climb \u0026 Raft"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Zipline Canopy Tour",
+                                                     "text":  "Fly across 7 zip line cables above the river canyon."
+                                                 },
+                                                 {
+                                                     "title":  "Rappel \u0026 Rock Climbing",
+                                                     "text":  "Descend natural rock formations, then take on a guided climbing wall."
+                                                 },
+                                                 {
+                                                     "title":  "River Rafting",
+                                                     "text":  "2 miles of Class II-III rafting through the jungle."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 7 hours, combining all four activities, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The minimum age is 5. Please let us know the ages of all guests when booking."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included."
+                                     },
+                                     {
+                                         "question":  "Do I need prior experience for any of the activities?",
+                                         "answer":  "No prior experience is necessary for any of the four activities. All safety equipment is provided and certified guides give full instruction throughout."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Athletic clothing and closed-toe shoes that can get wet, and a dry change of clothes for after the rafting section."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Canyon Adventure Park Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Canyon Adventure Park tour from Papagayo: zipline, rappel, rock climbing and Class II-III rafting, hotel pickup and lunch included."
+}

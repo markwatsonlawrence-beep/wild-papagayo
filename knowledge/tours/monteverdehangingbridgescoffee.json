@@ -1,0 +1,416 @@
+{
+    "id":  "monteverdehangingbridgescoffee",
+    "name":  "Monteverde Hanging Bridges \u0026 Coffee Tour",
+    "slug":  "monteverdehangingbridgescoffee",
+    "status":  "active",
+    "page_file":  "tours/monteverdehangingbridgescoffee.html",
+    "page_url":  "../tours/monteverdehangingbridgescoffee.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/monteverdehangingbridgescoffee",
+    "category":  "Experience",
+    "short_description":  "Private full-day Monteverde Cloud Forest experience, 8 Selvatura suspension bridges, butterfly garden, interactive coffee plantation tour from seed to cup, sugar cane and chocolate. Breakfast and lunch included.",
+    "hero_image":  "images/monteverdebridge1.webp",
+    "hero_image_alt":  "Monteverde Hanging Bridges \u0026 Coffee Tour in Costa Rica",
+    "destination_ids":  [
+                            "monteverde"
+                        ],
+    "activity_ids":  [
+                         "hanging-bridges",
+                         "coffee"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Full Day (approx. 12 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  430,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/monteverdehangingbridgescoffee.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "rainforest",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa"
+                                       ],
+                      "priority":  80,
+                      "min_stay":  5,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "arrival",
+                                          "resort"
+                                      ],
+                      "avoid_after":  [
+                                          "rainforest"
+                                      ],
+                      "tags":  [
+                                   "monteverde",
+                                   "hanging-bridges",
+                                   "cloud-forest",
+                                   "coffee",
+                                   "full-day"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Easy",
+                         "duration_hours":  12,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "hanging-bridges",
+                                               "coffee"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Monteverde · Hanging Bridges \u0026 Coffee · Guanacaste",
+                         "hero_title_html":  "Monteverde Hanging Bridges \u0026amp; Coffee Private Tour",
+                         "hero_chips":  [
+                                            "🌉 Hanging Bridges",
+                                            "☁️ Cloud Forest",
+                                            "☕ Coffee Experience",
+                                            "🍫 Chocolate Tasting"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Experience the Magic of Monteverde Cloud Forest",
+                                                    "intro":  "Journey into one of the world\u0027s most famous cloud forests on a carefully crafted private experience that combines breathtaking rainforest views, incredible biodiversity, and authentic Costa Rican traditions. Monteverde offers an unforgettable blend of nature, culture, and flavor unlike anywhere else in the country.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🌉",
+                                                                      "title":  "Selvatura Hanging Bridges",
+                                                                      "description":  "Walk across eight spectacular suspension bridges high above the cloud forest canopy while enjoying panoramic views and opportunities to spot exotic birds, monkeys, and unique rainforest plants."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦋",
+                                                                      "title":  "Butterfly Garden",
+                                                                      "description":  "Visit one of Monteverde\u0027s beautiful butterfly gardens and discover dozens of colorful native species while learning about their fascinating life cycle."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "☕",
+                                                                      "title":  "Coffee, Chocolate \u0026 Sugar Cane Tour",
+                                                                      "description":  "Experience Costa Rica\u0027s most famous flavors as you discover the journey from coffee bean to cup, press fresh sugar cane, and enjoy delicious handcrafted chocolate tastings."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "Private Cloud Forest Experience",
+                                                                      "description":  "Explore Monteverde at your own pace with private transportation and a personalized guide, creating a relaxed and unforgettable experience surrounded by one of the world\u0027s richest ecosystems."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "☁️",
+                                                                   "title":  "Discover the Wonders of the Cloud Forest",
+                                                                   "text":  "Hanging bridges, colorful butterflies, world-famous coffee, handcrafted chocolate, and breathtaking cloud forest scenery come together in one unforgettable private experience designed to showcase the very best of Monteverde."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Difficulty: \u003cstrong\u003eMedium\u003c/strong\u003e. The suspension bridges involve walking on moving structures at varying heights. The coffee plantation walk is on natural terrain.",
+                                                                        "Monteverde\u0027s cloud forest is permanently moist, a light rain jacket or poncho is strongly advised regardless of season.",
+                                                                        "Closed-toe shoes with grip are required for both the bridges and the plantation walk.",
+                                                                        "The cloud forest is noticeably cooler than the Guanacaste coast. Light layers are recommended.",
+                                                                        "All ages are welcome. The bridges and coffee tour are both accessible and engaging for families with children."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Wear sturdy closed-toe shoes, the bridges and plantation paths are natural and wet.",
+                                                                     "Pack a light rain jacket or poncho. The cloud forest makes its own weather.",
+                                                                     "Bring a camera, the butterfly garden and bridge perspectives are extraordinary to photograph.",
+                                                                     "The coffee tour involves tasting at multiple stages. If you have caffeine sensitivities, let your guide know.",
+                                                                     "Please inform us of any dietary restrictions for breakfast and lunch at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences affected by severe weather will be rescheduled whenever possible; if not, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Monteverde. Transportation is not included. Breakfast and lunch are not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "8 Suspension Bridges + Butterfly Garden + Coffee Tour + Lunch",
+                                                                   "price":  "330",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Nature Lovers",
+                                                              "Coffee Lovers",
+                                                              "Photography"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "arenalhangingbridges.html",
+                                                "image":  "../images/arenalbridges1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Arenal Hanging Bridges"
+                                            },
+                                            {
+                                                "href":  "monteverdtreetopwalk.html",
+                                                "image":  "../images/monteverdewalk1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Monteverde Treetop Walk"
+                                            },
+                                            {
+                                                "href":  "costaricahighlights.html",
+                                                "image":  "../images/costaricahighlights1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Costa Rica Highlights"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Selvatura suspension bridge through Monteverde Cloud Forest canopy",
+                                             "src":  "../images/monteverdebridge1.webp"
+                                         },
+                                         {
+                                             "alt":  "Coffee plantation tour, ripe coffee cherries on the branch, Monteverde",
+                                             "src":  "../images/monteverdebridge2.webp"
+                                         },
+                                         {
+                                             "alt":  "Blue morpho butterfly in Monteverde butterfly garden",
+                                             "src":  "../images/monteverdebridge3.webp"
+                                         },
+                                         {
+                                             "alt":  "Cloud forest walking trail at Selvatura Park, Monteverde",
+                                             "src":  "../images/monteverdebridge4.webp"
+                                         },
+                                         {
+                                             "alt":  "Traditional chocolate tasting and sugar cane at Monteverde",
+                                             "src":  "../images/monteverdebridge5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Breakfast",
+                                                     "Traditional Costa Rican lunch",
+                                                     "Selvatura Park, 8 suspension bridges through the cloud forest",
+                                                     "Butterfly garden",
+                                                     "Interactive coffee tour, seed to cup",
+                                                     "Sugar cane and chocolate tasting"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eEight bridges. One plantation. The cloud forest.\u003c/strong\u003e A private full-day journey through Monteverde, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 12 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🌉",
+                                                      "label":  "Highlights",
+                                                      "value":  "8 Suspension Bridges \u0026 Coffee Tour"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Meals",
+                                                      "value":  "Breakfast \u0026 lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort, breakfast included on the way."
+                                                 },
+                                                 {
+                                                     "title":  "Selvatura Hanging Bridges",
+                                                     "text":  "Walk across eight suspension bridges high above the cloud forest canopy."
+                                                 },
+                                                 {
+                                                     "title":  "Butterfly Garden",
+                                                     "text":  "Visit the butterfly garden and discover dozens of native species."
+                                                 },
+                                                 {
+                                                     "title":  "Coffee, Chocolate \u0026 Sugar Cane Tour",
+                                                     "text":  "Discover the journey from coffee bean to cup, press sugar cane and taste handcrafted chocolate."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo and Playa Hermosa. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 12 hours, since Monteverde is a longer drive from Guanacaste, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Are breakfast and lunch included?",
+                                         "answer":  "Yes, both breakfast and a traditional Costa Rican lunch are included."
+                                     },
+                                     {
+                                         "question":  "Can children participate?",
+                                         "answer":  "Yes, all ages are welcome. The bridges and coffee tour are both accessible and engaging for families."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Sturdy closed-toe shoes with grip, a light rain jacket (the cloud forest makes its own weather), and light layers since Monteverde is cooler than the coast."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Monteverde\u0027s cloud forest is permanently moist and light showers are part of the environment. Tours normally operate in light rain, but safety always comes first, if conditions require it our team will contact you to discuss the available options."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Monteverde Hanging Bridges \u0026 Coffee Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Monteverde cloud forest tour from Papagayo: 8 suspension bridges, butterfly garden, coffee and chocolate tour, breakfast and lunch included."
+}

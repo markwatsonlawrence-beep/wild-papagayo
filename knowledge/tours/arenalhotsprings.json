@@ -1,0 +1,435 @@
+{
+    "id":  "arenalhotsprings",
+    "name":  "Rainforest \u0026 Hot Springs Arenal",
+    "slug":  "arenalhotsprings",
+    "status":  "active",
+    "page_file":  "tours/arenalhotsprings.html",
+    "page_url":  "../tours/arenalhotsprings.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/arenalhotsprings",
+    "category":  "Wellness \u0026 Nature",
+    "short_description":  "Private full-day Arenal experience, Bogarin Trail wildlife hike, La Fortuna Waterfall or Arenal National Park, thermal hot springs, breakfast and lunch included. Arenal Volcano and Central America\u0027s largest man-made lake.",
+    "hero_image":  "images/arenalhotsprings1.webp",
+    "hero_image_alt":  "Rainforest \u0026 Hot Springs Arenal in Costa Rica",
+    "destination_ids":  [
+                            "la-fortuna"
+                        ],
+    "activity_ids":  [
+                         "hot-springs"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Couples",
+                     "Wellness travelers",
+                     "Nature lovers"
+                 ],
+    "difficulty":  "Easy to Moderate",
+    "duration_label":  "Full Day (approx. 12 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  395,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/arenalhotsprings.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "wellness",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  70,
+                      "min_stay":  5,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "adventure",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "wellness"
+                                      ],
+                      "tags":  [
+                                   "hot-springs",
+                                   "arenal",
+                                   "wellness",
+                                   "relaxation",
+                                   "volcano",
+                                   "spa"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Volcano \u0026 Wellness",
+                         "difficulty":  "Easy to Moderate",
+                         "duration_hours":  12,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Couples",
+                                          "Wellness travelers",
+                                          "Nature lovers"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  85,
+                                                 "couples":  95,
+                                                 "seniors":  80,
+                                                 "adventure":  65,
+                                                 "wildlife":  65,
+                                                 "relaxation":  90,
+                                                 "private":  90
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "hot-springs"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "volcano-wellness"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Arenal · Hot Springs · Guanacaste",
+                         "hero_title_html":  "Arenal Rainforest \u0026amp; Hot Springs Private Tour",
+                         "hero_chips":  [
+                                            "🌋 Arenal Volcano",
+                                            "💦 La Fortuna Waterfall",
+                                            "♨️ Thermal Hot Springs",
+                                            "🦥 Wildlife Spotting",
+                                            "🌿 Rainforest Adventure"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Discover the Best of Arenal in One Unforgettable Day",
+                                                    "intro":  "Explore one of Costa Rica\u0027s most iconic destinations on a full-day adventure that combines incredible wildlife, breathtaking volcano views, lush rainforest, and relaxing natural hot springs. Every stop has been carefully selected to showcase the very best of Arenal.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🦥",
+                                                                      "title":  "Bogarin Sloth Trail",
+                                                                      "description":  "Walk through a private wildlife reserve with a certified naturalist guide in search of sloths, toucans, colorful birds, frogs, and monkeys while learning about Costa Rica\u0027s incredible biodiversity."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌋",
+                                                                      "title":  "Arenal Volcano",
+                                                                      "description":  "Admire spectacular views of the iconic Arenal Volcano, one of Costa Rica\u0027s most recognizable natural landmarks and the perfect backdrop for unforgettable photographs."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Choose Your Adventure",
+                                                                      "description":  "Choose between visiting the breathtaking La Fortuna Waterfall or exploring the scenic trails of Arenal Volcano National Park, depending on the experience that best suits your adventure."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "Natural Hot Springs",
+                                                                      "description":  "End your day relaxing in naturally heated volcanic hot springs surrounded by tropical rainforest, the perfect reward after a day of exploration."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "The Complete Arenal Experience",
+                                                                   "text":  "Discover Costa Rica\u0027s most iconic volcano through incredible wildlife encounters, rainforest adventures, breathtaking scenery, and soothing natural hot springs,all carefully combined into one unforgettable private journey."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Difficulty: \u003cstrong\u003eMedium\u003c/strong\u003e. Both options involve walking on uneven, natural terrain in a live rainforest environment.",
+                                                                        "\u003cstrong\u003eClassic, La Fortuna Waterfall:\u003c/strong\u003e The descent and ascent involve \u003cstrong\u003eapproximately 500 steps\u003c/strong\u003e on a steep trail. Guests should have good mobility and a reasonable level of fitness. This section is not suitable for guests with significant knee or joint conditions.",
+                                                                        "\u003cstrong\u003ePlus, Arenal National Park:\u003c/strong\u003e Involves hiking on forest trails that can be muddy and uneven. The terrain is more accessible than the waterfall stairs but still requires sturdy footwear and comfortable movement on natural ground.",
+                                                                        "Arenal\u0027s rainforest receives significant rainfall year-round. Light rain gear is recommended regardless of season."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Wear \u003cstrong\u003esturdy closed-toe shoes or trail shoes\u003c/strong\u003e. The waterfall stairs and National Park trails are natural surfaces, sandals and flip-flops are not safe for either.",
+                                                                     "Pack a light rain jacket or poncho. The Arenal rainforest earns its name, brief showers are common at any time of year and are part of the environment\u0027s magic.",
+                                                                     "Apply insect repellent before departure and bring a travel-size bottle for reapplication on the trail.",
+                                                                     "A camera or binoculars for the Bogarin Trail wildlife walk will significantly enhance the experience, sloths are far more compelling through a zoom lens."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences affected by National Park closures or severe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Arenal. Transportation is not included. Breakfast and lunch are not included in this option.",
+                                                                  "price":  "160"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "classic",
+                                                                   "badge":  "👑  CLASSIC",
+                                                                   "heading":  "Bogarin Trail + Hot Springs + La Fortuna Waterfall (500-step stair)",
+                                                                   "price":  "300",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+"option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "Bogarin Trail + Arenal National Park Hike + Hot Springs",
+                                                                   "price":  "300",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Couples",
+                                                              "Nature Lovers",
+                                                              "Relaxation Seekers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "arenalhangingbridges.html",
+                                                "image":  "../images/arenalbridges1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Arenal Hanging Bridges"
+                                            },
+                                            {
+                                                "href":  "miravallesspa.html",
+                                                "image":  "../images/miravalles1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Miravalles Spa \u0026 Volcano"
+                                            },
+                                            {
+                                                "href":  "costaricahighlights.html",
+                                                "image":  "../images/costaricahighlights1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Costa Rica Highlights"
+                                            },
+                                            {
+                                                "href":  "../private-tours/volcano-tours.html",
+                                                "image":  "../images/arenalhotsprings1.webp",
+                                                "label":  "Travel Guide",
+                                                "title":  "Best Volcano Tours from Papagayo"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "La Fortuna Waterfall plunging into emerald pool, Arenal, Costa Rica",
+                                             "src":  "../images/arenalhotsprings2.webp"
+                                         },
+                                         {
+                                             "alt":  "Three-toed sloth hanging in the rainforest canopy, Bogarin Trail, Costa Rica",
+                                             "src":  "../images/arenalhotsprings3.webp"
+                                         },
+                                         {
+                                             "alt":  "Arenal Volcano rising above the rainforest and Lake Arenal",
+                                             "src":  "../images/arenalhotsprings4.webp"
+                                         },
+                                         {
+                                             "alt":  "Natural thermal hot springs surrounded by jungle at Arenal",
+                                             "src":  "../images/arenalhotsprings5.webp"
+                                         },
+                                         {
+                                             "alt":  "Hiking trail through Arenal National Park dense rainforest",
+                                             "src":  "../images/arenalhotsprings6.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Breakfast",
+                                                     "Traditional Costa Rican lunch",
+                                                     "Bogarin Trail wildlife walk (All options)",
+                                                     "La Fortuna Waterfall (Classic option only)",
+                                                     "Arenal National Park hike (Plus option only)",
+                                                     "Thermal hot springs (All options)",
+                                                     "National Park entry fee"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eSloths, a volcano and a soak to finish.\u003c/strong\u003e A private full-day Arenal journey from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 12 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🦥",
+                                                      "label":  "Highlights",
+                                                      "value":  "Bogarin Sloth Trail \u0026 Arenal Volcano"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Meals",
+                                                      "value":  "Breakfast \u0026 lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort, breakfast included on the way."
+                                                 },
+                                                 {
+                                                     "title":  "Bogarin Sloth Trail",
+                                                     "text":  "Search a private wildlife reserve for sloths, toucans and monkeys with your naturalist guide."
+                                                 },
+                                                 {
+                                                     "title":  "Choose Your Adventure",
+                                                     "text":  "Classic descends to La Fortuna Waterfall (approx. 500 steps). Plus hikes the trails of Arenal National Park."
+                                                 },
+                                                 {
+                                                     "title":  "Arenal Volcano Views",
+                                                     "text":  "Take in views of Costa Rica\u0027s iconic volcano and Lake Arenal."
+                                                 },
+                                                 {
+                                                     "title":  "Natural Hot Springs",
+                                                     "text":  "Relax in thermal pools surrounded by rainforest."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between Classic and Plus?",
+                                         "answer":  "Classic descends to La Fortuna Waterfall via approximately 500 steps. Plus hikes the trails of Arenal National Park instead, more accessible but still natural terrain."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 12 hours, including the drive to and from Arenal, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Are breakfast and lunch included?",
+                                         "answer":  "Yes, both breakfast and a traditional Costa Rican lunch are included."
+                                     },
+                                     {
+                                         "question":  "Will we definitely see a sloth?",
+                                         "answer":  "Sloth sightings occur in a natural reserve and cannot be guaranteed on any single visit, though sightings are frequent. Your guide knows where to look."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Sturdy closed-toe shoes, a light rain jacket, swimwear and a towel for the hot springs, and insect repellent."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Arenal Rainforest \u0026 Hot Springs Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Arenal tour from Papagayo: Bogarin sloth trail, La Fortuna Waterfall or national park hike, thermal hot springs, breakfast and lunch included."
+}

@@ -1,0 +1,430 @@
+{
+    "id":  "borinque4senses",
+    "name":  "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall \u0026 Hot Springs",
+    "slug":  "borinque4senses",
+    "status":  "active",
+    "page_file":  "tours/borinque4senses.html",
+    "page_url":  "../tours/borinque4senses.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/borinque4senses",
+    "category":  "Experience",
+    "short_description":  "Private Borinque 4 Senses Tour, horseback riding with Pacific coast panoramas, forest hike to Misterio Waterfall, adrenaline zip line and volcanic hot springs with mud and sauna. Lunch included.",
+    "hero_image":  "images/borinque1.webp",
+    "hero_image_alt":  "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall \u0026 Hot Springs in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "horseback-riding",
+                         "ziplining",
+                         "waterfalls",
+                         "hot-springs"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Couples",
+                     "Wellness travelers",
+                     "Nature lovers"
+                 ],
+    "difficulty":  "Easy to Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  310,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/borinque4senses.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "cultural",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  70,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "cultural"
+                                      ],
+                      "tags":  [
+                                   "cultural",
+                                   "food",
+                                   "art",
+                                   "experience",
+                                   "local",
+                                   "community"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Volcano \u0026 Wellness",
+                         "difficulty":  "Easy to Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Couples",
+                                          "Wellness travelers",
+                                          "Nature lovers"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  85,
+                                                 "couples":  95,
+                                                 "seniors":  80,
+                                                 "adventure":  65,
+                                                 "wildlife":  65,
+                                                 "relaxation":  90,
+                                                 "private":  90
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "horseback-riding",
+                                               "ziplining",
+                                               "waterfalls",
+                                               "hot-springs"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "volcano-wellness"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Borinque · Four Senses · Guanacaste",
+                         "hero_title_html":  "Borinque 4 Senses Private Tour \u0026#8212; Horseback, Zipline, Waterfall \u0026amp; Hot Springs",
+                         "hero_chips":  [
+                                            "🐴 Horseback Riding",
+                                            "💦 Misterio Waterfall",
+                                            "🎿 Zip Line",
+                                            "♨️ Volcanic Hot Springs",
+                                            "🍽️ Lunch Included"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Adventure, Nature \u0026 Relaxation in One Perfect Day",
+                                                    "intro":  "Discover the best of Borinquen Adventure Park on an unforgettable journey that combines horseback riding, waterfalls, panoramic mountain views, volcanic mud baths, and natural hot springs in one complete experience.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🐴",
+                                                                      "title":  "Horseback Adventure",
+                                                                      "description":  "Ride through scenic mountain trails surrounded by tropical forests while enjoying spectacular views of Guanacaste\u0027s beautiful countryside."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Misterio Waterfall",
+                                                                      "description":  "Visit the stunning Misterio Waterfall, hidden deep within the rainforest, where refreshing waters and lush vegetation create the perfect natural escape."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌄",
+                                                                      "title":  "Panoramic Viewpoints",
+                                                                      "description":  "Stop at breathtaking viewpoints overlooking the mountains, valleys, and Pacific lowlands,ideal for unforgettable photographs."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "Hot Springs \u0026 Volcanic Mud",
+                                                                      "description":  "Complete your adventure by relaxing in naturally heated thermal pools and enjoying a rejuvenating volcanic mud treatment surrounded by nature."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "Four Experiences, One Incredible Adventure",
+                                                                   "text":  "Horseback riding, waterfalls, panoramic viewpoints, volcanic mud baths, and natural hot springs come together in one unforgettable experience that perfectly combines adventure, nature, and relaxation."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear long trousers or leggings for the horseback section. Closed-toe shoes or boots are required.",
+                                                                     "Bring old swimwear or dark clothing for the volcanic mud treatment.",
+                                                                     "Bring a change of clothing and a small towel for after the hot springs.",
+                                                                     "Apply sunscreen before departure. The horseback trails are partially exposed.",
+                                                                     "Please inform us of any dietary restrictions for lunch and any relevant health conditions (weight, cardiovascular, joint) at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s tropical weather can change quickly. This tour combines horseback riding, a forest hike, a zipline and outdoor hot springs.",
+                                                                  "Tours normally operate in light rain, but safety always comes first. If conditions prevent an activity from operating safely, our team will contact you to discuss the available options, including rescheduling."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Borinque. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Horseback + Waterfall + Zip Line + Hot Springs + Mud + Sauna + Lunch",
+                                                                   "price":  "310",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Couples",
+                                                              "Nature Lovers",
+                                                              "Wellness Travelers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "sensoriarainforest.html",
+                                                "image":  "../images/sensoria1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sensoria Rainforest"
+                                            },
+                                            {
+                                                "href":  "miravallesspa.html",
+                                                "image":  "../images/miravalles1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Miravalles Spa \u0026 Volcano"
+                                            },
+                                            {
+                                                "href":  "haciendaguachipelin.html",
+                                                "image":  "../images/guachipelin1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hacienda Guachipelín"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Horseback riding on mountain trails with North Pacific views, Borinque Costa Rica",
+                                             "src":  "../images/borinque2.webp"
+                                         },
+                                         {
+                                             "alt":  "Zip line through tropical forest canopy at Borinque 4 Senses, Costa Rica",
+                                             "src":  "../images/borinque3.webp"
+                                         },
+                                         {
+                                             "alt":  "Natural volcanic hot springs at Borinque 4 Senses Guanacaste",
+                                             "src":  "../images/borinque4.webp"
+                                         },
+                                         {
+                                             "alt":  "Misterio Waterfall on the Borinque 4 Senses Tour, Costa Rica",
+                                             "src":  "../images/borinque5.webp"
+                                         },
+                                         {
+                                             "alt":  "Volcanic mud treatment at Borinque 4 Senses, Guanacaste Costa Rica",
+                                             "src":  "../images/borinque6.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Long pants (for horseback)",
+                                              "Comfortable closed-toe shoes or boots",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Horseback riding, mountain trails with Pacific coast views",
+                                                     "Forest hike to Misterio Waterfall",
+                                                     "Canopy Zip Line Experience",
+                                                     "Natural Volcanic Hot Springs",
+                                                     "Volcanic mud treatment",
+                                                     "Volcanic Sauna",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eFour senses. One extraordinary day.\u003c/strong\u003e A private full-day journey through Guanacaste\u0027s mountains, waterfall and hot springs, from Papagayo.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🐴",
+                                                      "label":  "Highlights",
+                                                      "value":  "Horseback, Waterfall \u0026 Zipline"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Horseback Ride",
+                                                     "text":  "Ride mountain trails with panoramic views of the North Pacific coast."
+                                                 },
+                                                 {
+                                                     "title":  "Misterio Waterfall Hike",
+                                                     "text":  "Hike through the forest to the hidden Misterio Waterfall."
+                                                 },
+                                                 {
+                                                     "title":  "Zipline Canopy Tour",
+                                                     "text":  "Fly above the rainforest canopy with your certified guide."
+                                                 },
+                                                 {
+                                                     "title":  "Hot Springs, Mud \u0026 Sauna",
+                                                     "text":  "Relax in natural volcanic hot springs, mud treatment and sauna."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 8 hours, combining all four activities, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included."
+                                     },
+                                     {
+                                         "question":  "Do I need horseback riding experience?",
+                                         "answer":  "No prior experience is necessary. Your guide matches each guest to a horse suited to their confidence level and stays with the group throughout the trail."
+                                     },
+                                     {
+                                         "question":  "Can children participate?",
+                                         "answer":  "Yes, this tour is suitable for all ages, though the combination of four activities makes for a physically active day."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Long trousers and closed-toe shoes or boots for horseback riding, swimwear for the hot springs, and a change of clothing for the volcanic mud treatment."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Costa Rica\u0027s tropical weather can change quickly. Tours normally operate in light rain, but safety always comes first, if conditions prevent an activity from operating safely, our team will contact you to discuss the available options."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Borinque 4 Senses Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Borinque tour from Papagayo: horseback riding, Misterio Waterfall, zipline and volcanic hot springs, hotel pickup and lunch included."
+}

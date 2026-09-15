@@ -1,0 +1,411 @@
+{
+    "id":  "slothchocolatetour",
+    "name":  "Sloth Adventure \u0026 Chocolate Tour",
+    "slug":  "slothchocolatetour",
+    "status":  "active",
+    "page_file":  "tours/slothchocolatetour.html",
+    "page_url":  "../tours/slothchocolatetour.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/slothchocolatetour.html",
+    "category":  "Experience",
+    "short_description":  "Private chocolate tour from cacao tree to handmade bar, then a short hike in Bijagua to observe wild sloths, butterflies and toucans in their natural habitat. Lunch included. Easy, all ages.",
+    "hero_image":  "images/slothchocolate1.webp",
+    "hero_image_alt":  "Sloth Adventure \u0026 Chocolate Tour in Costa Rica",
+    "destination_ids":  [
+                            "bijagua",
+                            "rio-celeste"
+                        ],
+    "activity_ids":  [
+                         "sloth-watching",
+                         "chocolate"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  220,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/slothchocolatetour.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "cultural",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  68,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "adventure",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "cultural"
+                                      ],
+                      "tags":  [
+                                   "wildlife",
+                                   "sloths",
+                                   "chocolate",
+                                   "cultural",
+                                   "family"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Easy",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "sloth-watching",
+                                               "chocolate"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Guanacaste · Sloth \u0026 Chocolate · Costa Rica",
+                         "hero_title_html":  "From the Cacao\u003cbr\u003eTree. To the\u003cbr\u003eWild Sloth.",
+                         "hero_chips":  [
+                                            "🍫 Chocolate Making",
+                                            "🦥 Wild Sloth Spotting",
+                                            "🦋 Tropical Wildlife",
+                                            "🌿 Rainforest Walk"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Chocolate, Sloths \u0026 Costa Rica\u0027s Natural Beauty",
+                                                    "intro":  "Discover the perfect combination of culture and wildlife on this unforgettable private experience. Learn the centuries-old traditions of chocolate making before exploring the beautiful forests of Bijagua, one of Costa Rica\u0027s best destinations for observing sloths and tropical wildlife in their natural environment.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🍫",
+                                                                      "title":  "Chocolate Experience",
+                                                                      "description":  "Discover every step of the chocolate-making process, from harvesting fresh cacao pods to creating your own handcrafted chocolate while enjoying delicious tastings along the way."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦥",
+                                                                      "title":  "Wild Sloth Encounter",
+                                                                      "description":  "Enjoy an easy guided walk through the forests of Bijagua in search of wild sloths living freely in their natural habitat with the help of your certified naturalist guide."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦜",
+                                                                      "title":  "Rainforest Wildlife",
+                                                                      "description":  "Along the trail, keep an eye out for toucans, colorful butterflies, frogs, monkeys, and other fascinating rainforest species that call Bijagua home."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "👨‍👩‍👧",
+                                                                      "title":  "Easy Nature Experience",
+                                                                      "description":  "With an easy walking trail and a relaxed pace, this experience is ideal for families, couples, photographers, and anyone looking to discover Costa Rica\u0027s wildlife and traditions."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🍫🦥",
+                                                                   "title":  "Two Costa Rican Icons in One Experience",
+                                                                   "text":  "Create handcrafted chocolate, meet Costa Rica\u0027s beloved sloths in the wild, and discover the incredible biodiversity of Bijagua on a private experience that perfectly blends culture, wildlife, and authentic local traditions."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear comfortable, breathable clothing in neutral tones for the hike, darker colours are not required but earth tones help you blend with the environment.",
+                                                                     "Apply insect repellent before departure and bring a small amount for reapplication on the trail.",
+                                                                     "Bring a camera or phone with a good zoom. Sloth observations are close but the forest light can be variable, a zoom capability helps.",
+                                                                     "Please inform us of any food allergies at booking, particularly for the chocolate tasting and lunch."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance. If severe weather affects the experience, rescheduling or a full refund will be arranged."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s weather can shift quickly; both the chocolate tour and sloth hike run under light forest cover.",
+                                                                  "Departures may be adjusted for safety or optimal conditions.",
+                                                                  "If Wild Papagayo cancels due to unsafe weather, we\u0027ll reschedule whenever possible or issue a full refund."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Your certified private guide, exclusively dedicated to your group, for guests arriving in their own vehicle. Guide pickup included on the way to the destination. Excludes chocolate tour entrance fee and lunch.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Chocolate Tour + Sloth Encounter + Lunch",
+                                                                   "price":  "205",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Families",
+                                                              "Wildlife Lovers",
+                                                              "Cultural Experiences"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "hangingbridgessloths.html",
+                                                "image":  "../images/bridgessloths1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hanging Bridges \u0026 Sloths"
+                                            },
+                                            {
+                                                "href":  "slothadventure.html",
+                                                "image":  "../images/sloth1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sloth Adventure"
+                                            },
+                                            {
+                                                "href":  "paloverdeculturalviejo.html",
+                                                "image":  "../images/paloverdeviejo1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Palo Verde Cultural Tour"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Wild sloth in the forest canopy, Bijagua, Costa Rica",
+                                             "src":  "../images/slothchocolate1.webp"
+                                         },
+                                         {
+                                             "alt":  "Cacao pods on the tree, chocolate tour, Costa Rica",
+                                             "src":  "../images/slothchocolate2.webp"
+                                         },
+                                         {
+                                             "alt":  "Handmade chocolate Tsuru or Yok, 100% artisan chocolate, Costa Rica",
+                                             "src":  "../images/slothchocolate3.webp"
+                                         },
+                                         {
+                                             "alt":  "Toucan spotted on Bijagua sloth hike, Costa Rica",
+                                             "src":  "../images/slothchocolate4.webp"
+                                         },
+                                         {
+                                             "alt":  "Butterfly observed during Bijagua nature hike, Costa Rica",
+                                             "src":  "../images/slothchocolate5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Full chocolate tour, cacao tree to handmade bar (Tsuru or Yok)",
+                                                     "Sloth Adventure hike, wild sloths",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "seo_title_override":  "Sloth \u0026 Chocolate Tour | Private Bijagua Wildlife Experience",
+                         "seo_description_override":  "Private half-day tour combining a hands-on cacao-to-chocolate experience with a guided wild sloth hike in Bijagua. Certified bilingual guide, lunch included.",
+                         "hero_subtitle_html":  "Make chocolate by hand from the cacao tree, then walk into Bijagua\u0027s rainforest to find wild sloths in the canopy. An easy, unhurried day for all ages.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "⏱️",
+                                                      "label":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🍫",
+                                                      "label":  "Cacao to Chocolate"
+                                                  },
+                                                  {
+                                                      "icon":  "🦥",
+                                                      "label":  "Wild Sloth Spotting"
+                                                  },
+                                                  {
+                                                      "icon":  "🦋",
+                                                      "label":  "Rainforest Wildlife"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch Included"
+                                                  },
+                                                  {
+                                                      "icon":  "🗓️",
+                                                      "label":  "Available Daily"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "An easy, relaxed pace suitable for all ages, including young children and grandparents.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "time":  "Morning",
+                                                     "title":  "Private Hotel Pickup",
+                                                     "description":  "Your certified bilingual guide picks you up in a private air-conditioned vehicle and drives toward Bijagua."
+                                                 },
+                                                 {
+                                                     "time":  "Mid-Morning",
+                                                     "title":  "Hands-On Chocolate Tour",
+                                                     "description":  "Learn every step of chocolate-making from harvesting fresh cacao pods to crafting your own handmade chocolate, with tastings along the way."
+                                                 },
+                                                 {
+                                                     "time":  "Midday",
+                                                     "title":  "Sloth \u0026 Wildlife Hike",
+                                                     "description":  "Walk an easy forest trail in Bijagua with your naturalist guide in search of wild sloths, toucans, butterflies and monkeys."
+                                                 },
+                                                 {
+                                                     "time":  "Included",
+                                                     "title":  "Traditional Lunch",
+                                                     "description":  "Enjoy a traditional Costa Rican lunch included as part of your day."
+                                                 },
+                                                 {
+                                                     "time":  "Return",
+                                                     "title":  "Ride Back to Your Hotel",
+                                                     "description":  "Relax on the private drive back to your hotel as your chocolate-and-sloth day winds down."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this tour private?",
+                                         "answer":  "Yes, your vehicle and certified naturalist guide are reserved exclusively for your group."
+                                     },
+                                     {
+                                         "question":  "Are sloth sightings guaranteed?",
+                                         "answer":  "Sloth encounters on this hike are frequent, but wildlife sightings occur in a natural environment and can never be 100% guaranteed."
+                                     },
+                                     {
+                                         "question":  "Is this tour suitable for grandparents or young kids?",
+                                         "answer":  "Yes, this is one of our easiest tours: a gentle walking pace, no demanding terrain, and an engaging hands-on chocolate experience that appeals across generations."
+                                     },
+                                     {
+                                         "question":  "Do we make our own chocolate?",
+                                         "answer":  "Yes, you\u0027ll follow the process from fresh cacao pod through fermentation and roasting to crafting your own handmade chocolate bar, with tastings throughout."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included, along with bottled water and snacks."
+                                     },
+                                     {
+                                         "question":  "What should we bring?",
+                                         "answer":  "Comfortable walking shoes, sun and bug protection, and a camera with zoom capability for photographing sloths in the canopy."
+                                     },
+                                     {
+                                         "question":  "How does private pricing work for this tour?",
+                                         "answer":  "Pricing varies by pickup location and group size. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     }
+                                 ],
+                         "peak_season_note":  "This tour runs comfortably year-round, since both the chocolate experience and sloth habitat are unaffected by season.",
+                         "departure_time":  "7:30 AM"
+                     }
+}

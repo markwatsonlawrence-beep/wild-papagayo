@@ -1,0 +1,408 @@
+{
+    "id":  "waterfallpumas",
+    "name":  "Waterfall \u0026 Las Pumas Wildlife Rescue Center",
+    "slug":  "waterfallpumas",
+    "status":  "active",
+    "page_file":  "tours/waterfallpumas.html",
+    "page_url":  "../tours/waterfallpumas.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/waterfallpumas.html",
+    "category":  "Experience",
+    "short_description":  "Private half-day at Llanos del Cortes waterfall and Las Pumas Wildlife Rescue Center, swim under the falls, then meet pumas, jaguars, ocelots, monkeys and macaws. Lunch included. Certified bilingual guide.",
+    "hero_image":  "images/waterfallpumas1.webp",
+    "hero_image_alt":  "Waterfall \u0026 Las Pumas Wildlife Rescue Center in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "waterfalls",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Half Day (approx. 6 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  190,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/waterfallpumas.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "waterfall",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  75,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "wildlife"
+                                      ],
+                      "avoid_after":  [
+                                          "waterfall"
+                                      ],
+                      "tags":  [
+                                   "waterfall",
+                                   "hiking",
+                                   "nature",
+                                   "forest",
+                                   "river"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Easy",
+                         "duration_hours":  6,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "waterfalls",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Pumas · Waterfall Tour · Guanacaste",
+                         "hero_title_html":  "Where Waterfalls\u003cbr\u003eMeet Wild Eyes.",
+                         "hero_chips":  [
+                                            "💦 Waterfall Swim",
+                                            "🐆 Wildlife Rescue",
+                                            "🦜 Native Wildlife",
+                                            "🌿 Conservation Experience"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Nature, Wildlife \u0026 Conservation in One Half-Day Adventure",
+                                                    "intro":  "Experience two of Guanacaste\u0027s most remarkable destinations on a relaxing private tour that combines one of Costa Rica\u0027s most beautiful waterfalls with an inspiring wildlife rescue center dedicated to protecting native species.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Llanos de Cortez Waterfall",
+                                                                      "description":  "Visit one of Costa Rica\u0027s most beautiful waterfalls, where crystal-clear waters, dry forest, and a natural white-sand shoreline create the perfect setting to relax and enjoy nature."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🐆",
+                                                                      "title":  "Las Pumas Wildlife Rescue Center",
+                                                                      "description":  "Meet rescued native wildlife including jaguars, pumas, ocelots, monkeys, macaws, and other fascinating species while learning about Costa Rica\u0027s conservation efforts."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "Conservation Experience",
+                                                                      "description":  "Discover the important work carried out by the rescue center to rehabilitate and care for injured and rescued wildlife, helping protect Costa Rica\u0027s incredible biodiversity."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "👨‍👩‍👧",
+                                                                      "title":  "Perfect for Families",
+                                                                      "description":  "Designed for travelers of all ages, this relaxed experience is especially ideal for families looking to enjoy beautiful scenery, rescued wildlife, and meaningful conservation in a comfortable, unhurried setting."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "Waterfalls That Inspire, Wildlife That Matters",
+                                                                   "text":  "From the peaceful beauty of Llanos de Cortez Waterfall to the inspiring conservation work at Las Pumas Wildlife Rescue Center, this experience offers the perfect combination of nature, education, and unforgettable encounters with Costa Rica\u0027s remarkable wildlife."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Bring a swimsuit and small towel if you plan to swim at the waterfall.",
+                                                                     "Sunscreen and insect repellent are recommended, apply before departure.",
+                                                                     "A waterproof bag or case for your phone is strongly recommended at the waterfall.",
+                                                                     "Cameras with zoom lenses are ideal for the wildlife center, many animals are inside large enclosures.",
+                                                                     "Please do not bring food into the wildlife rescue center. Feeding the animals is strictly prohibited."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s weather can shift quickly, especially near the waterfall.",
+                                                                  "Activity timing may be adjusted for safety or optimal conditions.",
+                                                                  "If Wild Papagayo cancels due to unsafe weather, we\u0027ll reschedule whenever possible or issue a full refund."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Your certified private guide, exclusively dedicated to your group, for guests arriving in their own vehicle. Guide pickup included on the way to the destination. Excludes rescue center entrance fee and lunch.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Waterfall Swim + Las Pumas Wildlife Rescue Center + Lunch",
+                                                                   "price":  "180",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily"
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "waterfalllovers.html",
+                                                "image":  "../images/waterfalllovers1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Waterfall Lovers"
+                                            },
+                                            {
+                                                "href":  "hangingbridgessloths.html",
+                                                "image":  "../images/bridgessloths1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hanging Bridges \u0026 Sloths"
+                                            },
+                                            {
+                                                "href":  "slothadventure.html",
+                                                "image":  "../images/sloth1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sloth Adventure"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Llanos del Cortes waterfall with white sand beach, Guanacaste Costa Rica",
+                                             "src":  "../images/waterfallpumas1.webp"
+                                         },
+                                         {
+                                             "alt":  "Puma at Las Pumas Wildlife Rescue Center, Costa Rica",
+                                             "src":  "../images/waterfallpumas2.webp"
+                                         },
+                                         {
+                                             "alt":  "Jaguar at Las Pumas Rescue Center, Cañas Guanacaste",
+                                             "src":  "../images/waterfallpumas3.webp"
+                                         },
+                                         {
+                                             "alt":  "Scarlet macaw and tropical birds at Las Pumas Wildlife Center",
+                                             "src":  "../images/waterfallpumas4.webp"
+                                         },
+                                         {
+                                             "alt":  "Swimming under Llanos del Cortes waterfall, Costa Rica",
+                                             "src":  "../images/waterfallpumas5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Llanos del Cortes waterfall visit and swimming",
+                                                     "Las Pumas Wildlife Rescue Center guided visit",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "seo_title_override":  "Waterfall \u0026 Las Pumas Rescue Center | Private Tour Costa Rica",
+                         "seo_description_override":  "Private tour combining Llanos de Cortes waterfall swimming with a guided visit to Las Pumas Wildlife Rescue Center, home to pumas, jaguars and ocelots. Lunch included.",
+                         "hero_subtitle_html":  "Swim beneath Llanos de Cortes waterfall, then come face to face with rescued jaguars, pumas and ocelots at a wildlife sanctuary doing real conservation work.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "⏱️",
+                                                      "label":  "Half Day · Approx. 6 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "💦",
+                                                      "label":  "Waterfall Swim"
+                                                  },
+                                                  {
+                                                      "icon":  "🐆",
+                                                      "label":  "Las Pumas Rescue Center"
+                                                  },
+                                                  {
+                                                      "icon":  "🦜",
+                                                      "label":  "Rescued Native Wildlife"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch Included"
+                                                  },
+                                                  {
+                                                      "icon":  "🗓️",
+                                                      "label":  "Available Daily"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "An easy, relaxed pace suitable for all ages, ideal for families and first-time visitors.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "time":  "Morning",
+                                                     "title":  "Private Hotel Pickup",
+                                                     "description":  "Your certified bilingual guide picks you up in a private air-conditioned vehicle and drives toward Llanos de Cortes Waterfall."
+                                                 },
+                                                 {
+                                                     "time":  "Mid-Morning",
+                                                     "title":  "Llanos de Cortes Waterfall",
+                                                     "description":  "Swim in the natural pool at the base of the waterfall, framed by white sand and dry tropical forest."
+                                                 },
+                                                 {
+                                                     "time":  "Midday",
+                                                     "title":  "Las Pumas Wildlife Rescue Center",
+                                                     "description":  "Visit the rescue center to see rescued jaguars, pumas, ocelots, monkeys and macaws, while your guide explains the center\u0027s conservation work."
+                                                 },
+                                                 {
+                                                     "time":  "Included",
+                                                     "title":  "Traditional Lunch",
+                                                     "description":  "Enjoy a traditional Costa Rican lunch included as part of your day."
+                                                 },
+                                                 {
+                                                     "time":  "Return",
+                                                     "title":  "Ride Back to Your Hotel",
+                                                     "description":  "Relax on the private drive back to your hotel after a day that pairs natural beauty with real conservation impact."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this tour private?",
+                                         "answer":  "Yes, your vehicle and certified bilingual guide are reserved exclusively for your group."
+                                     },
+                                     {
+                                         "question":  "Can we swim at the waterfall?",
+                                         "answer":  "Yes, Llanos de Cortes has a natural swimming pool at its base with a white-sand shoreline, ideal for cooling off before continuing to Las Pumas."
+                                     },
+                                     {
+                                         "question":  "What animals will we see at Las Pumas?",
+                                         "answer":  "Las Pumas Wildlife Rescue Center is home to rescued jaguars, pumas, ocelots, monkeys, macaws and other native species, most living in large enclosures as part of their rehabilitation or permanent care."
+                                     },
+                                     {
+                                         "question":  "Is this tour suitable for kids?",
+                                         "answer":  "Yes, it\u0027s one of our most family-friendly tours, an easy pace, swimming, and a wildlife center that resonates with children and adults alike."
+                                     },
+                                     {
+                                         "question":  "Can we feed or touch the animals?",
+                                         "answer":  "No, feeding the animals is strictly prohibited and food is not permitted inside the rescue center, this protects the animals\u0027 health and rehabilitation."
+                                     },
+                                     {
+                                         "question":  "What should we bring?",
+                                         "answer":  "Swimwear and a towel for the waterfall, plus a camera with zoom for photographing the wildlife center\u0027s enclosures."
+                                     },
+                                     {
+                                         "question":  "How does private pricing work for this tour?",
+                                         "answer":  "Pricing varies by pickup location and group size. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     }
+                                 ],
+                         "peak_season_note":  "The waterfall runs fullest during the May to November rainy season, though both stops are enjoyable year-round.",
+                         "departure_time":  "8:00 AM"
+                     }
+}

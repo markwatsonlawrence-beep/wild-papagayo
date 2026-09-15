@@ -1,0 +1,456 @@
+{
+    "id":  "arenalhangingbridges",
+    "name":  "Arenal Hanging Bridges Mistico",
+    "slug":  "arenalhangingbridges",
+    "status":  "active",
+    "page_file":  "tours/arenalhangingbridges.html",
+    "page_url":  "../tours/arenalhangingbridges.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/arenalhangingbridges",
+    "category":  "Rainforest \u0026 Wildlife",
+    "short_description":  "Private full-day Arenal Hanging Bridges experience at Mistico Park, canopy-level suspension bridges from 5 to 100 metres, La Fortuna Waterfall and optional hot springs. Breakfast and lunch included. Bilingual guide.",
+    "hero_image":  "images/arenalbridges1.webp",
+    "hero_image_alt":  "Arenal Hanging Bridges Mistico in Costa Rica",
+    "destination_ids":  [
+                            "la-fortuna"
+                        ],
+    "activity_ids":  [
+                         "hanging-bridges",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Couples",
+                     "Wellness travelers",
+                     "Nature lovers"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 12 hours)",
+    "minimum_age":  0,
+    "included":  [
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Experienced certified bilingual local guide",
+                     "Breakfast",
+                     "Traditional Costa Rican lunch",
+                     "Snacks and refreshments",
+                     "Mistico Arenal Hanging Bridges Park, bridges from 5 to 100 metres",
+                     "La Fortuna Waterfall",
+                     "Thermal hot springs (Plus option only)",
+                     "Certified Naturalist Guide"
+                 ],
+    "what_to_bring":  [
+                          "Sunscreen",
+                          "Bug spray",
+                          "Hat or cap",
+                          "Sunglasses",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Swimsuit",
+                          "Extra set of clothes",
+                          "Towel",
+                          "Water shoes / sandals",
+                          "Comfortable walking shoes",
+                          "Cash for personal expenses (gratuities)"
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  160,
+                    "currency":  "USD",
+                    "pricing_note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/arenalhangingbridges.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "rainforest",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  86,
+                      "min_stay":  5,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "arrival",
+                                          "resort"
+                                      ],
+                      "avoid_after":  [
+                                          "rainforest"
+                                      ],
+                      "tags":  [
+                                   "arenal",
+                                   "hanging-bridges",
+                                   "rainforest",
+                                   "volcano",
+                                   "wildlife",
+                                   "full-day"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Volcano \u0026 Wellness",
+                         "difficulty":  "Easy to Moderate",
+                         "duration_hours":  12,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Couples",
+                                          "Wellness travelers",
+                                          "Nature lovers"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  85,
+                                                 "couples":  95,
+                                                 "seniors":  80,
+                                                 "adventure":  65,
+                                                 "wildlife":  65,
+                                                 "relaxation":  90,
+                                                 "private":  90
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "hanging-bridges",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "volcano-wellness"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Arenal · Hanging Bridges \u0026 Waterfall · Guanacaste",
+                         "hero_title_html":  "Arenal Hanging Bridges \u0026amp; Waterfall Private Tour",
+                         "hero_chips":  [
+                                            "🌉 Hanging Bridges",
+                                            "💦 La Fortuna Waterfall",
+                                            "🌋 Arenal Volcano",
+                                            "🦜 Canopy Wildlife",
+                                            "🌿 Rainforest Adventure"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Arenal Hanging Bridges, La Fortuna Waterfall \u0026 Hot Springs",
+                                                    "intro":  "Experience Arenal from above, below, and beyond. Walk through the rainforest canopy at Mistico Park, descend to the powerful La Fortuna Waterfall, and, with the PLUS option, end your day relaxing in natural volcanic hot springs.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "Mistico Hanging Bridges",
+                                                                      "description":  "Explore the rainforest from inside the canopy on a series of suspended bridges, with tropical trees, orchids, birds, and wildlife surrounding you from every direction."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦜",
+                                                                      "title":  "Wildlife at Eye Level",
+                                                                      "description":  "Look for toucans, tanagers, howler monkeys, and other rainforest species as your certified bilingual guide reveals details most visitors would miss."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "La Fortuna Waterfall",
+                                                                      "description":  "Descend the famous staircase to one of Costa Rica’s most impressive waterfalls, where 70 metres of water fall into a clear natural pool. Guests may swim when conditions allow."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "PLUS: Hot Springs",
+                                                                      "description":  "Choose the PLUS option and finish your adventure in soothing geothermal pools surrounded by jungle, the perfect way to relax after a full day of exploring."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "The Ultimate Arenal Adventure",
+                                                                   "text":  "From the rainforest canopy to the base of a spectacular waterfall, and, with the PLUS option, the soothing waters of Arenal\u0027s natural hot springs, this tour brings together the region\u0027s most unforgettable experiences in one perfectly balanced day."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Difficulty: \u003cstrong\u003eMedium\u003c/strong\u003e. The hanging bridges involve walking on suspended structures at significant height, some guests may find this challenging if they are sensitive to heights or movement underfoot.",
+                                                                        "The \u003cstrong\u003eLa Fortuna Waterfall\u003c/strong\u003e involves approximately \u003cstrong\u003e500 steps\u003c/strong\u003e on a steep descent and equivalent ascent. Good mobility and a reasonable fitness level are required. Not suitable for guests with significant knee or joint limitations.",
+                                                                        "Guests are welcome to walk the bridges at their own pace. Your guide will adapt the walk to your group\u0027s comfort level.",
+                                                                        "The Arenal rainforest receives frequent rainfall. Light rain gear is strongly recommended regardless of season, rain on the bridges is an experience in itself, but dry layers for after are welcome.",
+                                                                        "Bring swimwear for the waterfall and (if choosing the Plus option) for the hot springs."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Wear \u003cstrong\u003esturdy closed-toe shoes or trail shoes\u003c/strong\u003e. The waterfall staircase and bridge walkways require stable footing, sandals and flip-flops are not suitable.",
+                                                                     "Pack a light rain jacket or poncho. Brief showers are part of the Arenal rainforest experience.",
+                                                                     "Apply insect repellent before departure. The canopy environment is beautiful but active.",
+                                                                     "Bring a change of clothing, particularly if you plan to swim at the waterfall or use the hot springs.",
+                                                                     "A camera with a zoom lens or binoculars will enhance the bridge section significantly, the canopy perspective reveals birds and wildlife that are otherwise invisible from the trail below."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences affected by severe weather or park conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Arenal. Transportation is not included. Breakfast and lunch are not included in this option.",
+                                                                  "price":  "160"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "classic",
+                                                                   "badge":  "👑  CLASSIC",
+                                                                   "heading":  "Hanging Bridges + La Fortuna Waterfall",
+                                                                   "price":  "250",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+"option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "Hanging Bridges + Hot Springs + La Fortuna Waterfall",
+                                                                   "price":  "280",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Nature Lovers",
+                                                              "Photographers",
+                                                              "Families"
+                                                          ],
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day"
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "arenalhotsprings.html",
+                                                "image":  "../images/arenalhotsprings1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Arenal Hot Springs"
+                                            },
+                                            {
+                                                "href":  "monteverdehangingbridgescoffee.html",
+                                                "image":  "../images/monteverdebridge1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Monteverde Bridges \u0026 Coffee"
+                                            },
+                                            {
+                                                "href":  "costaricahighlights.html",
+                                                "image":  "../images/costaricahighlights1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Costa Rica Highlights"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Hanging bridge above Arenal rainforest canopy at Mistico Park, Costa Rica",
+                                             "src":  "../images/arenalbridges2.webp"
+                                         },
+                                         {
+                                             "alt":  "La Fortuna Waterfall, 70-metre cascade into emerald pool, Arenal, Costa Rica",
+                                             "src":  "../images/arenalbridges3.webp"
+                                         },
+                                         {
+                                             "alt":  "Arenal Volcano seen from Mistico Hanging Bridges Park",
+                                             "src":  "../images/arenalbridges4.webp"
+                                         },
+                                         {
+                                             "alt":  "Thermal hot springs surrounded by jungle vegetation, Arenal",
+                                             "src":  "../images/arenalbridges5.webp"
+                                         },
+                                         {
+                                             "alt":  "View from suspension bridge looking down into the rainforest canopy, Mistico",
+                                             "src":  "../images/arenalbridges6.webp"
+                                         }
+                                     ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Breakfast",
+                                                     "Traditional Costa Rican lunch",
+                                                     "Snacks and refreshments",
+                                                     "Mistico Arenal Hanging Bridges Park, bridges from 5 to 100 metres",
+                                                     "La Fortuna Waterfall",
+                                                     "Thermal hot springs (Plus option only)",
+                                                     "Certified Naturalist Guide"
+                                                 ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eWalk above the canopy. Descend to the falls.\u003c/strong\u003e A private full-day Arenal adventure from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 12 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🌉",
+                                                      "label":  "Highlights",
+                                                      "value":  "Mistico Hanging Bridges \u0026 La Fortuna Waterfall"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Meals",
+                                                      "value":  "Breakfast \u0026 lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Scenic Journey to Arenal",
+                                                     "text":  "Enjoy breakfast along the way while your guide introduces you to the Arenal region."
+                                                 },
+                                                 {
+                                                     "title":  "Mistico Hanging Bridges",
+                                                     "text":  "Walk through the rainforest canopy on suspension bridges ranging from 5 to 100 metres."
+                                                 },
+                                                 {
+                                                     "title":  "La Fortuna Waterfall",
+                                                     "text":  "Descend the staircase to the base of the 70-metre waterfall, swimming when conditions allow."
+                                                 },
+                                                 {
+                                                     "title":  "PLUS: Hot Springs",
+                                                     "text":  "With the Plus option, relax in natural volcanic hot springs before heading back."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 12 hours, including the drive to and from Arenal, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between Classic and Plus?",
+                                         "answer":  "Classic includes the hanging bridges and La Fortuna Waterfall. Plus adds the natural volcanic hot springs at the end of the day."
+                                     },
+                                     {
+                                         "question":  "Are breakfast and lunch included?",
+                                         "answer":  "Yes, both breakfast and a traditional Costa Rican lunch are included."
+                                     },
+                                     {
+                                         "question":  "Can children participate?",
+                                         "answer":  "Yes, this tour is suitable for all ages, though the waterfall staircase (approximately 500 steps) requires reasonable mobility and fitness."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Sturdy closed-toe shoes, a light rain jacket, insect repellent, swimwear and a towel for the waterfall (and hot springs if choosing Plus)."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "The Arenal rainforest receives frequent rainfall and tours normally operate in light rain. Safety always comes first, if conditions prevent an activity from operating safely, our team will contact you to discuss the available options."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Arenal Hanging Bridges \u0026 Waterfall Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Arenal tour from Papagayo with hotel pickup, certified guide, Mistico Hanging Bridges, La Fortuna Waterfall and breakfast and lunch included."
+}

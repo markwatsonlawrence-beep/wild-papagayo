@@ -1,0 +1,424 @@
+{
+    "id":  "monteverdtreetopwalk",
+    "name":  "Monteverde Treetop Walk",
+    "slug":  "monteverdtreetopwalk",
+    "status":  "active",
+    "page_file":  "tours/monteverdtreetopwalk.html",
+    "page_url":  "../tours/monteverdtreetopwalk.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/monteverdtreetopwalk",
+    "category":  "Experience",
+    "short_description":  "Private full-day Monteverde Cloud Forest treetop walk, suspension bridges at canopy level with zip line (Classic option) or reptiles exhibition, butterfly garden and sloth sanctuary (Plus option). Breakfast and lunch included.",
+    "hero_image":  "images/monteverdewalk1.webp",
+    "hero_image_alt":  "Monteverde Treetop Walk in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "hanging-bridges",
+                         "wildlife-watching",
+                         "hiking"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 12 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  460,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/monteverdtreetopwalk.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "rainforest",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa"
+                                       ],
+                      "priority":  78,
+                      "min_stay":  5,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "wellness"
+                                      ],
+                      "avoid_after":  [
+                                          "rainforest"
+                                      ],
+                      "tags":  [
+                                   "monteverde",
+                                   "treetop",
+                                   "cloud-forest",
+                                   "canopy",
+                                   "wildlife"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  12,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "hanging-bridges",
+                                               "wildlife-watching",
+                                               "hiking"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Monteverde · Treetop Walk · Guanacaste",
+                         "hero_title_html":  "Monteverde Treetop Walk Private Tour",
+                         "hero_chips":  [
+                                            "🌉 Hanging Bridges",
+                                            "☁️ Cloud Forest",
+                                            "⚡ Classic: Zip Line",
+                                            "🦥 Plus: Wildlife"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Choose Your Monteverde Adventure",
+                                                    "intro":  "Experience one of the world\u0027s most extraordinary cloud forests on a private full-day adventure designed around your travel style. Begin by walking high above the rainforest canopy before choosing between an exciting canopy adventure or an immersive wildlife experience. Either way, you\u0027ll discover why Monteverde is one of Costa Rica\u0027s most iconic destinations.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🌉",
+                                                                      "title":  "Cloud Forest Hanging Bridges",
+                                                                      "description":  "Walk across spectacular suspension bridges suspended above the cloud forest, surrounded by towering trees, orchids, colorful birds, and breathtaking panoramic views."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "⚡",
+                                                                      "title":  "Classic Option: Zip Line Adventure",
+                                                                      "description":  "Soar through the cloud forest on an exciting canopy tour designed for adventurers of all ages, featuring unforgettable views and thrilling aerial crossings."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦥",
+                                                                      "title":  "PLUS Option: Wildlife Experience",
+                                                                      "description":  "Discover Monteverde\u0027s incredible biodiversity with visits to the butterfly garden, reptile exhibit, and sloth sanctuary while learning about Costa Rica\u0027s unique wildlife."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "Private Guided Experience",
+                                                                      "description":  "Enjoy the flexibility of a private tour with comfortable transportation, personalized attention, and plenty of time to experience Monteverde at your own pace."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "☁️",
+                                                                   "title":  "One Destination. Two Extraordinary Experiences.",
+                                                                   "text":  "Whether you choose the excitement of zip lining or the wonder of Monteverde\u0027s incredible wildlife, both experiences begin with breathtaking hanging bridges and end with unforgettable memories in one of the world\u0027s most remarkable cloud forests."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Difficulty: \u003cstrong\u003eMedium\u003c/strong\u003e. The suspension bridges involve walking on moving structures at height; guests sensitive to height or movement should let their guide know at the start.",
+                                                                        "\u003cstrong\u003eZip line (Classic option):\u003c/strong\u003e Minimum age \u003cstrong\u003e4 years old\u003c/strong\u003e. Young guests aged 4 and above may soar through the canopy alongside adults.",
+                                                                        "Monteverde\u0027s cloud forest is permanently moist. Light rain gear or a poncho is strongly advised regardless of the season.",
+                                                                        "Trail surfaces can be slippery in wet conditions. Closed-toe shoes with grip are required for both options.",
+                                                                        "The 5:30 AM departure from the Liberia area reflects the 3-hour drive to Monteverde. Guests from beach resorts will be collected earlier, see pickup schedule."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Wear \u003cstrong\u003esturdy closed-toe shoes or trail shoes\u003c/strong\u003e, the cloud forest paths are natural and wet.",
+                                                                     "Pack a light rain jacket or poncho. The cloud forest creates its own weather and brief showers are common at any time.",
+                                                                     "Bring a camera, the bridges offer perspectives on the forest canopy that are impossible to replicate from the ground.",
+                                                                     "Apply insect repellent before departure and bring a small amount for the trail."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences affected by severe weather will be rescheduled whenever possible; if not, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Monteverde. Transportation is not included. Breakfast and lunch are not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "classic",
+                                                                   "badge":  "👑  CLASSIC",
+                                                                   "heading":  "Adventure Experience + Hanging Bridges + Zip Line (Age 4+)",
+                                                                   "price":  "360",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+"option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "Wildlife Experience + Hanging Bridges + Reptiles + Butterfly Garden + Sloth Sanctuary",
+                                                                   "price":  "380",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Nature Lovers",
+                                                              "Photography",
+                                                              "Families"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "monteverdehangingbridgescoffee.html",
+                                                "image":  "../images/monteverdebridge1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Monteverde Bridges \u0026 Coffee"
+                                            },
+                                            {
+                                                "href":  "arenalhangingbridges.html",
+                                                "image":  "../images/arenalbridges1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Arenal Hanging Bridges"
+                                            },
+                                            {
+                                                "href":  "sensoriarainforest.html",
+                                                "image":  "../images/sensoria1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sensoria Rainforest"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Suspension bridge above Monteverde cloud forest canopy, Costa Rica",
+                                             "src":  "../images/monteverdewalk1.webp"
+                                         },
+                                         {
+                                             "alt":  "Zip line through the Monteverde cloud forest mist, Costa Rica",
+                                             "src":  "../images/monteverdewalk2.webp"
+                                         },
+                                         {
+                                             "alt":  "Sloth in Monteverde sanctuary, Costa Rica",
+                                             "src":  "../images/monteverdewalk3.webp"
+                                         },
+                                         {
+                                             "alt":  "Butterfly garden at Monteverde, Costa Rica",
+                                             "src":  "../images/monteverdewalk4.webp"
+                                         },
+                                         {
+                                             "alt":  "Reptile exhibition at Monteverde wildlife centre, Costa Rica",
+                                             "src":  "../images/monteverdewalk5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Breakfast",
+                                                     "Traditional Costa Rican lunch",
+                                                     "Treetop walk, suspension bridges through the cloud forest canopy",
+                                                     "Zip line through the treetops (Classic option only)",
+                                                     "Reptiles exhibition + butterfly garden + sloth sanctuary (Plus option only)"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eAbove the cloud forest. Through the treetops.\u003c/strong\u003e A private full-day Monteverde adventure, from Papagayo and Guanacaste.",
+                         "departure_time":  "5:30 AM",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 12 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🌉",
+                                                      "label":  "Highlights",
+                                                      "value":  "Cloud Forest Hanging Bridges"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Meals",
+                                                      "value":  "Breakfast \u0026 lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Early Private Pickup",
+                                                     "text":  "Your private guide meets you at your hotel around 5:30 AM, breakfast included on the way."
+                                                 },
+                                                 {
+                                                     "title":  "Cloud Forest Hanging Bridges",
+                                                     "text":  "Walk across suspension bridges above the Monteverde cloud forest canopy."
+                                                 },
+                                                 {
+                                                     "title":  "Classic: Zip Line Adventure",
+                                                     "text":  "Soar through the cloud forest canopy on an exciting zip line tour."
+                                                 },
+                                                 {
+                                                     "title":  "PLUS: Wildlife Experience",
+                                                     "text":  "Visit the butterfly garden, reptile exhibit and sloth sanctuary."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo and Playa Hermosa. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between Classic and Plus?",
+                                         "answer":  "Classic adds a zip line canopy tour (minimum age 4). Plus adds a wildlife experience with the butterfly garden, reptile exhibit and sloth sanctuary."
+                                     },
+                                     {
+                                         "question":  "Why is the pickup so early?",
+                                         "answer":  "Monteverde is approximately a 3-hour drive from the Guanacaste coast, so an early pickup (around 5:30 AM) allows a full day at the cloud forest without rushing."
+                                     },
+                                     {
+                                         "question":  "Are breakfast and lunch included?",
+                                         "answer":  "Yes, both breakfast and a traditional Costa Rican lunch are included."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The zip line (Classic option) has a minimum age of 4. The wildlife experience (Plus option) is suitable for all ages."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Sturdy closed-toe shoes with grip, a light rain jacket, and insect repellent. The cloud forest is noticeably cooler, light layers are recommended."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Monteverde Treetop Walk Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Monteverde treetop walk from Papagayo: cloud forest hanging bridges with zipline or wildlife sanctuary option, breakfast and lunch included."
+}

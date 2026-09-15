@@ -1,0 +1,418 @@
+{
+    "id":  "coloradoriverrafting",
+    "name":  "Colorado River Rafting Class II–III",
+    "slug":  "coloradoriverrafting",
+    "status":  "active",
+    "page_file":  "tours/coloradoriverrafting.html",
+    "page_url":  "../tours/coloradoriverrafting.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/coloradoriverrafting",
+    "category":  "Experience",
+    "short_description":  "Private Class II–III white water rafting on the Colorado River, natural canyon, swimming holes and lunch included. No experience necessary. Certified bilingual guide exclusively for your group.",
+    "hero_image":  "images/coloradorafting1.webp",
+    "hero_image_alt":  "Colorado River Rafting Class II–III in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "rafting"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Half Day (approx. 6 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  200,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/coloradoriverrafting.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "heavy",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  76,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "rafting",
+                                   "river",
+                                   "rapids",
+                                   "adventure",
+                                   "water"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  6,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "rafting"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Colorado River · White Water Rafting · Guanacaste",
+                         "hero_title_html":  "Colorado River Rafting Private Tour",
+                         "hero_chips":  [
+                                            "🚣 Class II–III Rapids",
+                                            "🏞️ Scenic River Canyon",
+                                            "💦 Natural Swimming Holes",
+                                            "🌿 No Experience Needed"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Experience the Colorado River Like Never Before",
+                                                    "intro":  "Escape into one of Guanacaste\u0027s hidden river canyons, where exciting Class II–III rapids, crystal-clear swimming holes, and breathtaking tropical scenery combine to create the perfect rafting adventure for beginners and experienced paddlers alike.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🚣",
+                                                                      "title":  "White Water Rafting",
+                                                                      "description":  "Paddle through approximately two miles of exciting Class II–III rapids, offering the perfect balance of fun, adventure, and safety for first-time rafters and experienced paddlers alike."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Natural Swimming Holes",
+                                                                      "description":  "Take a refreshing break in beautiful crystal-clear pools surrounded by lush tropical dry forest and peaceful natural landscapes."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "Scenic River Canyon",
+                                                                      "description":  "Float through one of Guanacaste\u0027s most scenic river canyons while enjoying incredible views of forests, wildlife, and untouched natural beauty."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🛶",
+                                                                      "title":  "Private River Expedition",
+                                                                      "description":  "Enjoy an exclusive experience with your own certified river guide, allowing your group to set the pace while learning about the surrounding ecosystem."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌊",
+                                                                   "title":  "Where Adventure Meets Nature",
+                                                                   "text":  "More than a rafting trip, this private river expedition combines exciting rapids, hidden swimming holes, spectacular canyon scenery, and personalized guiding to create one of Guanacaste\u0027s most memorable outdoor adventures."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Minimum age: \u003cstrong\u003e5 years old\u003c/strong\u003e.",
+                                                                        "\u003cstrong\u003eNot recommended for pregnant women.\u003c/strong\u003e",
+                                                                        "Class II–III: no prior experience necessary. The guide manages all commands and navigation, guests simply paddle and enjoy.",
+                                                                        "Guests with back conditions, heart conditions or recent surgeries should consult a physician before participating.",
+                                                                        "All participants must be able to swim or be comfortable in moving water. Life jackets are worn at all times on the river.",
+                                                                        "Sandals and flip-flops are not recommended. Secure-fitting shoes or water shoes are ideal."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Wear a swimsuit or quick-dry clothing, you will get wet.",
+                                                                     "Leave valuables at the resort. Waterproof bags are provided for essentials on the river.",
+                                                                     "Apply sunscreen before departure. Helmets and life jackets are provided and worn throughout the rafting section.",
+                                                                     "Waterproof cameras and GoPros are welcome. Standard phones should be stored securely in the provided dry bag.",
+                                                                     "Please inform your guide of any medical conditions or swimming limitations before launching."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe river or weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Meet your certified private guide at the launch point. Transportation and lunch are not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "White Water Rafting + Lunch",
+                                                                   "price":  "200",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy – Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "River Adventures",
+                                                              "Families",
+                                                              "First-Time Rafters"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "tenoriorafting.html",
+                                                "image":  "../images/tenoriorafting1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Tenorio River Rafting"
+                                            },
+                                            {
+                                                "href":  "canyoningtubing.html",
+                                                "image":  "../images/canyoningtubing1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Canyoning \u0026 River Tubing"
+                                            },
+                                            {
+                                                "href":  "tubingceleste.html",
+                                                "image":  "../images/tubingceleste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Tubing Celeste"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "White water rafting Class II-III on the Colorado River, Costa Rica",
+                                             "src":  "../images/coloradorafting1.webp"
+                                         },
+                                         {
+                                             "alt":  "Private rafting group navigating canyon rapids, Colorado River",
+                                             "src":  "../images/coloradorafting2.webp"
+                                         },
+                                         {
+                                             "alt":  "Natural canyon walls along the Colorado River rafting route",
+                                             "src":  "../images/coloradorafting3.webp"
+                                         },
+                                         {
+                                             "alt":  "Crystal swimming holes on the Colorado River, Guanacaste",
+                                             "src":  "../images/coloradorafting4.webp"
+                                         },
+                                         {
+                                             "alt":  "Celebratory moment after white water rafting, Colorado River",
+                                             "src":  "../images/coloradorafting5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "2-mile private white water rafting, Class II–III",
+                                                     "Traditional lunch served riverside",
+                                                     "All safety gear (helmet, life jacket, paddle, dry bag)"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eInto the canyon. Down the Colorado.\u003c/strong\u003e A private half-day white water rafting adventure, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Half Day · Approx. 6 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🚣",
+                                                      "label":  "Highlights",
+                                                      "value":  "2 Miles of Class II-III Rapids"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Riverside lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Safety Briefing",
+                                                     "text":  "A full safety briefing and gear fitting before launching, no prior experience necessary."
+                                                 },
+                                                 {
+                                                     "title":  "White Water Rafting",
+                                                     "text":  "Paddle approximately 2 miles of Class II-III rapids through a scenic river canyon."
+                                                 },
+                                                 {
+                                                     "title":  "Natural Swimming Holes",
+                                                     "text":  "Cool off in crystal-clear pools along the river."
+                                                 },
+                                                 {
+                                                     "title":  "Riverside Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional lunch by the water before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private raft and private guide, no other rafters added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "Do I need prior rafting experience?",
+                                         "answer":  "No experience is necessary. This is Class II-III water, the guide manages all commands and navigation, guests simply paddle and enjoy."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The minimum age is 5. All participants must be able to swim or be comfortable in moving water, and life jackets are worn at all times."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional lunch is served riverside."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 6 hours, including the drive, safety briefing and the river descent, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "A swimsuit or quick-dry clothing (you\u0027ll get wet), water shoes or secure-fitting shoes, and a change of dry clothes for after."
+                                     },
+                                     {
+                                         "question":  "What happens if water levels are unsafe?",
+                                         "answer":  "Guest safety is our priority. Experiences affected by unsafe river or weather conditions will be rescheduled whenever possible, or fully refunded if rescheduling cannot be arranged."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Colorado River Rafting Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Class II-III white water rafting on the Colorado River from Papagayo, riverside lunch, certified guide and hotel pickup included."
+}

@@ -1,0 +1,465 @@
+{
+    "id":  "costaricahighlights",
+    "name":  "Costa Rica Highlights Tour — Sloths, Waterfall, Coffee, Hot Springs \u0026 Hanging Bridges",
+    "slug":  "costaricahighlights",
+    "status":  "active",
+    "page_file":  "tours/costaricahighlights.html",
+    "page_url":  "../tours/costaricahighlights.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/costaricahighlights",
+    "category":  "Signature Journey",
+    "short_description":  "The ultimate one-day Costa Rica experience, sloth observation, waterfall, hands-on coffee and cacao workshop, natural mineral hot springs and two hanging bridges. Everything that makes Costa Rica extraordinary, in one private day.",
+    "hero_image":  "images/costaricahighlights1.webp",
+    "hero_image_alt":  "Costa Rica Highlights Tour — Sloths, Waterfall, Coffee, Hot Springs \u0026 Hanging Bridges in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "sloth-watching",
+                         "waterfalls",
+                         "coffee",
+                         "hot-springs",
+                         "hanging-bridges"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa"
+                        ],
+    "best_for":  [
+                     "First-Time Visitors",
+                     "Families",
+                     "Nature & Wildlife Lovers",
+                     "Couples"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 10 hours)",
+    "minimum_age":  0,
+    "included":  [
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Snacks and refreshments",
+                     "Experienced certified bilingual local guide",
+                     "Sloth Observation, specialized photography tour in natural habitat",
+                     "Waterfall visit",
+                     "Coffee & Cacao Experience, hands-on cultural workshop",
+                     "Natural hot springs, mineral-rich thermal pools",
+                     "Two Hanging Bridges through the forest canopy",
+                     "Traditional Costa Rican lunch"
+                 ],
+    "what_to_bring":  [
+                     "Sunscreen",
+                     "Bug spray",
+                     "Hat or cap",
+                     "Sunglasses",
+                     "Camera",
+                     "Reusable water bottle",
+                     "Swimsuit",
+                     "Extra set of clothes",
+                     "Towel",
+                     "Water shoes / sandals",
+                     "Comfortable walking shoes",
+                     "Cash for personal expenses (gratuities)"
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  325,
+                    "currency":  "USD",
+                    "price_confirmed":  false,
+                    "pricing_note":  "Neither $280 (currently shown per-option) nor $325 (this from_price) is a verified canonical public starting price. Awaiting the finalized 2/3/4+ guest private pricing table before confirming."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/costaricahighlights.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "cultural",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa"
+                                       ],
+                      "priority":  68,
+                      "min_stay":  5,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "cultural"
+                                      ],
+                      "tags":  [
+                                   "highlights",
+                                   "signature",
+                                   "cultural",
+                                   "multi-destination",
+                                   "full-day"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Volcano \u0026 Wellness",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  10,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "First-Time Visitors",
+                                          "Families",
+                                          "Nature & Wildlife Lovers",
+                                          "Couples"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  85,
+                                                 "couples":  95,
+                                                 "seniors":  80,
+                                                 "adventure":  65,
+                                                 "wildlife":  65,
+                                                 "relaxation":  90,
+                                                 "private":  90
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "sloth-watching",
+                                               "waterfalls",
+                                               "coffee",
+                                               "hot-springs",
+                                               "hanging-bridges"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "volcano-wellness"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Costa Rica · Highlights Tour · Guanacaste",
+                         "hero_title_html":  "Costa Rica Highlights Private Tour",
+                         "hero_chips":  [
+                                            "🦥 Sloth Encounter",
+                                            "💦 Waterfall",
+                                            "☕ Coffee \u0026 Cacao",
+                                            "♨️ Hot Springs",
+                                            "🌉 Hanging Bridges"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "The Ultimate Costa Rica Experience",
+                                                    "intro":  "Costa Rica Highlights is a full-day private tour from Peninsula Papagayo combining sloth wildlife viewing, a tropical waterfall, a hands-on coffee and cacao workshop, natural hot springs, two hanging bridges and lunch, all in one day. Designed for travelers who want to experience the very best of Costa Rica\u0027s landscapes, wildlife and traditions in a single, carefully paced private itinerary.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🦥",
+                                                                      "title":  "Sloth Wildlife Experience",
+                                                                      "description":  "Observe Costa Rica\u0027s most iconic wildlife in its natural habitat while your certified naturalist guide helps you discover sloths, tropical birds, frogs, and other rainforest species."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Waterfall Experience",
+                                                                      "description":  "Visit a beautiful tropical waterfall in the Guanacaste region, surrounded by lush rainforest and breathtaking scenery that perfectly captures the beauty of Costa Rica."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "☕",
+                                                                      "title":  "Coffee \u0026 Chocolate Tour",
+                                                                      "description":  "Discover the journey from bean to cup and from cacao fruit to chocolate while enjoying an authentic hands-on cultural experience with local experts."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "Hot Springs \u0026 Hanging Bridges",
+                                                                      "description":  "Walk above the rainforest canopy on scenic hanging bridges before relaxing in naturally heated volcanic hot springs surrounded by tropical nature."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🇨🇷",
+                                                                   "title":  "Everything That Makes Costa Rica Extraordinary",
+                                                                   "text":  "Wildlife, waterfalls, coffee, chocolate, rainforest, hanging bridges, and volcanic hot springs,all brought together in one unforgettable private experience designed to showcase the very best of Costa Rica in a single day."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear comfortable walking shoes with grip. The trail sections involve uneven terrain.",
+                                                                     "Bring swimwear and a small towel for the hot springs section.",
+                                                                     "Bring a camera with a good zoom lens for the sloth observation section.",
+                                                                     "Apply insect repellent before departure. A long-sleeved layer is useful for the forested sections in the morning.",
+                                                                     "Please inform us of any dietary restrictions for lunch at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s tropical weather can change quickly. This tour includes several outdoor stops across different microclimates.",
+                                                                  "Tours normally operate in light rain, but safety always comes first. If conditions prevent an activity from operating safely, our team will contact you to discuss the available options, including rescheduling."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Sloths + Waterfall + Coffee \u0026 Cacao + Hot Springs + 2 Hanging Bridges + Lunch",
+                                                                   "price":  "280",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "First-Time Visitors",
+                                                              "Families",
+                                                              "Nature \u0026 Wildlife Lovers",
+                                                              "Couples"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "miravallesspa.html",
+                                                "image":  "../images/miravalles1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Miravalles Spa \u0026 Volcano"
+                                            },
+                                            {
+                                                "href":  "arenalhotsprings.html",
+                                                "image":  "../images/arenalhotsprings1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Arenal Hot Springs"
+                                            },
+                                            {
+                                                "href":  "arenalhangingbridges.html",
+                                                "image":  "../images/arenalbridges1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Arenal Hanging Bridges"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Sloth observation in natural habitat, Costa Rica Highlights Tour",
+                                             "src":  "../images/costaricahighlights1.webp"
+                                         },
+                                         {
+                                             "alt":  "Stunning waterfall on the Costa Rica Highlights private tour",
+                                             "src":  "../images/costaricahighlights2.webp"
+                                         },
+                                         {
+                                             "alt":  "Hands-on coffee and cacao cultural workshop, Costa Rica",
+                                             "src":  "../images/costaricahighlights3.webp"
+                                         },
+                                         {
+                                             "alt":  "Natural mineral hot springs, Costa Rica Highlights Tour",
+                                             "src":  "../images/costaricahighlights4.webp"
+                                         },
+                                         {
+                                             "alt":  "Three hanging bridges over the forest canopy, Costa Rica",
+                                             "src":  "../images/costaricahighlights5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Sloth Observation, specialized photography tour in natural habitat",
+                                                     "Waterfall visit",
+                                                     "Coffee \u0026amp; Cacao Experience, hands-on cultural workshop",
+                                                     "Natural hot springs, mineral-rich thermal pools",
+                                                     "Two Hanging Bridges through the forest canopy",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eOne day. Every reason you came.\u003c/strong\u003e A private full-day journey through Costa Rica\u0027s wildlife, waterfalls, coffee culture and hot springs, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 10 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🌉",
+                                                      "label":  "Highlights",
+                                                      "value":  "Sloths, Waterfall, Coffee, Hot Springs \u0026 Bridges"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Sloth Wildlife Experience",
+                                                     "text":  "Search for sloths, tropical birds and other rainforest species with your naturalist guide."
+                                                 },
+                                                 {
+                                                     "title":  "Waterfall Visit",
+                                                     "text":  "Enjoy a refreshing stop at a beautiful tropical waterfall in the Guanacaste region, surrounded by lush rainforest."
+                                                 },
+                                                 {
+                                                     "title":  "Coffee \u0026 Cacao Workshop",
+                                                     "text":  "A hands-on workshop from bean to cup and from cacao fruit to chocolate with local experts."
+                                                 },
+                                                 {
+                                                     "title":  "Hanging Bridges \u0026 Hot Springs",
+                                                     "text":  "Walk above the canopy on two hanging bridges, then relax in natural volcanic hot springs."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Private pickup is included from Peninsula Papagayo and Playa Hermosa. Pickup from other Guanacaste areas may be available for an additional transportation charge, contact us to confirm."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 10 hours, since it combines five distinct stops in a single day, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included."
+                                     },
+                                     {
+                                         "question":  "Can children participate?",
+                                         "answer":  "Yes, this tour is suitable for all ages and combines easy to moderate walking with wildlife, cultural and relaxation stops."
+                                     },
+                                     {
+                                         "question":  "Will we definitely see a sloth?",
+                                         "answer":  "Sloth sightings occur in a natural habitat and cannot be guaranteed on any single visit, though sightings are frequent. Your guide knows where to look and will do everything possible to find one."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Comfortable walking shoes with grip, swimwear and a small towel for the hot springs, insect repellent and a camera with zoom for the sloth observation."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Costa Rica\u0027s tropical weather can change quickly. Tours normally operate in light rain, but safety always comes first, if conditions prevent an activity from operating safely, our team will contact you to discuss the available options."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended.",
+                         "pickup_areas":  [
+                                              {
+                                                  "area":  "Included",
+                                                  "hotels":  [
+                                                                 "Peninsula Papagayo",
+                                                                 "Playa Hermosa"
+                                                             ]
+                                              },
+                                              {
+                                                  "area":  "Other Guanacaste Areas",
+                                                  "hotels":  [
+                                                                 "Available for an additional transportation charge, contact us to confirm"
+                                                             ]
+                                              }
+                                          ]
+                     },
+    "seo_title_override":  "Costa Rica Highlights Private Tour | Wild Papagayo",
+    "seo_description_override":  "Costa Rica Highlights: a private full-day tour from Papagayo, Guanacaste with sloths, a waterfall, coffee \u0026 cacao, hot springs, hanging bridges and lunch."
+}

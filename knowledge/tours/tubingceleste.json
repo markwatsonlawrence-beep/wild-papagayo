@@ -1,0 +1,405 @@
+{
+    "id":  "tubingceleste",
+    "name":  "Tubing at Río Celeste — Blue River Tubing",
+    "slug":  "tubingceleste",
+    "status":  "active",
+    "page_file":  "tours/tubingceleste.html",
+    "page_url":  "../tours/tubingceleste.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/tubingceleste.html",
+    "category":  "Experience",
+    "short_description":  "Private tubing experience on Río Celeste, float through the striking aquamarine blue river in lush rainforest, navigating small rapids with birds, monkeys and rich biodiversity. Minimum age 4. Lunch included.",
+    "hero_image":  "images/tubingceleste1.webp",
+    "hero_image_alt":  "Tubing at Río Celeste — Blue River Tubing in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "tubing"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  250,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/tubingceleste.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  74,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "wildlife"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "tubing",
+                                   "river",
+                                   "adventure",
+                                   "celeste",
+                                   "water"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "tubing"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Celeste · Tubing · Guanacaste",
+                         "hero_title_html":  "Float the\u003cbr\u003eBlue River.",
+                         "hero_chips":  [
+                                            "💙 Río Celeste",
+                                            "🛟 River Tubing",
+                                            "🦜 Wildlife",
+                                            "🌿 Rainforest"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Float Through Costa Rica\u0027s Famous Blue River",
+                                                    "intro":  "Experience Río Celeste from a completely different perspective as you float through its world-famous turquoise waters. This relaxing tubing adventure combines gentle rapids, spectacular rainforest scenery, and incredible wildlife into one unforgettable private experience suitable for the whole family.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🛟",
+                                                                      "title":  "River Tubing Adventure",
+                                                                      "description":  "Float comfortably through gentle rapids and calm sections of Río Celeste while enjoying one of Costa Rica\u0027s most scenic river experiences."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💎",
+                                                                      "title":  "Turquoise Waters",
+                                                                      "description":  "Experience the incredible volcanic-blue waters that have made Río Celeste one of Costa Rica\u0027s most photographed natural wonders."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦜",
+                                                                      "title":  "Wildlife Along the River",
+                                                                      "description":  "Watch for monkeys, tropical birds, butterflies, iguanas, and other native wildlife that inhabit the rainforest surrounding the river."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "👨‍👩‍👧",
+                                                                      "title":  "Family-Friendly Adventure",
+                                                                      "description":  "Suitable for guests aged 4 and older, this private experience offers the perfect balance of fun, nature, and relaxation for families, couples, and small groups."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "💙",
+                                                                   "title":  "Discover Río Celeste Like Few Ever Do",
+                                                                   "text":  "Instead of simply admiring Costa Rica\u0027s famous blue river from the shore, you\u0027ll float through its crystal-clear turquoise waters while surrounded by lush rainforest, incredible wildlife, and breathtaking scenery that few visitors ever experience."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear swimwear under quick-dry shorts or leggings, you will be wet throughout.",
+                                                                     "Water shoes or secure-strap sandals are recommended. Flip-flops will not stay on in the rapids.",
+                                                                     "Bring a dry change of clothing and a small towel for after the float.",
+                                                                     "Waterproof cases for cameras and phones are strongly recommended.",
+                                                                     "Apply sunscreen before departure and bring extra, much of the river run is in open sun."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No refunds or credits are issued for changes in river colour due to rainfall or weather conditions. This is a natural occurrence.",
+                                                                      "Experiences cancelled due to genuinely unsafe river conditions (not colour change) will be rescheduled or fully refunded."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "River color changes from rainfall are natural and are not treated as a safety cancellation, see our reservation policy for details.",
+                                                                  "Departures may be adjusted for genuinely unsafe river conditions such as high water or flash flood risk.",
+                                                                  "If Wild Papagayo cancels due to unsafe river conditions, we\u0027ll reschedule whenever possible or issue a full refund."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Your certified private guide, exclusively dedicated to your group, for guests arriving in their own vehicle. Guide pickup included on the way to the destination. Excludes tubing equipment and lunch.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Tubing + Lunch",
+                                                                   "price":  "240",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Families",
+                                                              "Nature Lovers",
+                                                              "Water Adventures"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "floatingtenorio.html",
+                                                "image":  "../images/floatingtenorio1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Floating Tenorio"
+                                            },
+                                            {
+                                                "href":  "tenoriorafting.html",
+                                                "image":  "../images/tenoriorafting1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Tenorio River Rafting"
+                                            },
+                                            {
+                                                "href":  "celesteriver.html",
+                                                "image":  "../images/celeste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Celeste River Hike"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Tubing on the blue Río Celeste through tropical rainforest, Costa Rica",
+                                             "src":  "../images/tubingceleste1.webp"
+                                         },
+                                         {
+                                             "alt":  "Group tubing together on Río Celeste, seeing the blue color up close",
+                                             "src":  "../images/tubingceleste2.webp"
+                                         },
+                                         {
+                                             "alt":  "Small rapids on Río Celeste during private tubing experience",
+                                             "src":  "../images/tubingceleste3.webp"
+                                         },
+                                         {
+                                             "alt":  "Wildlife observed during Río Celeste tubing, birds and monkeys",
+                                             "src":  "../images/tubingceleste4.webp"
+                                         },
+                                         {
+                                             "alt":  "Lush rainforest canopy over Río Celeste, Costa Rica",
+                                             "src":  "../images/tubingceleste5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Río Celeste tubing, tubes, life jackets, helmets provided",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "seo_title_override":  "Rio Celeste Tubing | Private Blue River Float Costa Rica",
+                         "seo_description_override":  "Private tubing float through Rio Celeste\u0027s famous turquoise waters, gentle rapids and rainforest wildlife. Certified bilingual guide, lunch included, minimum age 4.",
+                         "hero_subtitle_html":  "Float at water level through Rio Celeste\u0027s famous turquoise current, gentle rapids and rainforest wildlife passing by from a view almost no visitor gets.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "⏱️",
+                                                      "label":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🛟",
+                                                      "label":  "River Tubing"
+                                                  },
+                                                  {
+                                                      "icon":  "💙",
+                                                      "label":  "Rio Celeste\u0027s Blue Water"
+                                                  },
+                                                  {
+                                                      "icon":  "🧑‍🤝‍🧑",
+                                                      "label":  "Minimum Age 4"
+                                                  },
+                                                  {
+                                                      "icon":  "🦜",
+                                                      "label":  "Wildlife Along the River"
+                                                  },
+                                                  {
+                                                      "icon":  "🗓️",
+                                                      "label":  "Available Daily"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "A gentle float suitable for the whole family, with small rapids that keep the current moving without feeling dangerous.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "time":  "Morning",
+                                                     "title":  "Private Hotel Pickup",
+                                                     "description":  "Your guide picks you up in an air-conditioned private vehicle and drives toward the Rio Celeste tubing put-in."
+                                                 },
+                                                 {
+                                                     "time":  "Pre-Float",
+                                                     "title":  "Gear Up",
+                                                     "description":  "Get fitted with a tube, life jacket and helmet before your certified guide walks you through the float route."
+                                                 },
+                                                 {
+                                                     "time":  "On the River",
+                                                     "title":  "Float the Blue River",
+                                                     "description":  "Drift through Rio Celeste\u0027s turquoise current and gentle rapids, surrounded by rainforest and watching for monkeys, toucans and other wildlife along the banks."
+                                                 },
+                                                 {
+                                                     "time":  "After the Float",
+                                                     "title":  "Dry Off \u0026 Traditional Lunch",
+                                                     "description":  "Change into dry clothes and enjoy a traditional Costa Rican lunch included as part of your day."
+                                                 },
+                                                 {
+                                                     "time":  "Return",
+                                                     "title":  "Ride Back to Your Hotel",
+                                                     "description":  "Relax on the private drive back to your hotel after a completely different way of seeing Costa Rica\u0027s famous blue river."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this tubing tour private?",
+                                         "answer":  "Yes, your guide and float are dedicated exclusively to your group, not combined with other travelers."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the minimum age?",
+                                         "answer":  "This float is suitable for guests aged 4 and older, the rapids are gentle enough for a family-friendly pace."
+                                     },
+                                     {
+                                         "question":  "Will the river always be that famous blue color?",
+                                         "answer":  "Rio Celeste\u0027s color can shift after heavy rainfall, this is a natural occurrence and not something Wild Papagayo can control, so no refunds are issued for color changes specifically. Genuinely unsafe river conditions are handled separately, see our weather policy."
+                                     },
+                                     {
+                                         "question":  "What wildlife might we see?",
+                                         "answer":  "Monkeys, toucans, kingfishers and other tropical birds are frequently spotted along the river corridor. Sightings cannot be guaranteed, though frequent."
+                                     },
+                                     {
+                                         "question":  "What should we wear?",
+                                         "answer":  "Swimwear under quick-dry shorts, with secure-strap water shoes or sandals, flip-flops won\u0027t stay on through the rapids."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included, along with bottled water and snacks."
+                                     },
+                                     {
+                                         "question":  "How does private pricing work for this tour?",
+                                         "answer":  "Pricing varies by pickup location and group size. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     }
+                                 ],
+                         "peak_season_note":  "The river runs its most vivid blue during drier stretches of weather; heavy rain can temporarily change the color, a natural occurrence that happens at any time of year.",
+                         "departure_time":  "7:30 AM"
+                     }
+}

@@ -1,0 +1,421 @@
+{
+    "id":  "waterfalllovers",
+    "name":  "Waterfall Lovers Tour Costa Rica",
+    "slug":  "waterfalllovers",
+    "status":  "active",
+    "page_file":  "tours/waterfalllovers.html",
+    "page_url":  "../tours/waterfalllovers.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/waterfalllovers.html",
+    "category":  "Experience",
+    "short_description":  "Private Costa Rica waterfall and jungle tour. Discover hidden waterfalls with a certified local guide, exclusively for your group. Book via WhatsApp with Wild Papagayo.",
+    "hero_image":  "images/waterfalllovers1.webp",
+    "hero_image_alt":  "Waterfall Lovers Tour Costa Rica in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "waterfalls"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Couples",
+                     "Families",
+                     "Nature lovers",
+                     "Photographers"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  160,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/waterfalllovers.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "waterfall",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  78,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "adventure",
+                                          "resort"
+                                      ],
+                      "avoid_after":  [
+                                          "waterfall"
+                                      ],
+                      "tags":  [
+                                   "waterfall",
+                                   "hiking",
+                                   "nature",
+                                   "forest",
+                                   "swimming"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Waterfalls \u0026 Nature",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Couples",
+                                          "Families",
+                                          "Nature lovers",
+                                          "Photographers"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  80,
+                                                 "couples":  90,
+                                                 "seniors":  60,
+                                                 "adventure":  80,
+                                                 "wildlife":  70,
+                                                 "relaxation":  55,
+                                                 "private":  80
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "waterfalls"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "waterfalls-nature"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Guanacaste · Waterfall Lovers · Costa Rica",
+                         "hero_title_html":  "Waterfall Lovers Tour",
+                         "hero_chips":  [
+                                            "💦 Hidden Waterfalls",
+                                            "🌿 Jungle Trail",
+                                            "🏊 Natural Pools",
+                                            "🦜 Wildlife"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Discover Guanacaste\u0027s Hidden Waterfall Paradise",
+                                                    "intro":  "Venture beyond the ordinary on a private adventure through one of Guanacaste\u0027s most spectacular natural landscapes. Combining horseback riding, hidden waterfalls, crystal-clear swimming holes, dramatic canyons, and optional volcanic hot springs, this experience is perfect for travelers looking to explore Costa Rica\u0027s wild side.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🐴",
+                                                                      "title":  "Horseback Adventure",
+                                                                      "description":  "Ride through scenic mountain trails and tropical forests on gentle horses while discovering remote areas that few visitors ever get to experience."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Hidden Waterfalls",
+                                                                      "description":  "Visit several breathtaking waterfalls tucked away within lush rainforest, where crystal-clear pools invite you to relax and enjoy nature."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💎",
+                                                                      "title":  "Turquoise Pools \u0026 Canyons",
+                                                                      "description":  "Explore beautiful rock canyons and natural turquoise pools carved by centuries of flowing water, creating one of Guanacaste\u0027s most picturesque landscapes."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "PLUS: Volcanic Mud \u0026 Hot Springs",
+                                                                      "description":  "Upgrade your adventure with a relaxing volcanic mud treatment and soothing natural hot springs,the perfect ending to a day of exploration."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "💦",
+                                                                   "title":  "The Ultimate Waterfall Adventure",
+                                                                   "text":  "Ride through untouched landscapes, discover hidden waterfalls, swim in crystal-clear turquoise pools, and experience the natural beauty of Guanacaste on a private adventure designed for explorers and nature lovers alike."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Horseback riding minimum age: 4 years old. Not recommended for pregnant travelers.",
+                                                                     "Designed for adventure lovers, guests should be comfortable with outdoor activities and uneven terrain.",
+                                                                     "Weather and seasonal water conditions may influence activity timing to ensure the safest experience.",
+                                                                     "Please inform us of any dietary restrictions or health conditions at the time of booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s weather can shift quickly, especially near waterfalls and river crossings.",
+                                                                  "Activity timing may be adjusted for safety or optimal seasonal water conditions.",
+                                                                  "If Wild Papagayo cancels due to unsafe conditions, we\u0027ll reschedule whenever possible or issue a full refund."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Your certified private guide, exclusively dedicated to your group, for guests arriving in their own vehicle. Guide pickup included on the way to the destination. Excludes horseback riding, entrance fees and lunch.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "classic",
+                                                                   "badge":  "👑 CLASSIC",
+                                                                   "heading":  "Horseback Riding + Chorrera + Oropendola + Rio Negro Waterfall.",
+                                                                   "price":  "205",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+"option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "Horseback Riding + Chorrera + Oropendola + Rio Negro Waterfall + Hot Spring Rio Negro.",
+                                                                   "price":  "220",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Nature Lovers",
+                                                              "Photography",
+                                                              "Outdoor Explorers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "waterfallpumas.html",
+                                                "image":  "../images/waterfallpumas1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Waterfall \u0026 Wildlife Rescue"
+                                            },
+                                            {
+                                                "href":  "celesteriver.html",
+                                                "image":  "../images/celeste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Celeste River Hike"
+                                            },
+                                            {
+                                                "href":  "coloradoriverrafting.html",
+                                                "image":  "../images/coloradorafting1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Colorado River Rafting"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Oropendola Waterfall Costa Rica",
+                                             "src":  "../images/waterfalllovers1.webp"
+                                         },
+                                         {
+                                             "alt":  "Waterfall Lovers 2",
+                                             "src":  "../images/waterfalllovers2.webp"
+                                         },
+                                         {
+                                             "alt":  "Waterfall Lovers 3",
+                                             "src":  "../images/waterfalllovers3.webp"
+                                         },
+                                         {
+                                             "alt":  "Waterfall Lovers 4",
+                                             "src":  "../images/waterfalllovers4.webp"
+                                         },
+                                         {
+                                             "alt":  "Waterfall Lovers 5",
+                                             "src":  "../images/waterfalllovers5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Certified bilingual naturalist guide, exclusively for your group",
+                                                     "Horseback riding to Chorrera Waterfall",
+                                                     "Oropendola \u0026amp; Río Negro Waterfall visits",
+                                                     "Complimentary bottled water and snacks",
+                                                     "Traditional Costa Rican lunch",
+                                                     "Hot Spring \u0026amp; Volcanic Mud Spa (✦ PLUS only)"
+                                                 ],
+                         "seo_title_override":  "Waterfall Lovers Tour | Private Horseback \u0026 Waterfall Day Costa Rica",
+                         "seo_description_override":  "Private full-day tour combining horseback riding, Chorrera, Oropendola and Rio Negro waterfalls, turquoise pools, and an optional hot springs upgrade in Guanacaste.",
+                         "hero_subtitle_html":  "Ride on horseback to a chain of hidden waterfalls, swim in turquoise pools, and finish with an optional soak in volcanic hot springs, all in your own private group.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "⏱️",
+                                                      "label":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🐴",
+                                                      "label":  "Horseback Riding"
+                                                  },
+                                                  {
+                                                      "icon":  "💦",
+                                                      "label":  "3 Waterfalls"
+                                                  },
+                                                  {
+                                                      "icon":  "💎",
+                                                      "label":  "Turquoise Swimming Pools"
+                                                  },
+                                                  {
+                                                      "icon":  "♨️",
+                                                      "label":  "Hot Springs (Plus)"
+                                                  },
+                                                  {
+                                                      "icon":  "🗓️",
+                                                      "label":  "Available Daily"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "Horseback riding minimum age is 4; not recommended for pregnant travelers. Comfort with uneven terrain and outdoor activity is helpful.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "time":  "Morning",
+                                                     "title":  "Private Hotel Pickup",
+                                                     "description":  "Your certified naturalist guide picks you up in an air-conditioned private vehicle and heads toward the trailhead."
+                                                 },
+                                                 {
+                                                     "time":  "Mid-Morning",
+                                                     "title":  "Horseback Ride to Chorrera Waterfall",
+                                                     "description":  "Ride gentle horses through mountain trails and tropical forest to reach Chorrera Waterfall."
+                                                 },
+                                                 {
+                                                     "time":  "Midday",
+                                                     "title":  "Oropendola \u0026 Rio Negro Waterfalls",
+                                                     "description":  "Continue on to Oropendola and Rio Negro Waterfalls, swimming in turquoise pools and exploring rock canyons carved by the river."
+                                                 },
+                                                 {
+                                                     "time":  "Optional",
+                                                     "title":  "Hot Springs \u0026 Volcanic Mud (Plus Option)",
+                                                     "description":  "Guests on the Plus package finish with a volcanic mud treatment and a soak in natural hot springs."
+                                                 },
+                                                 {
+                                                     "time":  "Included",
+                                                     "title":  "Traditional Lunch",
+                                                     "description":  "Refuel with a traditional Costa Rican lunch included as part of your day."
+                                                 },
+                                                 {
+                                                     "time":  "Return",
+                                                     "title":  "Ride Back to Your Hotel",
+                                                     "description":  "Relax on the private drive back to your hotel after a full day of waterfalls and wild landscapes."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this tour private?",
+                                         "answer":  "Yes, your guide, horses and vehicle are reserved exclusively for your group for the entire day."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between the Classic and Plus options?",
+                                         "answer":  "The Classic option includes horseback riding and the Chorrera, Oropendola and Rio Negro waterfalls. The Plus option adds a volcanic mud treatment and natural hot springs."
+                                     },
+                                     {
+                                         "question":  "Is horseback riding required?",
+                                         "answer":  "Yes, horseback riding is how you reach Chorrera Waterfall. The minimum age is 4, and it\u0027s not recommended for pregnant travelers."
+                                     },
+                                     {
+                                         "question":  "Can we swim at the waterfalls?",
+                                         "answer":  "Yes, your guide knows which pools are safe for swimming and will guide you to them at Oropendola and Rio Negro."
+                                     },
+                                     {
+                                         "question":  "How much walking or hiking is involved?",
+                                         "answer":  "The terrain is uneven at points beyond the horseback sections, so comfort with outdoor activity and light hiking is helpful."
+                                     },
+                                     {
+                                         "question":  "What should we bring?",
+                                         "answer":  "Swimwear, a towel, water shoes, and comfortable walking shoes for the sections between waterfalls."
+                                     },
+                                     {
+                                         "question":  "How does private pricing work for this tour?",
+                                         "answer":  "Pricing varies by pickup location, group size, and whether you choose the Classic or Plus option. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     }
+                                 ],
+                         "peak_season_note":  "Waterfalls run fullest during the May to November rainy season, though the tour operates daily year-round.",
+                         "departure_time":  "7:00 AM"
+                     }
+}

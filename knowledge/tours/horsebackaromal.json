@@ -1,0 +1,409 @@
+{
+    "id":  "horsebackaromal",
+    "name":  "Horseback Riding at Hacienda Aromal",
+    "slug":  "horsebackaromal",
+    "status":  "active",
+    "page_file":  "tours/horsebackaromal.html",
+    "page_url":  "../tours/horsebackaromal.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/horsebackaromal",
+    "category":  "Experience",
+    "short_description":  "Private horseback riding through Hacienda Aromal\u0027s natural trails, deer, armadillos, anteaters and tropical birds in the heart of Guanacaste. Authentic Sabanero experience with certified bilingual guide.",
+    "hero_image":  "images/horsebackaromal1.webp",
+    "hero_image_alt":  "Horseback Riding at Hacienda Aromal in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "horseback-riding"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Culture lovers",
+                     "Curious travelers"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Half Day (approx. 4 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  175,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/horsebackaromal.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "cultural",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  62,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "adventure"
+                                      ],
+                      "avoid_after":  [
+                                          "cultural"
+                                      ],
+                      "tags":  [
+                                   "horseback",
+                                   "ranch",
+                                   "cultural",
+                                   "rural",
+                                   "hacienda"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Culture \u0026 Local Life",
+                         "difficulty":  "Easy",
+                         "duration_hours":  4,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Culture lovers",
+                                          "Curious travelers"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  90,
+                                                 "couples":  80,
+                                                 "seniors":  90,
+                                                 "adventure":  35,
+                                                 "wildlife":  40,
+                                                 "relaxation":  70,
+                                                 "private":  75
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "horseback-riding"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "culture-local-life"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Hacienda Aromal · Horseback Riding · Guanacaste",
+                         "hero_title_html":  "Horseback Riding at Hacienda Aromal Private Tour",
+                         "hero_chips":  [
+                                            "🐴 Private Horseback Ride",
+                                            "🦌 Wildlife Encounters",
+                                            "🤠 Sabanero Tradition",
+                                            "🌄 Scenic Ranch Trails"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Ride Through the Heart of Authentic Guanacaste",
+                                                    "intro":  "Escape into the peaceful landscapes of Hacienda El Aromal on a private horseback adventure through forests, open fields, and scenic mountain trails. More than a horseback ride, this experience offers a genuine connection with Guanacaste\u0027s wildlife, traditions, and ranching heritage.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🐴",
+                                                                      "title":  "Private Horseback Ride",
+                                                                      "description":  "Ride gentle, well-trained horses along beautiful ranch trails while enjoying spectacular views of the surrounding forests and countryside."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦌",
+                                                                      "title":  "Wildlife Encounters",
+                                                                      "description":  "Watch for deer, armadillos, monkeys, anteaters, tropical birds, and other native wildlife that inhabit the protected forests surrounding the hacienda."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🤠",
+                                                                      "title":  "Authentic Ranch Experience",
+                                                                      "description":  "Learn about the traditions of Guanacaste\u0027s famous cattle ranches and experience the daily life of the Costa Rican sabanero in an authentic working hacienda."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌄",
+                                                                      "title":  "Nature \u0026 Scenic Views",
+                                                                      "description":  "Ride through tropical dry forests, open pastures, and peaceful mountain landscapes while enjoying one of the most authentic outdoor experiences in Guanacaste."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🤠",
+                                                                   "title":  "The Spirit of Guanacaste on Horseback",
+                                                                   "text":  "Discover the traditions, wildlife, and natural beauty of Hacienda El Aromal on a peaceful horseback adventure that perfectly combines authentic ranch culture with unforgettable scenery and close encounters with nature.Watch or participate in a traditional cattle drive, one of Guanacaste\u0027s most iconic ranching traditions, guided by local sabaneros whenever ranch operations allow."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Minimum age is \u003cstrong\u003e4 years old\u003c/strong\u003e. Younger children must be accompanied by a guide at all times.",
+                                                                        "\u003cstrong\u003eNot recommended for pregnant women.\u003c/strong\u003e",
+                                                                        "Closed-toe shoes or riding boots are strongly recommended. Sandals are not appropriate for this experience.",
+                                                                        "Easy difficulty, no prior riding experience required. Our horses are calm and well-trained for all levels.",
+                                                                        "Guests with back or joint conditions should consult a physician before participation.",
+                                                                        "Wildlife sightings depend on natural conditions. The trails are active with wildlife year-round, but encounters cannot be guaranteed."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Pickup time is coordinated individually with your Wild Papagayo concierge based on your resort location.",
+                                                                     "Sunscreen and insect repellent are recommended, apply before departure.",
+                                                                     "Light, neutral-colored clothing is recommended to avoid startling wildlife on the trail.",
+                                                                     "Binoculars and a camera with zoom are highly recommended for birdwatching and wildlife photography.",
+                                                                     "Please inform your guide of any medical conditions or physical limitations prior to the ride."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Hacienda Aromal. Transportation is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Horseback Riding + Wildlife + Guanacaste Trails",
+                                                                   "price":  "150",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Half Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Families",
+                                                              "Wildlife Lovers",
+                                                              "Couples"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "haciendaaromal.html",
+                                                "image":  "../images/aromal1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hacienda Aromal"
+                                            },
+                                            {
+                                                "href":  "buenavistamegacombo.html",
+                                                "image":  "../images/Buenavista1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Buena Vista Mega Combo"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Horseback riders on the natural trails of Hacienda Aromal, Guanacaste",
+                                             "src":  "../images/horsebackaromal1.webp"
+                                         },
+                                         {
+                                             "alt":  "Wildlife spotting on horseback at Hacienda Aromal",
+                                             "src":  "../images/horsebackaromal2.webp"
+                                         },
+                                         {
+                                             "alt":  "Herd cattle experience at Hacienda Aromal, Costa Rica",
+                                             "src":  "../images/horsebackaromal3.webp"
+                                         },
+                                         {
+                                             "alt":  "Tropical birds and dry forest landscape at Hacienda Aromal",
+                                             "src":  "../images/horsebackaromal4.webp"
+                                         },
+                                         {
+                                             "alt":  "Private horseback riding group at Hacienda Aromal",
+                                             "src":  "../images/horsebackaromal5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Long pants",
+                                              "Comfortable clothing",
+                                              "Comfortable closed-toe shoes or boots",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Private horseback riding through natural trails",
+                                                     "Herd cattle experience",
+                                                     "Safety equipment",
+                                                     "Horse selected according to your riding experience"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eThe trail opens. The wildlife appears.\u003c/strong\u003e A private half-day horseback ride through authentic Guanacaste ranchland, from Papagayo.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Half Day · Approx. 4 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🐴",
+                                                      "label":  "Highlights",
+                                                      "value":  "Wildlife Trails \u0026 Sabanero Tradition"
+                                                  },
+                                                  {
+                                                      "icon":  "🦌",
+                                                      "label":  "Difficulty",
+                                                      "value":  "Easy, no riding experience needed"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Horse Matching \u0026 Briefing",
+                                                     "text":  "Your guide selects a horse suited to your experience level."
+                                                 },
+                                                 {
+                                                     "title":  "Ranch Trail Ride",
+                                                     "text":  "Ride through forests, open fields and scenic trails, watching for deer, armadillos and tropical birds."
+                                                 },
+                                                 {
+                                                     "title":  "Sabanero Tradition",
+                                                     "text":  "Learn about the daily life and traditions of Guanacaste\u0027s cattle ranches."
+                                                 },
+                                                 {
+                                                     "title":  "Private Return",
+                                                     "text":  "Relax on the private journey back to your resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "Do I need prior riding experience?",
+                                         "answer":  "No, this tour is easy difficulty and no prior experience is required. The horses are calm and well-trained for all levels."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The minimum age is 4. Younger children must be accompanied by a guide at all times."
+                                     },
+                                     {
+                                         "question":  "Will we definitely see wildlife?",
+                                         "answer":  "Wildlife sightings occur along natural trails and cannot be guaranteed on any single ride, though sightings of deer, armadillos and tropical birds are frequent."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "No, this is a half-day excursion and does not include a meal. Bottled water and snacks are provided."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Closed-toe shoes or riding boots, long pants, and light neutral-colored clothing to avoid startling wildlife on the trail."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Horseback Riding at Hacienda Aromal Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private horseback riding tour from Papagayo at Hacienda Aromal, wildlife trails, Sabanero tradition, certified guide and hotel pickup included."
+}

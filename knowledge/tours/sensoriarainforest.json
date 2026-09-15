@@ -1,0 +1,423 @@
+{
+    "id":  "sensoriarainforest",
+    "name":  "Sensoria Land of Senses \u0026 Magical Rainforest",
+    "slug":  "sensoriarainforest",
+    "status":  "active",
+    "page_file":  "tours/sensoriarainforest.html",
+    "page_url":  "../tours/sensoriarainforest.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/sensoriarainforest.html",
+    "category":  "Experience",
+    "short_description":  "Private full-day Sensoria nature reserve, 7km rainforest trail with multiple waterfalls, thermal pools, howler monkeys and incredible biodiversity where Guanacaste transforms into lush rainforest. Walking sticks and lunch included.",
+    "hero_image":  "images/sensoria1.webp",
+    "hero_image_alt":  "Sensoria Land of Senses \u0026 Magical Rainforest in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "waterfalls",
+                         "hiking",
+                         "wildlife-watching",
+                         "hot-springs"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  400,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/sensoriarainforest.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "rainforest",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  65,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "adventure"
+                                      ],
+                      "avoid_after":  [
+                                          "rainforest"
+                                      ],
+                      "tags":  [
+                                   "rainforest",
+                                   "sensory",
+                                   "nature",
+                                   "walking",
+                                   "wellness",
+                                   "birdwatching"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Easy",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "waterfalls",
+                                               "hiking",
+                                               "wildlife-watching",
+                                               "hot-springs"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Sensoria · Rainforest · Guanacaste",
+                         "hero_title_html":  "Where Guanacaste\u003cbr\u003eBecomes\u003cbr\u003eRainforest.",
+                         "hero_chips":  [
+                                            "💦 Multiple Waterfalls",
+                                            "♨️ Thermal Pools",
+                                            "🐒 Howler Monkeys",
+                                            "🌿 Forest Trail"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Discover Costa Rica\u0027s Hidden Rainforest Paradise",
+                                                    "intro":  "Experience one of Costa Rica\u0027s most extraordinary private nature reserves on a guided journey through pristine rainforest, crystal-clear rivers, spectacular waterfalls, and soothing geothermal hot springs. Sensoria offers an immersive experience where every step reveals another breathtaking natural wonder.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🥾",
+                                                                      "title":  "Rainforest Hiking",
+                                                                      "description":  "Follow a professionally guided 4 miles trail through lush rainforest filled with tropical plants, giant trees, colorful flowers, and incredible biodiversity. Walking sticks are provided for additional comfort."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Hidden Waterfalls",
+                                                                      "description":  "Discover a series of spectacular waterfalls and crystal-clear turquoise pools tucked away within the rainforest, creating unforgettable scenery at every turn."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦜",
+                                                                      "title":  "Wildlife \u0026 Nature",
+                                                                      "description":  "Listen for howler monkeys overhead while searching for tropical birds, butterflies, frogs, and other native wildlife that call this untouched ecosystem home."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "Natural Hot Springs",
+                                                                      "description":  "Complete your adventure by relaxing in peaceful geothermal hot springs surrounded by rainforest, the perfect reward after an unforgettable day of exploration."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "One of Costa Rica\u0027s Best-Kept Secrets",
+                                                                   "text":  "Sensoria combines pristine rainforest, breathtaking waterfalls, abundant wildlife, and natural geothermal hot springs into one unforgettable experience that reveals a quieter, more authentic side of Costa Rica far from the crowds."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear trail shoes or hiking boots with ankle support, the path is natural, wet, and includes multiple steps.",
+                                                                     "Pack a light rain jacket or poncho. Rain in the Guanacaste highlands is common and part of the ecosystem\u0027s beauty.",
+                                                                     "Bring swimwear for the thermal pools and a small towel.",
+                                                                     "Apply insect repellent before departure and bring extra for the trail. The rainforest is beautiful but active.",
+                                                                     "Please inform us of any dietary restrictions for lunch at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences affected by severe weather or reserve closures will be rescheduled whenever possible; if not, a full refund will be issued."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Rain is part of the Guanacaste highlands ecosystem and doesn\u0027t usually stop the tour, but conditions are monitored for trail safety.",
+                                                                  "Departures may be adjusted if the reserve closes for severe weather.",
+                                                                  "If Wild Papagayo cancels due to unsafe conditions, we\u0027ll reschedule whenever possible or issue a full refund."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Your certified private guide, exclusively dedicated to your group, for guests arriving in their own vehicle. Guide pickup included on the way to the destination. Excludes reserve entrance, lunch and hot springs access.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Rainforest Trail + Waterfalls + Thermal Pools + Lunch",
+                                                                   "price":  "300",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Nature Lovers",
+                                                              "Photography",
+                                                              "Hikers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "miravallesspa.html",
+                                                "image":  "../images/miravalles1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Miravalles Spa \u0026 Volcano"
+                                            },
+                                            {
+                                                "href":  "borinque4senses.html",
+                                                "image":  "../images/borinque1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Borinquen 4 Senses"
+                                            },
+                                            {
+                                                "href":  "paloverdeculturalviejo.html",
+                                                "image":  "../images/paloverdeviejo1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Palo Verde Cultural Tour"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Waterfall and thermal pool at Sensoria natural reserve, Costa Rica",
+                                             "src":  "../images/sensoria1.webp"
+                                         },
+                                         {
+                                             "alt":  "Lush rainforest trail at Sensoria with multiple steps, Costa Rica",
+                                             "src":  "../images/sensoria2.webp"
+                                         },
+                                         {
+                                             "alt":  "Howler monkey in the rainforest canopy at Sensoria reserve",
+                                             "src":  "../images/sensoria3.webp"
+                                         },
+                                         {
+                                             "alt":  "Thermal pool surrounded by jungle vegetation at Sensoria",
+                                             "src":  "../images/sensoria4.webp"
+                                         },
+                                         {
+                                             "alt":  "Cascading waterfall on the 7km Sensoria trail, Costa Rica",
+                                             "src":  "../images/sensoria5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimwear",
+                                              "Small towel",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "7km (4.5 mile) guided rainforest trail with cascading waterfalls",
+                                                     "Walking sticks provided",
+                                                     "Geothermal thermal pools",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "seo_title_override":  "Sensoria Rainforest \u0026 Hot Springs | Private Waterfall Hike Costa Rica",
+                         "seo_description_override":  "Private full-day Sensoria reserve tour: 7km rainforest trail, cascading waterfalls, howler monkeys and geothermal hot springs. Private guide, lunch included.",
+                         "hero_subtitle_html":  "Hike a 7km rainforest trail past cascading waterfalls, then soak in geothermal hot springs. A private guide at your own pace, in one of Guanacaste\u0027s best-kept secrets.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "⏱️",
+                                                      "label":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🥾",
+                                                      "label":  "7km Rainforest Trail"
+                                                  },
+                                                  {
+                                                      "icon":  "💦",
+                                                      "label":  "Multiple Waterfalls"
+                                                  },
+                                                  {
+                                                      "icon":  "♨️",
+                                                      "label":  "Thermal Pools"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch Included"
+                                                  },
+                                                  {
+                                                      "icon":  "🗓️",
+                                                      "label":  "Available Daily"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "Moderate hiking fitness recommended, the trail includes natural terrain and multiple steps.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "time":  "Early Morning",
+                                                     "title":  "Private Hotel Pickup",
+                                                     "description":  "Your guide collects you in an air-conditioned private vehicle and drives toward the Sensoria private nature reserve in the Guanacaste highlands."
+                                                 },
+                                                 {
+                                                     "time":  "Mid-Morning",
+                                                     "title":  "Begin the Rainforest Trail",
+                                                     "description":  "Set out on the 7km guided trail with walking sticks provided, moving from dry-forest terrain into lush rainforest as the landscape transforms around you."
+                                                 },
+                                                 {
+                                                     "time":  "Along the Trail",
+                                                     "title":  "Waterfalls \u0026 Wildlife",
+                                                     "description":  "Pause at a series of cascading waterfalls and turquoise pools, while your guide points out howler monkeys, birds, and the rainforest\u0027s dense biodiversity."
+                                                 },
+                                                 {
+                                                     "time":  "Midday",
+                                                     "title":  "Traditional Lunch",
+                                                     "description":  "Refuel with a traditional Costa Rican lunch at the reserve before the return leg of the hike."
+                                                 },
+                                                 {
+                                                     "time":  "Afternoon",
+                                                     "title":  "Geothermal Hot Springs",
+                                                     "description":  "Finish the trail at Sensoria\u0027s natural hot springs and relax in the warm mineral waters, the reward after a day on your feet."
+                                                 },
+                                                 {
+                                                     "time":  "Return",
+                                                     "title":  "Ride Back to Your Hotel",
+                                                     "description":  "Wind down on the private drive back to your hotel as the day comes to a close."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "How difficult is the Sensoria hike?",
+                                         "answer":  "The trail covers about 7km (4.5 miles) on natural terrain with multiple steps, moderate fitness is recommended. Walking sticks are provided, and the pace is set by your private guide, so you can go as slow as you like."
+                                     },
+                                     {
+                                         "question":  "Is this tour suitable for kids?",
+                                         "answer":  "Families do this tour regularly, though the distance and terrain suit kids who are comfortable hiking for a few hours. Reach out to your concierge if you\u0027d like to discuss your children\u0027s ages before booking."
+                                     },
+                                     {
+                                         "question":  "Do we need swimwear?",
+                                         "answer":  "Yes, bring swimwear and a small towel for the geothermal hot springs at the end of the trail."
+                                     },
+                                     {
+                                         "question":  "What wildlife might we see?",
+                                         "answer":  "Howler monkeys, tropical birds, butterflies and frogs are commonly spotted along the trail. Sightings cannot be guaranteed, though frequent, thanks to the reserve\u0027s rich biodiversity."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included at the reserve, along with bottled water and snacks."
+                                     },
+                                     {
+                                         "question":  "What should we wear?",
+                                         "answer":  "Trail shoes or hiking boots with ankle support are strongly recommended since the path is natural, occasionally wet, and includes steps. A light rain jacket is also a good idea in the Guanacaste highlands."
+                                     },
+                                     {
+                                         "question":  "How does private pricing work for this tour?",
+                                         "answer":  "Pricing varies by pickup location and group size. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     }
+                                 ],
+                         "peak_season_note":  "The trail and waterfalls are lush and flowing year-round, with the greenest scenery during the May to November rainy season.",
+                         "departure_time":  "6:30 AM"
+                     }
+}

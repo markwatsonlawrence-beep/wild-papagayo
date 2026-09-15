@@ -1,0 +1,455 @@
+{
+    "id":  "buenavistamegacombo",
+    "name":  "Buena Vista Mega Combo",
+    "slug":  "buenavistamegacombo",
+    "status":  "active",
+    "page_file":  "tours/buenavistamegacombo.html",
+    "page_url":  "../tours/buenavistamegacombo.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/buenavistamegacombo",
+    "category":  "Adventure",
+    "short_description":  "Private full-day adventure at Buena Vista, Guanacaste, zip line, waterslide, hot springs and more. Certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
+    "hero_image":  "images/Buenavista1.webp",
+    "hero_image_alt":  "Buena Vista Mega Combo in Costa Rica",
+    "destination_ids":  [
+                            "rincon-de-la-vieja"
+                        ],
+    "activity_ids":  [
+                         "ziplining",
+                         "tubing",
+                         "horseback-riding",
+                         "hot-springs"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+                               "andaz-costa-rica",
+                               "four-seasons-papagayo"
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  240,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/buenavistamegacombo.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "heavy",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  90,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "combo",
+                                   "zip-line",
+                                   "hot-springs",
+                                   "horse",
+                                   "waterfall",
+                                   "volcano",
+                                   "cultural",
+                                   "full-day"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "ziplining",
+                                               "tubing",
+                                               "horseback-riding",
+                                               "hot-springs"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  90,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Buena Vista · Mega Combo · Guanacaste",
+                         "hero_title_html":  "Buena Vista Adventure Combo \u0026#8212; Zipline, Waterslide \u0026amp; Hot Springs",
+                         "hero_chips":  [
+                                            "🎿 Zip Line",
+                                            "💧 Water Slide",
+                                            "♨️ Hot Springs",
+                                            "🐴 Horseback Riding",
+                                            "🌿 Buena Vista Park",
+                                            "🌋 Rincon de la Vieja Views",
+                                            "🌿 Mountain Adventure"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "The Ultimate Adventure Combo in Guanacaste",
+                                                    "intro":  "Discover Buena Vista Adventure Park on an action-packed full-day experience that combines adventure, nature, and relaxation into one unforgettable day, spectacular mountain scenery, and relaxing natural hot springs. Designed for travelers who want to experience the very best of Guanacaste in a single unforgettable day.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🌄",
+                                                                      "title":  "Zipline Adventure",
+                                                                      "description":  "Soar above the rainforest on an exciting network of zip lines with incredible panoramic views of mountains, forests, and valleys."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🐴",
+                                                                      "title":  "Horseback Ride",
+                                                                      "description":  "Ride through scenic mountain trails surrounded by tropical forest while discovering the beautiful landscapes of Guanacaste."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Jungle Waterslide",
+                                                                      "description":  "Experience one of Costa Rica\u0027s most unique attractions as you slide down a natural mountain waterslide built into the hillside."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "Hot Springs \u0026 Volcanic Mud",
+                                                                      "description":  "Relax in naturally heated thermal pools and enjoy a volcanic mud treatment that leaves you refreshed after an exciting day of adventure."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🔥",
+                                                                   "title":  "The Complete Buena Vista Experience",
+                                                                   "text":  "Ziplining, horseback riding, mountain waterslides, volcanic mud baths, and natural hot springs come together in one unforgettable adventure designed to showcase the very best of Guanacaste."
+                                                               }
+                                                },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Buena Vista. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+                                                                   "option_id":  "full-day",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Zip Line + Water Slide + Horseback + Suspension bridges + Hot Springs + Mud + Sauna + Lunch",
+                                                                   "price":  "240",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Adventure Seekers",
+                                                              "Families",
+                                                              "Nature Lovers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "haciendaguachipelin.html",
+                                                "image":  "../images/guachipelin1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hacienda Guachipelín"
+                                            },
+                                            {
+                                                "href":  "congotrail.html",
+                                                "image":  "../images/congotrail1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Congo Trail Combo"
+                                            },
+                                            {
+                                                "href":  "atvmountainride.html",
+                                                "image":  "../images/atvmountain1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "ATV Mountain Ride"
+                                            }
+                                        ],
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Children must be supervised at all times and follow the guide’s instructions.",
+                                                                     "Some activities, like zipline or water slides, require minimum height and age restrictions.",
+                                                                     "This is a full-day adventure combining multiple experiences; comfortable clothing and swimwear are recommended.",
+                                                                     "Guests should inform the guide of any medical conditions or special needs prior to the tour.",
+                                                                     "Meals, snacks, and drinks are included as specified in the itinerary."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "gallery":  [
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 1",
+                                             "src":  "../images/Buenavista1.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 2",
+                                             "src":  "../images/buenavista2.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 3",
+                                             "src":  "../images/buenavista3.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 4",
+                                             "src":  "../images/buenavista4.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 5",
+                                             "src":  "../images/buenavista11.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 6",
+                                             "src":  "../images/buenavista6.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 7",
+                                             "src":  "../images/buenavista7.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 8",
+                                             "src":  "../images/buenavista8.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 9",
+                                             "src":  "../images/buenavista9.webp"
+                                         },
+                                         {
+                                             "alt":  "Buena  vista del Rincón photo 10",
+                                             "src":  "../images/buenavista10.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Long pants (for horseback)",
+                                              "Comfortable closed-toe shoes or boots",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Experienced certified bilingual local guide",
+                                                     "Private transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Traditional Costa Rican lunch",
+                                                     "7-Zip Line Canopy Tour",
+                                                     "Suspension bridges",
+                                                     "Mountain Water Slide",
+                                                     "Guided Horseback Ride",
+                                                     "Tractor wagon ride",
+                                                     "Mountain Water Slide",
+                                                     "Volcanic mud treatment",
+                                                     "Natural Hot Springs"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eOne day. The whole of Guanacaste.\u003c/strong\u003e A private full-day adventure combo at Buena Vista, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🎿",
+                                                      "label":  "Highlights",
+                                                      "value":  "7-Cable Zipline, Waterslide \u0026 Horseback"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Arrival at Buena Vista",
+                                                     "text":  "Gear up for a full day of adventure at the base of Rincon de la Vieja Volcano."
+                                                 },
+                                                 {
+                                                     "title":  "Zipline \u0026 Suspension Bridges",
+                                                     "text":  "Soar above the rainforest on 7 zip line cables with panoramic mountain views."
+                                                 },
+                                                 {
+                                                     "title":  "Mountain Waterslide \u0026 Horseback Ride",
+                                                     "text":  "Slide down the natural mountain waterslide, then ride through scenic trails."
+                                                 },
+                                                 {
+                                                     "title":  "Hot Springs \u0026 Volcanic Mud",
+                                                     "text":  "Relax in naturally heated thermal pools and a volcanic mud treatment."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 8 hours, including the drive and all activities, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The recommended minimum age is 8. Some activities, like the zipline or waterslide, have their own minimum height and age restrictions. Please let us know the ages of all guests when booking."
+                                     },
+                                     {
+                                         "question":  "Do I need prior experience for the zipline or waterslide?",
+                                         "answer":  "No prior experience is necessary. All activities include professional safety equipment and instruction from certified guides."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Comfortable closed-toe shoes or boots, long pants for horseback riding, swimwear and a towel for the hot springs and waterslide."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Weather in Costa Rica can change quickly, and some activities may be adjusted or rescheduled for safety reasons. Our team will contact you to discuss the available options if conditions require it."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Buena Vista Adventure Combo Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Buena Vista adventure combo from Papagayo: zipline, waterslide, horseback riding and hot springs, hotel pickup and lunch included."
+}

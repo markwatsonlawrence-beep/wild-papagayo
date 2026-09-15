@@ -1,0 +1,417 @@
+{
+    "id":  "paloverdeculturalviejo",
+    "name":  "Palo Verde \u0026 Cultural Experience El Viejo",
+    "slug":  "paloverdeculturalviejo",
+    "status":  "active",
+    "page_file":  "tours/paloverdeculturalviejo.html",
+    "page_url":  "../tours/paloverdeculturalviejo.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/paloverdeculturalviejo",
+    "category":  "Wildlife \u0026 Culture",
+    "short_description":  "Covered boat ride down the Tempisque River through Palo Verde National Park, then a private visit to Hacienda El Viejo, tortilla making, the ox-powered trapiche sugar mill, and traditional Guanacaste cuisine. Lunch and National Park fee included.",
+    "hero_image":  "images/paloverdeviejo1.webp",
+    "hero_image_alt":  "Palo Verde \u0026 Cultural Experience El Viejo in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "boat-tour",
+                         "wildlife-watching",
+                         "dining"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Full Day (approx. 9 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  300,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/paloverdeculturalviejo.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "cultural",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  65,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "adventure",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "cultural"
+                                      ],
+                      "tags":  [
+                                   "wildlife",
+                                   "birds",
+                                   "river",
+                                   "cultural",
+                                   "rural"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Easy",
+                         "duration_hours":  9,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "boat-tour",
+                                               "wildlife-watching",
+                                               "dining"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Palo Verde · Cultural Tour · Guanacaste",
+                         "hero_title_html":  "Palo Verde River Safari \u0026amp; Hacienda El Viejo Private Tour",
+                         "hero_chips":  [
+                                            "🚢 River Safari",
+                                            "🐊 Wildlife",
+                                            "🫓 Tortilla Making",
+                                            "🏭 Sugar Mill"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Wildlife \u0026 Guanacaste Traditions in One Perfect Day",
+                                                    "intro":  "Discover the natural beauty and rich cultural heritage of Guanacaste on a private full-day experience that combines one of Costa Rica\u0027s most important wildlife sanctuaries with an authentic traditional hacienda. Ideal for families, nature lovers, and travelers seeking a deeper connection with Costa Rican culture.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🚤",
+                                                                      "title":  "Palo Verde River Safari",
+                                                                      "description":  "Enjoy a relaxing 90-minute boat tour through the wetlands of Palo Verde National Park, where your expert guide helps you spot crocodiles, monkeys, iguanas, tropical birds, and countless other native species."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦜",
+                                                                      "title":  "Extraordinary Wildlife",
+                                                                      "description":  "Explore one of Costa Rica\u0027s most important ecosystems, famous for its incredible birdlife, lush mangroves, and diverse wildlife that can be observed throughout the year."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌽",
+                                                                      "title":  "Authentic Hacienda Experience",
+                                                                      "description":  "Visit Hacienda El Viejo and experience Costa Rican traditions through handmade tortillas, an ox-powered sugar cane mill, local sugar tastings, and fascinating cultural demonstrations."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🍽️",
+                                                                      "title":  "Traditional Guanacaste Lunch",
+                                                                      "description":  "Complete your experience with a delicious homemade lunch featuring authentic regional flavors prepared in the heart of the hacienda."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "Where Nature Meets Tradition",
+                                                                   "text":  "From the peaceful wetlands of Palo Verde National Park to the authentic traditions of Hacienda El Viejo, this unforgettable experience perfectly combines wildlife, culture, history, and local flavors in one extraordinary tour."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "This experience is \u003cstrong\u003eEasy\u003c/strong\u003e in difficulty and suitable for all ages, families, seniors and young children are all very welcome.",
+                                                                        "The covered boat is shaded and stable. Guests with mobility limitations should note that boarding requires stepping onto a low dock.",
+                                                                        "The National Park entry fee is fully included in your private booking.",
+                                                                        "Guests with dietary restrictions should inform us at the time of booking so the farmhouse kitchen can prepare accordingly.",
+                                                                        "Light, breathable clothing is strongly recommended. The river environment is humid; insect repellent is advised."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Wear lightweight, breathable clothing in neutral or earth tones, wildlife is more visible when guests blend with the environment.",
+                                                                     "Apply insect repellent before departure and bring a small amount for reapplication during the boat ride.",
+                                                                     "Bring a camera or binoculars for the river section, the birdlife along the Tempisque is exceptional and worth capturing.",
+                                                                     "Sunscreen and a hat are recommended for the outdoor sections at the hacienda.",
+                                                                     "Please notify your guide of any food allergies or dietary requirements prior to the farmhouse lunch."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences affected by exceptional weather or river conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "River Safari • Hacienda Experience • Lunch",
+                                                                   "price":  "200",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Culture Lovers",
+                                                              "Wildlife Lovers",
+                                                              "Families"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "paloverderiverboattour.html",
+                                                "image":  "../images/paloverde1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Palo Verde River Boat"
+                                            },
+                                            {
+                                                "href":  "costaricahighlights.html",
+                                                "image":  "../images/costaricahighlights1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Costa Rica Highlights"
+                                            },
+                                            {
+                                                "href":  "sensoriarainforest.html",
+                                                "image":  "../images/sensoria1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sensoria Rainforest"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Covered boat on Tempisque River, Palo Verde National Park, Costa Rica",
+                                             "src":  "../images/paloverdeviejo1.webp"
+                                         },
+                                         {
+                                             "alt":  "Wildlife spotted from the boat, herons and crocodiles on the Tempisque River",
+                                             "src":  "../images/paloverdeviejo2.webp"
+                                         },
+                                         {
+                                             "alt":  "Hacienda El Viejo traditional farmhouse and colonial architecture",
+                                             "src":  "../images/paloverdeviejo3.webp"
+                                         },
+                                         {
+                                             "alt":  "Ox-powered trapiche sugar mill at Hacienda El Viejo, Guanacaste",
+                                             "src":  "../images/paloverdeviejo4.webp"
+                                         },
+                                         {
+                                             "alt":  "Traditional tortilla making at the Hacienda El Viejo farmhouse kitchen",
+                                             "src":  "../images/paloverdeviejo5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "90-minute covered boat ride on the Tempisque River",
+                                                     "Palo Verde National Park entry fee",
+                                                     "Hacienda El Viejo cultural experience, tortilla making \u0026amp; trapiche",
+                                                     "Traditional Guanacaste farmhouse lunch"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eThe river flows. The hacienda remembers.\u003c/strong\u003e A private full day of wildlife and Guanacaste tradition, from Papagayo.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 9 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🚤",
+                                                      "label":  "Highlights",
+                                                      "value":  "River Safari \u0026 Hacienda El Viejo"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Guanacaste farmhouse lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Palo Verde River Safari",
+                                                     "text":  "A 90-minute covered boat tour through the wetlands, spotting crocodiles, monkeys and birdlife."
+                                                 },
+                                                 {
+                                                     "title":  "Hacienda El Viejo",
+                                                     "text":  "Visit the traditional hacienda for tortilla making and the ox-powered trapiche sugar mill."
+                                                 },
+                                                 {
+                                                     "title":  "Farmhouse Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Guanacaste lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Guanacaste farmhouse lunch is included."
+                                     },
+                                     {
+                                         "question":  "Can children and seniors participate?",
+                                         "answer":  "Yes, this tour is easy difficulty and suitable for all ages, including seniors and young children."
+                                     },
+                                     {
+                                         "question":  "Is the National Park entrance fee included?",
+                                         "answer":  "Yes, the Palo Verde National Park entry fee is fully included."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Lightweight, breathable clothing in neutral tones, insect repellent, sunscreen and a hat, and a camera or binoculars for the river section."
+                                     },
+                                     {
+                                         "question":  "What happens if river conditions are unsafe?",
+                                         "answer":  "Guest safety is our priority. Experiences affected by exceptional weather or river conditions will be rescheduled whenever possible, or fully refunded if rescheduling cannot be arranged."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Palo Verde River Safari \u0026 Hacienda El Viejo Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Palo Verde river safari and Hacienda El Viejo cultural tour from Papagayo, wildlife, tortilla making, sugar mill, lunch and hotel pickup included."
+}

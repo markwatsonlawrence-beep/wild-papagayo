@@ -1,0 +1,429 @@
+{
+    "id":  "celesteriver",
+    "name":  "Celeste River Hike \u0026 Tenorio National Park",
+    "slug":  "celesteriver",
+    "status":  "active",
+    "page_file":  "tours/celesteriver.html",
+    "page_url":  "../tours/celesteriver.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/celesteriver",
+    "seo_title_override":  "Rio Celeste Waterfall Private Tour from Papagayo | Wild Papagayo",
+    "seo_description_override":  "Private Rio Celeste tour from Papagayo and Guanacaste with hotel pickup, certified guide, Tenorio National Park entrance, waterfall hike and lunch.",
+    "category":  "Waterfall \u0026 Hiking",
+    "short_description":  "Private full-day hike to Río Celeste, the nearly opaque aquamarine blue river at Tenorio Volcano National Park. Lunch and national park fee included. Visitor identification details are required for national park registration and will be requested securely after booking confirmation.",
+    "hero_image":  "images/celeste1.webp",
+    "hero_image_alt":  "Celeste River Hike \u0026 Tenorio National Park in Costa Rica",
+    "destination_ids":  [
+                            "rio-celeste",
+                            "bijagua"
+                        ],
+    "activity_ids":  [
+                         "waterfalls",
+                         "hiking",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 9 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+                               "four-seasons-papagayo",
+                               "waldorf-astoria-costa-rica"
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  220,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/celesteriver.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "waterfall",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  88,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "wildlife"
+                                      ],
+                      "avoid_after":  [
+                                          "waterfall"
+                                      ],
+                      "tags":  [
+                                   "waterfall",
+                                   "hiking",
+                                   "turquoise",
+                                   "celeste",
+                                   "nature",
+                                   "river"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  9,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "waterfalls",
+                                               "hiking",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  90,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Celeste River · Adventure · Alajuela",
+                         "hero_title_html":  "Rio Celeste Waterfall \u0026amp; Tenorio National Park Private Tour",
+                         "hero_chips":  [
+                                            "💙 Río Celeste",
+                                            "🌊 Blue Waterfall",
+                                            "🥾 Rainforest Hike",
+                                            "🌋 Volcanic Wonder"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "A Private Day at One of Costa Rica\u0027s Natural Wonders",
+                                                    "intro":  "Few places on Earth turn a river this particular shade of blue. Tenorio Volcano National Park hides one of Costa Rica\u0027s rarest natural phenomena, a color so vivid that first-time visitors often assume it\u0027s been edited. Your day here is equal parts rainforest hike, science lesson, and pure wonder.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "💎",
+                                                                      "title":  "Río Celeste",
+                                                                      "description":  "Admire the world-famous turquoise river, whose extraordinary blue appearance comes from tiny mineral particles that scatter sunlight under the unique natural conditions found at Rio Celeste."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🥾",
+                                                                      "title":  "Rainforest Hike",
+                                                                      "description":  "Follow scenic rainforest trails with your certified naturalist guide while discovering tropical plants, wildlife, and the fascinating ecosystems of Tenorio Volcano National Park."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Río Celeste Waterfall",
+                                                                      "description":  "Visit the breathtaking Río Celeste Waterfall, where vibrant blue waters cascade into a stunning natural pool surrounded by pristine rainforest."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌋",
+                                                                      "title":  "The Secret Behind the Blue River",
+                                                                      "description":  "At El Teñidero, two clear streams meet and create the conditions that form tiny mineral particles, scattering sunlight to produce Rio Celeste\u0027s extraordinary blue color. Your guide will explain this fascinating natural phenomenon along the trail."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "💙",
+                                                                   "title":  "A Place Unlike Anywhere Else on Earth",
+                                                                   "text":  "From rainforest trails and breathtaking waterfalls to the legendary turquoise waters of Río Celeste, this unforgettable adventure showcases one of the country\u0027s most extraordinary natural treasures."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Visitor identification details are required by SINAC for national park registration. After your reservation is confirmed, our concierge will securely request the necessary information for each guest.",
+                                                                     "Wear trail shoes or hiking boots with ankle support, the national park trail is natural terrain.",
+                                                                     "Pack a light rain jacket. The Tenorio highlands receive significant rainfall year-round.",
+                                                                     "Apply insect repellent before departure and bring extra for the trail.",
+                                                                     "Please inform us of any dietary restrictions for lunch at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                                                                      "Because national park access requires advance registration with visitor limits, rescheduling requests must be made at least 48 hours in advance to allow for re-registration."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s tropical weather can change quickly, and the Tenorio highlands receive significant rainfall year-round.",
+                                                                  "Tours normally operate in light rain, but safety always comes first. If conditions prevent the hike from operating safely, our team will contact you to discuss the available options, including rescheduling."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Tenorio. Transportation is not included. National park entrance and lunch are not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL PRIVATE EXPERIENCE",
+                                                                   "heading":  "Blue River Hike + Waterfall + Lunch",
+                                                                   "price":  "165",
+                                                                   "note":  "Private transportation, certified guide, national park entrance and lunch included. Exact price depends on your hotel and group size."
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Nature Lovers",
+                                                              "Photography",
+                                                              "Hikers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "floatingtenorio.html",
+                                                "image":  "../images/floatingtenorio1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Floating Tenorio"
+                                            },
+                                            {
+                                                "href":  "hangingbridgessloths.html",
+                                                "image":  "../images/bridgessloths1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hanging Bridges \u0026 Sloths"
+                                            },
+                                            {
+                                                "href":  "tubingceleste.html",
+                                                "image":  "../images/tubingceleste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Tubing Celeste"
+                                            },
+                                            {
+                                                "href":  "../private-tours/rio-celeste-from-papagayo.html",
+                                                "image":  "../images/celeste1.webp",
+                                                "label":  "Travel Guide",
+                                                "title":  "Rio Celeste from Papagayo"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Río Celeste brilliant blue river in Tenorio National Park",
+                                             "src":  "../images/celeste1.webp"
+                                         },
+                                         {
+                                             "alt":  "The blue waterfall at Río Celeste inside Tenorio National Park",
+                                             "src":  "../images/celeste2.webp"
+                                         },
+                                         {
+                                             "alt":  "Trail through lush rainforest to Celeste River, Costa Rica",
+                                             "src":  "../images/celeste3.webp"
+                                         },
+                                         {
+                                             "alt":  "Río Celeste blue color visible from above on forest trail",
+                                             "src":  "../images/celeste4.webp"
+                                         },
+                                         {
+                                             "alt":  "Natural pool at Río Celeste, Tenorio Volcano National Park",
+                                             "src":  "../images/celeste5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Hiking or trail shoes",
+                                              "Light rain jacket",
+                                              "Insect repellent",
+                                              "Sunscreen",
+                                              "Hat or cap",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Extra dry shirt or lightweight change of clothes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Guided hike to Río Celeste",
+                                                     "Tenorio National Park entrance fee \u0026 registration",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eThe river the volcano turned blue.\u003c/strong\u003e Explore one of Costa Rica\u0026#39;s most extraordinary natural wonders on a private full-day experience from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 9 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🎟️",
+                                                      "label":  "Entrance",
+                                                      "value":  "Tenorio National Park included"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Scenic Journey to Tenorio",
+                                                     "text":  "Relax in your private air-conditioned vehicle while your guide introduces you to the landscapes and communities along the way."
+                                                 },
+                                                 {
+                                                     "title":  "Tenorio Volcano National Park",
+                                                     "text":  "Explore the rainforest trails with your certified guide, learning about the park\u0027s ecosystems and volcanic history."
+                                                 },
+                                                 {
+                                                     "title":  "Rio Celeste Waterfall",
+                                                     "text":  "Discover the spectacular turquoise waters and one of Costa Rica\u0027s most photographed waterfalls."
+                                                 },
+                                                 {
+                                                     "title":  "Costa Rican Lunch",
+                                                     "text":  "Enjoy a traditional local meal before beginning the journey back."
+                                                 },
+                                                 {
+                                                     "title":  "Private Return",
+                                                     "text":  "Relax on the private journey back to your resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from Tamarindo, Flamingo, Reserva Conchal, Hacienda Pinilla and other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 9 hours, including the drive to and from Tenorio Volcano National Park, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included after the hike."
+                                     },
+                                     {
+                                         "question":  "Are national park entrance fees included?",
+                                         "answer":  "Yes, the Tenorio National Park entrance fee and park registration are included and managed by your guide."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Comfortable hiking shoes or trail shoes, a light rain jacket, insect repellent, sunscreen and a reusable water bottle. Swimming is not permitted directly in Rio Celeste."
+                                     },
+                                     {
+                                         "question":  "Can children participate?",
+                                         "answer":  "The recommended minimum age is 8, due to the moderate hiking terrain and the length of the day. Please let us know the ages of all guests when booking."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Costa Rica\u0027s tropical weather can change quickly, and the Tenorio highlands receive rain year-round. Tours normally operate in light rain, but safety always comes first, if conditions prevent the hike from operating safely, our team will contact you to discuss the available options."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended.",
+                         "departure_time":  "7:30 AM"
+                     }
+}

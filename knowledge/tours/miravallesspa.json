@@ -1,0 +1,427 @@
+{
+    "id":  "miravallesspa",
+    "name":  "Miravalles Volcano Waterfalls \u0026 Natural Spa",
+    "slug":  "miravallesspa",
+    "status":  "active",
+    "page_file":  "tours/miravallesspa.html",
+    "page_url":  "../tours/miravallesspa.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/miravallesspa",
+    "category":  "Experience",
+    "short_description":  "Private full-day at Miravalles Volcano, 3 cascading waterfalls, geothermal hot springs and volcanic mud treatments in a live crater. Lunch and all entrance fees included.",
+    "hero_image":  "images/miravalles1.webp",
+    "hero_image_alt":  "Miravalles Volcano Waterfalls \u0026 Natural Spa in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "waterfalls",
+                         "hot-springs",
+                         "hiking"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Couples",
+                     "Wellness travelers",
+                     "Nature lovers"
+                 ],
+    "difficulty":  "Easy to Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  215,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/miravallesspa.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "wellness",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  72,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "adventure",
+                                          "nature"
+                                      ],
+                      "avoid_after":  [
+                                          "wellness"
+                                      ],
+                      "tags":  [
+                                   "spa",
+                                   "wellness",
+                                   "hot-springs",
+                                   "miravalles",
+                                   "volcano",
+                                   "relaxation"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Volcano \u0026 Wellness",
+                         "difficulty":  "Easy to Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Couples",
+                                          "Wellness travelers",
+                                          "Nature lovers"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  85,
+                                                 "couples":  95,
+                                                 "seniors":  80,
+                                                 "adventure":  65,
+                                                 "wildlife":  65,
+                                                 "relaxation":  90,
+                                                 "private":  90
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "waterfalls",
+                                               "hot-springs",
+                                               "hiking"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "volcano-wellness"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Miravalles · Spa \u0026 Volcano · Guanacaste",
+                         "hero_title_html":  "Miravalles Volcano Waterfalls \u0026amp; Spa Private Tour",
+                         "hero_chips":  [
+                                            "💦 Three Waterfalls",
+                                            "🌋 Active Geothermal Area",
+                                            "🧖 Volcanic Mud Spa",
+                                            "♨️ Natural Hot Springs"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Nature, Wellness \u0026 Volcanic Wonders",
+                                                    "intro":  "Discover the hidden beauty of Miravalles Volcano on a full-day experience that combines spectacular waterfalls, geothermal landscapes, volcanic wellness, and peaceful natural surroundings. Perfect for travelers seeking a relaxing adventure away from the crowds.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Three Waterfalls",
+                                                                      "description":  "Visit three beautiful waterfalls surrounded by lush tropical forest, each offering its own unique scenery and incredible opportunities for photography and relaxation."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌋",
+                                                                      "title":  "Volcanic Geothermal Area",
+                                                                      "description":  "Explore the fascinating geothermal activity of Miravalles Volcano, where steaming fumaroles, bubbling mud pools, and volcanic energy create an unforgettable natural spectacle."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🧖",
+                                                                      "title":  "Volcanic Mud Treatment",
+                                                                      "description":  "Cover your skin with mineral-rich volcanic mud before rinsing off and enjoying one of Costa Rica\u0027s most authentic natural spa experiences."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "♨️",
+                                                                      "title":  "Natural Hot Springs",
+                                                                      "description":  "End your day relaxing in naturally heated thermal pools surrounded by peaceful mountain landscapes, the perfect reward after exploring Miravalles Volcano."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "Relax Where Nature Does the Healing",
+                                                                   "text":  "Waterfalls, volcanic mud, geothermal wonders, and natural hot springs come together in one unforgettable journey through the hidden beauty of Miravalles Volcano,an experience designed to restore both body and mind."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Leave all jewelry and metal valuables at your resort. This includes rings, watches, chains, earrings, and bracelets.",
+                                                                     "Wear old swimwear or dark clothing you don\u0027t mind getting muddy from the volcanic treatment.",
+                                                                     "Pack a change of clothing and a small towel for after the hot springs.",
+                                                                     "Trail shoes or closed-toe shoes are recommended for the forest sections.",
+                                                                     "Please inform us of any dietary restrictions for lunch at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s tropical weather can change quickly. This tour includes several outdoor stops across forest and geothermal terrain.",
+                                                                  "Tours normally operate in light rain, but safety always comes first. If conditions prevent an activity from operating safely, our team will contact you to discuss the available options, including rescheduling."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route to Miravalles. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Waterfalls + Hot Springs + Volcanic Mud + Lunch",
+                                                                   "price":  "210",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Wellness Travelers",
+                                                              "Couples",
+                                                              "Nature Lovers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "costaricahighlights.html",
+                                                "image":  "../images/costaricahighlights1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Costa Rica Highlights"
+                                            },
+                                            {
+                                                "href":  "sensoriarainforest.html",
+                                                "image":  "../images/sensoria1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sensoria Rainforest"
+                                            },
+                                            {
+                                                "href":  "borinque4senses.html",
+                                                "image":  "../images/borinque1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Borinquen 4 Senses"
+                                            },
+                                            {
+                                                "href":  "../private-tours/volcano-tours.html",
+                                                "image":  "../images/miravalles1.webp",
+                                                "label":  "Travel Guide",
+                                                "title":  "Best Volcano Tours from Papagayo"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Hot springs at the base of Miravalles Volcano, Costa Rica",
+                                             "src":  "../images/miravalles1.webp"
+                                         },
+                                         {
+                                             "alt":  "Cascading waterfall at Las Hornillas, Miravalles Volcano",
+                                             "src":  "../images/miravalles2.webp"
+                                         },
+                                         {
+                                             "alt":  "Volcanic mud pools in live crater at Miravalles, Costa Rica",
+                                             "src":  "../images/miravalles3.webp"
+                                         },
+                                         {
+                                             "alt":  "Lush forest trail near Miravalles Volcano waterfalls",
+                                             "src":  "../images/miravalles4.webp"
+                                         },
+                                         {
+                                             "alt":  "Natural thermal pools surrounded by forest at Miravalles",
+                                             "src":  "../images/miravalles5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Three cascading waterfalls",
+                                                     "Volcanic mud treatment in live crater",
+                                                     "Natural geothermal hot springs",
+                                                     "All entrance fees",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eInside the volcano. Beneath the falls.\u003c/strong\u003e A private full-day journey through waterfalls, volcanic mud and hot springs, from Papagayo.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "💦",
+                                                      "label":  "Highlights",
+                                                      "value":  "3 Waterfalls \u0026 Volcanic Mud Spa"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Three Waterfalls",
+                                                     "text":  "Visit three cascading waterfalls surrounded by lush forest."
+                                                 },
+                                                 {
+                                                     "title":  "Volcanic Geothermal Area",
+                                                     "text":  "Explore the fumaroles and bubbling mud pools of Miravalles Volcano."
+                                                 },
+                                                 {
+                                                     "title":  "Volcanic Mud Treatment",
+                                                     "text":  "Cover your skin in mineral-rich volcanic mud before rinsing off."
+                                                 },
+                                                 {
+                                                     "title":  "Natural Hot Springs",
+                                                     "text":  "Relax in naturally heated thermal pools surrounded by mountain landscape."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 8 hours, including the drive and all four stops, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included, along with all entrance fees."
+                                     },
+                                     {
+                                         "question":  "Can children participate?",
+                                         "answer":  "Yes, this tour is suitable for all ages and combines easy walking with relaxation stops."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Old swimwear or dark clothing for the volcanic mud, trail shoes for the forest sections, and a towel and change of clothes for after the hot springs. Leave jewelry and metal valuables at your resort."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Costa Rica\u0027s tropical weather can change quickly. Tours normally operate in light rain, but safety always comes first, if conditions prevent an activity from operating safely, our team will contact you to discuss the available options."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Miravalles Volcano Waterfalls \u0026 Spa Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Miravalles Volcano tour from Papagayo: three waterfalls, volcanic mud spa and natural hot springs, hotel pickup and lunch included."
+}

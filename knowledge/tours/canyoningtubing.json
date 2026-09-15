@@ -1,0 +1,423 @@
+{
+    "id":  "canyoningtubing",
+    "name":  "Waterfall Canyoning \u0026 Tubing",
+    "slug":  "canyoningtubing",
+    "status":  "active",
+    "page_file":  "tours/canyoningtubing.html",
+    "page_url":  "../tours/canyoningtubing.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/canyoningtubing",
+    "category":  "Experience",
+    "short_description":  "Private waterfall canyoning and river tubing, rappel into majestic falls, rock climb, Tarzan pendulum, then tube 5km of crystal-clear Class 2–3 rapids. Lunch included. Certified bilingual guide.",
+    "hero_image":  "images/canyoningtubing1.webp",
+    "hero_image_alt":  "Waterfall Canyoning \u0026 Tubing in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "waterfalls",
+                         "tubing"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Half Day (approx. 4 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  355,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/canyoningtubing.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "heavy",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  77,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "wildlife"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "canyoning",
+                                   "tubing",
+                                   "river",
+                                   "adventure",
+                                   "waterfall"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  4,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "waterfalls",
+                                               "tubing"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Canyoning \u0026 Tubing · Guanacaste",
+                         "hero_title_html":  "Canyoning \u0026amp; River Tubing Private Adventure",
+                         "hero_chips":  [
+                                            "🧗 Waterfall Rappels",
+                                            "🦅 Tarzan Swing",
+                                            "🌊 3.2 Mile River Tubing",
+                                            "💦 Crystal Canyon Pools"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Adventure Above, Below \u0026 Along the River",
+                                                    "intro":  "Push your limits on one of Costa Rica\u0027s most exhilarating outdoor adventures. Descend breathtaking waterfalls, leap into crystal-clear canyon pools, conquer the famous Tarzan Swing, and finish by floating through 3.2 miles of refreshing jungle rapids,all in one unforgettable private experience.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🧗",
+                                                                      "title":  "Waterfall Rappelling",
+                                                                      "description":  "Descend breathtaking waterfalls using professional climbing equipment while guided by experienced instructors who ensure a safe and exciting adventure."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "River Tubing",
+                                                                      "description":  "Float through refreshing rainforest rivers, navigating gentle rapids and calm sections surrounded by incredible tropical scenery."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "Hidden Canyon",
+                                                                      "description":  "Explore hidden canyons, lush vegetation, waterfalls, and natural pools while discovering one of Guanacaste\u0027s most beautiful ecosystems."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦺",
+                                                                      "title":  "Professional Guides",
+                                                                      "description":  "Your certified adventure guides provide all safety equipment, instructions, and support throughout the entire experience, making it suitable for beginners and experienced adventurers alike."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🔥",
+                                                                   "title":  "Costa Rica\u0027s Ultimate Adventure Day",
+                                                                   "text":  "Rappel waterfalls, swing into crystal-clear pools, conquer hidden canyons, and float through refreshing jungle rapids on Guanacaste\u0027s ultimate outdoor adventure."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Minimum age: \u003cstrong\u003e10 years old\u003c/strong\u003e.",
+                                                                        "Maximum weight for both canyoning and tubing: \u003cstrong\u003e300 lbs (136 kg)\u003c/strong\u003e.",
+                                                                        "\u003cstrong\u003eNot recommended for pregnant women.\u003c/strong\u003e",
+                                                                        "Guests must be comfortable in water and able to swim. Life jackets and safety harnesses are worn throughout.",
+                                                                        "Guests with back conditions, heart conditions, recent surgeries or joint injuries should consult a physician before participating.",
+                                                                        "You will be completely wet for the majority of this experience. Bring a change of dry clothing.",
+                                                                        "Medium difficulty, the canyoning requires some physical confidence at height. The tubing is accessible to most fitness levels."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Wear a swimsuit or quick-dry clothing. You will be completely wet throughout.",
+                                                                     "Leave valuables and phones at the resort. The waterfall and river are not compatible with standard electronics.",
+                                                                     "A GoPro with a secure harness mount is the best way to capture both activities.",
+                                                                     "Water shoes or sandals with secure straps are required. Flip-flops are not suitable.",
+                                                                     "Apply sunscreen before departure. All safety equipment, harnesses, helmets, life jackets, is provided and inspected before every session.",
+                                                                     "Please inform your guide of any height concerns, medical conditions or swimming limitations before the activity begins."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe water levels or weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Meet your certified private guide at the activity site. Transportation and lunch are not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Waterfall Rappel + Tarzan Swing + River Tubing + Lunch",
+                                                                   "price":  "305",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate",
+                                             "duration":  "Half Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Thrill Seekers",
+                                                              "Adventure Lovers",
+                                                              "Active Travelers"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "congotrailcanopy.html",
+                                                "image":  "../images/congotrailnew1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Congo Trail Canopy"
+                                            },
+                                            {
+                                                "href":  "haciendaguachipelin.html",
+                                                "image":  "../images/guachipelin1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hacienda Guachipelín"
+                                            },
+                                            {
+                                                "href":  "atvmountainride.html",
+                                                "image":  "../images/atvmountain1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "ATV Mountain Ride"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Waterfall canyoning rappel at jungle waterfall, Costa Rica",
+                                             "src":  "../images/canyoningtubing1.webp"
+                                         },
+                                         {
+                                             "alt":  "Swimmers in the crystal pool beneath the waterfall, canyoning Costa Rica",
+                                             "src":  "../images/canyoningtubing2.webp"
+                                         },
+                                         {
+                                             "alt":  "River tubing through Class 2-3 rapids in jungle, Costa Rica",
+                                             "src":  "../images/canyoningtubing3.webp"
+                                         },
+                                         {
+                                             "alt":  "Tubing convoy through narrow crystal-clear jungle river",
+                                             "src":  "../images/canyoningtubing4.webp"
+                                         },
+                                         {
+                                             "alt":  "Group after waterfall canyoning and tubing adventure, Costa Rica",
+                                             "src":  "../images/canyoningtubing5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Full waterfall canyoning, rappel, rock climb, Tarzan pendulum",
+                                                     "3.2 miles river tubing, Class 2–3 rapids",
+                                                     "Traditional Costa Rican lunch",
+                                                     "All safety gear (harness, helmet, life jacket)"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eDrop into the falls. Float down the river.\u003c/strong\u003e A private half-day canyon and river adventure, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Half Day · Approx. 4 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🧗",
+                                                      "label":  "Highlights",
+                                                      "value":  "Waterfall Rappel \u0026 Tarzan Swing"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Safety Briefing \u0026 Gear Up",
+                                                     "text":  "Harness, helmet and life jacket fitting with your certified guide."
+                                                 },
+                                                 {
+                                                     "title":  "Waterfall Canyoning",
+                                                     "text":  "Rappel down waterfalls, climb back up the rock wall, and take on the Tarzan swing."
+                                                 },
+                                                 {
+                                                     "title":  "River Tubing",
+                                                     "text":  "Float through 3.2 miles of Class 2-3 rapids on a crystal-clear jungle river."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 4 hours, combining the canyoning and river tubing sections, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The minimum age is 10, and guests must be comfortable in water and able to swim. There is a maximum weight limit of 300 lbs (136 kg)."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included."
+                                     },
+                                     {
+                                         "question":  "Do I need prior canyoning experience?",
+                                         "answer":  "No prior experience is necessary. All safety equipment is provided and your certified guides give full instruction before each activity."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "A swimsuit or quick-dry clothing (you\u0027ll be completely wet), water shoes or sandals with secure straps, and a change of dry clothes for after."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains or water levels are high?",
+                                         "answer":  "Guest safety is our priority. Experiences affected by unsafe water levels or weather conditions will be rescheduled whenever possible, or fully refunded if rescheduling cannot be arranged."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Canyoning \u0026 River Tubing Private Adventure | Wild Papagayo",
+    "seo_description_override":  "Private waterfall canyoning and river tubing from Papagayo: rappel, Tarzan swing, Class 2-3 rapids, certified guide, hotel pickup and lunch included."
+}

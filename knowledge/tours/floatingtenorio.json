@@ -1,0 +1,416 @@
+{
+    "id":  "floatingtenorio",
+    "name":  "Floating at Tenorio River Safari Float",
+    "slug":  "floatingtenorio",
+    "status":  "active",
+    "page_file":  "tours/floatingtenorio.html",
+    "page_url":  "../tours/floatingtenorio.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/floatingtenorio",
+    "category":  "Experience",
+    "short_description":  "Private Class 1-2 safari float down the Tenorio River, giant kapok trees, wildlife, Llanos de Cortez Waterfall. Option to add Las Pumas Rescue Center. Lunch and fruit break included.",
+    "hero_image":  "images/floatingtenorio1.webp",
+    "hero_image_alt":  "Floating at Tenorio River Safari Float in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "boat-tour",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  200,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/floatingtenorio.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "nature",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  68,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "arrival"
+                                      ],
+                      "avoid_after":  [
+                                          "nature"
+                                      ],
+                      "tags":  [
+                                   "river",
+                                   "floating",
+                                   "hot-springs",
+                                   "nature",
+                                   "relaxing"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "boat-tour",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Tenorio · Floating River · Guanacaste",
+                         "hero_title_html":  "Tenorio River Safari Float Private Tour",
+                         "hero_chips":  [
+                                            "🚢 Safari Float",
+                                            "💦 Llanos de Cortez",
+                                            "🦜 Wildlife Spotting",
+                                            "🌿 Tenorio River"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "A Relaxing Wildlife Adventure for All Ages",
+                                                    "intro":  "Discover Costa Rica\u0027s incredible wildlife from a unique perspective as you gently float along the peaceful Tenorio River. Perfect for families, couples, photographers, and nature lovers, this experience combines spectacular scenery, abundant wildlife, and relaxing outdoor adventure.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🚣",
+                                                                      "title":  "Private Safari Float",
+                                                                      "description":  "Enjoy a peaceful 90-minute guided float through calm Class I–II waters while your expert guide navigates the river and points out wildlife hidden along the riverbanks."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦥",
+                                                                      "title":  "Wildlife Watching",
+                                                                      "description":  "Keep your eyes open for monkeys, sloths, crocodiles, iguanas, colorful birds, and many other species that thrive along the Tenorio River."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Llanos de Cortez Waterfall",
+                                                                      "description":  "Visit one of Guanacaste\u0027s most beautiful waterfalls, where crystal-clear water and a wide sandy shoreline create the perfect place to relax and enjoy nature."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🐆",
+                                                                      "title":  "PLUS: Las Pumas Rescue Center",
+                                                                      "description":  "Upgrade to the PLUS option and visit the famous Las Pumas Wildlife Rescue Center to learn about Costa Rica\u0027s rescued native animals and ongoing conservation efforts."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌿",
+                                                                   "title":  "Wildlife is Everywhere",
+                                                                   "text":  "From the calm waters of the Tenorio River to the beauty of Llanos de Cortez Waterfall and the optional wildlife rescue center, this tour offers the perfect combination of relaxation, nature, and unforgettable wildlife encounters."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear light clothing and footwear that can get wet for the waterfall visit and float.",
+                                                                     "Bring a dry change of clothing for after the river sections.",
+                                                                     "Waterproof cases for phones and cameras are strongly recommended on the raft.",
+                                                                     "Apply sunscreen before departure and bring extra for the waterfall stop.",
+                                                                     "Please inform us of any dietary restrictions for lunch at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
+                                                                  ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Meet your certified private guide at the launch point. Transportation and lunch are not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "classic",
+                                                                   "badge":  "👑 CLASSIC",
+                                                                   "heading":  "Llanos de Cortez Waterfall + 90 min Safari Float",
+                                                                   "price":  "200",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+"option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "Llanos de Cortez Waterfall + Safari Float + Las Pumas Rescue Center",
+                                                                   "price":  "225",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Families",
+                                                              "Nature Lovers",
+                                                              "Wildlife Enthusiasts"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "celesteriver.html",
+                                                "image":  "../images/celeste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Celeste River Hike"
+                                            },
+                                            {
+                                                "href":  "tubingceleste.html",
+                                                "image":  "../images/tubingceleste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Tubing Celeste"
+                                            },
+                                            {
+                                                "href":  "tenoriorafting.html",
+                                                "image":  "../images/tenoriorafting1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Tenorio River Rafting"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Safari float raft on the calm Tenorio River, Costa Rica",
+                                             "src":  "../images/floatingtenorio1.webp"
+                                         },
+                                         {
+                                             "alt":  "Giant kapok trees overhanging the Tenorio River during safari float",
+                                             "src":  "../images/floatingtenorio2.webp"
+                                         },
+                                         {
+                                             "alt":  "Llanos de Cortez Waterfall, Guanacaste Costa Rica",
+                                             "src":  "../images/floatingtenorio3.webp"
+                                         },
+                                         {
+                                             "alt":  "Wildlife spotted during Tenorio River safari float",
+                                             "src":  "../images/floatingtenorio4.webp"
+                                         },
+                                         {
+                                             "alt":  "Group on private Tenorio River float, tropical fruit snack break",
+                                             "src":  "../images/floatingtenorio5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Llanos de Cortez Waterfall",
+                                                     "90-minute Class 1-2 private safari float with life jackets",
+                                                     "Tropical fruit snack break",
+                                                     "Traditional Costa Rican lunch",
+                                                     "Plus option only: Las Pumas Wildlife Rescue Center"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eLet the river carry you.\u003c/strong\u003e A private half-day wildlife float on the Tenorio River, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🚣",
+                                                      "label":  "Highlights",
+                                                      "value":  "90-Min Safari Float \u0026 Waterfall"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Llanos de Cortez Waterfall",
+                                                     "text":  "Visit one of Guanacaste\u0027s most beautiful waterfalls before the float."
+                                                 },
+                                                 {
+                                                     "title":  "Safari Float",
+                                                     "text":  "A peaceful 90-minute guided float through calm Class I-II waters, spotting wildlife along the way."
+                                                 },
+                                                 {
+                                                     "title":  "PLUS: Las Pumas Rescue Center",
+                                                     "text":  "With the Plus option, visit the wildlife rescue center to learn about conservation efforts."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private raft and private guide, no other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between Classic and Plus?",
+                                         "answer":  "Classic includes the waterfall and the 90-minute safari float. Plus adds a visit to Las Pumas Wildlife Rescue Center."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included, along with a tropical fruit snack break on the river."
+                                     },
+                                     {
+                                         "question":  "Will we definitely see wildlife?",
+                                         "answer":  "Wildlife sightings occur along a natural river and cannot be guaranteed on any single visit, though sightings of monkeys, birds and reptiles are frequent. Your guide knows where to look."
+                                     },
+                                     {
+                                         "question":  "What is the minimum age?",
+                                         "answer":  "The recommended minimum age is 8. Please let us know the ages of all guests when booking."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Light clothing and footwear that can get wet, a dry change of clothes, and a waterproof case for phones or cameras."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Tenorio River Safari Float Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private Tenorio River safari float from Papagayo: wildlife spotting, Llanos de Cortez Waterfall, Las Pumas option, hotel pickup and lunch included."
+}

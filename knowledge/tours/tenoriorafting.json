@@ -1,0 +1,413 @@
+{
+    "id":  "tenoriorafting",
+    "name":  "Tenorio River White Water Rafting Class III–IV",
+    "slug":  "tenoriorafting",
+    "status":  "active",
+    "page_file":  "tours/tenoriorafting.html",
+    "page_url":  "../tours/tenoriorafting.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/tenoriorafting.html",
+    "category":  "Experience",
+    "short_description":  "Private Class III–IV white water rafting on the Tenorio River, racing rapids, plunging over falls and lush tropical wildlife. Snacks and lunch included. Certified bilingual guide exclusively for your group.",
+    "hero_image":  "images/tenoriorafting1.webp",
+    "hero_image_alt":  "Tenorio River White Water Rafting Class III–IV in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "rafting"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Moderate",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  255,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/tenoriorafting.html"
+               },
+    "review_notes":  [
+                         "Activity relationships need editorial review."
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "adventure",
+                      "intensity":  "heavy",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  73,
+                      "min_stay":  4,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "resort",
+                                          "wildlife"
+                                      ],
+                      "avoid_after":  [
+                                          "adventure"
+                                      ],
+                      "tags":  [
+                                   "rafting",
+                                   "tenorio",
+                                   "river",
+                                   "rapids",
+                                   "adventure"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Moderate",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "rafting"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  80,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Tenorio · White Water Rafting · Guanacaste",
+                         "hero_title_html":  "Bigger Rapids.\u003cbr\u003eWilder Drops.\u003cbr\u003eThe Tenorio.",
+                         "hero_chips":  [
+                                            "🚣 Class III–IV Rapids",
+                                            "💦 Tenorio River",
+                                            "🌿 Tropical Forest",
+                                            "🏊 Waterfall Drop"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Conquer the Rapids of the Tenorio River",
+                                                    "intro":  "Challenge yourself on one of Costa Rica\u0027s premier white-water rafting adventures. The Tenorio River offers exciting Class III–IV rapids, breathtaking canyon scenery, crystal-clear waters, and an unforgettable journey through one of Guanacaste\u0027s most spectacular tropical landscapes.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🚣",
+                                                                      "title":  "White-Water Rafting",
+                                                                      "description":  "Paddle through exciting Class III–IV rapids with experienced professional guides, enjoying one of the country\u0027s most thrilling rafting experiences."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌊",
+                                                                      "title":  "Rapids \u0026 Waterfalls",
+                                                                      "description":  "Navigate exhilarating rapids, rolling waves, and dramatic river drops as the Tenorio River winds through untouched tropical rainforest."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "Rainforest Canyon",
+                                                                      "description":  "Drift between towering canyon walls surrounded by lush rainforest, where spectacular scenery accompanies every section of the river."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦺",
+                                                                      "title":  "Professional River Guides",
+                                                                      "description":  "Your certified rafting guides provide expert instruction, high-quality safety equipment, and support throughout the adventure, ensuring an exciting and safe experience."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🌊",
+                                                                   "title":  "One of Costa Rica\u0027s Premier Rafting Adventures",
+                                                                   "text":  "Powerful rapids, breathtaking canyon scenery, and nonstop excitement make the Tenorio River one of the country\u0027s most unforgettable white-water rafting experiences for adventure seekers."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear a swimsuit or quick-dry clothing underneath. You will be completely soaked.",
+                                                                     "Leave valuables, phones and cameras at the resort or secured in the provided dry bag. The Tenorio is not forgiving of loose electronics.",
+                                                                     "Apply sunscreen before departure. Helmets and life jackets are provided and inspected before every launch.",
+                                                                     "Secure-fitting water shoes or sandals with straps are strongly recommended. Flip-flops will be lost on the river.",
+                                                                     "A GoPro with a secure chest mount is the best way to capture the experience. Handheld cameras are not suitable for Class III–IV."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe river or weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "River conditions are monitored closely; rafting is a weather- and water-level-dependent activity.",
+                                                                  "Departures may be adjusted or rerouted for safety if river levels are too high or too low.",
+                                                                  "If Wild Papagayo cancels due to unsafe river conditions, we\u0027ll reschedule whenever possible or issue a full refund."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Your certified private guide, exclusively dedicated to your group, for guests arriving in their own vehicle. Guide pickup included on the way to the destination. Excludes rafting equipment, river operator fee and lunch.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Class III-IV Rapids + Lunch",
+                                                                   "price":  "235",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Moderate to Challenging",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Thrill Seekers",
+                                                              "Adventure Seekers",
+                                                              "White Water Enthusiasts"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "coloradoriverrafting.html",
+                                                "image":  "../images/coloradorafting1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Colorado River Rafting"
+                                            },
+                                            {
+                                                "href":  "floatingtenorio.html",
+                                                "image":  "../images/floatingtenorio1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Floating Tenorio"
+                                            },
+                                            {
+                                                "href":  "tubingceleste.html",
+                                                "image":  "../images/tubingceleste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Tubing Celeste"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Class III-IV white water rafting on the Tenorio River, Costa Rica",
+                                             "src":  "../images/tenoriorafting1.webp"
+                                         },
+                                         {
+                                             "alt":  "Private rafting group hitting rapids on the Tenorio River",
+                                             "src":  "../images/tenoriorafting2.webp"
+                                         },
+                                         {
+                                             "alt":  "Waterfall drop on the Tenorio River rafting route, Guanacaste",
+                                             "src":  "../images/tenoriorafting3.webp"
+                                         },
+                                         {
+                                             "alt":  "Tropical jungle scenery along the Tenorio River rafting route",
+                                             "src":  "../images/tenoriorafting4.webp"
+                                         },
+                                         {
+                                             "alt":  "Rafters celebrating after Class III-IV rapids, Tenorio River",
+                                             "src":  "../images/tenoriorafting5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Full Class III–IV Tenorio River rafting experience",
+                                                     "Snacks on the river",
+                                                     "Traditional Costa Rican lunch",
+                                                     "All safety gear (helmet, life jacket, paddle, dry bag)"
+                                                 ],
+                         "seo_title_override":  "Tenorio River Rafting Class III-IV | Private Whitewater Costa Rica",
+                         "seo_description_override":  "Private Class III-IV white water rafting on the Tenorio River. Rapids, canyon scenery and a waterfall drop with a certified guide exclusively for your group. Lunch included.",
+                         "hero_subtitle_html":  "Paddle Class III-IV rapids through a rainforest canyon on the Tenorio River, with a certified guide and raft dedicated entirely to your group.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "⏱️",
+                                                      "label":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚣",
+                                                      "label":  "Class III-IV Rapids"
+                                                  },
+                                                  {
+                                                      "icon":  "🌊",
+                                                      "label":  "Waterfall Drop"
+                                                  },
+                                                  {
+                                                      "icon":  "🧑‍🤝‍🧑",
+                                                      "label":  "Minimum Age 8"
+                                                  },
+                                                  {
+                                                      "icon":  "🦺",
+                                                      "label":  "Full Safety Gear Included"
+                                                  },
+                                                  {
+                                                      "icon":  "🗓️",
+                                                      "label":  "Available Daily"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "A physically active adventure, previous rafting experience is not required but a baseline fitness level and comfort in moving water are recommended.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "time":  "Morning",
+                                                     "title":  "Private Hotel Pickup",
+                                                     "description":  "Your guide picks you up in an air-conditioned private vehicle and drives to the Tenorio River put-in point."
+                                                 },
+                                                 {
+                                                     "time":  "Pre-Launch",
+                                                     "title":  "Safety Briefing \u0026 Gear Fitting",
+                                                     "description":  "Get fitted with a helmet, life jacket and paddle, and receive a full safety briefing from your certified rafting guide before launch."
+                                                 },
+                                                 {
+                                                     "time":  "On the River",
+                                                     "title":  "Class III-IV Rapids",
+                                                     "description":  "Paddle through a sequence of exciting rapids and a waterfall drop, with rainforest canyon walls rising on either side of the Tenorio River."
+                                                 },
+                                                 {
+                                                     "time":  "Midway",
+                                                     "title":  "Snacks on the River",
+                                                     "description":  "Pause at a calm stretch to refuel with snacks before continuing downriver."
+                                                 },
+                                                 {
+                                                     "time":  "After Rafting",
+                                                     "title":  "Traditional Lunch",
+                                                     "description":  "Dry off and enjoy a traditional Costa Rican lunch included as part of your day."
+                                                 },
+                                                 {
+                                                     "time":  "Return",
+                                                     "title":  "Ride Back to Your Hotel",
+                                                     "description":  "Relax on the private drive back to your hotel, still buzzing from the rapids."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this rafting trip private?",
+                                         "answer":  "Yes, your raft and certified guide are reserved exclusively for your group, not shared with other travelers."
+                                     },
+                                     {
+                                         "question":  "Do we need prior rafting experience?",
+                                         "answer":  "No prior experience is required. Your guide gives a full safety briefing before launch, though a baseline comfort level in moving water is recommended given the Class III-IV rapids."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the minimum age?",
+                                         "answer":  "The recommended minimum age is 8, and participants should be comfortable being in and around whitewater."
+                                     },
+                                     {
+                                         "question":  "Is safety gear included?",
+                                         "answer":  "Yes, helmets, life jackets, paddles and a dry bag are all included and inspected before every launch."
+                                     },
+                                     {
+                                         "question":  "Can we bring a camera?",
+                                         "answer":  "A GoPro with a secure chest mount is the best way to capture the rapids. Handheld phones or cameras are not recommended on Class III-IV whitewater; a dry bag is provided for storage between rapids."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch and river snacks are included."
+                                     },
+                                     {
+                                         "question":  "How does private pricing work for this tour?",
+                                         "answer":  "Pricing varies by pickup location and group size. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     }
+                                 ],
+                         "peak_season_note":  "River flow and rapid intensity are strongest during the May to November rainy season, though the Tenorio runs rafting trips year-round.",
+                         "departure_time":  "7:30 AM"
+                     }
+}

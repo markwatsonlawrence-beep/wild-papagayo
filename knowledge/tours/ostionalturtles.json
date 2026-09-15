@@ -1,0 +1,428 @@
+{
+    "id": "ostionalturtles",
+    "name": "Ostional Turtle Watching Tour Costa Rica",
+    "slug": "ostionalturtles",
+    "status": "active",
+    "page_file": "tours/ostionalturtles.html",
+    "page_url": "../tours/ostionalturtles.html",
+    "canonical_url": "https://wildpapagayo.com/tours/ostionalturtles",
+    "category": "Wildlife",
+    "short_description": "Private nighttime tour to Ostional National Wildlife Refuge to witness olive ridley sea turtles nesting on the beach. Certified local community guide and responsible nighttime viewing under refuge lighting rules. Book via WhatsApp with Wild Papagayo.",
+    "hero_image": "images/ostional1.webp",
+    "hero_image_alt": "Olive ridley sea turtle nesting on Ostional beach at golden hour, Costa Rica",
+    "destination_ids": [
+        "samara"
+    ],
+    "activity_ids": [
+        "turtle-watching",
+        "wildlife-watching",
+        "night-tour"
+    ],
+    "pickup_zone_ids": [
+        "papagayo",
+        "playa-hermosa",
+        "playa-coco"
+    ],
+    "best_for": [
+        "Nature lovers",
+        "Couples",
+        "Wildlife lovers",
+        "Photographers"
+    ],
+    "difficulty": "Easy",
+    "duration_label": "Full Day into Night (approx. 10-11 hours round trip)",
+    "minimum_age": 6,
+    "included": [
+        "Private air-conditioned transportation from Papagayo, Playa Hermosa or Playa Coco",
+        "Bilingual driver-guide for the full journey",
+        "Ostional National Wildlife Refuge entrance fee",
+        "Certified local community guide (required by refuge regulation for beach access)",
+        "Red-light flashlight for the nesting walk",
+        "Bottled water"
+    ],
+    "what_to_bring": [
+        "Comfortable closed-toe walking shoes",
+        "Dark or neutral-colored clothing (bright colors and white light disturb nesting turtles)",
+        "Light jacket or sweater for the evening",
+        "Insect repellent",
+        "Cash for the local community guide fee and gratuities",
+        "Passport or ID"
+    ],
+    "season_ids": [
+        "all-year"
+    ],
+    "featured_hotel_ids": [],
+    "related_article_slugs": ["is-ostional-turtle-watching-worth-it-from-papagayo"],
+    "aliases": [
+        "Ostional Wildlife Refuge Tour",
+        "Olive Ridley Turtle Tour"
+    ],
+    "pricing": {
+        "from_price": null,
+        "currency": "USD",
+        "pricing_note": "Pricing not yet confirmed -- contact Wild Papagayo directly for a quote before publishing structured recommendations."
+    },
+    "source": {
+        "type": "new-tour-page",
+        "path": "tours/ostionalturtles.html"
+    },
+    "review_notes": [
+        "Price intentionally left blank -- owner has not yet confirmed the rate.",
+        "Confirm exact one-way drive time from each pickup zone to Ostional before publishing.",
+        "Confirm minimum age policy with operations -- 6 is a placeholder based on trip length, not a refuge rule.",
+        "Verify current arribada season windows for the year before publishing seasonal claims."
+    ],
+    "last_reviewed": "2026-07-27",
+    "itinerary": {
+        "category": "wildlife",
+        "intensity": "light",
+        "pickup_zones": [
+            "papagayo",
+            "playa-hermosa",
+            "playa-coco"
+        ],
+        "priority": 75,
+        "min_stay": 4,
+        "max_stay": 14,
+        "ideal_after": [
+            "arrival",
+            "resort"
+        ],
+        "avoid_after": [
+            "adventure",
+            "wildlife"
+        ],
+        "tags": [
+            "wildlife",
+            "turtles",
+            "night-tour",
+            "beach",
+            "conservation"
+        ]
+    },
+    "intelligence": {
+        "schema_version": "2.0",
+        "intelligence_status": "auto_generated_review_required",
+        "primary_category": "Nature & Wildlife",
+        "difficulty": "Easy",
+        "duration_hours": 10,
+        "duration_type": "Full Day",
+        "energy_level": "Low",
+        "minimum_age": 6,
+        "best_for": [
+            "Nature lovers",
+            "Couples",
+            "Wildlife lovers",
+            "Photographers"
+        ],
+        "traveler_scores": {
+            "families": 45,
+            "couples": 85,
+            "seniors": 40,
+            "adventure": 60,
+            "wildlife": 100,
+            "relaxation": 35,
+            "private": 85
+        },
+        "pickup_zone_ids": [
+            "papagayo",
+            "playa-hermosa",
+            "playa-coco"
+        ],
+        "season_ids": [
+            "all-year"
+        ],
+        "activity_tags": [
+            "turtle-watching",
+            "wildlife-watching",
+            "night-tour"
+        ],
+        "itinerary_rules": {
+            "ideal_after": [
+                "arrival",
+                "rest"
+            ],
+            "avoid_after": [
+                "adventure"
+            ],
+            "recovery_day_recommended": true
+        },
+        "stay_fit": {
+            "minimum_nights": 4,
+            "ideal_nights": [
+                5,
+                7,
+                10,
+                14
+            ],
+            "preferred_trip_day": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "recommendation_priority": 78,
+        "balance_tags": [
+            "nature-wildlife",
+            "once-in-a-lifetime"
+        ],
+        "editorial_review": {
+            "required": true,
+            "notes": [
+                "Verify pricing before this tour appears in customer-facing recommendations.",
+                "Verify exact drive time from each pickup zone.",
+                "Confirm minimum age and late-return logistics with operations.",
+                "Confirm current-year arribada season dates before publishing."
+            ]
+        },
+        "last_generated": "2026-07-27"
+    },
+    "page_content": {
+        "hero_region_label": "Private Collection · Nicoya Peninsula · Ostional · Costa Rica",
+        "hero_title_html": "Ostional Sea Turtle Nesting Tour",
+        "hero_chips": [
+            "🐢 Olive Ridley Turtles",
+            "🌙 Night Tour",
+            "🏖️ Ostional Wildlife Refuge",
+            "📸 Once-in-a-Lifetime"
+        ],
+        "experience_section": {
+            "tag": "The Experience",
+            "title": "One of the Rarest Wildlife Events on Earth",
+            "intro": "Ostional National Wildlife Refuge is one of the few beaches in the world where olive ridley sea turtles come ashore by the thousands to nest, a phenomenon known as the arribada. On this private night tour, you'll walk the shoreline under moonlight with a certified local community guide, watching these ancient creatures dig their nests and lay their eggs just steps away.",
+            "items": [
+                {
+                    "icon": "🐢",
+                    "title": "Olive Ridley Sea Turtles",
+                    "description": "Ostional is one of only a handful of nesting beaches on the planet where olive ridley turtles nest in mass synchronized arrivals, a natural event found in very few places worldwide."
+                },
+                {
+                    "icon": "🌙",
+                    "title": "Guided Night Walk",
+                    "description": "Certified local community guides, required by the refuge for all beach access after dark, lead the walk using red-light flashlights that do not disturb nesting turtles."
+                },
+                {
+                    "icon": "🏖️",
+                    "title": "Community-Protected Refuge",
+                    "description": "Ostional is managed in partnership with the local community, whose guides fund conservation work through regulated, small-group beach access."
+                },
+                {
+                    "icon": "🌊",
+                    "title": "A Genuine Wild Encounter",
+                    "description": "No enclosures, no staged sightings, just wild turtles on a wild beach. Sightings depend on nature and cannot be guaranteed, but the experience of the beach itself is unforgettable."
+                }
+            ],
+            "footer": {
+                "icon": "🇨🇷",
+                "title": "A Long Journey Worth Taking",
+                "text": "Ostional sits on the Nicoya Peninsula, a substantial private drive from Papagayo. This is a long day into night, but for travelers who want to witness one of Costa Rica's most extraordinary natural events, it is worth every hour on the road."
+            }
+        },
+        "accordion": {
+            "before_you_arrive": [
+                "This is a long private day into night, expect roughly 10-11 hours round trip including drive time. Plan a lighter following day.",
+                "Turtle sightings occur in a natural, wild environment and cannot be guaranteed on any single visit, though sightings are frequent during arribada season.",
+                "Wear dark or neutral clothing and avoid white light or flash photography, both disturb nesting turtles and are restricted on the refuge beach.",
+                "Beach access after dark is only permitted with a certified local community guide, this is a refuge regulation, not a Wild Papagayo policy.",
+                "Bring cash for the local community guide fee and any gratuities.",
+                "Please inform us of any mobility limitations at booking, the beach walk is on natural sand."
+            ],
+            "reservation_policy": [
+                "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                "Because local community guide availability is limited and coordinated in advance, rescheduling requests must be made at least 48 hours ahead whenever possible."
+            ]
+        },
+        "pricing_tiers": {
+            "options": [
+                {
+"option_id":  "full-experience",
+                    "badge": "👑 PRIVATE TOUR",
+                    "heading": "Ostional Night Turtle Watching, Private Transportation & Local Community Guide",
+                    "price": "",
+                    "note": "Pricing not yet published, contact us on WhatsApp for a custom quote based on your pickup zone and group size."
+                }
+            ]
+        },
+        "quick_stats": {
+            "difficulty": "Easy",
+            "duration": "Full Day into Night",
+            "availability": "Seasonal (best August-November)",
+            "best_for": [
+                "Nature Lovers",
+                "Couples",
+                "Wildlife Lovers",
+                "Photographers"
+            ]
+        },
+        "testimonials": [],
+        "cross_sell": [
+            {
+                "href": "slothadventure.html",
+                "image": "../images/sloth1.webp",
+                "label": "Private Tour",
+                "title": "Sloth Adventure Tour"
+            },
+            {
+                "href": "celesteriver.html",
+                "image": "../images/celeste1.webp",
+                "label": "Private Tour",
+                "title": "Celeste River Hike"
+            },
+            {
+                "href": "waterfallpumas.html",
+                "image": "../images/waterfallpumas1.webp",
+                "label": "Private Tour",
+                "title": "Waterfall & Las Pumas Wildlife Rescue"
+            }
+        ],
+        "gallery": [
+            {
+                "alt": "Olive ridley sea turtle nesting on Ostional beach at sunset",
+                "src": "../images/ostional1.webp"
+            },
+            {
+                "alt": "Olive ridley sea turtle resting at the water's edge, Ostional",
+                "src": "../images/ostional2.webp"
+            },
+            {
+                "alt": "Olive ridley sea turtle crawling across the sand at Ostional",
+                "src": "../images/ostional3.webp"
+            },
+            {
+                "alt": "Close-up of an olive ridley sea turtle's head, Ostional",
+                "src": "../images/ostional4.webp"
+            },
+            {
+                "alt": "Olive ridley sea turtle in shallow water with reflection, Ostional",
+                "src": "../images/ostional5.webp"
+            },
+            {
+                "alt": "Sea turtle eggs in a nest on Ostional beach",
+                "src": "../images/ostional6.webp"
+            },
+            {
+                "alt": "Turtle tracks in the sand at Ostional beach at sunrise",
+                "src": "../images/ostional7.webp"
+            },
+            {
+                "alt": "Sunset over the ocean at Ostional beach",
+                "src": "../images/ostional8.webp"
+            },
+            {
+                "alt": "Ostional beach coastline at golden hour",
+                "src": "../images/ostional9.webp"
+            }
+        ],
+        "what_to_pack": [
+            "Dark or neutral-colored clothing",
+            "Comfortable closed-toe walking shoes",
+            "Light jacket or sweater",
+            "Insect repellent",
+            "Reusable water bottle",
+            "Cash for local guide fee and gratuities",
+            "Passport or ID"
+        ],
+        "everything_included": [
+            "Private air-conditioned transportation",
+            "Bilingual driver-guide for the full journey",
+            "Ostional National Wildlife Refuge entrance fee",
+            "Certified local community guide for the beach walk",
+            "Red-light flashlight",
+            "Bottled water"
+        ],
+        "hero_subtitle_html": "<strong>Thousands of turtles. One night beach.</strong> A private night tour to witness the Ostional arribada, from Papagayo and Guanacaste.",
+        "tour_at_a_glance": [
+            {
+                "icon": "🕒",
+                "label": "Duration",
+                "value": "Full Day into Night · Approx. 10-11 Hours"
+            },
+            {
+                "icon": "🚙",
+                "label": "Pickup",
+                "value": "Private hotel pickup & return"
+            },
+            {
+                "icon": "👥",
+                "label": "Experience",
+                "value": "100% Private"
+            },
+            {
+                "icon": "🗣️",
+                "label": "Guide",
+                "value": "Local community guide (required by refuge)"
+            },
+            {
+                "icon": "🐢",
+                "label": "Highlights",
+                "value": "Olive Ridley Turtle Arribada"
+            },
+            {
+                "icon": "📅",
+                "label": "Best Season",
+                "value": "August to November (arribada)"
+            }
+        ],
+        "tour_at_a_glance_note": "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+        "itinerary_steps": [
+            {
+                "title": "Private Afternoon Pickup",
+                "text": "Your private guide meets you at your hotel or resort for the drive to the Nicoya Peninsula."
+            },
+            {
+                "title": "Journey to Ostional",
+                "text": "A private, air-conditioned drive to the wildlife refuge, with a dinner stop along the way."
+            },
+            {
+                "title": "Community Guide Briefing",
+                "text": "Meet your certified local community guide, required by the refuge for all after-dark beach access."
+            },
+            {
+                "title": "Night Turtle Watching",
+                "text": "Walk the shoreline under moonlight with red-light flashlights, watching olive ridley turtles nest."
+            },
+            {
+                "title": "Private Late Return",
+                "text": "A private, late-night return to your resort."
+            }
+        ],
+        "faq": [
+            {
+                "question": "Is this a private tour?",
+                "answer": "Yes, transportation and your driver-guide are private and exclusive to your group. Beach access after dark is coordinated with a certified local community guide, a refuge regulation, not a Wild Papagayo policy."
+            },
+            {
+                "question": "Is hotel pickup included?",
+                "answer": "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco."
+            },
+            {
+                "question": "How much does this tour cost?",
+                "answer": "Pricing is confirmed directly with our concierge based on your pickup zone and group size, contact us on WhatsApp for a custom quote."
+            },
+            {
+                "question": "Will we definitely see turtles?",
+                "answer": "Turtle nesting occurs in a wild, natural environment and cannot be guaranteed on any single visit, though sightings are frequent, especially during arribada season."
+            },
+            {
+                "question": "When is the best time to go?",
+                "answer": "The mass nesting arribada typically occurs between August and November, though exact dates vary by year. Outside these months, individual turtles still nest but less predictably."
+            },
+            {
+                "question": "Is this tour suitable for young children?",
+                "answer": "Due to the long drive and very late return, a minimum age of 6 is recommended for comfort, though this is a practical suggestion rather than a refuge requirement."
+            },
+            {
+                "question": "What should I bring?",
+                "answer": "Dark or neutral-colored clothing, comfortable closed-toe shoes, a light jacket, insect repellent, and cash for the local community guide fee."
+            },
+            {
+                "question": "Can I cancel my reservation?",
+                "answer": "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+            }
+        ]
+    },
+    "seo_title_override": "Ostional Sea Turtle Nesting Private Tour | Wild Papagayo",
+    "seo_description_override": "Private night tour to Ostional Wildlife Refuge from Papagayo to witness olive ridley turtles nesting, certified local guide, hotel pickup included."
+}

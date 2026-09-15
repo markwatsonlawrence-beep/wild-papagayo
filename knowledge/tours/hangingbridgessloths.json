@@ -1,0 +1,442 @@
+{
+    "id":  "hangingbridgessloths",
+    "name":  "Hanging Bridges \u0026 Sloths Experience",
+    "slug":  "hangingbridgessloths",
+    "status":  "active",
+    "page_file":  "tours/hangingbridgessloths.html",
+    "page_url":  "../tours/hangingbridgessloths.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/hangingbridgessloths",
+    "category":  "Wildlife \u0026 Nature",
+    "short_description":  "Private hanging bridges and sloth encounter, 3 suspension bridges through tropical forest, Llanos de Cortez Waterfall and an intimate sloth experience that inspires wonder in every age. Lunch included.",
+    "hero_image":  "images/bridgessloths1.webp",
+    "hero_image_alt":  "Hanging Bridges \u0026 Sloths Experience in Costa Rica",
+    "destination_ids":  [
+                            "la-fortuna"
+                        ],
+    "activity_ids":  [
+                         "hanging-bridges",
+                         "sloth-watching",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Full Day (approx. 9 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+                               "andaz-costa-rica",
+                               "four-seasons-papagayo",
+                               "waldorf-astoria-costa-rica"
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  220,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/hangingbridgessloths.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "relationships":  {
+                          "tours":  [
+
+                                    ],
+                          "destinations":  [
+                                               "la-fortuna"
+                                           ],
+                          "nearby_hotels":  [
+
+                                            ],
+                          "blogs":  [
+
+                                    ],
+                          "last_discovered":  "2026-07-12"
+                      },
+    "itinerary":  {
+                      "category":  "nature",
+                      "intensity":  "moderate",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  95,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "arrival",
+                                          "resort"
+                                      ],
+                      "avoid_after":  [
+                                          "nature"
+                                      ],
+                      "tags":  [
+                                   "wildlife",
+                                   "rainforest",
+                                   "sloths",
+                                   "suspension-bridges",
+                                   "waterfall"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Easy",
+                         "duration_hours":  9,
+                         "duration_type":  "Full Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "hanging-bridges",
+                                               "sloth-watching",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  4,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  100,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Monteverde · Hanging Bridges \u0026 Sloths · Guanacaste",
+                         "hero_title_html":  "Hanging Bridges \u0026amp; Sloths Private Wildlife Tour",
+                         "hero_chips":  [
+                                            "🌉 3 Suspension Bridges",
+                                            "🦥 Sloth Encounter",
+                                            "💦 Llanos de Cortez",
+                                            "🌿 Tropical Forest"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Nature\u0027s Greatest Highlights in One Day",
+                                                    "intro":  "Discover the beauty and biodiversity of Costa Rica through three unforgettable experiences. This carefully designed tour combines spectacular waterfalls, breathtaking rainforest views, and incredible wildlife encounters, making it the perfect adventure for travelers of all ages.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Llanos de Cortez Waterfall",
+                                                                      "description":  "Visit one of Guanacaste\u0027s most beautiful waterfalls, where crystal-clear water, lush tropical surroundings, and a peaceful atmosphere create the perfect place to relax and enjoy nature."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌉",
+                                                                      "title":  "Hanging Bridges",
+                                                                      "description":  "Walk across scenic suspension bridges high above the rainforest canopy while enjoying panoramic views and discovering Costa Rica\u0027s incredible biodiversity."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦥",
+                                                                      "title":  "Sloth Encounter",
+                                                                      "description":  "Explore a private wildlife reserve with a certified naturalist guide as you search for sloths, tropical birds, monkeys, frogs, and other fascinating rainforest species."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "📸",
+                                                                      "title":  "Unforgettable Memories",
+                                                                      "description":  "Every stop offers incredible opportunities for photography, wildlife encounters, and meaningful moments surrounded by Costa Rica\u0027s extraordinary natural beauty."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🦥",
+                                                                   "title":  "Wildlife, Waterfalls \u0026 Rainforest Views",
+                                                                   "text":  "From the refreshing beauty of Llanos de Cortez Waterfall to breathtaking hanging bridges and unforgettable sloth encounters, this tour showcases the very best of Costa Rica\u0027s natural beauty in one relaxing and memorable adventure."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wear comfortable closed-toe shoes for the forest trails.",
+                                                                     "Bring swimwear and a small towel for Llanos de Cortez Waterfall.",
+                                                                     "Apply insect repellent before departure and bring extra for the bridge walk.",
+                                                                     "A camera with a zoom lens is excellent for sloth photography, the encounters are close but respectful distance is maintained.",
+                                                                     "Please inform us of any dietary restrictions for lunch at booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s tropical weather can change quickly. This tour includes outdoor stops at a waterfall and rainforest reserve.",
+                                                                  "Tours normally operate in light rain, but safety always comes first. If conditions prevent an activity from operating safely, our team will contact you to discuss the available options, including rescheduling."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Travel in your own vehicle and meet your certified private guide en route. Transportation is not included. Lunch is not included in this option.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "Waterfall + 3 Bridges + Sloths + Lunch",
+                                                                   "price":  "205",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Families",
+                                                              "Wildlife Lovers",
+                                                              "First-Time Visitors"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "slothadventure.html",
+                                                "image":  "../images/sloth1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sloth Adventure"
+                                            },
+                                            {
+                                                "href":  "slothchocolatetour.html",
+                                                "image":  "../images/slothchocolate1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sloth \u0026 Chocolate Tour"
+                                            },
+                                            {
+                                                "href":  "celesteriver.html",
+                                                "image":  "../images/celeste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Celeste River Hike"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Sloth in tropical forest on Hanging Bridges and Sloths experience, Costa Rica",
+                                             "src":  "../images/bridgessloths1.webp"
+                                         },
+                                         {
+                                             "alt":  "Suspension bridge through lush tropical forest canopy, Costa Rica",
+                                             "src":  "../images/bridgessloths2.webp"
+                                         },
+                                         {
+                                             "alt":  "Llanos de Cortez Waterfall, Guanacaste Costa Rica",
+                                             "src":  "../images/bridgessloths3.webp"
+                                         },
+                                         {
+                                             "alt":  "Close-up sloth encounter on private tour, Costa Rica",
+                                             "src":  "../images/bridgessloths4.webp"
+                                         },
+                                         {
+                                             "alt":  "Tree frog spotted on Hanging Bridges and Sloths tour, Costa Rica",
+                                             "src":  "../images/bridgessloths5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Swimsuit",
+                                              "Towel",
+                                              "Water shoes or sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Llanos de Cortez Waterfall",
+                                                     "3 hanging suspension bridges through the canopy",
+                                                     "Sloth encounter",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
+                         "hero_subtitle_html":  "\u003cstrong\u003eWalk the bridges. Meet the sloths.\u003c/strong\u003e A private full-day wildlife adventure through Costa Rica\u0027s rainforest canopy, from Papagayo and Guanacaste.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "🕒",
+                                                      "label":  "Duration",
+                                                      "value":  "Full Day · Approx. 9 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚙",
+                                                      "label":  "Pickup",
+                                                      "value":  "Private hotel pickup \u0026 return"
+                                                  },
+                                                  {
+                                                      "icon":  "👥",
+                                                      "label":  "Experience",
+                                                      "value":  "100% Private"
+                                                  },
+                                                  {
+                                                      "icon":  "🗣️",
+                                                      "label":  "Guide",
+                                                      "value":  "Certified bilingual local guide"
+                                                  },
+                                                  {
+                                                      "icon":  "🌉",
+                                                      "label":  "Highlights",
+                                                      "value":  "3 Suspension Bridges \u0026 Sloth Encounter"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch",
+                                                      "value":  "Traditional Costa Rican lunch included"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "title":  "Private Hotel Pickup",
+                                                     "text":  "Your private guide meets you directly at your hotel or resort in Guanacaste."
+                                                 },
+                                                 {
+                                                     "title":  "Scenic Journey",
+                                                     "text":  "Relax in your private air-conditioned vehicle on the way to Llanos de Cortez."
+                                                 },
+                                                 {
+                                                     "title":  "Llanos de Cortez Waterfall",
+                                                     "text":  "Swim in the clear pool beneath one of Guanacaste\u0027s most beautiful waterfalls."
+                                                 },
+                                                 {
+                                                     "title":  "Hanging Bridges",
+                                                     "text":  "Walk across three suspension bridges through the rainforest canopy with your certified guide."
+                                                 },
+                                                 {
+                                                     "title":  "Sloth Encounter",
+                                                     "text":  "Search a private wildlife reserve for sloths, tropical birds, monkeys and frogs in their natural habitat."
+                                                 },
+                                                 {
+                                                     "title":  "Lunch \u0026 Private Return",
+                                                     "text":  "Enjoy a traditional Costa Rican lunch before your private return to the resort."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this a private tour?",
+                                         "answer":  "Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group."
+                                     },
+                                     {
+                                         "question":  "Is hotel pickup included?",
+                                         "answer":  "Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location."
+                                     },
+                                     {
+                                         "question":  "How long does the tour take?",
+                                         "answer":  "The full experience takes approximately 9 hours, including the drive, the waterfall stop, the hanging bridges and the sloth encounter, depending on your pickup location and traffic."
+                                     },
+                                     {
+                                         "question":  "Is lunch included?",
+                                         "answer":  "Yes, a traditional Costa Rican lunch is included."
+                                     },
+                                     {
+                                         "question":  "Can children participate?",
+                                         "answer":  "Yes, this tour is suitable for all ages. The suspension bridges have secure railings and the walking pace is easy."
+                                     },
+                                     {
+                                         "question":  "Will we definitely see a sloth?",
+                                         "answer":  "Sloth sightings occur in a natural, wild reserve and cannot be guaranteed on any single visit, though sightings are frequent. Your guide knows the areas sloths favor and will do everything possible to find one."
+                                     },
+                                     {
+                                         "question":  "What should I bring?",
+                                         "answer":  "Comfortable closed-toe shoes, swimwear and a small towel for the waterfall, insect repellent, sunscreen and a reusable water bottle."
+                                     },
+                                     {
+                                         "question":  "What happens if it rains?",
+                                         "answer":  "Costa Rica\u0027s tropical weather can change quickly. Tours normally operate in light rain, but safety always comes first, if conditions prevent an activity from operating safely, our team will contact you to discuss the available options."
+                                     },
+                                     {
+                                         "question":  "Can I cancel my reservation?",
+                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                     }
+                                 ],
+                         "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
+                     },
+    "seo_title_override":  "Hanging Bridges \u0026 Sloths Private Tour | Wild Papagayo",
+    "seo_description_override":  "Private hanging bridges and sloth encounter tour from Papagayo with hotel pickup, certified guide, Llanos de Cortez Waterfall and lunch included."
+}

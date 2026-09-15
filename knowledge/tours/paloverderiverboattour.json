@@ -1,0 +1,416 @@
+{
+    "id":  "paloverderiverboattour",
+    "name":  "Palo Verde River Boat Tour",
+    "slug":  "paloverderiverboattour",
+    "status":  "active",
+    "page_file":  "tours/paloverderiverboattour.html",
+    "page_url":  "../tours/paloverderiverboattour.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/paloverderiverboattour.html",
+    "category":  "Wildlife \u0026 Culture",
+    "short_description":  "Private half-day riverboat excursion through Palo Verde National Park, crocodiles, monkeys, tropical birds and the Tempisque River. Certified bilingual guide. Book with Wild Papagayo.",
+    "hero_image":  "images/paloverde1.webp",
+    "hero_image_alt":  "Palo Verde River Boat Tour in Costa Rica",
+    "destination_ids":  [
+                            "guanacaste"
+                        ],
+    "activity_ids":  [
+                         "boat-tour",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Adventure travelers",
+                     "Teens",
+                     "Active groups"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Half Day (approx. 6 hours)",
+    "minimum_age":  8,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+                               "andaz-costa-rica",
+                               "waldorf-astoria-costa-rica"
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  235,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/paloverderiverboattour.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "wildlife",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  82,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "adventure",
+                                          "resort"
+                                      ],
+                      "avoid_after":  [
+                                          "wildlife"
+                                      ],
+                      "tags":  [
+                                   "wildlife",
+                                   "birds",
+                                   "river",
+                                   "boat",
+                                   "crocodiles",
+                                   "mangrove"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Water Adventure",
+                         "difficulty":  "Easy",
+                         "duration_hours":  6,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "High",
+                         "minimum_age":  8,
+                         "best_for":  [
+                                          "Adventure travelers",
+                                          "Teens",
+                                          "Active groups"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  65,
+                                                 "couples":  80,
+                                                 "seniors":  35,
+                                                 "adventure":  100,
+                                                 "wildlife":  50,
+                                                 "relaxation":  20,
+                                                 "private":  70
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "boat-tour",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+                                                                     "adventure",
+                                                                     "full-day"
+                                                                 ],
+                                                 "recovery_day_recommended":  true
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               5,
+                                                               7,
+                                                               10
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     4,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  90,
+                         "balance_tags":  [
+                                              "adventure",
+                                              "water-adventure"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Palo Verde · River Boat Tour · Guanacaste",
+                         "hero_title_html":  "Where the River\u003cbr\u003eHolds Its Secrets.",
+                         "hero_chips":  [
+                                            "🚢 River Boat",
+                                            "🐊 Crocodile Spotting",
+                                            "🐒 Monkeys",
+                                            "🦜 Tropical Birds"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Discover the Wildlife of Palo Verde National Park",
+                                                    "intro":  "Cruise through the calm waters of the Tempisque River on a private safari boat designed for wildlife observation and unforgettable nature experiences. Surrounded by protected wetlands and tropical forests, this relaxing adventure offers one of the best opportunities in Costa Rica to observe wildlife in its natural habitat.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "🚤",
+                                                                      "title":  "Private River Safari",
+                                                                      "description":  "Enjoy a peaceful guided boat tour through the Tempisque River, exploring one of Costa Rica\u0027s richest wetland ecosystems at a relaxed pace."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🐊",
+                                                                      "title":  "Wildlife Encounters",
+                                                                      "description":  "Spot crocodiles, monkeys, iguanas, herons, scarlet macaws, kingfishers, and countless other native species that thrive within Palo Verde National Park."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦜",
+                                                                      "title":  "Birdwatching Paradise",
+                                                                      "description":  "Discover why Palo Verde is one of Costa Rica\u0027s premier birdwatching destinations, home to hundreds of resident and migratory bird species throughout the year."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "Naturalist Guided Experience",
+                                                                      "description":  "Learn about the unique ecosystems, wildlife, and conservation efforts that make Palo Verde National Park one of the country\u0027s most valuable protected areas."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🛶",
+                                                                   "title":  "One of Costa Rica\u0027s Greatest Wildlife Experiences",
+                                                                   "text":  "Drift through ancient wetlands where crocodiles bask along the riverbanks, monkeys swing through the trees, and colorful birds fill the sky,an unforgettable journey into the heart of Costa Rica\u0027s incredible biodiversity."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "guest_considerations":  [
+                                                                        "Suitable for all ages and fitness levels, this is a leisurely, seated boat excursion.",
+                                                                        "Departure time is scheduled according to river tide conditions for optimal wildlife viewing.",
+                                                                        "Binoculars are highly recommended for birdwatching.",
+                                                                        "Light, neutral-colored clothing is advised to avoid startling wildlife."
+                                                                    ],
+                                           "before_you_arrive":  [
+                                                                     "Weather in Costa Rica can change quickly; some departures may be adjusted for safety or optimal conditions.",
+                                                                     "Photography is warmly encouraged, please respect wildlife distances and park regulations.",
+                                                                     "Sunscreen and insect repellent are strongly recommended.",
+                                                                     "Guests should inform the guide of any medical conditions or special needs prior to departure.",
+                                                                     "Breakfast or lunch and drinks are included as specified."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                                                      "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather or river conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s weather can shift quickly, especially near rivers and wetlands.",
+                                                                  "Departures may be adjusted for safety or to catch optimal tide and wildlife conditions.",
+                                                                  "If Wild Papagayo cancels due to unsafe river conditions, we\u0027ll reschedule whenever possible or issue a full refund."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Your certified private guide, exclusively dedicated to your group, for guests arriving in their own vehicle. Guide pickup included on the way to the destination. Excludes riverboat excursion and park entrance.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+"option_id":  "full-experience",
+                                                                   "badge":  "👑 FULL EXPERIENCE",
+                                                                   "heading":  "River Boat (Private) Safari + Wildlife + Crocodiles",
+                                                                   "price":  "230",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Half Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Wildlife Lovers",
+                                                              "Birdwatchers",
+                                                              "Photography"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "paloverdeculturalviejo.html",
+                                                "image":  "../images/paloverdeviejo1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Palo Verde Cultural Tour"
+                                            },
+                                            {
+                                                "href":  "costaricahighlights.html",
+                                                "image":  "../images/costaricahighlights1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Costa Rica Highlights"
+                                            },
+                                            {
+                                                "href":  "miravallesspa.html",
+                                                "image":  "../images/miravalles1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Miravalles Spa \u0026 Volcano"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Palo Verde National Park river and wildlife, Guanacaste",
+                                             "src":  "../images/paloverde1.webp"
+                                         },
+                                         {
+                                             "alt":  "Crocodiles along the Tempisque River, Palo Verde",
+                                             "src":  "../images/paloverde2.webp"
+                                         },
+                                         {
+                                             "alt":  "Tropical birds in Palo Verde National Park wetlands",
+                                             "src":  "../images/paloverde3.webp"
+                                         },
+                                         {
+                                             "alt":  "Howler monkeys in the Palo Verde rainforest canopy",
+                                             "src":  "../images/paloverde4.webp"
+                                         },
+                                         {
+                                             "alt":  "Private riverboat on the Tempisque River, Costa Rica",
+                                             "src":  "../images/paloverde5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Breakfast or lunch",
+                                                     "Private 90-minute riverboat excursion",
+                                                     "Palo Verde National Park entrance fee"
+                                                 ],
+                         "seo_title_override":  "Palo Verde River Boat Tour | Private Wildlife Safari Costa Rica",
+                         "seo_description_override":  "Private riverboat safari through Palo Verde National Park. Spot crocodiles, monkeys and tropical birds on the Tempisque River with your own bilingual guide.",
+                         "hero_subtitle_html":  "Cruise the Tempisque River in your own private boat, where crocodiles bask on the banks and scarlet macaws cross overhead. No crowded tour boats, just you, your guide, and the wetlands.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "⏱️",
+                                                      "label":  "Half Day · Approx. 6 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "🚤",
+                                                      "label":  "Private Riverboat"
+                                                  },
+                                                  {
+                                                      "icon":  "🐊",
+                                                      "label":  "Wildlife \u0026 Crocodiles"
+                                                  },
+                                                  {
+                                                      "icon":  "🧑‍🤝‍🧑",
+                                                      "label":  "Minimum Age 8"
+                                                  },
+                                                  {
+                                                      "icon":  "📍",
+                                                      "label":  "Palo Verde National Park"
+                                                  },
+                                                  {
+                                                      "icon":  "🗓️",
+                                                      "label":  "Available Daily"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "Departure time is set according to river tide conditions for the best wildlife viewing, so exact pickup time is confirmed closer to your date.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "time":  "Morning",
+                                                     "title":  "Private Hotel Pickup",
+                                                     "description":  "Your guide picks you up in an air-conditioned private vehicle from your hotel and drives you toward the Tempisque River, with breakfast or lunch included along the way."
+                                                 },
+                                                 {
+                                                     "time":  "On Arrival",
+                                                     "title":  "Board Your Private Boat",
+                                                     "description":  "Step aboard a safari-style riverboat reserved exclusively for your group, ready to explore the wetlands of Palo Verde National Park at your own pace."
+                                                 },
+                                                 {
+                                                     "time":  "On the River",
+                                                     "title":  "Wildlife Cruise Along the Tempisque",
+                                                     "description":  "Drift past crocodiles sunning on the banks, troops of monkeys in the trees, and some of the hundreds of bird species that call this wetland home, stopping whenever something catches your eye."
+                                                 },
+                                                 {
+                                                     "time":  "Throughout",
+                                                     "title":  "Naturalist Commentary",
+                                                     "description":  "Your certified bilingual guide points out wildlife and shares insight into the ecosystems and conservation work that protect Palo Verde."
+                                                 },
+                                                 {
+                                                     "time":  "Return",
+                                                     "title":  "Ride Back to Your Hotel",
+                                                     "description":  "After roughly 90 minutes on the water, cruise back to the dock and enjoy a relaxed private drive back to your hotel."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is the Palo Verde River Boat Tour private?",
+                                         "answer":  "Yes. Your boat is reserved exclusively for your group, unlike shared tours where you share the ride with strangers. You decide when to stop and how long to linger at each wildlife sighting."
+                                     },
+                                     {
+                                         "question":  "What wildlife will we see?",
+                                         "answer":  "Palo Verde is known for crocodiles, howler and white-faced monkeys, iguanas, and one of Costa Rica\u0027s richest concentrations of resident and migratory birds, including herons, kingfishers and scarlet macaws. Sightings cannot be guaranteed, though frequent."
+                                     },
+                                     {
+                                         "question":  "Is this tour suitable for kids?",
+                                         "answer":  "The recommended minimum age is 8, since the excursion involves a boat ride and a full morning or afternoon out. It\u0027s a leisurely, seated cruise, so it suits most fitness levels."
+                                     },
+                                     {
+                                         "question":  "Do we need to swim or get in the water?",
+                                         "answer":  "No. This is a seated riverboat excursion, you stay on the boat the entire time and observe wildlife from the water."
+                                     },
+                                     {
+                                         "question":  "What should we bring?",
+                                         "answer":  "Sunscreen, insect repellent, a hat, and binoculars if you have them. Light, neutral-colored clothing helps avoid startling wildlife."
+                                     },
+                                     {
+                                         "question":  "Is breakfast or lunch included?",
+                                         "answer":  "Yes, breakfast or lunch is included depending on your departure time, along with bottled water and snacks."
+                                     },
+                                     {
+                                         "question":  "How does private pricing work for this tour?",
+                                         "answer":  "Pricing varies by pickup location and group size. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     }
+                                 ],
+                         "peak_season_note":  "River conditions and wildlife visibility are best during the dry season (December to April), though the tour runs daily year-round.",
+                         "departure_time":  "To be confirmed (tide-dependent)"
+                     }
+}
