@@ -1,0 +1,546 @@
+# ============================================================
+# Wild Papagayo - Tour Page Generator v1.0
+# Generates tours/*.html from knowledge/tours/*.json, using the
+# real, hand-extracted page_content field (hero copy, experience
+# highlights, accordions, pricing tiers, testimonials, cross-sell)
+# captured from the original hand-crafted pages -- this generator
+# reproduces that real content, it does not invent new content.
+# Usage: .\tour-generator.ps1
+# ============================================================
+
+[CmdletBinding()]
+param()
+
+$ErrorActionPreference = "Stop"
+
+function Write-FileIfChanged {
+    param([string]$Path, [string]$Content)
+    if ((Test-Path $Path) -and ([System.IO.File]::ReadAllText($Path, [System.Text.Encoding]::UTF8) -ceq $Content)) { return }
+    [System.IO.File]::WriteAllText($Path, $Content, [System.Text.UTF8Encoding]::new($false))
+}
+function Get-SeoDescription {
+    param([string]$Text, [int]$MaxLen = 150)
+    if ([string]::IsNullOrWhiteSpace($Text) -or $Text.Length -le $MaxLen) { return $Text }
+    $slice = $Text.Substring(0, $MaxLen)
+    $lastPeriod = $slice.LastIndexOf('. ')
+    if ($lastPeriod -gt 60) { return $slice.Substring(0, $lastPeriod + 1).Trim() }
+    $lastComma = $slice.LastIndexOf(', ')
+    if ($lastComma -gt 60) { return ($slice.Substring(0, $lastComma).TrimEnd() + '.') }
+    $lastSpace = $slice.LastIndexOf(' ')
+    if ($lastSpace -gt 0) { $slice = $slice.Substring(0, $lastSpace) }
+    return ($slice.TrimEnd(',',';',':','-',' ') + '.')
+}
+
+function Get-SeoTitle {
+    param([string]$Name, [int]$MaxLen = 60)
+    $suffix = ' | Wild Papagayo'
+    $needsRegion = $Name -notmatch 'Costa Rica'
+    $region = if ($needsRegion) { ', Costa Rica' } else { '' }
+    $budget = $MaxLen - $suffix.Length - $region.Length
+    $short = $Name
+    $emDashSep = ' ' + [char]0x2014 + ' '
+    $dashIdx = $Name.IndexOf($emDashSep)
+    if ($dashIdx -gt 0) { $short = $Name.Substring(0, $dashIdx) }
+    if ($short.Length -gt $budget) {
+        $slice = $short.Substring(0, $budget)
+        $lastSpace = $slice.LastIndexOf(' ')
+        if ($lastSpace -gt 0) { $slice = $slice.Substring(0, $lastSpace) }
+        $connectors = @('and','&','at','of','the','with','for','in','a','to','on',[string]([char]0x2014))
+        $words = [System.Collections.Generic.List[string]]($slice -split ' ')
+        while ($words.Count -gt 1 -and $connectors -contains $words[$words.Count - 1].ToLower().TrimEnd(',',';',':','-')) {
+            $words.RemoveAt($words.Count - 1)
+        }
+        $short = ($words -join ' ').TrimEnd(',',';',':','-',' ',[char]0x2014)
+    }
+    return "$short$region$suffix"
+}
+
+$root = $PSScriptRoot
+$tourDir = Join-Path $root "knowledge\tours"
+$templatePath = Join-Path $root "templates\tour.html"
+$outDir = Join-Path $root "tours"
+$siteUrl = "https://wildpapagayo.com"
+
+# Related Articles -- reuses the exact pattern already proven in production on
+# hotel pages (hotel-generator.ps1): curated slugs first, then automatic
+# tour_ids matches, deduped, capped at 3. No generic fallback -- a tour with
+# no real match renders nothing.
+$blogDataPath = Join-Path $root "blog-data.json"
+$allBlogArticles = if (Test-Path $blogDataPath) { @(([System.IO.File]::ReadAllText($blogDataPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json)) } else { @() }
+$tourRelatedStats = New-Object System.Collections.Generic.List[object]
+$invalidRelatedSlugs = New-Object System.Collections.Generic.List[object]
+
+# Real width/height per image, extracted from the actual .webp files by
+# get-image-dimensions.js -- used so <img> tags carry real dimensions instead
+# of guesses, preventing layout shift without fabricating values.
+$dimensionsPath = Join-Path $root "image-dimensions.json"
+$imageDimensions = if (Test-Path $dimensionsPath) { [System.IO.File]::ReadAllText($dimensionsPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json } else { $null }
+function Get-ImageDimAttrs {
+    param([string]$Src)
+    if ($null -eq $imageDimensions) { return '' }
+    $fileName = [System.IO.Path]::GetFileName($Src)
+    $prop = $imageDimensions.PSObject.Properties[$fileName]
+    if ($null -eq $prop) { return '' }
+    return ' width="' + [string]$prop.Value.width + '" height="' + [string]$prop.Value.height + '"'
+}
+
+function Read-Utf8Json {
+    param([string]$Path)
+    return ([System.IO.File]::ReadAllText($Path, [System.Text.Encoding]::UTF8) | ConvertFrom-Json)
+}
+function Get-PropertyValue {
+    param($Object, [string]$Name, $Default = $null)
+    if ($null -eq $Object) { return $Default }
+    $p = $Object.PSObject.Properties[$Name]
+    if ($null -eq $p -or $null -eq $p.Value) { return $Default }
+    return $p.Value
+}
+function ConvertTo-HtmlSafe {
+    param([string]$Text)
+    if ([string]::IsNullOrEmpty($Text)) { return "" }
+    return $Text.Replace('&','&amp;').Replace('<','&lt;').Replace('>','&gt;').Replace('"','&quot;')
+}
+# Some extracted fields intentionally keep inline tags (e.g. <strong>, <br>) that
+# were part of the real page copy -- these must NOT be escaped, only the plain
+# text fields (titles, alt text, meta) go through ConvertTo-HtmlSafe.
+
+New-Item -ItemType Directory -Force $outDir | Out-Null
+$template = [System.IO.File]::ReadAllText($templatePath, [System.Text.Encoding]::UTF8)
+
+$files = Get-ChildItem $tourDir -Filter "*.json" -File | Sort-Object Name
+$generated = 0
+$skipped = @()
+
+foreach ($file in $files) {
+    $tour = Read-Utf8Json $file.FullName
+    $id = [string]$tour.id
+    $pc = Get-PropertyValue $tour 'page_content' $null
+    if (-not $pc) { $skipped += "$id (no page_content -- run the extraction step first)"; continue }
+
+    $name = [string]$tour.name
+    $slug = [string]$tour.slug
+    $shortDesc = [string]$tour.short_description
+    $heroImage = [string]$tour.hero_image
+    $heroImageAlt = [string]$tour.hero_image_alt
+    $heroImageDim = Get-ImageDimAttrs $heroImage
+    $canonical = "$siteUrl/tours/$slug"
+
+    # ---- Head / SEO ----
+    # Optional per-tour overrides -- when absent, falls back to the auto-generated
+    # title/description derived from name/short_description (unchanged behavior
+    # for the other 31 tours until they get an override too).
+    $seoTitleOverride = [string](Get-PropertyValue $tour 'seo_title_override' '')
+    $seoTitle = if ($seoTitleOverride) { $seoTitleOverride } else { Get-SeoTitle $name }
+    $seoDescOverride = [string](Get-PropertyValue $tour 'seo_description_override' '')
+    $seoDesc = if ($seoDescOverride) { $seoDescOverride } else { Get-SeoDescription $shortDesc }
+    $ogImage = "$siteUrl/$heroImage"
+
+    $breadcrumb = [ordered]@{
+        "@type"="BreadcrumbList"
+        itemListElement=@(
+            [ordered]@{"@type"="ListItem";position=1;name="Home";item="$siteUrl/"}
+            [ordered]@{"@type"="ListItem";position=2;name="Tours";item="$siteUrl/tours"}
+            [ordered]@{"@type"="ListItem";position=3;name=$name;item=$canonical}
+        )
+    }
+    $touristTrip = [ordered]@{
+        "@type"="TouristTrip"
+        "@id"="$canonical-tour"
+        name=$name
+        description=$shortDesc
+        url=$canonical
+        provider=[ordered]@{"@type"="TravelAgency";"@id"="$siteUrl/#organization";name="Wild Papagayo"}
+        image=$ogImage
+        availableLanguage=@("en","es")
+    }
+    # Primary offer price -- pricing.from_price is the single canonical
+    # source of truth for a tour's publicly advertised starting price, but
+    # ONLY once it's been explicitly confirmed (pricing.price_confirmed ==
+    # true). An unconfirmed from_price is a draft value, not a public price.
+    #
+    # If it isn't confirmed, the ONLY allowed fallback is a pricing option
+    # explicitly flagged as the main one (page_content.pricing_tiers.options[].
+    # is_primary == true) -- never array position, and never guide_only
+    # (a guide-only product is not necessarily the same product as the full
+    # tour, so it must never silently become "the" tour price).
+    #
+    # If neither exists, omit offers.price entirely. A missing price in
+    # schema is safer than a wrong or contradicted one.
+    $pricingBlock = Get-PropertyValue $tour 'pricing' $null
+    $canonicalFromPrice = Get-PropertyValue $pricingBlock 'from_price' $null
+    $priceConfirmed = [bool](Get-PropertyValue $pricingBlock 'price_confirmed' $false)
+
+    $primaryOfferPrice = $null
+    if ($canonicalFromPrice -and $priceConfirmed) {
+        $primaryOfferPrice = $canonicalFromPrice
+    } else {
+        $pricingTiers = Get-PropertyValue $pc 'pricing_tiers' $null
+        $pricingOptionsList = @(Get-PropertyValue $pricingTiers 'options' @())
+        $explicitMainOption = $pricingOptionsList | Where-Object { [bool](Get-PropertyValue $_ 'is_primary' $false) } | Select-Object -First 1
+        if ($explicitMainOption) {
+            $primaryOfferPrice = Get-PropertyValue $explicitMainOption 'price' $null
+        }
+    }
+
+    if ($primaryOfferPrice) {
+        $touristTrip.offers = [ordered]@{"@type"="Offer";price=[string]$primaryOfferPrice;priceCurrency="USD";availability="https://schema.org/InStock"}
+    }
+    $schema = @{"@context"="https://schema.org";"@graph"=@($breadcrumb,$touristTrip)} | ConvertTo-Json -Depth 10 -Compress
+
+    # ---- Hero ----
+    $heroRegion = [string](Get-PropertyValue $pc 'hero_region_label' $tour.category)
+    $heroTitleHtml = [string](Get-PropertyValue $pc 'hero_title_html' $name)
+    $chips = @(Get-PropertyValue $pc 'hero_chips' @())
+    $heroChipsHtml = ($chips | ForEach-Object { "<span>$_</span>" }) -join ''
+    $heroSubtitle = [string](Get-PropertyValue $pc 'hero_subtitle_html' '')
+    $heroSubtitleHtml = if ($heroSubtitle) { '<p class="ths-subtitle">' + $heroSubtitle + '</p>' } else { '' }
+
+    # ---- Pickup areas (optional per-tour hotel breakdown; falls back to the
+    # generic zone-name list already hardcoded in the template when absent) ----
+    $pickupAreas = @(Get-PropertyValue $pc 'pickup_areas' @())
+    if ($pickupAreas.Count -gt 0) {
+        $pickupAreasHtml = ($pickupAreas | ForEach-Object {
+            $hotels = (@($_.hotels) | ForEach-Object { ConvertTo-HtmlSafe $_ }) -join ' &middot; '
+            '<div class="pickup-area"><b>' + (ConvertTo-HtmlSafe $_.area) + '</b><span>' + $hotels + '</span></div>'
+        }) -join "`n"
+    } else {
+        $pickupAreasHtml = '<div class="ths-trust-hotels">Tamarindo &middot; Hacienda Pinilla &middot; Flamingo &middot; Reserva Conchal &middot; Matapalo &middot; Papagayo Bay &middot; Peninsula de Papagayo &middot; Coco &middot; Hermosa</div>'
+    }
+
+    # ---- Peak season note (optional, only when operationally true) ----
+    $peakSeasonNote = [string](Get-PropertyValue $pc 'peak_season_note' '')
+    $peakSeasonHtml = if ($peakSeasonNote) { '<p class="tour-peak-season">&#9889; ' + (ConvertTo-HtmlSafe $peakSeasonNote) + '</p>' } else { '' }
+
+    # ---- Tour at a Glance (optional -- empty/absent tours render nothing) ----
+    $glanceItems = @(Get-PropertyValue $pc 'tour_at_a_glance' @())
+    $glanceHtml = ""
+    if ($glanceItems.Count -gt 0) {
+        $glanceCardsHtml = ($glanceItems | ForEach-Object {
+            '<div class="glance-item"><div class="glance-icon">' + $_.icon + '</div><b>' + (ConvertTo-HtmlSafe $_.label) + '</b><span>' + (ConvertTo-HtmlSafe $_.value) + '</span></div>'
+        }) -join "`n"
+        $glanceNote = [string](Get-PropertyValue $pc 'tour_at_a_glance_note' '')
+        $glanceNoteHtml = if ($glanceNote) { '<p class="tour-glance-note">' + (ConvertTo-HtmlSafe $glanceNote) + '</p>' } else { '' }
+        $glanceHtml = '<div class="tour-glance-bar reveal"><div class="tour-glance-grid">' + $glanceCardsHtml + '</div>' + $glanceNoteHtml + '</div>'
+    }
+
+    # ---- Gallery ----
+    $gallery = @(Get-PropertyValue $pc 'gallery' @())
+    $galleryMainHtml = ($gallery | ForEach-Object {
+        '<img alt="' + (ConvertTo-HtmlSafe $_.alt) + '" src="../' + $_.src.TrimStart('.','/').Replace('images/','images/') + '" loading="lazy" decoding="async">'
+    }) -join "`n"
+    # gallery.src already stored as "../images/x.webp" from extraction -- fix double-prefix risk
+    $galleryMainHtml = ($gallery | ForEach-Object {
+        $src = [string]$_.src
+        if (-not $src.StartsWith('..')) { $src = "../$src" }
+        '<img alt="' + (ConvertTo-HtmlSafe $_.alt) + '" src="' + $src + '"' + (Get-ImageDimAttrs $src) + ' loading="lazy" decoding="async">'
+    }) -join "`n"
+    $galleryThumbsHtml = ($gallery | ForEach-Object {
+        $src = [string]$_.src
+        if (-not $src.StartsWith('..')) { $src = "../$src" }
+        '<button type="button"><img alt="' + (ConvertTo-HtmlSafe $_.alt) + '" src="' + $src + '"' + (Get-ImageDimAttrs $src) + ' loading="lazy" decoding="async"></button>'
+    }) -join "`n"
+
+    # ---- Why Explore Privately (universal Wild Papagayo brand block, same on every tour) ----
+    $whyPrivateSection = '<section class="why-private-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why It Matters</span><h2 class="section-title">Why Explore Privately?</h2></div><div class="why-private-grid"><div class="why-private-item reveal"><h3>Your Own Vehicle</h3><p>Travel comfortably without sharing transportation with other groups.</p></div><div class="why-private-item reveal"><h3>Direct Hotel Pickup</h3><p>Start and end the experience directly at your resort. No shared buses, no unnecessary hotel stops.</p></div><div class="why-private-item reveal"><h3>Personal Attention</h3><p>Enjoy more interaction with your certified local guide.</p></div><div class="why-private-item reveal"><h3>A Better Pace</h3><p>Spend your day experiencing Costa Rica instead of waiting on a large group.</p></div><div class="why-private-item reveal"><h3>Local Support</h3><p>Your Wild Papagayo concierge helps coordinate every detail before your tour.</p></div></div></div></section>'
+
+    # ---- Experience section ----
+    $exp = Get-PropertyValue $pc 'experience_section' $null
+    $experienceSectionHtml = ""
+    if ($exp -and $exp.title) {
+        $itemsHtml = (@(Get-PropertyValue $exp 'items' @()) | ForEach-Object {
+            '<div class="experience-item"><div class="experience-icon">' + $_.icon + '</div><h3>' + (ConvertTo-HtmlSafe $_.title) + '</h3><p>' + (ConvertTo-HtmlSafe $_.description) + '</p></div>'
+        }) -join "`n"
+        $footer = Get-PropertyValue $exp 'footer' $null
+        $footerHtml = ""
+        if ($footer -and $footer.title) {
+            $footerHtml = '<div class="experience-footer"><div class="experience-highlight"><span>' + $footer.icon + '</span><div><h3>' + (ConvertTo-HtmlSafe $footer.title) + '</h3><p>' + (ConvertTo-HtmlSafe $footer.text) + '</p></div></div></div>'
+        }
+        $experienceSectionHtml = '<div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">' + (ConvertTo-HtmlSafe $exp.tag) + '</span><h2>' + (ConvertTo-HtmlSafe $exp.title) + '</h2><p class="experience-intro">' + (ConvertTo-HtmlSafe $exp.intro) + '</p><div class="experience-grid">' + $itemsHtml + '</div>' + $footerHtml + '</div>'
+    }
+
+    # ---- Step-by-step itinerary (optional) ----
+    $itinerarySteps = @(Get-PropertyValue $pc 'itinerary_steps' @())
+    $itineraryHtml = ""
+    if ($itinerarySteps.Count -gt 0) {
+        $stepBlocks = New-Object System.Collections.Generic.List[string]
+        for ($i = 0; $i -lt $itinerarySteps.Count; $i++) {
+            $step = $itinerarySteps[$i]
+            $num = ('{0:D2}' -f ($i + 1))
+            $stepBlocks.Add('<div class="itinerary-step reveal"><div class="itinerary-step-num">' + $num + '</div><div class="itinerary-step-body"><h3>' + (ConvertTo-HtmlSafe $step.title) + '</h3><p>' + (ConvertTo-HtmlSafe $step.text) + '</p></div></div>')
+        }
+        $itineraryHtml = '<div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack">' + ($stepBlocks -join "`n") + '</div></div>'
+    }
+
+    # ---- FAQ (optional) ----
+    $faqItems = @(Get-PropertyValue $pc 'faq' @())
+    $faqHtml = ""
+    $faqSchema = $null
+    if ($faqItems.Count -gt 0) {
+        $faqBlocks = ($faqItems | ForEach-Object {
+            '<div class="accordion-item"><button class="accordion-trigger"><span>' + (ConvertTo-HtmlSafe $_.question) + '</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>' + (ConvertTo-HtmlSafe $_.answer) + '</p></div></div>'
+        }) -join "`n"
+        $faqHtml = '<div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack">' + $faqBlocks + '</div></div>'
+        $faqEntities = $faqItems | ForEach-Object {
+            [ordered]@{"@type"="Question";name=[string]$_.question;acceptedAnswer=[ordered]@{"@type"="Answer";text=[string]$_.answer}}
+        }
+        $faqSchema = [ordered]@{"@context"="https://schema.org";"@type"="FAQPage";mainEntity=@($faqEntities)} | ConvertTo-Json -Depth 10 -Compress
+    }
+    $faqSchemaTag = if ($faqSchema) { '<script type="application/ld+json">' + $faqSchema + '</script>' } else { '' }
+
+    # ---- Related Articles ("Travel insights") ----
+    $curatedSlugList = @(Get-PropertyValue $tour 'related_article_slugs' @())
+    $curatedArticles = New-Object System.Collections.Generic.List[object]
+    foreach ($curSlug in $curatedSlugList) {
+        $match = $allBlogArticles | Where-Object { $_.slug -eq $curSlug } | Select-Object -First 1
+        if ($match) {
+            $curatedArticles.Add($match)
+        } else {
+            $invalidRelatedSlugs.Add([pscustomobject]@{ tour = $id; slug = $curSlug })
+            Write-Warning "Invalid related_article_slugs entry on '$id': '$curSlug' does not exist in blog-data.json -- skipped, no link rendered."
+        }
+    }
+    $autoMatches = @($allBlogArticles | Where-Object { @(Get-PropertyValue $_ 'tour_ids' @()) -contains $id })
+    $seenRelatedSlugs = New-Object System.Collections.Generic.HashSet[string]
+    $relatedArticleEntries = New-Object System.Collections.Generic.List[object]
+    foreach ($art in $curatedArticles) {
+        if ($seenRelatedSlugs.Add([string]$art.slug)) {
+            $relatedArticleEntries.Add([pscustomobject]@{ article = $art; reason = 'CURATED' })
+        }
+    }
+    foreach ($art in $autoMatches) {
+        if ($seenRelatedSlugs.Add([string]$art.slug)) {
+            $relatedArticleEntries.Add([pscustomobject]@{ article = $art; reason = 'TOUR_ID_MATCH' })
+        }
+    }
+    $relatedArticleEntries = @($relatedArticleEntries | Select-Object -First 3)
+    $tourRelatedStats.Add([pscustomobject]@{ tour = $id; entries = $relatedArticleEntries })
+
+    $relatedArticlesHtml = ""
+    if ($relatedArticleEntries.Count -gt 0) {
+        $riCards = ($relatedArticleEntries | ForEach-Object {
+            $art = $_.article
+            $artImg = if ($art.image_top) { $art.image_top } else { $tour.hero_image }
+            '<a class="ti-card" href="../blog/' + (ConvertTo-HtmlSafe $art.slug) + '"><img src="../' + (ConvertTo-HtmlSafe $artImg) + '" alt="' + (ConvertTo-HtmlSafe $art.image_top_alt) + '" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">' + (ConvertTo-HtmlSafe $art.category) + '</span><h3>' + (ConvertTo-HtmlSafe $art.title) + '</h3><p>' + (ConvertTo-HtmlSafe $art.excerpt) + '</p></div></a>'
+        }) -join ''
+        $relatedArticlesHtml = '<section class="ti-section reveal"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid">' + $riCards + '</div></section>'
+    }
+
+    # ---- Accordion items ----
+    $accordionBlocks = New-Object System.Collections.Generic.List[string]
+    $accordion = Get-PropertyValue $pc 'accordion' $null
+
+    $guestConsiderations = @(Get-PropertyValue $accordion 'guest_considerations' @())
+    if ($guestConsiderations.Count -gt 0) {
+        $items = ($guestConsiderations | ForEach-Object { "<li>$_</li>" }) -join "`n"
+        $accordionBlocks.Add('<div class="accordion-item"><button class="accordion-trigger"><span>Guest Considerations</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list">' + $items + '</ul></div></div>')
+    }
+    $beforeYouArrive = @(Get-PropertyValue $accordion 'before_you_arrive' @())
+    if ($beforeYouArrive.Count -gt 0) {
+        $items = ($beforeYouArrive | ForEach-Object { "<li>$_</li>" }) -join "`n"
+        $accordionBlocks.Add('<div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list">' + $items + '</ul></div></div>')
+    }
+    $reservationPolicy = @(Get-PropertyValue $accordion 'reservation_policy' @())
+    if ($reservationPolicy.Count -gt 0) {
+        $items = ($reservationPolicy | ForEach-Object { "<p>$_</p>" }) -join "`n<hr>`n"
+        $accordionBlocks.Add('<div class="accordion-item"><button class="accordion-trigger"><span>Reservation Policy</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><div class="accordion-policy">' + $items + '</div></div></div>')
+    }
+    $weatherPolicy = @(Get-PropertyValue $accordion 'weather_policy' @())
+    if ($weatherPolicy.Count -gt 0) {
+        $items = ($weatherPolicy | ForEach-Object { "<p>$_</p>" }) -join "`n<hr>`n"
+        $accordionBlocks.Add('<div class="accordion-item"><button class="accordion-trigger"><span>Weather Policy</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><div class="accordion-policy">' + $items + '</div></div></div>')
+    }
+    $whatToPack = @(Get-PropertyValue $pc 'what_to_pack' @())
+    if ($whatToPack.Count -gt 0) {
+        $items = ($whatToPack | ForEach-Object { '<p><span class="check-red">&#10003;</span> ' + (ConvertTo-HtmlSafe $_) + '</p>' }) -join "`n"
+        $accordionBlocks.Add('<div class="accordion-item"><button class="accordion-trigger"><span>What to Pack</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><div class="what-to-bring">' + $items + '</div></div></div>')
+    }
+    # "Everything Included" now renders as an always-visible block near the top
+    # of the right column (after pricing), not buried in the accordion.
+    $everythingIncluded = @(Get-PropertyValue $pc 'everything_included' @())
+    $everythingIncludedTopHtml = ""
+    if ($everythingIncluded.Count -gt 0) {
+        $items = ($everythingIncluded | ForEach-Object { '<p><span class="check-red">&#10003;</span> ' + (ConvertTo-HtmlSafe $_) + '</p>' }) -join "`n"
+        $everythingIncludedTopHtml = '<div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list">' + $items + '</div></div>'
+    }
+    $accordionHtml = $accordionBlocks -join "`n"
+
+    # ---- Pricing ----
+    $pricingTiers = Get-PropertyValue $pc 'pricing_tiers' $null
+    $guideOnly = Get-PropertyValue $pricingTiers 'guide_only' $null
+    $guideOnlyHtml = ""
+    if ($guideOnly -and $guideOnly.price) {
+        $guideOnlyHtml = '<div class="self-drive-price-card"><div><span class="pricing-eyebrow">Guide Only</span><h3>' + (ConvertTo-HtmlSafe $guideOnly.heading) + '</h3><p>' + (ConvertTo-HtmlSafe $guideOnly.description) + '</p></div><strong>From $' + [string]$guideOnly.price + '</strong></div>'
+    }
+
+    $options = @(Get-PropertyValue $pricingTiers 'options' @())
+    $optionsCount = [Math]::Max(1, $options.Count)
+    $optionsHtml = ($options | ForEach-Object {
+        $borderStyle = if ($options.Count -gt 1 -and $_ -eq $options[-1]) { ' style="border: 2px solid #062448;"' } else { '' }
+        $headingTag = if ($_.heading) { '<h3 style="font-size:.82rem; font-weight:700; color:#062448; margin-bottom:12px; line-height:1.4;">' + (ConvertTo-HtmlSafe $_.heading) + '</h3>' } else { '' }
+        $priceHtml = if ($_.price) { '<div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + [string]$_.price + ' <small>p.p.</small></strong></div>' } else { '' }
+        $noteHtml = if ($_.note) { '<p class="hiace-note"><span class="price-note">' + (ConvertTo-HtmlSafe $_.note) + '</span></p>' } else { '' }
+        '<div class="tour-option-price-card"' + $borderStyle + '><span class="option-badge">' + $_.badge + '</span>' + $headingTag + $priceHtml + $noteHtml + '</div>'
+    }) -join "`n"
+
+    $bookingOptionsHtml = ($options | ForEach-Object { '<option>' + (ConvertTo-HtmlSafe $_.heading) + '</option>' }) -join "`n"
+    if ($guideOnly -and $guideOnly.price) { $bookingOptionsHtml += "`n" + '<option>Guide Only &#8212; Self Drive</option>' }
+
+    # ---- Price teaser (price + CTA surfaced early in the DOM, right after
+    # Tour at a Glance, so mobile visitors and crawlers see it before the
+    # long-form content) ----
+    #
+    # This is the page's single CANONICAL starting-price presentation, so it
+    # follows the same price_confirmed gate as JSON-LD: only pricing.from_price,
+    # and only once confirmed, may be shown here as "From $X". It is never
+    # auto-filled from options[0], the cheapest option, or guide_only --
+    # those are separate purchasable configurations, not verified confirmation
+    # that this number is the tour's public starting price.
+    #
+    # Individual pricing_tiers.options[] cards (rendered separately below,
+    # each with its own badge + full descriptive heading) are unaffected by
+    # this gate -- they're already clearly labeled as specific configurations,
+    # not presented as "the" tour price.
+    $priceTeaserHtml = ""
+    if ($priceConfirmed -and $canonicalFromPrice) {
+        $primaryOptForBadge = $options | Where-Object { [bool](Get-PropertyValue $_ 'is_primary' $false) } | Select-Object -First 1
+        $teaserBadge = if ($primaryOptForBadge) { $primaryOptForBadge.badge } elseif ($options.Count -gt 0) { $options[0].badge } else { 'PRIVATE TOUR' }
+        $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + [string]$canonicalFromPrice + ' <small>p.p.</small></strong></div><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
+    } elseif ($options.Count -gt 0 -or ($guideOnly -and $guideOnly.price)) {
+        # No confirmed canonical price yet -- neutral conversion message
+        # instead of implying a specific starting price.
+        $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
+    }
+
+    # Real per-tour departure time -- "To be confirmed" when not yet verified,
+    # rather than a fixed placeholder time that's wrong for most tours.
+    $departureTime = [string](Get-PropertyValue $pc 'departure_time' '')
+    $departureOptionHtml = if ($departureTime) { '<option>' + (ConvertTo-HtmlSafe $departureTime) + '</option>' } else { '<option>To be confirmed</option>' }
+
+    # ---- Quick stats ----
+    $qs = Get-PropertyValue $pc 'quick_stats' $null
+    $qsDifficulty = if ($qs -and $qs.difficulty) { [string]$qs.difficulty } else { [string]$tour.difficulty }
+    $qsDuration = if ($qs -and $qs.duration) { [string]$qs.duration } else { [string]$tour.duration_label }
+    $qsAvailability = if ($qs -and $qs.availability) { [string]$qs.availability } else { "Daily" }
+    $bestFor = if ($qs -and $qs.best_for) { @($qs.best_for) } else { @(Get-PropertyValue $tour 'best_for' @()) }
+    $qsBestForHtml = ($bestFor | ForEach-Object { '<span>' + (ConvertTo-HtmlSafe $_) + '</span>' }) -join "`n"
+
+    # ---- Testimonials ----
+    $testimonials = @(Get-PropertyValue $pc 'testimonials' @())
+    $testimonialsSection = ""
+    if ($testimonials.Count -gt 0) {
+        $cards = ($testimonials | ForEach-Object {
+            $initial = if ($_.author) { [string]$_.author.Substring(0,1) } else { "W" }
+            $verifiedTag = if ($_.verified -eq $true) { '<span class="testimonial-verified">Shared with permission</span>' } else { '' }
+            '<article class="testimonial-card reveal"><div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>' + (ConvertTo-HtmlSafe $_.quote) + '</blockquote><div class="testimonial-author"><div class="rev-avatar">' + $initial + '</div><div><strong>' + (ConvertTo-HtmlSafe $_.author) + '</strong><span> &middot; ' + (ConvertTo-HtmlSafe $_.location) + '</span>' + $verifiedTag + '</div></div></article>'
+        }) -join "`n"
+        $testimonialsSection = '<section class="section testimonials-section" style="padding-top:48px;"><div class="container"><div class="section-head reveal"><span class="section-kicker">Traveler Stories</span><h2 class="section-title">Memories Made, Standards Exceeded</h2></div><div class="testimonials-grid">' + $cards + '</div></div></section>'
+    }
+
+    # ---- Cross-sell ----
+    $crossSell = @(Get-PropertyValue $pc 'cross_sell' @())
+    $crossSellSection = ""
+    if ($crossSell.Count -gt 0) {
+        $cards = ($crossSell | ForEach-Object {
+            $img = [string]$_.image
+            if (-not $img.StartsWith('..')) { $img = "../$img" }
+            '<a href="' + $_.href + '" class="cross-sell-card"><img src="' + $img + '" alt="' + (ConvertTo-HtmlSafe $_.title) + '" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">' + (ConvertTo-HtmlSafe $_.label) + '</div><div class="cross-sell-title">' + (ConvertTo-HtmlSafe $_.title) + '</div></div></a>'
+        }) -join "`n"
+        $crossSellSection = '<section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid">' + $cards + '</div></div></section>'
+    }
+
+    # ---- Assemble ----
+    $html = $template
+    $replacements = [ordered]@{
+        '__SEO_TITLE__' = (ConvertTo-HtmlSafe $seoTitle)
+        '__SEO_DESCRIPTION__' = (ConvertTo-HtmlSafe $seoDesc)
+        '__CANONICAL__' = $canonical
+        '__OG_TITLE__' = (ConvertTo-HtmlSafe "$name | Wild Papagayo")
+        '__OG_DESCRIPTION__' = (ConvertTo-HtmlSafe $seoDesc)
+        '__OG_IMAGE__' = $ogImage
+        '__SCHEMA__' = $schema
+        '__FAQ_SCHEMA__' = $faqSchemaTag
+        '__WHY_PRIVATE_SECTION__' = $whyPrivateSection
+        '__PRICE_TEASER__' = $priceTeaserHtml
+        '__ITINERARY_STEPS__' = $itineraryHtml
+        '__FAQ_SECTION__' = $faqHtml
+        '__RELATED_ARTICLES__' = $relatedArticlesHtml
+        '__HERO_REGION__' = (ConvertTo-HtmlSafe $heroRegion)
+        '__HERO_TITLE_HTML__' = $heroTitleHtml
+        '__HERO_SUBTITLE__' = $heroSubtitleHtml
+        '__HERO_CHIPS__' = $heroChipsHtml
+        '__TOUR_GLANCE__' = $glanceHtml
+        '__EVERYTHING_INCLUDED_TOP__' = $everythingIncludedTopHtml
+        '__PEAK_SEASON_NOTE__' = $peakSeasonHtml
+        '__PICKUP_AREAS__' = $pickupAreasHtml
+        '__HERO_IMAGE__' = $heroImage
+        '__HERO_IMAGE_ALT__' = (ConvertTo-HtmlSafe $heroImageAlt)
+        '__HERO_IMAGE_DIM__' = $heroImageDim
+        '__GALLERY_MAIN__' = $galleryMainHtml
+        '__GALLERY_THUMBS__' = $galleryThumbsHtml
+        '__TOUR_NAME__' = (ConvertTo-HtmlSafe $name)
+        '__TOUR_SLUG__' = (ConvertTo-HtmlSafe $slug)
+        '__EXPERIENCE_SECTION__' = $experienceSectionHtml
+        '__ACCORDION_ITEMS__' = $accordionHtml
+        '__DURATION_LABEL__' = (ConvertTo-HtmlSafe $qsDuration)
+        '__SHORT_DESCRIPTION__' = (ConvertTo-HtmlSafe $shortDesc)
+        '__PRICING_GUIDE_ONLY__' = $guideOnlyHtml
+        '__OPTIONS_COUNT__' = [string]$optionsCount
+        '__PRICING_OPTIONS__' = $optionsHtml
+        '__QS_DIFFICULTY__' = (ConvertTo-HtmlSafe $qsDifficulty)
+        '__QS_DURATION__' = (ConvertTo-HtmlSafe $qsDuration)
+        '__QS_AVAILABILITY__' = (ConvertTo-HtmlSafe $qsAvailability)
+        '__QS_BEST_FOR__' = $qsBestForHtml
+        '__BOOKING_OPTIONS__' = $bookingOptionsHtml
+        '__DEPARTURE_OPTION__' = $departureOptionHtml
+        '__TESTIMONIALS_SECTION__' = $testimonialsSection
+        '__CROSS_SELL_SECTION__' = $crossSellSection
+    }
+    foreach ($key in $replacements.Keys) {
+        $html = $html.Replace($key, [string]$replacements[$key])
+    }
+
+    $outPath = Join-Path $outDir "$slug.html"
+    Write-FileIfChanged -Path $outPath -Content $html
+    $generated++
+    Write-Host "Generated tour: tours/$slug.html" -ForegroundColor Green
+}
+
+Write-Host ""
+Write-Host "Tour Engine complete: $generated page(s)." -ForegroundColor Cyan
+if ($skipped.Count -gt 0) {
+    Write-Host "Skipped:" -ForegroundColor Yellow
+    $skipped | ForEach-Object { Write-Host "  $_" -ForegroundColor Yellow }
+}
+
+# ── Related Articles validation summary ──
+Write-Host ""
+Write-Host "== Related Articles (Travel Insights) ==" -ForegroundColor Cyan
+$withArticles = @($tourRelatedStats | Where-Object { $_.entries.Count -gt 0 })
+$withoutArticles = @($tourRelatedStats | Where-Object { $_.entries.Count -eq 0 })
+$curatedCount = 0
+$autoCount = 0
+foreach ($stat in $tourRelatedStats) {
+    foreach ($e in $stat.entries) {
+        if ($e.reason -eq 'CURATED') { $curatedCount++ } else { $autoCount++ }
+    }
+}
+Write-Host "Tours evaluated: $($tourRelatedStats.Count)"
+Write-Host "Tours with related articles: $($withArticles.Count)"
+Write-Host "Tours without related articles: $($withoutArticles.Count)"
+Write-Host "Curated matches: $curatedCount"
+Write-Host "Automatic tour_id matches: $autoCount"
+Write-Host "Invalid related article slugs: $($invalidRelatedSlugs.Count)"
+if ($invalidRelatedSlugs.Count -gt 0) {
+    $invalidRelatedSlugs | ForEach-Object { Write-Host "  INVALID: tour='$($_.tour)' slug='$($_.slug)'" -ForegroundColor Red }
+}
+Write-Host ""
+Write-Host "Tour -> Related Articles matrix:" -ForegroundColor Cyan
+foreach ($stat in ($tourRelatedStats | Sort-Object tour)) {
+    if ($stat.entries.Count -eq 0) { continue }
+    Write-Host "  $($stat.tour)"
+    $n = 0
+    foreach ($e in $stat.entries) {
+        $n++
+        Write-Host "    #$n [$($e.reason)] $($e.article.slug) -- $($e.article.title)"
+    }
+}

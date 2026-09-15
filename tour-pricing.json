@@ -1,0 +1,872 @@
+{
+  "pricing_version": "sha256-63d515eed9474d74",
+  "generated_at": "2026-09-15T20:06:05.064Z",
+  "source_file": "Matriz_Cotizador_Wild_Papagayo_Catalogo_Completo.xlsx",
+  "scope": "full-catalogue",
+  "zones": {
+    "a": {
+      "label": "Zone A"
+    },
+    "b": {
+      "label": "Zone B"
+    },
+    "c": {
+      "label": "Zone C"
+    },
+    "especial": {
+      "label": "Special / Custom"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Andaz Peninsula Papagayo",
+      "zone": "a"
+    },
+    {
+      "name": "Four Seasons Peninsula Papagayo",
+      "zone": "b"
+    },
+    {
+      "name": "Nekajui",
+      "zone": "b"
+    },
+    {
+      "name": "Planet Hollywood",
+      "zone": "a"
+    },
+    {
+      "name": "Secrets Papagayo",
+      "zone": "a"
+    },
+    {
+      "name": "Waldorf Astoria Costa Rica",
+      "zone": "a"
+    },
+    {
+      "name": "El Mangroove",
+      "zone": "a"
+    },
+    {
+      "name": "Other / Not listed",
+      "zone": "especial"
+    }
+  ],
+  "tours": {
+    "costaricahighlights": {
+      "tour_name_excel": "Costa Rica Highlights Tour",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 485,
+          "pp_3": 385,
+          "pp_4plus": 330,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 5
+        }
+      ]
+    },
+    "arenalhangingbridges": {
+      "tour_name_excel": "Arenal Hanging Bridges",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 470,
+          "pp_3": 365,
+          "pp_4plus": 320,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Hanging Bridges + La Fortuna Waterfall",
+          "source_row": 6
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 500,
+          "pp_3": 400,
+          "pp_4plus": 360,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Hanging Bridges + Hot Springs + La Fortuna Waterfall",
+          "source_row": 7
+        }
+      ]
+    },
+    "celesteriver": {
+      "tour_name_excel": "Celeste River Hike & Tenorio National Park",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 300,
+          "pp_3": 240,
+          "pp_4plus": 215,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 8
+        }
+      ]
+    },
+    "buenavistamegacombo": {
+      "tour_name_excel": "Buena Vista Mega Combo",
+      "options": [
+        {
+          "id": "full-day",
+          "label": "Full Day",
+          "estimator_status": "active",
+          "pp_2": 355,
+          "pp_3": 300,
+          "pp_4plus": 275,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": 0,
+            "b": null,
+            "c": null
+          },
+          "notes": "4+ mantiene $275 p.p.",
+          "source_row": 9
+        }
+      ]
+    },
+    "monteverdtreetopwalk": {
+      "tour_name_excel": "Monteverde Treetop Walk",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 565,
+          "pp_3": 465,
+          "pp_4plus": 410,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Adventure Experience + Hanging Bridges + Zip Line (Age 4+)",
+          "source_row": 11
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 585,
+          "pp_3": 485,
+          "pp_4plus": 430,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Wildlife Experience + Hanging Bridges + Reptiles + Butterfly Garden + Sloth Sanctuary",
+          "source_row": 12
+        }
+      ]
+    },
+    "monteverdehangingbridgescoffee": {
+      "tour_name_excel": "Monteverde Hanging Bridges & Coffee Tour",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 500,
+          "pp_3": 400,
+          "pp_4plus": 360,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 13
+        }
+      ]
+    },
+    "sensoriarainforest": {
+      "tour_name_excel": "Sensoria Land of Senses & Magical Rainforest",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 425,
+          "pp_3": 360,
+          "pp_4plus": 325,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 14
+        }
+      ]
+    },
+    "arenalhotsprings": {
+      "tour_name_excel": "Rainforest & Hot Springs Arenal",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 480,
+          "pp_3": 380,
+          "pp_4plus": 330,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Bogarin Trail + Hot Springs + La Fortuna Waterfall (500-step stair)",
+          "source_row": 15
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 480,
+          "pp_3": 380,
+          "pp_4plus": 330,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Bogarin Trail + Arenal National Park Hike + Hot Springs",
+          "source_row": 16
+        }
+      ]
+    },
+    "haciendaguachipelin": {
+      "tour_name_excel": "Hacienda Guachipelín Extreme",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 330,
+          "pp_3": 285,
+          "pp_4plus": 265,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 17
+        }
+      ]
+    },
+    "miravallesspa": {
+      "tour_name_excel": "Miravalles Volcano Waterfalls & Natural Spa",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 305,
+          "pp_3": 250,
+          "pp_4plus": 230,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 18
+        }
+      ]
+    },
+    "paloverderiverboattour": {
+      "tour_name_excel": "Palo Verde River Boat Tour",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 345,
+          "pp_3": 290,
+          "pp_4plus": 270,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 19
+        }
+      ]
+    },
+    "waterfallpumas": {
+      "tour_name_excel": "Waterfall & Las Pumas Wildlife Rescue Center",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 300,
+          "pp_3": 245,
+          "pp_4plus": 220,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 20
+        }
+      ]
+    },
+    "hikingrinconnationalpark": {
+      "tour_name_excel": "Hiking Rincón National Park",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 330,
+          "pp_3": 275,
+          "pp_4plus": 250,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "National Park hike + Oropendola Waterfall + Lunch",
+          "source_row": 21
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 350,
+          "pp_3": 295,
+          "pp_4plus": 270,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "National Park hike + Oropendola Waterfall + Hot Springs + Volcanic Mud + Lunch",
+          "source_row": 22
+        }
+      ]
+    },
+    "floatingtenorio": {
+      "tour_name_excel": "Floating at Tenorio River",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 320,
+          "pp_3": 265,
+          "pp_4plus": 240,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Llanos de Cortez Waterfall + 90 min Safari Float",
+          "source_row": 23
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 340,
+          "pp_3": 285,
+          "pp_4plus": 260,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Llanos de Cortez Waterfall + Safari Float + Las Pumas Rescue Center",
+          "source_row": 24
+        }
+      ]
+    },
+    "oropendolahotsprings": {
+      "tour_name_excel": "Oropendola Waterfall & Rio Negro Hot Springs",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 320,
+          "pp_3": 260,
+          "pp_4plus": 235,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 25
+        }
+      ]
+    },
+    "ostionalturtles": {
+      "tour_name_excel": "Ostional Turtle Watching Tour",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "manual_quote",
+          "pp_2": null,
+          "pp_3": null,
+          "pp_4plus": null,
+          "zone_adjustment_applies": null,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 26
+        }
+      ]
+    },
+    "waterfalllovers": {
+      "tour_name_excel": "Waterfall Lovers",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 330,
+          "pp_3": 275,
+          "pp_4plus": 250,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Horseback Riding + Chorrera + Oropendola + Rio Negro Waterfall",
+          "source_row": 27
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 350,
+          "pp_3": 295,
+          "pp_4plus": 270,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Classic activities + Hot Springs / Volcanic Mud at Rio Negro",
+          "source_row": 28
+        }
+      ]
+    },
+    "slothchocolatetour": {
+      "tour_name_excel": "Sloth Adventure & Chocolate Tour",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 320,
+          "pp_3": 260,
+          "pp_4plus": 235,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 29
+        }
+      ]
+    },
+    "hangingbridgessloths": {
+      "tour_name_excel": "Hanging Bridges & Sloths Experience",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 335,
+          "pp_3": 275,
+          "pp_4plus": 245,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 30
+        }
+      ]
+    },
+    "laleona": {
+      "tour_name_excel": "La Leona Waterfall — Zip Line & Tubing",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 325,
+          "pp_3": 280,
+          "pp_4plus": 255,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "La Leona Waterfall + Lunch + Zip Line",
+          "source_row": 31
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 325,
+          "pp_3": 280,
+          "pp_4plus": 255,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "La Leona Waterfall + Lunch + Tubing",
+          "source_row": 32
+        }
+      ]
+    },
+    "borinque4senses": {
+      "tour_name_excel": "Borinque 4 Senses",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 420,
+          "pp_3": 370,
+          "pp_4plus": 340,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 33
+        }
+      ]
+    },
+    "canyonadventurepark": {
+      "tour_name_excel": "Canyon Adventure Park",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 340,
+          "pp_3": 290,
+          "pp_4plus": 270,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 34
+        }
+      ]
+    },
+    "coloradoriverrafting": {
+      "tour_name_excel": "Colorado River Rafting Class II–III",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 265,
+          "pp_3": 225,
+          "pp_4plus": 210,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 35
+        }
+      ]
+    },
+    "congotrail": {
+      "tour_name_excel": "Congo Trail Half-Day Adventure",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 300,
+          "pp_3": 255,
+          "pp_4plus": 240,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 36
+        }
+      ]
+    },
+    "congotrailcanopy": {
+      "tour_name_excel": "Congo Trail Canopy & Extreme Zip Line",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 285,
+          "pp_3": 220,
+          "pp_4plus": 190,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Zip Line 11 cables + Extreme 3 cables (Superman + Tarzan Swing)",
+          "source_row": 37
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 345,
+          "pp_3": 300,
+          "pp_4plus": 285,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Classic + 2-hour ATV",
+          "source_row": 38
+        }
+      ]
+    },
+    "tenoriorafting": {
+      "tour_name_excel": "White Water Rafting Tenorio River Class III–IV",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 345,
+          "pp_3": 290,
+          "pp_4plus": 270,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 39
+        }
+      ]
+    },
+    "tubingceleste": {
+      "tour_name_excel": "Tubing at Río Celeste",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 360,
+          "pp_3": 295,
+          "pp_4plus": 265,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 40
+        }
+      ]
+    },
+    "atvmountainride": {
+      "tour_name_excel": "2-Hour ATV Mountain Ride",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 300,
+          "pp_3": 260,
+          "pp_4plus": 245,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 41
+        }
+      ]
+    },
+    "horsebackaromal": {
+      "tour_name_excel": "Horseback Riding at Hacienda Aromal",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 250,
+          "pp_3": 220,
+          "pp_4plus": 205,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 42
+        }
+      ]
+    },
+    "haciendaaromal": {
+      "tour_name_excel": "Hacienda Aromal Full Day",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 275,
+          "pp_3": 235,
+          "pp_4plus": 220,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Zip Line + traditional cultural experience",
+          "source_row": 43
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 395,
+          "pp_3": 360,
+          "pp_4plus": 340,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Zip Line + ATV + cultural experience + horseback riding + traditional lunch",
+          "source_row": 44
+        }
+      ]
+    },
+    "paloverdeculturalviejo": {
+      "tour_name_excel": "Palo Verde & Cultural Experience El Viejo",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 370,
+          "pp_3": 315,
+          "pp_4plus": 295,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": null,
+          "source_row": 45
+        }
+      ]
+    },
+    "canyoningtubing": {
+      "tour_name_excel": "Canyoning & River Tubing Private Adventure",
+      "options": [
+        {
+          "id": "full-experience",
+          "label": "Full Experience",
+          "estimator_status": "active",
+          "pp_2": 395,
+          "pp_3": 345,
+          "pp_4plus": 325,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Waterfall Rappel + Tarzan Swing + River Tubing + Lunch",
+          "source_row": 46
+        }
+      ]
+    }
+  }
+}

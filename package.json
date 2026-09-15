@@ -5,10 +5,18 @@
   "scripts": {
     "build:css": "cleancss -o style.min.css style.css && echo CSS built OK",
     "watch:css": "nodemon --watch style.css --ext css --exec \"npm run build:css\"",
-    "build": "npm run build:css"
+    "build:js": "terser script.src.js -o script.js --compress --mangle --comments false && terser transport.src.js -o transport.js --compress --mangle --comments false && terser assistant-widget.src.js -o assistant-widget.js --compress --mangle --comments false && terser tour-estimator.src.js -o tour-estimator.js --compress --mangle --comments false && echo JS built OK",
+    "pricing:convert": "node knowledge/pricing/excel-to-pricing.js",
+    "build": "npm run build:css && npm run build:js"
   },
   "devDependencies": {
     "clean-css-cli": "^5.6.3",
-    "nodemon": "^3.1.10"
+    "jsdom": "^30.0.1",
+    "nodemon": "^3.1.10",
+    "terser": "^5.49.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-latest/xlsx-latest.tgz"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0"
   }
 }
