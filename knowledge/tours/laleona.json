@@ -63,7 +63,7 @@
                      ],
     "last_reviewed":  "2026-07-11",
     "itinerary":  {
-                      "category":  "ocean",
+                      "category":  "waterfall",
                       "intensity":  "light",
                       "pickup_zones":  [
                                            "papagayo",
@@ -78,16 +78,15 @@
                                           "resort"
                                       ],
                       "avoid_after":  [
-                                          "ocean"
+                                          "waterfall"
                                       ],
                       "tags":  [
-                                   "catamaran",
-                                   "ocean",
-                                   "sunset",
-                                   "sailing",
-                                   "snorkeling",
-                                   "beach",
-                                   "pacific"
+                                   "waterfall",
+                                   "canyon",
+                                   "river-pools",
+                                   "hiking",
+                                   "zip-line",
+                                   "tubing"
                                ]
                   },
     "intelligence":  {

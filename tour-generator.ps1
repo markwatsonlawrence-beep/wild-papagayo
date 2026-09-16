@@ -580,11 +580,16 @@ foreach ($file in $files) {
     if ($migratedOptions.Count -gt 0) {
         $activeMigrated = @($migratedOptions | Where-Object { $_.estOpt.estimator_status -eq 'active' })
         if ($activeMigrated.Count -gt 0) {
-            $teaserCandidates = $activeMigrated | ForEach-Object {
-                $pi = Get-DerivedPriceInfo -EstOpt $_.estOpt -TourId $id -OptionId $_.optionId
-                [pscustomobject]@{ entry = $_; priceInfo = $pi }
+            $teaserCandidates = for ($teaserIdx = 0; $teaserIdx -lt $activeMigrated.Count; $teaserIdx++) {
+                $candidateEntry = $activeMigrated[$teaserIdx]
+                $pi = Get-DerivedPriceInfo -EstOpt $candidateEntry.estOpt -TourId $id -OptionId $candidateEntry.optionId
+                [pscustomobject]@{ entry = $candidateEntry; priceInfo = $pi; sortOrder = $teaserIdx }
             }
-            $winner = $teaserCandidates | Sort-Object { $_.priceInfo.price } | Select-Object -First 1
+            # Stable two-key sort: price ascending, then original option order ascending.
+            # PowerShell's Sort-Object is not guaranteed stable on ties, so an explicit
+            # secondary key is required to make Classic deterministically win a price tie
+            # against Plus (Classic always appears first in page_content.pricing_tiers.options).
+            $winner = $teaserCandidates | Sort-Object @{Expression={$_.priceInfo.price}}, @{Expression={$_.sortOrder}} | Select-Object -First 1
             $priceStr = Format-DerivedPrice $winner.priceInfo.price
             $guestPhrase = Format-GuestPhrase $winner.priceInfo.guestLabels
             $teaserBadge = $winner.entry.editorial.badge
