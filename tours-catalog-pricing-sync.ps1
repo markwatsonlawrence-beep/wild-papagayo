@@ -43,7 +43,7 @@ function Get-PropertyValue {
 # dataset (Estimator Status = INACTIVE) and must never appear as a catalog
 # card at all -- this is a guard against reintroduction, not something this
 # script removes itself (removing a card is a manual editorial decision).
-$expectedRemovedSlugs = @('slothadventure')
+$expectedRemovedSlugs = @()
 
 if (-not (Test-Path $pricingJsonPath)) {
     throw "tour-pricing.json not found -- cannot synchronize catalog pricing without the commercial pricing source."
@@ -278,7 +278,7 @@ foreach ($removedSlug in $expectedRemovedSlugs) {
 # that a tour silently missing its data-tour-slug card (or a stray extra
 # one) is caught even if every individual price that IS present is correct.
 $allPricingSlugs = @($pricingData.tours.PSObject.Properties.Name)
-$expectedActiveCount = 31
+$expectedActiveCount = 32
 $expectedManualQuoteSlugs = @('ostionalturtles')
 $activePricingSlugs = @($allPricingSlugs | Where-Object { $expectedManualQuoteSlugs -notcontains $_ })
 

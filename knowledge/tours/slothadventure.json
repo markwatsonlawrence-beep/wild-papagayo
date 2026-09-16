@@ -1,0 +1,426 @@
+{
+    "id":  "slothadventure",
+    "name":  "Sloth Adventure Tour Costa Rica",
+    "slug":  "slothadventure",
+    "status":  "active",
+    "page_file":  "tours/slothadventure.html",
+    "page_url":  "../tours/slothadventure.html",
+    "canonical_url":  "https://wildpapagayo.com/tours/slothadventure.html",
+    "category":  "Wildlife",
+    "short_description":  "Private sloth wildlife encounter in the Costa Rica rainforest. Full-day private tour with certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
+    "hero_image":  "images/sloth1.webp",
+    "hero_image_alt":  "Sloth Adventure Tour Costa Rica in Costa Rica",
+    "destination_ids":  [
+                            "bijagua",
+                            "rio-celeste"
+                        ],
+    "activity_ids":  [
+                         "sloth-watching",
+                         "wildlife-watching"
+                     ],
+    "pickup_zone_ids":  [
+                            "papagayo",
+                            "playa-hermosa",
+                            "playa-coco"
+                        ],
+    "best_for":  [
+                     "Families",
+                     "Couples",
+                     "Nature lovers",
+                     "First-time visitors"
+                 ],
+    "difficulty":  "Easy",
+    "duration_label":  "Full Day (approx. 8 hours)",
+    "minimum_age":  0,
+    "included":  [
+
+                 ],
+    "what_to_bring":  [
+
+                      ],
+    "season_ids":  [
+                       "all-year"
+                   ],
+    "featured_hotel_ids":  [
+
+                           ],
+    "related_article_slugs":  [
+
+                              ],
+    "aliases":  [
+
+                ],
+    "pricing":  {
+                    "from_price":  180,
+                    "currency":  "USD",
+                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                },
+    "source":  {
+                   "type":  "existing-tour-page",
+                   "path":  "tours/slothadventure.html"
+               },
+    "review_notes":  [
+
+                     ],
+    "last_reviewed":  "2026-07-11",
+    "itinerary":  {
+                      "category":  "wildlife",
+                      "intensity":  "light",
+                      "pickup_zones":  [
+                                           "papagayo",
+                                           "playa-hermosa",
+                                           "playa-coco"
+                                       ],
+                      "priority":  80,
+                      "min_stay":  3,
+                      "max_stay":  14,
+                      "ideal_after":  [
+                                          "arrival",
+                                          "resort",
+                                          "adventure"
+                                      ],
+                      "avoid_after":  [
+                                          "wildlife"
+                                      ],
+                      "tags":  [
+                                   "wildlife",
+                                   "sloths",
+                                   "rainforest",
+                                   "family"
+                               ]
+                  },
+    "intelligence":  {
+                         "schema_version":  "2.0",
+                         "intelligence_status":  "auto_generated_review_required",
+                         "primary_category":  "Nature \u0026 Wildlife",
+                         "difficulty":  "Easy",
+                         "duration_hours":  4,
+                         "duration_type":  "Half Day",
+                         "energy_level":  "Medium",
+                         "minimum_age":  0,
+                         "best_for":  [
+                                          "Families",
+                                          "Couples",
+                                          "Nature lovers",
+                                          "First-time visitors"
+                                      ],
+                         "traveler_scores":  {
+                                                 "families":  95,
+                                                 "couples":  90,
+                                                 "seniors":  90,
+                                                 "adventure":  65,
+                                                 "wildlife":  100,
+                                                 "relaxation":  65,
+                                                 "private":  85
+                                             },
+                         "pickup_zone_ids":  [
+                                                 "papagayo",
+                                                 "playa-hermosa",
+                                                 "playa-coco"
+                                             ],
+                         "season_ids":  [
+                                            "all-year"
+                                        ],
+                         "activity_tags":  [
+                                               "sloth-watching",
+                                               "wildlife-watching"
+                                           ],
+                         "itinerary_rules":  {
+                                                 "ideal_after":  [
+                                                                     "arrival",
+                                                                     "rest",
+                                                                     "beach"
+                                                                 ],
+                                                 "avoid_after":  [
+
+                                                                 ],
+                                                 "recovery_day_recommended":  false
+                                             },
+                         "stay_fit":  {
+                                          "minimum_nights":  3,
+                                          "ideal_nights":  [
+                                                               4,
+                                                               7,
+                                                               10,
+                                                               14
+                                                           ],
+                                          "preferred_trip_day":  [
+                                                                     2,
+                                                                     3,
+                                                                     5,
+                                                                     6
+                                                                 ]
+                                      },
+                         "recommendation_priority":  85,
+                         "balance_tags":  [
+                                              "balanced",
+                                              "nature-wildlife"
+                                          ],
+                         "editorial_review":  {
+                                                  "required":  true,
+                                                  "notes":  [
+                                                                "Verify pickup zones.",
+                                                                "Verify minimum age and difficulty.",
+                                                                "Review traveler scores before public use."
+                                                            ]
+                                              },
+                         "last_generated":  "2026-07-12"
+                     },
+    "page_content":  {
+                         "hero_region_label":  "Private Collection · Guanacaste · Sloth Adventure · Costa Rica",
+                         "hero_title_html":  "Waterfall, Sloths \u0026 Coffee Experience",
+                         "hero_chips":  [
+                                            "🦥 Wild Sloth",
+                                            "🌿 Rainforest Wildlife",
+                                            "💦 Llanos Waterfall",
+                                            "☕ Coffee \u0026 Chocolate"
+                                        ],
+                         "experience_section":  {
+                                                    "tag":  "The Experience",
+                                                    "title":  "Waterfalls, Wildlife \u0026 Costa Rican Traditions",
+                                                    "intro":  "Experience three of Costa Rica\u0027s most authentic attractions in one unforgettable private adventure. Visit one of Guanacaste\u0027s most beautiful waterfalls, encounter Costa Rica\u0027s famous sloths in their natural habitat, and discover the country\u0027s rich coffee and chocolate traditions through an interactive cultural experience.",
+                                                    "items":  [
+                                                                  {
+                                                                      "icon":  "💦",
+                                                                      "title":  "Llanos de Cortez Waterfall",
+                                                                      "description":  "Visit one of Guanacaste\u0027s most beautiful waterfalls, surrounded by lush tropical forest and crystal-clear waters,perfect for relaxing and enjoying nature."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🦥",
+                                                                      "title":  "Sloth Adventure",
+                                                                      "description":  "Walk with your certified naturalist guide in search of sloths, tropical birds, monkeys, frogs, and other fascinating wildlife living in their natural rainforest habitat."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "☕",
+                                                                      "title":  "Coffee \u0026 Chocolate Tour",
+                                                                      "description":  "Discover how Costa Rica\u0027s world-famous coffee and chocolate are produced, from bean to cup and from cacao fruit to delicious handcrafted chocolate, with interactive demonstrations and tastings."
+                                                                  },
+                                                                  {
+                                                                      "icon":  "🌿",
+                                                                      "title":  "A Perfect Introduction to Costa Rica",
+                                                                      "description":  "A relaxing private experience that combines nature, wildlife, culture, and local flavors, making it ideal for families, couples, and first-time visitors to Costa Rica."
+                                                                  }
+                                                              ],
+                                                    "footer":  {
+                                                                   "icon":  "🇨🇷",
+                                                                   "title":  "Three Costa Rican Experiences in One Day",
+                                                                   "text":  "Discover the beauty of Llanos de Cortez Waterfall, meet Costa Rica\u0027s iconic sloths, and experience the traditions behind the country\u0027s famous coffee and chocolate. A perfect combination of nature, wildlife, and authentic local culture."
+                                                               }
+                                                },
+                         "accordion":  {
+                                           "before_you_arrive":  [
+                                                                     "Wildlife sightings occur in natural environments and cannot be guaranteed, although sloth encounters are frequent.",
+                                                                     "Swimming conditions at Llanos de Cortés Waterfall may vary depending on weather and seasonal conditions.",
+                                                                     "Wear comfortable clothing and closed-toe walking shoes suitable for light rainforest trails.",
+                                                                     "Apply sunscreen and bug spray before departure. Bring a hat, sunglasses and a reusable water bottle.",
+                                                                     "Please inform us of any dietary restrictions or relevant health conditions at the time of booking."
+                                                                 ],
+                                           "reservation_policy":  [
+                                                                      "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
+                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
+                                                                  ],
+                                           "weather_policy":  [
+                                                                  "Costa Rica\u0027s weather can shift quickly, especially near waterfalls and rainforest trails.",
+                                                                  "Departures may be adjusted for safety or optimal conditions.",
+                                                                  "If Wild Papagayo cancels due to unsafe weather, we\u0027ll reschedule whenever possible or issue a full refund."
+                                                              ]
+                                       },
+                         "pricing_tiers":  {
+                                               "guide_only":  {
+                                                                  "heading":  "Private Guide Only",
+                                                                  "description":  "Your certified private guide, exclusively dedicated to your group, for guests arriving in their own vehicle. Guide pickup included on the way to the destination. Excludes waterfall/coffee tour entrance fees and lunch.",
+                                                                  "price":  "100"
+                                                              },
+                                               "options":  [
+                                                               {
+                                                                   "option_id":  "classic",
+                                                                   "badge":  "👑 CLASSIC",
+                                                                   "heading":  "Llanos de Cortés Waterfall + Nature Walk + Lunch",
+                                                                   "price":  "180",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               },
+                                                               {
+                                                                   "option_id":  "plus",
+                                                                   "badge":  "✦ PLUS",
+                                                                   "heading":  "Llanos de Cortés Waterfall + Coffee \u0026 Chocolate Tour + Nature Walk + Lunch",
+                                                                   "price":  "210",
+                                                                   "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                                                               }
+                                                           ]
+                                           },
+                         "quick_stats":  {
+                                             "difficulty":  "Easy",
+                                             "duration":  "Full Day",
+                                             "availability":  "Daily",
+                                             "best_for":  [
+                                                              "Families",
+                                                              "Wildlife Lovers",
+                                                              "First-Time Visitors"
+                                                          ]
+                                         },
+                         "testimonials":  [
+
+                                          ],
+                         "cross_sell":  [
+                                            {
+                                                "href":  "hangingbridgessloths.html",
+                                                "image":  "../images/bridgessloths1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Hanging Bridges \u0026 Sloths"
+                                            },
+                                            {
+                                                "href":  "slothchocolatetour.html",
+                                                "image":  "../images/slothchocolate1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Sloth \u0026 Chocolate Tour"
+                                            },
+                                            {
+                                                "href":  "celesteriver.html",
+                                                "image":  "../images/celeste1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Celeste River Hike"
+                                            }
+                                        ],
+                         "gallery":  [
+                                         {
+                                             "alt":  "Sloth in Costa Rica rainforest",
+                                             "src":  "../images/sloth1.webp"
+                                         },
+                                         {
+                                             "alt":  "Sloth Adventure 2",
+                                             "src":  "../images/slothadventure2.webp"
+                                         },
+                                         {
+                                             "alt":  "Sloth Adventure 3",
+                                             "src":  "../images/slothadventure3.webp"
+                                         },
+                                         {
+                                             "alt":  "Sloth Adventure 4",
+                                             "src":  "../images/slothadventure4.webp"
+                                         },
+                                         {
+                                             "alt":  "Sloth Adventure 5",
+                                             "src":  "../images/slothadventure5.webp"
+                                         }
+                                     ],
+                         "what_to_pack":  [
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Long pants (for rainforest trail)",
+                                              "Comfortable closed-toe shoes or boots",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
+                         "everything_included":  [
+                                                     "Private air-conditioned transportation",
+                                                     "Certified bilingual naturalist guide, exclusively for your group",
+                                                     "Llanos de Cortés Waterfall visit",
+                                                     "Guided nature walk with sloth spotting opportunity",
+                                                     "Traditional Costa Rican lunch",
+                                                     "Complimentary bottled water and snacks",
+                                                     "Coffee \u0026amp; Chocolate Tour, interactive tasting experience (✦ PLUS only)"
+                                                 ],
+                         "seo_title_override":  "Sloth, Waterfall \u0026 Coffee Tour | Private Wildlife Day Costa Rica",
+                         "seo_description_override":  "Private day combining Llanos de Cortes Waterfall, a guided sloth-spotting nature walk, and an optional coffee \u0026 chocolate tasting tour. Private guide, lunch included.",
+                         "hero_subtitle_html":  "Swim beneath a Guanacaste waterfall, walk the rainforest in search of wild sloths, and taste real Costa Rican coffee and chocolate, all in one private day.",
+                         "tour_at_a_glance":  [
+                                                  {
+                                                      "icon":  "⏱️",
+                                                      "label":  "Full Day · Approx. 8 Hours"
+                                                  },
+                                                  {
+                                                      "icon":  "💦",
+                                                      "label":  "Llanos de Cortes Waterfall"
+                                                  },
+                                                  {
+                                                      "icon":  "🦥",
+                                                      "label":  "Wild Sloth Spotting"
+                                                  },
+                                                  {
+                                                      "icon":  "☕",
+                                                      "label":  "Coffee \u0026 Chocolate (Plus)"
+                                                  },
+                                                  {
+                                                      "icon":  "🍽️",
+                                                      "label":  "Lunch Included"
+                                                  },
+                                                  {
+                                                      "icon":  "🗓️",
+                                                      "label":  "Available Daily"
+                                                  }
+                                              ],
+                         "tour_at_a_glance_note":  "A relaxed, easy-paced day suitable for nearly all fitness levels and ages, including families with young children.",
+                         "itinerary_steps":  [
+                                                 {
+                                                     "time":  "Morning",
+                                                     "title":  "Private Hotel Pickup",
+                                                     "description":  "Your certified bilingual guide picks you up in a private air-conditioned vehicle and heads toward Guanacaste\u0027s Llanos de Cortes Waterfall."
+                                                 },
+                                                 {
+                                                     "time":  "Mid-Morning",
+                                                     "title":  "Llanos de Cortes Waterfall",
+                                                     "description":  "Swim and relax at one of Guanacaste\u0027s most beautiful waterfalls, surrounded by lush tropical forest and crystal-clear pools."
+                                                 },
+                                                 {
+                                                     "time":  "Midday",
+                                                     "title":  "Sloth Nature Walk in Bijagua",
+                                                     "description":  "Walk a rainforest trail with your naturalist guide searching for wild sloths, tropical birds, monkeys and frogs in their natural habitat."
+                                                 },
+                                                 {
+                                                     "time":  "Optional",
+                                                     "title":  "Coffee \u0026 Chocolate Tour (Plus Option)",
+                                                     "description":  "Guests on the Plus package continue to an interactive tour tracing coffee from bean to cup and cacao from fruit to handcrafted chocolate, with tastings."
+                                                 },
+                                                 {
+                                                     "time":  "Included",
+                                                     "title":  "Traditional Lunch",
+                                                     "description":  "Enjoy a traditional Costa Rican lunch included as part of your day."
+                                                 },
+                                                 {
+                                                     "time":  "Return",
+                                                     "title":  "Ride Back to Your Hotel",
+                                                     "description":  "Relax on the private drive back to your hotel as your day of waterfalls, wildlife and local flavors comes to a close."
+                                                 }
+                                             ],
+                         "faq":  [
+                                     {
+                                         "question":  "Is this tour private?",
+                                         "answer":  "Yes, your vehicle and certified naturalist guide are reserved exclusively for your group for the entire day."
+                                     },
+                                     {
+                                         "question":  "Are sloth sightings guaranteed?",
+                                         "answer":  "Sloth encounters on this walk are frequent, but wildlife sightings occur in a natural environment and can never be 100% guaranteed."
+                                     },
+                                     {
+                                         "question":  "What\u0027s the difference between the Classic and Plus options?",
+                                         "answer":  "The Classic option includes the waterfall, sloth nature walk and lunch. The Plus option adds an interactive coffee and chocolate tour with tastings."
+                                     },
+                                     {
+                                         "question":  "Can we swim at the waterfall?",
+                                         "answer":  "Yes, Llanos de Cortes Waterfall has a natural swimming pool, though conditions can vary depending on weather and season."
+                                     },
+                                     {
+                                         "question":  "Is this tour good for families with kids?",
+                                         "answer":  "Yes, it\u0027s one of our most family-friendly private tours, an easy pace, gentle terrain, and a high chance of seeing wildlife make it popular with all ages."
+                                     },
+                                     {
+                                         "question":  "What should we bring?",
+                                         "answer":  "Swimwear and a towel for the waterfall, closed-toe shoes for the nature walk, and the usual sun and bug protection essentials."
+                                     },
+                                     {
+                                         "question":  "How does private pricing work for this tour?",
+                                         "answer":  "Pricing varies by pickup location, group size, and whether you choose the Classic or Plus option. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     }
+                                 ],
+                         "peak_season_note":  "The waterfall runs fullest during the May to November rainy season, though the tour is enjoyable and runs daily year-round.",
+                         "departure_time":  "7:00 AM"
+                     }
+}

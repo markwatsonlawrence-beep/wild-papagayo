@@ -198,8 +198,8 @@ $skipped = @()
 # that would silently freeze a tour's public price on stale legacy data
 # with no warning. Verify the exact expected release shape up front and
 # abort the whole build if it doesn't match.
-$expectedExcludedTours = @('slothadventure')
-$expectedActiveTourCount = 31
+$expectedExcludedTours = @()
+$expectedActiveTourCount = 32
 $expectedManualQuoteTours = @('ostionalturtles')
 
 $allTourIds = @($files | ForEach-Object { [string](Read-Utf8Json $_.FullName).id })

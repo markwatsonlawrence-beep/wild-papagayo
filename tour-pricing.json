@@ -1,6 +1,6 @@
 {
-  "pricing_version": "sha256-63d515eed9474d74",
-  "generated_at": "2026-09-15T20:06:05.064Z",
+  "pricing_version": "sha256-b4bfe8a17e5bb3ca",
+  "generated_at": "2026-09-16T02:02:11.708Z",
   "source_file": "Matriz_Cotizador_Wild_Papagayo_Catalogo_Completo.xlsx",
   "scope": "full-catalogue",
   "zones": {
@@ -149,6 +149,43 @@
           },
           "notes": "4+ mantiene $275 p.p.",
           "source_row": 9
+        }
+      ]
+    },
+    "slothadventure": {
+      "tour_name_excel": "Sloth Adventure Tour Costa Rica",
+      "options": [
+        {
+          "id": "classic",
+          "label": "Classic",
+          "estimator_status": "active",
+          "pp_2": 310,
+          "pp_3": 250,
+          "pp_4plus": 225,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Confirmed by ops -- Classic $310/$250/$225 p.p., Plus $325/$270/$240 p.p.",
+          "source_row": 10
+        },
+        {
+          "id": "plus",
+          "label": "Plus",
+          "estimator_status": "active",
+          "pp_2": 325,
+          "pp_3": 270,
+          "pp_4plus": 240,
+          "zone_adjustment_applies": false,
+          "zone_adjustment": {
+            "a": null,
+            "b": null,
+            "c": null
+          },
+          "notes": "Confirmed by ops -- Classic $310/$250/$225 p.p., Plus $325/$270/$240 p.p.",
+          "source_row": 47
         }
       ]
     },
