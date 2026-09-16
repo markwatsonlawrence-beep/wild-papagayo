@@ -2918,6 +2918,20 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold-deep);outline-
 .price{flex:1;background:#f4f1eb;border-radius:6px;padding:8px 10px;min-width:100px}
 .price span{display:block;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#7a6030;margin-bottom:3px}
 .price strong{font-size:1.05rem;color:#062448;font-weight:900}
+
+/* Catalog card pricing (build-time synchronized from tour-pricing.json --
+   see tours-catalog-pricing-sync.ps1). Replaces the two-tile .price-box
+   layout above for migrated cards: one primary derived private-tour price
+   block plus, when the tour has a guide-only product, a plain secondary
+   note -- never a second numeric tile, so it can't be mistaken for the
+   private-tour starting price. */
+.catalog-private-price{flex:1 1 100%;background:#f4f1eb;border-radius:6px;padding:10px 12px;text-align:left}
+.catalog-price-kicker{display:block;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#7a6030;margin-bottom:3px}
+.catalog-price-amount{display:block;font-size:1.05rem;color:#062448;font-weight:900}
+.catalog-price-amount small{font-size:.74rem;font-weight:600;color:#7a8a9a;margin-left:2px;text-transform:none;letter-spacing:0}
+.catalog-price-qualifier{display:block;margin-top:2px;font-size:.74rem;font-weight:600;color:#7a8a9a;text-transform:none;letter-spacing:0}
+.catalog-custom-quote .catalog-price-amount{font-size:.86rem;font-weight:700;line-height:1.4}
+.catalog-guide-note{flex:1 1 100%;margin:6px 0 0;font-size:.76rem;color:#7a8a9a;font-style:italic}
 .footer-ict{font-size:.75rem;color:rgba(255,255,255,.5);margin-top:10px;letter-spacing:.03em}
 
 /* -- Skip-to-content accessibility link -- */
