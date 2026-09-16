@@ -33,10 +33,28 @@
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  0,
     "included":  [
-
+                     "Private air-conditioned transportation",
+                     "Certified bilingual naturalist guide, exclusively for your group",
+                     "Llanos de Cortés Waterfall visit",
+                     "Guided nature walk with sloth spotting opportunity",
+                     "Traditional Costa Rican lunch",
+                     "Complimentary bottled water and snacks",
+                     "Coffee \u0026amp; Chocolate Tour, interactive tasting experience (✦ PLUS only)"
                  ],
     "what_to_bring":  [
-
+                          "Sunscreen",
+                          "Bug spray",
+                          "Hat or cap",
+                          "Sunglasses",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Long pants (for rainforest trail)",
+                          "Comfortable closed-toe shoes or boots",
+                          "Swimsuit",
+                          "Extra set of clothes",
+                          "Towel",
+                          "Water shoes / sandals",
+                          "Cash for personal expenses (gratuities)"
                       ],
     "season_ids":  [
                        "all-year"
@@ -51,9 +69,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  180,
+                    "from_price":  225,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "pricing_note":  "Confirmed by ops (Batch 2 normalization): canonical From price is $225 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -237,14 +256,14 @@
                                                                    "option_id":  "classic",
                                                                    "badge":  "👑 CLASSIC",
                                                                    "heading":  "Llanos de Cortés Waterfall + Nature Walk + Lunch",
-                                                                   "price":  "180",
+                                                                   "price":  "225",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                },
                                                                {
                                                                    "option_id":  "plus",
                                                                    "badge":  "✦ PLUS",
                                                                    "heading":  "Llanos de Cortés Waterfall + Coffee \u0026 Chocolate Tour + Nature Walk + Lunch",
-                                                                   "price":  "210",
+                                                                   "price":  "240",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]

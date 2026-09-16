@@ -40,11 +40,12 @@
     "what_to_bring": [
         "Swimsuit",
         "Towel",
-        "Water shoes or sandals with grip",
+        "Water shoes or sandals",
         "Sunscreen",
         "Insect repellent",
         "Change of clothes",
-        "Reusable water bottle"
+        "Reusable water bottle",
+        "Camera"
     ],
     "season_ids": [
         "all-year"
@@ -56,9 +57,10 @@
         "Rio Negro Hot Springs Tour"
     ],
     "pricing": {
-        "from_price": null,
+        "from_price": 235,
+        "price_confirmed": true,
         "currency": "USD",
-        "pricing_note": "Pricing not yet confirmed as a standalone tour -- this combination is currently sold bundled inside the Rincon de la Vieja Hiking Tour ($215 with hot springs) and the Waterfall Lovers Tour ($220 with hot springs). Confirm a standalone rate with operations before publishing structured recommendations."
+        "pricing_note": "Confirmed by ops (Batch 2 normalization): canonical From price is $235 p.p., sourced from tour-pricing.json."
     },
     "source": {
         "type": "new-tour-page",
@@ -230,7 +232,7 @@
 "option_id":  "full-experience",
                     "badge": "👑 PRIVATE TOUR",
                     "heading": "Oropendola Waterfall + Rio Negro Hot Springs, Private Transportation & Guide",
-                    "price": "",
+                    "price": "235",
                     "note": "Pricing not yet published as a standalone tour, contact us on WhatsApp for a custom quote based on your pickup zone and group size."
                 }
             ]
