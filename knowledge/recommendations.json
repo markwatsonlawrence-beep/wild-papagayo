@@ -1,6 +1,6 @@
 {
     "version":  "1.0",
-    "generated_at":  "2026-09-16T14:14:50.0389212-06:00",
+    "generated_at":  "2026-09-16T14:59:13.5544790-06:00",
     "rules_file":  "knowledge/recommendation-rules.json",
     "counts":  {
                    "hotels":  16,
@@ -1261,21 +1261,6 @@
                                                   "currency":  "USD"
                                               },
                                               {
-                                                  "id":  "slothadventure",
-                                                  "name":  "Sloth Adventure Tour Costa Rica",
-                                                  "score":  62,
-                                                  "reasons":  [
-                                                                  "Tour takes place in this destination",
-                                                                  "Tour takes place near this destination"
-                                                              ],
-                                                  "category":  "Wildlife",
-                                                  "url":  "../tours/slothadventure.html",
-                                                  "image":  "images/sloth1.webp",
-                                                  "duration":  "Full Day (approx. 8 hours)",
-                                                  "from_price":  225,
-                                                  "currency":  "USD"
-                                              },
-                                              {
                                                   "id":  "floatingtenorio",
                                                   "name":  "Floating at Tenorio River Safari Float",
                                                   "score":  57,
@@ -1301,6 +1286,20 @@
                                                   "image":  "images/tubingceleste1.webp",
                                                   "duration":  "Full Day (approx. 8 hours)",
                                                   "from_price":  265,
+                                                  "currency":  "USD"
+                                              },
+                                              {
+                                                  "id":  "slothadventure",
+                                                  "name":  "Sloth Adventure Tour Costa Rica",
+                                                  "score":  47,
+                                                  "reasons":  [
+                                                                  "Tour takes place in this destination"
+                                                              ],
+                                                  "category":  "Wildlife",
+                                                  "url":  "../tours/slothadventure.html",
+                                                  "image":  "images/sloth1.webp",
+                                                  "duration":  "Full Day (approx. 8 hours)",
+                                                  "from_price":  225,
                                                   "currency":  "USD"
                                               }
                                           ],
@@ -1766,21 +1765,6 @@
                                                       "currency":  "USD"
                                                   },
                                                   {
-                                                      "id":  "slothadventure",
-                                                      "name":  "Sloth Adventure Tour Costa Rica",
-                                                      "score":  62,
-                                                      "reasons":  [
-                                                                      "Tour takes place in this destination",
-                                                                      "Tour takes place near this destination"
-                                                                  ],
-                                                      "category":  "Wildlife",
-                                                      "url":  "../tours/slothadventure.html",
-                                                      "image":  "images/sloth1.webp",
-                                                      "duration":  "Full Day (approx. 8 hours)",
-                                                      "from_price":  225,
-                                                      "currency":  "USD"
-                                                  },
-                                                  {
                                                       "id":  "floatingtenorio",
                                                       "name":  "Floating at Tenorio River Safari Float",
                                                       "score":  57,
@@ -1806,6 +1790,20 @@
                                                       "image":  "images/tubingceleste1.webp",
                                                       "duration":  "Full Day (approx. 8 hours)",
                                                       "from_price":  265,
+                                                      "currency":  "USD"
+                                                  },
+                                                  {
+                                                      "id":  "arenalhangingbridges",
+                                                      "name":  "Arenal Hanging Bridges Mistico",
+                                                      "score":  22,
+                                                      "reasons":  [
+                                                                      "Tour takes place near this destination"
+                                                                  ],
+                                                      "category":  "Rainforest \u0026 Wildlife",
+                                                      "url":  "../tours/arenalhangingbridges.html",
+                                                      "image":  "images/arenalbridges1.webp",
+                                                      "duration":  "Full Day (approx. 12 hours)",
+                                                      "from_price":  320,
                                                       "currency":  "USD"
                                                   }
                                               ],
@@ -2847,18 +2845,17 @@
                                                                                         "currency":  "USD"
                                                                                     },
                                                                                     {
-                                                                                        "id":  "slothadventure",
-                                                                                        "name":  "Sloth Adventure Tour Costa Rica",
-                                                                                        "score":  52,
+                                                                                        "id":  "sensoriarainforest",
+                                                                                        "name":  "Sensoria Land of Senses \u0026 Magical Rainforest",
+                                                                                        "score":  41,
                                                                                         "reasons":  [
-                                                                                                        "Matches an article destination",
                                                                                                         "Matches article interests"
                                                                                                     ],
-                                                                                        "category":  "Wildlife",
-                                                                                        "url":  "../tours/slothadventure.html",
-                                                                                        "image":  "images/sloth1.webp",
+                                                                                        "category":  "Experience",
+                                                                                        "url":  "../tours/sensoriarainforest.html",
+                                                                                        "image":  "images/sensoria1.webp",
                                                                                         "duration":  "Full Day (approx. 8 hours)",
-                                                                                        "from_price":  225,
+                                                                                        "from_price":  325,
                                                                                         "currency":  "USD"
                                                                                     }
                                                                                 ],
@@ -3936,6 +3933,21 @@
                                                                 "currency":  "USD"
                                                             },
                                                             {
+                                                                "id":  "slothadventure",
+                                                                "name":  "Sloth Adventure Tour Costa Rica",
+                                                                "score":  50,
+                                                                "reasons":  [
+                                                                                "Shared destination",
+                                                                                "Shared activities"
+                                                                            ],
+                                                                "category":  "Wildlife",
+                                                                "url":  "../tours/slothadventure.html",
+                                                                "image":  "images/sloth1.webp",
+                                                                "duration":  "Full Day (approx. 8 hours)",
+                                                                "from_price":  225,
+                                                                "currency":  "USD"
+                                                            },
+                                                            {
                                                                 "id":  "paloverderiverboattour",
                                                                 "name":  "Palo Verde River Boat Tour",
                                                                 "score":  43,
@@ -3964,21 +3976,6 @@
                                                                 "image":  "images/congotrailnew1.webp",
                                                                 "duration":  "Half Day (approx. 7 hours)",
                                                                 "from_price":  190,
-                                                                "currency":  "USD"
-                                                            },
-                                                            {
-                                                                "id":  "congotrail",
-                                                                "name":  "Congo Trail Half-Day Adventure",
-                                                                "score":  35,
-                                                                "reasons":  [
-                                                                                "Shared destination",
-                                                                                "Shared activities"
-                                                                            ],
-                                                                "category":  "Experience",
-                                                                "url":  "../tours/congotrail.html",
-                                                                "image":  "images/congotrail1.webp",
-                                                                "duration":  "Half Day (approx. 6 hours)",
-                                                                "from_price":  240,
                                                                 "currency":  "USD"
                                                             }
                                                         ],
@@ -4671,6 +4668,21 @@
                                                       ],
                                "slothadventure":  [
                                                       {
+                                                          "id":  "hangingbridgessloths",
+                                                          "name":  "Hanging Bridges \u0026 Sloths Experience",
+                                                          "score":  50,
+                                                          "reasons":  [
+                                                                          "Shared destination",
+                                                                          "Shared activities"
+                                                                      ],
+                                                          "category":  "Wildlife \u0026 Nature",
+                                                          "url":  "../tours/hangingbridgessloths.html",
+                                                          "image":  "images/bridgessloths1.webp",
+                                                          "duration":  "Full Day (approx. 9 hours)",
+                                                          "from_price":  245,
+                                                          "currency":  "USD"
+                                                      },
+                                                      {
                                                           "id":  "ostionalturtles",
                                                           "name":  "Ostional Turtle Watching Tour Costa Rica",
                                                           "score":  40,
@@ -4701,32 +4713,18 @@
                                                           "currency":  "USD"
                                                       },
                                                       {
-                                                          "id":  "slothchocolatetour",
-                                                          "name":  "Sloth Adventure \u0026 Chocolate Tour",
+                                                          "id":  "congotrailcanopy",
+                                                          "name":  "Congo Trail Canopy \u0026 Extreme Zip Line",
                                                           "score":  35,
                                                           "reasons":  [
                                                                           "Shared destination",
                                                                           "Shared activities"
                                                                       ],
                                                           "category":  "Experience",
-                                                          "url":  "../tours/slothchocolatetour.html",
-                                                          "image":  "images/slothchocolate1.webp",
-                                                          "duration":  "Full Day (approx. 8 hours)",
-                                                          "from_price":  235,
-                                                          "currency":  "USD"
-                                                      },
-                                                      {
-                                                          "id":  "hangingbridgessloths",
-                                                          "name":  "Hanging Bridges \u0026 Sloths Experience",
-                                                          "score":  30,
-                                                          "reasons":  [
-                                                                          "Shared activities"
-                                                                      ],
-                                                          "category":  "Wildlife \u0026 Nature",
-                                                          "url":  "../tours/hangingbridgessloths.html",
-                                                          "image":  "images/bridgessloths1.webp",
-                                                          "duration":  "Full Day (approx. 9 hours)",
-                                                          "from_price":  245,
+                                                          "url":  "../tours/congotrailcanopy.html",
+                                                          "image":  "images/congotrailnew1.webp",
+                                                          "duration":  "Half Day (approx. 7 hours)",
+                                                          "from_price":  190,
                                                           "currency":  "USD"
                                                       }
                                                   ],
