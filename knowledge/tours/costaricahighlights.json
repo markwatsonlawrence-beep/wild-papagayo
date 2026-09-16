@@ -126,12 +126,12 @@
                                           "Couples"
                                       ],
                          "traveler_scores":  {
-                                                 "families":  85,
+                                                 "families":  100,
                                                  "couples":  95,
-                                                 "seniors":  80,
-                                                 "adventure":  65,
-                                                 "wildlife":  65,
-                                                 "relaxation":  90,
+                                                 "seniors":  50,
+                                                 "adventure":  50,
+                                                 "wildlife":  75,
+                                                 "relaxation":  75,
                                                  "private":  90
                                              },
                          "pickup_zone_ids":  [

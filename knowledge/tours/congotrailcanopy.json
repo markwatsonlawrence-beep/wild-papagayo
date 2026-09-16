@@ -118,12 +118,12 @@
                                           "Active couples"
                                       ],
                          "traveler_scores":  {
-                                                 "families":  70,
+                                                 "families":  50,
                                                  "couples":  85,
-                                                 "seniors":  45,
-                                                 "adventure":  100,
-                                                 "wildlife":  45,
-                                                 "relaxation":  25,
+                                                 "seniors":  50,
+                                                 "adventure":  50,
+                                                 "wildlife":  50,
+                                                 "relaxation":  50,
                                                  "private":  75
                                              },
                          "pickup_zone_ids":  [

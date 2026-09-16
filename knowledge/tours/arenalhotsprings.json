@@ -124,12 +124,12 @@
                                           "Nature lovers"
                                       ],
                          "traveler_scores":  {
-                                                 "families":  85,
+                                                 "families":  50,
                                                  "couples":  95,
-                                                 "seniors":  80,
-                                                 "adventure":  65,
-                                                 "wildlife":  65,
-                                                 "relaxation":  90,
+                                                 "seniors":  25,
+                                                 "adventure":  0,
+                                                 "wildlife":  0,
+                                                 "relaxation":  75,
                                                  "private":  90
                                              },
                          "pickup_zone_ids":  [

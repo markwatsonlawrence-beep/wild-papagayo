@@ -118,11 +118,11 @@
                                           "Active couples"
                                       ],
                          "traveler_scores":  {
-                                                 "families":  70,
+                                                 "families":  0,
                                                  "couples":  85,
-                                                 "seniors":  45,
-                                                 "adventure":  100,
-                                                 "wildlife":  45,
+                                                 "seniors":  25,
+                                                 "adventure":  75,
+                                                 "wildlife":  0,
                                                  "relaxation":  25,
                                                  "private":  75
                                              },
