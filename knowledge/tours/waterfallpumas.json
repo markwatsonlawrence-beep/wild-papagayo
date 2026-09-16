@@ -112,7 +112,7 @@
                          "primary_category":  "Nature \u0026 Wildlife",
                          "difficulty":  "Easy",
                          "duration_hours":  6,
-                         "duration_type":  "Full Day",
+                         "duration_type":  "Half Day",
                          "energy_level":  "Medium",
                          "minimum_age":  0,
                          "best_for":  [
@@ -262,7 +262,7 @@
                                            },
                          "quick_stats":  {
                                              "difficulty":  "Easy",
-                                             "duration":  "Full Day",
+                                             "duration":  "Half Day",
                                              "availability":  "Daily"
                                          },
                          "testimonials":  [

@@ -11,7 +11,7 @@
     "hero_image":  "images/bridgessloths1.webp",
     "hero_image_alt":  "Hanging Bridges \u0026 Sloths Experience in Costa Rica",
     "destination_ids":  [
-                            "la-fortuna"
+                            "guanacaste"
                         ],
     "activity_ids":  [
                          "hanging-bridges",
@@ -89,7 +89,7 @@
 
                                     ],
                           "destinations":  [
-                                               "la-fortuna"
+                                               "guanacaste"
                                            ],
                           "nearby_hotels":  [
 
@@ -204,7 +204,7 @@
                          "last_generated":  "2026-07-12"
                      },
     "page_content":  {
-                         "hero_region_label":  "Private Collection · Monteverde · Hanging Bridges \u0026 Sloths · Guanacaste",
+                         "hero_region_label":  "Private Collection · Llanos de Cortez · Hanging Bridges \u0026 Sloths · Guanacaste",
                          "hero_title_html":  "Hanging Bridges \u0026amp; Sloths Private Wildlife Tour",
                          "hero_chips":  [
                                             "🌉 3 Suspension Bridges",

@@ -88,7 +88,7 @@
             "adventure",
             "resort"
         ],
-        "avoid_after": [],
+        "avoid_after": ["wellness"],
         "tags": [
             "waterfall",
             "hot-springs",
@@ -193,7 +193,7 @@
                 {
                     "icon": "♨️",
                     "title": "Rio Negro Hot Springs",
-                    "description": "A series of natural hot spring pools built along the riverbank, warmed by the geothermal activity of Rincon de la Vieja Volcano, with natural volcanic mud nearby that visitors are welcome to apply."
+                    "description": "A series of natural hot spring pools built along the riverbank, warmed by the geothermal activity of Rincon de la Vieja Volcano."
                 },
                 {
                     "icon": "🌲",
@@ -233,7 +233,7 @@
                     "badge": "👑 PRIVATE TOUR",
                     "heading": "Oropendola Waterfall + Rio Negro Hot Springs, Private Transportation & Guide",
                     "price": "235",
-                    "note": "Pricing not yet published as a standalone tour, contact us on WhatsApp for a custom quote based on your pickup zone and group size."
+                    "note": "Price varies by pickup & group size, contact us for an exact quote"
                 }
             ]
         },
@@ -369,7 +369,7 @@
             },
             {
                 "question": "How much does this tour cost?",
-                "answer": "Pricing for this standalone tour is confirmed directly with our concierge based on your pickup zone and group size, contact us on WhatsApp for a custom quote."
+                "answer": "Starting from $235 per person for groups of 4+, with final pricing confirmed based on your pickup zone and group size. Contact us on WhatsApp for an exact quote."
             },
             {
                 "question": "Is hiking required?",
