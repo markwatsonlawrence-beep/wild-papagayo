@@ -35,10 +35,24 @@
     "duration_label":  "Full Day (approx. 9 hours)",
     "minimum_age":  8,
     "included":  [
-
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Snacks and refreshments",
+                     "Experienced certified bilingual local guide",
+                     "Guided hike to Río Celeste",
+                     "Tenorio National Park entrance fee \u0026 registration",
+                     "Traditional Costa Rican lunch"
                  ],
     "what_to_bring":  [
-
+                          "Hiking or trail shoes",
+                          "Light rain jacket",
+                          "Insect repellent",
+                          "Sunscreen",
+                          "Hat or cap",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Extra dry shirt or lightweight change of clothes",
+                          "Cash for personal expenses (gratuities)"
                       ],
     "season_ids":  [
                        "all-year"
@@ -54,9 +68,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  220,
+                    "from_price":  215,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "pricing_note":  "Confirmed by ops (Batch 1 normalization): canonical From price is $215 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -239,7 +254,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL PRIVATE EXPERIENCE",
                                                                    "heading":  "Blue River Hike + Waterfall + Lunch",
-                                                                   "price":  "165",
+                                                                   "price":  "215",
                                                                    "note":  "Private transportation, certified guide, national park entrance and lunch included. Exact price depends on your hotel and group size."
                                                                }
                                                            ]

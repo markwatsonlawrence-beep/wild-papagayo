@@ -30,10 +30,26 @@
     "duration_label":  "Half Day (approx. 6 hours)",
     "minimum_age":  8,
     "included":  [
-
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Snacks and refreshments",
+                     "Experienced certified bilingual local guide",
+                     "2-mile private white water rafting, Class II–III",
+                     "Traditional lunch served riverside",
+                     "All safety gear (helmet, life jacket, paddle, dry bag)"
                  ],
     "what_to_bring":  [
-
+                          "Sunscreen",
+                          "Bug spray",
+                          "Hat or cap",
+                          "Sunglasses",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Swimsuit",
+                          "Extra set of clothes",
+                          "Towel",
+                          "Water shoes / sandals",
+                          "Cash for personal expenses (gratuities)"
                       ],
     "season_ids":  [
                        "all-year"
@@ -48,9 +64,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  200,
+                    "from_price":  210,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "pricing_note":  "Confirmed by ops (Batch 1 normalization): canonical From price is $210 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -235,7 +252,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL EXPERIENCE",
                                                                    "heading":  "White Water Rafting + Lunch",
-                                                                   "price":  "200",
+                                                                   "price":  "210",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]

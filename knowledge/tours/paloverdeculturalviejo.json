@@ -33,10 +33,26 @@
     "duration_label":  "Full Day (approx. 9 hours)",
     "minimum_age":  0,
     "included":  [
-
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Snacks and refreshments",
+                     "Experienced certified bilingual local guide",
+                     "90-minute covered boat ride on the Tempisque River",
+                     "Palo Verde National Park entry fee",
+                     "Hacienda El Viejo cultural experience, tortilla making \u0026amp; trapiche",
+                     "Traditional Guanacaste farmhouse lunch"
                  ],
     "what_to_bring":  [
-
+                          "Sunscreen",
+                          "Bug spray",
+                          "Hat or cap",
+                          "Sunglasses",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Binoculars",
+                          "Comfortable clothing",
+                          "Comfortable walking shoes",
+                          "Cash for personal expenses (gratuities)"
                       ],
     "season_ids":  [
                        "all-year"
@@ -51,9 +67,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  300,
+                    "from_price":  295,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "pricing_note":  "Confirmed by ops (Batch 1 normalization): canonical From price is $295 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -242,7 +259,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL EXPERIENCE",
                                                                    "heading":  "River Safari • Hacienda Experience • Lunch",
-                                                                   "price":  "200",
+                                                                   "price":  "295",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]
