@@ -276,11 +276,16 @@ foreach ($file in $files) {
 
     # ---- Head / SEO ----
     # Optional per-tour overrides -- when absent, falls back to the auto-generated
-    # title/description derived from name/short_description (unchanged behavior
-    # for the other 31 tours until they get an override too).
+    # title/description derived from name/short_description. Root-level wins when
+    # present; some tours were authored with the override nested under
+    # page_content instead (an editorial mistake, not an intentional alternate
+    # location -- tour-schema.json documents neither location), so that's read
+    # as a second-choice source before falling back to the generated copy.
     $seoTitleOverride = [string](Get-PropertyValue $tour 'seo_title_override' '')
+    if (-not $seoTitleOverride) { $seoTitleOverride = [string](Get-PropertyValue $pc 'seo_title_override' '') }
     $seoTitle = if ($seoTitleOverride) { $seoTitleOverride } else { Get-SeoTitle $name }
     $seoDescOverride = [string](Get-PropertyValue $tour 'seo_description_override' '')
+    if (-not $seoDescOverride) { $seoDescOverride = [string](Get-PropertyValue $pc 'seo_description_override' '') }
     $seoDesc = if ($seoDescOverride) { $seoDescOverride } else { Get-SeoDescription $shortDesc }
     $ogImage = "$siteUrl/$heroImage"
 
@@ -680,7 +685,7 @@ foreach ($file in $files) {
         '__SEO_TITLE__' = (ConvertTo-HtmlSafe $seoTitle)
         '__SEO_DESCRIPTION__' = (ConvertTo-HtmlSafe $seoDesc)
         '__CANONICAL__' = $canonical
-        '__OG_TITLE__' = (ConvertTo-HtmlSafe "$name | Wild Papagayo")
+        '__OG_TITLE__' = (ConvertTo-HtmlSafe $seoTitle)
         '__OG_DESCRIPTION__' = (ConvertTo-HtmlSafe $seoDesc)
         '__OG_IMAGE__' = $ogImage
         '__SCHEMA__' = $schema
