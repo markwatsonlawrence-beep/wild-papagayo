@@ -23,9 +23,9 @@
                             "playa-coco"
                         ],
     "best_for":  [
-                     "Adventure travelers",
-                     "Teens",
-                     "Active groups"
+                     "Nature lovers",
+                     "Birdwatchers",
+                     "Photography"
                  ],
     "difficulty":  "Easy",
     "duration_label":  "Half Day (approx. 6 hours)",
@@ -108,16 +108,16 @@
     "intelligence":  {
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
-                         "primary_category":  "Water Adventure",
+                         "primary_category":  "Nature & Wildlife",
                          "difficulty":  "Easy",
                          "duration_hours":  6,
                          "duration_type":  "Half Day",
-                         "energy_level":  "High",
+                         "energy_level":  "Low",
                          "minimum_age":  8,
                          "best_for":  [
-                                          "Adventure travelers",
-                                          "Teens",
-                                          "Active groups"
+                                          "Nature lovers",
+                                          "Birdwatchers",
+                                          "Photography"
                                       ],
                          "traveler_scores":  {
                                                  "families":  65,
@@ -167,8 +167,8 @@
                                       },
                          "recommendation_priority":  90,
                          "balance_tags":  [
-                                              "adventure",
-                                              "water-adventure"
+                                              "balanced",
+                                              "nature-wildlife"
                                           ],
                          "editorial_review":  {
                                                   "required":  true,

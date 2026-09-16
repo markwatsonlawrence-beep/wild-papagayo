@@ -102,7 +102,6 @@
                       "tags":  [
                                    "river",
                                    "floating",
-                                   "hot-springs",
                                    "nature",
                                    "relaxing"
                                ]
@@ -110,10 +109,10 @@
     "intelligence":  {
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
-                         "primary_category":  "Water Adventure",
+                         "primary_category":  "Nature & Wildlife",
                          "difficulty":  "Moderate",
                          "duration_hours":  8,
-                         "duration_type":  "Half Day",
+                         "duration_type":  "Full Day",
                          "energy_level":  "High",
                          "minimum_age":  8,
                          "best_for":  [
@@ -169,8 +168,8 @@
                                       },
                          "recommendation_priority":  80,
                          "balance_tags":  [
-                                              "adventure",
-                                              "water-adventure"
+                                              "balanced",
+                                              "nature-wildlife"
                                           ],
                          "editorial_review":  {
                                                   "required":  true,

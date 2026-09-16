@@ -79,7 +79,7 @@
     "last_reviewed":  "2026-07-11",
     "itinerary":  {
                       "category":  "adventure",
-                      "intensity":  "heavy",
+                      "intensity":  "moderate",
                       "pickup_zones":  [
                                            "papagayo",
                                            "playa-hermosa",
@@ -107,7 +107,7 @@
     "intelligence":  {
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
-                         "primary_category":  "Volcano \u0026 Wellness",
+                         "primary_category":  "Adventure",
                          "difficulty":  "Easy to Moderate",
                          "duration_hours":  8,
                          "duration_type":  "Full Day",
@@ -167,7 +167,7 @@
                          "recommendation_priority":  85,
                          "balance_tags":  [
                                               "balanced",
-                                              "volcano-wellness"
+                                              "adventure"
                                           ],
                          "editorial_review":  {
                                                   "required":  true,

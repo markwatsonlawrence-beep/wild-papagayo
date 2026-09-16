@@ -87,7 +87,7 @@
                      ],
     "last_reviewed":  "2026-07-11",
     "itinerary":  {
-                      "category":  "cultural",
+                      "category":  "adventure",
                       "intensity":  "moderate",
                       "pickup_zones":  [
                                            "papagayo",
@@ -102,21 +102,20 @@
                                           "nature"
                                       ],
                       "avoid_after":  [
-                                          "cultural"
+                                          "adventure"
                                       ],
                       "tags":  [
-                                   "cultural",
-                                   "food",
-                                   "art",
-                                   "experience",
-                                   "local",
-                                   "community"
+                                   "combo",
+                                   "horse",
+                                   "zip-line",
+                                   "waterfall",
+                                   "hot-springs"
                                ]
                   },
     "intelligence":  {
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
-                         "primary_category":  "Volcano \u0026 Wellness",
+                         "primary_category":  "Adventure",
                          "difficulty":  "Easy to Moderate",
                          "duration_hours":  8,
                          "duration_type":  "Full Day",
@@ -177,8 +176,8 @@
                                       },
                          "recommendation_priority":  85,
                          "balance_tags":  [
-                                              "balanced",
-                                              "volcano-wellness"
+                                              "adventure",
+                                              "water-adventure"
                                           ],
                          "editorial_review":  {
                                                   "required":  true,

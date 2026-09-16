@@ -11,7 +11,7 @@
     "hero_image":  "images/monteverdewalk1.webp",
     "hero_image_alt":  "Monteverde Treetop Walk in Costa Rica",
     "destination_ids":  [
-                            "guanacaste"
+                            "monteverde"
                         ],
     "activity_ids":  [
                          "hanging-bridges",
@@ -111,7 +111,7 @@
                          "primary_category":  "Nature \u0026 Wildlife",
                          "difficulty":  "Moderate",
                          "duration_hours":  12,
-                         "duration_type":  "Half Day",
+                         "duration_type":  "Full Day",
                          "energy_level":  "Medium",
                          "minimum_age":  0,
                          "best_for":  [
