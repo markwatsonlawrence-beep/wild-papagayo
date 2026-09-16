@@ -118,12 +118,12 @@
                                           "Curious travelers"
                                       ],
                          "traveler_scores":  {
-                                                 "families":  90,
+                                                 "families":  100,
                                                  "couples":  80,
-                                                 "seniors":  90,
-                                                 "adventure":  35,
-                                                 "wildlife":  40,
-                                                 "relaxation":  70,
+                                                 "seniors":  75,
+                                                 "adventure":  25,
+                                                 "wildlife":  0,
+                                                 "relaxation":  75,
                                                  "private":  75
                                              },
                          "pickup_zone_ids":  [

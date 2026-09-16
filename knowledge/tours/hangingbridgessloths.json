@@ -141,12 +141,12 @@
                                           "First-time visitors"
                                       ],
                          "traveler_scores":  {
-                                                 "families":  95,
+                                                 "families":  100,
                                                  "couples":  90,
-                                                 "seniors":  90,
-                                                 "adventure":  65,
+                                                 "seniors":  100,
+                                                 "adventure":  50,
                                                  "wildlife":  100,
-                                                 "relaxation":  65,
+                                                 "relaxation":  50,
                                                  "private":  85
                                              },
                          "pickup_zone_ids":  [
