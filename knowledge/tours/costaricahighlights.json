@@ -113,7 +113,7 @@
     "intelligence":  {
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
-                         "primary_category":  "Volcano \u0026 Wellness",
+                         "primary_category":  "Nature \u0026 Wildlife",
                          "difficulty":  "Moderate",
                          "duration_hours":  10,
                          "duration_type":  "Full Day",
@@ -176,7 +176,7 @@
                          "recommendation_priority":  85,
                          "balance_tags":  [
                                               "balanced",
-                                              "volcano-wellness"
+                                              "nature-wildlife"
                                           ],
                          "editorial_review":  {
                                                   "required":  true,

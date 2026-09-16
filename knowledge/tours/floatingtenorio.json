@@ -27,7 +27,7 @@
                      "Teens",
                      "Active groups"
                  ],
-    "difficulty":  "Moderate",
+    "difficulty":  "Easy",
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  8,
     "included":  [
@@ -110,7 +110,7 @@
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
                          "primary_category":  "Nature & Wildlife",
-                         "difficulty":  "Moderate",
+                         "difficulty":  "Easy",
                          "duration_hours":  8,
                          "duration_type":  "Full Day",
                          "energy_level":  "High",

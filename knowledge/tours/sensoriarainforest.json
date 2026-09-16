@@ -85,7 +85,7 @@
     "last_reviewed":  "2026-07-11",
     "itinerary":  {
                       "category":  "rainforest",
-                      "intensity":  "light",
+                      "intensity":  "moderate",
                       "pickup_zones":  [
                                            "papagayo",
                                            "playa-hermosa",
@@ -114,7 +114,7 @@
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
                          "primary_category":  "Nature \u0026 Wildlife",
-                         "difficulty":  "Easy",
+                         "difficulty":  "Moderate",
                          "duration_hours":  8,
                          "duration_type":  "Full Day",
                          "energy_level":  "Medium",
