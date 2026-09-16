@@ -126,6 +126,19 @@ if (-not (Test-Path $pricingJsonPath)) {
 }
 $pricingData = Read-Utf8Json $pricingJsonPath
 
+# Pickup-zone display names for the trust-bar (S1 fix) -- reuses the existing
+# destination taxonomy rather than duplicating a location-name list in code.
+$destinationsJsonPath = Join-Path $root "knowledge\destinations.json"
+$destinationNameById = @{}
+if (Test-Path $destinationsJsonPath) {
+    $destinationsData = Read-Utf8Json $destinationsJsonPath
+    foreach ($dest in @($destinationsData)) {
+        $destId = [string](Get-PropertyValue $dest 'id' '')
+        $destName = [string](Get-PropertyValue $dest 'name' '')
+        if ($destId -and $destName) { $destinationNameById[$destId] = $destName }
+    }
+}
+
 function Get-DerivedPriceInfo {
     # Resolves an estimator option's minimum public per-person price and
     # which guest tier(s) produce it. Throws (fails the build) rather than
@@ -331,8 +344,14 @@ foreach ($file in $files) {
     $heroSubtitle = [string](Get-PropertyValue $pc 'hero_subtitle_html' '')
     $heroSubtitleHtml = if ($heroSubtitle) { '<p class="ths-subtitle">' + $heroSubtitle + '</p>' } else { '' }
 
-    # ---- Pickup areas (optional per-tour hotel breakdown; falls back to the
-    # generic zone-name list already hardcoded in the template when absent) ----
+    # ---- Pickup areas (S1 fix) ----
+    # A. page_content.pickup_areas, when present, is a per-tour, ops-authored
+    #    breakdown (area label + hotels/notes) -- rendered exactly as before.
+    # B. Otherwise, map this tour's own pickup_zone_ids to display names via
+    #    knowledge/destinations.json and render only those zones -- never a
+    #    location unconnected to this tour's actual data.
+    # C. If pickup_zone_ids is empty or none of its ids resolve, fall back to
+    #    neutral wording rather than any hardcoded location list.
     $pickupAreas = @(Get-PropertyValue $pc 'pickup_areas' @())
     if ($pickupAreas.Count -gt 0) {
         $pickupAreasHtml = ($pickupAreas | ForEach-Object {
@@ -340,7 +359,16 @@ foreach ($file in $files) {
             '<div class="pickup-area"><b>' + (ConvertTo-HtmlSafe $_.area) + '</b><span>' + $hotels + '</span></div>'
         }) -join "`n"
     } else {
-        $pickupAreasHtml = '<div class="ths-trust-hotels">Tamarindo &middot; Hacienda Pinilla &middot; Flamingo &middot; Reserva Conchal &middot; Matapalo &middot; Papagayo Bay &middot; Peninsula de Papagayo &middot; Coco &middot; Hermosa</div>'
+        $tourPickupZoneIds = @(Get-PropertyValue $tour 'pickup_zone_ids' @())
+        $mappedZoneNames = @($tourPickupZoneIds | ForEach-Object {
+            $zoneId = [string]$_
+            if ($destinationNameById.ContainsKey($zoneId)) { $destinationNameById[$zoneId] }
+        } | Where-Object { $_ })
+        if ($mappedZoneNames.Count -gt 0) {
+            $pickupAreasHtml = '<div class="ths-trust-hotels">' + (($mappedZoneNames | ForEach-Object { ConvertTo-HtmlSafe $_ }) -join ' &middot; ') + '</div>'
+        } else {
+            $pickupAreasHtml = '<div class="ths-trust-hotels">Private pickup available from selected Guanacaste resorts.</div>'
+        }
     }
 
     # ---- Peak season note (optional, only when operationally true) ----
