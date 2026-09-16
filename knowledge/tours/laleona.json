@@ -32,11 +32,30 @@
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  8,
     "included":  [
-
-                 ],
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "3-hour guided hike through 5 natural canyon river pools",
+                                                     "Swim at La Leona Waterfall",
+                                                     "Classic option: Zip line descent over canopy",
+                                                     "Plus option: Tubing descent through river rapids",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
     "what_to_bring":  [
-
-                      ],
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
     "season_ids":  [
                        "all-year"
                    ],
@@ -50,9 +69,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  230,
+                    "from_price":  255,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "price_confirmed":  true,
+                    "pricing_note":  "Confirmed by ops: tied Classic/Plus pricing at $255 p.p. (4+ guests) is intentional, sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -230,14 +250,14 @@
 "option_id":  "classic",
                                                                    "badge":  "👑 CLASSIC",
                                                                    "heading":  "La Leona Waterfall + Lunch + Zip Line",
-                                                                   "price":  "240",
+                                                                   "price":  "255",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                },
                                                                {
 "option_id":  "plus",
                                                                    "badge":  "✦ PLUS",
                                                                    "heading":  "La Leona Waterfall + Lunch + Tubing",
-                                                                   "price":  "240",
+                                                                   "price":  "255",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]
