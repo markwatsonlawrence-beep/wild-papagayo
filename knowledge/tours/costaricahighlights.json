@@ -72,10 +72,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  325,
+                    "from_price":  330,
                     "currency":  "USD",
-                    "price_confirmed":  false,
-                    "pricing_note":  "Neither $280 (currently shown per-option) nor $325 (this from_price) is a verified canonical public starting price. Awaiting the finalized 2/3/4+ guest private pricing table before confirming."
+                    "price_confirmed":  true,
+                    "pricing_note":  "Confirmed by ops: Full Experience 2 guests=$485 p.p. / 3 guests=$385 p.p. / 4+ guests=$330 p.p. Canonical public From price is $330 (4+ guest rate)."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -258,7 +258,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL EXPERIENCE",
                                                                    "heading":  "Sloths + Waterfall + Coffee \u0026 Cacao + Hot Springs + 2 Hanging Bridges + Lunch",
-                                                                   "price":  "280",
+                                                                   "price":  "330",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]
