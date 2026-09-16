@@ -121,12 +121,12 @@
                                           "Active groups"
                                       ],
                          "traveler_scores":  {
-                                                 "families":  65,
+                                                 "families":  50,
                                                  "couples":  80,
-                                                 "seniors":  35,
-                                                 "adventure":  100,
+                                                 "seniors":  100,
+                                                 "adventure":  0,
                                                  "wildlife":  50,
-                                                 "relaxation":  20,
+                                                 "relaxation":  100,
                                                  "private":  70
                                              },
                          "pickup_zone_ids":  [
