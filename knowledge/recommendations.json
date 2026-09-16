@@ -1,6 +1,6 @@
 {
     "version":  "1.0",
-    "generated_at":  "2026-09-16T14:59:13.5544790-06:00",
+    "generated_at":  "2026-09-16T15:26:30.2999785-06:00",
     "rules_file":  "knowledge/recommendation-rules.json",
     "counts":  {
                    "hotels":  16,
@@ -2610,16 +2610,16 @@
                                                                                      "currency":  "USD"
                                                                                  },
                                                                                  {
-                                                                                     "id":  "congotrail",
-                                                                                     "name":  "Congo Trail Half-Day Adventure",
+                                                                                     "id":  "floatingtenorio",
+                                                                                     "name":  "Floating at Tenorio River Safari Float",
                                                                                      "score":  29,
                                                                                      "reasons":  [
                                                                                                      "Matches article interests"
                                                                                                  ],
                                                                                      "category":  "Experience",
-                                                                                     "url":  "../tours/congotrail.html",
-                                                                                     "image":  "images/congotrail1.webp",
-                                                                                     "duration":  "Half Day (approx. 6 hours)",
+                                                                                     "url":  "../tours/floatingtenorio.html",
+                                                                                     "image":  "images/floatingtenorio1.webp",
+                                                                                     "duration":  "Full Day (approx. 8 hours)",
                                                                                      "from_price":  240,
                                                                                      "currency":  "USD"
                                                                                  }
@@ -2668,16 +2668,16 @@
                                                                                         "currency":  "USD"
                                                                                     },
                                                                                     {
-                                                                                        "id":  "congotrail",
-                                                                                        "name":  "Congo Trail Half-Day Adventure",
+                                                                                        "id":  "floatingtenorio",
+                                                                                        "name":  "Floating at Tenorio River Safari Float",
                                                                                         "score":  29,
                                                                                         "reasons":  [
                                                                                                         "Matches article interests"
                                                                                                     ],
                                                                                         "category":  "Experience",
-                                                                                        "url":  "../tours/congotrail.html",
-                                                                                        "image":  "images/congotrail1.webp",
-                                                                                        "duration":  "Half Day (approx. 6 hours)",
+                                                                                        "url":  "../tours/floatingtenorio.html",
+                                                                                        "image":  "images/floatingtenorio1.webp",
+                                                                                        "duration":  "Full Day (approx. 8 hours)",
                                                                                         "from_price":  240,
                                                                                         "currency":  "USD"
                                                                                     }
@@ -3089,6 +3089,22 @@
                                                     ],
                                "atvmountainride":  [
                                                        {
+                                                           "id":  "congotrail",
+                                                           "name":  "Congo Trail Half-Day Adventure",
+                                                           "score":  60,
+                                                           "reasons":  [
+                                                                           "Same experience category",
+                                                                           "Shared destination",
+                                                                           "Shared activities"
+                                                                       ],
+                                                           "category":  "Experience",
+                                                           "url":  "../tours/congotrail.html",
+                                                           "image":  "images/congotrail1.webp",
+                                                           "duration":  "Half Day (approx. 6 hours)",
+                                                           "from_price":  240,
+                                                           "currency":  "USD"
+                                                       },
+                                                       {
                                                            "id":  "borinque4senses",
                                                            "name":  "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall \u0026 Hot Springs",
                                                            "score":  45,
@@ -3132,21 +3148,6 @@
                                                            "duration":  "Half Day (approx. 6 hours)",
                                                            "from_price":  210,
                                                            "currency":  "USD"
-                                                       },
-                                                       {
-                                                           "id":  "congotrailcanopy",
-                                                           "name":  "Congo Trail Canopy \u0026 Extreme Zip Line",
-                                                           "score":  45,
-                                                           "reasons":  [
-                                                                           "Same experience category",
-                                                                           "Shared destination"
-                                                                       ],
-                                                           "category":  "Experience",
-                                                           "url":  "../tours/congotrailcanopy.html",
-                                                           "image":  "images/congotrailnew1.webp",
-                                                           "duration":  "Half Day (approx. 7 hours)",
-                                                           "from_price":  190,
-                                                           "currency":  "USD"
                                                        }
                                                    ],
                                "borinque4senses":  [
@@ -3182,6 +3183,22 @@
                                                            "currency":  "USD"
                                                        },
                                                        {
+                                                           "id":  "congotrail",
+                                                           "name":  "Congo Trail Half-Day Adventure",
+                                                           "score":  75,
+                                                           "reasons":  [
+                                                                           "Same experience category",
+                                                                           "Shared destination",
+                                                                           "Shared activities"
+                                                                       ],
+                                                           "category":  "Experience",
+                                                           "url":  "../tours/congotrail.html",
+                                                           "image":  "images/congotrail1.webp",
+                                                           "duration":  "Half Day (approx. 6 hours)",
+                                                           "from_price":  240,
+                                                           "currency":  "USD"
+                                                       },
+                                                       {
                                                            "id":  "laleona",
                                                            "name":  "La Leona Waterfall — Zip Line \u0026 Tubing",
                                                            "score":  75,
@@ -3195,22 +3212,6 @@
                                                            "image":  "images/laleona1.webp",
                                                            "duration":  "Full Day (approx. 8 hours)",
                                                            "from_price":  255,
-                                                           "currency":  "USD"
-                                                       },
-                                                       {
-                                                           "id":  "miravallesspa",
-                                                           "name":  "Miravalles Volcano Waterfalls \u0026 Natural Spa",
-                                                           "score":  75,
-                                                           "reasons":  [
-                                                                           "Same experience category",
-                                                                           "Shared destination",
-                                                                           "Shared activities"
-                                                                       ],
-                                                           "category":  "Experience",
-                                                           "url":  "../tours/miravallesspa.html",
-                                                           "image":  "images/miravalles1.webp",
-                                                           "duration":  "Full Day (approx. 8 hours)",
-                                                           "from_price":  230,
                                                            "currency":  "USD"
                                                        }
                                                    ],
@@ -3531,25 +3532,9 @@
                                                         ],
                                "congotrail":  [
                                                   {
-                                                      "id":  "congotrailcanopy",
-                                                      "name":  "Congo Trail Canopy \u0026 Extreme Zip Line",
-                                                      "score":  75,
-                                                      "reasons":  [
-                                                                      "Same experience category",
-                                                                      "Shared destination",
-                                                                      "Shared activities"
-                                                                  ],
-                                                      "category":  "Experience",
-                                                      "url":  "../tours/congotrailcanopy.html",
-                                                      "image":  "images/congotrailnew1.webp",
-                                                      "duration":  "Half Day (approx. 7 hours)",
-                                                      "from_price":  190,
-                                                      "currency":  "USD"
-                                                  },
-                                                  {
                                                       "id":  "borinque4senses",
                                                       "name":  "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall \u0026 Hot Springs",
-                                                      "score":  60,
+                                                      "score":  75,
                                                       "reasons":  [
                                                                       "Same experience category",
                                                                       "Shared destination",
@@ -3560,6 +3545,38 @@
                                                       "image":  "images/borinque1.webp",
                                                       "duration":  "Full Day (approx. 8 hours)",
                                                       "from_price":  340,
+                                                      "currency":  "USD"
+                                                  },
+                                                  {
+                                                      "id":  "haciendaaromal",
+                                                      "name":  "Hacienda Aromal Full Day",
+                                                      "score":  75,
+                                                      "reasons":  [
+                                                                      "Same experience category",
+                                                                      "Shared destination",
+                                                                      "Shared activities"
+                                                                  ],
+                                                      "category":  "Experience",
+                                                      "url":  "../tours/haciendaaromal.html",
+                                                      "image":  "images/aromal1.webp",
+                                                      "duration":  "Full Day (approx. 8 hours)",
+                                                      "from_price":  220,
+                                                      "currency":  "USD"
+                                                  },
+                                                  {
+                                                      "id":  "atvmountainride",
+                                                      "name":  "2-Hour ATV Mountain Ride",
+                                                      "score":  60,
+                                                      "reasons":  [
+                                                                      "Same experience category",
+                                                                      "Shared destination",
+                                                                      "Shared activities"
+                                                                  ],
+                                                      "category":  "Experience",
+                                                      "url":  "../tours/atvmountainride.html",
+                                                      "image":  "images/atvmountain1.webp",
+                                                      "duration":  "4 Hours",
+                                                      "from_price":  245,
                                                       "currency":  "USD"
                                                   },
                                                   {
@@ -3577,41 +3594,9 @@
                                                       "duration":  "Half Day (approx. 7 hours)",
                                                       "from_price":  270,
                                                       "currency":  "USD"
-                                                  },
-                                                  {
-                                                      "id":  "floatingtenorio",
-                                                      "name":  "Floating at Tenorio River Safari Float",
-                                                      "score":  60,
-                                                      "reasons":  [
-                                                                      "Same experience category",
-                                                                      "Shared destination",
-                                                                      "Shared activities"
-                                                                  ],
-                                                      "category":  "Experience",
-                                                      "url":  "../tours/floatingtenorio.html",
-                                                      "image":  "images/floatingtenorio1.webp",
-                                                      "duration":  "Full Day (approx. 8 hours)",
-                                                      "from_price":  240,
-                                                      "currency":  "USD"
                                                   }
                                               ],
                                "congotrailcanopy":  [
-                                                        {
-                                                            "id":  "congotrail",
-                                                            "name":  "Congo Trail Half-Day Adventure",
-                                                            "score":  75,
-                                                            "reasons":  [
-                                                                            "Same experience category",
-                                                                            "Shared destination",
-                                                                            "Shared activities"
-                                                                        ],
-                                                            "category":  "Experience",
-                                                            "url":  "../tours/congotrail.html",
-                                                            "image":  "images/congotrail1.webp",
-                                                            "duration":  "Half Day (approx. 6 hours)",
-                                                            "from_price":  240,
-                                                            "currency":  "USD"
-                                                        },
                                                         {
                                                             "id":  "borinque4senses",
                                                             "name":  "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall \u0026 Hot Springs",
@@ -3642,6 +3627,22 @@
                                                             "image":  "images/canyonadventure1.webp",
                                                             "duration":  "Half Day (approx. 7 hours)",
                                                             "from_price":  270,
+                                                            "currency":  "USD"
+                                                        },
+                                                        {
+                                                            "id":  "congotrail",
+                                                            "name":  "Congo Trail Half-Day Adventure",
+                                                            "score":  60,
+                                                            "reasons":  [
+                                                                            "Same experience category",
+                                                                            "Shared destination",
+                                                                            "Shared activities"
+                                                                        ],
+                                                            "category":  "Experience",
+                                                            "url":  "../tours/congotrail.html",
+                                                            "image":  "images/congotrail1.webp",
+                                                            "duration":  "Half Day (approx. 6 hours)",
+                                                            "from_price":  240,
                                                             "currency":  "USD"
                                                         },
                                                         {
@@ -3741,22 +3742,6 @@
                                                            "currency":  "USD"
                                                        },
                                                        {
-                                                           "id":  "congotrail",
-                                                           "name":  "Congo Trail Half-Day Adventure",
-                                                           "score":  60,
-                                                           "reasons":  [
-                                                                           "Same experience category",
-                                                                           "Shared destination",
-                                                                           "Shared activities"
-                                                                       ],
-                                                           "category":  "Experience",
-                                                           "url":  "../tours/congotrail.html",
-                                                           "image":  "images/congotrail1.webp",
-                                                           "duration":  "Half Day (approx. 6 hours)",
-                                                           "from_price":  240,
-                                                           "currency":  "USD"
-                                                       },
-                                                       {
                                                            "id":  "sensoriarainforest",
                                                            "name":  "Sensoria Land of Senses \u0026 Magical Rainforest",
                                                            "score":  60,
@@ -3786,6 +3771,21 @@
                                                            "image":  "images/waterfallpumas1.webp",
                                                            "duration":  "Half Day (approx. 6 hours)",
                                                            "from_price":  220,
+                                                           "currency":  "USD"
+                                                       },
+                                                       {
+                                                           "id":  "paloverdeculturalviejo",
+                                                           "name":  "Palo Verde \u0026 Cultural Experience El Viejo",
+                                                           "score":  50,
+                                                           "reasons":  [
+                                                                           "Shared destination",
+                                                                           "Shared activities"
+                                                                       ],
+                                                           "category":  "Wildlife \u0026 Culture",
+                                                           "url":  "../tours/paloverdeculturalviejo.html",
+                                                           "image":  "images/paloverdeviejo1.webp",
+                                                           "duration":  "Full Day (approx. 9 hours)",
+                                                           "from_price":  295,
                                                            "currency":  "USD"
                                                        }
                                                    ],
@@ -3822,6 +3822,22 @@
                                                           "currency":  "USD"
                                                       },
                                                       {
+                                                          "id":  "congotrail",
+                                                          "name":  "Congo Trail Half-Day Adventure",
+                                                          "score":  75,
+                                                          "reasons":  [
+                                                                          "Same experience category",
+                                                                          "Shared destination",
+                                                                          "Shared activities"
+                                                                      ],
+                                                          "category":  "Experience",
+                                                          "url":  "../tours/congotrail.html",
+                                                          "image":  "images/congotrail1.webp",
+                                                          "duration":  "Half Day (approx. 6 hours)",
+                                                          "from_price":  240,
+                                                          "currency":  "USD"
+                                                      },
+                                                      {
                                                           "id":  "laleona",
                                                           "name":  "La Leona Waterfall — Zip Line \u0026 Tubing",
                                                           "score":  75,
@@ -3835,22 +3851,6 @@
                                                           "image":  "images/laleona1.webp",
                                                           "duration":  "Full Day (approx. 8 hours)",
                                                           "from_price":  255,
-                                                          "currency":  "USD"
-                                                      },
-                                                      {
-                                                          "id":  "miravallesspa",
-                                                          "name":  "Miravalles Volcano Waterfalls \u0026 Natural Spa",
-                                                          "score":  75,
-                                                          "reasons":  [
-                                                                          "Same experience category",
-                                                                          "Shared destination",
-                                                                          "Shared activities"
-                                                                      ],
-                                                          "category":  "Experience",
-                                                          "url":  "../tours/miravallesspa.html",
-                                                          "image":  "images/miravalles1.webp",
-                                                          "duration":  "Full Day (approx. 8 hours)",
-                                                          "from_price":  230,
                                                           "currency":  "USD"
                                                       }
                                                   ],
@@ -4055,6 +4055,22 @@
                                                            "currency":  "USD"
                                                        },
                                                        {
+                                                           "id":  "congotrail",
+                                                           "name":  "Congo Trail Half-Day Adventure",
+                                                           "score":  60,
+                                                           "reasons":  [
+                                                                           "Same experience category",
+                                                                           "Shared destination",
+                                                                           "Shared activities"
+                                                                       ],
+                                                           "category":  "Experience",
+                                                           "url":  "../tours/congotrail.html",
+                                                           "image":  "images/congotrail1.webp",
+                                                           "duration":  "Half Day (approx. 6 hours)",
+                                                           "from_price":  240,
+                                                           "currency":  "USD"
+                                                       },
+                                                       {
                                                            "id":  "haciendaaromal",
                                                            "name":  "Hacienda Aromal Full Day",
                                                            "score":  60,
@@ -4083,21 +4099,6 @@
                                                            "image":  "images/atvmountain1.webp",
                                                            "duration":  "4 Hours",
                                                            "from_price":  245,
-                                                           "currency":  "USD"
-                                                       },
-                                                       {
-                                                           "id":  "canyonadventurepark",
-                                                           "name":  "Canyon Adventure Park — Zip, Rappel, Climb \u0026 Raft",
-                                                           "score":  45,
-                                                           "reasons":  [
-                                                                           "Same experience category",
-                                                                           "Shared destination"
-                                                                       ],
-                                                           "category":  "Experience",
-                                                           "url":  "../tours/canyonadventurepark.html",
-                                                           "image":  "images/canyonadventure1.webp",
-                                                           "duration":  "Half Day (approx. 7 hours)",
-                                                           "from_price":  270,
                                                            "currency":  "USD"
                                                        }
                                                    ],
@@ -4340,17 +4341,17 @@
                                                                 "currency":  "USD"
                                                             },
                                                             {
-                                                                "id":  "congotrail",
-                                                                "name":  "Congo Trail Half-Day Adventure",
+                                                                "id":  "floatingtenorio",
+                                                                "name":  "Floating at Tenorio River Safari Float",
                                                                 "score":  40,
                                                                 "reasons":  [
                                                                                 "Same experience category",
                                                                                 "Shared activities"
                                                                             ],
                                                                 "category":  "Experience",
-                                                                "url":  "../tours/congotrail.html",
-                                                                "image":  "images/congotrail1.webp",
-                                                                "duration":  "Half Day (approx. 6 hours)",
+                                                                "url":  "../tours/floatingtenorio.html",
+                                                                "image":  "images/floatingtenorio1.webp",
+                                                                "duration":  "Full Day (approx. 8 hours)",
                                                                 "from_price":  240,
                                                                 "currency":  "USD"
                                                             }
@@ -4521,18 +4522,18 @@
                                                                   "currency":  "USD"
                                                               },
                                                               {
-                                                                  "id":  "congotrail",
-                                                                  "name":  "Congo Trail Half-Day Adventure",
+                                                                  "id":  "hangingbridgessloths",
+                                                                  "name":  "Hanging Bridges \u0026 Sloths Experience",
                                                                   "score":  35,
                                                                   "reasons":  [
                                                                                   "Shared destination",
                                                                                   "Shared activities"
                                                                               ],
-                                                                  "category":  "Experience",
-                                                                  "url":  "../tours/congotrail.html",
-                                                                  "image":  "images/congotrail1.webp",
-                                                                  "duration":  "Half Day (approx. 6 hours)",
-                                                                  "from_price":  240,
+                                                                  "category":  "Wildlife \u0026 Nature",
+                                                                  "url":  "../tours/hangingbridgessloths.html",
+                                                                  "image":  "images/bridgessloths1.webp",
+                                                                  "duration":  "Full Day (approx. 9 hours)",
+                                                                  "from_price":  245,
                                                                   "currency":  "USD"
                                                               }
                                                           ],
@@ -5031,8 +5032,8 @@
                                                           "currency":  "USD"
                                                       },
                                                       {
-                                                          "id":  "congotrail",
-                                                          "name":  "Congo Trail Half-Day Adventure",
+                                                          "id":  "floatingtenorio",
+                                                          "name":  "Floating at Tenorio River Safari Float",
                                                           "score":  60,
                                                           "reasons":  [
                                                                           "Same experience category",
@@ -5040,9 +5041,9 @@
                                                                           "Shared activities"
                                                                       ],
                                                           "category":  "Experience",
-                                                          "url":  "../tours/congotrail.html",
-                                                          "image":  "images/congotrail1.webp",
-                                                          "duration":  "Half Day (approx. 6 hours)",
+                                                          "url":  "../tours/floatingtenorio.html",
+                                                          "image":  "images/floatingtenorio1.webp",
+                                                          "duration":  "Full Day (approx. 8 hours)",
                                                           "from_price":  240,
                                                           "currency":  "USD"
                                                       }
