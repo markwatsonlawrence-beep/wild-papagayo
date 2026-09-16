@@ -33,10 +33,32 @@
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  0,
     "included":  [
-
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Snacks and refreshments",
+                     "Experienced certified bilingual local guide",
+                     "Horseback riding, mountain trails with Pacific coast views",
+                     "Forest hike to Misterio Waterfall",
+                     "Canopy Zip Line Experience",
+                     "Natural Volcanic Hot Springs",
+                     "Volcanic mud treatment",
+                     "Volcanic Sauna",
+                     "Traditional Costa Rican lunch"
                  ],
     "what_to_bring":  [
-
+                          "Sunscreen",
+                          "Bug spray",
+                          "Hat or cap",
+                          "Sunglasses",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Long pants (for horseback)",
+                          "Comfortable closed-toe shoes or boots",
+                          "Swimsuit",
+                          "Extra set of clothes",
+                          "Towel",
+                          "Water shoes / sandals",
+                          "Cash for personal expenses (gratuities)"
                       ],
     "season_ids":  [
                        "all-year"
@@ -51,9 +73,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  310,
+                    "from_price":  340,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "pricing_note":  "Confirmed by ops (Batch 4 normalization): canonical From price is $340 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -237,7 +260,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL EXPERIENCE",
                                                                    "heading":  "Horseback + Waterfall + Zip Line + Hot Springs + Mud + Sauna + Lunch",
-                                                                   "price":  "310",
+                                                                   "price":  "340",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]

@@ -31,10 +31,27 @@
     "duration_label":  "Half Day (approx. 4 hours)",
     "minimum_age":  8,
     "included":  [
-
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Snacks and refreshments",
+                     "Experienced certified bilingual local guide",
+                     "Full waterfall canyoning, rappel, rock climb, Tarzan pendulum",
+                     "3.2 miles river tubing, Class 2–3 rapids",
+                     "Traditional Costa Rican lunch",
+                     "All safety gear (harness, helmet, life jacket)"
                  ],
     "what_to_bring":  [
-
+                          "Sunscreen",
+                          "Bug spray",
+                          "Hat or cap",
+                          "Sunglasses",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Swimsuit",
+                          "Extra set of clothes",
+                          "Towel",
+                          "Water shoes / sandals",
+                          "Cash for personal expenses (gratuities)"
                       ],
     "season_ids":  [
                        "all-year"
@@ -49,9 +66,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  355,
+                    "from_price":  325,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "pricing_note":  "Confirmed by ops (Batch 4 normalization): canonical From price is $325 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -239,7 +257,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL EXPERIENCE",
                                                                    "heading":  "Waterfall Rappel + Tarzan Swing + River Tubing + Lunch",
-                                                                   "price":  "305",
+                                                                   "price":  "325",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]

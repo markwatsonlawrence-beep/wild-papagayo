@@ -30,10 +30,26 @@
     "duration_label":  "4 Hours",
     "minimum_age":  8,
     "included":  [
-
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Snacks and refreshments",
+                     "Experienced certified bilingual local guide",
+                     "2-Hour Private ATV Adventure",
+                     "Helmet \u0026 Safety Equipment",
+                     "ATV Fuel",
+                     "Park Entrance Fees",
+                     "Safety Briefing Before Departure"
                  ],
     "what_to_bring":  [
-
+                          "Sunscreen",
+                          "Bug spray",
+                          "Hat or cap",
+                          "Sunglasses",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Comfortable clothing (that can get dirty)",
+                          "Closed-toe shoes",
+                          "Cash for personal expenses (gratuities)"
                       ],
     "season_ids":  [
                        "all-year"
@@ -48,9 +64,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  210,
+                    "from_price":  245,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "pricing_note":  "Confirmed by ops (Batch 4 normalization): canonical From price is $245 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -233,7 +250,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL EXPERIENCE",
                                                                    "heading":  "2-Hour Private ATV Mountain Ride",
-                                                                   "price":  "200",
+                                                                   "price":  "245",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]
