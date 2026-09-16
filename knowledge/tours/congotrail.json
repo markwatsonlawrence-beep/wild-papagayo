@@ -14,8 +14,9 @@
                             "guanacaste"
                         ],
     "activity_ids":  [
-                         "wildlife-watching",
-                         "ziplining"
+                         "ziplining",
+                         "atv",
+                         "horseback-riding"
                      ],
     "pickup_zone_ids":  [
                             "papagayo",
@@ -28,7 +29,7 @@
                      "Nature lovers",
                      "First-time visitors"
                  ],
-    "difficulty":  "Easy",
+    "difficulty":  "Moderate",
     "duration_label":  "Half Day (approx. 6 hours)",
     "minimum_age":  0,
     "included":  [
@@ -109,7 +110,7 @@
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
                          "primary_category":  "Adventure",
-                         "difficulty":  "Easy",
+                         "difficulty":  "Moderate",
                          "duration_hours":  6,
                          "duration_type":  "Half Day",
                          "energy_level":  "Medium",

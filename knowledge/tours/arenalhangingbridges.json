@@ -23,9 +23,9 @@
                             "playa-coco"
                         ],
     "best_for":  [
-                     "Couples",
-                     "Wellness travelers",
-                     "Nature lovers"
+                     "Nature Lovers",
+                     "Families",
+                     "Photographers"
                  ],
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 12 hours)",
@@ -119,9 +119,9 @@
                          "energy_level":  "Medium",
                          "minimum_age":  0,
                          "best_for":  [
-                                          "Couples",
-                                          "Wellness travelers",
-                                          "Nature lovers"
+                                          "Nature Lovers",
+                                          "Families",
+                                          "Photographers"
                                       ],
                          "traveler_scores":  {
                                                  "families":  85,
