@@ -11,8 +11,8 @@
     "hero_image":  "images/sloth1.webp",
     "hero_image_alt":  "Sloth Adventure Tour Costa Rica in Costa Rica",
     "destination_ids":  [
-                            "bijagua",
-                            "rio-celeste"
+                            "guanacaste",
+                            "bijagua"
                         ],
     "activity_ids":  [
                          "sloth-watching",
@@ -113,8 +113,8 @@
                          "intelligence_status":  "auto_generated_review_required",
                          "primary_category":  "Nature \u0026 Wildlife",
                          "difficulty":  "Easy",
-                         "duration_hours":  4,
-                         "duration_type":  "Half Day",
+                         "duration_hours":  8,
+                         "duration_type":  "Full Day",
                          "energy_level":  "Medium",
                          "minimum_age":  0,
                          "best_for":  [

@@ -80,7 +80,7 @@
                      ],
     "last_reviewed":  "2026-07-11",
     "itinerary":  {
-                      "category":  "wildlife",
+                      "category":  "adventure",
                       "intensity":  "moderate",
                       "pickup_zones":  [
                                            "papagayo",
@@ -95,20 +95,20 @@
                                           "arrival"
                                       ],
                       "avoid_after":  [
-                                          "wildlife"
+                                          "adventure"
                                       ],
                       "tags":  [
-                                   "wildlife",
-                                   "canopy",
-                                   "monkeys",
                                    "zip-line",
-                                   "forest"
+                                   "atv",
+                                   "horse",
+                                   "canopy",
+                                   "adventure"
                                ]
                   },
     "intelligence":  {
                          "schema_version":  "2.0",
                          "intelligence_status":  "auto_generated_review_required",
-                         "primary_category":  "Nature \u0026 Wildlife",
+                         "primary_category":  "Adventure",
                          "difficulty":  "Easy",
                          "duration_hours":  6,
                          "duration_type":  "Half Day",
@@ -170,7 +170,7 @@
                          "recommendation_priority":  85,
                          "balance_tags":  [
                                               "balanced",
-                                              "nature-wildlife"
+                                              "adventure"
                                           ],
                          "editorial_review":  {
                                                   "required":  true,
