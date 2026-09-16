@@ -1,6 +1,6 @@
 {
     "version":  "1.0",
-    "generated_at":  "2026-09-16T15:26:30.2999785-06:00",
+    "generated_at":  "2026-09-16T16:14:03.5256963-06:00",
     "rules_file":  "knowledge/recommendation-rules.json",
     "counts":  {
                    "hotels":  16,
@@ -2987,6 +2987,20 @@
                                                                 "currency":  "USD"
                                                             },
                                                             {
+                                                                "id":  "monteverdehangingbridgescoffee",
+                                                                "name":  "Monteverde Hanging Bridges \u0026 Coffee Tour",
+                                                                "score":  30,
+                                                                "reasons":  [
+                                                                                "Shared activities"
+                                                                            ],
+                                                                "category":  "Experience",
+                                                                "url":  "../tours/monteverdehangingbridgescoffee.html",
+                                                                "image":  "images/monteverdebridge1.webp",
+                                                                "duration":  "Full Day (approx. 12 hours)",
+                                                                "from_price":  360,
+                                                                "currency":  "USD"
+                                                            },
+                                                            {
                                                                 "id":  "monteverdtreetopwalk",
                                                                 "name":  "Monteverde Treetop Walk",
                                                                 "score":  30,
@@ -3012,20 +3026,6 @@
                                                                 "image":  "images/arenalhotsprings1.webp",
                                                                 "duration":  "Full Day (approx. 12 hours)",
                                                                 "from_price":  330,
-                                                                "currency":  "USD"
-                                                            },
-                                                            {
-                                                                "id":  "celesteriver",
-                                                                "name":  "Celeste River Hike \u0026 Tenorio National Park",
-                                                                "score":  15,
-                                                                "reasons":  [
-                                                                                "Shared activities"
-                                                                            ],
-                                                                "category":  "Waterfall \u0026 Hiking",
-                                                                "url":  "../tours/celesteriver.html",
-                                                                "image":  "images/celeste1.webp",
-                                                                "duration":  "Full Day (approx. 9 hours)",
-                                                                "from_price":  215,
                                                                 "currency":  "USD"
                                                             }
                                                         ],
@@ -4237,7 +4237,7 @@
                                                                       {
                                                                           "id":  "monteverdtreetopwalk",
                                                                           "name":  "Monteverde Treetop Walk",
-                                                                          "score":  60,
+                                                                          "score":  75,
                                                                           "reasons":  [
                                                                                           "Same experience category",
                                                                                           "Shared destination",
@@ -4251,45 +4251,48 @@
                                                                           "currency":  "USD"
                                                                       },
                                                                       {
-                                                                          "id":  "costaricahighlights",
-                                                                          "name":  "Costa Rica Highlights Tour — Sloths, Waterfall, Coffee, Hot Springs \u0026 Hanging Bridges",
-                                                                          "score":  30,
+                                                                          "id":  "congotrailcanopy",
+                                                                          "name":  "Congo Trail Canopy \u0026 Extreme Zip Line",
+                                                                          "score":  40,
                                                                           "reasons":  [
+                                                                                          "Same experience category",
                                                                                           "Shared activities"
                                                                                       ],
-                                                                          "category":  "Signature Journey",
-                                                                          "url":  "../tours/costaricahighlights.html",
-                                                                          "image":  "images/costaricahighlights1.webp",
-                                                                          "duration":  "Full Day (approx. 10 hours)",
-                                                                          "from_price":  330,
+                                                                          "category":  "Experience",
+                                                                          "url":  "../tours/congotrailcanopy.html",
+                                                                          "image":  "images/congotrailnew1.webp",
+                                                                          "duration":  "Half Day (approx. 7 hours)",
+                                                                          "from_price":  190,
                                                                           "currency":  "USD"
                                                                       },
                                                                       {
-                                                                          "id":  "atvmountainride",
-                                                                          "name":  "2-Hour ATV Mountain Ride",
-                                                                          "score":  25,
+                                                                          "id":  "floatingtenorio",
+                                                                          "name":  "Floating at Tenorio River Safari Float",
+                                                                          "score":  40,
                                                                           "reasons":  [
-                                                                                          "Same experience category"
+                                                                                          "Same experience category",
+                                                                                          "Shared activities"
                                                                                       ],
                                                                           "category":  "Experience",
-                                                                          "url":  "../tours/atvmountainride.html",
-                                                                          "image":  "images/atvmountain1.webp",
-                                                                          "duration":  "4 Hours",
-                                                                          "from_price":  245,
-                                                                          "currency":  "USD"
-                                                                      },
-                                                                      {
-                                                                          "id":  "borinque4senses",
-                                                                          "name":  "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall \u0026 Hot Springs",
-                                                                          "score":  25,
-                                                                          "reasons":  [
-                                                                                          "Same experience category"
-                                                                                      ],
-                                                                          "category":  "Experience",
-                                                                          "url":  "../tours/borinque4senses.html",
-                                                                          "image":  "images/borinque1.webp",
+                                                                          "url":  "../tours/floatingtenorio.html",
+                                                                          "image":  "images/floatingtenorio1.webp",
                                                                           "duration":  "Full Day (approx. 8 hours)",
-                                                                          "from_price":  340,
+                                                                          "from_price":  240,
+                                                                          "currency":  "USD"
+                                                                      },
+                                                                      {
+                                                                          "id":  "sensoriarainforest",
+                                                                          "name":  "Sensoria Land of Senses \u0026 Magical Rainforest",
+                                                                          "score":  40,
+                                                                          "reasons":  [
+                                                                                          "Same experience category",
+                                                                                          "Shared activities"
+                                                                                      ],
+                                                                          "category":  "Experience",
+                                                                          "url":  "../tours/sensoriarainforest.html",
+                                                                          "image":  "images/sensoria1.webp",
+                                                                          "duration":  "Full Day (approx. 8 hours)",
+                                                                          "from_price":  325,
                                                                           "currency":  "USD"
                                                                       }
                                                                   ],
@@ -4297,7 +4300,7 @@
                                                             {
                                                                 "id":  "monteverdehangingbridgescoffee",
                                                                 "name":  "Monteverde Hanging Bridges \u0026 Coffee Tour",
-                                                                "score":  60,
+                                                                "score":  75,
                                                                 "reasons":  [
                                                                                 "Same experience category",
                                                                                 "Shared destination",
