@@ -33,11 +33,26 @@
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  0,
     "included":  [
-
-                 ],
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Full chocolate tour, cacao tree to handmade bar (Tsuru or Yok)",
+                                                     "Sloth Adventure hike, wild sloths",
+                                                     "Traditional Costa Rican lunch"
+                                                 ],
     "what_to_bring":  [
-
-                      ],
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
     "season_ids":  [
                        "all-year"
                    ],
@@ -51,9 +66,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  220,
+                    "from_price":  235,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "price_confirmed":  true,
+                    "pricing_note":  "Confirmed by ops (Batch 6 normalization): canonical From price is $235 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -237,7 +253,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL EXPERIENCE",
                                                                    "heading":  "Chocolate Tour + Sloth Encounter + Lunch",
-                                                                   "price":  "205",
+                                                                   "price":  "235",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]
