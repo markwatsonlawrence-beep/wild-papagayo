@@ -33,11 +33,32 @@
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  0,
     "included":  [
-
-                 ],
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Cultural experience",
+                                                     "Zip line over the dry forest canopy",
+                                                     "Horseback riding across the estate",
+                                                     "ATV adventure through jungle terrain",
+                                                     "Traditional Guanacaste Sabanero lunch",
+                                                     "All safety gear and equipment"
+                                                 ],
     "what_to_bring":  [
-
-                      ],
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Long pants (for horseback)",
+                                              "Comfortable closed-toe shoes or boots",
+                                              "Swimsuit",
+                                              "Extra set of clothes",
+                                              "Towel",
+                                              "Water shoes / sandals",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
     "season_ids":  [
                        "all-year"
                    ],
@@ -51,9 +72,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  180,
+                    "from_price":  220,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "price_confirmed":  true,
+                    "pricing_note":  "Confirmed by ops (Batch 5 normalization): canonical From price is $220 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -235,14 +257,14 @@
 "option_id":  "classic",
                                                                    "badge":  "👑 CLASSIC",
                                                                    "heading":  "Zip line over the canopy and traditional cultural experience.",
-                                                                   "price":  "170",
+                                                                   "price":  "220",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                },
                                                                {
 "option_id":  "plus",
                                                                    "badge":  "✦ PLUS",
                                                                    "heading":  "Zip line, ATV, cultural experience, horseback riding and traditional Guanacaste lunch.",
-                                                                   "price":  "335",
+                                                                   "price":  "340",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]

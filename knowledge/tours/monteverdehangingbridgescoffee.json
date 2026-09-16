@@ -31,11 +31,29 @@
     "duration_label":  "Full Day (approx. 12 hours)",
     "minimum_age":  0,
     "included":  [
-
-                 ],
+                                                     "Private air-conditioned transportation",
+                                                     "Complimentary bottled water",
+                                                     "Snacks and refreshments",
+                                                     "Experienced certified bilingual local guide",
+                                                     "Breakfast",
+                                                     "Traditional Costa Rican lunch",
+                                                     "Selvatura Park, 8 suspension bridges through the cloud forest",
+                                                     "Butterfly garden",
+                                                     "Interactive coffee tour, seed to cup",
+                                                     "Sugar cane and chocolate tasting"
+                                                 ],
     "what_to_bring":  [
-
-                      ],
+                                              "Sunscreen",
+                                              "Bug spray",
+                                              "Hat or cap",
+                                              "Sunglasses",
+                                              "Camera",
+                                              "Reusable water bottle",
+                                              "Binoculars",
+                                              "Comfortable clothing",
+                                              "Comfortable walking shoes",
+                                              "Cash for personal expenses (gratuities)"
+                                          ],
     "season_ids":  [
                        "all-year"
                    ],
@@ -49,9 +67,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  430,
+                    "from_price":  360,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "price_confirmed":  true,
+                    "pricing_note":  "Confirmed by ops (Batch 5 normalization): canonical From price is $360 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -235,7 +254,7 @@
 "option_id":  "full-experience",
                                                                    "badge":  "👑 FULL EXPERIENCE",
                                                                    "heading":  "8 Suspension Bridges + Butterfly Garden + Coffee Tour + Lunch",
-                                                                   "price":  "330",
+                                                                   "price":  "360",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]
