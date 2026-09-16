@@ -121,12 +121,12 @@
                                           "Photographers"
                                       ],
                          "traveler_scores":  {
-                                                 "families":  80,
+                                                 "families":  100,
                                                  "couples":  90,
-                                                 "seniors":  60,
-                                                 "adventure":  80,
-                                                 "wildlife":  70,
-                                                 "relaxation":  55,
+                                                 "seniors":  50,
+                                                 "adventure":  25,
+                                                 "wildlife":  0,
+                                                 "relaxation":  50,
                                                  "private":  80
                                              },
                          "pickup_zone_ids":  [
