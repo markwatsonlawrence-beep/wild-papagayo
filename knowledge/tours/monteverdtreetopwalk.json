@@ -32,10 +32,27 @@
     "duration_label":  "Full Day (approx. 12 hours)",
     "minimum_age":  0,
     "included":  [
-
+                     "Private air-conditioned transportation",
+                     "Complimentary bottled water",
+                     "Snacks and refreshments",
+                     "Experienced certified bilingual local guide",
+                     "Breakfast",
+                     "Traditional Costa Rican lunch",
+                     "Treetop walk, suspension bridges through the cloud forest canopy",
+                     "Zip line through the treetops (Classic option only)",
+                     "Reptiles exhibition + butterfly garden + sloth sanctuary (Plus option only)"
                  ],
     "what_to_bring":  [
-
+                          "Sunscreen",
+                          "Bug spray",
+                          "Hat or cap",
+                          "Sunglasses",
+                          "Camera",
+                          "Reusable water bottle",
+                          "Binoculars",
+                          "Comfortable clothing",
+                          "Comfortable walking shoes",
+                          "Cash for personal expenses (gratuities)"
                       ],
     "season_ids":  [
                        "all-year"
@@ -50,9 +67,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  460,
+                    "from_price":  410,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Verify current rate on the tour page before publishing structured recommendations."
+                    "pricing_note":  "Confirmed by ops (Batch 3 normalization): canonical From price is $410 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -236,14 +254,14 @@
 "option_id":  "classic",
                                                                    "badge":  "👑  CLASSIC",
                                                                    "heading":  "Adventure Experience + Hanging Bridges + Zip Line (Age 4+)",
-                                                                   "price":  "360",
+                                                                   "price":  "410",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                },
                                                                {
 "option_id":  "plus",
                                                                    "badge":  "✦ PLUS",
                                                                    "heading":  "Wildlife Experience + Hanging Bridges + Reptiles + Butterfly Garden + Sloth Sanctuary",
-                                                                   "price":  "380",
+                                                                   "price":  "430",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]

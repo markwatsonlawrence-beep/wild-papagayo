@@ -69,9 +69,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  160,
+                    "from_price":  320,
+                    "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
+                    "pricing_note":  "Confirmed by ops (Batch 3 normalization): canonical From price is $320 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
@@ -258,14 +259,14 @@
 "option_id":  "classic",
                                                                    "badge":  "👑  CLASSIC",
                                                                    "heading":  "Hanging Bridges + La Fortuna Waterfall",
-                                                                   "price":  "250",
+                                                                   "price":  "320",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                },
                                                                {
 "option_id":  "plus",
                                                                    "badge":  "✦ PLUS",
                                                                    "heading":  "Hanging Bridges + Hot Springs + La Fortuna Waterfall",
-                                                                   "price":  "280",
+                                                                   "price":  "360",
                                                                    "note":  "Price varies by pickup \u0026 group size, contact us for an exact quote"
                                                                }
                                                            ]
