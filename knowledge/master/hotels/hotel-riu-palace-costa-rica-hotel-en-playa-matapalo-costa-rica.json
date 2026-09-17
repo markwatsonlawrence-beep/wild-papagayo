@@ -1,0 +1,339 @@
+{
+    "identity": {
+        "id": "hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica",
+        "official_name": "Hotel Riu Palace Costa Rica",
+        "display_name": "Hotel Riu Palace Costa Rica",
+        "slug": "hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica",
+        "brand": "Hotel Riu Palace Costa Rica",
+        "category": "All-Inclusive Beach Resort",
+        "luxury_level": "Upscale"
+    },
+    "location": {
+        "destination_id": "papagayo",
+        "location_label": "Playa Matapalo",
+        "province": "Guanacaste",
+        "airport_id": "lir",
+        "tour_pickup_zone": "papagayo",
+        "transfer": {
+            "min": 41,
+            "max": 53,
+            "label": "Approximately 41-53 minutes (33.2 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+            "source_type": "google_routes_api"
+        },
+        "coordinates": {
+            "lat": 10.527671699999999,
+            "lng": -85.7491292
+        },
+        "transfer_by_airport": {
+            "lir": {
+                "min": 41,
+                "max": 53,
+                "km": 33.2,
+                "airport_name": "Daniel Oduber Quiros International Airport (LIR)"
+            },
+            "sjo": {
+                "min": 224,
+                "max": 286,
+                "km": 240.8,
+                "airport_name": "Juan Santamaria International Airport (SJO)"
+            }
+        }
+    },
+    "official_sources": [
+        {
+            "source_id": "official-import",
+            "type": "official",
+            "url": "https://www.riu.com/es/hotel/costa-rica/guanacaste/hotel-riu-palace-costa-rica?utm_source=google&utm_medium=cpc&utm_campaign=0_4_CR_ES_VAC_SEM_BRAND%20HOTEL%20DEST_CR_GUANACASTE_HOTEL-PAL-COSTA-RICA&utm_content=SEM_BRAND%20HOTEL_CR_GUANACASTE_HOTEL-PAL-COSTA-RICA&utm_creative_format=text&gclsrc=aw.ds&gad_source=1&gad_campaignid=1585935807&gbraid=0AAAAAD5ycjIz8dDecFLDvrjkidz4lkPh6&gclid=Cj0KCQjwkOvTBhDgARIsAKUNyRsaoEHmyR89bXGpyFkhpLY6Y_Deqb5eoEe6MdzZrgUBtsHy1f2ou9oaAjhAEALw_wcB#hotel-info"
+        }
+    ],
+    "official_facts": {
+        "summary": "Hotel Riu Palace Costa Rica is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property's own source."
+    },
+    "editorial": {
+        "hero_description": "A 24-hour all-inclusive beachfront resort on golden-sand Playa Matapalo.",
+        "description": "A large beachfront all-inclusive resort on Playa Matapalo, framed by green mountains and the Pacific. With 24-hour all-inclusive service, six pools, a water park, spa, and lively entertainment, it's built for carefree family beach holidays.",
+        "tone": "useful, locally informed and guest-focused",
+        "why_stay_here": {
+            "title": "Why Stay Here",
+            "summary": "Hotel Riu Palace Costa Rica is one of the best places to stay if you want to combine comfort with unforgettable experiences around Guanacaste."
+        }
+    },
+    "traveler_profiles": [
+        "Beach Families",
+        "All-Inclusive Seekers",
+        "Destination Wedding Couples"
+    ],
+    "experience_scores": {
+        "luxury": {
+            "score": 3,
+            "reason": "identity.luxury_level is Upscale, but local_take positions the resort as mass-market entertainment rather than refined luxury."
+        },
+        "families": {
+            "score": 5,
+            "reason": "RIULand kids' club and Splash Water World water park, with a dedicated Beach Families profile citing Fun4All family programming."
+        },
+        "couples": {
+            "score": 3,
+            "reason": "Destination Wedding Couples profile describes group and event services rather than intimate romance."
+        },
+        "wellness": {
+            "score": 3,
+            "reason": "Renova Spa & wellness center is named but not reinforced by a dedicated wellness traveler profile."
+        },
+        "adventure_access": {
+            "score": 2,
+            "reason": "No adventure tours are identified; amenities are entirely on-property leisure facilities."
+        },
+        "walkability": {
+            "score": 3,
+            "reason": ""
+        },
+        "nightlife": {
+            "score": 3,
+            "reason": ""
+        }
+    },
+    "wild_insights": {
+        "local_take": "Best suited to families and groups who want a hassle-free, all-in-one beach vacation with pools, water slides, and nightly entertainment. If you're after quiet boutique intimacy or deep cultural immersion, look elsewhere.",
+        "insights": []
+    },
+    "recommendations": {
+        "featured_tours": [
+            "buenavistamegacombo",
+            "slothchocolatetour",
+            "miravallesspa"
+        ],
+        "related_articles": [
+            "liberia-airport-transfer-guide"
+        ],
+        "nearby_destinations": [
+            "papagayo"
+        ],
+        "transfer_landing_url": "transfers/liberia-airport-to-riu-palace-costa-rica.html"
+    },
+    "faq": [
+        {
+            "q": "What room categories does Hotel Riu Palace Costa Rica offer?",
+            "a": "The resort offers Jr. Suites, connecting Jr. Suites with two rooms, and garden-view Jr. Suites, many designed with sea views, plus fully accessible options."
+        },
+        {
+            "q": "Is the resort all-inclusive and what's included?",
+            "a": "Yes, it's a 24-hour all-inclusive resort with 5 restaurants, 7 bars, six pools, a swim-up bar, spa, gym, and the Splash Water World water park."
+        },
+        {
+            "q": "Where is Hotel Riu Palace Costa Rica located?",
+            "a": "It sits directly on Playa Matapalo near Sardinal in Guanacaste, roughly under an hour from Guanacaste Airport (LIR) in Liberia."
+        },
+        {
+            "q": "Can I book private tours from Riu Palace Costa Rica?",
+            "a": "Yes. Wild Papagayo offers private tours with direct hotel pickup from Riu Palace Costa Rica, including waterfalls, wildlife, volcanoes and adventure day trips throughout Guanacaste."
+        },
+        {
+            "q": "Does Wild Papagayo pick up directly from Riu Palace?",
+            "a": "Yes. Private pickup is arranged directly from the resort, so there is no separate meeting point to reach on your own."
+        },
+        {
+            "q": "How far is Riu Palace Costa Rica from Liberia Airport?",
+            "a": "Approximately 41 to 53 minutes by private transfer from Guanacaste Airport (LIR), about 33 km away."
+        },
+        {
+            "q": "What are the best day trips from Riu Palace Costa Rica?",
+            "a": "Popular options include the Buena Vista Mega Combo, Miravalles Volcano, and sloth and wildlife experiences, along with private day trips to Río Celeste and other Guanacaste destinations."
+        }
+    ],
+    "gallery": {
+        "hero_image": "images/hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica-hero.jpg",
+        "hero_image_alt": "Hotel Riu Palace Costa Rica, a All-Inclusive Beach Resort in Playa Matapalo, Costa Rica",
+        "hero_image_status": "google_places_photo",
+        "approved_images": [],
+        "candidate_images": [],
+        "usage_note": "Only publish owned, licensed or explicitly authorized hotel imagery."
+    },
+    "seo": {
+        "title": "",
+        "description": "Plan your stay at Hotel Riu Palace Costa Rica · Hotel en Playa Matapalo, Costa Rica with recommended tours, private airport transfers and local Guanacaste insight.",
+        "keywords": [
+            "Hotel Riu Palace Costa Rica · Hotel en Playa Matapalo, Costa Rica tours",
+            "Hotel Riu Palace Costa Rica · Hotel en Playa Matapalo, Costa Rica transfer",
+            "things to do near Hotel Riu Palace Costa Rica · Hotel en Playa Matapalo, Costa Rica"
+        ]
+    },
+    "verification": {
+        "status": "unverified",
+        "last_verified": "",
+        "official_source": "https://www.riu.com/es/hotel/costa-rica/guanacaste/hotel-riu-palace-costa-rica?utm_source=google&utm_medium=cpc&utm_campaign=0_4_CR_ES_VAC_SEM_BRAND%20HOTEL%20DEST_CR_GUANACASTE_HOTEL-PAL-COSTA-RICA&utm_content=SEM_BRAND%20HOTEL_CR_GUANACASTE_HOTEL-PAL-COSTA-RICA&utm_creative_format=text&gclsrc=aw.ds&gad_source=1&gad_campaignid=1585935807&gbraid=0AAAAAD5ycjIz8dDecFLDvrjkidz4lkPh6&gclid=Cj0KCQjwkOvTBhDgARIsAKUNyRsaoEHmyR89bXGpyFkhpLY6Y_Deqb5eoEe6MdzZrgUBtsHy1f2ou9oaAjhAEALw_wcB#hotel-info",
+        "note": "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+    },
+    "workflow": {
+        "editorial_standard": "Wild Papagayo Hotel Gold Standard v2.0",
+        "publication_threshold": 90,
+        "status": "published"
+    },
+    "amenities": [
+        "Outdoor pool with swim-up bar (6 pools total)",
+        "Splash Water World water park",
+        "Renova Spa & wellness center",
+        "Fully equipped gym and RIU Fit activities",
+        "5 restaurants and 7 bars",
+        "24-hour all-inclusive service",
+        "RIULand kids' club",
+        "Beachfront location",
+        "Nightclub / RIU Party entertainment",
+        "Free WiFi throughout"
+    ],
+    "room_types": [
+        {
+            "name": "Jr. Suite",
+            "description": "Standard junior suite accommodation with the resort's all-inclusive amenities."
+        },
+        {
+            "name": "Jr. Suite Connecting (2 rooms)",
+            "description": "Two connecting junior suites, ideal for families needing extra space."
+        },
+        {
+            "name": "Jr. Suite Garden View",
+            "description": "A junior suite overlooking the resort gardens."
+        }
+    ],
+    "traveler_profile_reasons": [
+        {
+            "profile": "Beach Families",
+            "reason": "RIULand kids' club, the Splash Water World water park, and Fun4All family programming keep children entertained all day."
+        },
+        {
+            "profile": "All-Inclusive Seekers",
+            "reason": "24-hour all-inclusive service across 5 restaurants and 7 bars means a truly hassle-free, everything-covered holiday."
+        },
+        {
+            "profile": "Destination Wedding Couples",
+            "reason": "The beachfront setting on Playa Matapalo and dedicated groups-and-events services make it a scenic spot for ceremonies."
+        }
+    ],
+    "experience_highlights": [
+        {
+            "title": "Excellent Location",
+            "description": "Easy access to Costa Rica's top attractions."
+        },
+        {
+            "title": "Nature",
+            "description": "Surrounded by tropical landscapes."
+        },
+        {
+            "title": "Private Experiences",
+            "description": "Ideal starting point for customized adventures."
+        },
+        {
+            "title": "Relaxation",
+            "description": "Perfect balance between exploration and rest."
+        }
+    ],
+    "local_tips": [
+        "Book tours early.",
+        "Use sunscreen.",
+        "Carry cash for small stops.",
+        "Ask Wild Papagayo for local recommendations."
+    ],
+    "suggested_stay": [
+        {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Transfer and relax."
+        },
+        {
+            "day": 2,
+            "title": "Buena Vista Mega Combo",
+            "description": "A recommended full-day experience with pickup from Hotel Riu Palace Costa Rica."
+        },
+        {
+            "day": 3,
+            "title": "Sloth Adventure & Chocolate Tour",
+            "description": "Another curated experience recommended for guests of Hotel Riu Palace Costa Rica."
+        },
+        {
+            "day": 4,
+            "title": "Departure",
+            "description": "Private airport transfer."
+        }
+    ],
+    "planning": {
+        "ideal_stay": "4-6 nights",
+        "transportation": "Private Transfer",
+        "airport": "LIR"
+    },
+    "wild_recommendation": {
+        "score": 5,
+        "summary": "Recommended by Wild Papagayo."
+    },
+    "template": "experience",
+    "google_reviews": {
+        "rating": 4.3,
+        "review_count": 6933,
+        "reviews": [
+            {
+                "author": "Vickie Wieberg",
+                "rating": 5,
+                "text": "Our rooms were cleaned and bed linens looked adorable everyday as they took the time to make adorable shapes out of the top fabric strip!  Details were so thought out!!\nYou can always find a pool chair or beach chair / you never have to get up early to reverse a good seat.  They make sure there are plenty for ALL gu...",
+                "relative_time": "a month ago"
+            },
+            {
+                "author": "Martina Lewis",
+                "rating": 5,
+                "text": "We had an exceptional dining experience at the steakhouse at the Riu Palace Costa Rica, and it was one of the highlights of our vacation. We were celebrating my mother's 70th birthday with 31 of our closest friends and family, and the evening was made truly unforgettable thanks to the outstanding service from Junes...",
+                "relative_time": "a month ago"
+            },
+            {
+                "author": "Sean McKinney",
+                "rating": 5,
+                "text": "Resort was beautiful and the service and the staff were phenomenal.  We received outstanding service at the pool and pretty much every bar.  Jeff and Kenny were especially great!  Shows were very good as well as the restaurants.  Enjoyed the sports bar especially for how cool it was inside.  Rooms and Palace area in...",
+                "relative_time": "a month ago"
+            }
+        ],
+        "source": "Google Places API, fetched 2026-08-11"
+    },
+    "booking": {
+        "expedia_affiliate_link": "https://expedia.com/affiliates/el-ocotal-hoteles-hotel-riu-palace-costa-rica-all-inclusive.t2dvf8u"
+    },
+    "relationships": {
+        "tours": [
+            "arenalhangingbridges",
+            "arenalhotsprings",
+            "atvmountainride",
+            "borinque4senses",
+            "buenavistamegacombo",
+            "canyonadventurepark",
+            "canyoningtubing",
+            "celesteriver",
+            "coloradoriverrafting",
+            "congotrail",
+            "congotrailcanopy",
+            "costaricahighlights",
+            "floatingtenorio",
+            "haciendaaromal",
+            "haciendaguachipelin",
+            "hangingbridgessloths",
+            "hikingrinconnationalpark",
+            "horsebackaromal",
+            "laleona",
+            "miravallesspa",
+            "monteverdehangingbridgescoffee",
+            "monteverdtreetopwalk",
+            "oropendolahotsprings",
+            "ostionalturtles",
+            "paloverdeculturalviejo",
+            "paloverderiverboattour",
+            "sensoriarainforest",
+            "slothadventure",
+            "slothchocolatetour",
+            "tenoriorafting",
+            "tubingceleste",
+            "waterfalllovers",
+            "waterfallpumas"
+        ],
+        "destinations": [
+            "papagayo"
+        ],
+        "nearby_hotels": [],
+        "blogs": [],
+        "last_discovered": "2026-08-11"
+    }
+}
