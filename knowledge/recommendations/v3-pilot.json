@@ -1,0 +1,20 @@
+{
+  "version": "v3-pilot-1",
+  "hotels": {
+    "nekajui-peninsula-papagayo-a-ritz": [
+      "haciendaaromal",
+      "miravallesspa",
+      "hangingbridgessloths"
+    ],
+    "andaz-costa-rica": [
+      "hangingbridgessloths",
+      "buenavistamegacombo",
+      "congotrail"
+    ],
+    "waldorf-astoria-costa-rica": [
+      "hangingbridgessloths",
+      "paloverderiverboattour",
+      "borinque4senses"
+    ]
+  }
+}
