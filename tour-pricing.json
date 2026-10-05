@@ -1,6 +1,6 @@
 {
-  "pricing_version": "sha256-6b9715ec39bd1694",
-  "generated_at": "2026-10-05T18:39:57.971Z",
+  "pricing_version": "sha256-baa9011af033bd1a",
+  "generated_at": "2026-10-05T19:16:24.969Z",
   "source_file": "Matriz_Cotizador_Wild_Papagayo_Catalogo_Completo.xlsx",
   "scope": "full-catalogue",
   "zones": {
@@ -70,7 +70,7 @@
           "zone_adjustment": {
             "a": 0,
             "b": 0,
-            "c": 25
+            "c": 50
           },
           "notes": null,
           "source_row": 5
@@ -91,7 +91,7 @@
           "zone_adjustment": {
             "a": 0,
             "b": 0,
-            "c": 30
+            "c": 60
           },
           "notes": "Hanging Bridges + La Fortuna Waterfall",
           "source_row": 6
@@ -107,7 +107,7 @@
           "zone_adjustment": {
             "a": 0,
             "b": 0,
-            "c": 30
+            "c": 60
           },
           "notes": "Hanging Bridges + Hot Springs + La Fortuna Waterfall",
           "source_row": 7
@@ -128,7 +128,7 @@
           "zone_adjustment": {
             "a": 0,
             "b": 0,
-            "c": 25
+            "c": 50
           },
           "notes": null,
           "source_row": 8
@@ -481,7 +481,7 @@
           "zone_adjustment": {
             "a": 0,
             "b": 0,
-            "c": 25
+            "c": 50
           },
           "notes": null,
           "source_row": 25
