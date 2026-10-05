@@ -32,20 +32,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  8,
-    "included":  [
-                     "Private air-conditioned transportation",
-                     "Complimentary bottled water",
-                     "Snacks and refreshments",
-                     "Experienced certified bilingual local guide",
-                     "Traditional Costa Rican lunch (gluten-free options available)",
-                     "Canyon canopy zipline experience",
-                     "Rappel",
-                     "Rock climbing",
-                     "Tarzan swing over the canyon",
-                     "Horseback riding (25 minutes)",
-                     "White-water river tubing (approx. 1 hour)",
-                     "Natural thermal hot springs access"
-                 ],
     "season_ids":  [
                        "all-year"
                    ],

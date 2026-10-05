@@ -33,18 +33,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 10 hours)",
     "minimum_age":  0,
-    "included":  [
-                     "Private air-conditioned transportation",
-                     "Complimentary bottled water",
-                     "Snacks and refreshments",
-                     "Experienced certified bilingual local guide",
-                     "Sloth Observation, specialized photography tour in natural habitat",
-                     "Waterfall visit",
-                     "Coffee & Cacao Experience, hands-on cultural workshop",
-                     "Natural hot springs, mineral-rich thermal pools",
-                     "Two Hanging Bridges through the forest canopy",
-                     "Traditional Costa Rican lunch"
-                 ],
     "season_ids":  [
                        "all-year"
                    ],

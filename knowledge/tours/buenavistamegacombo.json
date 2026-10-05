@@ -31,21 +31,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  8,
-    "included":  [
-                     "Experienced certified bilingual local guide",
-                     "Private transportation",
-                     "Complimentary bottled water",
-                     "Snacks and refreshments",
-                     "Traditional Costa Rican lunch",
-                     "7-Zip Line Canopy Tour",
-                     "Suspension bridges",
-                     "Mountain Water Slide",
-                     "Guided Horseback Ride",
-                     "Tractor wagon ride",
-                     "Mountain Water Slide",
-                     "Volcanic mud treatment",
-                     "Natural Hot Springs"
-                 ],
     "season_ids":  [
                        "all-year"
                    ],

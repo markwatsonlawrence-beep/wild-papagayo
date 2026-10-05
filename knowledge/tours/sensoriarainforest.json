@@ -32,16 +32,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  0,
-    "included":  [
-                                                     "Private air-conditioned transportation",
-                                                     "Complimentary bottled water",
-                                                     "Snacks and refreshments",
-                                                     "Experienced certified bilingual local guide",
-                                                     "7km (4.5 mile) guided rainforest trail with cascading waterfalls",
-                                                     "Walking sticks provided",
-                                                     "Geothermal thermal pools",
-                                                     "Traditional Costa Rican lunch"
-                                                 ],
     "season_ids":  [
                        "all-year"
                    ],

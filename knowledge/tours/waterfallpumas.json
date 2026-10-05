@@ -31,15 +31,6 @@
     "difficulty":  "Easy",
     "duration_label":  "Half Day (approx. 6 hours)",
     "minimum_age":  0,
-    "included":  [
-                                                     "Private air-conditioned transportation",
-                                                     "Complimentary bottled water",
-                                                     "Snacks and refreshments",
-                                                     "Experienced certified bilingual local guide",
-                                                     "Llanos del Cortes waterfall visit and swimming",
-                                                     "Las Pumas Wildlife Rescue Center guided visit",
-                                                     "Traditional Costa Rican lunch"
-                                                 ],
     "season_ids":  [
                        "all-year"
                    ],

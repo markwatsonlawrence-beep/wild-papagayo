@@ -33,15 +33,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 9 hours)",
     "minimum_age":  8,
-    "included":  [
-                     "Private air-conditioned transportation",
-                     "Complimentary bottled water",
-                     "Snacks and refreshments",
-                     "Experienced certified bilingual local guide",
-                     "Guided hike to Río Celeste",
-                     "Tenorio National Park entrance fee \u0026 registration",
-                     "Traditional Costa Rican lunch"
-                 ],
     "season_ids":  [
                        "all-year"
                    ],

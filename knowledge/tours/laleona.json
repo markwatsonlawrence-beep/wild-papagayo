@@ -30,17 +30,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  8,
-    "included":  [
-                                                     "Private air-conditioned transportation",
-                                                     "Complimentary bottled water",
-                                                     "Snacks and refreshments",
-                                                     "Experienced certified bilingual local guide",
-                                                     "3-hour guided hike through 5 natural canyon river pools",
-                                                     "Swim at La Leona Waterfall",
-                                                     "Classic option: Zip line descent over canopy",
-                                                     "Plus option: Tubing descent through river rapids",
-                                                     "Traditional Costa Rican lunch"
-                                                 ],
     "season_ids":  [
                        "all-year"
                    ],

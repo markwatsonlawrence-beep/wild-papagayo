@@ -28,17 +28,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "4 Hours",
     "minimum_age":  5,
-    "included":  [
-                     "Private air-conditioned transportation",
-                     "Complimentary bottled water",
-                     "Snacks and refreshments",
-                     "Experienced certified bilingual local guide",
-                     "2-Hour Private ATV Adventure",
-                     "Helmet \u0026 Safety Equipment",
-                     "ATV Fuel",
-                     "Park Entrance Fees",
-                     "Safety Briefing Before Departure"
-                 ],
     "season_ids":  [
                        "all-year"
                    ],

@@ -29,15 +29,6 @@
     "difficulty":  "Easy",
     "duration_label":  "Half Day (approx. 6 hours)",
     "minimum_age":  2,
-    "included":  [
-                     "Private air-conditioned transportation",
-                     "Complimentary bottled water",
-                     "Snacks and refreshments",
-                     "Experienced certified bilingual local guide",
-                     "Breakfast or lunch",
-                     "Private 90-minute riverboat excursion",
-                     "Palo Verde National Park entrance fee"
-                 ],
     "season_ids":  [
                        "all-year"
                    ],

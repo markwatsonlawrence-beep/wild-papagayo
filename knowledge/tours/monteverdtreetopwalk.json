@@ -30,17 +30,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 12 hours)",
     "minimum_age":  0,
-    "included":  [
-                     "Private air-conditioned transportation",
-                     "Complimentary bottled water",
-                     "Snacks and refreshments",
-                     "Experienced certified bilingual local guide",
-                     "Breakfast",
-                     "Traditional Costa Rican lunch",
-                     "Treetop walk, suspension bridges through the cloud forest canopy",
-                     "Zip line through the treetops (Classic option only)",
-                     "Reptiles exhibition + butterfly garden + sloth sanctuary (Plus option only)"
-                 ],
     "season_ids":  [
                        "all-year"
                    ],

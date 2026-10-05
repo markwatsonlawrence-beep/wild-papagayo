@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Wild Papagayo Tour Knowledge Profile",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "slug",
+    "status",
+    "page_file",
+    "category",
+    "short_description",
+    "destination_ids",
+    "activity_ids",
+    "pricing"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "draft",
+        "archived",
+        "review"
+      ]
+    },
+    "page_file": {
+      "type": "string"
+    },
+    "page_url": {
+      "type": "string"
+    },
+    "seo_title_override": {
+      "type": "string",
+      "description": "Optional. Canonical location for a custom <title>/og:title/twitter:title -- root level only. tour-generator.ps1 falls back to an auto-generated title from `name` when absent. Do NOT nest this under page_content; that was a historical editorial mistake, migrated away on all 33 tours."
+    },
+    "seo_description_override": {
+      "type": "string",
+      "description": "Optional. Canonical location for a custom meta description/og:description/twitter:description -- root level only, same rules as seo_title_override."
+    },
+    "category": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "hero_image": {
+      "type": "string"
+    },
+    "destination_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "activity_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pickup_zone_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "best_for": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "duration_label": {
+      "type": "string"
+    },
+    "minimum_age": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "featured_hotel_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_article_slugs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "required": [
+        "from_price",
+        "currency"
+      ],
+      "properties": {
+        "from_price": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "currency": {
+          "type": "string"
+        },
+        "pricing_note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -28,19 +28,6 @@
     "difficulty":  "Easy to Moderate",
     "duration_label":  "Full Day (approx. 12 hours)",
     "minimum_age":  0,
-    "included":  [
-                                                     "Private air-conditioned transportation",
-                                                     "Complimentary bottled water",
-                                                     "Snacks and refreshments",
-                                                     "Experienced certified bilingual local guide",
-                                                     "Breakfast",
-                                                     "Traditional Costa Rican lunch",
-                                                     "Bogarin Trail wildlife walk (All options)",
-                                                     "La Fortuna Waterfall (Classic option only)",
-                                                     "Arenal National Park hike (Plus option only)",
-                                                     "Thermal hot springs (All options)",
-                                                     "National Park entry fee"
-                                                 ],
     "season_ids":  [
                        "all-year"
                    ],

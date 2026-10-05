@@ -28,16 +28,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  8,
-    "included":  [
-                                                     "Private air-conditioned transportation",
-                                                     "Complimentary bottled water",
-                                                     "Snacks and refreshments",
-                                                     "Experienced certified bilingual local guide",
-                                                     "Full Class III–IV Tenorio River rafting experience",
-                                                     "Snacks on the river",
-                                                     "Traditional Costa Rican lunch",
-                                                     "All safety gear (helmet, life jacket, paddle, dry bag)"
-                                                 ],
     "season_ids":  [
                        "all-year"
                    ],

@@ -28,14 +28,6 @@
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
     "minimum_age":  4,
-    "included":  [
-                                                     "Private air-conditioned transportation",
-                                                     "Complimentary bottled water",
-                                                     "Snacks and refreshments",
-                                                     "Experienced certified bilingual local guide",
-                                                     "Río Celeste tubing, tubes, life jackets, helmets provided",
-                                                     "Traditional Costa Rican lunch"
-                                                 ],
     "season_ids":  [
                        "all-year"
                    ],
