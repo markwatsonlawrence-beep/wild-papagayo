@@ -1,0 +1,229 @@
+{
+    "id":  "la-fortuna",
+    "status":  "published",
+    "name":  "La Fortuna \u0026 Arenal",
+    "hero_image":  "images/arenalbridges1.webp",
+    "hero_description":  "Volcano scenery, hanging bridges, wildlife and hot springs in Costa Rica’s adventure capital.",
+    "description":  "La Fortuna offers one of Costa Rica’s most complete nature experiences. Travelers can combine rainforest walks, hanging bridges, wildlife observation, waterfalls and volcanic hot springs.",
+    "airport":  "Liberia (LIR)",
+    "transfer_time":  "Approximately 3 hours",
+    "best_season":  "Year-round",
+    "best_for":  [
+                     "Adventure",
+                     "Wildlife",
+                     "Couples",
+                     "Families",
+                     "Honeymooners"
+                 ],
+    "nearby":  [
+                   "rio-celeste",
+                   "bijagua",
+                   "monteverde"
+               ],
+    "featured_tours":  [
+                           "arenalhangingbridges",
+                           "arenalhotsprings",
+                           "costaricahighlights"
+                       ],
+    "province":  "Alajuela",
+    "why_visit":  [
+                      "La Fortuna and the Arenal region offer one of Costa Rica\u0027s most complete nature experiences. The iconic Arenal Volcano rises over the surrounding rainforest, and the region combines wildlife-rich trails, hanging bridges, volcanic hot springs and one of the country\u0027s most impressive waterfalls.",
+                      "While the drive from Liberia Airport is approximately three hours, the concentration of experiences in La Fortuna makes it an excellent multi-night destination or a rewarding extension to a Guanacaste beach stay."
+                  ],
+    "highlights":  [
+                       "Iconic Arenal Volcano scenery and volcanic hot springs",
+                       "Hanging bridges through primary rainforest canopy",
+                       "Year-round destination with diverse wildlife",
+                       "La Fortuna Waterfall, one of Costa Rica\u0027s most beautiful",
+                       "Excellent for multi-day itineraries and nature photography",
+                       "Wide range of adventure and relaxation experiences"
+                   ],
+    "considerations":  [
+                           "Approximately 3 hours from Liberia Airport, best enjoyed as a multi-night stay",
+                           "The volcano summit is often covered in cloud, especially in the afternoon",
+                           "The rainy season brings heavier rainfall than the Pacific coast"
+                       ],
+    "faq":  [
+                {
+                    "q":  "How do I get from Guanacaste to La Fortuna?",
+                    "a":  "The most comfortable option is a private transfer, which takes approximately 3 hours from Liberia Airport. This allows you to stop along the way and arrive relaxed."
+                },
+                {
+                    "q":  "Is La Fortuna worth visiting from Guanacaste?",
+                    "a":  "Yes, especially if your trip is longer than 5 days. La Fortuna\u0027s concentration of experiences (volcano, hot springs, hanging bridges, wildlife) makes it a natural complement to a beach stay."
+                },
+                {
+                    "q":  "What are the must-do activities in La Fortuna?",
+                    "a":  "The Arenal hanging bridges, volcanic hot springs and La Fortuna Waterfall are the top three. For wildlife, an early morning walk through primary forest is highly recommended."
+                },
+                {
+                    "q":  "Can I see the volcano from La Fortuna?",
+                    "a":  "Yes, on clear days, typically early morning before clouds form. Evenings at hot spring facilities that face the volcano can also offer excellent views."
+                }
+            ],
+    "airport_id":  "lir",
+    "wildlife":  [
+                     {
+                         "name":  "Resplendent Quetzal",
+                         "note":  "One of the most elusive and beautiful birds in Costa Rica; endangered.",
+                         "source":  "Wikipedia: Arenal Volcano National Park"
+                     },
+                     {
+                         "name":  "White-faced Capuchin Monkey",
+                         "note":  "Commonly seen within the park.",
+                         "source":  "Wikipedia: Arenal Volcano National Park"
+                     },
+                     {
+                         "name":  "Jaguar",
+                         "note":  "Present in the park, though rarely seen.",
+                         "source":  "Wikipedia: Arenal Volcano National Park"
+                     },
+                     {
+                         "name":  "Coati",
+                         "note":  "Commonly seen along park trails.",
+                         "source":  "Wikipedia: Arenal Volcano National Park"
+                     }
+                 ],
+    "experience_scores":  {
+                              "adventure":  {
+                                                "score":  5,
+                                                "reason":  "Hanging bridges, rainforest walks, waterfalls and a wide range of adventure experiences are highlighted."
+                                            },
+                              "families":  {
+                                               "score":  4,
+                                               "reason":  "Listed as best for Families with diverse, accessible nature experiences."
+                                           },
+                              "nightlife":  {
+                                                "score":  2,
+                                                "reason":  "The list includes MARY\u0027s BBQ Lounge \u0026 Grill but otherwise shows mostly restaurants, not dedicated nightlife."
+                                            },
+                              "restaurants":  {
+                                                  "score":  5,
+                                                  "reason":  "A long list of highly-rated eateries like Tica Grill (5/5) and Harmony Food Restaurant (5/5)."
+                                              },
+                              "beach":  {
+                                            "score":  1,
+                                            "reason":  "An inland rainforest and volcano destination, only mentioned as an extension to a Guanacaste beach stay."
+                                        },
+                              "wildlife":  {
+                                               "score":  5,
+                                               "reason":  "Year-round destination with wildlife-rich trails and diverse wildlife observation."
+                                           },
+                              "relaxation":  {
+                                                 "score":  4,
+                                                 "reason":  "Volcanic hot springs and a wide range of relaxation experiences are highlighted."
+                                             },
+                              "difficulty":  {
+                                                 "level":  "Medium",
+                                                 "reason":  "Roughly a 3-hour drive from Liberia Airport, best enjoyed as a multi-night stay."
+                                             },
+                              "private":  {
+                                              "score":  3,
+                                              "reason":  "Volcanic hot springs and relaxation experiences suggest some upscale offerings but no explicit private mention."
+                                          }
+                          },
+    "restaurants":  [
+                        {
+                            "name":  "Soda Stereo La Fortuna",
+                            "rating":  5,
+                            "review_count":  204,
+                            "address":  "Alajuela Province, La Fortuna, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Harmony Food Restaurant",
+                            "rating":  5,
+                            "review_count":  1104,
+                            "address":  "Provincia de Alajuela, La Fortuna, Barrio Pilo, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Tica Grill Authentic Costa Rican Kitchen, La Fortuna",
+                            "rating":  5,
+                            "review_count":  29,
+                            "address":  "Av. 327 1 block south and 1/2 block west of Alamo Car Rental La Fortuna, Arenal Volcano, de, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Acacia Restaurante",
+                            "rating":  4.9,
+                            "review_count":  92,
+                            "address":  "Barrio Pastoral, Hotel Arenal Xilopalo, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "RESTAURANTE VIKINGOS",
+                            "rating":  4.9,
+                            "review_count":  719,
+                            "address":  "21007 Alajuela, Provincia de Alajuela, La Fortuna, Barrio Pilo, 21007, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurant Raul Castaño Fortuna Downtown",
+                            "rating":  4.8,
+                            "review_count":  549,
+                            "address":  "Frente a Spectacolar Cantina, F9C2+9Q, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "MARY’S BBQ • La Fortuna Lounge \u0026 Grill",
+                            "rating":  4.8,
+                            "review_count":  1099,
+                            "address":  "506 Alajuela, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurante La Naciente",
+                            "rating":  4.8,
+                            "review_count":  503,
+                            "address":  "2, kilometros oeste de la Iglesia, Provincia de Alajuela, La Fortuna, 21007, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        }
+                    ],
+    "restaurants_source":  "Google Places API, fetched 2026-08-10",
+    "gallery":  [
+                    {
+                        "src":  "images/arenalbridges3.webp",
+                        "alt":  "Arenal Hanging Bridges rainforest walkway"
+                    },
+                    {
+                        "src":  "images/arenalbridges4.webp",
+                        "alt":  "Suspended bridge over the La Fortuna rainforest"
+                    },
+                    {
+                        "src":  "images/arenalhotsprings2.webp",
+                        "alt":  "Natural hot springs near Arenal Volcano"
+                    },
+                    {
+                        "src":  "images/arenalhotsprings3.webp",
+                        "alt":  "Volcanic hot spring pools, La Fortuna"
+                    },
+                    {
+                        "src":  "images/bridgessloths2.webp",
+                        "alt":  "Wild sloth spotted near La Fortuna"
+                    },
+                    {
+                        "src":  "images/bridgessloths3.webp",
+                        "alt":  "Rainforest wildlife along the Arenal trails"
+                    }
+                ],
+    "testimonials":  [
+
+                     ]
+}

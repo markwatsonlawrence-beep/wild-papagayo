@@ -1,0 +1,205 @@
+{
+  "id": "playa-hermosa",
+  "status": "published",
+  "name": "Playa Hermosa",
+  "hero_image": "images/fam.1.webp",
+  "hero_description": "A calm Guanacaste beach with a relaxed atmosphere near Papagayo and Coco.",
+  "description": "Playa Hermosa is ideal for travelers seeking a quieter coastal stay without giving up convenient access to restaurants, private transportation and Guanacaste’s main attractions.",
+  "airport": "Liberia (LIR)",
+  "transfer_time": "30–40 minutes",
+  "best_season": "December–April",
+  "best_for": [
+    "Relaxation",
+    "Families",
+    "Couples",
+    "Calm beach"
+  ],
+  "nearby": [
+    "playa-coco",
+    "papagayo"
+  ],
+  "featured_tours": [
+    "slothadventure",
+    "buenavistamegacombo",
+    "paloverdeculturalviejo"
+  ],
+  "province": "Guanacaste",
+  "why_visit": [
+    "Playa Hermosa offers a quieter and more relaxed alternative to the busier beach towns of Guanacaste. The beach is calm, clean and ideal for long walks, swimming and unwinding without the noise of a larger tourist hub.",
+    "Despite its tranquil atmosphere, Playa Hermosa still provides good access to restaurants and tour services, making it a comfortable base for travelers who want the best of both worlds: peace and proximity to Guanacaste's top experiences."
+  ],
+  "highlights": [
+    "Calm, clean beach ideal for swimming and long walks",
+    "30 to 40 minutes from Liberia International Airport",
+    "Quieter and less crowded than Playas del Coco",
+    "Good selection of restaurants and local services",
+    "Easy access to private tours across Guanacaste",
+    "Close to Playa Coco and Papagayo for day visits"
+  ],
+  "considerations": [
+    "Smaller selection of restaurants and nightlife compared to Playa Coco",
+    "Fewer shops and services within walking distance",
+    "May feel too quiet for travelers seeking a lively social atmosphere"
+  ],
+  "faq": [
+    {
+      "q": "Is Playa Hermosa calm enough for children?",
+      "a": "Yes. The protected bay offers gentle water that is ideal for young children and swimmers of all levels."
+    },
+    {
+      "q": "How far is Playa Hermosa from Liberia Airport?",
+      "a": "Approximately 30 to 40 minutes from Liberia International Airport by private transfer."
+    },
+    {
+      "q": "How does Playa Hermosa compare to Playa Coco?",
+      "a": "Playa Hermosa is quieter and less commercial. It suits travelers who want a relaxed pace, while Coco better fits those seeking restaurants, nightlife and entertainment."
+    },
+    {
+      "q": "Can I take day tours from Playa Hermosa?",
+      "a": "Yes. Its location near Papagayo and Playa Coco makes it an excellent base for private day tours to Rincon de la Vieja, wildlife sanctuaries and other Guanacaste experiences."
+    }
+  ],
+  "airport_id": "lir",
+  "experience_scores": {
+    "adventure": {
+      "score": 3,
+      "reason": "Easy access to private tours across Guanacaste is mentioned, though the town itself is quiet."
+    },
+    "families": {
+      "score": 4,
+      "reason": "Tagged for families with a calm, clean beach ideal for swimming."
+    },
+    "nightlife": {
+      "score": 3,
+      "reason": "Coco's Tiki Bar and Hacienda Blu Beach Lounge (a live music venue) provide some options, though text notes limited nightlife."
+    },
+    "restaurants": {
+      "score": 4,
+      "reason": "Strong list of highly-rated restaurants like Peninsula CR Steak & Seafood Grill (4.8) and Pizzería Avenida Corrientes (4.8)."
+    },
+    "beach": {
+      "score": 4,
+      "reason": "Beach is calm, clean and ideal for swimming and long walks."
+    },
+    "wildlife": {
+      "score": 2,
+      "reason": "No wildlife experiences are mentioned in the text."
+    },
+    "relaxation": {
+      "score": 5,
+      "reason": "Described as a quieter, more relaxed alternative ideal for unwinding without noise."
+    },
+    "difficulty": {
+      "level": "Easy",
+      "reason": "Only 30–40 minutes from Liberia International Airport with private transportation available."
+    },
+    "private": {
+      "score": 2,
+      "reason": "Text emphasizes a quieter, relaxed stay with no mention of private offerings."
+    }
+  },
+  "restaurants": [
+    {
+      "name": "Pizzería Avenida Corrientes",
+      "rating": 4.8,
+      "review_count": 49,
+      "address": "centro comercial hermosa del Mar, Provincia de Guanacaste, Playa Hermosa, 12346, Costa Rica",
+      "types": [
+        "pizza_restaurant",
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Steak House Sal y Fuego Playa Hermosa",
+      "rating": 4.7,
+      "review_count": 96,
+      "address": "Centro Comercial Hermosa del Mar, Provincia de Guanacaste, Playa Hermosa, 12346, Costa Rica",
+      "types": [
+        "barbecue_restaurant",
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Restaurante Almar",
+      "rating": 4.7,
+      "review_count": 133,
+      "address": "Segunda Entrada playa Hermosa, contiguo a Villa Huetares Guanacaste Sardinal, Provincia de Guanacaste, Playa Hermosa, 50503, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Restaurante Colibrí",
+      "rating": 4.6,
+      "review_count": 26,
+      "address": "Golfo de Papagayo, Guanacaste Province, Playa Hermosa, 50503, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Restaurante Mar Azul",
+      "rating": 4.6,
+      "review_count": 674,
+      "address": "edificio color negro, Calle Larin, Provincia de Guanacaste, Coco, 50503, Costa Rica",
+      "types": [
+        "restaurant",
+        "seafood_restaurant"
+      ]
+    },
+    {
+      "name": "Hacienda Blu Beach Lounge & Grill",
+      "rating": 4.6,
+      "review_count": 648,
+      "address": "PLAYA PANAMA Guanacaste LIBERIA, Provincia de Guanacaste, Carrillo, 55051, Costa Rica",
+      "types": [
+        "restaurant",
+        "sushi_restaurant",
+        "lounge_bar"
+      ]
+    },
+    {
+      "name": "Coco Viquez",
+      "rating": 4.6,
+      "review_count": 505,
+      "address": "Ruta Nacional Secundaria 159, Provincia de Guanacaste, Playa Hermosa, 50503, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Hotel Restaurant Villa del Sueño",
+      "rating": 4.6,
+      "review_count": 312,
+      "address": "Villa del Sueno ,West entrance ,600 meters on the right side, Guanacaste Province, Playa Hermosa, 00000, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    }
+  ],
+  "restaurants_source": "Google Places API, fetched 2026-08-10",
+  "gallery": [
+    {
+      "src": "images/hotel-bosque-del-mar-hero.webp",
+      "alt": "Hotel Bosque del Mar, Playa Hermosa"
+    },
+    {
+      "src": "images/waldorf-astoria-costa-rica-hero.webp",
+      "alt": "Waldorf Astoria Costa Rica, Playa Hermosa"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Highly recommend this beautiful hotel! The location is perfect—tucked away on a secluded yet public beach, with plenty of restaurants within walking distance for an authentic, Costa Rican feel. The property is stunning, covered in tropical plants, and each room has a private...",
+      "author": "Hina Shaikh",
+      "location": "",
+      "source": "Google review, Hotel Bosque del Mar"
+    },
+    {
+      "quote": "This property is stunning!  Only 30 minutes from Liberia airport (concierge will arrange your ride if you like).  The staff take care of you from the moment you book.  They are kind and attentive.  The rooms look out over the Playa Penca and it’s a beautiful view. Kayak...",
+      "author": "Alisha Hewett",
+      "location": "",
+      "source": "Google review, Waldorf Astoria Costa Rica Punta Cacique"
+    }
+  ]
+}

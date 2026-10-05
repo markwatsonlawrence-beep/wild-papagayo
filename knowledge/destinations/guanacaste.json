@@ -1,0 +1,163 @@
+{
+    "id":  "guanacaste",
+    "status":  "published",
+    "name":  "Guanacaste",
+    "hero_image":  "images/guanacaste-hero.webp",
+    "hero_description":  "Costa Rica\u0027s Pacific province: dry forests, volcanic peaks and pristine Pacific beaches.",
+    "description":  "Guanacaste is Costa Rica\u0027s northwestern Pacific province, home to some of the country\u0027s most celebrated beaches, national parks and adventure destinations. From the resort peninsula of Papagayo to the volcanic trails of Rincón de la Vieja, the region offers a diverse range of experiences for every type of traveler.",
+    "airport":  "Liberia (LIR)",
+    "transfer_time":  "Varies by destination",
+    "best_season":  "December–April",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "best_for":  [
+                     "Beaches",
+                     "Adventure",
+                     "Wildlife",
+                     "Private resorts"
+                 ],
+    "nearby":  [
+                   "papagayo",
+                   "playa-coco",
+                   "rincon-de-la-vieja",
+                   "monteverde"
+               ],
+    "stay_bases":  [
+                       {
+                           "id":  "papagayo",
+                           "without_car_note":  "More resort-oriented; you'll generally rely on the resort or transportation to leave the immediate area."
+                       },
+                       {
+                           "id":  "playa-coco",
+                           "without_car_note":  "Restaurants, shops and town activity are more practically accessible on foot."
+                       },
+                       {
+                           "id":  "playa-hermosa",
+                           "without_car_note":  "Quieter, with fewer concentrated walkable options than Coco or Tamarindo."
+                       },
+                       {
+                           "id":  "tamarindo",
+                           "without_car_note":  "Restaurants, shops and town activity are more practically accessible on foot."
+                       }
+                   ],
+    "featured_tours":  [
+                           "buenavistamegacombo",
+                           "hangingbridgessloths",
+                           "paloverderiverboattour"
+                       ],
+    "why_visit":  [
+                      "Guanacaste is Costa Rica\u0027s most popular tourist region for a reason. It offers an unmatched combination of dry-season sunshine, private resort infrastructure, diverse ecosystems and easy access through Liberia International Airport.",
+                      "Whether you are looking for relaxing beach days, volcanic adventure, wildlife encounters or a blend of all three, Guanacaste delivers more variety per square kilometer than almost anywhere else in Central America."
+                  ],
+    "highlights":  [
+                       "Direct flights to Liberia Airport from many North American cities",
+                       "Wide range of destinations from beach towns to volcanic parks",
+                       "Private resorts in Papagayo alongside authentic fishing villages",
+                       "Consistent dry season sunshine from December through April",
+                       "Rich biodiversity: monkeys, sloths, sea turtles and tropical birds",
+                       "Excellent private tour network across the entire province"
+                   ],
+    "considerations":  [
+                           "The province is large, so choose your base carefully based on your priorities",
+                           "Peak season (December–March) requires advance booking for accommodations",
+                           "Green Season (May–November) brings afternoon rains but lower prices and fewer crowds"
+                       ],
+    "faq":  [
+                {
+                    "q":  "What airport serves Guanacaste?",
+                    "a":  "Liberia International Airport (LIR) is the main gateway to Guanacaste, with direct flights from many US and Canadian cities."
+                },
+                {
+                    "q":  "What is the best base in Guanacaste?",
+                    "a":  "It depends on your priorities. Papagayo is more resort-oriented and private; Playas del Coco and Tamarindo are walkable town bases with restaurants and activity close by; Playa Hermosa is quieter, with fewer concentrated walkable options. Day trips like Rincon de la Vieja are easy to reach from any of these bases."
+                },
+                {
+                    "q":  "Where should I stay in Guanacaste without a car?",
+                    "a":  "Private transportation makes any of these bases workable without a rental car. If walkability matters to you specifically, Playas del Coco and Tamarindo have more restaurants and shops within walking distance than Papagayo or Playa Hermosa."
+                },
+                {
+                    "q":  "Which Guanacaste area is most convenient after flying into Liberia?",
+                    "a":  "All of these bases are within about an hour of Liberia International Airport (LIR). Playas del Coco is closest at around 30 minutes, Papagayo and Playa Hermosa are 30 to 45 minutes, and Tamarindo is about an hour."
+                },
+                {
+                    "q":  "How long should I spend in Guanacaste?",
+                    "a":  "Most travelers spend 5 to 10 days. A week allows you to enjoy 2 to 3 beach days and 2 to 3 day tours comfortably."
+                },
+                {
+                    "q":  "Is Guanacaste safe for tourists?",
+                    "a":  "Yes. Guanacaste is one of Costa Rica\u0027s most visited and well-developed tourist regions, with established services, good roads and a welcoming local culture."
+                },
+                {
+                    "q":  "We're doing La Fortuna first -- what should the Guanacaste part of our honeymoon add?",
+                    "a":  "Think contrast, not repetition. If La Fortuna already covered rainforest, volcano and adventure, let Guanacaste be the coast and a slower pace instead of a second version of the same day. Most couples lean into beach time and a quieter rhythm here; an inland day trip is worth adding only if it offers something genuinely different from what you already did in La Fortuna."
+                }
+            ],
+    "experience_scores":  {
+                              "adventure":  {
+                                                "score":  5,
+                                                "reason":  "Volcanic trails of Rincón de la Vieja and diverse adventure destinations are highlighted."
+                                            },
+                              "families":  {
+                                               "score":  4,
+                                               "reason":  "Wildlife encounters, beaches and private resort infrastructure suit varied family interests."
+                                           },
+                              "nightlife":  {
+                                                "score":  3,
+                                                "reason":  "The restaurant list includes bars like Tropic Tamarindo and Chao Pescao, indicating some nightlife."
+                                            },
+                              "restaurants":  {
+                                                  "score":  5,
+                                                  "reason":  "Numerous real restaurants rated 4.8-4.9/5, including steak, Indian and Costa Rican cuisine."
+                                              },
+                              "beach":  {
+                                            "score":  5,
+                                            "reason":  "Home to some of Costa Rica\u0027s most celebrated beaches and beach towns."
+                                        },
+                              "wildlife":  {
+                                               "score":  5,
+                                               "reason":  "Rich biodiversity including monkeys, sloths, sea turtles and tropical birds."
+                                           },
+                              "relaxation":  {
+                                                 "score":  4,
+                                                 "reason":  "Dry-season sunshine and relaxing beach days at resorts are emphasized."
+                                             },
+                              "difficulty":  {
+                                                 "level":  "Medium",
+                                                 "reason":  "Easy access via Liberia International Airport but transfer time varies by destination and the large province requires careful base selection."
+                                             },
+                              "private":  {
+                                              "score":  5,
+                                              "reason":  "Private resorts in Papagayo are explicitly mentioned as a highlight."
+                                          }
+                          },
+    "restaurants_source":  "Google Places API, fetched 2026-08-10 -- no restaurants within 20km found",
+    "gallery":  [
+                    {
+                        "src":  "images/atvmountain2.webp",
+                        "alt":  "ATV riding through Guanacaste\u0027s dry forest"
+                    },
+                    {
+                        "src":  "images/borinque3.webp",
+                        "alt":  "Borinquen hot springs, Guanacaste volcano country"
+                    },
+                    {
+                        "src":  "images/waterfallpumas2.webp",
+                        "alt":  "Rescued wildlife at Las Pumas, Guanacaste"
+                    },
+                    {
+                        "src":  "images/tenoriorafting2.webp",
+                        "alt":  "White water rafting on the Tenorio River"
+                    },
+                    {
+                        "src":  "images/congotrailnew2.webp",
+                        "alt":  "Ziplining through the Guanacaste canopy"
+                    },
+                    {
+                        "src":  "images/sensoria2.webp",
+                        "alt":  "Waterfall trail at Sensoria, Guanacaste highlands"
+                    }
+                ],
+    "testimonials":  [
+
+                     ]
+}

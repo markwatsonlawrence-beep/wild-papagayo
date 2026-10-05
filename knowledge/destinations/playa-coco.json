@@ -1,0 +1,189 @@
+{
+  "id": "playa-coco",
+  "status": "published",
+  "name": "Playas del Coco",
+  "hero_image": "images/july.1.webp",
+  "hero_description": "A convenient beach town with restaurants, live music and easy day-trip access.",
+  "description": "Playas del Coco is one of Guanacaste’s most convenient coastal bases. Visitors enjoy supermarkets, restaurants, nightlife, marina access and short transfers from Liberia Airport.",
+  "airport": "Liberia (LIR)",
+  "transfer_time": "30 minutes",
+  "best_season": "December–April",
+  "best_for": [
+    "Restaurants",
+    "Live music",
+    "Couples",
+    "Day trips"
+  ],
+  "nearby": [
+    "playa-hermosa",
+    "papagayo"
+  ],
+  "featured_tours": [
+    "hangingbridgessloths",
+    "paloverderiverboattour",
+    "buenavistamegacombo"
+  ],
+  "province": "Guanacaste",
+  "why_visit": [
+    "Playas del Coco is one of Guanacaste's most practical beach towns. It combines easy airport access, a walkable center, dozens of restaurants, supermarkets, pharmacies, marina services and a lively social atmosphere that makes it easy to settle in from day one.",
+    "Its central location also makes it one of the best bases in Guanacaste for day trips. Most of the province's top attractions (volcanoes, waterfalls, hanging bridges and wildlife sanctuaries) are within a comfortable drive."
+  ],
+  "highlights": [
+    "30 minutes from Liberia International Airport",
+    "Wide selection of restaurants, cafes and bars",
+    "Live music most nights during the high season",
+    "Marina access and boat tour departures",
+    "Easy access to private day tours across Guanacaste",
+    "Supermarkets, pharmacies and everyday services nearby"
+  ],
+  "considerations": [
+    "Busier and livelier than quieter beaches like Samara or Playa Hermosa",
+    "The beach has darker sand compared to Conchal or Flamingo",
+    "January through March can feel crowded during peak season"
+  ],
+  "faq": [
+    {
+      "q": "How far is Playas del Coco from Liberia Airport?",
+      "a": "Approximately 30 minutes by private transfer, making it one of the most convenient beach bases in Guanacaste."
+    },
+    {
+      "q": "Is Playa Coco good for families?",
+      "a": "Yes. The calm bay, walkable town and easy access to tours and services make it an excellent choice for families traveling with children."
+    },
+    {
+      "q": "What is the best time of year to visit?",
+      "a": "December through April is the dry season and offers consistently sunny weather. The Green Season (May to November) brings lower prices, fewer crowds and lush tropical landscapes."
+    },
+    {
+      "q": "Can I take day tours from Playa Coco?",
+      "a": "Absolutely. Coco is one of the best-positioned bases in Guanacaste for day trips to Rincon de la Vieja, hanging bridges, Palo Verde, wildlife sanctuaries and Pacific boat tours."
+    }
+  ],
+  "airport_id": "lir",
+  "experience_scores": {
+    "adventure": {
+      "score": 3,
+      "reason": "Serves as a base for day trips to volcanoes, waterfalls and hanging bridges, though adventure isn't onsite."
+    },
+    "families": {
+      "score": 3,
+      "reason": "Walkable center with supermarkets, pharmacies and everyday services, but described as lively and busy rather than family-focused."
+    },
+    "nightlife": {
+      "score": 4,
+      "reason": "Live music most nights during high season plus bars like Coco's Tiki Bar and a lively social atmosphere."
+    },
+    "restaurants": {
+      "score": 5,
+      "reason": "Dozens of restaurants including many rated 4.7-5/5 like Arepazo, Tandoor and Sal y Fuego."
+    },
+    "beach": {
+      "score": 3,
+      "reason": "Has a beach but with darker sand compared to Conchal or Flamingo."
+    },
+    "wildlife": {
+      "score": 2,
+      "reason": "Wildlife sanctuaries are reachable via day trips but not present in the town itself."
+    },
+    "relaxation": {
+      "score": 2,
+      "reason": "Described as busier and livelier than quieter beaches like Samara or Playa Hermosa."
+    },
+    "difficulty": {
+      "level": "Easy",
+      "reason": "Just 30 minutes from Liberia International Airport with a walkable center and everyday services nearby."
+    },
+    "private": {
+      "score": 2,
+      "reason": "Text emphasizes practicality and convenience with no mention of upscale or private offerings."
+    }
+  },
+  "restaurants": [
+    {
+      "name": "Chicharronera Tradiciones de Mi Tierra",
+      "rating": 5,
+      "review_count": 58,
+      "address": "G8X3+P33, Calle, Provincia de Guanacaste, Coco, 00001, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Arepazo",
+      "rating": 5,
+      "review_count": 25,
+      "address": "Playas del Coco, Provincia de Guanacaste, Sardinal, 50503, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Tandoor Indian Restaurant El Coco",
+      "rating": 4.9,
+      "review_count": 1037,
+      "address": "100 metros norte de Super Compro El Coco Guanacaste El, Provincia de Guanacaste, Coco, 50503, Costa Rica",
+      "types": [
+        "indian_restaurant",
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Naans & Curries • An Ethnic Indian Restaurant - Coco",
+      "rating": 4.9,
+      "review_count": 2321,
+      "address": "Pacifico, Playas del, Provincia de Guanacaste, Coco, 50503, Costa Rica",
+      "types": [
+        "indian_restaurant",
+        "vegan_restaurant",
+        "vegetarian_restaurant"
+      ]
+    },
+    {
+      "name": "Taco Rosado",
+      "rating": 4.9,
+      "review_count": 436,
+      "address": "G7WX+XJM 50m oeste en Calle a Playa Ocotal, Provincia de Guanacaste, Coco, 50503, Costa Rica",
+      "types": [
+        "restaurant",
+        "brunch_restaurant",
+        "taco_restaurant"
+      ]
+    },
+    {
+      "name": "Fabra | Best Café in Coco | Featured on House Hunters Int’l",
+      "rating": 4.8,
+      "review_count": 137,
+      "address": "Pacifico Village Shops, Playas del, C-5, Guanacaste Province, Coco, 55503, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Garbanzo",
+      "rating": 4.8,
+      "review_count": 334,
+      "address": "Main Street, Provincia de Guanacaste, Playas del Coco, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "STEAK HOUSE SAL Y FUEGO",
+      "rating": 4.8,
+      "review_count": 625,
+      "address": "contiguo a la estación policial, C. la Chorrera, Provincia de Guanacaste, Coco, 1234, Costa Rica",
+      "types": [
+        "steak_house",
+        "restaurant"
+      ]
+    }
+  ],
+  "restaurants_source": "Google Places API, fetched 2026-08-10",
+  "gallery": [
+    {
+      "src": "images/coco.webp",
+      "alt": "Playa del Coco beach, Guanacaste"
+    }
+  ],
+  "testimonials": []
+}

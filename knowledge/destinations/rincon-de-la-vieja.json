@@ -1,0 +1,232 @@
+{
+    "id":  "rincon-de-la-vieja",
+    "status":  "published",
+    "name":  "Rincón de la Vieja",
+    "hero_image":  "images/rincon1.webp",
+    "hero_description":  "Volcanic landscapes, waterfalls and high-energy adventures close to Liberia.",
+    "description":  "Rincón de la Vieja is a top choice for hiking and adventure. Its volcanic terrain, forests and nearby haciendas make it possible to combine nature, hot springs, tubing, ziplining and waterfalls.",
+    "airport":  "Liberia (LIR)",
+    "transfer_time":  "45–75 minutes",
+    "best_season":  "December–April",
+    "best_for":  [
+                     "Hiking",
+                     "Adventure",
+                     "Volcanoes",
+                     "Waterfalls",
+                     "Honeymooners"
+                 ],
+    "nearby":  [
+                   "guanacaste",
+                   "papagayo"
+               ],
+    "featured_tours":  [
+                           "hikingrinconnationalpark",
+                           "haciendaguachipelin",
+                           "buenavistamegacombo"
+                       ],
+    "province":  "Guanacaste",
+    "why_visit":  [
+                      "Rincon de la Vieja National Park is one of Costa Rica\u0027s most rewarding adventure destinations. The volcanic terrain combines active geothermal features (bubbling mud pots, hot springs and fumaroles) with dense tropical forest, waterfalls and wildlife.",
+                      "Most visitors base themselves at nearby haciendas like Buena Vista del Rincon or Hacienda Guachipelin, which offer multi-activity programs combining ziplining, tubing, horseback riding, hot springs and waterfall access in a single day."
+                  ],
+    "highlights":  [
+                       "Active volcanic terrain with mud pots, hot springs and fumaroles",
+                       "Multi-activity hacienda programs: zip, tubing, horseback, hot springs",
+                       "45 to 75 minutes from Liberia International Airport",
+                       "Wildlife spotting: coatis, howler monkeys and tropical birds",
+                       "Dramatic waterfalls accessible by forest trail",
+                       "Ideal for adventure travelers and active families"
+                   ],
+    "considerations":  [
+                           "Inland destination, no beach access from this area",
+                           "Some roads can be rough, especially during the rainy season",
+                           "Best visited with private transportation for easier logistics"
+                       ],
+    "faq":  [
+                {
+                    "q":  "Is Rincon de la Vieja suitable for families?",
+                    "a":  "Yes, especially families with older children who enjoy outdoor adventure. Many activities at the haciendas are family-friendly, with options ranging from gentle walks to high-intensity zip lines."
+                },
+                {
+                    "q":  "How far is Rincon de la Vieja from Liberia Airport?",
+                    "a":  "Approximately 45 to 75 minutes depending on your specific destination within the area."
+                },
+                {
+                    "q":  "What is the best tour to do here?",
+                    "a":  "The Buena Vista Mega Combo and Hacienda Guachipelin multi-adventure programs are among the most popular, combining several activities into one full day."
+                },
+                {
+                    "q":  "Can I visit as a day trip from the coast?",
+                    "a":  "Yes. Many travelers staying in Papagayo, Playa Coco or Playa Hermosa do this as a full-day excursion. Private transportation makes the logistics straightforward."
+                }
+            ],
+    "airport_id":  "lir",
+    "wildlife":  [
+                     {
+                         "name":  "Three-wattled Bellbird",
+                         "note":  "Present in the park forest canopy.",
+                         "source":  "Wikipedia: Rincon de la Vieja National Park"
+                     },
+                     {
+                         "name":  "Emerald Toucanet",
+                         "note":  "Found in the park\u0027s forested areas.",
+                         "source":  "Wikipedia: Rincon de la Vieja National Park"
+                     },
+                     {
+                         "name":  "Kinkajou",
+                         "note":  "Nocturnal mammal present in the park.",
+                         "source":  "Wikipedia: Rincon de la Vieja National Park"
+                     },
+                     {
+                         "name":  "Cougar \u0026 Jaguar",
+                         "note":  "Both large cats inhabit the park, rarely seen.",
+                         "source":  "Wikipedia: Rincon de la Vieja National Park"
+                     }
+                 ],
+    "experience_scores":  {
+                              "adventure":  {
+                                                "score":  5,
+                                                "reason":  "Ziplining, tubing, horseback riding, waterfalls and volcanic terrain make it \u0027one of Costa Rica\u0027s most rewarding adventure destinations.\u0027"
+                                            },
+                              "families":  {
+                                               "score":  4,
+                                               "reason":  "Text explicitly calls it \u0027ideal for adventure travelers and active families\u0027 with multi-activity hacienda programs."
+                                           },
+                              "nightlife":  {
+                                                "score":  2,
+                                                "reason":  "Only one bar (Tropic Tamarindo) appears in the list, indicating limited nightlife."
+                                            },
+                              "restaurants":  {
+                                                  "score":  4,
+                                                  "reason":  "Several highly-rated restaurants appear including Green Paradise and La Cocina de Mayrita at 5/5."
+                                              },
+                              "beach":  {
+                                            "score":  1,
+                                            "reason":  "Text states it is an \u0027inland destination, no beach access from this area.\u0027"
+                                        },
+                              "wildlife":  {
+                                               "score":  4,
+                                               "reason":  "Wildlife spotting includes coatis, howler monkeys and tropical birds within tropical forest."
+                                           },
+                              "relaxation":  {
+                                                 "score":  3,
+                                                 "reason":  "Hot springs are available, though the focus is on active adventure rather than rest."
+                                             },
+                              "difficulty":  {
+                                                 "level":  "Medium",
+                                                 "reason":  "Just 45–75 minutes from Liberia but some rough roads and best done with private transportation."
+                                             },
+                              "private":  {
+                                              "score":  2,
+                                              "reason":  "Haciendas offer activity programs but no private amenities are mentioned in the text."
+                                          }
+                          },
+    "restaurant_query_override":  "Liberia, Guanacaste",
+    "restaurants":  [
+                        {
+                            "name":  "Astorga Restaurante",
+                            "rating":  4.9,
+                            "review_count":  308,
+                            "address":  "Av. 3 4, Provincia de Guanacaste, Liberia, 50101, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Masala Indian Restaurant Liberia",
+                            "rating":  4.8,
+                            "review_count":  879,
+                            "address":  "Centro comercial Bolbaldi, frente al museo de Guanacaste, Provincia de Guanacaste, Liberia, 50101, Costa Rica",
+                            "types":  [
+                                          "indian_restaurant",
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Café Negro Liberia",
+                            "rating":  4.8,
+                            "review_count":  481,
+                            "address":  "JHH7+FCX, Guanacaste Province, Liberia, La Victoria, 50101, Costa Rica",
+                            "types":  [
+                                          "brunch_restaurant",
+                                          "coffee_shop",
+                                          "cafe"
+                                      ]
+                        },
+                        {
+                            "name":  "Sabor Porteño Restaurante",
+                            "rating":  4.7,
+                            "review_count":  1246,
+                            "address":  "De la antigua gobernación 400m sur y 100m oeste, Provincia de Guanacaste, Liberia, Condega, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Don Fran Restaurante",
+                            "rating":  4.7,
+                            "review_count":  413,
+                            "address":  "75 Oeste de la antigua comandancia (museo), Liberia, Gte, Provincia de Guanacaste, Liberia, 50101, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Cafetería y Restaurante El Amanecer",
+                            "rating":  4.7,
+                            "review_count":  1593,
+                            "address":  "Plaza Santa Rosa, Local #44 50101, Provincia de Guanacaste, Liberia, El Sitio, 50101, Costa Rica",
+                            "types":  [
+                                          "breakfast_restaurant",
+                                          "brunch_restaurant",
+                                          "coffee_shop"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurante El Patio",
+                            "rating":  4.6,
+                            "review_count":  511,
+                            "address":  "200mts norte de la Ermita de la Agonia, Provincia de Guanacaste, Liberia, Los Cerros, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Posada Real Restaurante y Café",
+                            "rating":  4.6,
+                            "review_count":  324,
+                            "address":  "150 metros sur de la Antigua Gobernación, Calle Real, Provincia de Guanacaste, Liberia, Condega, 50101, Costa Rica",
+                            "types":  [
+                                          "coffee_shop",
+                                          "cafe",
+                                          "pastry_shop"
+                                      ]
+                        }
+                    ],
+    "restaurants_source":  "Google Places API, fetched 2026-08-10",
+    "gallery":  [
+                    {
+                        "src":  "images/rincon3.webp",
+                        "alt":  "Rincon de la Vieja National Park trail"
+                    },
+                    {
+                        "src":  "images/rincon4.webp",
+                        "alt":  "Volcanic landscape at Rincon de la Vieja"
+                    },
+                    {
+                        "src":  "images/rincon5.webp",
+                        "alt":  "Hiking trail through Rincon de la Vieja"
+                    },
+                    {
+                        "src":  "images/buenavista2.webp",
+                        "alt":  "Buena Vista Adventure Center, Rincon de la Vieja"
+                    },
+                    {
+                        "src":  "images/oropendola2.webp",
+                        "alt":  "Oropendola Waterfall near Rincon de la Vieja"
+                    }
+                ],
+    "testimonials":  [
+
+                     ]
+}

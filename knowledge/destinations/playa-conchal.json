@@ -1,0 +1,82 @@
+{
+    "id":  "playa-conchal",
+    "status":  "draft",
+    "name":  "Playa Conchal",
+    "hero_image":  "images/luxury-costa-rica-tours-hero.webp",
+    "hero_description":  "A shimmering shell beach where turquoise water meets a shore of sparkling white shells.",
+    "description":  "Playa Conchal is one of Costa Rica\u0027s most beautiful beaches, famous for its shoreline made of tiny white shells instead of sand, backed by crystal-clear turquoise water. Reaching it usually means a scenic 20-minute walk from neighboring Brasilito beach.",
+    "airport":  "Guanacaste Airport (LIR)",
+    "transfer_time":  "About 1 hour",
+    "best_season":  "",
+    "best_for":  [
+                     "Couples",
+                     "Snorkelers",
+                     "Beach lovers",
+                     "Day-trippers"
+                 ],
+    "nearby":  [
+                   "playa-flamingo",
+                   "tamarindo"
+               ],
+    "featured_tours":  [
+
+                       ],
+    "province":  "Guanacaste",
+    "why_visit":  [
+                      "Playa Conchal has one truly unique feature: its shore is composed of tiny pieces of soft, sparkling white shells rather than sand. Paired with warm, crystal-clear turquoise water, it\u0027s consistently voted one of the most beautiful beaches in Costa Rica and even the world.",
+                      "Beyond simply soaking in the scenery, visitors can snorkel among tide pools and colorful fish on the east end, rent kayaks, SUPs and jet skis, get an affordable beach massage, or hike the short Punta Conchal trail for stunning views over both Conchal and Brasilito. During dry season, lucky visitors may even catch bioluminescence at night."
+                  ],
+    "highlights":  [
+                       "A shoreline made of tiny sparkling white shells and clear turquoise water",
+                       "Snorkeling and tide pools on the east end, where the most shells are found",
+                       "Punta Conchal viewpoint trail overlooking both Conchal and Brasilito",
+                       "Beach activities like kayaking, SUP, jet skiing and affordable massages",
+                       "Chance of bioluminescence on some dry-season nights"
+                   ],
+    "considerations":  [
+                           "There are no facilities at all: no bathrooms, showers, changing rooms or restaurants, so bring your own food, water and sun protection.",
+                           "Non-resort guests must park in Brasilito and walk about 15-20 minutes across the neighboring beach to reach Conchal.",
+                           "Waves can get strong and rip tides occur, making swimming risky for young children and requiring caution.",
+                           "The beach gets very crowded on weekends and from December through April, including Christmas and Easter."
+                       ],
+    "faq":  [
+                {
+                    "q":  "Where is Playa Conchal and how do I get there?",
+                    "a":  "Playa Conchal is in Guanacaste, the northwest province of Costa Rica, about a 1-hour drive (62 km) from Liberia\u0027s Guanacaste Airport (LIR) and roughly 273 km from San Jose."
+                },
+                {
+                    "q":  "How do I access Conchal if I\u0027m not staying at a resort?",
+                    "a":  "If you\u0027re not staying at the Westin, Reserva Conchal or W Costa Rica, there\u0027s no direct car access. Park at the Brasilito Parking lot in town (around 3,000 CRC) and walk about 15-20 minutes across Brasilito beach to reach Conchal. Keep your shoes on, as the sand gets very hot."
+                },
+                {
+                    "q":  "Are there facilities or restaurants at Playa Conchal?",
+                    "a":  "No. There are no bathrooms, showers, changing rooms, picnic tables or restaurants. Bring food, water, drinks, a hat, sunglasses and towels. Local vendors in blue long-sleeve shirts rent canopies and chairs and offer food and drinks."
+                },
+                {
+                    "q":  "When is the best time to visit and how do I avoid crowds?",
+                    "a":  "You can visit year-round since Guanacaste is sunny and hot all year. The authors love the greener, quieter shoulder months of May, June and November. To avoid crowds, arrive early in the morning, as the beach gets packed on weekends and during December-April."
+                }
+            ],
+    "airport_id":  "lir",
+    "relationships":  {
+                          "tours":  [
+
+                                    ],
+                          "destinations":  [
+                                               "playa-flamingo",
+                                               "tamarindo"
+                                           ],
+                          "nearby_hotels":  [
+
+                                            ],
+                          "blogs":  [
+
+                                    ],
+                          "last_discovered":  "2026-09-25"
+                      },
+    "verification":  {
+                         "status":  "unverified",
+                         "source":  "https://mytanfeet.com/costa-rica-beach-information/playa-conchal-shells-instead-of-sand/",
+                         "note":  "Imported from source URL and summarized by Claude. Facts should be human-reviewed before publication."
+                     }
+}

@@ -1,0 +1,214 @@
+{
+    "id":  "bijagua",
+    "status":  "published",
+    "name":  "Bijagua",
+    "hero_image":  "images/sloth1.webp",
+    "hero_description":  "A quiet mountain village at the gateway to Tenorio Volcano National Park and Río Celeste.",
+    "description":  "Bijagua is a small highland village located at the base of Tenorio Volcano in Alajuela province. It serves as the primary gateway to Río Celeste and Tenorio National Park, offering one of Costa Rica\u0027s most genuine off-the-beaten-path experiences.",
+    "airport":  "Liberia (LIR)",
+    "transfer_time":  "Approximately 2h 15m",
+    "best_season":  "December–April",
+    "province":  "Alajuela",
+    "airport_id":  "lir",
+    "best_for":  [
+                     "Nature",
+                     "Off-the-beaten-path",
+                     "Wildlife",
+                     "Hiking",
+                     "Honeymooners"
+                 ],
+    "nearby":  [
+                   "rio-celeste",
+                   "la-fortuna"
+               ],
+    "featured_tours":  [
+                           "celesteriver",
+                           "floatingtenorio",
+                           "tubingceleste",
+                           "slothadventure"
+                       ],
+    "why_visit":  [
+                      "Bijagua offers one of Costa Rica\u0027s most authentic and uncrowded nature experiences. The village sits in a lush highland valley between Tenorio and Miravalles volcanoes, surrounded by cloud forest, river systems and exceptional wildlife habitat.",
+                      "Travelers who base themselves in Bijagua enjoy immediate access to Río Celeste and Tenorio National Park, as well as local experiences (community tours, hot springs and forest walks) that feel genuinely removed from the main tourist circuit."
+                  ],
+    "highlights":  [
+                       "Gateway village for Río Celeste and Tenorio National Park",
+                       "Authentic, uncrowded alternative to more popular destinations",
+                       "Excellent wildlife watching: tapirs, poison dart frogs and toucans",
+                       "Community-based tourism experiences led by local families",
+                       "Surrounded by cloud forest and volcanic landscapes",
+                       "Tubing and floating tours on local river systems"
+                   ],
+    "considerations":  [
+                           "Approximately 2 hours from Liberia Airport, remote and best suited for adventurous travelers",
+                           "Limited dining and accommodation options compared to larger destinations",
+                           "Roads can be rough during the rainy season, a private transfer is strongly recommended"
+                       ],
+    "faq":  [
+                {
+                    "q":  "Is Bijagua worth visiting?",
+                    "a":  "Yes, especially for travelers who want an authentic, off-the-beaten-path experience. It is the best base for Río Celeste and Tenorio National Park."
+                },
+                {
+                    "q":  "How far is Bijagua from Liberia Airport?",
+                    "a":  "Approximately 2 hours and 15 minutes by private transfer from Liberia International Airport."
+                },
+                {
+                    "q":  "What can I do in Bijagua besides Río Celeste?",
+                    "a":  "Tubing on the Río Celeste, floating the Tenorio River, hot spring visits, community farm tours and wildlife walks through private forest reserves are all available from Bijagua."
+                },
+                {
+                    "q":  "Can I visit Bijagua as a day trip from Guanacaste?",
+                    "a":  "It is possible but long: about 4.5 hours of driving round trip. Most visitors who make the journey prefer to stay one or two nights to fully enjoy the area."
+                }
+            ],
+    "experience_scores":  {
+                              "adventure":  {
+                                                "score":  4,
+                                                "reason":  "Offers hiking in Tenorio National Park, tubing and floating tours on local rivers, and cloud forest walks."
+                                            },
+                              "families":  {
+                                               "score":  3,
+                                               "reason":  "Community-based tours led by local families and wildlife watching suit families, though remoteness and rough roads limit ease."
+                                           },
+                              "nightlife":  {
+                                                "score":  2,
+                                                "reason":  "Only Blue River Brewery (bar_and_grill, bar) appears in the list, indicating minimal nightlife."
+                                            },
+                              "restaurants":  {
+                                                  "score":  4,
+                                                  "reason":  "A solid list of highly-rated eateries including Dulce Amor, Rancho La Laguna and Blue River Brewery, all rated 4.7-5/5."
+                                              },
+                              "beach":  {
+                                            "score":  1,
+                                            "reason":  "It\u0027s a highland village between volcanoes with no beaches mentioned."
+                                        },
+                              "wildlife":  {
+                                               "score":  5,
+                                               "reason":  "Excellent wildlife watching with tapirs, poison dart frogs and toucans in exceptional habitat."
+                                           },
+                              "relaxation":  {
+                                                 "score":  4,
+                                                 "reason":  "Hot springs, forest walks and an uncrowded highland valley setting support relaxation."
+                                             },
+                              "difficulty":  {
+                                                 "level":  "Medium",
+                                                 "reason":  "About 2h15m from Liberia Airport with roads that can be rough in rainy season, making a private transfer strongly recommended."
+                                             },
+                              "private":  {
+                                              "score":  2,
+                                              "reason":  "Text notes limited dining and accommodation options compared to larger destinations."
+                                          }
+                          },
+    "restaurants":  [
+                        {
+                            "name":  "Rancho La Laguna",
+                            "rating":  5,
+                            "review_count":  18,
+                            "address":  "QXMG+96 El salto de, Provincia de Alajuela, Bijagua de Upala, Costa Rica",
+                            "types":  [
+                                          "seafood_restaurant",
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurante,Cafeteria y Heladería Dulce Amor",
+                            "rating":  5,
+                            "review_count":  37,
+                            "address":  "A un costado de Ferretería la vaquita, sobre carretera principal, Provincia de Alajuela, Bijagua de Upala, Costa Rica",
+                            "types":  [
+                                          "restaurant",
+                                          "cake_shop",
+                                          "cafe"
+                                      ]
+                        },
+                        {
+                            "name":  "Yeye\u0027s Restaurante",
+                            "rating":  5,
+                            "review_count":  321,
+                            "address":  "de, Palí 600 metros Oeste y 25 metros sur, Provincia de Alajuela, Bijagua de Upala, 21304, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Blue River Brewery",
+                            "rating":  4.9,
+                            "review_count":  319,
+                            "address":  "2, km de la entrada hacia parque nacional volcan tenorio, Alajuela Province, Bijagua de Upala, 21304, Costa Rica",
+                            "types":  [
+                                          "bar_and_grill",
+                                          "bar",
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Colors Brewing Co.",
+                            "rating":  4.9,
+                            "review_count":  98,
+                            "address":  "Alajuela Province, Bijagua de Upala, 21304, Costa Rica",
+                            "types":  [
+                                          "brewery",
+                                          "manufacturer",
+                                          "service"
+                                      ]
+                        },
+                        {
+                            "name":  "Tilapiera Los Laguitos y Restaurante rio celeste",
+                            "rating":  4.8,
+                            "review_count":  184,
+                            "address":  "Rio Celeste Restaurante Tilapiera, David Quesada, Tenorio Volcano, Calle Asentamiento el Pilón, Provincia de Alajuela, Guatuso, 21304, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurant Tapirus Paradise Rio Celeste",
+                            "rating":  4.8,
+                            "review_count":  426,
+                            "address":  "La Paz de Guatuso 300 metros este del Parque Nacional Volcán Tenorio, Provincia de Alajuela, Guatuso, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurante Hummingbird",
+                            "rating":  4.7,
+                            "review_count":  64,
+                            "address":  "PW9V+PFQ, Unnamed Road, Provincia de Alajuela, Bijagua de Upala, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        }
+                    ],
+    "restaurants_source":  "Google Places API, fetched 2026-08-10",
+    "gallery":  [
+                    {
+                        "src":  "images/celeste2.webp",
+                        "alt":  "Rio Celeste\u0027s turquoise waters near Bijagua"
+                    },
+                    {
+                        "src":  "images/celeste3.webp",
+                        "alt":  "Tenorio Volcano National Park rainforest trail"
+                    },
+                    {
+                        "src":  "images/slothadventure2.webp",
+                        "alt":  "Wild sloth spotted on a nature walk near Bijagua"
+                    },
+                    {
+                        "src":  "images/slothadventure3.webp",
+                        "alt":  "Rainforest wildlife around Bijagua village"
+                    },
+                    {
+                        "src":  "images/slothchocolate2.webp",
+                        "alt":  "Cacao pods on the tree, Bijagua chocolate tour"
+                    },
+                    {
+                        "src":  "images/slothchocolate3.webp",
+                        "alt":  "Handmade chocolate from a Bijagua farm tour"
+                    }
+                ],
+    "testimonials":  [
+
+                     ]
+}

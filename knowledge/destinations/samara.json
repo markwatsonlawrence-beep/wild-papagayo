@@ -1,0 +1,185 @@
+{
+  "id": "samara",
+  "status": "published",
+  "name": "Sámara",
+  "hero_image": "images/samara-hero.webp",
+  "hero_description": "A relaxed beach district on Guanacaste's Nicoya Peninsula.",
+  "description": "Sámara is a laid-back beach town and district in the Nicoya canton of Costa Rica's Guanacaste province. Sitting at sea level roughly 35 km from Nicoya, it's a relaxed corner of the Nicoya Peninsula served by a small nearby airport.",
+  "airport": "Guanacaste Airport (LIR)",
+  "transfer_time": "",
+  "best_season": "",
+  "best_for": [
+    "Couples",
+    "Beach lovers",
+    "Relaxation seekers"
+  ],
+  "nearby": [],
+  "featured_tours": [],
+  "province": "Guanacaste",
+  "why_visit": [
+    "Sámara offers an easygoing slice of the Nicoya Peninsula, a low-lying coastal district within the canton of Nicoya in Guanacaste province. With just over 3,500 residents, it retains a small-town, unhurried feel.",
+    "Its accessibility improved considerably after the final 35 km of Route 150 from Nicoya through Carrillo was paved in early 2006, and the small Carrillo Airport lies about 5 km east, making the area easier to reach than many peninsula destinations."
+  ],
+  "highlights": [
+    "Coastal district on the Nicoya Peninsula sitting at just 3 metres elevation",
+    "Located about 35 km from Nicoya, the region's economic and administrative hub",
+    "Small Carrillo Airport roughly 5 km east of town",
+    "Numerous outlying villages including Playa Buena Vista, Cangrejal and Buenavista",
+    "Paved road access via National Routes 150, 160 and 934"
+  ],
+  "considerations": [
+    "Sámara is a small district of only around 3,500 people, so expect a quiet, low-key atmosphere rather than big-resort amenities.",
+    "Reaching the area involves a drive of roughly 35 km from Nicoya."
+  ],
+  "faq": [
+    {
+      "q": "Where is Sámara located?",
+      "a": "Sámara is in the Nicoya canton of Guanacaste province, Costa Rica, on the Nicoya Peninsula."
+    },
+    {
+      "q": "How do I get to Sámara?",
+      "a": "The nearest air access is the small Carrillo Airport, about 5 km east of Sámara. By road it lies roughly 35 km from Nicoya via National Route 150, which was fully paved in early 2006."
+    },
+    {
+      "q": "How big is Sámara?",
+      "a": "As of the 2011 census, Sámara had about 3,512 inhabitants, making it a small coastal community."
+    }
+  ],
+  "airport_id": "lir",
+  "relationships": {
+    "tours": [],
+    "destinations": [],
+    "nearby_hotels": [],
+    "blogs": [],
+    "last_discovered": "2026-07-14"
+  },
+  "verification": {
+    "status": "unverified",
+    "source": "https://en.wikipedia.org/wiki/S%C3%A1mara,_Costa_Rica",
+    "note": "Imported from source URL and summarized by Claude. Facts should be human-reviewed before publication."
+  },
+  "experience_scores": {
+    "adventure": {
+      "score": 2,
+      "reason": "The text emphasizes a laid-back, quiet atmosphere with no adventure activities mentioned."
+    },
+    "families": {
+      "score": 3,
+      "reason": "A quiet beach town with family-friendly dining like La Casita de Mr. Warner, though tagged mainly for couples."
+    },
+    "nightlife": {
+      "score": 2,
+      "reason": "Only Samara Brewing Company appears as a bar-type venue in an otherwise quiet small town."
+    },
+    "restaurants": {
+      "score": 4,
+      "reason": "A strong list of highly-rated eateries including Masala Indian, Sushi Samarai, and Ahora Sí! Italian."
+    },
+    "beach": {
+      "score": 4,
+      "reason": "Described as a laid-back beach town with beaches like Playa Buena Vista nearby."
+    },
+    "wildlife": {
+      "score": 2,
+      "reason": "No wildlife attractions are mentioned in the text."
+    },
+    "relaxation": {
+      "score": 5,
+      "reason": "Explicitly described as easygoing and unhurried, tagged for relaxation seekers."
+    },
+    "difficulty": {
+      "level": "Easy",
+      "reason": "Paved Route 150 access and Carrillo Airport about 5 km east make it easier to reach than many peninsula destinations."
+    },
+    "private": {
+      "score": 2,
+      "reason": "The text notes to expect low-key amenities rather than big-resort options."
+    }
+  },
+  "restaurants": [
+    {
+      "name": "Sazón Costarricense",
+      "rating": 5,
+      "review_count": 19,
+      "address": "Mercadito, Provincia de Guanacaste, Sámara, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Sweet Dreams",
+      "rating": 4.9,
+      "review_count": 196,
+      "address": "In front of supermarket Rindemas, Downtown, Provincia de Guanacaste, Sámara, 50205, Costa Rica",
+      "types": [
+        "ice_cream_shop",
+        "dessert_shop",
+        "confectionery"
+      ]
+    },
+    {
+      "name": "Mapache",
+      "rating": 4.9,
+      "review_count": 30,
+      "address": "Calle Principal, Provincia de Guanacaste, Sámara, 50205, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Rincón Mochilero",
+      "rating": 4.9,
+      "review_count": 65,
+      "address": "VFMC+3JJ, Guanacaste Province, Sámara, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "KIWI fast casual saladbar",
+      "rating": 4.9,
+      "review_count": 88,
+      "address": "On the main street of Playa Samara, 10 meters north of Hotel Giada, Guanacaste Province, Sámara, Provincia de Guanacaste, Sámara, 50205, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Masala Indian Restaurant Samara",
+      "rating": 4.9,
+      "review_count": 118,
+      "address": "Hotel la flor de coco, Provincia de Guanacaste, Sámara, 50205, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Samara Brewing Company & Mexican Cocina",
+      "rating": 4.8,
+      "review_count": 321,
+      "address": "frente Centro Medico Dr. Freddy Soto, Provincia de Guanacaste, Sámara, 50205, Costa Rica",
+      "types": [
+        "mexican_restaurant",
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Ahora Sí!",
+      "rating": 4.8,
+      "review_count": 382,
+      "address": "Guanacaste Province, Sámara, Costa Rica",
+      "types": [
+        "italian_restaurant",
+        "restaurant"
+      ]
+    }
+  ],
+  "restaurants_source": "Google Places API, fetched 2026-08-10",
+  "gallery": [
+    {
+      "src": "images/samara.webp",
+      "alt": "Samara Beach, Guanacaste's Nicoya Peninsula"
+    }
+  ],
+  "testimonials": []
+}

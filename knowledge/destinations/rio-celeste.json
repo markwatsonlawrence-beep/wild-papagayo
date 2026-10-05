@@ -1,0 +1,222 @@
+{
+    "id":  "rio-celeste",
+    "status":  "published",
+    "name":  "Río Celeste",
+    "hero_image":  "images/celeste1.webp",
+    "gallery":  [
+                    {
+                        "src":  "images/celeste2.webp",
+                        "alt":  "Rio Celeste\u0027s famous turquoise waterfall"
+                    },
+                    {
+                        "src":  "images/celeste3.webp",
+                        "alt":  "Tenorio Volcano National Park rainforest"
+                    },
+                    {
+                        "src":  "images/celeste4.webp",
+                        "alt":  "The blue waters of Rio Celeste"
+                    },
+                    {
+                        "src":  "images/celeste5.webp",
+                        "alt":  "Rio Celeste hiking trail through the rainforest"
+                    },
+                    {
+                        "src":  "images/tubingceleste2.webp",
+                        "alt":  "Tubing through Rio Celeste\u0027s blue current"
+                    }
+                ],
+    "hero_description":  "A turquoise river flowing through Tenorio Volcano National Park, one of Costa Rica\u0027s most magical natural wonders.",
+    "description":  "Río Celeste is one of Costa Rica\u0027s most photographed natural attractions. The river\u0027s striking turquoise color is created by a natural chemical reaction where two volcanic streams converge inside Tenorio Volcano National Park.",
+    "airport":  "Liberia (LIR)",
+    "transfer_time":  "Approximately 2h 30m",
+    "best_season":  "December–April",
+    "province":  "Alajuela",
+    "airport_id":  "lir",
+    "best_for":  [
+                     "Nature",
+                     "Photography",
+                     "Hiking",
+                     "Waterfalls",
+                     "Honeymooners"
+                 ],
+    "nearby":  [
+                   "bijagua",
+                   "la-fortuna"
+               ],
+    "featured_tours":  [
+                           "celesteriver",
+                           "tubingceleste",
+                           "floatingtenorio"
+                       ],
+    "why_visit":  [
+                      "Río Celeste is one of Costa Rica\u0027s most visually stunning natural wonders. The river runs a brilliant electric blue, the result of volcanic minerals mixing in the waters of Tenorio Volcano National Park. The color is completely natural, no filter required.",
+                      "A hike through Tenorio National Park leads to the river, a spectacular waterfall, hot springs and wildlife-rich forest. It is one of the most rewarding full-day excursions available from either Guanacaste or La Fortuna."
+                  ],
+    "highlights":  [
+                       "Naturally turquoise river, a unique volcanic phenomenon",
+                       "Río Celeste Waterfall accessible by a scenic forest trail",
+                       "Rich wildlife: toucans, sloths, howler monkeys and poison dart frogs",
+                       "Natural thermal hot springs along the riverbank",
+                       "Tenorio Volcano National Park, pristine and relatively uncrowded",
+                       "Combinable with La Fortuna or Guanacaste beach stays"
+                   ],
+    "considerations":  [
+                           "Approximately 2.5 hours from Liberia Airport, best enjoyed as a full-day excursion",
+                           "The trail can be muddy and slippery during the rainy season",
+                           "Visitor numbers are limited inside the national park, advance booking is recommended"
+                       ],
+    "faq":  [
+                {
+                    "q":  "Why is Río Celeste blue?",
+                    "a":  "The turquoise color is caused by a natural optical phenomenon: volcanic minerals called aluminosilicates precipitate when two streams mix, scattering light and creating the vivid blue appearance."
+                },
+                {
+                    "q":  "Can I swim in Río Celeste?",
+                    "a":  "Swimming is not permitted inside Tenorio National Park to protect the ecosystem. However, some areas along tubing routes offer water activities outside the park boundaries."
+                },
+                {
+                    "q":  "How do I get to Río Celeste from Guanacaste?",
+                    "a":  "The most comfortable option is a private tour or transfer, which takes approximately 2.5 hours from Liberia Airport. Most visitors combine it with a guided hike through the national park."
+                },
+                {
+                    "q":  "Is the hike to Río Celeste difficult?",
+                    "a":  "The trail is moderate: about 4 km round trip with some uneven terrain and roots. Good walking shoes are recommended. Most healthy adults complete it comfortably."
+                }
+            ],
+    "wildlife":  [
+                     {
+                         "name":  "Tapir Valley Tree Frog",
+                         "note":  "This 20-acre wetland is the only known location in the world for this species.",
+                         "source":  "Wikipedia: Tenorio Volcano National Park"
+                     },
+                     {
+                         "name":  "Tapir",
+                         "note":  "Resides in the park area around Tenorio Volcano.",
+                         "source":  "Wikipedia: Tenorio Volcano National Park"
+                     },
+                     {
+                         "name":  "Puma",
+                         "note":  "Rarely seen inhabitant of the area.",
+                         "source":  "Wikipedia: Tenorio Volcano National Park"
+                     }
+                 ],
+    "experience_scores":  {
+                              "adventure":  {
+                                                "score":  4,
+                                                "reason":  "A hike through Tenorio National Park leads to a waterfall and wildlife-rich forest with muddy, slippery trails."
+                                            },
+                              "families":  {
+                                               "score":  3,
+                                               "reason":  "Wildlife and scenic hiking appeal to families, but muddy trails and a full-day excursion may challenge young children."
+                                           },
+                              "nightlife":  {
+                                                "score":  3,
+                                                "reason":  "Blue River Brewery (bar_and_grill, bar) rated 4.9/5 appears in the list, offering some nightlife options."
+                                            },
+                              "restaurants":  {
+                                                  "score":  4,
+                                                  "reason":  "Multiple highly-rated restaurants nearby including Mama Panda Kitchen (5/5) and several 4.8-4.9 rated options."
+                                              },
+                              "beach":  {
+                                            "score":  2,
+                                            "reason":  "No beach at the destination itself, though it can be combined with Guanacaste beach stays."
+                                        },
+                              "wildlife":  {
+                                               "score":  5,
+                                               "reason":  "Rich wildlife including toucans, sloths, howler monkeys and poison dart frogs in the forest."
+                                           },
+                              "relaxation":  {
+                                                 "score":  4,
+                                                 "reason":  "Natural thermal hot springs along the riverbank offer relaxation."
+                                             },
+                              "difficulty":  {
+                                                 "level":  "Medium",
+                                                 "reason":  "Approximately 2h 30m from Liberia Airport with trails that can be muddy and slippery during rainy season."
+                                             },
+                              "private":  {
+                                              "score":  2,
+                                              "reason":  "The text focuses on a natural park excursion with no mention of private amenities."
+                                          }
+                          },
+    "restaurants":  [
+                        {
+                            "name":  "Soda River blue",
+                            "rating":  5,
+                            "review_count":  178,
+                            "address":  "Alajuela Province, Guatuso, 21502, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Soda Comida Típica Rio Celeste",
+                            "rating":  5,
+                            "review_count":  35,
+                            "address":  "Colonia Naranjeña, Provincia de Alajuela, San Rafael de Guatuso, 21500, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Yeye\u0027s Restaurante",
+                            "rating":  5,
+                            "review_count":  321,
+                            "address":  "de, Palí 600 metros Oeste y 25 metros sur, Provincia de Alajuela, Bijagua de Upala, 21304, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Rancho La Laguna",
+                            "rating":  5,
+                            "review_count":  18,
+                            "address":  "QXMG+96 El salto de, Provincia de Alajuela, Bijagua de Upala, Costa Rica",
+                            "types":  [
+                                          "seafood_restaurant",
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Taberna el Rio",
+                            "rating":  4.9,
+                            "review_count":  19,
+                            "address":  "21501 Alajuela, Provincia de Alajuela, Guatuso, 21501, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Blue River Brewery",
+                            "rating":  4.9,
+                            "review_count":  319,
+                            "address":  "2, km de la entrada hacia parque nacional volcan tenorio, Alajuela Province, Bijagua de Upala, 21304, Costa Rica",
+                            "types":  [
+                                          "bar_and_grill",
+                                          "bar",
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurante Finca Garza del Sol.",
+                            "rating":  4.8,
+                            "review_count":  31,
+                            "address":  "KM Este del Parque Nacional Volcán Tenorio, Río Celeste 21504, Provincia de Alajuela, Guatuso, 21504, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Tilapiera Los Laguitos y Restaurante rio celeste",
+                            "rating":  4.8,
+                            "review_count":  184,
+                            "address":  "Rio Celeste Restaurante Tilapiera, David Quesada, Tenorio Volcano, Calle Asentamiento el Pilón, Provincia de Alajuela, Guatuso, 21304, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        }
+                    ],
+    "restaurants_source":  "Google Places API, fetched 2026-08-10",
+    "testimonials":  [
+
+                     ]
+}

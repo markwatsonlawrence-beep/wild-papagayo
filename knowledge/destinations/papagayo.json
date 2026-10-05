@@ -1,0 +1,239 @@
+{
+  "id": "papagayo",
+  "status": "published",
+  "name": "Papagayo",
+  "hero_image": "images/papagayo-hero.webp",
+  "hero_description": "Private resorts, quiet bays and easy access to Guanacaste adventures.",
+  "description": "Papagayo combines exclusive resorts, calm Pacific beaches and convenient access to Liberia International Airport. It is an excellent base for travelers who want private service, relaxation and memorable day trips.",
+  "airport": "Liberia (LIR)",
+  "transfer_time": "30–45 minutes",
+  "best_season": "December–April",
+  "best_for": [
+    "Private",
+    "Couples",
+    "Families",
+    "Private tours",
+    "Honeymooners"
+  ],
+  "nearby": [
+    "playa-coco",
+    "playa-hermosa"
+  ],
+  "featured_tours": [
+    "hangingbridgessloths",
+    "buenavistamegacombo",
+    "celesteriver"
+  ],
+  "province": "Guanacaste",
+  "why_visit": [
+    "The Papagayo Peninsula is home to some of Costa Rica's most exclusive resort properties, set along calm Pacific bays with easy access to Liberia International Airport. The area combines private service with the natural beauty of Guanacaste.",
+    "For travelers who prioritize private, privacy and comfort alongside nature and adventure, Papagayo offers an unmatched base. Private tours to volcanoes, rainforests and wildlife sanctuaries are accessible without long drives."
+  ],
+  "highlights": [
+    "Home to Four Seasons, Andaz, Nekajui and other private resorts",
+    "Calm, protected Pacific bays ideal for swimming and water sports",
+    "30 to 45 minutes from Liberia International Airport",
+    "Private and exclusive atmosphere with high-end dining",
+    "Easy access to Guanacaste's top tours and experiences",
+    "Ideal for honeymoons, anniversaries and private travel"
+  ],
+  "considerations": [
+    "Very resort-focused, limited local dining options outside hotel properties",
+    "Higher price range than other Guanacaste destinations",
+    "Less walkable than beach towns like Playa Coco or Tamarindo"
+  ],
+  "faq": [
+    {
+      "q": "Which resorts are located in Papagayo?",
+      "a": "The peninsula is home to Four Seasons Resort Costa Rica, Andaz Costa Rica, Nekajui a Ritz-Carlton Reserve, Secrets Papagayo, Planet Hollywood, El Mangroove and other private properties."
+    },
+    {
+      "q": "How far is Papagayo from Liberia Airport?",
+      "a": "Most Papagayo resorts are 30 to 45 minutes from Liberia International Airport by private transfer."
+    },
+    {
+      "q": "Is Papagayo good for families?",
+      "a": "Yes. The calm bays, private resort amenities and family-friendly tour options make Papagayo an excellent choice for families seeking a premium Costa Rica experience."
+    },
+    {
+      "q": "Can I take day tours from Papagayo?",
+      "a": "Absolutely. Private tours to Rincon de la Vieja, hanging bridges, wildlife sanctuaries and other Guanacaste attractions depart easily from the Papagayo area."
+    }
+  ],
+  "airport_id": "lir",
+  "relationships": {
+    "tours": [
+      "buenavistamegacombo",
+      "celesteriver",
+      "hangingbridgessloths"
+    ],
+    "destinations": [
+      "papagayo",
+      "playa-coco",
+      "playa-hermosa"
+    ],
+    "nearby_hotels": [],
+    "blogs": [],
+    "last_discovered": "2026-07-12"
+  },
+  "experience_scores": {
+    "adventure": {
+      "score": 3,
+      "reason": "Private tours to volcanoes, rainforests and wildlife sanctuaries are accessible without long drives."
+    },
+    "families": {
+      "score": 3,
+      "reason": "Listed as good for families and calm bays ideal for swimming, though it's resort-focused and pricey."
+    },
+    "nightlife": {
+      "score": 3,
+      "reason": "Coco's Tiki Bar and Prieta/Olas beach clubs appear in the list, but options are limited outside resorts."
+    },
+    "restaurants": {
+      "score": 4,
+      "reason": "Multiple highly-rated venues like Niri Beach Club (5/5) and Taru Restaurante (4.9/5), though dining is largely resort-based."
+    },
+    "beach": {
+      "score": 4,
+      "reason": "Calm, protected Pacific bays ideal for swimming and water sports."
+    },
+    "wildlife": {
+      "score": 3,
+      "reason": "Easy access to wildlife sanctuaries and rainforests via private tours."
+    },
+    "relaxation": {
+      "score": 5,
+      "reason": "Emphasizes private service, comfort and relaxation with exclusive resorts on calm bays."
+    },
+    "difficulty": {
+      "level": "Easy",
+      "reason": "Only 30 to 45 minutes from Liberia International Airport with convenient access."
+    },
+    "private": {
+      "score": 5,
+      "reason": "Home to Four Seasons, Andaz, Nekajui and other private resorts with high-end dining."
+    }
+  },
+  "restaurants": [
+    {
+      "name": "Niri Beach Club",
+      "rating": 5,
+      "review_count": 10,
+      "address": "J8J8+32M Papagayo Peninsula, Provincia de Guanacaste, Liberia, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Restaurante Chao Pescao.",
+      "rating": 4.9,
+      "review_count": 94,
+      "address": "Península de Papagayo,, Provincia de Guanacaste, Liberia, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Olas at Prieta Beach Club",
+      "rating": 4.9,
+      "review_count": 31,
+      "address": "Peninsula Papagayo, Next to Four Seasons, 50105, Guanacaste Province, Liberia, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Peninsula CR Steak & Seafood Grill",
+      "rating": 4.8,
+      "review_count": 170,
+      "address": "Hacienda Del Mar Club House, Playa Panama, Guanacaste Province, Liberia, 55053, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Casa de Playa",
+      "rating": 4.8,
+      "review_count": 92,
+      "address": "J8JF+GWV, Guanacaste Province, Nacascolo, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Prieta Beach Club",
+      "rating": 4.8,
+      "review_count": 105,
+      "address": "Peninsula Papagayo, Provincia de Guanacaste, Liberia, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Seaside Grill",
+      "rating": 4.7,
+      "review_count": 22,
+      "address": "J923+VJ6, Provincia de Guanacaste, Panamá, 50503, Costa Rica",
+      "types": [
+        "restaurant"
+      ]
+    },
+    {
+      "name": "Restaurante Mar Azul",
+      "rating": 4.6,
+      "review_count": 674,
+      "address": "edificio color negro, Calle Larin, Provincia de Guanacaste, Coco, 50503, Costa Rica",
+      "types": [
+        "restaurant",
+        "seafood_restaurant"
+      ]
+    }
+  ],
+  "restaurants_source": "Google Places API, fetched 2026-08-10",
+  "gallery": [
+    {
+      "src": "images/andaz-costa-rica-hero.webp",
+      "alt": "Andaz Costa Rica Resort at Peninsula Papagayo"
+    },
+    {
+      "src": "images/el-mangroove-hotel-hero.webp",
+      "alt": "El Mangroove Hotel, Peninsula Papagayo"
+    },
+    {
+      "src": "images/four-seasons-papagayo-hero.webp",
+      "alt": "Four Seasons Resort, Peninsula Papagayo"
+    },
+    {
+      "src": "images/hotel-riu-guanacaste-hero.webp",
+      "alt": "Hotel Riu Guanacaste, Papagayo Gulf"
+    },
+    {
+      "src": "images/secrets-papagayo-costa-rica-hero.webp",
+      "alt": "Secrets Papagayo Costa Rica adults-only resort"
+    },
+    {
+      "src": "images/suitree-experience-hotel-costa-rica-hero.webp",
+      "alt": "Suitree Experience Hotel, Papagayo"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Words can not describe this place. Amazing service, in an even more amazing location Staff is extremely accomodating and polite and they will go out of their way to accomodate any needs. Breakfast is amazing! Lots of choices and great quality. Also tried Ostra and Chao for...",
+      "author": "Vaggelis P",
+      "location": "",
+      "source": "Google review, Andaz Peninsula Papagayo Resort, Costa Rica"
+    },
+    {
+      "quote": "Great place to go right after landing at LIR: it’s so close and it’s so great to be at a beach so quickly. We paid for the all inclusive option for our 2 night stay and are glad we did. Didn’t have to think about anything before we headed elsewhere. The breakfast was great. The...",
+      "author": "andrea mclean",
+      "location": "",
+      "source": "Google review, el Mangroove Hotel"
+    },
+    {
+      "quote": "Our stay at Four Seasons Costa Rica was amazing from start to finish. What stood out most was the exceptional service. Many of the staff remembered us by our first names and even recalled what we had ordered previously, which made the experience feel incredibly personal and...",
+      "author": "Danakha",
+      "location": "",
+      "source": "Google review, Four Seasons Peninsula Papagayo"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+    "id":  "monteverde",
+    "status":  "published",
+    "name":  "Monteverde",
+    "hero_image":  "images/monteverde-hero.webp",
+    "hero_description":  "The jewel in the crown of Costa Rica\u0027s cloud forests.",
+    "description":  "Monteverde is one of Costa Rica\u0027s premier ecotourism destinations, home to the famed Monteverde Cloud Forest Reserve and a rich community founded by American Quakers in the 1950s. Perched high in the Cordillera de Tilarán, it offers cool climates and abundant natural beauty.",
+    "airport":  "Guanacaste Airport (LIR)",
+    "transfer_time":  "",
+    "best_season":  "",
+    "best_for":  [
+                     "Nature lovers",
+                     "Naturalists",
+                     "Couples",
+                     "Adventure travelers",
+                     "Honeymooners"
+                 ],
+    "nearby":  [
+                   "la-fortuna",
+                   "guanacaste"
+               ],
+    "featured_tours":  [
+                           "monteverdehangingbridgescoffee"
+                       ],
+    "province":  "Puntarenas",
+    "why_visit":  [
+                      "Monteverde is one of Costa Rica\u0027s major ecotourism destinations, centered on the Monteverde Cloud Forest Reserve, which National Geographic called \"the jewel in the crown of cloud forest reserves\" and which Costa Ricans voted one of the nation\u0027s seven natural wonders. Its tropical montane cloud forest, cool climate, and rich biodiversity draw naturalists and travelers from around the world.",
+                      "The region also carries a unique cultural heritage, having been founded by Quakers from the United States in the 1950s who set aside land for conservation. Today the town of Santa Elena serves as a welcoming hub with diverse accommodations, dining, and guided tours, and English-Spanish bilingualism is widespread."
+                  ],
+    "highlights":  [
+                       "Monteverde Cloud Forest Biological Reserve, the largest of the area\u0027s reserves",
+                       "Voted one of Costa Rica\u0027s seven natural wonders",
+                       "Cool cloud-forest climate with a mean annual temperature around 18°C (64°F)",
+                       "Santa Elena, the tourist hub for lodging, dining, and guided tours",
+                       "Unique Quaker heritage and widespread English-Spanish bilingualism"
+                   ],
+    "considerations":  [
+                           "The area receives an estimated 250,000 tourists a year, so popular sites can draw considerable crowds.",
+                           "Monteverde is roughly a four-hour drive from the Central Valley and roads have only been partially paved in recent years.",
+                           "Annual precipitation averages around 3,000 mm and humidity is high, so expect frequent mist and rain."
+                       ],
+    "faq":  [
+                {
+                    "q":  "What is Monteverde known for?",
+                    "a":  "Monteverde is famous for the Monteverde Cloud Forest Reserve, described by National Geographic as \"the jewel in the crown of cloud forest reserves\" and voted one of Costa Rica\u0027s seven natural wonders."
+                },
+                {
+                    "q":  "Where is Monteverde and how far is it from the Central Valley?",
+                    "a":  "Monteverde is located in the Cordillera de Tilarán in Puntarenas province and is roughly a four-hour drive from the Central Valley."
+                },
+                {
+                    "q":  "What is the climate like in Monteverde?",
+                    "a":  "Monteverde has a tropical montane cloud forest climate at about 1,400 m elevation. It is never hot thanks to Caribbean trade winds, with a mean annual temperature around 18°C (64°F), high rainfall, and humidity between 74% and 97%."
+                }
+            ],
+    "airport_id":  "lir",
+    "relationships":  {
+                          "tours":  [
+                                        "monteverdehangingbridgescoffee"
+                                    ],
+                          "destinations":  [
+
+                                           ],
+                          "nearby_hotels":  [
+
+                                            ],
+                          "blogs":  [
+
+                                    ],
+                          "last_discovered":  "2026-07-14"
+                      },
+    "verification":  {
+                         "status":  "unverified",
+                         "source":  "https://en.wikipedia.org/wiki/Monteverde,_Costa_Rica",
+                         "note":  "Imported from source URL and summarized by Claude. Facts should be human-reviewed before publication."
+                     },
+    "wildlife":  [
+                     {
+                         "name":  "Resplendent Quetzal",
+                         "note":  "Moves seasonally from high-elevation nesting sites to lower elevations.",
+                         "source":  "Wikipedia: Monteverde Cloud Forest Reserve"
+                     },
+                     {
+                         "name":  "Three-wattled Bellbird",
+                         "note":  "Breeds near the Continental Divide March-June, then moves downhill to the Pacific slope in August-September.",
+                         "source":  "Wikipedia: Monteverde Cloud Forest Reserve"
+                     },
+                     {
+                         "name":  "Swallow-tailed Kite",
+                         "note":  "Breeds in Monteverde, migrates to South America in the non-reproductive phase.",
+                         "source":  "Wikipedia: Monteverde Cloud Forest Reserve"
+                     },
+                     {
+                         "name":  "Golden Toad",
+                         "note":  "Endemic species, last seen in 1989 -- now believed extinct due to chytrid fungus.",
+                         "source":  "Wikipedia: Monteverde Cloud Forest Reserve"
+                     }
+                 ],
+    "experience_scores":  {
+                              "adventure":  {
+                                                "score":  4,
+                                                "reason":  "Cloud forest reserves and guided tours draw adventure travelers and naturalists."
+                                            },
+                              "families":  {
+                                               "score":  3,
+                                               "reason":  "Santa Elena offers diverse accommodations and guided tours, though it\u0027s best noted for couples and nature lovers."
+                                           },
+                              "nightlife":  {
+                                                "score":  3,
+                                                "reason":  "Monteverde Brewing Company and Natu cocktail_bar appear in the list, offering some bar options."
+                                            },
+                              "restaurants":  {
+                                                  "score":  5,
+                                                  "reason":  "Numerous highly-rated restaurants like Endémica (5/5) and Kapi kapi (4.8/5) serve the area well."
+                                              },
+                              "beach":  {
+                                            "score":  1,
+                                            "reason":  "Monteverde is a high montane cloud forest with no beaches mentioned."
+                                        },
+                              "wildlife":  {
+                                               "score":  5,
+                                               "reason":  "The Cloud Forest Reserve is called \u0027the jewel in the crown of cloud forest reserves\u0027 with rich biodiversity."
+                                           },
+                              "relaxation":  {
+                                                 "score":  3,
+                                                 "reason":  "Cool cloud-forest climate and natural beauty offer calm, though crowds of 250,000 tourists can detract."
+                                             },
+                              "difficulty":  {
+                                                 "level":  "Medium",
+                                                 "reason":  "It\u0027s roughly a four-hour drive from the Central Valley with roads only partially paved in recent years."
+                                             },
+                              "private":  {
+                                              "score":  2,
+                                              "reason":  "Text mentions diverse accommodations but nothing indicating private offerings."
+                                          }
+                          },
+    "restaurants":  [
+                        {
+                            "name":  "Soda Cantón 83 The Maze family Business!",
+                            "rating":  5,
+                            "review_count":  190,
+                            "address":  "50 metros oeste, cabañas la pradera, Provincia de Puntarenas, Monteverde, 60109, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Endémica Restaurant",
+                            "rating":  5,
+                            "review_count":  50,
+                            "address":  "85FM+HH, San José, Monteverde, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurante Flores y Sabores",
+                            "rating":  5,
+                            "review_count":  102,
+                            "address":  "contiguo a las antenas de cabletica, Provincia de Puntarenas, Monteverde, 61201, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Monteverde Brewing Company",
+                            "rating":  4.9,
+                            "review_count":  1222,
+                            "address":  "325 metros oeste del Hotel Miramontes, Provincia de Puntarenas, Monteverde, 60109, Costa Rica",
+                            "types":  [
+                                          "restaurant",
+                                          "brewery",
+                                          "manufacturer"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurante Kiré",
+                            "rating":  4.9,
+                            "review_count":  89,
+                            "address":  "Koora Hotel, Provincia de Puntarenas, Monteverde, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "Kapi kapi Restaurante",
+                            "rating":  4.8,
+                            "review_count":  874,
+                            "address":  "La cruz de Abangares, Monteverde, Provincia de Guanacaste, Monteverde, Costa Rica",
+                            "types":  [
+                                          "restaurant",
+                                          "farm",
+                                          "bar"
+                                      ]
+                        },
+                        {
+                            "name":  "Restaurante Sensoria Monteverde, Traditional Costarican Food!",
+                            "rating":  4.8,
+                            "review_count":  334,
+                            "address":  "8537+5Q4, Provincia de Puntarenas, Santa Elena 150 m sur de la entrada a Cerro Plano, frente al mirador del atardecer, Provincia de Puntarenas, Santa Elena, 60109, Costa Rica",
+                            "types":  [
+                                          "restaurant"
+                                      ]
+                        },
+                        {
+                            "name":  "NATIVO Restaurant \u0026 Coffee",
+                            "rating":  4.8,
+                            "review_count":  761,
+                            "address":  "857J+FW 50 Metros Oeste de la Escuela Cerro Plano, Provincia de Puntarenas, Monteverde, 60109, Costa Rica",
+                            "types":  [
+                                          "restaurant",
+                                          "coffee_shop",
+                                          "cafe"
+                                      ]
+                        }
+                    ],
+    "restaurants_source":  "Google Places API, fetched 2026-08-10",
+    "gallery":  [
+                    {
+                        "src":  "images/monteverdebridge1.webp",
+                        "alt":  "Monteverde Cloud Forest hanging bridge"
+                    },
+                    {
+                        "src":  "images/monteverdebridge2.webp",
+                        "alt":  "Suspended walkway through Monteverde\u0027s canopy"
+                    },
+                    {
+                        "src":  "images/monteverdebridge3.webp",
+                        "alt":  "Cloud forest views from a Monteverde bridge"
+                    },
+                    {
+                        "src":  "images/monteverdebridge4.webp",
+                        "alt":  "Lush cloud forest vegetation, Monteverde"
+                    },
+                    {
+                        "src":  "images/hotel-belmar-hero.webp",
+                        "alt":  "Hotel Belmar, a mountain lodge in Monteverde"
+                    }
+                ],
+    "testimonials":  [
+
+                     ]
+}
