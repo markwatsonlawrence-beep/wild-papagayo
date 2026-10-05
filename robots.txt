@@ -1,0 +1,47 @@
+# OpenAI / ChatGPT Search
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /formulariodesuscripcion.html
+Disallow: /offline.html
+Disallow: /single-blog.html
+Disallow: /control-center/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /formulariodesuscripcion.html
+Disallow: /offline.html
+Disallow: /single-blog.html
+Disallow: /control-center/
+
+# Claude Search
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /formulariodesuscripcion.html
+Disallow: /offline.html
+Disallow: /single-blog.html
+Disallow: /control-center/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /formulariodesuscripcion.html
+Disallow: /offline.html
+Disallow: /single-blog.html
+Disallow: /control-center/
+
+# Perplexity Search
+User-agent: PerplexityBot
+Allow: /
+Disallow: /formulariodesuscripcion.html
+Disallow: /offline.html
+Disallow: /single-blog.html
+Disallow: /control-center/
+
+# General search engines
+User-agent: *
+Allow: /
+Disallow: /formulariodesuscripcion.html
+Disallow: /offline.html
+Disallow: /single-blog.html
+Disallow: /control-center/
+
+Sitemap: https://wildpapagayo.com/sitemap.xml
