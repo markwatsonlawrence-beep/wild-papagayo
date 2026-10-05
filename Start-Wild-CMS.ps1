@@ -879,12 +879,9 @@ function Update-TourFields {
     $included = Get-PropertyValue $Payload 'included' $null
     if ($null -ne $included) {
         $includedArr = @(@($included) | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object { [string]$_ })
+        # Top-level included is retired -- article-auto-draft.ps1 now reads
+        # everything_included directly, so this is the only copy written.
         $pc | Add-Member -MemberType NoteProperty -Name 'everything_included' -Value $includedArr -Force
-        # Top-level included stays in sync too -- article-auto-draft.ps1 still
-        # reads it as an offline fact-sheet source (see repo-wide search in
-        # the structural-debt task report; everything_included above is the
-        # one the live site actually renders).
-        $t.included = $includedArr
     }
     $whatToBring = Get-PropertyValue $Payload 'what_to_bring' $null
     if ($null -ne $whatToBring) {
