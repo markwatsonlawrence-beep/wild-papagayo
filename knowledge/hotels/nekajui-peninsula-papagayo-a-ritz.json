@@ -1,0 +1,247 @@
+{
+    "id":  "nekajui-peninsula-papagayo-a-ritz",
+    "name":  "Nekajui, A Ritz-Carlton Reserve",
+    "slug":  "nekajui-peninsula-papagayo-a-ritz",
+    "brand":  "Nekajui, A Ritz-Carlton Reserve",
+    "category":  "Luxury Beach Resort",
+    "luxury_level":  "Luxury",
+    "destination_id":  "papagayo",
+    "location_label":  "Peninsula Papagayo",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  36,
+                             "max":  46,
+                             "label":  "Approximately 36-46 minutes (34.5 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+                             "source_type":  "google_routes_api"
+                         },
+    "transfer_by_airport":  {
+                                "lir":  {
+                                            "min":  36,
+                                            "max":  46,
+                                            "km":  34.5,
+                                            "airport_name":  "Daniel Oduber Quiros International Airport (LIR)"
+                                        },
+                                "sjo":  {
+                                            "min":  219,
+                                            "max":  279,
+                                            "km":  242.2,
+                                            "airport_name":  "Juan Santamaria International Airport (SJO)"
+                                        }
+                            },
+    "coordinates":  {
+                        "lat":  10.6300931,
+                        "lng":  -85.6833293
+                    },
+    "formatted_address":  null,
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://www.ritzcarlton.com/es/hotels/lirrz-nekajui-peninsula-papagayo-a-ritz-carlton-reserve/overview/",
+    "hero_image":  "images/nekajui-peninsula-papagayo-a-ritz-hero.webp",
+    "hero_image_alt":  "Nekajui, A Ritz-Carlton Reserve, a Luxury Beach Resort in Peninsula Papagayo, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "Nekajui Peninsula Papagayo is a five-star Ritz-Carlton Reserve set within a 567-hectare private peninsula on Costa Rica\u0027s Pacific coast. Surrounded by protected forest and turquoise waters above Playa Pochote, it blends refined dining, a Nicoyan-inspired spa, and treetop luxury accommodations.",
+    "hero_description":  "A five-star Ritz-Carlton Reserve sanctuary hidden within the protected forests of Peninsula Papagayo.",
+    "local_insight":  "This is Costa Rica\u0027s most exclusive luxury address, ideal for discerning travelers who want world-class dining and spa rituals without leaving the seclusion of a private peninsula. Best suited to couples and design-minded guests seeking serenity over party-beach energy.",
+    "best_for":  [
+                     "Luxury Couples",
+                     "Culinary Travelers",
+                     "Wellness Seekers"
+                 ],
+    "hotel_scores":  {
+                         "luxury":  {
+                                        "score":  5,
+                                        "reason":  "identity.luxury_level is Luxury; described as a five-star Ritz-Carlton Reserve and Costa Rica\u0027s most exclusive luxury address."
+                                    },
+                         "families":  {
+                                          "score":  2,
+                                          "reason":  "Children\u0027s recreation is listed as an amenity, but no family profile exists and local_take emphasizes serenity over family activity."
+                                      },
+                         "couples":  {
+                                         "score":  5,
+                                         "reason":  "Luxury Couples profile describes intimate treetop dining and a refined romantic escape."
+                                     },
+                         "wellness":  {
+                                          "score":  5,
+                                          "reason":  "Nicoya-inspired spa program grounded in Blue Zone longevity philosophy, with a dedicated Wellness Seekers profile."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  2,
+                                                  "reason":  "No adventure tours or activity access is mentioned; amenities center on dining, spa and seclusion."
+                                              },
+                         "walkability":  {
+                                             "score":  3,
+                                             "reason":  ""
+                                         },
+                         "nightlife":  {
+                                           "score":  3,
+                                           "reason":  ""
+                                       }
+                     },
+    "featured_tours":  [
+                           "hangingbridgessloths",
+                           "hikingrinconnationalpark",
+                           "slothchocolatetour"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "Where is Nekajui Peninsula Papagayo located?",
+                    "a":  "Nekajui is located at the end of National Route 253 on Peninsula Papagayo in Nacascolo, Liberia, Guanacaste, on Costa Rica\u0027s Pacific coast."
+                },
+                {
+                    "q":  "How do I get to the resort from the airport?",
+                    "a":  "The nearest airport is Daniel Oduber Quiros International in Liberia (LIR), about 35 km away. The hotel does not offer its own shuttle, but alternative airport transport can be arranged with advance reservation."
+                },
+                {
+                    "q":  "Does the resort allow pets?",
+                    "a":  "Yes, well-behaved pets weighing 18 kg (40 lbs) or less are welcome, with a limit of one pet per room and a non-refundable pet fee of $250 per stay."
+                }
+            ],
+    "amenities":  [
+                      "Nicoya-inspired spa and wellness program",
+                      "Outdoor pool and hot tub",
+                      "Multiple fine-dining restaurants including Peruvian cuisine at Puna",
+                      "Niri Beach Club",
+                      "Treetop dining and bars",
+                      "24-hour room service",
+                      "Concierge service",
+                      "Children\u0027s recreation",
+                      "Complimentary on-site parking"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Rooms and Suites",
+                           "description":  "Luxury accommodations that immerse guests in the natural surroundings with ethereal views of Playa Pochote and the Pacific."
+                       },
+                       {
+                           "name":  "Treetop Tents",
+                           "description":  "Elevated luxury tents nestled in the canopy that blend seamlessly with Costa Rica\u0027s natural wonders."
+                       },
+                       {
+                           "name":  "Reserve Residences",
+                           "description":  "Architecturally elegant residences set into the hillside above Playa Pochote, crafted from local wood and Costa Rican stone."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+                                     {
+                                         "profile":  "Luxury Couples",
+                                         "reason":  "Intimate treetop dining, an omakase counter, and a serene Nicoya-inspired spa make it ideal for a refined romantic escape."
+                                     },
+                                     {
+                                         "profile":  "Culinary Travelers",
+                                         "reason":  "Restaurants range from chef Diego Munoz\u0027s modern Peruvian cuisine at Puna to Iberian beach fare and coffee and cacao rituals."
+                                     },
+                                     {
+                                         "profile":  "Wellness Seekers",
+                                         "reason":  "The spa program draws on the longevity wisdom of Nicoya\u0027s Blue Zone to inspire a reflective, intention-driven approach to self-care."
+                                     }
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.7,
+                           "review_count":  131,
+                           "reviews":  [
+                                           {
+                                               "author":  "Rachel Welford",
+                                               "rating":  5,
+                                               "text":  "The Ritz Nekaji is exceptional. The service is truly outstanding—attentive, intuitive, and consistently a step ahead. The team anticipates your needs before you even realize them.\nThe property itself is breathtaking. The rooms are stunning, and every detail throughout the hotel reflects a high level of care and desi...",
+                                               "relative_time":  "a month ago"
+                                           },
+                                           {
+                                               "author":  "An Bui",
+                                               "rating":  5,
+                                               "text":  "We just got back from Nekajui yesterday (May 1, 2026) from a four-night stay.  Absolutely beautiful property that is well-maintained with excellent service.  Combined with the large property along with fewer rooms, you can often feel like you are the only guests there.  On multiple occasions we had an entire pool to...",
+                                               "relative_time":  "2 months ago"
+                                           },
+                                           {
+                                               "author":  "Heather Zollinger",
+                                               "rating":  5,
+                                               "text":  "Our stay at Nekajui Peninsula Papagayo exceeded every expectation. From the moment we arrived, the service was warm, attentive, and genuinely personalized. The staff went above and beyond to make every part of our stay special.\n\nThe property itself is breathtaking, with stunning ocean views, beautifully designed roo...",
+                                               "relative_time":  "a month ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "official-import",
+                                 "type":  "official",
+                                 "url":  "https://www.ritzcarlton.com/es/hotels/lirrz-nekajui-peninsula-papagayo-a-ritz-carlton-reserve/overview/"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Nekajui, A Ritz-Carlton Reserve is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "This is Costa Rica\u0027s most exclusive luxury address, ideal for discerning travelers who want world-class dining and spa rituals without leaving the seclusion of a private peninsula. Best suited to couples and design-minded guests seeking serenity over party-beach energy.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "https://www.ritzcarlton.com/es/hotels/lirrz-nekajui-peninsula-papagayo-a-ritz-carlton-reserve/overview/",
+                         "note":  "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/nacascolo-hoteles-nekajui.SKeWLbR",
+    "seo_title_override":  "Nekajui, A Ritz-Carlton Reserve Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Nekajui Peninsula Papagayo, A Ritz with recommended tours, private airport transfers and local Guanacaste insight.",
+    "factual_attributes":  {
+                               "adults_only":  false,
+                               "beach_relationship":  {
+                                                          "direct_access":  true
+                                                      },
+                               "on_property_dining_count":  9,
+                               "positioning_evidence":  [
+                                                            {
+                                                                "audience":  "COUPLES",
+                                                                "evidence_type":  "TREATMENT_OFFERING",
+                                                                "scope":  "TREATMENT_LEVEL",
+                                                                "source_id":  "src-nekajui-spa-page",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"Couples Massages\" (Naku Spa \u0026 Wellness treatment list)"
+                                                            }
+                                                        ],
+                               "evidence_sources":  {
+                                                        "src-nekajui-overview":  {
+                                                                                     "url":  "https://www.ritzcarlton.com/es/hotels/lirrz-nekajui-peninsula-papagayo-a-ritz-carlton-reserve/overview/",
+                                                                                     "type":  "official_site",
+                                                                                     "retrieved_date":  "2026-10-02"
+                                                                                 },
+                                                        "src-nekajui-spa-page":  {
+                                                                                     "url":  "https://www.ritzcarlton.com/en/hotels/lirrz-nekajui-peninsula-papagayo-a-ritz-carlton-reserve/spa/",
+                                                                                     "type":  "official_site",
+                                                                                     "retrieved_date":  "2026-10-02"
+                                                                                 }
+                                                    },
+                               "fact_evidence":  {
+                                                     "adults_only":  [
+                                                                         "src-nekajui-overview"
+                                                                     ],
+                                                     "beach_relationship":  [
+                                                                                "src-nekajui-overview"
+                                                                            ],
+                                                     "on_property_dining_count":  [
+                                                                                      "src-nekajui-overview"
+                                                                                  ],
+                                                     "positioning_evidence":  [
+                                                                                  "src-nekajui-spa-page"
+                                                                              ]
+                                                 }
+                           }
+}

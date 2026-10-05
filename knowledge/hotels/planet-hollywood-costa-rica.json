@@ -1,0 +1,196 @@
+{
+    "id":  "planet-hollywood-costa-rica",
+    "name":  "Planet Hollywood Costa Rica",
+    "slug":  "planet-hollywood-costa-rica",
+    "brand":  "Planet Hollywood Costa Rica",
+    "category":  "All-Inclusive Resort",
+    "luxury_level":  "Upscale",
+    "destination_id":  "papagayo",
+    "location_label":  "Bahía Culebra",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  31,
+                             "max":  39,
+                             "label":  "Approximately 31-39 minutes (31.2 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+                             "source_type":  "google_routes_api"
+                         },
+    "transfer_by_airport":  {
+                                "lir":  {
+                                            "min":  31,
+                                            "max":  39,
+                                            "km":  31.2,
+                                            "airport_name":  "Daniel Oduber Quiros International Airport (LIR)"
+                                        },
+                                "sjo":  {
+                                            "min":  218,
+                                            "max":  278,
+                                            "km":  240.1,
+                                            "airport_name":  "Juan Santamaria International Airport (SJO)"
+                                        }
+                            },
+    "coordinates":  {
+                        "lat":  10.644294499999999,
+                        "lng":  -85.6485512
+                    },
+    "formatted_address":  "Playa Manzanillo Bahia, Peninsula Papagayo, Guanacaste Province, Culebra, 50101, Costa Rica",
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "",
+    "hero_image":  "images/planet-hollywood-costa-rica-hero.webp",
+    "hero_image_alt":  "Planet Hollywood Costa Rica, a Boutique Hotel in Peninsula Papagayo, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "Planet Hollywood Costa Rica is an all-inclusive resort on Bahía Culebra with Hollywood-movie theming throughout, seven on-site restaurants, a kids splash pad and the PH Spa. It\u0027s built for families and groups who want entertainment on property.",
+    "hero_description":  "A Hollywood-themed all-inclusive resort on Bahía Culebra, with easy access to Guanacaste\u0027s top private tours and transfers.",
+    "local_insight":  "Planet Hollywood leans fully into its movie-star theme, from the Star Kids Club to rooftop film nights, backed by seven restaurants and a splash pad that make it easy to keep kids entertained all day. It suits families who want that built-in entertainment on property, paired with private tours to explore Guanacaste beyond the resort.",
+    "best_for":  [
+                     "Couples",
+                     "Families",
+                     "Travelers seeking local experiences"
+                 ],
+    "hotel_scores":  {
+                         "families":  {
+                                          "score":  2,
+                                          "reason":  "No family-specific amenities or details are provided in the text."
+                                      },
+                         "couples":  {
+                                         "score":  2,
+                                         "reason":  "No couples-oriented features are described in the placeholder text."
+                                     },
+                         "wellness":  {
+                                          "score":  2,
+                                          "reason":  "No wellness or spa amenities are mentioned in the text."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  3,
+                                                  "reason":  "Part of the Wild Papagayo Experience Guide, but no specific adventure access details are given."
+                                              },
+                         "walkability":  {
+                                             "score":  2,
+                                             "reason":  "No information about proximity to a beach or town center is provided."
+                                         },
+                         "nightlife":  {
+                                           "score":  2,
+                                           "reason":  "No nightlife details are mentioned in the placeholder text."
+                                       },
+                         "luxury":  {
+                                        "score":  3,
+                                        "reason":  "Listed as an \u0027Upscale\u0027 boutique hotel, but no specific private details provided in the placeholder text."
+                                    }
+                     },
+    "featured_tours":  [
+                           "waterfallpumas",
+                           "sensoriarainforest",
+                           "hikingrinconnationalpark"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "Which airport should I use for Planet Hollywood Costa Rica?",
+                    "a":  "Guanacaste Airport (LIR) is the closest practical airport. Private transportation can be arranged directly to the property."
+                },
+                {
+                    "q":  "What tours can I book from Planet Hollywood Costa Rica?",
+                    "a":  "Wild Papagayo can arrange private tours across Guanacaste, with pickup coordinated directly from Planet Hollywood Costa Rica."
+                },
+                {
+                    "q":  "Do I need a rental car if I\u0027m staying at Planet Hollywood Costa Rica?",
+                    "a":  "Not necessarily. Guests who use organized private tours and transfers can typically manage the trip without renting a car."
+                }
+            ],
+    "amenities":  [
+                      "PH Spa (massages, facials, hydrotherapy)",
+                      "PUMPED Fitness Center and PH Fit classes",
+                      "Star Kids Club",
+                      "Seven on-site restaurants including an a la carte steakhouse and Asian specialty restaurant",
+                      "Kids Splash Pad",
+                      "Infinity pool and swim-up bars",
+                      "Rooftop Fire Pit",
+                      "Hollywood-themed entertainment and movie screenings",
+                      "Beach volleyball court",
+                      "Water sports: kayaking, stand-up paddleboarding, Hobie Cat sailing, introductory scuba",
+                      "24/7 room service",
+                      "Free high-speed Wi-Fi"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Junior Suite",
+                           "description":  "611 sq ft suite available with ocean or garden view, king or two queen beds, featuring the PHabulous Bed, a ceiling-mounted rain shower, and a Jacuzzi tub."
+                       },
+                       {
+                           "name":  "Director\u0027s Suite",
+                           "description":  "966 sq ft suite with ocean or garden view, king or two queen beds, a separate lounge area, large terrace, Jacuzzi tub and ceiling-mounted rain shower."
+                       },
+                       {
+                           "name":  "Producer\u0027s Suite",
+                           "description":  "3,110 sq ft suite available in two-, three- or four-bedroom configurations, with garden or ocean views."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.4,
+                           "review_count":  4127,
+                           "reviews":  [
+                                           {
+                                               "author":  "Agustin Fregoso",
+                                               "rating":  4,
+                                               "text":  "Good experience\n\nMy wife and I had a really good time at Planet Hollywood Costa Rica and there are some things that are good about the resort but there is some things that people should be aware of before coming and something during our stay that we were not a fan of.\n\nThe good: Food, staff and drinks were awesome d...",
+                                               "relative_time":  "4 months ago"
+                                           },
+                                           {
+                                               "author":  "Paul Querido",
+                                               "rating":  4,
+                                               "text":  "People were exceptional.  Friendly, polite, courteous and very willing to help.   Rooms are spacious, clean but could tell it hadn’t been deep cleaned in a long time.  Spider webs in every corner and facet of the room.\n\nFood options are plentiful: the So Cal ( buffet ) was excellent and honestly that is where we at...",
+                                               "relative_time":  "4 months ago"
+                                           },
+                                           {
+                                               "author":  "Gordon Lenz II",
+                                               "rating":  5,
+                                               "text":  "FYI- Rating based on the fact that this is an all inclusive experience with a Destination Wedding including Kids and Grandkids:\nWe went to Planet Hollywood Costa Rica for a destination Wedding, and were pleasantly surprised with the location and Resort. The Staff were welcoming from the moment we arrived. Our room/...",
+                                               "relative_time":  "4 months ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "pending",
+                                 "type":  "official",
+                                 "url":  ""
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Planet Hollywood Costa Rica is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Planet Hollywood leans fully into its movie-star theme, from the Star Kids Club to rooftop film nights, backed by seven restaurants and a splash pad that make it easy to keep kids entertained all day. It suits families who want that built-in entertainment on property, paired with private tours to explore Guanacaste beyond the resort.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "",
+                         "note":  "Official hotel details have not been verified yet."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/papagayo-hoteles-planet-hollywood-beach-resort-costa-rica-all-inclusive.f6yBGp5",
+    "seo_title_override":  "Planet Hollywood Costa Rica Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Planet Hollywood Costa Rica with recommended tours, private airport transfers and local Guanacaste insight."
+}

@@ -1,0 +1,296 @@
+{
+    "identity": {
+        "id": "bahia-pez-vela-resort",
+        "official_name": "Bahia Pez Vela Resort",
+        "display_name": "Bahia Pez Vela Resort",
+        "slug": "bahia-pez-vela-resort",
+        "brand": "Bahia Pez Vela Resort",
+        "category": "Beachfront Villa Resort",
+        "luxury_level": "Standard"
+    },
+    "location": {
+        "destination_id": "playa-coco",
+        "location_label": "Playa Ocotal, Playas del Coco",
+        "province": "Guanacaste",
+        "airport_id": "lir",
+        "tour_pickup_zone": "playa-coco",
+        "transfer": {
+            "min": 35,
+            "max": 50,
+            "label": "Approximately 40 minutes from Guanacaste Airport (LIR).",
+            "source_type": "claude_estimate_from_official_source"
+        }
+    },
+    "official_sources": [
+        {
+            "source_id": "third-party-review-import",
+            "type": "third_party_review",
+            "url": "https://www.oyster.com/costa-rica/hotels/bahia-pez-vela-resort/"
+        }
+    ],
+    "official_facts": {
+        "summary": "Bahia Pez Vela Resort is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property's own source."
+    },
+    "editorial": {
+        "hero_description": "Easygoing beachfront villas with infinity pools and a private black-sand beach near Playa Ocotal.",
+        "description": "A relaxed beachfront resort near Playa Ocotal with 40 individually owned three- and four-bedroom villas featuring full kitchens, living areas, and washer/dryers. Two infinity pools, an on-site restaurant, and access to a private black-sand beach make it a comfortable base for families and groups.",
+        "tone": "useful, locally informed and guest-focused",
+        "why_stay_here": {
+            "title": "Why Stay Here",
+            "summary": "Bahia Pez Vela Resort is one of the best places to stay if you want to combine comfort with unforgettable experiences around Guanacaste."
+        }
+    },
+    "traveler_profiles": [
+        "Multigenerational Families",
+        "Groups of Friends",
+        "Quiet-Seeking Travelers"
+    ],
+    "experience_scores": {
+        "luxury": {
+            "score": 3,
+            "reason": ""
+        },
+        "families": {
+            "score": 3,
+            "reason": ""
+        },
+        "couples": {
+            "score": 3,
+            "reason": ""
+        },
+        "wellness": {
+            "score": 3,
+            "reason": ""
+        },
+        "adventure_access": {
+            "score": 3,
+            "reason": ""
+        },
+        "walkability": {
+            "score": 3,
+            "reason": ""
+        },
+        "nightlife": {
+            "score": 3,
+            "reason": ""
+        }
+    },
+    "wild_insights": {
+        "local_take": "Best for families and groups of friends who want spacious self-catering villas and a quiet, low-key setting rather than nightlife. Couples and solo travelers will find better value elsewhere, and you'll want a rental car since little is within walking distance.",
+        "insights": []
+    },
+    "recommendations": {
+        "featured_tours": [
+            "slothadventure",
+            "celesteriver",
+            "paloverdeculturalviejo"
+        ],
+        "related_articles": [
+            "liberia-airport-transfer-guide"
+        ],
+        "nearby_destinations": [
+            "papagayo"
+        ]
+    },
+    "faq": [
+        {
+            "q": "How far is Bahia Pez Vela Resort from the airport?",
+            "a": "The resort is about a 40-minute drive from Guanacaste Airport (LIR) in Liberia."
+        },
+        {
+            "q": "Does the resort have beach access?",
+            "a": "Yes, the resort sits on its own private black-sand beach and is a 20-minute walk from Playa Ocotal, which offers excellent snorkeling."
+        },
+        {
+            "q": "What should I know before booking?",
+            "a": "Villas are individually owned so decor varies from unit to unit, and the beach is small and rocky in places. There's also little nightlife nearby, so a rental car is recommended."
+        }
+    ],
+    "gallery": {
+        "hero_image": "images/luxury-costa-rica-tours-hero.webp",
+        "hero_image_alt": "Bahia Pez Vela Resort",
+        "hero_image_status": "temporary_placeholder",
+        "approved_images": [],
+        "candidate_images": [],
+        "usage_note": "Only publish owned, licensed or explicitly authorized hotel imagery."
+    },
+    "seo": {
+        "title": "Bahia Pez Vela Resort Guide | Tours, Transfers & Local Tips",
+        "description": "Plan your stay at Bahia Pez Vela Resort with recommended tours, private airport transfers and local Guanacaste insight.",
+        "keywords": [
+            "Bahia Pez Vela Resort tours",
+            "Bahia Pez Vela Resort transfer",
+            "things to do near Bahia Pez Vela Resort"
+        ]
+    },
+    "verification": {
+        "status": "unverified",
+        "last_verified": "",
+        "official_source": "https://www.oyster.com/costa-rica/hotels/bahia-pez-vela-resort/",
+        "note": "The property's own official site (bahiapezvela.com) is JavaScript-rendered and returned no usable static text, so this record was grounded in Oyster.com's independent review instead (a reputable third-party source, not the hotel's own official channel). Facts should still be human-reviewed and cross-checked against the official site before publication."
+    },
+    "workflow": {
+        "editorial_standard": "Wild Papagayo Hotel Gold Standard v2.0",
+        "publication_threshold": 90,
+        "status": "draft"
+    },
+    "amenities": [
+        "Two infinity pools with ocean views",
+        "On-site restaurant (Picante)",
+        "Private black-sand beach access",
+        "Poolside drink and dining service",
+        "Full-kitchen villas with washer/dryers",
+        "Tennis court",
+        "Spa",
+        "Free on-site parking and Wi-Fi"
+    ],
+    "room_types": [
+        {
+            "name": "Three-Bedroom Villa",
+            "description": "Individually owned and decorated multi-level villa with a full kitchen, living and dining areas, washer/dryer, and furnished balconies."
+        },
+        {
+            "name": "Four-Bedroom Villa",
+            "description": "Larger individually owned villa with up to two-and-a-half bathrooms, spacious dining and sitting areas, and, in some units, a private outdoor pool."
+        }
+    ],
+    "traveler_profile_reasons": [
+        {
+            "profile": "Multigenerational Families",
+            "reason": "Large three- and four-bedroom villas with full kitchens, laundry, and separate living areas suit families needing space and self-catering flexibility."
+        },
+        {
+            "profile": "Groups of Friends",
+            "reason": "Big villas with six- to eight-person dining tables and multiple bedrooms make it easy for friends to share and cook together."
+        },
+        {
+            "profile": "Quiet-Seeking Travelers",
+            "reason": "The secluded location with virtually no nightlife and a low-key vibe is ideal for those focused on relaxing rather than partying."
+        }
+    ],
+    "experience_highlights": [
+        {
+            "title": "Excellent Location",
+            "description": "Easy access to Costa Rica's top attractions."
+        },
+        {
+            "title": "Nature",
+            "description": "Surrounded by tropical landscapes."
+        },
+        {
+            "title": "Private Experiences",
+            "description": "Ideal starting point for customized adventures."
+        },
+        {
+            "title": "Relaxation",
+            "description": "Perfect balance between exploration and rest."
+        }
+    ],
+    "local_tips": [
+        "Book tours early.",
+        "Use sunscreen.",
+        "Carry cash for small stops.",
+        "Ask Wild Papagayo for local recommendations."
+    ],
+    "suggested_stay": [
+        {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Transfer and relax."
+        },
+        {
+            "day": 2,
+            "title": "Sloth Adventure Tour Costa Rica",
+            "description": "A recommended full-day experience with pickup from Bahia Pez Vela Resort."
+        },
+        {
+            "day": 3,
+            "title": "Celeste River Hike & Tenorio National Park",
+            "description": "Another curated experience recommended for guests of Bahia Pez Vela Resort."
+        },
+        {
+            "day": 4,
+            "title": "Departure",
+            "description": "Private airport transfer."
+        }
+    ],
+    "planning": {
+        "ideal_stay": "4-6 nights",
+        "transportation": "Private Transfer",
+        "airport": "LIR"
+    },
+    "wild_recommendation": {
+        "score": 5,
+        "summary": "Recommended by Wild Papagayo."
+    },
+    "template": "experience",
+    "google_reviews": {
+        "rating": 4.7,
+        "review_count": 365,
+        "reviews": [
+            {
+                "author": "RJ",
+                "rating": 5,
+                "text": "Wonderful experience!\nStunning views, clean, beautiful and almost like private beach. Several pools, including a kiddie one.\nVillas are spacious and comfortable, had everything you needed.\nThere is a nice restaurant with a view where you can have breakfast, lunch or dinner or order a take out.\nJacky and the team are...",
+                "relative_time": "6 months ago"
+            },
+            {
+                "author": "Louisa Goldsmith",
+                "rating": 5,
+                "text": "A wonderful trip and a beautiful place. A lovely four days at Villa no. 6 with close friends. The accommodations were clean and well appointed. The restaurant staff were attentive and the food was fresh and delicious. I highly recommend the whole fish, it was excellent.\nSunset on the pristine beach was a highlight o...",
+                "relative_time": "4 months ago"
+            },
+            {
+                "author": "Lily",
+                "rating": 5,
+                "text": "We had a wonderful stay at Villa La Sirena (#21) during the first couple of weeks in March.  The unit was very clean and well equipped.  Great kitchen and big bbq if you like to cook.  It has a beautiful big covered terrace, perfect for relaxing with your morning coffee and/or evening cocktails.  You can see monkeys...",
+                "relative_time": "5 months ago"
+            }
+        ],
+        "source": "Google Places API, fetched 2026-09-25"
+    },
+    "relationships": {
+        "tours": [
+            "arenalhangingbridges",
+            "arenalhotsprings",
+            "atvmountainride",
+            "borinque4senses",
+            "buenavistamegacombo",
+            "canyonadventurepark",
+            "canyoningtubing",
+            "celesteriver",
+            "coloradoriverrafting",
+            "congotrail",
+            "congotrailcanopy",
+            "costaricahighlights",
+            "floatingtenorio",
+            "haciendaaromal",
+            "haciendaguachipelin",
+            "hangingbridgessloths",
+            "hikingrinconnationalpark",
+            "horsebackaromal",
+            "laleona",
+            "miravallesspa",
+            "monteverdehangingbridgescoffee",
+            "monteverdtreetopwalk",
+            "oropendolahotsprings",
+            "ostionalturtles",
+            "paloverdeculturalviejo",
+            "paloverderiverboattour",
+            "sensoriarainforest",
+            "slothadventure",
+            "slothchocolatetour",
+            "tenoriorafting",
+            "tubingceleste",
+            "waterfalllovers",
+            "waterfallpumas"
+        ],
+        "destinations": [
+            "playa-coco",
+            "papagayo"
+        ],
+        "nearby_hotels": [],
+        "blogs": [],
+        "last_discovered": "2026-09-25"
+    }
+}

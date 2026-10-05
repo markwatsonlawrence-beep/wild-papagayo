@@ -1,0 +1,261 @@
+{
+    "id":  "hotel-riu-guanacaste",
+    "name":  "Hotel Riu Guanacaste",
+    "slug":  "hotel-riu-guanacaste",
+    "brand":  "Hotel Riu Guanacaste",
+    "category":  "All-Inclusive Resort",
+    "luxury_level":  "Upscale",
+    "destination_id":  "papagayo",
+    "location_label":  "Playa Matapalo",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  42,
+                             "max":  54,
+                             "label":  "Approximately 42-54 minutes (33.4 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+                             "source_type":  "google_routes_api"
+                         },
+    "transfer_by_airport":  {
+                                "lir":  {
+                                            "min":  42,
+                                            "max":  54,
+                                            "km":  33.4,
+                                            "airport_name":  "Daniel Oduber Quiros International Airport (LIR)"
+                                        },
+                                "sjo":  {
+                                            "min":  230,
+                                            "max":  294,
+                                            "km":  242.4,
+                                            "airport_name":  "Juan Santamaria International Airport (SJO)"
+                                        }
+                            },
+    "coordinates":  {
+                        "lat":  10.528151699999999,
+                        "lng":  -85.7470098
+                    },
+    "formatted_address":  "Playa Matapalo, RIU Guanacaste Route, Guanacaste Province, Sardinal, 50503, Costa Rica",
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "",
+    "hero_image":  "images/hotel-riu-guanacaste-hero.webp",
+    "hero_image_alt":  "Hotel Riu Guanacaste, a Boutique Hotel in Peninsula Papagayo, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "Hotel Riu Guanacaste is a large all-inclusive resort on Playa Matapalo, built around the Splash Water World water park, three outdoor pools and seven bars. It\u0027s part of the RIU chain, known for high-energy, all-inclusive stays rather than boutique intimacy.",
+    "hero_description":  "A large all-inclusive resort on Playa Matapalo, with a water park and easy access to Guanacaste\u0027s top private tours and transfers.",
+    "local_insight":  "Riu Guanacaste is built for constant motion: Splash Water World, three pools, seven bars and a nightclub keep groups and families entertained without ever leaving the property. It suits travelers who want that all-inclusive energy on site, then step out for private tours to see the quieter side of Guanacaste.",
+    "best_for":  [
+                     "Couples",
+                     "Families",
+                     "Travelers seeking local experiences"
+                 ],
+    "hotel_scores":  {
+                         "families":  {
+                                          "score":  3,
+                                          "reason":  "No family-specific amenities or details are mentioned in the placeholder text."
+                                      },
+                         "couples":  {
+                                         "score":  3,
+                                         "reason":  "No couples-oriented features are described in the placeholder text."
+                                     },
+                         "wellness":  {
+                                          "score":  2,
+                                          "reason":  "No wellness amenities such as spa or fitness facilities are mentioned."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  3,
+                                                  "reason":  "Located in Guanacaste\u0027s Papagayo area, but no adventure tour access details are given."
+                                              },
+                         "walkability":  {
+                                             "score":  2,
+                                             "reason":  "No information about proximity to a beach or town center is provided."
+                                         },
+                         "nightlife":  {
+                                           "score":  2,
+                                           "reason":  "No nightlife or entertainment details are mentioned in the text."
+                                       },
+                         "luxury":  {
+                                        "score":  3,
+                                        "reason":  "Described as \u0027Upscale\u0027 and a boutique hotel, but no specific private details are provided."
+                                    }
+                     },
+    "featured_tours":  [
+                           "monteverdtreetopwalk",
+                           "buenavistamegacombo",
+                           "sensoriarainforest"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "transfers/liberia-airport-to-riu-guanacaste.html",
+    "faq":  [
+                {
+                    "q":  "Which airport should I use for Hotel Riu Guanacaste?",
+                    "a":  "Guanacaste Airport (LIR) is the closest practical airport. Private transportation can be arranged directly to the property."
+                },
+                {
+                    "q":  "What tours can I book from Hotel Riu Guanacaste?",
+                    "a":  "Wild Papagayo can arrange private tours across Guanacaste, with pickup coordinated directly from Hotel Riu Guanacaste."
+                },
+                {
+                    "q":  "Do I need a rental car if I\u0027m staying at Hotel Riu Guanacaste?",
+                    "a":  "Not necessarily. Guests who use organized private tours and transfers can typically manage the trip without renting a car."
+                }
+            ],
+    "amenities":  [
+                      "Renova Spa",
+                      "Splash Water World water park",
+                      "Three large outdoor swimming pools plus a children\u0027s pool with slides",
+                      "Swim-up bar",
+                      "Seven bars including Lobby Bar, Pool Bar, Sports Bar, Ice Cream Bar, Splash Bar",
+                      "Nightclub",
+                      "Tennis court",
+                      "Gym",
+                      "RIULand kids\u0027 entertainment",
+                      "Fun4All entertainment program and RIU Party themed events",
+                      "RIU Fit sessions, snorkeling and kayaking",
+                      "1,300-meter Matapalo Beach access"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Superior Double Room",
+                           "description":  "33 m2 room with two small double beds or one king-size bed, satellite TV, air conditioning, minibar and beverage dispenser, and a balcony or terrace."
+                       },
+                       {
+                           "name":  "Double Room with Sea View",
+                           "description":  "Standard double room configuration facing the sea."
+                       },
+                       {
+                           "name":  "Standard Double Room with Courtyard View",
+                           "description":  "Standard double room overlooking the interior courtyard."
+                       },
+                       {
+                           "name":  "Superior Family Room with Pool View (2 bedrooms)",
+                           "description":  "Two-bedroom family configuration overlooking the pool."
+                       },
+                       {
+                           "name":  "Suite with Sea View",
+                           "description":  "Upgraded suite category facing the sea."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.2,
+                           "review_count":  10644,
+                           "reviews":  [
+                                           {
+                                               "author":  "Christina Campa",
+                                               "rating":  4,
+                                               "text":  "Overall decent and just okay.  The transportation folks were great. The morning bartenders were great at the better ðŸº bar; coffee and Bloody Mary\u0027s.\nThe far end of beach was peaceful and beautiful.\nNot a lot of kids running around.\nIf the food was better and the pool was cleaner we would have rated it 4.5 star.\nThe...",
+                                               "relative_time":  "a month ago"
+                                           },
+                                           {
+                                               "author":  "Linda Benoit",
+                                               "rating":  5,
+                                               "text":  "The rooms are fairly standard but covers all your needs. Bathroom has all the amenities needed, ie bodywash, shampoo and conditioner.  They also supply a hairdryer.  The whole resort is kept super clean including all washrooms. There\u0027s absolutely no shortage of food or drink. All staff I dealt with were super friend...",
+                                               "relative_time":  "4 months ago"
+                                           },
+                                           {
+                                               "author":  "Gurprinkal Mehra",
+                                               "rating":  5,
+                                               "text":  "Had a 6 night night stay with family including kids. Hotel is amazing and recently renovated. Service was great. A lot of fun ongoing fun activities to keep everyone engaged.\nKids loved the splash park pool area.\nWe changed our initially assigned room as it was bit of a walk with little kids to main lobby and restau...",
+                                               "relative_time":  "a month ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "pending",
+                                 "type":  "official",
+                                 "url":  ""
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Hotel Riu Guanacaste is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Riu Guanacaste is built for constant motion: Splash Water World, three pools, seven bars and a nightclub keep groups and families entertained without ever leaving the property. It suits travelers who want that all-inclusive energy on site, then step out for private tours to see the quieter side of Guanacaste.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "",
+                         "note":  "Official hotel details have not been verified yet."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/el-ocotal-hoteles-riu-guanacaste-all-inclusive.etvdN3v",
+    "seo_title_override":  "Hotel Riu Guanacaste Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Hotel Riu Guanacaste with recommended tours, private airport transfers and local Guanacaste insight.",
+    "factual_attributes":  {
+                               "adults_only":  false,
+                               "all_inclusive_type":  "ALL_INCLUSIVE",
+                               "beach_relationship":  {
+                                                          "beachfront":  true,
+                                                          "direct_access":  true
+                                                      },
+                               "positioning_evidence":  [
+                                                            {
+                                                                "audience":  "WEDDING",
+                                                                "evidence_type":  "EXPLICIT_MARKETING",
+                                                                "scope":  "PROPERTY_LEVEL",
+                                                                "source_id":  "src-riu-guanacaste-official-site",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"perfect for celebrating your love\" -- dedicated wedding-package section"
+                                                            },
+                                                            {
+                                                                "audience":  "FAMILY",
+                                                                "evidence_type":  "EXPLICIT_MARKETING",
+                                                                "scope":  "PROPERTY_LEVEL",
+                                                                "source_id":  "src-riu-guanacaste-official-site",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"Ideal for families\" / \"Hotel for the whole family, Fun4All\""
+                                                            }
+                                                        ],
+                               "family_facts":  {
+                                                    "family_rooms_available":  true,
+                                                    "childrens_programming_available":  true
+                                                },
+                               "evidence_sources":  {
+                                                        "src-riu-guanacaste-official-site":  {
+                                                                                                 "url":  "https://www.riu.com/en/hotel/costa-rica/guanacaste/hotel-riu-guanacaste",
+                                                                                                 "type":  "official_site",
+                                                                                                 "retrieved_date":  "2026-10-02"
+                                                                                             }
+                                                    },
+                               "fact_evidence":  {
+                                                     "adults_only":  [
+                                                                         "src-riu-guanacaste-official-site"
+                                                                     ],
+                                                     "all_inclusive_type":  [
+                                                                                "src-riu-guanacaste-official-site"
+                                                                            ],
+                                                     "beach_relationship":  [
+                                                                                "src-riu-guanacaste-official-site"
+                                                                            ],
+                                                     "positioning_evidence":  [
+                                                                                  "src-riu-guanacaste-official-site"
+                                                                              ],
+                                                     "family_facts.family_rooms_available":  [
+                                                                                                 "src-riu-guanacaste-official-site"
+                                                                                             ],
+                                                     "family_facts.childrens_programming_available":  [
+                                                                                                          "src-riu-guanacaste-official-site"
+                                                                                                      ]
+                                                 }
+                           }
+}

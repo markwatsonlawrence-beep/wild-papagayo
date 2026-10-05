@@ -1,0 +1,188 @@
+{
+    "id":  "rincon-de-la-vieja-hotel-eco-adventure-park-guanacaste-costa-rica",
+    "name":  "Buena Vista del Rincón",
+    "slug":  "rincon-de-la-vieja-hotel-eco-adventure-park-guanacaste-costa-rica",
+    "brand":  "Buena Vista del Rincón",
+    "category":  "Eco Adventure Mountain Lodge",
+    "luxury_level":  "Upscale",
+    "destination_id":  "rincon-de-la-vieja",
+    "location_label":  "Rincón de la Vieja",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  35,
+                             "max":  50,
+                             "label":  "Approximately 45 minutes to one hour from Liberia\u0027s Daniel Oduber Quirós International Airport (LIR), about 31 km away.",
+                             "source_type":  "claude_estimate_from_official_source"
+                         },
+    "transfer_by_airport":  null,
+    "coordinates":  null,
+    "formatted_address":  null,
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://www.buenavistadelrincon.com/",
+    "hero_image":  "images/rincon-de-la-vieja-hotel-eco-adventure-park-guanacaste-costa-rica-hero.jpg",
+    "hero_image_alt":  "Buena Vista del Rincón, a Eco Adventure Mountain Lodge in Rincón de la Vieja, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "Buena Vista del Rincón is an eco adventure park, hotel and spa nestled in the rainforest foothills of the Rincón de la Vieja volcano in Guanacaste. With 76 rooms, natural volcanic hot springs, and an on-site adventure park, it blends thrill and relaxation in a lush mountain setting.",
+    "hero_description":  "A rainforest eco-lodge and adventure park on the slopes of the Rincón de la Vieja volcano.",
+    "local_insight":  "Ideal for active travelers and families who want ziplining, waterfalls and volcanic hot springs all in one place. The unpaved access road can be tricky for small rental cars, so consider a private transfer.",
+    "best_for":  [
+                     "Adventure Seekers",
+                     "Nature-Loving Families",
+                     "Wellness Travelers"
+                 ],
+    "hotel_scores":  {
+                         "luxury":  {
+                                        "score":  3,
+                                        "reason":  "identity.luxury_level is Upscale, but description provides no refined-service or luxury-specific markers."
+                                    },
+                         "families":  {
+                                          "score":  4,
+                                          "reason":  "Nature-Loving Families profile cites family-friendly activities for all ages and free hot springs."
+                                      },
+                         "couples":  {
+                                         "score":  2,
+                                         "reason":  "No couples/honeymoon profile; entirely adventure and family-framed."
+                                     },
+                         "wellness":  {
+                                          "score":  5,
+                                          "reason":  "Volcanic hot springs, natural sauna and mud baths, with a dedicated Wellness Travelers profile."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  5,
+                                                  "reason":  "On-site adventure park with zip line, 420-meter water slide, hanging bridges and horseback riding; Adventure Seekers profile calls it a full day of adrenaline."
+                                              },
+                         "walkability":  {
+                                             "score":  3,
+                                             "reason":  ""
+                                         },
+                         "nightlife":  {
+                                           "score":  3,
+                                           "reason":  ""
+                                       }
+                     },
+    "featured_tours":  [
+                           "celesteriver",
+                           "monteverdtreetopwalk",
+                           "waterfallpumas"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "Does the hotel have natural volcanic hot springs?",
+                    "a":  "Yes, the hotel features crystal-clear volcanic hot springs, a natural sauna, mineral-rich volcanic mud baths and cold pools set within a private wildlife refuge."
+                },
+                {
+                    "q":  "Do I need to stay overnight to enjoy the hot springs and activities?",
+                    "a":  "Not necessarily. Day Passes are available for visitors who want to enjoy the hot springs, volcanic spa and Eco Adventure Park without staying overnight."
+                },
+                {
+                    "q":  "Do you offer airport transportation from Liberia?",
+                    "a":  "Yes, both private and shared transfers from Liberia International Airport (LIR) can be arranged in advance via WhatsApp or the reservations team."
+                }
+            ],
+    "amenities":  [
+                      "Volcanic hot springs",
+                      "Natural sauna and volcanic mud baths",
+                      "Zip line canopy tour",
+                      "Rainforest water slide",
+                      "Hanging bridges",
+                      "Horseback riding",
+                      "Hiking trails and waterfalls",
+                      "Multiple on-site restaurants",
+                      "Volcanic spa"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Mountain",
+                           "description":  "Mountain-category rooms and cabins designed for comfort with a close connection to the surrounding forest."
+                       },
+                       {
+                           "name":  "Lake",
+                           "description":  "Lake-category accommodations offering restful lodging in harmony with the natural setting."
+                       },
+                       {
+                           "name":  "Hacienda",
+                           "description":  "Hacienda-style rooms reflecting the complex\u0027s traditional Guanacaste infrastructure."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+                                     {
+                                         "profile":  "Adventure Seekers",
+                                         "reason":  "The on-site park offers ziplining, a 420-meter rainforest water slide, horseback riding and hanging bridges for a full day of adrenaline."
+                                     },
+                                     {
+                                         "profile":  "Nature-Loving Families",
+                                         "reason":  "Family-friendly activities for all ages, abundant wildlife, waterfalls and free hot springs make it easy for families to reconnect in nature."
+                                     },
+                                     {
+                                         "profile":  "Wellness Travelers",
+                                         "reason":  "Volcanic hot springs, a natural sauna, mineral-rich mud baths and spa massages provide deep relaxation in the rainforest."
+                                     }
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.4,
+                           "review_count":  1799,
+                           "reviews":  [
+                                           {
+                                               "author":  "Lisa Lopez",
+                                               "rating":  5,
+                                               "text":  "A wonderful experience at this charming family-owned park. Some facilities are showing their age — the pool area and main restaurant could use a refresh — but that’s a minor note in an otherwise memorable stay.\n\nOne of the unexpected highlights is simply walking between activities: the park is teeming with wildlife,...",
+                                               "relative_time":  "2 months ago"
+                                           },
+                                           {
+                                               "author":  "M A",
+                                               "rating":  5,
+                                               "text":  "I can say so many amazing things about this resort!!! The resort is set on a mountain, surrounded by nature with stunning views. We got a cabin and it was spacious, clean, and cool (we had AC). There was so much to do: we did horseback riding, the night walk tour, the bird tour, and the zip-lining, everything was in...",
+                                               "relative_time":  "a month ago"
+                                           },
+                                           {
+                                               "author":  "Ben K",
+                                               "rating":  4,
+                                               "text":  "Nice „all-in-one“ place but the official photos look way nicer than the place looks like in reality.\nEspecially for children interesting because you can do a lot of actovities if you have the pocket money at hand (not cheap). We spotted different animals like birds, tukans, coati, monkeys, deer every dqy and there a...",
+                                               "relative_time":  "3 months ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-08-10"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "official-import",
+                                 "type":  "official",
+                                 "url":  "https://www.buenavistadelrincon.com/"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Buena Vista del Rincón is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Ideal for active travelers and families who want ziplining, waterfalls and volcanic hot springs all in one place. The unpaved access road can be tricky for small rental cars, so consider a private transfer.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "https://www.buenavistadelrincon.com/",
+                         "note":  "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/canas-dulces-hoteles-buena-vista-del-rincon-eco-adventure-park.Wgg42yt",
+    "seo_title_override":  "Buena Vista del Rincón Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Rincon de la Vieja Hotel \u0026 Eco Adventure Park, Guanacaste, Costa Rica with recommended tours, private airport transfers and local Guanacaste insight."
+}

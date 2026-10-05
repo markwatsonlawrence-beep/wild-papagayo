@@ -1,0 +1,299 @@
+{
+    "template": "experience",
+    "identity": {
+        "id": "andaz-costa-rica",
+        "official_name": "Andaz Peninsula Papagayo Resort, Costa Rica",
+        "display_name": "Andaz Peninsula Papagayo Resort, Costa Rica",
+        "slug": "andaz-costa-rica",
+        "brand": "Andaz Peninsula Papagayo",
+        "category": "Luxury Eco Resort",
+        "luxury_level": "Luxury"
+    },
+    "location": {
+        "destination_id": "papagayo",
+        "location_label": "Peninsula Papagayo",
+        "province": "Guanacaste",
+        "airport_id": "lir",
+        "tour_pickup_zone": "papagayo",
+        "transfer": {
+            "min": 32,
+            "max": 40,
+            "label": "Approximately 32-40 minutes (31.6 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+            "source_type": "google_routes_api"
+        },
+        "transfer_by_airport": {
+            "lir": {
+                "min": 32,
+                "max": 40,
+                "km": 31.6,
+                "airport_name": "Daniel Oduber Quiros International Airport (LIR)"
+            },
+            "sjo": {
+                "min": 220,
+                "max": 281,
+                "km": 240.6,
+                "airport_name": "Juan Santamaria International Airport (SJO)"
+            }
+        },
+        "coordinates": {
+            "lat": 10.641584,
+            "lng": -85.658913
+        },
+        "formatted_address": "Peninsula Papagayo, Provincia de Guanacaste, Liberia, Costa Rica"
+    },
+    "official_sources": [
+        {
+            "type": "overview",
+            "url": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica",
+            "status": "imported",
+            "last_checked": "2026-07-12"
+        }
+    ],
+    "official_facts": {
+        "summary": "Andaz Peninsula Papagayo Resort is a design-forward luxury property set within the private Peninsula Papagayo. Its beaches, golf access, dining and activity program make it a good match for travelers who want an upscale resort experience with a relaxed Costa Rican identity and convenient access to private day tours.",
+        "features": [],
+        "fact_status": "partially_verified",
+        "note": "The official Hyatt page describes a luxury eco resort within the private 1,400-acre Peninsula Papagayo, with three beaches, golf, dining and an extensive activity program. Transfer time is presented as an operational estimate and can vary with traffic and the exact airport pickup time."
+    },
+    "editorial": {
+        "hero_description": "A luxury beachfront resort inside Peninsula Papagayo, Guanacaste, about 32–40 minutes from Guanacaste Airport (LIR), with easy access to private tours and day trips.",
+        "why_stay_here": {
+            "title": "Why Stay Here",
+            "summary": "Andaz is a strong match for travelers who want upscale comfort without an overly formal atmosphere. Its Papagayo location makes it easy to combine beach time, dining and private day trips across Guanacaste."
+        },
+        "description": "Andaz Peninsula Papagayo Resort is a design-forward luxury property set within the private Peninsula Papagayo. Its beaches, golf access, dining and activity program make it a good match for travelers who want an upscale resort experience with a relaxed Costa Rican identity and convenient access to private day tours.",
+        "tone": "useful, locally informed and guest-focused"
+    },
+    "experience_highlights": [
+        {
+            "title": "Excellent Location",
+            "description": "Easy access to Costa Rica's top attractions."
+        },
+        {
+            "title": "Nature",
+            "description": "Surrounded by tropical landscapes."
+        },
+        {
+            "title": "Private Experiences",
+            "description": "Ideal starting point for customized adventures."
+        },
+        {
+            "title": "Relaxation",
+            "description": "Perfect balance between exploration and rest."
+        }
+    ],
+    "local_tips": [
+        "Book tours early.",
+        "Use sunscreen.",
+        "Carry cash for small stops.",
+        "Ask Wild Papagayo for local recommendations."
+    ],
+    "suggested_stay": [
+        {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Transfer and relax."
+        },
+        {
+            "day": 2,
+            "title": "Adventure",
+            "description": "Recommended full-day experience."
+        },
+        {
+            "day": 3,
+            "title": "Beach",
+            "description": "Relax and enjoy the area."
+        },
+        {
+            "day": 4,
+            "title": "Departure",
+            "description": "Private airport transfer."
+        }
+    ],
+    "wild_recommendation": {
+        "score": 5,
+        "summary": "Recommended by Wild Papagayo."
+    },
+    "planning": {
+        "ideal_stay": "4-6 nights",
+        "transportation": "Private Transfer",
+        "airport": "LIR"
+    },
+    "wild_insights": {
+        "local_take": "Andaz is a strong match for travelers who want upscale comfort without an overly formal atmosphere. Its Papagayo location makes it easy to combine beach time, dining and private day trips across Guanacaste.",
+        "insights": []
+    },
+    "traveler_profiles": [
+        "Couples",
+        "Families",
+        "Design-conscious travelers",
+        "Beach stays",
+        "Golf",
+        "Food lovers"
+    ],
+    "experience_scores": {
+        "luxury": {
+            "score": 5,
+            "reason": "Described as a 'design-forward luxury property' and rated at luxury level."
+        },
+        "families": {
+            "score": 3,
+            "reason": "Text mentions an activity program but nothing specific to families."
+        },
+        "couples": {
+            "score": 4,
+            "reason": "Beaches, dining and a relaxed upscale atmosphere suit couples well."
+        },
+        "wellness": {
+            "score": 3,
+            "reason": "Text emphasizes a relaxed atmosphere but does not mention spa or wellness facilities."
+        },
+        "adventure_access": {
+            "score": 4,
+            "reason": "Offers 'convenient access to private day tours' across Guanacaste."
+        },
+        "walkability": {
+            "score": 3,
+            "reason": "Has its own beaches but is within a private peninsula with no mention of a walkable town center."
+        },
+        "nightlife": {
+            "score": 2,
+            "reason": "Text mentions dining but nothing about nightlife."
+        }
+    },
+    "gallery": {
+        "hero_image": "images/andaz-costa-rica-hero.webp",
+        "hero_image_alt": "Andaz Peninsula Papagayo Resort, Costa Rica, a Luxury Eco Resort in Peninsula Papagayo, Costa Rica",
+        "hero_image_status": "google_places_photo",
+        "approved_images": [],
+        "candidate_images": [],
+        "usage_note": "Only publish owned, licensed or explicitly authorized hotel imagery."
+    },
+    "recommendations": {
+        "featured_tours": [
+            "hangingbridgessloths",
+            "paloverderiverboattour",
+            "buenavistamegacombo"
+        ],
+        "related_articles": [
+            "liberia-airport-transfer-guide"
+        ],
+        "nearby_destinations": [
+            "papagayo",
+            "playa-hermosa",
+            "playa-coco"
+        ]
+    },
+    "faq": [
+        {
+            "q": "Which airport should I use for Andaz Costa Rica?",
+            "a": "Guanacaste Airport (LIR) is the closest practical international airport. Private transportation can be arranged directly to the resort."
+        },
+        {
+            "q": "Can I visit waterfalls and wildlife areas from Andaz?",
+            "a": "Yes. Full-day private tours can connect the resort with wildlife, rainforest, waterfall and volcano experiences across Guanacaste."
+        },
+        {
+            "q": "Do I need a rental car at Andaz Papagayo?",
+            "a": "Not necessarily. Travelers who plan to stay at the resort and use organized private tours can often manage the trip with airport transfers and excursion transportation."
+        },
+        {
+            "q": "Where is Andaz Peninsula Papagayo located?",
+            "a": "Andaz Peninsula Papagayo Resort sits inside the exclusive Peninsula Papagayo in Guanacaste, Costa Rica, on the Pacific coast."
+        },
+        {
+            "q": "How far is Andaz Papagayo from Liberia Airport?",
+            "a": "About 32 to 40 minutes by private transfer from Guanacaste Airport (LIR), roughly 31.6 km away."
+        },
+        {
+            "q": "Can I book private tours directly from Andaz Papagayo?",
+            "a": "Yes. Wild Papagayo arranges private tours with direct pickup from Andaz Peninsula Papagayo, including wildlife, waterfall and volcano day trips."
+        },
+        {
+            "q": "What are the best day trips from Andaz Costa Rica?",
+            "a": "Popular options include the Buena Vista Mega Combo, Hanging Bridges & Sloths Experience and Palo Verde River Boat Tour, along with other private Guanacaste excursions."
+        }
+    ],
+    "seo": {
+        "title": "Andaz Peninsula Papagayo Resort, Costa Rica Guide | Tours, Transfers & Local Tips",
+        "description": "Plan your stay at Andaz Peninsula Papagayo Resort, Costa Rica with recommended tours, private airport transfers and local Guanacaste insight.",
+        "keywords": [
+            "Andaz Peninsula Papagayo Resort, Costa Rica tours",
+            "Andaz Peninsula Papagayo Resort, Costa Rica transfer",
+            "things to do near Andaz Peninsula Papagayo Resort, Costa Rica",
+            "Peninsula Papagayo travel guide"
+        ]
+    },
+    "verification": {
+        "status": "reviewed",
+        "last_verified": "2026-07-11",
+        "official_source": "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica",
+        "note": "Official hotel details should be rechecked before publication; transfer times are Wild Papagayo operational estimates and may vary."
+    },
+    "workflow": {
+        "status": "published",
+        "editorial_standard": "Wild Papagayo Hotel Gold Standard v2.0",
+        "publication_threshold": 90
+    },
+    "experience_status": {
+        "template": "experience",
+        "editorial_version": "2.0",
+        "certification": "pending"
+    },
+    "amenities": [
+        "Ostra (signature seafood restaurant, reservation required)",
+        "Chao Pescao (Latin-American sharing-plates bar for sunset cocktails)",
+        "Rio Bhongo (breakfast/casual all-day restaurant)",
+        "Andaz Beach House on Playa Nacascolo",
+        "Meso (beachfront restaurant blending Mediterranean and Latin American flavors)",
+        "ONDA Spa (11,000 sq ft, 9 indoor/outdoor treatment suites, steam and cold plunge circuit)",
+        "24-hour fitness center",
+        "Five pools including an adults-only pool and a shallow-entry pool for kids",
+        "Three beaches",
+        "Cambi Kids Club (ages 4-12) and Camp Jaguar teen program",
+        "Complimentary stand-up paddleboards, snorkeling equipment and kayaks",
+        "Sky deck yoga and wellness programming"
+    ],
+    "room_types": [
+        {
+            "name": "King Room",
+            "description": "Lush tropical forest views with a king bed, oversized work desk, floor-to-ceiling windows, a river stone rain shower, and a spacious private balcony."
+        },
+        {
+            "name": "Andaz Suite",
+            "description": "An elegant 1,173 sq ft corner suite with a king bed, separate sitting and work areas, floor-to-ceiling windows, and a balcony with resort and tropical forest views."
+        },
+        {
+            "name": "Villa",
+            "description": "A private 1,555 sq ft villa with a plunge pool and Culebra Bay views, an open-plan living room, gourmet kitchen, dining for six, a primary bedroom with king bed and deep soaking tub, and a second bedroom with two queen beds."
+        }
+    ],
+    "booking": {
+        "expedia_affiliate_link": "https://expedia.com/affiliates/papagayo-hoteles-andaz-costa-rica-resort-at-peninsula-papagayo-a-concept-by-hyatt.oQN50fd"
+    },
+    "google_reviews": {
+        "rating": 4.7,
+        "review_count": 1341,
+        "reviews": [
+            {
+                "author": "Vaggelis P",
+                "rating": 5,
+                "text": "Words can not describe this place. Amazing service, in an even more amazing location\nStaff is extremely accomodating and polite and they will go out of their way to accomodate any needs. Breakfast is amazing! Lots of choices and great quality. Also tried Ostra and Chao for dinner. Probably some of the best food we h...",
+                "relative_time": "a month ago"
+            },
+            {
+                "author": "Elana Birnbaum",
+                "rating": 5,
+                "text": "Perfection!\n\nHad never been to the Guancaste region of Costa Rica before, and I'd compare the Papagayo landscape similar to Hawaii (which is one of the best compliments I can give!). The gated community contains three hotels, private residences and multiple beach clubs.\n\nThe hotel design was gorgeous and every resta...",
+                "relative_time": "5 months ago"
+            },
+            {
+                "author": "Neel Kumar",
+                "rating": 5,
+                "text": "Amazing stay and I cannot say enough good things about this property. The property itself is beautiful, but their attention to detail with the service is what sets them apart. They’re very attentive to their guests’ needs. The property sits on the edge of a cliff so you have a great view from most locations. The foo...",
+                "relative_time": "6 months ago"
+            }
+        ],
+        "source": "Google Places API, fetched 2026-07-17"
+    }
+}

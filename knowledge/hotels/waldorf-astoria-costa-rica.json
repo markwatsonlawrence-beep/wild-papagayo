@@ -1,0 +1,253 @@
+{
+    "id":  "waldorf-astoria-costa-rica",
+    "name":  "Waldorf Astoria Costa Rica Punta Cacique",
+    "slug":  "waldorf-astoria-costa-rica",
+    "brand":  "Waldorf Astoria",
+    "category":  "Luxury Oceanfront Resort",
+    "luxury_level":  "Ultra Luxury",
+    "destination_id":  "playa-hermosa",
+    "location_label":  "Punta Cacique, Playa Penca",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  32,
+                             "max":  40,
+                             "label":  "Approximately 32-40 minutes (28.2 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+                             "source_type":  "google_routes_api"
+                         },
+    "transfer_by_airport":  {
+                                "lir":  {
+                                            "min":  32,
+                                            "max":  40,
+                                            "km":  28.2,
+                                            "airport_name":  "Daniel Oduber Quiros International Airport (LIR)"
+                                        },
+                                "sjo":  {
+                                            "min":  220,
+                                            "max":  281,
+                                            "km":  237.2,
+                                            "airport_name":  "Juan Santamaria International Airport (SJO)"
+                                        }
+                            },
+    "coordinates":  {
+                        "lat":  10.571986899999999,
+                        "lng":  -85.6973587
+                    },
+    "formatted_address":  "Playa Penca, Ruta Nacional 159 km 3, Provincia de Guanacaste, Carrillo, 10901, Costa Rica",
+    "tour_pickup_zone":  "playa-hermosa",
+    "official_url":  "https://www.hilton.com/en/hotels/lirguwa-waldorf-astoria-costa-rica-punta-cacique/",
+    "hero_image":  "images/waldorf-astoria-costa-rica-hero.webp",
+    "hero_image_alt":  "Waldorf Astoria Costa Rica Punta Cacique, a Luxury Oceanfront Resort in Punta Cacique, Playa Penca, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "Waldorf Astoria Costa Rica Punta Cacique is a secluded luxury resort overlooking Playa Penca on Guanacaste\u0027s Pacific coast. Its short airport transfer, oceanfront setting, spa and refined resort experience make it especially appealing to couples, families and travelers seeking privacy with convenient access to nearby beach towns and private excursions.",
+    "hero_description":  "A secluded oceanfront escape at Punta Cacique with refined design and a short transfer from Guanacaste Airport.",
+    "local_insight":  "Waldorf Astoria Punta Cacique sits right on Playa Penca, with a 17,000-square-foot spa, a cascading multi-level pool and six on-site restaurants and bars, from the signature La Finca to Copo y Cono for ice cream. It suits travelers who value privacy, ocean views and a short arrival day, with easy private transfers to explore Playa Hermosa and Playas del Coco nearby.",
+    "best_for":  [
+                     "Luxury travelers",
+                     "Couples",
+                     "Honeymoons",
+                     "Families",
+                     "Wellness",
+                     "Short airport transfers"
+                 ],
+    "hotel_scores":  {
+                         "luxury":  {
+                                        "score":  5,
+                                        "reason":  "Described as an \u0027Ultra Luxury\u0027 Waldorf Astoria oceanfront resort with a refined resort experience."
+                                    },
+                         "families":  {
+                                          "score":  4,
+                                          "reason":  "Text states it is \u0027especially appealing to couples, families and travelers seeking privacy.\u0027"
+                                      },
+                         "couples":  {
+                                         "score":  5,
+                                         "reason":  "Highlighted for couples valuing privacy, ocean views and a secluded luxury setting."
+                                     },
+                         "wellness":  {
+                                          "score":  4,
+                                          "reason":  "Mentions a spa and a refined, secluded resort experience."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  4,
+                                                  "reason":  "Positioned near beach towns with convenient access to private excursions and day tours."
+                                              },
+                         "walkability":  {
+                                             "score":  2,
+                                             "reason":  "Described as secluded with private transfers to nearby beach towns, implying limited walkability."
+                                         },
+                         "nightlife":  {
+                                           "score":  2,
+                                           "reason":  "No nightlife mentioned; emphasis is on privacy and seclusion."
+                                       }
+                     },
+    "featured_tours":  [
+                           "hangingbridgessloths",
+                           "paloverderiverboattour",
+                           "celesteriver"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide",
+                             "playa-coco-vs-samara-which-is-better"
+                         ],
+    "nearby_destinations":  [
+                                "playa-hermosa",
+                                "playa-coco",
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "How far is Waldorf Astoria Costa Rica from Guanacaste Airport?",
+                    "a":  "The resort is approximately 17 miles from Guanacaste Airport (LIR). Driving time is commonly around 25 to 35 minutes, depending on traffic."
+                },
+                {
+                    "q":  "Where is Waldorf Astoria Costa Rica located?",
+                    "a":  "The resort is located at Punta Cacique on Playa Penca, along Guanacaste\u0027s Northern Pacific coast."
+                },
+                {
+                    "q":  "Can tours pick up at Waldorf Astoria Punta Cacique?",
+                    "a":  "Private excursions and transfers can be planned from the resort, with pickup details confirmed according to the selected experience and travel date."
+                }
+            ],
+    "amenities":  [
+                      "La Finca (signature restaurant)",
+                      "Tico-Tica (all-day dining)",
+                      "Peacock Alley Bar (signature Waldorf Astoria brand bar)",
+                      "Buena Nota Bakery \u0026 Coffee Shop",
+                      "Copo y Cono Ice Cream Shop",
+                      "Vida Pool \u0026 Grill",
+                      "The Spa at Waldorf Astoria (17,000 sq ft, 11 treatment rooms, saunas, steam rooms)",
+                      "Multi-level cascading pool plus a separate fitness pool",
+                      "Natunki Kids Club and Nasome Teens Club",
+                      "Open-air yoga studio",
+                      "Private beach access at Playa Penca",
+                      "10,000 sq ft of event space"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Guest Rooms",
+                           "description":  "148 of the property\u0027s 188 accommodations, offering views of Punta Cacique\u0027s landscapes with spacious terraces or balconies in a modern, earth-toned design."
+                       },
+                       {
+                           "name":  "Suites",
+                           "description":  "40 suites, 22 of which feature private plunge pools, alongside the same modern, nature-blended design as the guest rooms."
+                       },
+                       {
+                           "name":  "Resort Residences",
+                           "description":  "Eight private residences with one- to three-bedroom layouts, private plunge pools, full kitchens, spa-inspired bathrooms, furnished balconies and expansive ocean views."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.3,
+                           "review_count":  369,
+                           "reviews":  [
+                                           {
+                                               "author":  "Alisha Hewett",
+                                               "rating":  5,
+                                               "text":  "This property is stunning!  Only 30 minutes from Liberia airport (concierge will arrange your ride if you like).  The staff take care of you from the moment you book.  They are kind and attentive.\n\nThe rooms look out over the Playa Penca and it’s a beautiful view. Kayak, snorkel, jet skis are all available from the...",
+                                               "relative_time":  "a month ago"
+                                           },
+                                           {
+                                               "author":  "Jen Edens",
+                                               "rating":  5,
+                                               "text":  "Our stay at the Waldorf Astoria Costa Rica Punta Cacique was absolutely unforgettable. From the moment we arrived, the service, attention to detail, and hospitality were exceptional.\n\nA special thank you to Adonay, our personal concierge, who truly made our experience even more special. He went above and beyond to m...",
+                                               "relative_time":  "3 weeks ago"
+                                           },
+                                           {
+                                               "author":  "Tim Mcmullen",
+                                               "rating":  5,
+                                               "text":  "We absolutely loved this resort. The room was magnificent and the pools with the beach views were incredible!  However, the most memorable part of the stay was the staff and how well they welcomed us home.  Raquel was our Concierge and every day made sure we were happy and helped us with all of our excursions and wh...",
+                                               "relative_time":  "a month ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "type":  "overview",
+                                 "url":  "https://www.hilton.com/en/hotels/lirguwa-waldorf-astoria-costa-rica-punta-cacique/",
+                                 "status":  "imported",
+                                 "last_checked":  "2026-07-12"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Waldorf Astoria Costa Rica Punta Cacique is a secluded luxury resort overlooking Playa Penca on Guanacaste\u0027s Pacific coast. Its short airport transfer, oceanfront setting, spa and refined resort experience make it especially appealing to couples, families and travelers seeking privacy with convenient access to nearby beach towns and private excursions.",
+                           "features":  [
+
+                                        ],
+                           "fact_status":  "partially_verified",
+                           "note":  "Hilton\u0027s official location page places the resort on Playa Penca at Punta Cacique, 17 miles from Daniel Oduber Quirós International Airport. Hilton has described the resort as approximately 25 minutes from the airport; transfer time remains traffic-dependent."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Waldorf Astoria Punta Cacique sits right on Playa Penca, with a 17,000-square-foot spa, a cascading multi-level pool and six on-site restaurants and bars, from the signature La Finca to Copo y Cono for ice cream. It suits travelers who value privacy, ocean views and a short arrival day, with easy private transfers to explore Playa Hermosa and Playas del Coco nearby.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "reviewed",
+                         "last_verified":  "2026-07-11",
+                         "official_source":  "https://www.hilton.com/en/hotels/lirguwa-waldorf-astoria-costa-rica-punta-cacique/",
+                         "note":  "Official hotel details should be rechecked before publication; transfer times are Wild Papagayo operational estimates and may vary."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/sardinal-hoteles-waldorf-astoria-costa-rica-punta-cacique.Lm5GW4J",
+    "seo_title_override":  "Waldorf Astoria Costa Rica Punta Cacique Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Waldorf Astoria Costa Rica Punta Cacique with recommended tours, private airport transfers and local Guanacaste insight.",
+    "factual_attributes":  {
+                               "adults_only":  false,
+                               "beach_relationship":  {
+                                                          "beachfront":  false,
+                                                          "direct_access":  false,
+                                                          "proximity_note":  "STEPS_AWAY"
+                                                      },
+                               "on_property_dining_count":  6,
+                               "positioning_evidence":  [
+                                                            {
+                                                                "audience":  "COUPLES",
+                                                                "evidence_type":  "GENERIC_MENTION",
+                                                                "scope":  "RESIDENCE_LEVEL",
+                                                                "source_id":  "src-hilton-residences-release",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"Ideal for small groups, multigenerational families, or couples seeking a more private escape.\""
+                                                            }
+                                                        ],
+                               "evidence_sources":  {
+                                                        "src-hilton-debut-release":  {
+                                                                                         "url":  "https://stories.hilton.com/releases/waldorf-astoria-costa-rica-punta-cacique-debuts",
+                                                                                         "type":  "press_release",
+                                                                                         "retrieved_date":  "2026-10-02"
+                                                                                     },
+                                                        "src-hilton-residences-release":  {
+                                                                                              "url":  "https://stories.hilton.com/releases/waldorf-astoria-costa-rica-punta-cacique-residences-now-bookable",
+                                                                                              "type":  "press_release",
+                                                                                              "retrieved_date":  "2026-10-02"
+                                                                                          }
+                                                    },
+                               "fact_evidence":  {
+                                                     "adults_only":  [
+                                                                         "src-hilton-residences-release"
+                                                                     ],
+                                                     "beach_relationship":  [
+                                                                                "src-hilton-debut-release"
+                                                                            ],
+                                                     "on_property_dining_count":  [
+                                                                                      "src-hilton-debut-release"
+                                                                                  ],
+                                                     "positioning_evidence":  [
+                                                                                  "src-hilton-residences-release"
+                                                                              ]
+                                                 }
+                           }
+}

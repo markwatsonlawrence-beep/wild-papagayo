@@ -150,7 +150,7 @@
         "usage_note": "Only publish owned, licensed or explicitly authorized hotel imagery."
     },
     "seo": {
-        "title": "",
+        "title": "Hotel Riu Palace Costa Rica Guide | Tours, Transfers & Local Tips",
         "description": "Plan your stay at Hotel Riu Palace Costa Rica · Hotel en Playa Matapalo, Costa Rica with recommended tours, private airport transfers and local Guanacaste insight.",
         "keywords": [
             "Hotel Riu Palace Costa Rica · Hotel en Playa Matapalo, Costa Rica tours",
@@ -335,5 +335,55 @@
         "nearby_hotels": [],
         "blogs": [],
         "last_discovered": "2026-08-11"
+    },
+    "operational_notice": {
+        "status": "temporarily_closed_for_renovation",
+        "hotel_page_message": "Temporary renovation notice: Hotel Riu Palace Costa Rica is currently closed for renovation. Please confirm its reopening status before booking.",
+        "card_message": "Currently closed for renovation; confirm reopening status before booking.",
+        "recheck_target": "2027-04/2027-05",
+        "note": "Official RIU source: \"Hotel under renovation. Reopening: April 2027.\" No exact day published; do not add one here."
+    },
+    "factual_attributes": {
+        "adults_only": false,
+        "all_inclusive_type": "ALL_INCLUSIVE",
+        "beach_relationship": {
+            "beachfront": true,
+            "direct_access": true
+        },
+        "positioning_evidence": [
+            {
+                "audience": "FAMILY",
+                "evidence_type": "EXPLICIT_MARKETING",
+                "scope": "PROPERTY_LEVEL",
+                "source_id": "src-riu-palace-costa-rica-official-site",
+                "verified_date": "2026-10-02",
+                "note": "\"Hotel for the whole family, Fun4All\""
+            },
+            {
+                "audience": "WEDDING",
+                "evidence_type": "EXPLICIT_MARKETING",
+                "scope": "PROPERTY_LEVEL",
+                "source_id": "src-riu-palace-costa-rica-official-site",
+                "verified_date": "2026-10-02",
+                "note": "\"A special destination for a special love... the ideal setting to celebrate your ceremony\""
+            }
+        ],
+        "family_facts": {
+            "childrens_programming_available": true
+        },
+        "evidence_sources": {
+            "src-riu-palace-costa-rica-official-site": {
+                "url": "https://www.riu.com/en/hotel/costa-rica/guanacaste/hotel-riu-palace-costa-rica",
+                "type": "official_site",
+                "retrieved_date": "2026-10-02"
+            }
+        },
+        "fact_evidence": {
+            "adults_only": ["src-riu-palace-costa-rica-official-site"],
+            "all_inclusive_type": ["src-riu-palace-costa-rica-official-site"],
+            "beach_relationship": ["src-riu-palace-costa-rica-official-site"],
+            "positioning_evidence": ["src-riu-palace-costa-rica-official-site"],
+            "family_facts.childrens_programming_available": ["src-riu-palace-costa-rica-official-site"]
+        }
     }
 }

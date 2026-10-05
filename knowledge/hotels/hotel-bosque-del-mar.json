@@ -1,0 +1,219 @@
+{
+    "id":  "hotel-bosque-del-mar",
+    "name":  "Hotel Bosque del Mar",
+    "slug":  "hotel-bosque-del-mar",
+    "brand":  "Hotel Bosque del Mar",
+    "category":  "Boutique Beachfront Hotel",
+    "luxury_level":  "Upscale",
+    "destination_id":  "playa-hermosa",
+    "location_label":  "Playa Hermosa",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  26,
+                             "max":  33,
+                             "label":  "Approximately 26-33 minutes (24.4 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+                             "source_type":  "google_routes_api"
+                         },
+    "transfer_by_airport":  {
+                                "lir":  {
+                                            "min":  26,
+                                            "max":  33,
+                                            "km":  24.4,
+                                            "airport_name":  "Daniel Oduber Quiros International Airport (LIR)"
+                                        },
+                                "sjo":  {
+                                            "min":  213,
+                                            "max":  273,
+                                            "km":  233.4,
+                                            "airport_name":  "Juan Santamaria International Airport (SJO)"
+                                        }
+                            },
+    "coordinates":  {
+                        "lat":  10.5715893,
+                        "lng":  -85.6805493
+                    },
+    "formatted_address":  "Guanacaste Province, Playa Hermosa, Costa Rica",
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "",
+    "hero_image":  "images/hotel-bosque-del-mar-hero.webp",
+    "hero_image_alt":  "Hotel Bosque del Mar, a Boutique Hotel in Peninsula Papagayo, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "Hotel Bosque del Mar is a boutique beachfront hotel directly on Playa Hermosa, one of Guanacaste\u0027s most walkable beach towns. Its Niromi Restaurant and Nya Bar overlook the water, and rooms range from garden-view suites to Ocean Front Suites just steps from the sand. Staying in Playa Hermosa also gives travelers quick access to nearby beaches, restaurants and private excursions throughout northern Guanacaste.",
+    "hero_description":  "Hotel Bosque del Mar is a boutique beachfront hotel on Playa Hermosa, Guanacaste, located about 26–33 minutes from Guanacaste Airport (LIR). Its quiet beach setting, tropical gardens and walkable restaurants make it a convenient base for private tours, airport transportation and day trips throughout Guanacaste.",
+    "local_insight":  "Bosque del Mar suits travelers who want a real beach-town base -- walkable restaurants and sunset views -- without the scale of a big resort.",
+    "best_for":  [
+                     "Couples",
+                     "Families",
+                     "Travelers seeking local experiences"
+                 ],
+    "hotel_scores":  {
+                         "families":  {
+                                          "score":  2,
+                                          "reason":  "No amenities or family-related details are provided in the placeholder text."
+                                      },
+                         "couples":  {
+                                         "score":  3,
+                                         "reason":  "Boutique hotel category suggests couple appeal, but no specifics are given."
+                                     },
+                         "wellness":  {
+                                          "score":  2,
+                                          "reason":  "No wellness amenities or spa features are mentioned in the text."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  3,
+                                                  "reason":  "Located in the Wild Papagayo area, but no tour access details are provided."
+                                              },
+                         "walkability":  {
+                                             "score":  2,
+                                             "reason":  "No information about proximity to a beach or town center is given."
+                                         },
+                         "nightlife":  {
+                                           "score":  2,
+                                           "reason":  "No nightlife or entertainment details are mentioned in the placeholder text."
+                                       },
+                         "luxury":  {
+                                        "score":  3,
+                                        "reason":  "Listed as an upscale boutique hotel, but no specific private details are provided."
+                                    }
+                     },
+    "featured_tours":  [
+                           "miravallesspa",
+                           "hikingrinconnationalpark",
+                           "oropendolahotsprings"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "Which airport should I use for Hotel Bosque del Mar?",
+                    "a":  "Guanacaste Airport (LIR) is the closest practical airport. Private transportation can be arranged directly to the property."
+                },
+                {
+                    "q":  "What tours can I book from Hotel Bosque del Mar?",
+                    "a":  "Wild Papagayo can arrange private tours across Guanacaste, with pickup coordinated directly from Hotel Bosque del Mar."
+                },
+                {
+                    "q":  "Do I need a rental car if I\u0027m staying at Hotel Bosque del Mar?",
+                    "a":  "Not necessarily. Guests who use organized private tours and transfers can typically manage the trip without renting a car."
+                },
+                {
+                    "q":  "Where is Hotel Bosque del Mar located?",
+                    "a":  "Hotel Bosque del Mar sits directly on Playa Hermosa in Guanacaste, Costa Rica, a quiet beach with tropical gardens and walkable restaurants."
+                },
+                {
+                    "q":  "How far is Hotel Bosque del Mar from Liberia Airport?",
+                    "a":  "About 26 to 33 minutes by private transfer from Guanacaste Airport (LIR), roughly 24.4 km away."
+                },
+                {
+                    "q":  "Can Wild Papagayo pick up directly from Hotel Bosque del Mar?",
+                    "a":  "Yes. Private tour pickup is arranged directly from the hotel, with no separate meeting point to reach on your own."
+                },
+                {
+                    "q":  "What are the best day trips from Playa Hermosa?",
+                    "a":  "Popular options include Miravalles Volcano, Monteverde Hanging Bridges and Coffee Tour, and Rincón de la Vieja, all available as private day trips with hotel pickup."
+                }
+            ],
+    "amenities":  [
+                      "Niromi Restaurant (fusion gastronomy, marble dining room with beach views)",
+                      "Nya Bar (lounge bar with cocktails, snacks and music)",
+                      "Outdoor pool and Jacuzzi",
+                      "Tropical gardens",
+                      "Events hall / beach wedding services",
+                      "Spa services",
+                      "Scuba diving trips and excursion booking",
+                      "24-hour room service",
+                      "Free Wi-Fi",
+                      "Gated/safe parking",
+                      "Laundry service"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Tropical Suite",
+                           "description":  "Nestled among lush greenery with pool views, blending tropical elegance with modern comfort."
+                       },
+                       {
+                           "name":  "Garden Suite",
+                           "description":  "Features two queen beds and a living room with a double sofa bed, steps from the beach and restaurant."
+                       },
+                       {
+                           "name":  "Ocean Front Suites",
+                           "description":  "The property\u0027s closest connection to the ocean, overlooking Playa Hermosa."
+                       },
+                       {
+                           "name":  "Opome Suite",
+                           "description":  "A third-floor suite named after a Chorotega-language term, offering a spacious retreat."
+                       },
+                       {
+                           "name":  "Nyuri Suite",
+                           "description":  "Third-floor accommodation with direct ocean views."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.7,
+                           "review_count":  995,
+                           "reviews":  [
+                                           {
+                                               "author":  "Hina Shaikh",
+                                               "rating":  5,
+                                               "text":  "Highly recommend this beautiful hotel! The location is perfect—tucked away on a secluded yet public beach, with plenty of restaurants within walking distance for an authentic, Costa Rican feel. The property is stunning, covered in tropical plants, and each room has a private, tree-shaded patio. (Just keep in mind th...",
+                                               "relative_time":  "3 weeks ago"
+                                           },
+                                           {
+                                               "author":  "Myronda Schiding",
+                                               "rating":  5,
+                                               "text":  "We had a wonderful time at Hotel Bosque Del Mar in Playa Hermosa. After a long journey, Roylan picked us up at the airport and was very charming and informative. We were greeted and checked in by Shay and Tatiana,  who were both extremely helpful throughout our stay. The breakfast was delicious, in a beautiful dinin...",
+                                               "relative_time":  "a month ago"
+                                           },
+                                           {
+                                               "author":  "Alyssa Tuininga",
+                                               "rating":  5,
+                                               "text":  "The hotel is absolutely beautiful. The layout and setup of the hotel is so unique and make it feel like you are in the jungle. The rooms are gorgeous. I loved the balcony, the little sitting room, and the position of the bedroom, which makes it so calm and quiet.  The room is so comfortable and feels very plush. The...",
+                                               "relative_time":  "a month ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "pending",
+                                 "type":  "official",
+                                 "url":  ""
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Hotel Bosque del Mar is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Bosque del Mar suits travelers who want a real beach-town base -- walkable restaurants and sunset views -- without the scale of a big resort.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "",
+                         "note":  "Official hotel details have not been verified yet."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/playa-hermosa-hoteles-hotel-bosque-del-mar.FRj5wgN",
+    "seo_title_override":  "Hotel Bosque del Mar Playa Hermosa | Tours \u0026 Transfers",
+    "seo_description_override":  "Plan your stay at Hotel Bosque del Mar with recommended tours, private airport transfers and local Guanacaste insight."
+}

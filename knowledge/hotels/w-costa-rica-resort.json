@@ -1,0 +1,188 @@
+{
+    "id":  "w-costa-rica-resort",
+    "name":  "W Costa Rica Resort – Playa Conchal",
+    "slug":  "w-costa-rica-resort",
+    "brand":  "W Hotels by Marriott",
+    "category":  "Luxury Beach Resort",
+    "luxury_level":  "Luxury",
+    "destination_id":  "playa-conchal",
+    "location_label":  "Playa Conchal",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  35,
+                             "max":  50,
+                             "label":  "Roughly a 40-minute drive from Tamarindo Airport, or about 1 hour from Liberia (LIR) Airport.",
+                             "source_type":  "claude_estimate_from_official_source"
+                         },
+    "transfer_by_airport":  null,
+    "coordinates":  null,
+    "formatted_address":  null,
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://w-costa-rica-a-reserva-conchal.hotelsguanacaste.com/es/",
+    "hero_image":  "images/luxury-costa-rica-tours-hero.webp",
+    "hero_image_alt":  "ᐉ W Costa Rica Resort",
+    "hero_image_status":  "temporary_placeholder",
+    "description":  "A vibrant 5-star W-branded beach resort set within Reserva Conchal, featuring 152 rooms with ocean views, three restaurants, a full spa and an infinity pool. It blends design-forward energy with access to Playa Conchal and a wide range of watersports and activities.",
+    "hero_description":  "Design-driven luxury and lively energy steps from the shell-strewn sands of Playa Conchal.",
+    "local_insight":  "Ideal for style-conscious travelers who want a scene, a spa and a wide slate of activities without leaving the resort. Families are well served too, with a kids\u0027 club and childcare on site.",
+    "best_for":  [
+                     "Design-Savvy Couples",
+                     "Active Beach Vacationers",
+                     "Families with Kids"
+                 ],
+    "hotel_scores":  {
+                         "luxury":  {
+                                        "score":  3,
+                                        "reason":  ""
+                                    },
+                         "families":  {
+                                          "score":  3,
+                                          "reason":  ""
+                                      },
+                         "couples":  {
+                                         "score":  3,
+                                         "reason":  ""
+                                     },
+                         "wellness":  {
+                                          "score":  3,
+                                          "reason":  ""
+                                      },
+                         "adventure_access":  {
+                                                  "score":  3,
+                                                  "reason":  ""
+                                              },
+                         "walkability":  {
+                                             "score":  3,
+                                             "reason":  ""
+                                         },
+                         "nightlife":  {
+                                           "score":  3,
+                                           "reason":  ""
+                                       }
+                     },
+    "featured_tours":  [
+                           "paloverdeculturalviejo",
+                           "monteverdtreetopwalk",
+                           "hikingrinconnationalpark"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "What room types does W Costa Rica Resort offer?",
+                    "a":  "The resort has 152 rooms across Premier, Superior and Deluxe categories, all with king beds and many with ocean views and private balconies."
+                },
+                {
+                    "q":  "Does the resort have a spa?",
+                    "a":  "Guests can enjoy a full-service spa with steam room, jacuzzi, massages, facials, body scrubs and manicures and pedicures."
+                },
+                {
+                    "q":  "Is the resort family-friendly?",
+                    "a":  "Yes, the resort offers a kids\u0027 club, a children\u0027s play area and childcare services, making it suitable for families."
+                }
+            ],
+    "amenities":  [
+                      "Infinity pool",
+                      "Private beach",
+                      "Full-service spa with steam room and jacuzzi",
+                      "Fitness center",
+                      "Golf course",
+                      "Tennis court",
+                      "Three restaurants including Cocina de Mercado",
+                      "Kids\u0027 club and childcare",
+                      "Live entertainment and nightclub"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Premier Room with King Bed",
+                           "description":  "Spacious king-bed room with air conditioning and a private balcony."
+                       },
+                       {
+                           "name":  "Superior Room with King Bed",
+                           "description":  "Comfortable king-bed room with modern amenities and ocean-view surroundings."
+                       },
+                       {
+                           "name":  "Deluxe Room with King Bed",
+                           "description":  "Upgraded king-bed room offering extra space and a private bathroom with rain shower."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+                                     {
+                                         "profile":  "Design-Savvy Couples",
+                                         "reason":  "The stylish W brand, spa treatments, nightclub and infinity pool create a lively, upscale getaway for couples."
+                                     },
+                                     {
+                                         "profile":  "Active Beach Vacationers",
+                                         "reason":  "On-site diving, snorkeling, kayaking, hiking, horseback riding, golf and tennis keep active travelers busy all day."
+                                     },
+                                     {
+                                         "profile":  "Families with Kids",
+                                         "reason":  "A kids\u0027 club, children\u0027s play area, childcare services and family amenities make it practical for traveling families."
+                                     }
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.5,
+                           "review_count":  911,
+                           "reviews":  [
+                                           {
+                                               "author":  "J L",
+                                               "rating":  5,
+                                               "text":  "Our stay at W Costa Rica exceeded every expectation and was truly a game-changing vacation. From the moment we arrived, we felt welcomed, cared for, and completely able to relax.\n\nThe property is absolutely stunning, with incredible views, beautiful rooms, amazing pools, and a perfect balance of luxury and fun. Ever...",
+                                               "relative_time":  "2 months ago"
+                                           },
+                                           {
+                                               "author":  "Marjon Otero",
+                                               "rating":  5,
+                                               "text":  "My family of four stayed at W conchal reserva for 4 nights while in Guanacaste. I would say that the prices are high, but the service and ambiance was incredible. My son got sick and they have a doctor on site, who was very nice, did a thorough exam, wrote everything down, prescribed meds and we paid for it to be de...",
+                                               "relative_time":  "3 months ago"
+                                           },
+                                           {
+                                               "author":  "Lou Larochelle",
+                                               "rating":  5,
+                                               "text":  "Our stay at the W Costa Rica – Reserva Conchal was absolutely wonderful. From the moment we arrived, we felt like we had stepped into a peaceful paradise. The resort is incredibly quiet, relaxing, and beautifully designed, making it the perfect place to unwind and disconnect.\n\nThe food exceeded our expectations, wit...",
+                                               "relative_time":  "2 months ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-09-25"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "official-import",
+                                 "type":  "official",
+                                 "url":  "https://w-costa-rica-a-reserva-conchal.hotelsguanacaste.com/es/"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "W Costa Rica Resort – Playa Conchal is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Ideal for style-conscious travelers who want a scene, a spa and a wide slate of activities without leaving the resort. Families are well served too, with a kids\u0027 club and childcare on site.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "draft",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "https://w-costa-rica-a-reserva-conchal.hotelsguanacaste.com/es/",
+                         "note":  "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "",
+    "seo_title_override":  "ᐉ W Costa Rica Resort Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at ᐉ W Costa Rica Resort with recommended tours, private airport transfers and local Guanacaste insight."
+}

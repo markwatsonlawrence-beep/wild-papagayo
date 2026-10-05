@@ -1,308 +1,331 @@
 {
-  "identity": {
-    "id": "borinquen-thermal-resort",
-    "official_name": "Borinquen Thermal Resort",
-    "display_name": "Borinquen Thermal Resort",
-    "slug": "borinquen-thermal-resort",
-    "brand": "Borinquen Thermal Resort",
-    "category": "Thermal Springs & Spa Resort",
-    "luxury_level": "Upscale"
-  },
-  "location": {
-    "destination_id": "rincon-de-la-vieja",
-    "location_label": "Rincón de la Vieja",
-    "province": "Guanacaste",
-    "airport_id": "lir",
-    "tour_pickup_zone": "papagayo",
-    "transfer": {
-      "min": 35,
-      "max": 50,
-      "label": "Roughly 1.5 to 2 hours by private transfer from Guanacaste Airport (LIR) in Liberia.",
-      "source_type": "claude_estimate_from_official_source"
-    }
-  },
-  "official_sources": [
-    {
-      "source_id": "official-import",
-      "type": "official",
-      "url": "https://www.borinquenresort.com/"
-    }
-  ],
-  "official_facts": {
-    "summary": "Borinquen Thermal Resort is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property's own source."
-  },
-  "editorial": {
-    "hero_description": "A hot springs and thermal spa retreat tucked into the wild countryside of Rincón de la Vieja.",
-    "description": "Set in the natural beauty of the Rincón de la Vieja countryside in Guanacaste, Borinquen Thermal Resort combines hot springs, a thermal spa, and villas and bungalows surrounded by nature. Established in 1999, it offers wellness, adventure, and multiple dining venues in a secluded North Pacific setting.",
-    "tone": "useful, locally informed and guest-focused",
-    "why_stay_here": {
-      "title": "Why Stay Here",
-      "summary": "Borinquen Thermal Resort is one of the best places to stay if you want to combine comfort with unforgettable experiences around Guanacaste."
-    }
-  },
-  "traveler_profiles": [
-    "Wellness Seekers",
-    "Honeymooners & Couples",
-    "Adventure Enthusiasts"
-  ],
-  "experience_scores": {
-    "luxury": {
-      "score": 4,
-      "reason": "identity.luxury_level is Upscale, supported by wedding venues and private dining."
+    "identity": {
+        "id": "borinquen-thermal-resort",
+        "official_name": "Borinquen Thermal Resort",
+        "display_name": "Borinquen Thermal Resort",
+        "slug": "borinquen-thermal-resort",
+        "brand": "Borinquen Thermal Resort",
+        "category": "Thermal Springs & Spa Resort",
+        "luxury_level": "Upscale"
     },
-    "families": {
-      "score": 2,
-      "reason": "No family-oriented content in description, amenities, or traveler profiles."
+    "location": {
+        "destination_id": "rincon-de-la-vieja",
+        "location_label": "Rincón de la Vieja",
+        "province": "Guanacaste",
+        "airport_id": "lir",
+        "tour_pickup_zone": "papagayo",
+        "transfer": {
+            "min": 35,
+            "max": 50,
+            "label": "Roughly 1.5 to 2 hours by private transfer from Guanacaste Airport (LIR) in Liberia.",
+            "source_type": "claude_estimate_from_official_source"
+        }
     },
-    "couples": {
-      "score": 4,
-      "reason": "Honeymooners & Couples profile cites romantic Junior Suite and private tasting-menu dinners."
-    },
-    "wellness": {
-      "score": 5,
-      "reason": "Property identity is a thermal-springs/spa resort; Anahuac Wellness Thermal & Spa and natural hot springs are defining amenities."
-    },
-    "adventure_access": {
-      "score": 3,
-      "reason": "Amenities list only generic adventure activities with no named activity or operator."
-    },
-    "walkability": {
-      "score": 3,
-      "reason": ""
-    },
-    "nightlife": {
-      "score": 3,
-      "reason": ""
-    }
-  },
-  "wild_insights": {
-    "local_take": "Ideal for travelers craving hot springs and volcanic-country tranquility away from the beach crowds. Great for honeymooners and wellness seekers who want nature, spa treatments, and adventure in one place.",
-    "insights": []
-  },
-  "recommendations": {
-    "featured_tours": [
-      "paloverdeculturalviejo",
-      "monteverdtreetopwalk",
-      "hangingbridgessloths"
+    "official_sources": [
+        {
+            "source_id": "official-import",
+            "type": "official",
+            "url": "https://www.borinquenresort.com/"
+        }
     ],
-    "related_articles": [
-      "liberia-airport-transfer-guide"
+    "official_facts": {
+        "summary": "Borinquen Thermal Resort is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property's own source."
+    },
+    "editorial": {
+        "hero_description": "A hot springs and thermal spa retreat tucked into the wild countryside of Rincón de la Vieja.",
+        "description": "Set in the natural beauty of the Rincón de la Vieja countryside in Guanacaste, Borinquen Thermal Resort combines hot springs, a thermal spa, and villas and bungalows surrounded by nature. Established in 1999, it offers wellness, adventure, and multiple dining venues in a secluded North Pacific setting.",
+        "tone": "useful, locally informed and guest-focused",
+        "why_stay_here": {
+            "title": "Why Stay Here",
+            "summary": "Borinquen Thermal Resort is one of the best places to stay if you want to combine comfort with unforgettable experiences around Guanacaste."
+        }
+    },
+    "traveler_profiles": [
+        "Wellness Seekers",
+        "Honeymooners & Couples",
+        "Adventure Enthusiasts"
     ],
-    "nearby_destinations": [
-      "papagayo"
-    ]
-  },
-  "faq": [
-    {
-      "q": "Where is Borinquen Thermal Resort located?",
-      "a": "Borinquen Thermal Resort is located in Rincón de la Vieja, Guanacaste, in the North Pacific region of Costa Rica."
+    "experience_scores": {
+        "luxury": {
+            "score": 4,
+            "reason": "identity.luxury_level is Upscale, supported by wedding venues and private dining."
+        },
+        "families": {
+            "score": 2,
+            "reason": "No family-oriented content in description, amenities, or traveler profiles."
+        },
+        "couples": {
+            "score": 4,
+            "reason": "Honeymooners & Couples profile cites romantic Junior Suite and private tasting-menu dinners."
+        },
+        "wellness": {
+            "score": 5,
+            "reason": "Property identity is a thermal-springs/spa resort; Anahuac Wellness Thermal & Spa and natural hot springs are defining amenities."
+        },
+        "adventure_access": {
+            "score": 3,
+            "reason": "Amenities list only generic adventure activities with no named activity or operator."
+        },
+        "walkability": {
+            "score": 3,
+            "reason": ""
+        },
+        "nightlife": {
+            "score": 3,
+            "reason": ""
+        }
     },
-    {
-      "q": "Does the resort have hot springs and a spa?",
-      "a": "The resort features natural hot springs and the Anáhuac Wellness Thermal & Spa, offering spa treatments focused on relaxation and rejuvenation."
+    "wild_insights": {
+        "local_take": "Ideal for travelers craving hot springs and volcanic-country tranquility away from the beach crowds. Great for honeymooners and wellness seekers who want nature, spa treatments, and adventure in one place.",
+        "insights": []
     },
-    {
-      "q": "What types of rooms are available?",
-      "a": "Accommodations include Villas, Standard Bungalows, Superior Bungalows, and Junior Suites, ranging from nature retreats to romantic couples' options."
-    }
-  ],
-  "gallery": {
-    "hero_image": "images/borinquen-thermal-resort-hero.jpg",
-    "hero_image_alt": "Borinquen Thermal Resort, a Thermal Springs & Spa Resort in Rincón de la Vieja, Costa Rica",
-    "hero_image_status": "google_places_photo",
-    "approved_images": [],
-    "candidate_images": [],
-    "usage_note": "Only publish owned, licensed or explicitly authorized hotel imagery."
-  },
-  "seo": {
-    "title": "",
-    "description": "Plan your stay at Borinquen Thermal Resort with recommended tours, private airport transfers and local Guanacaste insight.",
-    "keywords": [
-      "Borinquen Thermal Resort tours",
-      "Borinquen Thermal Resort transfer",
-      "things to do near Borinquen Thermal Resort"
-    ]
-  },
-  "verification": {
-    "status": "unverified",
-    "last_verified": "",
-    "official_source": "https://www.borinquenresort.com/",
-    "note": "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
-  },
-  "workflow": {
-    "editorial_standard": "Wild Papagayo Hotel Gold Standard v2.0",
-    "publication_threshold": 90,
-    "status": "published"
-  },
-  "amenities": [
-    "Natural hot springs",
-    "Anáhuac Wellness Thermal & Spa",
-    "Spa treatments",
-    "Adventure activities",
-    "La Carreta Restaurant",
-    "El Zaguán Bar & Grill",
-    "El Congo Snacks & Pool Bar",
-    "Wedding and events venues",
-    "Private dinner tasting menus"
-  ],
-  "room_types": [
-    {
-      "name": "Villas",
-      "description": "Spacious accommodations designed for a relaxing, luxurious stay."
+    "recommendations": {
+        "featured_tours": [
+            "paloverdeculturalviejo",
+            "monteverdtreetopwalk",
+            "hangingbridgessloths"
+        ],
+        "related_articles": [
+            "liberia-airport-transfer-guide"
+        ],
+        "nearby_destinations": [
+            "papagayo"
+        ]
     },
-    {
-      "name": "Standard Bungalows",
-      "description": "Nature-surrounded bungalows offering a peaceful escape from city life."
-    },
-    {
-      "name": "Superior Bungalow",
-      "description": "Intimate and private bungalows for a more secluded, restful getaway."
-    },
-    {
-      "name": "Junior Suite",
-      "description": "Romantic accommodation ideal for honeymooners and couples seeking privacy and sophistication."
-    }
-  ],
-  "traveler_profile_reasons": [
-    {
-      "profile": "Wellness Seekers",
-      "reason": "The Anáhuac thermal spa and natural hot springs are built around relaxation, rejuvenation, and rebalancing body and soul."
-    },
-    {
-      "profile": "Honeymooners & Couples",
-      "reason": "The romantic Junior Suite and private tasting-menu dinners are tailored to couples looking for an intimate, nature-surrounded escape."
-    },
-    {
-      "profile": "Adventure Enthusiasts",
-      "reason": "The resort's setting in the Rincón de la Vieja countryside offers adventure activities amid volcanic landscapes."
-    }
-  ],
-  "experience_highlights": [
-    {
-      "title": "Excellent Location",
-      "description": "Easy access to Costa Rica's top attractions."
-    },
-    {
-      "title": "Nature",
-      "description": "Surrounded by tropical landscapes."
-    },
-    {
-      "title": "Private Experiences",
-      "description": "Ideal starting point for customized adventures."
-    },
-    {
-      "title": "Relaxation",
-      "description": "Perfect balance between exploration and rest."
-    }
-  ],
-  "local_tips": [
-    "Book tours early.",
-    "Use sunscreen.",
-    "Carry cash for small stops.",
-    "Ask Wild Papagayo for local recommendations."
-  ],
-  "suggested_stay": [
-    {
-      "day": 1,
-      "title": "Arrival",
-      "description": "Transfer and relax."
-    },
-    {
-      "day": 2,
-      "title": "Palo Verde & Cultural Experience El Viejo",
-      "description": "A recommended full-day experience with pickup from Borinquen Thermal Resort."
-    },
-    {
-      "day": 3,
-      "title": "Monteverde Treetop Walk",
-      "description": "Another curated experience recommended for guests of Borinquen Thermal Resort."
-    },
-    {
-      "day": 4,
-      "title": "Departure",
-      "description": "Private airport transfer."
-    }
-  ],
-  "planning": {
-    "ideal_stay": "4-6 nights",
-    "transportation": "Private Transfer",
-    "airport": "LIR"
-  },
-  "wild_recommendation": {
-    "score": 5,
-    "summary": "Recommended by Wild Papagayo."
-  },
-  "template": "experience",
-  "google_reviews": {
-    "rating": 4.4,
-    "review_count": 787,
-    "reviews": [
-      {
-        "author": "Maple Traveler",
-        "rating": 5,
-        "text": "We had a wonderful stay at Borinquen Thermal Resort during our family trip to Costa Rica. We were a group of 8, including kids, and everyone had a great time.\n\nThe property is beautiful, surrounded by nature, and the thermal pools were a perfect place to relax after a day of exploring. The staff were friendly and we...",
-        "relative_time": "a month ago"
-      },
-      {
-        "author": "Chelsea Pottenger",
-        "rating": 5,
-        "text": "A truly magical escape - Borinquen delivered on every level.\nFrom the moment we arrived, Borinquen Thermal Resort felt like another world. The property is stunning — lush, expansive grounds nestled in the heart of Costa Rica's wilderness, with wildlife around every corner. It's the kind of place that genuinely takes...",
-        "relative_time": "2 months ago"
-      },
-      {
-        "author": "Jenn Sheppard",
-        "rating": 4,
-        "text": "This place was amazing. Such a beautiful spot with wildlife (spider monkeys, lots of birds including a toucan, and lots to do, one of the most beautiful swim up bars I’ve ever seen.) The staff was friendly and very accommodating. Free breakfast was amazing. Limited dinner options on the menu. However there was a lac...",
-        "relative_time": "6 months ago"
-      }
+    "faq": [
+        {
+            "q": "Where is Borinquen Thermal Resort located?",
+            "a": "Borinquen Thermal Resort is located in Rincón de la Vieja, Guanacaste, in the North Pacific region of Costa Rica."
+        },
+        {
+            "q": "Does the resort have hot springs and a spa?",
+            "a": "The resort features natural hot springs and the Anáhuac Wellness Thermal & Spa, offering spa treatments focused on relaxation and rejuvenation."
+        },
+        {
+            "q": "What types of rooms are available?",
+            "a": "Accommodations include Villas, Standard Bungalows, Superior Bungalows, and Junior Suites, ranging from nature retreats to romantic couples' options."
+        }
     ],
-    "source": "Google Places API, fetched 2026-08-10"
-  },
-  "relationships": {
-    "tours": [
-      "arenalhangingbridges",
-      "arenalhotsprings",
-      "atvmountainride",
-      "borinque4senses",
-      "buenavistamegacombo",
-      "canyonadventurepark",
-      "canyoningtubing",
-      "celesteriver",
-      "coloradoriverrafting",
-      "congotrail",
-      "congotrailcanopy",
-      "costaricahighlights",
-      "floatingtenorio",
-      "haciendaaromal",
-      "haciendaguachipelin",
-      "hangingbridgessloths",
-      "hikingrinconnationalpark",
-      "horsebackaromal",
-      "laleona",
-      "miravallesspa",
-      "monteverdehangingbridgescoffee",
-      "monteverdtreetopwalk",
-      "oropendolahotsprings",
-      "ostionalturtles",
-      "paloverdeculturalviejo",
-      "paloverderiverboattour",
-      "sensoriarainforest",
-      "slothadventure",
-      "slothchocolatetour",
-      "tenoriorafting",
-      "tubingceleste",
-      "waterfalllovers",
-      "waterfallpumas"
+    "gallery": {
+        "hero_image": "images/borinquen-thermal-resort-hero.jpg",
+        "hero_image_alt": "Borinquen Thermal Resort, a Thermal Springs & Spa Resort in Rincón de la Vieja, Costa Rica",
+        "hero_image_status": "google_places_photo",
+        "approved_images": [],
+        "candidate_images": [],
+        "usage_note": "Only publish owned, licensed or explicitly authorized hotel imagery."
+    },
+    "seo": {
+        "title": "Borinquen Thermal Resort Guide | Tours, Transfers & Local Tips",
+        "description": "Plan your stay at Borinquen Thermal Resort with recommended tours, private airport transfers and local Guanacaste insight.",
+        "keywords": [
+            "Borinquen Thermal Resort tours",
+            "Borinquen Thermal Resort transfer",
+            "things to do near Borinquen Thermal Resort"
+        ]
+    },
+    "verification": {
+        "status": "unverified",
+        "last_verified": "",
+        "official_source": "https://www.borinquenresort.com/",
+        "note": "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+    },
+    "workflow": {
+        "editorial_standard": "Wild Papagayo Hotel Gold Standard v2.0",
+        "publication_threshold": 90,
+        "status": "published"
+    },
+    "amenities": [
+        "Natural hot springs",
+        "Anáhuac Wellness Thermal & Spa",
+        "Spa treatments",
+        "Adventure activities",
+        "La Carreta Restaurant",
+        "El Zaguán Bar & Grill",
+        "El Congo Snacks & Pool Bar",
+        "Wedding and events venues",
+        "Private dinner tasting menus"
     ],
-    "destinations": [
-      "rincon-de-la-vieja",
-      "papagayo"
+    "room_types": [
+        {
+            "name": "Villas",
+            "description": "Spacious accommodations designed for a relaxing, luxurious stay."
+        },
+        {
+            "name": "Standard Bungalows",
+            "description": "Nature-surrounded bungalows offering a peaceful escape from city life."
+        },
+        {
+            "name": "Superior Bungalow",
+            "description": "Intimate and private bungalows for a more secluded, restful getaway."
+        },
+        {
+            "name": "Junior Suite",
+            "description": "Romantic accommodation ideal for honeymooners and couples seeking privacy and sophistication."
+        }
     ],
-    "nearby_hotels": [],
-    "blogs": [],
-    "last_discovered": "2026-08-10"
-  },
-  "booking": {
-    "expedia_affiliate_link": "https://expedia.com/affiliates/canas-dulces-hoteles-borinquen-thermal-resort.QZXIjM9"
-  }
+    "traveler_profile_reasons": [
+        {
+            "profile": "Wellness Seekers",
+            "reason": "The Anáhuac thermal spa and natural hot springs are built around relaxation, rejuvenation, and rebalancing body and soul."
+        },
+        {
+            "profile": "Honeymooners & Couples",
+            "reason": "The romantic Junior Suite and private tasting-menu dinners are tailored to couples looking for an intimate, nature-surrounded escape."
+        },
+        {
+            "profile": "Adventure Enthusiasts",
+            "reason": "The resort's setting in the Rincón de la Vieja countryside offers adventure activities amid volcanic landscapes."
+        }
+    ],
+    "experience_highlights": [
+        {
+            "title": "Excellent Location",
+            "description": "Easy access to Costa Rica's top attractions."
+        },
+        {
+            "title": "Nature",
+            "description": "Surrounded by tropical landscapes."
+        },
+        {
+            "title": "Private Experiences",
+            "description": "Ideal starting point for customized adventures."
+        },
+        {
+            "title": "Relaxation",
+            "description": "Perfect balance between exploration and rest."
+        }
+    ],
+    "local_tips": [
+        "Book tours early.",
+        "Use sunscreen.",
+        "Carry cash for small stops.",
+        "Ask Wild Papagayo for local recommendations."
+    ],
+    "suggested_stay": [
+        {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Transfer and relax."
+        },
+        {
+            "day": 2,
+            "title": "Palo Verde & Cultural Experience El Viejo",
+            "description": "A recommended full-day experience with pickup from Borinquen Thermal Resort."
+        },
+        {
+            "day": 3,
+            "title": "Monteverde Treetop Walk",
+            "description": "Another curated experience recommended for guests of Borinquen Thermal Resort."
+        },
+        {
+            "day": 4,
+            "title": "Departure",
+            "description": "Private airport transfer."
+        }
+    ],
+    "planning": {
+        "ideal_stay": "4-6 nights",
+        "transportation": "Private Transfer",
+        "airport": "LIR"
+    },
+    "wild_recommendation": {
+        "score": 5,
+        "summary": "Recommended by Wild Papagayo."
+    },
+    "template": "experience",
+    "google_reviews": {
+        "rating": 4.4,
+        "review_count": 787,
+        "reviews": [
+            {
+                "author": "Maple Traveler",
+                "rating": 5,
+                "text": "We had a wonderful stay at Borinquen Thermal Resort during our family trip to Costa Rica. We were a group of 8, including kids, and everyone had a great time.\n\nThe property is beautiful, surrounded by nature, and the thermal pools were a perfect place to relax after a day of exploring. The staff were friendly and we...",
+                "relative_time": "a month ago"
+            },
+            {
+                "author": "Chelsea Pottenger",
+                "rating": 5,
+                "text": "A truly magical escape - Borinquen delivered on every level.\nFrom the moment we arrived, Borinquen Thermal Resort felt like another world. The property is stunning — lush, expansive grounds nestled in the heart of Costa Rica's wilderness, with wildlife around every corner. It's the kind of place that genuinely takes...",
+                "relative_time": "2 months ago"
+            },
+            {
+                "author": "Jenn Sheppard",
+                "rating": 4,
+                "text": "This place was amazing. Such a beautiful spot with wildlife (spider monkeys, lots of birds including a toucan, and lots to do, one of the most beautiful swim up bars I’ve ever seen.) The staff was friendly and very accommodating. Free breakfast was amazing. Limited dinner options on the menu. However there was a lac...",
+                "relative_time": "6 months ago"
+            }
+        ],
+        "source": "Google Places API, fetched 2026-08-10"
+    },
+    "relationships": {
+        "tours": [
+            "arenalhangingbridges",
+            "arenalhotsprings",
+            "atvmountainride",
+            "borinque4senses",
+            "buenavistamegacombo",
+            "canyonadventurepark",
+            "canyoningtubing",
+            "celesteriver",
+            "coloradoriverrafting",
+            "congotrail",
+            "congotrailcanopy",
+            "costaricahighlights",
+            "floatingtenorio",
+            "haciendaaromal",
+            "haciendaguachipelin",
+            "hangingbridgessloths",
+            "hikingrinconnationalpark",
+            "horsebackaromal",
+            "laleona",
+            "miravallesspa",
+            "monteverdehangingbridgescoffee",
+            "monteverdtreetopwalk",
+            "oropendolahotsprings",
+            "ostionalturtles",
+            "paloverdeculturalviejo",
+            "paloverderiverboattour",
+            "sensoriarainforest",
+            "slothadventure",
+            "slothchocolatetour",
+            "tenoriorafting",
+            "tubingceleste",
+            "waterfalllovers",
+            "waterfallpumas"
+        ],
+        "destinations": [
+            "rincon-de-la-vieja",
+            "papagayo"
+        ],
+        "nearby_hotels": [],
+        "blogs": [],
+        "last_discovered": "2026-08-10"
+    },
+    "booking": {
+        "expedia_affiliate_link": "https://expedia.com/affiliates/canas-dulces-hoteles-borinquen-thermal-resort.QZXIjM9"
+    },
+    "factual_attributes": {
+        "beach_relationship": "NOT_APPLICABLE",
+        "positioning_evidence": [
+            {
+                "audience": "WEDDING",
+                "evidence_type": "PAGE_EXISTENCE_ONLY",
+                "scope": "PAGE_LEVEL",
+                "source_id": "src-borinquen-weddings-page",
+                "verified_date": "2026-10-02",
+                "note": "Page exists (title: \"Weddings – Borinquen Thermal Resort\"); existence only, page content not used as evidence."
+            }
+        ],
+        "evidence_sources": {
+            "src-borinquen-weddings-page": {
+                "url": "https://www.borinquenresort.com/weddings/",
+                "type": "official_site",
+                "retrieved_date": "2026-10-02"
+            }
+        },
+        "fact_evidence": {
+            "positioning_evidence": ["src-borinquen-weddings-page"]
+        }
+    }
 }

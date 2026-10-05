@@ -1,0 +1,260 @@
+{
+    "id":  "suitree-experience-hotel-costa-rica",
+    "name":  "Suitree Experience Hotel",
+    "slug":  "suitree-experience-hotel-costa-rica",
+    "brand":  "Suitree",
+    "category":  "Luxury Treehouse Nature Retreat",
+    "luxury_level":  "Luxury",
+    "destination_id":  "papagayo",
+    "location_label":  "Sardinal",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  31,
+                             "max":  39,
+                             "label":  "Approximately 31-39 minutes (23 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+                             "source_type":  "google_routes_api"
+                         },
+    "transfer_by_airport":  {
+                                "lir":  {
+                                            "min":  31,
+                                            "max":  39,
+                                            "km":  23,
+                                            "airport_name":  "Daniel Oduber Quiros International Airport (LIR)"
+                                        },
+                                "sjo":  {
+                                            "min":  218,
+                                            "max":  278,
+                                            "km":  232,
+                                            "airport_name":  "Juan Santamaria International Airport (SJO)"
+                                        }
+                            },
+    "coordinates":  {
+                        "lat":  10.491282499999999,
+                        "lng":  -85.6601938
+                    },
+    "formatted_address":  "10.4918098, Provincia de Guanacaste, Sardinal de Carrillo, Obandito, 50503, Costa Rica",
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://www.suitree.com/",
+    "hero_image":  "images/suitree-experience-hotel-costa-rica-hero.webp",
+    "hero_image_alt":  "Panoramic mountain view from an elevated treehouse suite at Suitree Experience Hotel, Guanacaste, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "Suitree is an architectural treehouse retreat set 9 meters above the forest floor in Guanacaste, where light, elevated suites blend into the jungle canopy. Guests enjoy panoramic mountain views, deep nature immersion, and a refined slow-food dining experience in total seclusion.",
+    "hero_description":  "Sleep above the forest in a private treehouse suite immersed in the Guanacaste canopy.",
+    "local_insight":  "Ideal for couples and design-minded travelers who want privacy, silence, and a genuine connection with nature rather than a busy beach resort. The elevated suites and slow-food dining make it a memorable honeymoon or wellness escape.",
+    "best_for":  [
+                     "Honeymooners \u0026 Couples",
+                     "Wellness Seekers",
+                     "Design \u0026 Nature Lovers"
+                 ],
+    "hotel_scores":  {
+                         "luxury":  {
+                                        "score":  5,
+                                        "reason":  "identity.luxury_level is Luxury; category is Luxury Treehouse Nature Retreat with award-featured architecture."
+                                    },
+                         "families":  {
+                                          "score":  2,
+                                          "reason":  "No family content is present; local_take emphasizes seclusion and privacy rather than family suitability."
+                                      },
+                         "couples":  {
+                                         "score":  5,
+                                         "reason":  "Honeymooners \u0026 Couples is the first-listed profile, citing private-pool treetop suites, total seclusion, and dedicated honeymoon and wedding experiences."
+                                     },
+                         "wellness":  {
+                                          "score":  4,
+                                          "reason":  "Aquam Spa with massage treatments and the Wellness Seekers profile support a strong wellness fit."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  4,
+                                                  "reason":  "E-bike and side-by-side activities plus guided nature, wildlife, and cultural tours provide clear adventure access."
+                                              },
+                         "walkability":  {
+                                             "score":  3,
+                                             "reason":  ""
+                                         },
+                         "nightlife":  {
+                                           "score":  3,
+                                           "reason":  ""
+                                       }
+                     },
+    "featured_tours":  [
+                           "slothadventure",
+                           "slothchocolatetour",
+                           "celesteriver"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "Where is Suitree located?",
+                    "a":  "Suitree is located in Sardinal, Guanacaste, Costa Rica, reached in roughly 30-45 minutes from Guanacaste Airport (LIR) in Liberia."
+                },
+                {
+                    "q":  "What types of accommodations does Suitree offer?",
+                    "a":  "Suitree offers elevated treetop suites, including options with private pools, Jacuzzis and pool views, along with garden-view bungalows."
+                },
+                {
+                    "q":  "Is there dining on-site?",
+                    "a":  "The on-site Taru restaurant serves a slow-food experience with seasonal menus built around local ingredients in an intimate forest-and-sky setting."
+                }
+            ],
+    "amenities":  [
+                      "Treetop suites elevated in the forest canopy",
+                      "Private pools and Jacuzzi suites",
+                      "Swim-up pool and Suitree Stone Pool",
+                      "Aquam Spa with massage treatments",
+                      "Taru slow-food restaurant",
+                      "Mirador 360-degree lookout",
+                      "E-bike and side-by-side adventure activities",
+                      "Guided nature, wildlife and cultural tours"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Treetop Suite with Private Pool",
+                           "description":  "An elevated canopy suite featuring its own private pool for maximum seclusion."
+                       },
+                       {
+                           "name":  "Treetop Suite with Jacuzzi",
+                           "description":  "A treetop suite outfitted with a private Jacuzzi amid the forest canopy."
+                       },
+                       {
+                           "name":  "Treetop Suite with Pool View",
+                           "description":  "A canopy suite offering views over the property\u0027s pool area."
+                       },
+                       {
+                           "name":  "Treetop Suite",
+                           "description":  "A light architectural pod lifted into the forest canopy with panoramic terrace views."
+                       },
+                       {
+                           "name":  "Bungalow with Garden View",
+                           "description":  "A ground-level bungalow overlooking the surrounding garden and forest."
+                       },
+                       {
+                           "name":  "Standard Bungalow with Garden View",
+                           "description":  "A comfortable standard bungalow with tranquil garden views."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+                                     {
+                                         "profile":  "Honeymooners \u0026 Couples",
+                                         "reason":  "Private-pool treetop suites, total seclusion, and dedicated honeymoon and wedding experiences make it a romantic canopy escape."
+                                     },
+                                     {
+                                         "profile":  "Wellness Seekers",
+                                         "reason":  "The Aquam Spa, longevity offerings, and stillness-focused philosophy suit travelers looking to reconnect and unwind."
+                                     },
+                                     {
+                                         "profile":  "Design \u0026 Nature Lovers",
+                                         "reason":  "Award-featured treetop architecture and immersion in the upper jungle layer appeal to those drawn to design and deep nature immersion."
+                                     }
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.9,
+                           "review_count":  251,
+                           "reviews":  [
+                                           {
+                                               "author":  "Liz Taillie",
+                                               "rating":  5,
+                                               "text":  "Wow, Suitree is truly an incredible experience. We stayed for 2 night in March and it was the perfect place to relax, embrace nature, get pampered and indulge in a little luxury. I booked through Chase and then was upgraded when we arrive as someone had canceled. Definitely recommend booking a tree top suite, the vi...",
+                                               "relative_time":  "3 months ago"
+                                           },
+                                           {
+                                               "author":  "Janet Stone",
+                                               "rating":  5,
+                                               "text":  "110% recommend this hotel.  We stayed for a week in April and it was by far one of our favorite vacations.  The property is beautiful and peaceful.  It\u0027s quite remote and quiet.  The rooms are very spacious and comfortable.  The staff is amazing, especially the restaurant staff.  They became our family for the week...",
+                                               "relative_time":  "2 months ago"
+                                           },
+                                           {
+                                               "author":  "Jack Blanchflower",
+                                               "rating":  5,
+                                               "text":  "My wife and I came here with our two small kids (1 \u0026 4) and we absolutely loved it.  It was so unique and I\u0027ve never stayed anywhere like it.  You have to give it a few days as the first day can be kind of a transition getting used to it all.  But, I promise you will.  We had a rental car so could go to some local b...",
+                                               "relative_time":  "a month ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "official-import",
+                                 "type":  "official",
+                                 "url":  "https://www.suitree.com/"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Suitree Experience Hotel is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Ideal for couples and design-minded travelers who want privacy, silence, and a genuine connection with nature rather than a busy beach resort. The elevated suites and slow-food dining make it a memorable honeymoon or wellness escape.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "https://www.suitree.com/",
+                         "note":  "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/puerto-carrillo-hoteles-hotel-suitree.J49Zy1Q",
+    "seo_title_override":  "Suitree Experience Hotel Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Suitree Experience Hotel, a private treehouse retreat in Sardinal, Guanacaste, with recommended tours, private airport transfers and local insight.",
+    "factual_attributes":  {
+                               "adults_only":  false,
+                               "all_inclusive_type":  "NOT_ALL_INCLUSIVE",
+                               "beach_relationship":  "NOT_APPLICABLE",
+                               "on_property_dining_count":  1,
+                               "positioning_evidence":  [
+                                                            {
+                                                                "audience":  "HONEYMOON",
+                                                                "evidence_type":  "DEDICATED_PAGE",
+                                                                "scope":  "PROPERTY_LEVEL",
+                                                                "source_id":  "src-suitree-honeymoon-page",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"At Suitree, your honeymoon becomes a quiet escape into nature, where every moment is designed to be shared, remembered and felt.\""
+                                                            }
+                                                        ],
+                               "evidence_sources":  {
+                                                        "src-suitree-official-site":  {
+                                                                                          "url":  "https://www.suitree.com/",
+                                                                                          "type":  "official_site",
+                                                                                          "retrieved_date":  "2026-10-02"
+                                                                                      },
+                                                        "src-suitree-honeymoon-page":  {
+                                                                                           "url":  "https://www.suitree.com/honeymoon/",
+                                                                                           "type":  "dedicated_page",
+                                                                                           "retrieved_date":  "2026-10-02"
+                                                                                       }
+                                                    },
+                               "fact_evidence":  {
+                                                     "adults_only":  [
+                                                                         "src-suitree-official-site"
+                                                                     ],
+                                                     "all_inclusive_type":  [
+                                                                                "src-suitree-official-site"
+                                                                            ],
+                                                     "beach_relationship":  [
+                                                                                "src-suitree-honeymoon-page"
+                                                                            ],
+                                                     "on_property_dining_count":  [
+                                                                                      "src-suitree-honeymoon-page"
+                                                                                  ],
+                                                     "positioning_evidence":  [
+                                                                                  "src-suitree-honeymoon-page"
+                                                                              ]
+                                                 }
+                           }
+}

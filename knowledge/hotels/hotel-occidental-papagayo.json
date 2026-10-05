@@ -1,0 +1,239 @@
+{
+    "id":  "hotel-occidental-papagayo",
+    "name":  "Occidental Papagayo",
+    "slug":  "hotel-occidental-papagayo",
+    "brand":  "Barceló (Occidental)",
+    "category":  "Adults-Only All-Inclusive Beach Resort",
+    "luxury_level":  "Upscale",
+    "destination_id":  "papagayo",
+    "location_label":  "Golfo de Papagayo",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  23,
+                             "max":  30,
+                             "label":  "Approximately 23-30 minutes (22.6 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+                             "source_type":  "google_routes_api"
+                         },
+    "transfer_by_airport":  {
+                                "lir":  {
+                                            "min":  23,
+                                            "max":  30,
+                                            "km":  22.6,
+                                            "airport_name":  "Daniel Oduber Quiros International Airport (LIR)"
+                                        },
+                                "sjo":  {
+                                            "min":  211,
+                                            "max":  269,
+                                            "km":  231.5,
+                                            "airport_name":  "Juan Santamaria International Airport (SJO)"
+                                        }
+                            },
+    "coordinates":  {
+                        "lat":  10.5885213,
+                        "lng":  -85.66988409999999
+                    },
+    "formatted_address":  "255 Blvd. Playa Hermosa 800 metros al norte 48-5000 Golfo Guanacaste Province, Guanacaste Province, Carrillo, 50503, Costa Rica",
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://www.barcelo.com/es-cr/occidental-papagayo/?esl-k=google-ads|ng|c396229068707|me|koccidental%20papagayo|p|t|dc|a87280191030|g8059190317\u0026id_hotel_sem=7381\u0026utm_source=google\u0026utm_medium=cpc\u0026utm_campaign=8059190317\u0026gad_source=1\u0026gad_campaignid=8059190317\u0026gbraid=0AAAAADpStBNUDJLC_xOy1kFjVv5g0LQvQ\u0026gclid=Cj0KCQjw39zSBhDhARIsANammDss04dYtsjq8O3HI7szb4NuDFmqTsyZR38cavHe7rTcTx4Fhhjd3yUaAuwEEALw_wcB",
+    "hero_image":  "images/hotel-occidental-papagayo-hero.webp",
+    "hero_image_alt":  "Occidental Papagayo, a Adults-Only All-Inclusive Beach Resort in Golfo de Papagayo, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "Occidental Papagayo is an adults-only, all-inclusive resort set on the Gulf of Papagayo in Costa Rica\u0027s Guanacaste province. Geared to couples and grown-up getaways, it pairs a beachfront Pacific setting with full all-inclusive dining and resort amenities.",
+    "hero_description":  "An adults-only all-inclusive escape on Costa Rica\u0027s Gulf of Papagayo.",
+    "local_insight":  "This is a solid pick for couples wanting a hassle-free, adults-only beach break in Guanacaste without children around. Best for travelers who prefer an all-inclusive base with easy access to northern Pacific beaches.",
+    "best_for":  [
+                     "Couples \u0026 Honeymooners",
+                     "All-Inclusive Seekers",
+                     "Guanacaste Beach Lovers"
+                 ],
+    "hotel_scores":  {
+                         "families":  {
+                                          "score":  1,
+                                          "reason":  "Adults-only atmosphere is an explicit policy; local_take states the resort is without children around."
+                                      },
+                         "couples":  {
+                                         "score":  5,
+                                         "reason":  "Adults-only all-inclusive format is the resort\u0027s entire identity; Couples \u0026 Honeymooners profile calls it a calm, romantic setting."
+                                     },
+                         "wellness":  {
+                                          "score":  2,
+                                          "reason":  "No spa or wellness program is present in amenities."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  2,
+                                                  "reason":  "No adventure tours or activity access is mentioned in source content."
+                                              },
+                         "walkability":  {
+                                             "score":  3,
+                                             "reason":  ""
+                                         },
+                         "nightlife":  {
+                                           "score":  3,
+                                           "reason":  ""
+                                       },
+                         "luxury":  {
+                                        "score":  3,
+                                        "reason":  "identity.luxury_level is Upscale but description offers no specific luxury amenities beyond generic resort language."
+                                    }
+                     },
+    "featured_tours":  [
+                           "hikingrinconnationalpark",
+                           "waterfallpumas",
+                           "hangingbridgessloths"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "Is Occidental Papagayo adults-only?",
+                    "a":  "Yes, Occidental Papagayo is an adults-only resort, making it well suited to couples and grown-up getaways."
+                },
+                {
+                    "q":  "Where is the hotel located?",
+                    "a":  "It sits on the Gulf of Papagayo in Guanacaste, on Costa Rica\u0027s northern Pacific coast."
+                },
+                {
+                    "q":  "Which airport should I fly into?",
+                    "a":  "The nearest airport is Guanacaste Airport (LIR) in Liberia, roughly a 40-minute private transfer away."
+                }
+            ],
+    "amenities":  [
+                      "All-inclusive dining",
+                      "Adults-only atmosphere",
+                      "Beachfront location on the Gulf of Papagayo",
+                      "Resort pool areas"
+                  ],
+    "room_types":  [
+
+                   ],
+    "traveler_profile_reasons":  [
+                                     {
+                                         "profile":  "Couples \u0026 Honeymooners",
+                                         "reason":  "The adults-only, all-inclusive format creates a calm, romantic setting ideal for couples seeking a beach getaway."
+                                     },
+                                     {
+                                         "profile":  "All-Inclusive Seekers",
+                                         "reason":  "Full all-inclusive pricing lets guests enjoy meals and drinks without worrying about extra costs during their stay."
+                                     },
+                                     {
+                                         "profile":  "Guanacaste Beach Lovers",
+                                         "reason":  "Its Gulf of Papagayo location puts guests close to the northern Pacific\u0027s beaches and easy airport access via Liberia."
+                                     }
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.3,
+                           "review_count":  4363,
+                           "reviews":  [
+                                           {
+                                               "author":  "M K.",
+                                               "rating":  4,
+                                               "text":  "Good things:\n\n1. Very good location.\n2. The staff and service at excursion counter opposite to reception was very good. I dealt with Larry and JJ.\n3. Buffet staff and service was very good. Very hard working staff and manager.\n4. Bar staff at main bar and Bar and grill very good.\n5. Shuttle service and staff very go...",
+                                               "relative_time":  "a month ago"
+                                           },
+                                           {
+                                               "author":  "tim fost",
+                                               "rating":  5,
+                                               "text":  "My wife and I recently stayed for a week at Occidental Papagayo. The resort is very nice and we loved the varied topography. The hills provide wonderful sea views. I contacted the resort 2 weeks prior to my arrival and requested a specific building. Cinthya provided excellent communication and granted my request upo...",
+                                               "relative_time":  "2 months ago"
+                                           },
+                                           {
+                                               "author":  "Tenille Fisher",
+                                               "rating":  5,
+                                               "text":  "This resort was amazing! I was with my mom and we both loved it. The people there are fantastic, all the staff are so wonderful. Pools were perfect, food was great and lot\u0027s of variety. There are even so many wonderful aminals to see at the resort and the beach is gorgeous! Something to note is that the resort is on...",
+                                               "relative_time":  "3 months ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "official-import",
+                                 "type":  "official",
+                                 "url":  "https://www.barcelo.com/es-cr/occidental-papagayo/?esl-k=google-ads|ng|c396229068707|me|koccidental%20papagayo|p|t|dc|a87280191030|g8059190317\u0026id_hotel_sem=7381\u0026utm_source=google\u0026utm_medium=cpc\u0026utm_campaign=8059190317\u0026gad_source=1\u0026gad_campaignid=8059190317\u0026gbraid=0AAAAADpStBNUDJLC_xOy1kFjVv5g0LQvQ\u0026gclid=Cj0KCQjw39zSBhDhARIsANammDss04dYtsjq8O3HI7szb4NuDFmqTsyZR38cavHe7rTcTx4Fhhjd3yUaAuwEEALw_wcB"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Occidental Papagayo is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "This is a solid pick for couples wanting a hassle-free, adults-only beach break in Guanacaste without children around. Best for travelers who prefer an all-inclusive base with easy access to northern Pacific beaches.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "https://www.barcelo.com/es-cr/occidental-papagayo/?esl-k=google-ads|ng|c396229068707|me|koccidental%20papagayo|p|t|dc|a87280191030|g8059190317\u0026id_hotel_sem=7381\u0026utm_source=google\u0026utm_medium=cpc\u0026utm_campaign=8059190317\u0026gad_source=1\u0026gad_campaignid=8059190317\u0026gbraid=0AAAAADpStBNUDJLC_xOy1kFjVv5g0LQvQ\u0026gclid=Cj0KCQjw39zSBhDhARIsANammDss04dYtsjq8O3HI7szb4NuDFmqTsyZR38cavHe7rTcTx4Fhhjd3yUaAuwEEALw_wcB",
+                         "note":  "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/panama-beach-hoteles-occidental-papagayo-adults-only-all-inclusive.J9aJbZH",
+    "seo_title_override":  "Occidental Papagayo Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Hotel Occidental Papagayo with recommended tours, private airport transfers and local Guanacaste insight.",
+    "factual_attributes":  {
+                               "adults_only":  true,
+                               "all_inclusive_type":  "ALL_INCLUSIVE",
+                               "beach_relationship":  {
+                                                          "beachfront":  true,
+                                                          "direct_access":  true
+                                                      },
+                               "on_property_dining_count":  3,
+                               "positioning_evidence":  [
+                                                            {
+                                                                "audience":  "HONEYMOON",
+                                                                "evidence_type":  "EXPLICIT_MARKETING",
+                                                                "scope":  "PROPERTY_LEVEL",
+                                                                "source_id":  "src-barcelo-official-site",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"luna de miel\""
+                                                            },
+                                                            {
+                                                                "audience":  "COUPLES",
+                                                                "evidence_type":  "EXPLICIT_MARKETING",
+                                                                "scope":  "PROPERTY_LEVEL",
+                                                                "source_id":  "src-barcelo-official-site",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"ideal para parejas\""
+                                                            }
+                                                        ],
+                               "evidence_sources":  {
+                                                        "src-barcelo-official-site":  {
+                                                                                          "url":  "https://www.barcelo.com/es-cr/occidental-papagayo/",
+                                                                                          "type":  "official_site",
+                                                                                          "retrieved_date":  "2026-10-02"
+                                                                                      }
+                                                    },
+                               "fact_evidence":  {
+                                                     "adults_only":  [
+                                                                         "src-barcelo-official-site"
+                                                                     ],
+                                                     "all_inclusive_type":  [
+                                                                                "src-barcelo-official-site"
+                                                                            ],
+                                                     "beach_relationship":  [
+                                                                                "src-barcelo-official-site"
+                                                                            ],
+                                                     "on_property_dining_count":  [
+                                                                                      "src-barcelo-official-site"
+                                                                                  ],
+                                                     "positioning_evidence":  [
+                                                                                  "src-barcelo-official-site"
+                                                                              ]
+                                                 }
+                           }
+}

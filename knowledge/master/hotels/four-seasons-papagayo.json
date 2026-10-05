@@ -1,0 +1,394 @@
+{
+    "template": "experience",
+    "identity": {
+        "id": "four-seasons-papagayo",
+        "official_name": "Four Seasons Resort Costa Rica at Peninsula Papagayo",
+        "display_name": "Four Seasons Peninsula Papagayo",
+        "slug": "four-seasons-papagayo",
+        "brand": "Four Seasons",
+        "category": "Luxury Beach Resort",
+        "luxury_level": "Ultra Luxury"
+    },
+    "location": {
+        "destination_id": "papagayo",
+        "location_label": "Peninsula Papagayo",
+        "province": "Guanacaste",
+        "airport_id": "lir",
+        "tour_pickup_zone": "papagayo",
+        "transfer": {
+            "min": 41,
+            "max": 53,
+            "label": "Approximately 41-53 minutes (36.9 km) by private transfer from Daniel Oduber Quiros International Airport (LIR), based on real driving distance.",
+            "source_type": "google_routes_api"
+        },
+        "transfer_by_airport": {
+            "lir": {
+                "min": 41,
+                "max": 53,
+                "km": 36.9,
+                "airport_name": "Daniel Oduber Quiros International Airport (LIR)"
+            },
+            "sjo": {
+                "min": 229,
+                "max": 292,
+                "km": 245.8,
+                "airport_name": "Juan Santamaria International Airport (SJO)"
+            }
+        },
+        "coordinates": {
+            "lat": 10.6115855,
+            "lng": -85.6884147
+        },
+        "formatted_address": "Liberia Guanaste 26Km al Norte del Doit, CR-G, Peninsula Papagayo, 05000, Costa Rica"
+    },
+    "official_sources": [
+        {
+            "type": "overview",
+            "url": "https://www.fourseasons.com/costarica/",
+            "status": "blocked_403",
+            "last_checked": "2026-07-11"
+        },
+        {
+            "type": "hotel_facts",
+            "url": "https://press.fourseasons.com/costarica/hotel-facts/",
+            "status": "imported",
+            "last_checked": "2026-07-11"
+        },
+        {
+            "type": "press_updates",
+            "url": "https://press.fourseasons.com/costarica/",
+            "status": "imported",
+            "last_checked": "2026-07-11"
+        }
+    ],
+    "official_facts": {
+        "summary": "An ultra-luxury coastal resort in Peninsula Papagayo with beach access, wellness, dining, golf and family-oriented programming.",
+        "features": [
+            "Pacific coastal setting",
+            "Wellness and spa",
+            "Golf access",
+            "Dining experiences",
+            "Family programming",
+            "Beach and water activities"
+        ],
+        "fact_status": "partially_verified",
+        "note": "Primary website pages returned 403 during automated import. Accessible official press sources were imported; remaining facts require final human verification."
+    },
+    "editorial": {
+        "hero_description": "An ultra-luxury Pacific retreat where privacy, refined service and Guanacaste adventure come together.",
+        "why_stay_here": {
+            "title": "Why Stay Here",
+            "summary": "Four Seasons Peninsula Papagayo is one of the best bases in Guanacaste for travelers looking to combine luxury accommodations with unforgettable outdoor experiences. Its location provides easy access to volcanoes, wildlife, waterfalls, beaches and private adventures while maintaining the comfort and service of a world-class resort."
+        },
+        "description": "Four Seasons Resort Costa Rica at Peninsula Papagayo is an ultra-luxury coastal retreat combining beaches, wellness, dining, golf and access to private Guanacaste adventures. It is a strong base for travelers who want polished resort service while still exploring volcanoes, wildlife and rainforest landscapes beyond the peninsula.",
+        "tone": "sophisticated, useful and locally informed"
+    },
+    "experience_highlights": [
+        {
+            "title": "Luxury Meets Nature",
+            "description": "Stay surrounded by tropical forest while enjoying one of Costa Rica's most exclusive resorts."
+        },
+        {
+            "title": "Perfect Base for Adventures",
+            "description": "Most of Guanacaste's top attractions are accessible on private day trips."
+        },
+        {
+            "title": "Privacy and Relaxation",
+            "description": "Ideal for couples, families and travelers seeking premium service."
+        },
+        {
+            "title": "Personalized Experiences",
+            "description": "Private transportation and customized itineraries maximize your vacation."
+        }
+    ],
+    "local_tips": [
+        "Leave early for volcano tours to avoid afternoon rain.",
+        "Reserve private transportation in advance during high season.",
+        "Combine one adventure day with one relaxing beach day.",
+        "Sunset is spectacular from the Papagayo Peninsula."
+    ],
+    "suggested_stay": [
+        {
+            "day": 1,
+            "title": "Arrival & Relaxation",
+            "description": "Private airport transfer, check-in and a relaxed first evening at the resort."
+        },
+        {
+            "day": 2,
+            "title": "Buena Vista Adventure",
+            "description": "Enjoy a full-day combination of adventure, nature and traditional Costa Rican experiences."
+        },
+        {
+            "day": 3,
+            "title": "Resort & Beach Day",
+            "description": "Take time to enjoy the beach, pools, spa and resort facilities."
+        },
+        {
+            "day": 4,
+            "title": "Hanging Bridges & Sloths",
+            "description": "Discover Costa Rica's rainforest, wildlife and hanging bridges on a private day experience."
+        },
+        {
+            "day": 5,
+            "title": "Free Day",
+            "description": "Relax at the resort or explore nearby beaches and coastal communities."
+        },
+        {
+            "day": 6,
+            "title": "Catamaran Experience",
+            "description": "Enjoy a relaxing sailing experience with coastal views and a beautiful Pacific sunset."
+        },
+        {
+            "day": 7,
+            "title": "Departure",
+            "description": "Private transfer to Guanacaste Airport (LIR)."
+        }
+    ],
+    "wild_recommendation": {
+        "score": 5,
+        "summary": "One of the strongest luxury options in Guanacaste for travelers who want to combine premium accommodations with authentic Costa Rican experiences."
+    },
+    "planning": {
+        "ideal_stay": "4–6 nights",
+        "best_season": "December to August",
+        "recommended_transportation": "Private transportation",
+        "closest_airport": "Daniel Oduber Quirós International Airport (LIR)"
+    },
+    "wild_insights": {
+        "local_take": "For travelers seeking privacy, polished service and an easy base for private exploration, Four Seasons is one of our strongest Papagayo recommendations. It works especially well when resort time is balanced with one or two carefully selected wildlife or volcano experiences.",
+        "insights": [
+            {
+                "title": "Best balance",
+                "content": "Plan one or two full-day private experiences and preserve the remaining days for the resort, beach and wellness facilities."
+            },
+            {
+                "title": "Departure planning",
+                "content": "Early departures are generally more comfortable for longer Arenal or rainforest excursions and help maximize daylight."
+            },
+            {
+                "title": "Arrival recommendation",
+                "content": "A pre-arranged private airport transfer is the simplest way to begin the stay without waiting or coordinating transportation after landing."
+            }
+        ]
+    },
+    "traveler_profiles": [
+        "Luxury travelers",
+        "Couples",
+        "Families",
+        "Honeymoons",
+        "Wellness",
+        "Golf"
+    ],
+    "experience_scores": {
+        "luxury": {
+            "score": 5,
+            "reason": "Described as an 'ultra-luxury coastal retreat' with polished resort service."
+        },
+        "families": {
+            "score": 3,
+            "reason": "No specific family amenities mentioned, though it offers beaches, golf and wildlife access."
+        },
+        "couples": {
+            "score": 4,
+            "reason": "Emphasis on privacy, polished service and romantic wellness/dining makes it well-suited for couples."
+        },
+        "wellness": {
+            "score": 4,
+            "reason": "Wellness is explicitly listed among its core offerings."
+        },
+        "adventure_access": {
+            "score": 4,
+            "reason": "Serves as a strong base for private Guanacaste adventures, volcanoes, wildlife and rainforest."
+        },
+        "walkability": {
+            "score": 2,
+            "reason": "Described as a private peninsula retreat with no mention of a walkable town center."
+        },
+        "nightlife": {
+            "score": 1,
+            "reason": "No nightlife mentioned; focus is on privacy and secluded resort experiences."
+        }
+    },
+    "gallery": {
+        "hero_image": "images/four-seasons-papagayo-hero.webp",
+        "hero_image_alt": "Panoramic infinity pool at Four Seasons Resort Costa Rica at Peninsula Papagayo, overlooking the Gulf of Papagayo",
+        "hero_image_status": "google_places_photo",
+        "approved_images": [],
+        "candidate_images": [],
+        "usage_note": "Only publish owned, licensed or explicitly authorized hotel imagery."
+    },
+    "recommendations": {
+        "featured_tours": [
+            "hangingbridgessloths",
+            "buenavistamegacombo",
+            "celesteriver"
+        ],
+        "related_articles": [
+            "liberia-airport-transfer-guide"
+        ],
+        "nearby_destinations": [
+            "papagayo",
+            "playa-hermosa",
+            "playa-coco"
+        ]
+    },
+    "faq": [
+        {
+            "q": "Which airport is best for Four Seasons Papagayo?",
+            "a": "Guanacaste Airport (LIR) is the most convenient international airport for the resort. A pre-arranged private transfer is usually the simplest arrival option."
+        },
+        {
+            "q": "How long is the transfer from Guanacaste Airport?",
+            "a": "Wild Papagayo generally estimates approximately 35–45 minutes, depending on traffic and the exact pickup and drop-off points."
+        },
+        {
+            "q": "Can guests take private day tours from Four Seasons Papagayo?",
+            "a": "Yes. Private tours can depart from the resort to wildlife areas, hanging bridges, volcano regions, waterfalls and other Guanacaste attractions."
+        },
+        {
+            "q": "Is Four Seasons Papagayo suitable for families?",
+            "a": "Yes. The resort combines family-oriented amenities with coastal settings and private excursions that can be adapted to different ages."
+        },
+        {
+            "q": "Should guests rent a car?",
+            "a": "Not necessarily. Travelers planning mostly resort time and guided excursions often prefer airport transfers and tour transportation instead of keeping a rental vehicle for the full stay."
+        }
+    ],
+    "seo": {
+        "title": "Four Seasons Resort Costa Rica at Peninsula Papagayo Guide | Tours, Transfers & Local Tips",
+        "description": "Plan a stay at Four Seasons Peninsula Papagayo with verified resort facts, private airport transfers, recommended tours and local Guanacaste insight.",
+        "keywords": [
+            "Four Seasons Papagayo tours",
+            "Four Seasons Costa Rica transfer",
+            "things to do near Four Seasons Papagayo",
+            "Peninsula Papagayo travel guide"
+        ]
+    },
+    "verification": {
+        "status": "reviewed",
+        "last_verified": "2026-07-11",
+        "reviewer": "Wild Papagayo Team",
+        "note": "Official hotel details should be rechecked before publication. Transfer times are Wild Papagayo operational estimates and may vary."
+    },
+    "workflow": {
+        "status": "published",
+        "editorial_standard": "Wild Papagayo Hotel Gold Standard v2.0",
+        "publication_threshold": 90
+    },
+    "experience_status": {
+        "template": "experience",
+        "editorial_version": "2.0",
+        "certification": "gold"
+    },
+    "relationships": {
+        "tours": [
+            "buenavistamegacombo",
+            "celesteriver",
+            "hangingbridgessloths"
+        ],
+        "destinations": [
+            "papagayo",
+            "playa-hermosa",
+            "playa-coco"
+        ],
+        "nearby_hotels": [],
+        "blogs": [],
+        "last_discovered": "2026-07-12"
+    },
+    "amenities": [
+        "Nemare Restaurant (signature, smoke-infused dishes and cocktails)",
+        "Bahia (wood-fired open-kitchen Latin American cuisine, all day)",
+        "Pesce (upscale seafood, specialty pastas, wine pairings)",
+        "Anejo (daytime acai bowls/juices, evening tapas and DJ)",
+        "La Reserva rum bar",
+        "The Spa at Four Seasons (18 treatment rooms, volcanic mud treatments)",
+        "Arnold Palmer-designed 18-hole golf course",
+        "Five tennis courts",
+        "Four swimming pools including infinity-edge pools",
+        "Two private golden-sand beaches",
+        "Kids For All Seasons kids' club (ages 4-12)",
+        "Papagayo Park: tennis, pickleball, padel courts, lap pool, wellness shala"
+    ],
+    "room_types": [
+        {
+            "name": "Luxury Suites",
+            "description": "Suites with views of the surrounding tropical forest or bay, with the option of furnished patios and adjoining infinity-edge pools."
+        },
+        {
+            "name": "Premium Specialty Suites",
+            "description": "Suites suited to travelling with family and friends or extended stays, with separate living and sleeping areas and extra space to entertain or unwind."
+        },
+        {
+            "name": "Private Residences",
+            "description": "Accommodations designed for families, groups and longer-stay guests, featuring private kitchens and panoramic views of the peninsula from an infinity pool and terrace."
+        }
+    ],
+    "google_reviews": {
+        "rating": 4.7,
+        "review_count": 1733,
+        "reviews": [
+            {
+                "author": "Danakha",
+                "rating": 5,
+                "text": "Our stay at Four Seasons Costa Rica was amazing from start to finish. What stood out most was the exceptional service. Many of the staff remembered us by our first names and even recalled what we had ordered previously, which made the experience feel incredibly personal and welcoming.\n\nThe atmosphere throughout the...",
+                "relative_time": "a month ago"
+            },
+            {
+                "author": "Mia Mowzoon",
+                "rating": 5,
+                "text": "If you’re a couple looking for an unforgettable vacation, I honestly can’t imagine a better destination than Four Seasons Resort Peninsula Papagayo. My husband and I chose this resort for our honeymoon, and it exceeded every expectation.\n\nWe’re in our late 30s/early 40s, enjoy staying active, working out, eating hea...",
+                "relative_time": "a month ago"
+            },
+            {
+                "author": "Lucie A",
+                "rating": 5,
+                "text": "What an experience staying 5 days at this breathtaking hotel! It truly felt like a dream. Everything was perfection — the food, the rooms, the beautifully maintained grounds, and the incredible access to two beaches: one perfect for sunsets and the other for sunrises.\n\nA must-do is the Trail of The Giants which has...",
+                "relative_time": "7 months ago"
+            }
+        ],
+        "source": "Google Places API, fetched 2026-07-17"
+    },
+    "booking": {
+        "expedia_affiliate_link": "https://expedia.com/affiliates/papagayo-hoteles-four-seasons-resort-costa-rica.fgA7ezL"
+    },
+    "factual_attributes": {
+        "adults_only": false,
+        "beach_relationship": {
+            "beachfront": true,
+            "direct_access": true
+        },
+        "on_property_dining_count": 5,
+        "positioning_evidence": [
+            {
+                "audience": "FAMILY",
+                "evidence_type": "EXPLICIT_MARKETING",
+                "scope": "PAGE_LEVEL",
+                "source_id": "src-fourseasons-spring-break",
+                "verified_date": "2026-10-02",
+                "note": "\"activities for every member of the family\" -- Spring Break press release"
+            }
+        ],
+        "family_facts": {
+            "childrens_programming_available": true
+        },
+        "evidence_sources": {
+            "src-fourseasons-hotel-facts": {
+                "url": "https://press.fourseasons.com/costarica/hotel-facts/",
+                "type": "press_release",
+                "retrieved_date": "2026-10-02"
+            },
+            "src-fourseasons-spring-break": {
+                "url": "https://press.fourseasons.com/content/fourseasons_pressroom/printView.html?pageToPrint=/content/fourseasons_pressroom/en/news/costarica/2024/spring_break",
+                "type": "press_release",
+                "retrieved_date": "2026-10-02"
+            }
+        },
+        "fact_evidence": {
+            "adults_only": ["src-fourseasons-hotel-facts"],
+            "beach_relationship": ["src-fourseasons-hotel-facts"],
+            "on_property_dining_count": ["src-fourseasons-hotel-facts"],
+            "positioning_evidence": ["src-fourseasons-spring-break"],
+            "family_facts.childrens_programming_available": ["src-fourseasons-hotel-facts"]
+        }
+    }
+}

@@ -1,0 +1,311 @@
+{
+    "identity": {
+        "id": "the-westin-reserva-conchal-an-all-inclusive-golf-resort-spa",
+        "official_name": "The Westin Reserva Conchal, an All-Inclusive Golf Resort & Spa",
+        "display_name": "The Westin Reserva Conchal, an All-Inclusive Golf Resort & Spa",
+        "slug": "the-westin-reserva-conchal-an-all-inclusive-golf-resort-spa",
+        "brand": "Westin by Marriott",
+        "category": "All-Inclusive Golf & Spa Resort",
+        "luxury_level": "Upscale"
+    },
+    "location": {
+        "destination_id": "playa-conchal",
+        "location_label": "Playa Conchal",
+        "province": "Guanacaste",
+        "airport_id": "lir",
+        "tour_pickup_zone": "papagayo",
+        "transfer": {
+            "min": 35,
+            "max": 50,
+            "label": "Approximately 1 to 1.5 hours by private transfer from Guanacaste Airport (LIR) in Liberia.",
+            "source_type": "claude_estimate_from_official_source"
+        }
+    },
+    "official_sources": [
+        {
+            "source_id": "official-import",
+            "type": "official",
+            "url": "https://www.guestreservations.com/the-westin-golf-resort-spa-playa-conchal-all-inclusive/booking?utm_source=google&utm_medium=cpc&utm_campaign=21835622398&gad_source=1&gad_campaignid=21831759509&gbraid=0AAAAADiMQMbKGv2mOv7MJn5nz33u43cDj&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6dFpkgsH6grH6sEWmPwXOpq-0bWSHJArbQdoxef3VSf3GFn_NxBgU4aAkOSEALw_wcB&ctTriggered=true"
+        }
+    ],
+    "official_facts": {
+        "summary": "The Westin Reserva Conchal, an All-Inclusive Golf Resort & Spa is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property's own source."
+    },
+    "editorial": {
+        "hero_description": "All-inclusive golf and spa living on Guanacaste's stunning Playa Conchal coast.",
+        "description": "A sprawling all-inclusive resort set near Playa Conchal on Costa Rica's Guanacaste coast, combining a golf course, spa, tennis courts, and family-friendly facilities. Guests enjoy multiple dining venues, outdoor pools, and supervised kids' activities in a relaxed beachside setting.",
+        "tone": "useful, locally informed and guest-focused",
+        "why_stay_here": {
+            "title": "Why Stay Here",
+            "summary": "The Westin Reserva Conchal, an All-Inclusive Golf Resort & Spa is one of the best places to stay if you want to combine comfort with unforgettable experiences around Guanacaste."
+        }
+    },
+    "traveler_profiles": [
+        "Golf Enthusiasts",
+        "Families with Kids",
+        "All-Inclusive Seekers"
+    ],
+    "experience_scores": {
+        "luxury": {
+            "score": 3,
+            "reason": ""
+        },
+        "families": {
+            "score": 3,
+            "reason": ""
+        },
+        "couples": {
+            "score": 3,
+            "reason": ""
+        },
+        "wellness": {
+            "score": 3,
+            "reason": ""
+        },
+        "adventure_access": {
+            "score": 3,
+            "reason": ""
+        },
+        "walkability": {
+            "score": 3,
+            "reason": ""
+        },
+        "nightlife": {
+            "score": 3,
+            "reason": ""
+        }
+    },
+    "wild_insights": {
+        "local_take": "Ideal for travelers who want a hassle-free, all-inclusive base near one of Guanacaste's most beautiful beaches, with golf, tennis, and plenty for kids to do. Best suited to families and couples who prefer resort comforts over independent exploration.",
+        "insights": []
+    },
+    "recommendations": {
+        "featured_tours": [
+            "miravallesspa",
+            "buenavistamegacombo",
+            "monteverdtreetopwalk"
+        ],
+        "related_articles": [
+            "liberia-airport-transfer-guide"
+        ],
+        "nearby_destinations": [
+            "papagayo"
+        ]
+    },
+    "faq": [
+        {
+            "q": "Where is The Westin Reserva Conchal located?",
+            "a": "The resort is located at Playa Conchal, about 1km before Playa Brasilito in the Guanacaste province of Costa Rica."
+        },
+        {
+            "q": "Is the resort good for families with children?",
+            "a": "Yes, the resort features supervised kids' activities, a children's play area, a game room, and family suites with sofabeds, making it well-suited for families."
+        },
+        {
+            "q": "What activities and amenities are available on-site?",
+            "a": "The resort offers a golf course, a full-service spa, outdoor pools, tennis courts, a fitness center, multiple restaurants, and lounge/bar options."
+        }
+    ],
+    "gallery": {
+        "hero_image": "images/luxury-costa-rica-tours-hero.webp",
+        "hero_image_alt": "The Westin Reserva Conchal, An All-Inclusive Golf Resort & Spa",
+        "hero_image_status": "temporary_placeholder",
+        "approved_images": [],
+        "candidate_images": [],
+        "usage_note": "Only publish owned, licensed or explicitly authorized hotel imagery."
+    },
+    "seo": {
+        "title": "The Westin Reserva Conchal, An All-Inclusive Golf Resort & Spa Guide | Tours, Transfers & Local Tips",
+        "description": "Plan your stay at The Westin Reserva Conchal, An All-Inclusive Golf Resort & Spa with recommended tours, private airport transfers and local Guanacaste insight.",
+        "keywords": [
+            "The Westin Reserva Conchal, An All-Inclusive Golf Resort & Spa tours",
+            "The Westin Reserva Conchal, An All-Inclusive Golf Resort & Spa transfer",
+            "things to do near The Westin Reserva Conchal, An All-Inclusive Golf Resort & Spa"
+        ]
+    },
+    "verification": {
+        "status": "unverified",
+        "last_verified": "",
+        "official_source": "https://www.guestreservations.com/the-westin-golf-resort-spa-playa-conchal-all-inclusive/booking?utm_source=google&utm_medium=cpc&utm_campaign=21835622398&gad_source=1&gad_campaignid=21831759509&gbraid=0AAAAADiMQMbKGv2mOv7MJn5nz33u43cDj&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6dFpkgsH6grH6sEWmPwXOpq-0bWSHJArbQdoxef3VSf3GFn_NxBgU4aAkOSEALw_wcB&ctTriggered=true",
+        "note": "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+    },
+    "workflow": {
+        "editorial_standard": "Wild Papagayo Hotel Gold Standard v2.0",
+        "publication_threshold": 90,
+        "status": "draft"
+    },
+    "amenities": [
+        "Outdoor swimming pool",
+        "On-site restaurant and lounge/bar",
+        "Golf course",
+        "Tennis court",
+        "Fitness center",
+        "Full-service spa",
+        "Supervised kids' activities and children's play area",
+        "Concierge and room service"
+    ],
+    "room_types": [
+        {
+            "name": "Club 2 Double Beds Guestroom",
+            "description": "A guestroom with two double beds offering Club-level access and standard resort amenities."
+        },
+        {
+            "name": "Family Junior Suite",
+            "description": "A one-bedroom junior suite with either two double beds or a king bed plus a sofabed, designed for families."
+        },
+        {
+            "name": "Junior Premium Suite",
+            "description": "An upgraded one-bedroom junior suite with a king or two double beds plus sofabed."
+        },
+        {
+            "name": "Deluxe Junior Suite",
+            "description": "A spacious one-bedroom deluxe junior suite with a king or two double beds and sofabed."
+        },
+        {
+            "name": "Club 1 King Bed Suite",
+            "description": "A Club-level king suite offering enhanced amenities for couples or solo travelers."
+        },
+        {
+            "name": "Family 1 Bedroom King Suite",
+            "description": "A one-bedroom family suite with a king bed, resort view, and balcony."
+        }
+    ],
+    "traveler_profile_reasons": [
+        {
+            "profile": "Golf Enthusiasts",
+            "reason": "The resort's on-site golf course makes it a natural fit for travelers who want to combine beach time with rounds on the green."
+        },
+        {
+            "profile": "Families with Kids",
+            "reason": "Supervised kids' activities, a children's play area, family suites with sofabeds, and a game room cater directly to families."
+        },
+        {
+            "profile": "All-Inclusive Seekers",
+            "reason": "With multiple dining venues, pools, spa, and tennis all bundled in, it suits guests who prefer a stress-free all-inclusive stay."
+        }
+    ],
+    "experience_highlights": [
+        {
+            "title": "Excellent Location",
+            "description": "Easy access to Costa Rica's top attractions."
+        },
+        {
+            "title": "Nature",
+            "description": "Surrounded by tropical landscapes."
+        },
+        {
+            "title": "Private Experiences",
+            "description": "Ideal starting point for customized adventures."
+        },
+        {
+            "title": "Relaxation",
+            "description": "Perfect balance between exploration and rest."
+        }
+    ],
+    "local_tips": [
+        "Book tours early.",
+        "Use sunscreen.",
+        "Carry cash for small stops.",
+        "Ask Wild Papagayo for local recommendations."
+    ],
+    "suggested_stay": [
+        {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Transfer and relax."
+        },
+        {
+            "day": 2,
+            "title": "Miravalles Volcano Waterfalls & Natural Spa",
+            "description": "A recommended full-day experience with pickup from The Westin Reserva Conchal, an All-Inclusive Golf Resort & Spa."
+        },
+        {
+            "day": 3,
+            "title": "Buena Vista Mega Combo",
+            "description": "Another curated experience recommended for guests of The Westin Reserva Conchal, an All-Inclusive Golf Resort & Spa."
+        },
+        {
+            "day": 4,
+            "title": "Departure",
+            "description": "Private airport transfer."
+        }
+    ],
+    "planning": {
+        "ideal_stay": "4-6 nights",
+        "transportation": "Private Transfer",
+        "airport": "LIR"
+    },
+    "wild_recommendation": {
+        "score": 5,
+        "summary": "Recommended by Wild Papagayo."
+    },
+    "template": "experience",
+    "google_reviews": {
+        "rating": 4.5,
+        "review_count": 4059,
+        "reviews": [
+            {
+                "author": "Felix Dominguez",
+                "rating": 5,
+                "text": "⭐⭐⭐⭐⭐\n\nOur stay at The Westin Reserva Conchal was absolutely amazing! From the moment we arrived until the day we left, the customer service was outstanding. Every employee we encountered was incredibly polite, professional, and genuinely welcoming. You can truly feel the warmth of Costa Rican hospitality—it made ou...",
+                "relative_time": "2 months ago"
+            },
+            {
+                "author": "Danh Nguyen",
+                "rating": 4,
+                "text": "My family and I had a wonderful time here and would not hesitate to come back. The food was great and we never really had a bad meal. The restaurants to book had to be done the day of, so if you are looking to go for Asian or Mediterranean you best be ready at 8am.\n\nThe pool was nice, the service was great and tips...",
+                "relative_time": "2 weeks ago"
+            },
+            {
+                "author": "Rae Ann Strittmatter",
+                "rating": 5,
+                "text": "We had a wonderful stay at The Westin Reserva Conchal! The resort and grounds are absolutely beautiful, and we truly enjoyed our time in Costa Rica.\n\nThe highlight of our experience, however, was Camila at the concierge desk. She was absolutely exceptional! From the moment we met her, she was warm, welcoming, helpfu...",
+                "relative_time": "2 weeks ago"
+            }
+        ],
+        "source": "Google Places API, fetched 2026-09-25"
+    },
+    "relationships": {
+        "tours": [
+            "arenalhangingbridges",
+            "arenalhotsprings",
+            "atvmountainride",
+            "borinque4senses",
+            "buenavistamegacombo",
+            "canyonadventurepark",
+            "canyoningtubing",
+            "celesteriver",
+            "coloradoriverrafting",
+            "congotrail",
+            "congotrailcanopy",
+            "costaricahighlights",
+            "floatingtenorio",
+            "haciendaaromal",
+            "haciendaguachipelin",
+            "hangingbridgessloths",
+            "hikingrinconnationalpark",
+            "horsebackaromal",
+            "laleona",
+            "miravallesspa",
+            "monteverdehangingbridgescoffee",
+            "monteverdtreetopwalk",
+            "oropendolahotsprings",
+            "ostionalturtles",
+            "paloverdeculturalviejo",
+            "paloverderiverboattour",
+            "sensoriarainforest",
+            "slothadventure",
+            "slothchocolatetour",
+            "tenoriorafting",
+            "tubingceleste",
+            "waterfalllovers",
+            "waterfallpumas"
+        ],
+        "destinations": [
+            "papagayo"
+        ],
+        "nearby_hotels": [],
+        "blogs": [],
+        "last_discovered": "2026-09-25"
+    }
+}

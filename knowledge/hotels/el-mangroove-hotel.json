@@ -1,0 +1,223 @@
+{
+    "id":  "el-mangroove-hotel",
+    "name":  "el Mangroove Hotel",
+    "slug":  "el-mangroove-hotel",
+    "brand":  "El Mangroove, Autograph Collection",
+    "category":  "Luxury Beachfront Resort",
+    "luxury_level":  "Luxury",
+    "destination_id":  "papagayo",
+    "location_label":  "Gulf of Papagayo",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  35,
+                             "max":  50,
+                             "label":  "Approximately 30 to 40 minutes by private transfer from Guanacaste Airport (LIR) in Liberia.",
+                             "source_type":  "claude_estimate_from_official_source"
+                         },
+    "transfer_by_airport":  null,
+    "coordinates":  null,
+    "formatted_address":  null,
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://www.elmangroovehotel.com/?utm_source=googleads\u0026utm_medium=ppc\u0026utm_campaign=Brand_Search_ES_AlwaysOn\u0026utm_id=ElMangroove-595917\u0026utm_term=Branded\u0026utm_content=Brand-ES\u0026gclsrc=aw.ds\u0026gad_source=1\u0026gad_campaignid=21346428694\u0026gbraid=0AAAAA9wrniHf6GlFd2DNtBrHggAvnkBrD\u0026gclid=Cj0KCQjw39zSBhDhARIsANammDtWekBE2kyY2M1HKjEY1bDzjWMxD_Kv5wXlKrZdFT5SpzQYolYYTL4aAtz7EALw_wcB",
+    "hero_image":  "images/el-mangroove-hotel-hero.webp",
+    "hero_image_alt":  "el Mangroove Hotel, a Luxury Beachfront Resort in Gulf of Papagayo, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "El Mangroove is a contemporary luxury beachfront resort on the Gulf of Papagayo, blending modern design with tropical nature. With a tranquil pool, two ocean-view restaurants, and a nature-set spa, it delivers a refined yet relaxed Pacific coast escape.",
+    "hero_description":  "Contemporary luxury on the shores of Costa Rica\u0027s Gulf of Papagayo.",
+    "local_insight":  "Ideal for design-minded travelers who want polished luxury paired with genuine Costa Rican adventure. The private tour boats make it a standout for guests who want easy access to fishing, surfing, and whale-watching without leaving the resort\u0027s orbit.",
+    "best_for":  [
+                     "Adventure Seekers",
+                     "Wellness Travelers",
+                     "Luxury Families \u0026 Groups"
+                 ],
+    "hotel_scores":  {
+                         "luxury":  {
+                                        "score":  5,
+                                        "reason":  "identity.luxury_level is Luxury and category is Luxury Beachfront Resort."
+                                    },
+                         "families":  {
+                                          "score":  4,
+                                          "reason":  "Luxury Families \u0026 Groups profile cites multi-bedroom villas up to 4,500 sq ft for families and larger parties."
+                                      },
+                         "couples":  {
+                                         "score":  3,
+                                         "reason":  "No couples/honeymoon profile or language is present in the source content."
+                                     },
+                         "wellness":  {
+                                          "score":  4,
+                                          "reason":  "Bearth Spa with outdoor treatment rooms is cited in the Wellness Travelers profile."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  5,
+                                                  "reason":  "Two private tour boats support deep-sea fishing, whale and dolphin watching, surfing, and national park excursions."
+                                              },
+                         "walkability":  {
+                                             "score":  3,
+                                             "reason":  ""
+                                         },
+                         "nightlife":  {
+                                           "score":  3,
+                                           "reason":  ""
+                                       }
+                     },
+    "featured_tours":  [
+                           "slothadventure",
+                           "monteverdehangingbridgescoffee",
+                           "monteverdtreetopwalk"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "Where is El Mangroove located?",
+                    "a":  "El Mangroove sits on the Pacific coast in Guanacaste, along the shores of the Gulf of Papagayo."
+                },
+                {
+                    "q":  "What airport is nearest to El Mangroove?",
+                    "a":  "It is closest to Guanacaste Airport (LIR) in Liberia, typically a 30 to 40 minute private transfer away."
+                },
+                {
+                    "q":  "What activities does the resort offer?",
+                    "a":  "Yes, as the only hotel in the area with two private tour boats, it offers deep-sea fishing, surfing, whale and dolphin watching, and national park excursions."
+                }
+            ],
+    "amenities":  [
+                      "Beachfront location on the Gulf of Papagayo",
+                      "Pool area with cabanas and cushioned loungers",
+                      "Two on-site restaurants with ocean views",
+                      "Bearth Spa with outdoor treatment rooms",
+                      "State-of-the-art fitness center",
+                      "Two private tour boats for deep-sea fishing and excursions",
+                      "Whale and dolphin watching tours",
+                      "Surfing and national park excursions"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Bark Suite",
+                           "description":  "A 45-square-meter suite with 1 King Bed designed as a serene retreat for ultimate relaxation."
+                       },
+                       {
+                           "name":  "Resort Suite 1 King Bed",
+                           "description":  "A 45-square-meter suite with a King Bed and a separate living room for added privacy."
+                       },
+                       {
+                           "name":  "Resort Suite 2 Queen Beds",
+                           "description":  "A comfortable resort suite featuring two Queen Beds with thoughtful details throughout."
+                       },
+                       {
+                           "name":  "Nesto Suite",
+                           "description":  "A 45-square-meter suite with 2 Queen Beds, a separate living room, complimentary WiFi, and resort views."
+                       },
+                       {
+                           "name":  "Root Deluxe",
+                           "description":  "A 63-square-meter junior suite with a King Bed and sofa bed balancing luxury and relaxation."
+                       },
+                       {
+                           "name":  "Habitat Superior",
+                           "description":  "A spacious 68-square-meter one-bedroom suite with a King Bed and sofa bed."
+                       },
+                       {
+                           "name":  "Crown Superior",
+                           "description":  "An 88-square-meter one-bedroom larger suite with a King Bed, sofa bed, and 1.5 bathrooms."
+                       },
+                       {
+                           "name":  "Canopy Grand Suite",
+                           "description":  "A 112-square-meter suite offering a King Bed and a separate living room for elevated luxury."
+                       },
+                       {
+                           "name":  "Mangle Presidential Suite",
+                           "description":  "The resort\u0027s flagship 155-square-meter suite with a King Bed, sofa bed, and mini fridge."
+                       },
+                       {
+                           "name":  "2 Bedroom Villa",
+                           "description":  "A 319-square-meter (3,432 sq ft) villa with airy, modern indoor and outdoor living space."
+                       },
+                       {
+                           "name":  "3 Bedroom Villa",
+                           "description":  "A 3,917-square-foot villa with generous indoor and outdoor living areas for larger groups."
+                       },
+                       {
+                           "name":  "4 Bedroom Villa",
+                           "description":  "A 4,500-square-foot villa with thoughtfully designed living spaces for families or groups."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+                                     {
+                                         "profile":  "Adventure Seekers",
+                                         "reason":  "El Mangroove\u0027s two private tour boats enable exclusive deep-sea fishing, surfing, whale and dolphin watching, and national park excursions."
+                                     },
+                                     {
+                                         "profile":  "Wellness Travelers",
+                                         "reason":  "The Bearth Spa\u0027s outdoor treatment rooms and state-of-the-art fitness center are built for rejuvenating body and mind amid nature."
+                                     },
+                                     {
+                                         "profile":  "Luxury Families \u0026 Groups",
+                                         "reason":  "Multi-bedroom villas up to 4,500 square feet and spacious suites make it comfortable for families and larger parties."
+                                     }
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.4,
+                           "review_count":  1482,
+                           "reviews":  [
+                                           {
+                                               "author":  "andrea mclean",
+                                               "rating":  5,
+                                               "text":  "Great place to go right after landing at LIR: it’s so close and it’s so great to be at a beach so quickly. We paid for the all inclusive option for our 2 night stay and are glad we did. Didn’t have to think about anything before we headed elsewhere.\nThe breakfast was great. The lunch and poolside options were good,...",
+                                               "relative_time":  "7 months ago"
+                                           },
+                                           {
+                                               "author":  "Nick Cromwell",
+                                               "rating":  5,
+                                               "text":  "My wife and I stayed at El Mangroove from Feb 16–24 for our honeymoon and honestly, we couldn’t have asked for a better first experience in Costa Rica! The staff’s hospitality was incredible from the moment we walked in until we had to leave (and we wish we could stay forever!). Everyone on staff goes above and beyo...",
+                                               "relative_time":  "4 months ago"
+                                           },
+                                           {
+                                               "author":  "Evan S",
+                                               "rating":  4,
+                                               "text":  "Great hotel with lots of positives but just enough negatives to do to 4 stars. First off the good and drink service just sucks. Of all the places we stayed, this has the worst food and it cost an arm and a leg. The breakfast buffet just wasn\u0027t great. Fresh fruit in Costa Rica your think? Nah it\u0027s in a jar that was p...",
+                                               "relative_time":  "a month ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "official-import",
+                                 "type":  "official",
+                                 "url":  "https://www.elmangroovehotel.com/?utm_source=googleads\u0026utm_medium=ppc\u0026utm_campaign=Brand_Search_ES_AlwaysOn\u0026utm_id=ElMangroove-595917\u0026utm_term=Branded\u0026utm_content=Brand-ES\u0026gclsrc=aw.ds\u0026gad_source=1\u0026gad_campaignid=21346428694\u0026gbraid=0AAAAA9wrniHf6GlFd2DNtBrHggAvnkBrD\u0026gclid=Cj0KCQjw39zSBhDhARIsANammDtWekBE2kyY2M1HKjEY1bDzjWMxD_Kv5wXlKrZdFT5SpzQYolYYTL4aAtz7EALw_wcB"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "el Mangroove Hotel is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Ideal for design-minded travelers who want polished luxury paired with genuine Costa Rican adventure. The private tour boats make it a standout for guests who want easy access to fishing, surfing, and whale-watching without leaving the resort\u0027s orbit.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "https://www.elmangroovehotel.com/?utm_source=googleads\u0026utm_medium=ppc\u0026utm_campaign=Brand_Search_ES_AlwaysOn\u0026utm_id=ElMangroove-595917\u0026utm_term=Branded\u0026utm_content=Brand-ES\u0026gclsrc=aw.ds\u0026gad_source=1\u0026gad_campaignid=21346428694\u0026gbraid=0AAAAA9wrniHf6GlFd2DNtBrHggAvnkBrD\u0026gclid=Cj0KCQjw39zSBhDhARIsANammDtWekBE2kyY2M1HKjEY1bDzjWMxD_Kv5wXlKrZdFT5SpzQYolYYTL4aAtz7EALw_wcB",
+                         "note":  "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/papagayo-hoteles-el-mangroove-papagayo.W0p1xxD",
+    "seo_title_override":  "el Mangroove Hotel Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at el Mangroove Hotel with recommended tours, private airport transfers and local Guanacaste insight."
+}

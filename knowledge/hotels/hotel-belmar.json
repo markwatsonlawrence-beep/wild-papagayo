@@ -1,0 +1,209 @@
+{
+    "id":  "hotel-belmar",
+    "name":  "Hotel Belmar",
+    "slug":  "hotel-belmar",
+    "brand":  "Hotel Belmar",
+    "category":  "Cloud Forest Eco-Boutique Hotel",
+    "luxury_level":  "Boutique",
+    "destination_id":  "monteverde",
+    "location_label":  "Monteverde",
+    "province":  "Puntarenas",
+    "airport_id":  "sjo",
+    "transfer_minutes":  {
+                             "min":  153,
+                             "max":  195,
+                             "label":  "Approximately 153-195 minutes (137 km) by private transfer from Juan Santamaria International Airport (SJO), based on real driving distance.",
+                             "source_type":  "google_routes_api"
+                         },
+    "transfer_by_airport":  {
+                                "sjo":  {
+                                            "min":  153,
+                                            "max":  195,
+                                            "km":  137,
+                                            "airport_name":  "Juan Santamaria International Airport (SJO)"
+                                        },
+                                "lir":  {
+                                            "min":  121,
+                                            "max":  154,
+                                            "km":  121.6,
+                                            "airport_name":  "Daniel Oduber Quiros International Airport (LIR)"
+                                        }
+                            },
+    "coordinates":  {
+                        "lat":  10.312515999999999,
+                        "lng":  -84.8109964
+                    },
+    "formatted_address":  "Puntarenas Province, Monteverde, Costa Rica",
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://www.hotelbelmar.net/",
+    "hero_image":  "images/hotel-belmar-hero.webp",
+    "hero_image_alt":  "Test alt text",
+    "hero_image_status":  "cms_selected",
+    "description":  "A family-owned boutique hotel and 40-year flagship of the Monteverde region, Hotel Belmar blends alpine architecture with Costa Rican flair overlooking the cloud forest. A member of Design Hotels, it emphasizes regenerative sustainability, immersive nature experiences, and elevated farm-to-table cuisine.",
+    "hero_description":  "A conscious-private cloud forest retreat where alpine charm meets Costa Rican nature.",
+    "local_insight":  "Belmar is ideal for mindful travelers who want eco-adventure and wellness without sacrificing style or great food. Its on-site brewery, forest immersions, and farm experiences make it a standout base for exploring Monteverde.",
+    "best_for":  [
+                     "Eco-Conscious Travelers",
+                     "Food \u0026 Craft Beer Lovers",
+                     "Wellness Seekers"
+                 ],
+    "hotel_scores":  {
+                         "families":  {
+                                          "score":  2,
+                                          "reason":  "Family-owned but text emphasizes mindful travelers, wellness, and craft beer rather than family amenities."
+                                      },
+                         "couples":  {
+                                         "score":  4,
+                                         "reason":  "Stylish eco-boutique with spa, farm-to-table dining, and cloud forest views suit romantic getaways."
+                                     },
+                         "wellness":  {
+                                          "score":  5,
+                                          "reason":  "Offers yoga, massage therapy, spa, soaking jet pool, and nature-centered experiences for holistic wellness."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  4,
+                                                  "reason":  "Standout base for exploring Monteverde with SAVIA forest immersions and on-site nature trail."
+                                              },
+                         "walkability":  {
+                                             "score":  2,
+                                             "reason":  "Overlooks the cloud forest with an on-site nature trail but no mention of walkable town or beach."
+                                         },
+                         "nightlife":  {
+                                           "score":  2,
+                                           "reason":  "Has an on-site craft microbrewery but no mention of broader nightlife scene."
+                                       },
+                         "luxury":  {
+                                        "score":  3,
+                                        "reason":  "Boutique member of Design Hotels blending alpine architecture with Costa Rican flair, but not full private."
+                                    }
+                     },
+    "featured_tours":  [
+                           "slothchocolatetour",
+                           "sensoriarainforest",
+                           "paloverderiverboattour"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "How far is Hotel Belmar from the airport?",
+                    "a":  "Hotel Belmar is approximately 153-195 minutes (137 km) by private transfer from Juan Santamaria International Airport (SJO), based on real driving distance -- Monteverde is a mountain destination, so plan for a half-day journey either way."
+                },
+                {
+                    "q":  "What makes Hotel Belmar different from other Monteverde hotels?",
+                    "a":  "Hotel Belmar is a family-owned boutique hotel and 40-year flagship of the Monteverde region, and a member of Design Hotels. It combines alpine-inspired architecture overlooking the cloud forest with its own on-site farm, craft microbrewery, and farm-to-table restaurant -- amenities most other Monteverde properties do not have."
+                },
+                {
+                    "q":  "Who is Hotel Belmar best suited for?",
+                    "a":  "Belmar suits mindful travelers who want eco-adventure and wellness without sacrificing style or great food. Its on-site brewery, forest immersions through the SAVIA program, and farm experiences make it a strong base for exploring Monteverde."
+                }
+            ],
+    "amenities":  [
+                      "Restaurante Celajes farm-to-table restaurant",
+                      "Cervecería Belmar craft microbrewery",
+                      "Juice Bar + Tea Room",
+                      "Nature trail on property",
+                      "Spring water pond and soaking jet pool",
+                      "Spa and massage therapy",
+                      "Yoga sessions",
+                      "On-site farm (Finca Madre Tierra)",
+                      "SAVIA forest immersion experiences",
+                      "Artist residency program"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Artista Villas",
+                           "description":  "A collection of ten private villas where contemporary architecture and landscape merge for an elevated way of inhabiting the cloud forest."
+                       },
+                       {
+                           "name":  "Chalet Rooms",
+                           "description":  "Rooms in the classic Chalet Building adjacent to the hotel\u0027s nature trail, embracing Monteverde\u0027s serene landscapes."
+                       },
+                       {
+                           "name":  "Peninsula Rooms",
+                           "description":  "Comfortable rooms with garden and Gulf of Nicoya views located in the main building near Celajes Restaurant and the front desk."
+                       },
+                       {
+                           "name":  "Nicoya Suites",
+                           "description":  "Expansive suites over 1,000 sq ft with panoramic views, offering exclusivity and premium amenities for discerning travelers."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+                                     {
+                                         "profile":  "Eco-Conscious Travelers",
+                                         "reason":  "Its regenerative sustainability ethos, green operations, and forest immersions at SAVIA appeal to those who prioritize responsible travel."
+                                     },
+                                     {
+                                         "profile":  "Food \u0026 Craft Beer Lovers",
+                                         "reason":  "Restaurante Celajes, the Cervecería Belmar microbrewery, and cocktail and coffee tasting classes make it a haven for culinary-minded guests."
+                                     },
+                                     {
+                                         "profile":  "Wellness Seekers",
+                                         "reason":  "Yoga, massage therapy, a soaking jet pool, and nature-centered experiences support travelers embracing holistic wellness."
+                                     }
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.7,
+                           "review_count":  424,
+                           "reviews":  [
+                                           {
+                                               "author":  "Chris Erdman",
+                                               "rating":  5,
+                                               "text":  "Absolutely perfect in every way. Bliss from:\n\n—the first moment of encounter with the staff to the ending checkout (the staff is extraordinary, thoughtful, and go far beyond mere duty...\n\n—the beauty grounds and gardens, wildlife...\n\n—the food is highest quality (farm to table)...\n\n—the pub is extraordinary...\n\n—and each ni...",
+                                               "relative_time":  "4 months ago"
+                                           },
+                                           {
+                                               "author":  "Keith Wagner",
+                                               "rating":  5,
+                                               "text":  "I booked this hotel blindly.  I did not know what to expect.  What I found has blown my mind. The level of service is amazing.  Everyone is so kind and helpful. This hotel has Four Seasons service in a quaint hotel surrounded by rainforest.  The food is absolutely amazing. All the food is either grown on their farm...",
+                                               "relative_time":  "2 months ago"
+                                           },
+                                           {
+                                               "author":  "Katelyn Aase",
+                                               "rating":  5,
+                                               "text":  "We had a truly magical stay at Hotel Belmar! The atmosphere is incredibly peaceful, and you can feel the care in every detail—from the thoughtfully designed rooms to the inviting common spaces and exceptional food.\n\nWe especially appreciated the hotel’s rich history and its genuine commitment to sustainability. Book...",
+                                               "relative_time":  "3 months ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-07-17"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "official-import",
+                                 "type":  "official",
+                                 "url":  "https://www.hotelbelmar.net/"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Hotel Belmar is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Belmar is ideal for mindful travelers who want eco-adventure and wellness without sacrificing style or great food. Its on-site brewery, forest immersions, and farm experiences make it a standout base for exploring Monteverde.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "https://www.hotelbelmar.net/",
+                         "note":  "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/monteverde-hoteles-hotel-belmar.gsqn4w2",
+    "seo_title_override":  "Hotel Belmar Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Hotel Belmar with recommended tours, private airport transfers and local Guanacaste insight."
+}

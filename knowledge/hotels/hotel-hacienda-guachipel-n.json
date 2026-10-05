@@ -1,0 +1,266 @@
+{
+    "id":  "hotel-hacienda-guachipel-n",
+    "name":  "Hotel Hacienda Guachipelín",
+    "slug":  "hotel-hacienda-guachipel-n",
+    "brand":  "Hotel Hacienda Guachipelín",
+    "category":  "Adventure Ranch Hotel",
+    "luxury_level":  "Standard",
+    "destination_id":  "rincon-de-la-vieja",
+    "location_label":  "Rincón de la Vieja / Liberia",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  35,
+                             "max":  50,
+                             "label":  "Roughly 45 minutes to an hour from Guanacaste Airport in Liberia (LIR), about 25 km southwest of the hotel.",
+                             "source_type":  "claude_estimate_from_official_source"
+                         },
+    "transfer_by_airport":  null,
+    "coordinates":  null,
+    "formatted_address":  null,
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://www.guachipelin.com/",
+    "hero_image":  "images/hotel-hacienda-guachipel-n-hero.jpg",
+    "hero_image_alt":  "Hotel Hacienda Guachipelín, a Adventure Ranch Hotel in Rincón de la Vieja / Liberia, Costa Rica",
+    "hero_image_status":  "google_places_photo",
+    "description":  "A family-friendly ranch hotel set in the dry tropical forest beside Rincón de la Vieja National Park, offering comfortable rooms and a huge lineup of on-site adventure tours. Guests enjoy complimentary access to waterfalls and the Río Negro hot springs.",
+    "hero_description":  "Your adventure basecamp beside Rincón de la Vieja\u0027s volcanoes and hot springs.",
+    "local_insight":  "Ideal for active travelers and families who want zip lining, tubing, and hot springs right outside their door — and reassuring for celiac guests, since the whole kitchen is gluten-free.",
+    "best_for":  [
+                     "Adventure Seekers",
+                     "Active Families",
+                     "Gluten-Free Travelers"
+                 ],
+    "hotel_scores":  {
+                         "luxury":  {
+                                        "score":  2,
+                                        "reason":  "identity.luxury_level is Standard, the lowest tier; description emphasizes comfortable rather than upscale rooms."
+                                    },
+                         "families":  {
+                                          "score":  5,
+                                          "reason":  "Active Families profile: reviewers traveled with kids and teens and enjoyed free access to hot springs, waterfalls and activities on property."
+                                      },
+                         "couples":  {
+                                         "score":  2,
+                                         "reason":  "No couples/honeymoon profile; entirely adventure and family-framed."
+                                     },
+                         "wellness":  {
+                                          "score":  4,
+                                          "reason":  "Simbiosis Spa and volcanic mud baths, plus complimentary hot springs access."
+                                      },
+                         "adventure_access":  {
+                                                  "score":  5,
+                                                  "reason":  "On-site adventure center with zip lining, tubing, rappelling and canyoning; Adventure Seekers profile calls it a one-stop basecamp."
+                                              },
+                         "walkability":  {
+                                             "score":  3,
+                                             "reason":  ""
+                                         },
+                         "nightlife":  {
+                                           "score":  3,
+                                           "reason":  ""
+                                       }
+                     },
+    "featured_tours":  [
+                           "waterfallpumas",
+                           "celesteriver",
+                           "hangingbridgessloths"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo"
+                            ],
+    "excursion_guide":  [
+
+                        ],
+    "excursion_intro":  "",
+    "suppress_curated_experiences":  false,
+    "suppress_private_tours_intro":  false,
+    "suppress_restaurants_section":  false,
+    "transfer_landing_url":  "",
+    "faq":  [
+                {
+                    "q":  "What activities are included for hotel guests?",
+                    "a":  "Guests receive complimentary access to 7 waterfalls and the Río Negro hot springs, plus scenic hikes and the pool, with adventure tours like zip lining and tubing available on site."
+                },
+                {
+                    "q":  "Where is Hotel Hacienda Guachipelín located?",
+                    "a":  "The hotel is located next to Rincón de la Vieja National Park, about 25 km northeast of Liberia in Guanacaste, roughly 45 minutes to an hour from Liberia Airport (LIR)."
+                },
+                {
+                    "q":  "Is the food safe for celiac and gluten-free guests?",
+                    "a":  "Yes — the on-site La Hacienda Restaurant is 100% gluten-free, with locally sourced, farm-to-table dishes crafted from traditional Guanacaste recipes."
+                }
+            ],
+    "amenities":  [
+                      "Complimentary access to 7 waterfalls and Río Negro hot springs",
+                      "Simbiosis Spa",
+                      "Swimming pool",
+                      "Farm-to-table 100% gluten-free restaurant",
+                      "On-site adventure center",
+                      "Air-conditioned rooms with private bathrooms and free Wi-Fi",
+                      "Zip lining, tubing, and horseback riding tours",
+                      "Volcanic mud baths"
+                  ],
+    "room_types":  [
+                       {
+                           "name":  "Standard Room",
+                           "description":  "Comfortable air-conditioned room with private bathroom and free Wi-Fi."
+                       },
+                       {
+                           "name":  "Superior Room",
+                           "description":  "A more spacious room option with air conditioning and additional amenities."
+                       },
+                       {
+                           "name":  "Suite",
+                           "description":  "The hotel\u0027s larger accommodation with extra space and comforts for a relaxing stay."
+                       }
+                   ],
+    "traveler_profile_reasons":  [
+                                     {
+                                         "profile":  "Adventure Seekers",
+                                         "reason":  "On-site zip lining, Class II-III river tubing, rappelling, and canyoning make it a one-stop basecamp for Guanacaste\u0027s biggest thrills."
+                                     },
+                                     {
+                                         "profile":  "Active Families",
+                                         "reason":  "Reviewers traveled with kids and teens and enjoyed free access to hot springs, waterfalls, and countless activities right on the property."
+                                     },
+                                     {
+                                         "profile":  "Gluten-Free Travelers",
+                                         "reason":  "The entire farm-to-table kitchen is 100% gluten-free, with staff praised by celiac guests for safe, worry-free dining."
+                                     }
+                                 ],
+    "google_reviews":  {
+                           "rating":  4.4,
+                           "review_count":  2767,
+                           "reviews":  [
+                                           {
+                                               "author":  "S D",
+                                               "rating":  5,
+                                               "text":  "We had such a great stay at Hotel Hacienda Guachipelín. We stayed in the Superior Deluxe room, which was surrounded by nature and had two king-size beds, a private patio, and a really comfortable feel overall. It was the perfect spot to relax after a day out exploring.\nThe resort has a nice layout with the rooms spr...",
+                                               "relative_time":  "a month ago"
+                                           },
+                                           {
+                                               "author":  "Mako Cheng",
+                                               "rating":  5,
+                                               "text":  "We stayed for only 2 nights, but it was one of the most impressive hotels I\u0027ve ever stayed in. First of all, there are many different types of rooms including suites, and just your standard room. I was in a standard one, but it felt premium. My room was Room 12, and right outside there is a hammock that is super com...",
+                                               "relative_time":  "3 weeks ago"
+                                           },
+                                           {
+                                               "author":  "Yujie Wang",
+                                               "rating":  5,
+                                               "text":  "Lovely hotel! Rooms are nice and clean. Beautiful property. Lots of things to do on site and nearby. Helpful staff. Included breakfast was great! We enjoyed visiting the nearby waterfalls and hot springs. Evening strolls on property were lovely. Saw many wild birds! Would love to return and stay longer than the 2 ni...",
+                                               "relative_time":  "2 weeks ago"
+                                           }
+                                       ],
+                           "source":  "Google Places API, fetched 2026-08-10"
+                       },
+    "official_sources":  [
+                             {
+                                 "source_id":  "official-import",
+                                 "type":  "official",
+                                 "url":  "https://www.guachipelin.com/"
+                             }
+                         ],
+    "official_facts":  {
+                           "summary":  "Hotel Hacienda Guachipelín is featured in the Wild Papagayo Experience Guide. Official facts are pending verification against the property\u0027s own source."
+                       },
+    "wild_insights":  {
+                          "local_take":  "Ideal for active travelers and families who want zip lining, tubing, and hot springs right outside their door — and reassuring for celiac guests, since the whole kitchen is gluten-free.",
+                          "insights":  [
+
+                                       ]
+                      },
+    "status":  "published",
+    "verification":  {
+                         "status":  "unverified",
+                         "last_verified":  "",
+                         "official_source":  "https://www.guachipelin.com/",
+                         "note":  "Imported from official source URL and summarized by Claude. Facts should still be human-reviewed before publication."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
+    "expedia_affiliate_link":  "https://expedia.com/affiliates/curubande-hoteles-hotel-hacienda-guachipelin.svpBowy",
+    "seo_title_override":  "Hotel Hacienda Guachipelín Guide | Tours, Transfers \u0026 Local Tips",
+    "seo_description_override":  "Plan your stay at Hotel Hacienda Guachipelín with recommended tours, private airport transfers and local Guanacaste insight.",
+    "factual_attributes":  {
+                               "adults_only":  false,
+                               "all_inclusive_type":  "NOT_ALL_INCLUSIVE",
+                               "beach_relationship":  "NOT_APPLICABLE",
+                               "positioning_evidence":  [
+                                                            {
+                                                                "audience":  "HONEYMOON",
+                                                                "evidence_type":  "EXPLICIT_MARKETING",
+                                                                "scope":  "PACKAGE_LEVEL",
+                                                                "source_id":  "src-guachipelin-honeymoon-suite",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"the most exclusive accommodation for couples... for the ultimate romantic getaway\" -- dedicated Honeymoon Suite room category"
+                                                            },
+                                                            {
+                                                                "audience":  "WEDDING",
+                                                                "evidence_type":  "EXPLICIT_MARKETING",
+                                                                "scope":  "PAGE_LEVEL",
+                                                                "source_id":  "src-guachipelin-events",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"full-package wedding experiences\" -- wedding section within the general Events page"
+                                                            },
+                                                            {
+                                                                "audience":  "FAMILY",
+                                                                "evidence_type":  "EXPLICIT_MARKETING",
+                                                                "scope":  "PAGE_LEVEL",
+                                                                "source_id":  "src-guachipelin-faq",
+                                                                "verified_date":  "2026-10-02",
+                                                                "note":  "\"Is the hotel suitable for children? Yes, absolutely!\" -- special tours, family-friendly areas, adventure programs for kids and teens"
+                                                            }
+                                                        ],
+                               "family_facts":  {
+                                                    "family_rooms_available":  true,
+                                                    "childrens_programming_available":  true
+                                                },
+                               "evidence_sources":  {
+                                                        "src-guachipelin-faq":  {
+                                                                                    "url":  "https://www.guachipelin.com/faq/",
+                                                                                    "type":  "official_site",
+                                                                                    "retrieved_date":  "2026-10-02"
+                                                                                },
+                                                        "src-guachipelin-hotel":  {
+                                                                                      "url":  "https://www.guachipelin.com/hotel/",
+                                                                                      "type":  "official_site",
+                                                                                      "retrieved_date":  "2026-10-02"
+                                                                                  },
+                                                        "src-guachipelin-honeymoon-suite":  {
+                                                                                                "url":  "https://www.guachipelin.com/rooms/",
+                                                                                                "type":  "official_site",
+                                                                                                "retrieved_date":  "2026-10-02"
+                                                                                            },
+                                                        "src-guachipelin-events":  {
+                                                                                       "url":  "https://www.guachipelin.com/events/",
+                                                                                       "type":  "official_site",
+                                                                                       "retrieved_date":  "2026-10-02"
+                                                                                   }
+                                                    },
+                               "fact_evidence":  {
+                                                     "adults_only":  [
+                                                                         "src-guachipelin-faq"
+                                                                     ],
+                                                     "all_inclusive_type":  [
+                                                                                "src-guachipelin-faq"
+                                                                            ],
+                                                     "beach_relationship":  [
+                                                                                "src-guachipelin-hotel"
+                                                                            ],
+                                                     "positioning_evidence":  [
+                                                                                  "src-guachipelin-honeymoon-suite",
+                                                                                  "src-guachipelin-events",
+                                                                                  "src-guachipelin-faq"
+                                                                              ],
+                                                     "family_facts.family_rooms_available":  [
+                                                                                                 "src-guachipelin-hotel"
+                                                                                             ],
+                                                     "family_facts.childrens_programming_available":  [
+                                                                                                          "src-guachipelin-faq"
+                                                                                                      ]
+                                                 }
+                           }
+}
