@@ -1,6 +1,6 @@
 {
-  "pricing_version": "sha256-d5989e1c1a8f830d",
-  "generated_at": "2026-10-05T17:25:14.241Z",
+  "pricing_version": "sha256-e0128036fbcdff49",
+  "generated_at": "2026-10-05T18:05:43.677Z",
   "source_file": "Matriz_Cotizador_Wild_Papagayo_Catalogo_Completo.xlsx",
   "scope": "full-catalogue",
   "zones": {
@@ -66,7 +66,7 @@
           "pp_2": 400,
           "pp_3": 350,
           "pp_4plus": 300,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -87,11 +87,11 @@
           "pp_2": 470,
           "pp_3": 365,
           "pp_4plus": 320,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
-            "c": null
+            "c": 30
           },
           "notes": "Hanging Bridges + La Fortuna Waterfall",
           "source_row": 6
@@ -103,11 +103,11 @@
           "pp_2": 500,
           "pp_3": 400,
           "pp_4plus": 360,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
-            "c": null
+            "c": 30
           },
           "notes": "Hanging Bridges + Hot Springs + La Fortuna Waterfall",
           "source_row": 7
@@ -121,14 +121,14 @@
           "id": "full-experience",
           "label": "Full Experience",
           "estimator_status": "active",
-          "pp_2": 300,
-          "pp_3": 240,
-          "pp_4plus": 215,
-          "zone_adjustment_applies": false,
+          "pp_2": 270,
+          "pp_3": 220,
+          "pp_4plus": 185,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
-            "c": null
+            "c": 25
           },
           "notes": null,
           "source_row": 8
@@ -145,9 +145,9 @@
           "pp_2": 355,
           "pp_3": 300,
           "pp_4plus": 275,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
-            "a": 0,
+            "a": null,
             "b": null,
             "c": null
           },
@@ -166,7 +166,7 @@
           "pp_2": 310,
           "pp_3": 250,
           "pp_4plus": 225,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -182,7 +182,7 @@
           "pp_2": 325,
           "pp_3": 270,
           "pp_4plus": 240,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -203,7 +203,7 @@
           "pp_2": 565,
           "pp_3": 465,
           "pp_4plus": 410,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -219,7 +219,7 @@
           "pp_2": 585,
           "pp_3": 485,
           "pp_4plus": 430,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -240,7 +240,7 @@
           "pp_2": 500,
           "pp_3": 400,
           "pp_4plus": 360,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -261,7 +261,7 @@
           "pp_2": 425,
           "pp_3": 360,
           "pp_4plus": 325,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -282,7 +282,7 @@
           "pp_2": 480,
           "pp_3": 380,
           "pp_4plus": 330,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -298,7 +298,7 @@
           "pp_2": 480,
           "pp_3": 380,
           "pp_4plus": 330,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -319,7 +319,7 @@
           "pp_2": 330,
           "pp_3": 285,
           "pp_4plus": 265,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -340,7 +340,7 @@
           "pp_2": 305,
           "pp_3": 250,
           "pp_4plus": 230,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -361,7 +361,7 @@
           "pp_2": 345,
           "pp_3": 290,
           "pp_4plus": 270,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -382,7 +382,7 @@
           "pp_2": 300,
           "pp_3": 245,
           "pp_4plus": 220,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -403,7 +403,7 @@
           "pp_2": 330,
           "pp_3": 275,
           "pp_4plus": 250,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -419,7 +419,7 @@
           "pp_2": 350,
           "pp_3": 295,
           "pp_4plus": 270,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -440,7 +440,7 @@
           "pp_2": 320,
           "pp_3": 265,
           "pp_4plus": 240,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -456,7 +456,7 @@
           "pp_2": 340,
           "pp_3": 285,
           "pp_4plus": 260,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -477,7 +477,7 @@
           "pp_2": 285,
           "pp_3": 240,
           "pp_4plus": 205,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -498,7 +498,7 @@
           "pp_2": null,
           "pp_3": null,
           "pp_4plus": null,
-          "zone_adjustment_applies": null,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -519,7 +519,7 @@
           "pp_2": 330,
           "pp_3": 275,
           "pp_4plus": 250,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -535,7 +535,7 @@
           "pp_2": 350,
           "pp_3": 295,
           "pp_4plus": 270,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -556,7 +556,7 @@
           "pp_2": 320,
           "pp_3": 260,
           "pp_4plus": 235,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -577,7 +577,7 @@
           "pp_2": 335,
           "pp_3": 275,
           "pp_4plus": 245,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -598,7 +598,7 @@
           "pp_2": 325,
           "pp_3": 280,
           "pp_4plus": 255,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -614,7 +614,7 @@
           "pp_2": 325,
           "pp_3": 280,
           "pp_4plus": 255,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -635,7 +635,7 @@
           "pp_2": 420,
           "pp_3": 370,
           "pp_4plus": 340,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -656,7 +656,7 @@
           "pp_2": 340,
           "pp_3": 290,
           "pp_4plus": 270,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -677,7 +677,7 @@
           "pp_2": 265,
           "pp_3": 225,
           "pp_4plus": 210,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -698,7 +698,7 @@
           "pp_2": 300,
           "pp_3": 255,
           "pp_4plus": 240,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -719,7 +719,7 @@
           "pp_2": 285,
           "pp_3": 220,
           "pp_4plus": 190,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -735,7 +735,7 @@
           "pp_2": 345,
           "pp_3": 300,
           "pp_4plus": 285,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -756,7 +756,7 @@
           "pp_2": 345,
           "pp_3": 290,
           "pp_4plus": 270,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -777,7 +777,7 @@
           "pp_2": 360,
           "pp_3": 295,
           "pp_4plus": 265,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -798,7 +798,7 @@
           "pp_2": 300,
           "pp_3": 260,
           "pp_4plus": 245,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -819,7 +819,7 @@
           "pp_2": 250,
           "pp_3": 220,
           "pp_4plus": 205,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -840,7 +840,7 @@
           "pp_2": 275,
           "pp_3": 235,
           "pp_4plus": 220,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -856,7 +856,7 @@
           "pp_2": 395,
           "pp_3": 360,
           "pp_4plus": 340,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -877,7 +877,7 @@
           "pp_2": 370,
           "pp_3": 315,
           "pp_4plus": 295,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,
@@ -898,7 +898,7 @@
           "pp_2": 395,
           "pp_3": 345,
           "pp_4plus": 325,
-          "zone_adjustment_applies": false,
+          "zone_adjustment_applies": true,
           "zone_adjustment": {
             "a": null,
             "b": null,

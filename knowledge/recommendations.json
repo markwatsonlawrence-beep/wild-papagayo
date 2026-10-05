@@ -1,6 +1,6 @@
 {
     "version":  "1.0",
-    "generated_at":  "2026-10-05T11:43:15.7932248-06:00",
+    "generated_at":  "2026-10-05T12:09:12.2225602-06:00",
     "rules_file":  "knowledge/recommendation-rules.json",
     "counts":  {
                    "hotels":  21,
@@ -100,7 +100,7 @@
                                                           "url":  "../tours/celesteriver",
                                                           "image":  "images/celeste1.webp",
                                                           "duration":  "Full Day (approx. 9 hours)",
-                                                          "from_price":  215,
+                                                          "from_price":  185,
                                                           "currency":  "USD"
                                                       },
                                                       {
@@ -344,7 +344,7 @@
                                                           "url":  "../tours/celesteriver",
                                                           "image":  "images/celeste1.webp",
                                                           "duration":  "Full Day (approx. 9 hours)",
-                                                          "from_price":  215,
+                                                          "from_price":  185,
                                                           "currency":  "USD"
                                                       },
                                                       {
@@ -557,7 +557,7 @@
                                                                "url":  "../tours/celesteriver",
                                                                "image":  "images/celeste1.webp",
                                                                "duration":  "Full Day (approx. 9 hours)",
-                                                               "from_price":  215,
+                                                               "from_price":  185,
                                                                "currency":  "USD"
                                                            },
                                                            {
@@ -1009,7 +1009,7 @@
                                                                                                       "url":  "../tours/celesteriver",
                                                                                                       "image":  "images/celeste1.webp",
                                                                                                       "duration":  "Full Day (approx. 9 hours)",
-                                                                                                      "from_price":  215,
+                                                                                                      "from_price":  185,
                                                                                                       "currency":  "USD"
                                                                                                   },
                                                                                                   {
@@ -1161,7 +1161,7 @@
                                                                         "url":  "../tours/celesteriver",
                                                                         "image":  "images/celeste1.webp",
                                                                         "duration":  "Full Day (approx. 9 hours)",
-                                                                        "from_price":  215,
+                                                                        "from_price":  185,
                                                                         "currency":  "USD"
                                                                     },
                                                                     {
@@ -1315,7 +1315,7 @@
                                                                "url":  "../tours/celesteriver",
                                                                "image":  "images/celeste1.webp",
                                                                "duration":  "Full Day (approx. 9 hours)",
-                                                               "from_price":  215,
+                                                               "from_price":  185,
                                                                "currency":  "USD"
                                                            },
                                                            {
@@ -1473,7 +1473,7 @@
                                                   "url":  "../tours/celesteriver",
                                                   "image":  "images/celeste1.webp",
                                                   "duration":  "Full Day (approx. 9 hours)",
-                                                  "from_price":  215,
+                                                  "from_price":  185,
                                                   "currency":  "USD"
                                               },
                                               {
@@ -1666,7 +1666,7 @@
                                                      "url":  "../tours/celesteriver",
                                                      "image":  "images/celeste1.webp",
                                                      "duration":  "Full Day (approx. 9 hours)",
-                                                     "from_price":  215,
+                                                     "from_price":  185,
                                                      "currency":  "USD"
                                                  },
                                                  {
@@ -1783,7 +1783,7 @@
                                                    "url":  "../tours/celesteriver",
                                                    "image":  "images/celeste1.webp",
                                                    "duration":  "Full Day (approx. 9 hours)",
-                                                   "from_price":  215,
+                                                   "from_price":  185,
                                                    "currency":  "USD"
                                                },
                                                {
@@ -1981,7 +1981,7 @@
                                                       "url":  "../tours/celesteriver",
                                                       "image":  "images/celeste1.webp",
                                                       "duration":  "Full Day (approx. 9 hours)",
-                                                      "from_price":  215,
+                                                      "from_price":  185,
                                                       "currency":  "USD"
                                                   },
                                                   {
@@ -2208,7 +2208,7 @@
                                                                                 "url":  "../tours/celesteriver",
                                                                                 "image":  "images/celeste1.webp",
                                                                                 "duration":  "Full Day (approx. 9 hours)",
-                                                                                "from_price":  215,
+                                                                                "from_price":  185,
                                                                                 "currency":  "USD"
                                                                             },
                                                                             {
@@ -2358,7 +2358,7 @@
                                                                                      "url":  "../tours/celesteriver",
                                                                                      "image":  "images/celeste1.webp",
                                                                                      "duration":  "Full Day (approx. 9 hours)",
-                                                                                     "from_price":  215,
+                                                                                     "from_price":  185,
                                                                                      "currency":  "USD"
                                                                                  },
                                                                                  {
@@ -2797,7 +2797,7 @@
                                                                                      "url":  "../tours/celesteriver",
                                                                                      "image":  "images/celeste1.webp",
                                                                                      "duration":  "Full Day (approx. 9 hours)",
-                                                                                     "from_price":  215,
+                                                                                     "from_price":  185,
                                                                                      "currency":  "USD"
                                                                                  }
                                                                              ],
@@ -2827,7 +2827,7 @@
                                                                                      "url":  "../tours/celesteriver",
                                                                                      "image":  "images/celeste1.webp",
                                                                                      "duration":  "Full Day (approx. 9 hours)",
-                                                                                     "from_price":  215,
+                                                                                     "from_price":  185,
                                                                                      "currency":  "USD"
                                                                                  },
                                                                                  {
@@ -2885,7 +2885,7 @@
                                                                                         "url":  "../tours/celesteriver",
                                                                                         "image":  "images/celeste1.webp",
                                                                                         "duration":  "Full Day (approx. 9 hours)",
-                                                                                        "from_price":  215,
+                                                                                        "from_price":  185,
                                                                                         "currency":  "USD"
                                                                                     },
                                                                                     {
@@ -3046,7 +3046,7 @@
                                                                                         "url":  "../tours/celesteriver",
                                                                                         "image":  "images/celeste1.webp",
                                                                                         "duration":  "Full Day (approx. 9 hours)",
-                                                                                        "from_price":  215,
+                                                                                        "from_price":  185,
                                                                                         "currency":  "USD"
                                                                                     },
                                                                                     {
@@ -3247,7 +3247,7 @@
                                                                          "url":  "../tours/celesteriver",
                                                                          "image":  "images/celeste1.webp",
                                                                          "duration":  "Full Day (approx. 9 hours)",
-                                                                         "from_price":  215,
+                                                                         "from_price":  185,
                                                                          "currency":  "USD"
                                                                      },
                                                                      {
@@ -3305,7 +3305,7 @@
                                                            "url":  "../tours/celesteriver",
                                                            "image":  "images/celeste1.webp",
                                                            "duration":  "Full Day (approx. 9 hours)",
-                                                           "from_price":  215,
+                                                           "from_price":  185,
                                                            "currency":  "USD"
                                                        },
                                                        {
@@ -3335,7 +3335,7 @@
                                                                               "url":  "../tours/celesteriver",
                                                                               "image":  "images/celeste1.webp",
                                                                               "duration":  "Full Day (approx. 9 hours)",
-                                                                              "from_price":  215,
+                                                                              "from_price":  185,
                                                                               "currency":  "USD"
                                                                           },
                                                                           {
@@ -3630,7 +3630,7 @@
                                                                                   "url":  "../tours/celesteriver",
                                                                                   "image":  "images/celeste1.webp",
                                                                                   "duration":  "Full Day (approx. 9 hours)",
-                                                                                  "from_price":  215,
+                                                                                  "from_price":  185,
                                                                                   "currency":  "USD"
                                                                               },
                                                                               {
@@ -3688,7 +3688,7 @@
                                                                                    "url":  "../tours/celesteriver",
                                                                                    "image":  "images/celeste1.webp",
                                                                                    "duration":  "Full Day (approx. 9 hours)",
-                                                                                   "from_price":  215,
+                                                                                   "from_price":  185,
                                                                                    "currency":  "USD"
                                                                                },
                                                                                {
@@ -4882,7 +4882,7 @@
                                                                     "url":  "../tours/celesteriver",
                                                                     "image":  "images/celeste1.webp",
                                                                     "duration":  "Full Day (approx. 9 hours)",
-                                                                    "from_price":  215,
+                                                                    "from_price":  185,
                                                                     "currency":  "USD"
                                                                 },
                                                                 {
@@ -5214,7 +5214,7 @@
                                                                 "url":  "../tours/celesteriver",
                                                                 "image":  "images/celeste1.webp",
                                                                 "duration":  "Full Day (approx. 9 hours)",
-                                                                "from_price":  215,
+                                                                "from_price":  185,
                                                                 "currency":  "USD"
                                                             },
                                                             {
@@ -5332,7 +5332,7 @@
                                                            "url":  "../tours/celesteriver",
                                                            "image":  "images/celeste1.webp",
                                                            "duration":  "Full Day (approx. 9 hours)",
-                                                           "from_price":  215,
+                                                           "from_price":  185,
                                                            "currency":  "USD"
                                                        },
                                                        {
@@ -5582,7 +5582,7 @@
                                                           "url":  "../tours/celesteriver",
                                                           "image":  "images/celeste1.webp",
                                                           "duration":  "Full Day (approx. 9 hours)",
-                                                          "from_price":  215,
+                                                          "from_price":  185,
                                                           "currency":  "USD"
                                                       },
                                                       {
@@ -5628,7 +5628,7 @@
                                                               "url":  "../tours/celesteriver",
                                                               "image":  "images/celeste1.webp",
                                                               "duration":  "Full Day (approx. 9 hours)",
-                                                              "from_price":  215,
+                                                              "from_price":  185,
                                                               "currency":  "USD"
                                                           },
                                                           {
