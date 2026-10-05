@@ -453,7 +453,8 @@
                                      },
                                      {
                                          "question":  "How much does this tour cost?",
-                                         "answer":  "Pricing starts at $100 per person for the Private Guide Only option, where you provide your own transportation. The Classic package, including private transportation, the national park hike, Oropendola Waterfall and lunch, is $250 per person. The Plus package, which adds the Rio Negro hot springs and volcanic mud, is $270 per person. Exact pricing varies by pickup location and group size, contact us for a confirmed quote."
+                                         "answer_source": "tour_pricing:faq_pricing",
+                                         "answer_template":  "Pricing starts at $${guide_only} per person for the Private Guide Only option, where you provide your own transportation. The Classic package, including private transportation, the national park hike, Oropendola Waterfall and lunch, is $${classic} per person. The Plus package, which adds the Rio Negro hot springs and volcanic mud, is $${plus} per person. Exact pricing varies by pickup location and group size, contact us for a confirmed quote."
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

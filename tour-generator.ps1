@@ -96,14 +96,22 @@ function Get-PropertyValue {
     return $p.Value
 }
 # Resolves one FAQ item's effective answer text. A tour's own `answer` is used verbatim UNLESS the
-# item carries `answer_source: "central_policy:cancellation_faq"`, in which case the policy file's
-# cancellation_faq.answer wins -- this is what lets ~25 tours share one centrally-maintained answer
-# without duplicating the text into each knowledge/tours/<slug>.json. Every other FAQ on every tour
-# is completely untouched by this.
+# item carries an `answer_source`:
+#   "central_policy:cancellation_faq" -- the policy file's cancellation_faq.answer wins, letting ~25
+#     tours share one centrally-maintained answer instead of duplicating the text per tour.
+#   "tour_pricing:faq_pricing" -- the item's own `answer_template` is filled in from
+#     tour-pricing.json/Guide Only via Get-TourPricingFaqAnswer, so its dollar amounts can never
+#     silently go stale the way a fully hardcoded FAQ price can.
+# Every other FAQ on every tour is completely untouched by this.
 function Get-FaqAnswer {
-    param($FaqItem, [string]$CentralAnswer)
+    param($FaqItem, [string]$CentralAnswer, [string]$TourId, $PricingData, $GuideOnlyPrice)
     $source = [string](Get-PropertyValue $FaqItem 'answer_source' '')
     if ($source -eq 'central_policy:cancellation_faq') { return $CentralAnswer }
+    if ($source -eq 'tour_pricing:faq_pricing') {
+        $template = [string](Get-PropertyValue $FaqItem 'answer_template' '')
+        if (-not $template) { throw "Tour '$TourId': FAQ item has answer_source 'tour_pricing:faq_pricing' but no 'answer_template'." }
+        return Get-TourPricingFaqAnswer -Template $template -TourId $TourId -PricingData $PricingData -GuideOnlyPrice $GuideOnlyPrice
+    }
     return [string]$FaqItem.answer
 }
 function ConvertTo-HtmlSafe {
@@ -197,6 +205,41 @@ function Get-DerivedPriceInfo {
     $minVal = ($tiers | Measure-Object -Property value -Minimum).Minimum
     $guestLabels = @($tiers | Where-Object { $_.value -eq $minVal } | ForEach-Object { $_.label })
     return [pscustomobject]@{ isManualQuote = $false; price = $minVal; guestLabels = $guestLabels; zoneApplies = $zoneApplies }
+}
+
+# Fills a FAQ answer template's ${option_id} / ${guide_only} placeholders with
+# live prices derived from tour-pricing.json (via Get-DerivedPriceInfo, same
+# manual-quote-safe logic as the public price teaser), and the tour's own
+# Guide Only sub-product price (kept separate, never mixed into the main
+# per-person numbers). Lets a tour's FAQ prose stay hand-written and
+# editorial while its dollar amounts stay single-sourced instead of
+# hardcoded -- scoped to whichever individual FAQ items opt in via
+# answer_source: "tour_pricing:faq_pricing", not applied wholesale.
+# Fails the build (never renders $0 or a stale number) if a referenced
+# option can't produce a confident price.
+function Get-TourPricingFaqAnswer {
+    param([string]$Template, [string]$TourId, $PricingData, $GuideOnlyPrice)
+    $tourEntry = Get-PropertyValue $PricingData.tours $TourId $null
+    $options = @(Get-PropertyValue $tourEntry 'options' @())
+    $placeholders = [regex]::Matches($Template, '\$\{([a-zA-Z0-9_-]+)\}') | ForEach-Object { $_.Groups[1].Value } | Select-Object -Unique
+    $result = $Template
+    foreach ($ph in $placeholders) {
+        if ($ph -eq 'guide_only') {
+            if ($null -eq $GuideOnlyPrice -or [string]$GuideOnlyPrice -eq '') {
+                throw "Tour '$TourId': FAQ pricing template references `${guide_only} but no Guide Only price is set."
+            }
+            $result = $result.Replace('${guide_only}', [string]$GuideOnlyPrice)
+            continue
+        }
+        $estOpt = $options | Where-Object { [string]$_.id -eq $ph } | Select-Object -First 1
+        if (-not $estOpt) { throw "Tour '$TourId': FAQ pricing template references `${$ph}, which is not an option id in tour-pricing.json." }
+        $priceInfo = Get-DerivedPriceInfo -EstOpt $estOpt -TourId $TourId -OptionId $ph
+        if ($priceInfo.isManualQuote -or $null -eq $priceInfo.price) {
+            throw "Tour '$TourId': FAQ pricing template references `${$ph}, which has no confirmed public price (manual quote) -- cannot render a hardcoded-free FAQ price for it."
+        }
+        $result = $result.Replace('${' + $ph + '}', (Format-DerivedPrice $priceInfo.price))
+    }
+    return $result
 }
 
 function Format-GuestPhrase {
@@ -451,14 +494,20 @@ foreach ($file in $files) {
     $faqItems = @(Get-PropertyValue $pc 'faq' @())
     $faqHtml = ""
     $faqSchema = $null
+    # Read-only Guide Only price lookup for any FAQ item using
+    # answer_source: "tour_pricing:faq_pricing" -- the full $guideOnly/
+    # $pricingTiers variables are computed again (identically) further
+    # below for the pricing-tiers section; duplicated here only because
+    # the FAQ block runs first and this lookup is cheap and side-effect-free.
+    $faqGuideOnlyPrice = Get-PropertyValue (Get-PropertyValue (Get-PropertyValue $pc 'pricing_tiers' $null) 'guide_only' $null) 'price' $null
     if ($faqItems.Count -gt 0) {
         $faqBlocks = ($faqItems | ForEach-Object {
-            $answer = Get-FaqAnswer $_ $policyFaqAnswer
+            $answer = Get-FaqAnswer $_ $policyFaqAnswer $id $pricingData $faqGuideOnlyPrice
             '<div class="accordion-item"><button class="accordion-trigger"><span>' + (ConvertTo-HtmlSafe $_.question) + '</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>' + (ConvertTo-HtmlSafe $answer) + '</p></div></div>'
         }) -join "`n"
         $faqHtml = '<div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack">' + $faqBlocks + '</div></div>'
         $faqEntities = $faqItems | ForEach-Object {
-            $answer = Get-FaqAnswer $_ $policyFaqAnswer
+            $answer = Get-FaqAnswer $_ $policyFaqAnswer $id $pricingData $faqGuideOnlyPrice
             [ordered]@{"@type"="Question";name=[string]$_.question;acceptedAnswer=[ordered]@{"@type"="Answer";text=$answer}}
         }
         $faqSchema = [ordered]@{"@context"="https://schema.org";"@type"="FAQPage";mainEntity=@($faqEntities)} | ConvertTo-Json -Depth 10 -Compress
