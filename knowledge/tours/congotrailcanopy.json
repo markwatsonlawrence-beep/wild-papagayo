@@ -38,18 +38,6 @@
                      "All safety equipment (harness, helmet, gloves)",
                      "Plus option only: 2-hour private ATV ride"
                  ],
-    "what_to_bring":  [
-                          "Sunscreen",
-                          "Bug spray",
-                          "Hat or cap",
-                          "Sunglasses",
-                          "Camera",
-                          "Reusable water bottle",
-                          "Binoculars",
-                          "Comfortable clothing",
-                          "Comfortable walking shoes",
-                          "Cash for personal expenses (gratuities)"
-                      ],
     "season_ids":  [
                        "all-year"
                    ],

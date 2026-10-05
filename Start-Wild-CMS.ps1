@@ -813,7 +813,6 @@ function Get-TourDetail {
     # fields below them -- read/write page_content so the editor actually affects
     # the live page instead of silently updating fields the generator ignores.
     $pc = Get-PropertyValue $t 'page_content' $null
-    $qs = Get-PropertyValue $pc 'quick_stats' $null
     $pricingTiers = Get-PropertyValue $pc 'pricing_tiers' $null
     $guideOnly = Get-PropertyValue $pricingTiers 'guide_only' $null
     $firstOption = (Get-PropertyValue $pricingTiers 'options' @()) | Select-Object -First 1
@@ -824,8 +823,8 @@ function Get-TourDetail {
         short_description = [string](Get-PropertyValue $t 'short_description' '')
         hero_image = [string](Get-PropertyValue $t 'hero_image' '')
         hero_image_alt = [string](Get-PropertyValue $t 'hero_image_alt' '')
-        difficulty = [string](Get-PropertyValue $qs 'difficulty' (Get-PropertyValue $t 'difficulty' ''))
-        duration_label = [string](Get-PropertyValue $qs 'duration' (Get-PropertyValue $t 'duration_label' ''))
+        difficulty = [string](Get-PropertyValue $t 'difficulty' '')
+        duration_label = [string](Get-PropertyValue $t 'duration_label' '')
         included = @(Get-PropertyValue $pc 'everything_included' @())
         what_to_bring = @(Get-PropertyValue $pc 'what_to_pack' @())
         # Read-only -- the real public tour price, sourced from
@@ -859,21 +858,21 @@ function Update-TourFields {
         $t.hero_image_alt = [string](Get-PropertyValue $Payload 'hero_image_alt' $t.hero_image_alt)
     }
 
-    # The real tour page (tour-generator.ps1) is driven by page_content, not the
-    # older simple fields -- write to page_content so edits actually reach the
-    # live page. See Get-TourDetail for the matching read-side fix.
+    # The real tour page (tour-generator.ps1) is driven by page_content for
+    # inclusions/what-to-pack, and by the top-level difficulty/duration_label
+    # fields directly (quick_stats.difficulty/.duration are retired -- the
+    # generator no longer reads any per-tour override for those two, so this
+    # form no longer writes them, to avoid reintroducing a dead, driftable
+    # copy). See Get-TourDetail for the matching read-side fix.
     if (-not $t.page_content) { $t | Add-Member -MemberType NoteProperty -Name 'page_content' -Value ([pscustomobject]@{}) -Force }
     $pc = $t.page_content
 
-    if (-not $pc.quick_stats) { $pc | Add-Member -MemberType NoteProperty -Name 'quick_stats' -Value ([pscustomobject]@{}) -Force }
     $difficulty = Get-PropertyValue $Payload 'difficulty' $null
     if ($null -ne $difficulty) {
-        $pc.quick_stats | Add-Member -MemberType NoteProperty -Name 'difficulty' -Value ([string]$difficulty) -Force
         $t.difficulty = [string]$difficulty
     }
     $durationLabel = Get-PropertyValue $Payload 'duration_label' $null
     if ($null -ne $durationLabel) {
-        $pc.quick_stats | Add-Member -MemberType NoteProperty -Name 'duration' -Value ([string]$durationLabel) -Force
         $t.duration_label = [string]$durationLabel
     }
 
@@ -881,13 +880,19 @@ function Update-TourFields {
     if ($null -ne $included) {
         $includedArr = @(@($included) | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object { [string]$_ })
         $pc | Add-Member -MemberType NoteProperty -Name 'everything_included' -Value $includedArr -Force
+        # Top-level included stays in sync too -- article-auto-draft.ps1 still
+        # reads it as an offline fact-sheet source (see repo-wide search in
+        # the structural-debt task report; everything_included above is the
+        # one the live site actually renders).
         $t.included = $includedArr
     }
     $whatToBring = Get-PropertyValue $Payload 'what_to_bring' $null
     if ($null -ne $whatToBring) {
         $whatToBringArr = @(@($whatToBring) | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object { [string]$_ })
+        # Top-level what_to_bring is retired below (0 remaining consumers
+        # repo-wide) -- only the canonical, publicly-rendered what_to_pack
+        # is written here.
         $pc | Add-Member -MemberType NoteProperty -Name 'what_to_pack' -Value $whatToBringArr -Force
-        $t.what_to_bring = $whatToBringArr
     }
 
     if (-not $pc.pricing_tiers) { $pc | Add-Member -MemberType NoteProperty -Name 'pricing_tiers' -Value ([pscustomobject]@{}) -Force }
