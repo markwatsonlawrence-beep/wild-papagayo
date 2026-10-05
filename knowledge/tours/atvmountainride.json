@@ -27,7 +27,7 @@
                  ],
     "difficulty":  "Moderate",
     "duration_label":  "4 Hours",
-    "minimum_age":  8,
+    "minimum_age":  5,
     "included":  [
                      "Private air-conditioned transportation",
                      "Complimentary bottled water",
@@ -110,7 +110,7 @@
                          "duration_hours":  4,
                          "duration_type":  "Half Day",
                          "energy_level":  "High",
-                         "minimum_age":  8,
+                         "minimum_age":  5,
                          "best_for":  [
                                           "Adventure travelers",
                                           "Friends",

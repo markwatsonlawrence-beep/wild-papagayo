@@ -28,7 +28,7 @@
                  ],
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
-    "minimum_age":  0,
+    "minimum_age":  4,
     "included":  [
                      "Private air-conditioned transportation",
                      "Certified bilingual naturalist guide, exclusively for your group",
@@ -112,7 +112,7 @@
                          "duration_hours":  8,
                          "duration_type":  "Full Day",
                          "energy_level":  "Medium",
-                         "minimum_age":  0,
+                         "minimum_age":  4,
                          "best_for":  [
                                           "Couples",
                                           "Families",

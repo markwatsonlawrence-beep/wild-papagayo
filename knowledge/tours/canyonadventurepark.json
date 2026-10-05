@@ -6,7 +6,7 @@
     "page_file":  "tours/canyonadventurepark.html",
     "page_url":  "../tours/canyonadventurepark",
     "category":  "Canyon Adventure",
-    "short_description":  "Private half-day at Canyon Adventure Park, zip line 7 cables with bird\u0027s-eye canopy views, rappel, rock climbing and 2-mile Class II-III rafting. Lunch included. Minimum age 5.",
+    "short_description":  "Private half-day at Canyon Adventure Park, zip line 7 cables with bird\u0027s-eye canopy views, rappel, rock climbing and 2-mile Class II-III rafting. Lunch included. Minimum age 6.",
     "hero_image":  "images/canyonadventure1.webp",
     "hero_image_alt":  "Canyon Adventure Park — Zip, Rappel, Climb \u0026 Raft in Costa Rica",
     "destination_ids":  [
@@ -28,7 +28,7 @@
                  ],
     "difficulty":  "Moderate",
     "duration_label":  "Half Day (approx. 7 hours)",
-    "minimum_age":  8,
+    "minimum_age":  6,
     "included":  [
                      "Private air-conditioned transportation",
                      "Complimentary bottled water",
@@ -114,7 +114,7 @@
                          "duration_hours":  7,
                          "duration_type":  "Half Day",
                          "energy_level":  "High",
-                         "minimum_age":  8,
+                         "minimum_age":  6,
                          "best_for":  [
                                           "Adventure travelers",
                                           "Teens",
@@ -399,7 +399,7 @@
                                      },
                                      {
                                          "question":  "What is the minimum age?",
-                                         "answer":  "The minimum age is 5. Please let us know the ages of all guests when booking."
+                                         "answer":  "The minimum age is 6. Please let us know the ages of all guests when booking."
                                      },
                                      {
                                          "question":  "Is lunch included?",
