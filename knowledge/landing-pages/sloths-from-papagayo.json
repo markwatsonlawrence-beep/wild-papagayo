@@ -1,0 +1,176 @@
+{
+    "id": "sloths-from-papagayo",
+    "slug": "sloths-from-papagayo",
+    "page_url": "private-tours/sloths-from-papagayo",
+    "canonical_url": "https://wildpapagayo.com/private-tours/sloths-from-papagayo",
+    "seo_title": "Private Sloth Tours from Papagayo Costa Rica | Wild Papagayo",
+    "seo_description": "Discover private sloth tours from Papagayo with resort pickup, local guides and wildlife experiences combining rainforest, hanging bridges and more.",
+    "og_image": "images/bridgessloths1.webp",
+    "h1": "Private Sloth Tours from Papagayo, Costa Rica",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "WILDLIFE · RAINFOREST · PRIVATE EXPERIENCE",
+        "eyebrow_line_2": "See Costa Rica's Wildlife Beyond Papagayo",
+        "subtext": "Leave the coast for a private journey into Costa Rica's greener landscapes, where local guides help you look for sloths and other wildlife in their natural environment.",
+        "cta_primary_text": "Explore Sloth Experiences",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying in Papagayo and would love help choosing a private sloth tour.",
+        "image": "images/bridgessloths1.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Resort Pickup",
+        "Local Wildlife Guides",
+        "Flexible Pacing",
+        "Personal Concierge"
+    ],
+    "intro_section": {
+        "kicker": "Where to Look",
+        "title": "Where Can You See Sloths From Papagayo?",
+        "paragraphs": [
+            "Papagayo's dry tropical landscape is very different from the wetter forests where sloths are more commonly observed. Seeing sloths usually means traveling inland toward greener wildlife areas in northern Costa Rica.",
+            "A private tour makes that journey easier by combining direct resort pickup, transportation and a local guide into one experience — often with other Costa Rica highlights along the way."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Book Direct",
+        "title": "Best Private Sloth Tours From Papagayo",
+        "tours": [
+            {
+                "id": "hangingbridgessloths",
+                "best_for": "Best overall sloth experience",
+                "note": "Combine tropical forest, hanging bridges and guided wildlife observation on a private day designed for travelers who want sloths to be one of the main highlights."
+            },
+            {
+                "id": "slothadventure",
+                "best_for": "Best for a sloth-focused half day",
+                "note": "A private sloth wildlife encounter in Costa Rica's rainforest with a certified naturalist guide, without building a full day around it."
+            },
+            {
+                "id": "slothchocolatetour",
+                "best_for": "Best for wildlife + local flavors",
+                "note": "A hands-on cacao-to-chocolate experience followed by a short hike in Bijagua to look for wild sloths, butterflies and toucans."
+            },
+            {
+                "id": "costaricahighlights",
+                "best_for": "Best for seeing more in one day",
+                "note": "Sloths, waterfall, coffee, hot springs and hanging bridges combined into one signature private day."
+            }
+        ]
+    },
+    "experience_comparison": {
+        "kicker": "Compare Sloth Experiences",
+        "title": "Which Sloth Tour Fits Your Day?",
+        "tours": [
+            { "tour_id": "hangingbridgessloths", "best_for": "Sloths + rainforest", "highlights": "3 hanging bridges, sloth encounter, Llanos de Cortez Waterfall" },
+            { "tour_id": "slothadventure", "best_for": "Sloth-focused wildlife", "highlights": "Rainforest sloth encounter, waterfall, coffee" },
+            { "tour_id": "slothchocolatetour", "best_for": "Wildlife + culture", "highlights": "Cacao-to-chocolate workshop, Bijagua sloth hike" },
+            { "tour_id": "costaricahighlights", "best_for": "Full Costa Rica day", "highlights": "Sloths, waterfall, coffee, hot springs, hanging bridges" }
+        ]
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Sloth Experiences From Papagayo?",
+        "origin_label": "Peninsula Papagayo",
+        "note": "Travel times vary depending on your resort, traffic and road conditions. Guests staying at Four Seasons, Andaz, Nekajui and nearby Guanacaste resorts may have slightly different pickup and travel times.",
+        "source_note": "Computed from real driving distance via Google Routes, Peninsula Papagayo to each wildlife area.",
+        "rows": [
+            { "destination": "Bijagua (Sloth Adventure & Chocolate Tour)", "min": 104, "max": 132, "best_for": "Sloth-focused day" },
+            { "destination": "Rio Celeste area (near Bijagua)", "min": 119, "max": 152, "best_for": "Sloths + scenery" },
+            { "destination": "La Fortuna / Arenal (Hanging Bridges & Sloths)", "min": 180, "max": 230, "best_for": "Full rainforest day" }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Not Sure Which to Pick?",
+        "title": "Which Sloth Tour Should I Choose?",
+        "want_header": "If You...",
+        "rows": [
+            { "want": "Mainly want to see sloths", "tour_id": "hangingbridgessloths" },
+            { "want": "Want sloths + rainforest wildlife", "tour_id": "slothadventure" },
+            { "want": "Want wildlife + Costa Rican culture", "tour_id": "slothchocolatetour" },
+            { "want": "Only have one free day", "tour_id": "costaricahighlights" },
+            { "want": "Are traveling with family", "tour_id": "slothchocolatetour" }
+        ]
+    },
+    "expectations": {
+        "kicker": "What to Expect",
+        "title": "Are Sloth Sightings Guaranteed?",
+        "text": "Sloths are wild animals, so sightings can never be guaranteed. Experienced local guides know the habitats and areas where sloths are commonly observed and help guests spot wildlife that can be difficult to find on their own.",
+        "also_see_title": "What Else Might You See?",
+        "also_see": ["Tropical birds and toucans", "Howler and white-faced monkeys", "Frogs", "Colorful butterflies"]
+    },
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why Explore Wildlife Privately?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private wildlife experiences from Papagayo.",
+        "items": [
+            { "title": "Your Own Local Guide", "text": "More attention for wildlife spotting and questions." },
+            { "title": "Flexible Pacing", "text": "Spend more time observing when conditions are good." },
+            { "title": "Private Transportation", "text": "Travel directly from your resort." },
+            { "title": "No Shared Bus Schedule", "text": "Your day isn't built around multiple hotel pickups." },
+            { "title": "Door-to-Door Service", "text": "Start and finish at your resort." }
+        ]
+    },
+    "resort_pickups": {
+        "kicker": "Hotel Pickup",
+        "title": "Private Sloth Tours With Pickup From Papagayo Resorts",
+        "intro": "Wild Papagayo coordinates private pickup from Peninsula Papagayo and selected Guanacaste resorts for sloth and wildlife experiences.",
+        "inside_peninsula": {
+            "label": "Peninsula Papagayo Resorts",
+            "hotels": [
+                { "id": "four-seasons-papagayo", "cta": "Sloth Tours from Four Seasons" },
+                { "id": "andaz-costa-rica", "cta": "Sloth Tours from Andaz" },
+                { "id": "nekajui-peninsula-papagayo-a-ritz", "cta": "Sloth Tours from Nekajui" }
+            ]
+        },
+        "nearby": {
+            "label": "Nearby Guanacaste Resorts",
+            "hotels": [
+                { "id": "secrets-papagayo-costa-rica", "cta": "Tours from Secrets Papagayo" },
+                { "id": "el-mangroove-hotel", "cta": "Tours from El Mangroove" },
+                { "id": "planet-hollywood-costa-rica", "cta": "Tours from Planet Hollywood" },
+                { "id": "hotel-riu-guanacaste", "cta": "Tours from Riu Guanacaste" },
+                { "id": "hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica", "cta": "Tours from Riu Palace" }
+            ]
+        }
+    },
+    "families_section": {
+        "kicker": "Traveling With Kids?",
+        "title": "Are Sloth Tours Good for Families?",
+        "paragraphs": [
+            "Wildlife experiences can be an excellent way for families to explore Costa Rica beyond the beach, especially when the day can move at the group's own pace.",
+            "Because every tour is private, pickup time and pacing can be adjusted for your group, with a private vehicle, flexible stops and a guide focused on your family. Activity level varies by tour, so tell us the age of your children and we can point you to the option that fits best."
+        ]
+    },
+    "editorial_crosslink": {
+        "kicker": "Want a Deeper Comparison?",
+        "title": "Read Our Local Guide to the Best Sloth Tours",
+        "text": "Curious how these experiences compare in more depth? Our local team wrote a detailed comparison of the best sloth tours from Papagayo, including honest trade-offs between drive time and what each tour includes.",
+        "cta_text": "Read the Sloth Tours Guide",
+        "cta_url": "blog/best-sloth-tours-from-papagayo-a-local-comparison"
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "EXPERIENCE_COMPARISON", "TRAVEL_TIMES", "TOUR_SELECTOR", "EXPECTATIONS", "WHY_PRIVATE", "PICKUP_SECTION", "FAMILIES_SECTION", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "Where can I see sloths near Papagayo?", "a": "Sloths are typically seen inland toward Bijagua or La Fortuna, both reachable from Papagayo as a private day trip. Papagayo itself is dry tropical forest, which is not prime sloth habitat." },
+        { "q": "What is the best sloth tour from Papagayo?", "a": "It depends on your priorities. The Hanging Bridges & Sloths Experience is our most popular overall pick, while the Sloth Adventure Tour is a more sloth-focused option and Sloth Adventure & Chocolate Tour adds a cultural chocolate-making experience." },
+        { "q": "Are sloth sightings guaranteed?", "a": "No. Sloths are wild animals, so sightings can never be guaranteed. Local guides know where sloths are commonly observed and greatly improve your chances of spotting one." },
+        { "q": "How far are sloth habitats from Peninsula Papagayo?", "a": "Bijagua is roughly 1.7 to 2.2 hours away, and La Fortuna / Arenal is roughly 3 to 3.8 hours, based on real driving distance from Peninsula Papagayo." },
+        { "q": "Does Wild Papagayo pick up directly from my resort?", "a": "Yes. We coordinate direct pickup from Peninsula Papagayo resorts and selected nearby Guanacaste resorts for all of our sloth and wildlife experiences." },
+        { "q": "Are the sloth tours private?", "a": "Yes. Every tour is private for your group, with your own vehicle, guide and pace, never combined with other travelers." },
+        { "q": "Are sloth tours suitable for families?", "a": "Many of our sloth tours are family-friendly, and because they're private, pacing can be adjusted for children. Activity level varies by tour, so tell us your group and we'll recommend the best fit." },
+        { "q": "Can I combine sloths with other Costa Rica experiences?", "a": "Yes. Costa Rica Highlights combines sloth observation with a waterfall, coffee and cacao workshop, hot springs and hanging bridges in one private day." }
+    ],
+    "final_cta": {
+        "kicker": "PRIVATE WILDLIFE EXPERIENCES FROM PAPAGAYO.",
+        "title": "Ready to Look for Sloths?",
+        "text": "Tell us where you're staying, who's traveling and what else you'd like to experience. We'll help you choose the private wildlife journey that fits your day.",
+        "cta_primary_text": "Find My Sloth Tour",
+        "cta_secondary_text": "Ask a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying in Papagayo and would love help choosing a private sloth tour."
+    }
+}

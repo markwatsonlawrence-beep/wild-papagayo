@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dry-season",
+    "name": "Dry Season",
+    "month_ids": [
+      "december",
+      "january",
+      "february",
+      "march",
+      "april"
+    ]
+  },
+  {
+    "id": "green-season",
+    "name": "Green Season",
+    "month_ids": [
+      "may",
+      "june",
+      "july",
+      "august",
+      "september",
+      "october",
+      "november"
+    ]
+  },
+  {
+    "id": "january",
+    "name": "January"
+  },
+  {
+    "id": "february",
+    "name": "February"
+  },
+  {
+    "id": "march",
+    "name": "March"
+  },
+  {
+    "id": "april",
+    "name": "April"
+  },
+  {
+    "id": "may",
+    "name": "May"
+  },
+  {
+    "id": "june",
+    "name": "June"
+  },
+  {
+    "id": "july",
+    "name": "July"
+  },
+  {
+    "id": "august",
+    "name": "August"
+  },
+  {
+    "id": "september",
+    "name": "September"
+  },
+  {
+    "id": "october",
+    "name": "October"
+  },
+  {
+    "id": "november",
+    "name": "November"
+  },
+  {
+    "id": "december",
+    "name": "December"
+  }
+]

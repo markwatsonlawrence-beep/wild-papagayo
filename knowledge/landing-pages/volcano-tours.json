@@ -1,0 +1,186 @@
+{
+    "id": "volcano-tours",
+    "slug": "volcano-tours",
+    "page_url": "private-tours/volcano-tours",
+    "canonical_url": "https://wildpapagayo.com/private-tours/volcano-tours",
+    "seo_title": "Best Volcano Tours from Papagayo & Guanacaste | Wild Papagayo",
+    "seo_description": "Compare private volcano tours from Papagayo: Miravalles, Rincon de la Vieja, Arenal and Tenorio/Rio Celeste, with real travel times to help you choose.",
+    "og_image": "images/miravalles1.webp",
+    "h1": "Best Volcano Tours from Papagayo & Guanacaste",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "MIRAVALLES · RINCÓN DE LA VIEJA · ARENAL · TENORIO",
+        "eyebrow_line_2": "Which Volcano Is Right for Your Trip?",
+        "subtext": "Compare Guanacaste's volcano experiences by what actually matters: geothermal landscapes, waterfalls, hiking, rainforest, wildlife and natural hot springs.",
+        "cta_primary_text": "Compare Volcano Tours",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'd love help choosing the right volcano tour from Papagayo.",
+        "image": "images/miravalles1.webp"
+    },
+    "trust_strip": ["Private Tours", "Local Guides", "Hotel Pickup"],
+    "intro_section": {
+        "kicker": "The Honest Answer",
+        "title": "Which Volcano Should You Visit from Guanacaste?",
+        "paragraphs": [
+            "There isn't one \"best\" volcano — it depends on what you actually want out of the day. Miravalles pairs waterfalls with real geothermal activity and natural hot springs, making it one of the more complete, closer volcano experiences from Papagayo. Rincon de la Vieja is the pick for travelers who want to hike through an active volcanic landscape, past fumaroles and geothermal features. Arenal is Costa Rica's most iconic volcano, with rainforest and hot springs, but it's a longer drive worth treating as a dedicated day. And Tenorio Volcano National Park is less about the volcano itself and more about what it produces: Rio Celeste's striking blue-colored river.",
+            "The comparison below uses each tour's own real difficulty, duration and travel-time data, so you can match the experience to your time, your hotel and how active you want the day to be."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Book Direct",
+        "title": "Best Volcano Tours from Papagayo",
+        "tours": [
+            { "id": "miravallesspa", "best_for": "Waterfalls + geothermal + hot springs", "note": "Three waterfalls, a natural hot springs and a volcanic mud crater at Miravalles Volcano — one of the closer volcano options from Papagayo." },
+            { "id": "hikingrinconnationalpark", "best_for": "Volcanic hiking", "note": "A private hike through Rincon de la Vieja National Park, past active fumaroles and volcanic terrain." },
+            { "id": "arenalhotsprings", "best_for": "Iconic volcano + hot springs", "note": "Costa Rica's most recognizable volcano, with a rainforest hike and natural hot springs at its base." },
+            { "id": "celesteriver", "best_for": "Rainforest + Rio Celeste", "note": "A rainforest hike to Rio Celeste's aquamarine blue river inside Tenorio Volcano National Park." }
+        ]
+    },
+    "experience_comparison": {
+        "kicker": "Compare Your Options",
+        "title": "Compare the Best Volcano Tours from Guanacaste",
+        "intro_text": "Each tour covers different terrain and a different pace, so consider the activity level of everyone in your group before booking.",
+        "tours": [
+            { "tour_id": "miravallesspa", "best_for": "Waterfalls + geothermal + hot springs", "highlights": "3 waterfalls, hot springs, volcanic mud crater" },
+            { "tour_id": "hikingrinconnationalpark", "best_for": "Volcanic hiking", "highlights": "Las Pailas Trail, fumaroles, mud pots" },
+            { "tour_id": "arenalhotsprings", "best_for": "Iconic volcano + hot springs", "highlights": "Rainforest hike, waterfall, thermal hot springs" },
+            { "tour_id": "celesteriver", "best_for": "Rainforest + blue river", "highlights": "Rainforest trail, Rio Celeste, Tenorio National Park" }
+        ]
+    },
+    "decision_blocks": {
+        "miravalles_deep_dive": {
+            "kicker": "Volcano Spotlight",
+            "title": "Miravalles Volcano: Waterfalls, Geothermal Activity & Hot Springs",
+            "intro": "Miravalles doesn't have Arenal's fame, but for travelers who want waterfalls, real geothermal activity and natural hot springs in one private day, it's one of the most complete volcano experiences in Guanacaste — and one of the closer ones to Papagayo.",
+            "columns": [
+                { "title": "What Makes Miravalles Different", "items": ["Three cascading waterfalls", "An active geothermal area with visible steam vents", "Natural hot springs fed by the volcano", "A volcanic mud crater guests can experience directly", "Quiet rural Guanacaste countryside along the way"] }
+            ],
+            "cta": { "text": "Explore Miravalles Volcano Tour", "url": "tours/miravallesspa" }
+        },
+        "rincon_deep_dive": {
+            "kicker": "Volcano Spotlight",
+            "title": "Rincon de la Vieja: Best for Volcanic Hiking",
+            "intro": "Rincon de la Vieja National Park is the pick for travelers who want to actually hike through a volcanic landscape — fumaroles, bubbling mud pots and dry tropical forest trails, with wildlife along the way.",
+            "columns": [
+                { "title": "What Makes Rincon de la Vieja Different", "items": ["A real national park with marked hiking trails", "Active fumaroles and geothermal features", "Dry tropical forest scenery", "Wildlife-watching opportunities along the trail", "Multiple real tour options: hiking, hot springs or adventure"] }
+            ],
+            "cta": { "text": "Explore Rincon de la Vieja Tours", "url": "private-tours/rincon-de-la-vieja-from-papagayo" }
+        },
+        "arenal_deep_dive": {
+            "kicker": "Volcano Spotlight",
+            "title": "Arenal Volcano: The Iconic Costa Rica Volcano Experience",
+            "intro": "Arenal is the volcano most travelers picture when they think of Costa Rica. It's a longer drive from Papagayo, so it works best as a dedicated full day rather than an add-on.",
+            "columns": [
+                { "title": "What Makes Arenal Different", "items": ["Iconic, widely recognized volcano scenery", "Rainforest trails and hanging-bridge options", "Natural hot springs at the base of the volcano", "Wildlife-watching in the surrounding forest", "Volcano visibility depends on weather and cloud cover, like any volcano"] }
+            ],
+            "cta": { "text": "Explore Arenal Tours", "url": "tours/arenalhotsprings" }
+        },
+        "tenorio_deep_dive": {
+            "kicker": "Volcano Spotlight",
+            "title": "Tenorio Volcano & Rio Celeste",
+            "intro": "Tenorio Volcano National Park is less about the volcano itself and more about what its geology produces: Rio Celeste, a rainforest river known for its strikingly blue water.",
+            "columns": [
+                { "title": "What Makes Tenorio / Rio Celeste Different", "items": ["Rainforest hiking trails inside the national park", "Rio Celeste's distinctive blue-colored water", "A waterfall viewpoint reached by trail", "Wildlife-watching opportunities in the rainforest", "An on-the-water tubing option as an alternative to hiking"] }
+            ],
+            "cta": { "text": "Explore Rio Celeste Tours", "url": "private-tours/rio-celeste-from-papagayo" }
+        },
+        "miravalles_vs_rincon": {
+            "kicker": "Head-to-Head",
+            "title": "Miravalles vs Rincon de la Vieja: Which Should You Choose?",
+            "intro": "Both are volcanic, geothermal destinations from Papagayo, but the experience is genuinely different.",
+            "columns": [
+                { "title": "Choose Miravalles if...", "items": ["You want waterfalls and hot springs as the main focus", "A volcanic mud experience appeals to you", "You prefer a gentler pace with less hiking", "You want one of the closer volcano options from Papagayo"] },
+                { "title": "Choose Rincon de la Vieja if...", "items": ["You want an actual hiking trail through volcanic terrain", "Fumaroles and active geothermal features are the priority", "You want the flexibility of choosing between hiking, hot springs or adventure", "A full day of trail walking sounds appealing, not tiring"] }
+            ]
+        }
+    },
+    "tour_selector": {
+        "kicker": "Not Sure Which to Pick?",
+        "title": "Which Volcano Tour Is Best for You?",
+        "want_header": "If You...",
+        "rows": [
+            { "want": "Want waterfalls + hot springs", "tour_id": "miravallesspa" },
+            { "want": "Want volcanic hiking", "tour_id": "hikingrinconnationalpark" },
+            { "want": "Want the iconic volcano experience", "tour_id": "arenalhotsprings" },
+            { "want": "Want rainforest + Rio Celeste", "tour_id": "celesteriver" }
+        ]
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Is Each Volcano From Papagayo?",
+        "origin_label": "Peninsula Papagayo",
+        "note": "Travel time varies by resort, traffic and road conditions. Guests staying at Andaz, Four Seasons, Nekajui and other Guanacaste properties may have different drive times.",
+        "source_note": "Computed from real driving distance via Google Routes, Peninsula Papagayo to each volcano area.",
+        "rows": [
+            { "destination": "Miravalles Volcano (Las Hornillas)", "min": 98, "max": 125, "best_for": "Waterfalls + hot springs" },
+            { "destination": "Rincon de la Vieja (Las Pailas sector)", "min": 102, "max": 130, "best_for": "Volcanic hiking" },
+            { "destination": "Tenorio / Rio Celeste", "min": 119, "max": 152, "best_for": "Rainforest + blue river" },
+            { "destination": "La Fortuna / Arenal", "min": 180, "max": 230, "best_for": "Iconic volcano" }
+        ]
+    },
+    "resort_pickups": {
+        "kicker": "Hotel Pickup",
+        "title": "Volcano Tours from Your Guanacaste Resort",
+        "intro": "Wild Papagayo coordinates direct resort pickup and private transportation for every volcano tour, based on the experience you choose.",
+        "inside_peninsula": {
+            "label": "Peninsula Papagayo Resorts",
+            "hotels": [
+                { "id": "four-seasons-papagayo", "cta": "Volcano Tours from Four Seasons" },
+                { "id": "andaz-costa-rica", "cta": "Volcano Tours from Andaz" },
+                { "id": "nekajui-peninsula-papagayo-a-ritz", "cta": "Volcano Tours from Nekajui" }
+            ]
+        },
+        "nearby": {
+            "label": "Nearby Guanacaste Resorts",
+            "hotels": [
+                { "id": "secrets-papagayo-costa-rica", "cta": "Tours from Secrets Papagayo" },
+                { "id": "el-mangroove-hotel", "cta": "Tours from El Mangroove" },
+                { "id": "planet-hollywood-costa-rica", "cta": "Tours from Planet Hollywood" },
+                { "id": "hotel-riu-guanacaste", "cta": "Tours from Riu Guanacaste" },
+                { "id": "hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica", "cta": "Tours from Riu Palace" }
+            ]
+        }
+    },
+    "about_section": {
+        "kicker": "Local Expert",
+        "title": "Not Sure Which Volcano to Visit?",
+        "text": "The right choice depends on your hotel, how much time you have, who's traveling with you, mobility, and whether hiking, wildlife, waterfalls or hot springs matter most to your group. Tell us about your trip and we'll help you choose the volcano experience that actually fits your day.",
+        "cta": { "text": "Ask Wild Papagayo", "url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20love%20help%20choosing%20the%20right%20volcano%20tour%20from%20Papagayo." }
+    },
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why Explore Volcanoes Privately?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private volcano experiences from Papagayo.",
+        "items": [
+            { "title": "Private Vehicle", "text": "No shared buses." },
+            { "title": "Local Certified Guides", "text": "Bilingual guides who know each volcano." },
+            { "title": "Direct Resort Pickup", "text": "Start and finish at your hotel." },
+            { "title": "Flexible Pacing", "text": "Spend more time where it matters to you." },
+            { "title": "Help Choosing", "text": "Guidance based on your trip, not a generic list." }
+        ]
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "EXPERIENCE_COMPARISON", "DECISION_BLOCK:miravalles_deep_dive", "DECISION_BLOCK:rincon_deep_dive", "DECISION_BLOCK:arenal_deep_dive", "DECISION_BLOCK:tenorio_deep_dive", "TOUR_SELECTOR", "DECISION_BLOCK:miravalles_vs_rincon", "TRAVEL_TIMES", "PICKUP_SECTION", "ABOUT_SECTION", "WHY_PRIVATE", "FAQ_SECTION"],
+    "faq": [
+        { "q": "What is the best volcano to visit from Guanacaste?", "a": "It depends on what you want. Miravalles is best for waterfalls, geothermal activity and hot springs. Rincon de la Vieja is best for volcanic hiking. Arenal is the most iconic volcano scenery. Tenorio is best if Rio Celeste's blue river is the priority." },
+        { "q": "Is Miravalles Volcano worth visiting?", "a": "Yes, especially if you want waterfalls, real geothermal activity and natural hot springs in one private day. It's also one of the closer volcano options from Papagayo, based on real driving distance." },
+        { "q": "Which is better, Miravalles or Rincon de la Vieja?", "a": "Neither is universally better. Choose Miravalles for waterfalls, hot springs and a gentler pace. Choose Rincon de la Vieja if you want an actual hiking trail through volcanic terrain with fumaroles." },
+        { "q": "Can you visit Arenal from Papagayo in one day?", "a": "Yes, our Arenal tours run as a private full day from Papagayo, but the drive is roughly 3 to 3.8 hours each way, so it's worth planning as a dedicated day rather than combining it with other stops." },
+        { "q": "What volcano is closest to Peninsula Papagayo?", "a": "Based on real driving distance, Miravalles (approximately 98 to 125 minutes) and Rincon de la Vieja (approximately 102 to 130 minutes) are the closest volcano options from Peninsula Papagayo." },
+        { "q": "Which Costa Rica volcano tour is best for families?", "a": "It depends on the age and stamina of your children. Gentler, hot-springs-focused options like Miravalles tend to suit families who want less hiking, while active families may enjoy the trails at Rincon de la Vieja or Arenal. Tell us your group and we can recommend the best fit." },
+        { "q": "Can I see waterfalls and hot springs on the same volcano tour?", "a": "Yes. The Miravalles Volcano Waterfalls & Natural Spa tour combines three waterfalls with natural hot springs and a volcanic mud crater in one private day." },
+        { "q": "What should I bring on a volcano tour in Costa Rica?", "a": "A swimsuit and towel if your tour includes hot springs, comfortable walking shoes, sun protection, insect repellent and water. Specific requirements vary by tour, so check the itinerary for the experience you book." }
+    ],
+    "final_cta": {
+        "kicker": "PLANNING YOUR VOLCANO DAY.",
+        "title": "Which Volcano Fits Your Trip?",
+        "text": "Tell us where you're staying, how much time you have and what kind of experience you're looking for — waterfalls, hiking, hot springs or the iconic volcano view. We'll help you choose the right private volcano tour from Papagayo.",
+        "cta_primary_text": "Plan My Volcano Day",
+        "cta_secondary_text": "Ask a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying in Guanacaste and would love help choosing the right volcano tour."
+    }
+}

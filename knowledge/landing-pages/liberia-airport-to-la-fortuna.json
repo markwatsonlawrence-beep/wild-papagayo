@@ -1,0 +1,282 @@
+{
+    "id": "liberia-airport-to-la-fortuna",
+    "slug": "liberia-airport-to-la-fortuna",
+    "output_dir": "transfers",
+    "cta_intent": "airport_transfer",
+    "page_url": "transfers/liberia-airport-to-la-fortuna",
+    "canonical_url": "https://wildpapagayo.com/transfers/liberia-airport-to-la-fortuna",
+    "include_organization_schema": true,
+    "webpage_id": true,
+    "seo_title": "Liberia Airport to La Fortuna & Arenal Private Transfer | Wild Papagayo",
+    "seo_description": "Private transportation between Liberia Airport (LIR) and La Fortuna & Arenal, in both directions. Request a quote from Wild Papagayo via WhatsApp.",
+    "og_image": "images/liberia-arenal-papagayo-private-transfer.webp",
+    "h1": "Private Transportation From Liberia Airport to La Fortuna & Arenal",
+    "breadcrumb_parent": {
+        "name": "Transport",
+        "url": "transport"
+    },
+    "hero": {
+        "eyebrow_line_1": "PRIVATE AIRPORT TRANSPORTATION",
+        "eyebrow_line_2": "Liberia Airport (LIR) and La Fortuna & Arenal",
+        "subtext": "Wild Papagayo arranges private transportation between Liberia Airport (LIR) and La Fortuna & Arenal, in both directions. Your vehicle is not shared with other travelers, and pricing is by quote.",
+        "cta_primary_text": "Request a Quote",
+        "cta_primary_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo%21%20I%27d%20like%20a%20quote%20for%20private%20transportation%20between%20Liberia%20Airport%20%28LIR%29%20and%20La%20Fortuna%20%26%20Arenal.",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I have a question about private transportation between Liberia Airport and La Fortuna & Arenal.",
+        "image": "images/liberia-arenal-papagayo-private-transfer.webp"
+    },
+    "trust_strip": [
+        "Private, Not Shared",
+        "Both Directions",
+        "Quote on Request",
+        "Book via WhatsApp"
+    ],
+    "intro_section": {
+        "kicker": "Airport Transportation",
+        "title": "Private Transfer Between Liberia Airport and La Fortuna & Arenal",
+        "paragraphs": [
+            "Wild Papagayo arranges private transportation between Liberia Airport (LIR) and La Fortuna & Arenal, in both directions. The vehicle and driver are for your group only, not a shared shuttle, and the drive takes roughly 2.5 to 3 hours.",
+            "Liberia Airport is officially Daniel Oduber Quirós International Airport and is also known as Guanacaste Airport. Pricing for this route is by quote: send your dates, direction, group size and flight details on WhatsApp and we will reply with a quote.",
+            "This Liberia Airport to La Fortuna transfer is not offered for flights arriving at night. Whether we can take your transfer depends on your flight's arrival time and our operating availability, so include your flight details when you ask."
+        ]
+    },
+    "content_blocks": {
+        "route_facts": {
+            "kicker": "At a Glance",
+            "title": "Liberia Airport (LIR) to La Fortuna & Arenal: Route Facts",
+            "alt": true,
+            "facts": [
+                {
+                    "label": "Service",
+                    "value": "Private transportation. The vehicle and driver are for your group only, not shared with other travelers."
+                },
+                {
+                    "label": "Provided by",
+                    "value": "Wild Papagayo"
+                },
+                {
+                    "label": "From",
+                    "value": "Liberia Airport (LIR), Guanacaste"
+                },
+                {
+                    "label": "To",
+                    "value": "La Fortuna & Arenal"
+                },
+                {
+                    "label": "Return trip",
+                    "value": "Yes. La Fortuna & Arenal to Liberia Airport is arranged on this same route. Share your departure flight time when you request a quote."
+                },
+                {
+                    "label": "Drive time",
+                    "value": "Roughly 2.5 to 3 hours. This is a planning estimate; timing varies with weather and road conditions."
+                },
+                {
+                    "label": "Pricing",
+                    "value": "By quote. No fixed price is published for this route."
+                },
+                {
+                    "label": "Booking",
+                    "value": "Request a quote on WhatsApp. There is no fixed advance-booking window; availability depends on your dates."
+                },
+                {
+                    "label": "Night arrivals",
+                    "value": "Not offered for flights arriving at night. Availability depends on your flight's arrival time and our operating availability."
+                },
+                {
+                    "label": "Flight delays",
+                    "value": "The first 60 minutes of waiting are at no charge. For longer delays we work with you to adjust the plan."
+                },
+                {
+                    "label": "Child seats",
+                    "value": "Ask for one when you request your quote. Availability is confirmed with the quote."
+                },
+                {
+                    "label": "Luggage",
+                    "value": "Tell us about your luggage when you request a quote, and mention anything unusual or oversized."
+                },
+                {
+                    "label": "Booking & cancellation",
+                    "value": "25% deposit to confirm; balance due 72 hours before pickup (bookings within 72 hours are paid in full). Cancellations within 72 hours of pickup are non-refundable, subject to mandatory consumer rights."
+                }
+            ],
+            "cta": {
+                "text": "Read the Booking & Cancellation Policy",
+                "url": "politicasdecancelacion"
+            }
+        },
+        "how_it_works": {
+            "kicker": "How It Works",
+            "title": "How Your Transfer Works, Step by Step",
+            "steps": [
+                "Send your request on WhatsApp: the direction (airport to La Fortuna & Arenal, or back to the airport), your date, flight details, group size and where you are staying in La Fortuna & Arenal.",
+                "We check whether the transfer is available for your flight time and reply with a quote.",
+                "If you go ahead, we confirm your booking in writing and arrange a private vehicle and driver for your group.",
+                "On arrival at LIR, your driver meets you in the arrivals area with a sign bearing your name. Exact meeting details are confirmed with your booking.",
+                "For the return trip, tell us your departure flight time and we plan your pickup for the drive back to Liberia Airport."
+            ],
+            "cta": {
+                "text": "See All Wild Papagayo Airport Transfers",
+                "url": "transport"
+            }
+        },
+        "vehicles_luggage_family": {
+            "kicker": "Groups & Families",
+            "title": "Vehicles, Luggage and Traveling With Children",
+            "paragraphs": [
+                "Vehicle size depends on your group and your luggage, so we confirm it as part of your quote rather than fixing it in advance.",
+                "Luggage: tell us how many people are traveling and mention anything unusual or oversized when you request your quote.",
+                "Children: if you need a child seat, ask for one when you request your quote and we will confirm availability."
+            ]
+        },
+        "return_leg": {
+            "kicker": "Return Trip",
+            "title": "Return Transportation From La Fortuna & Arenal to Liberia Airport",
+            "alt": true,
+            "paragraphs": [
+                "The return trip from La Fortuna & Arenal to Liberia Airport is covered on this same page, so there is nothing separate to look for. Share your departure flight time and where you are staying when you request your quote, and we plan the pickup around your flight.",
+                "The drive back takes about the same roughly 2.5 to 3 hours, so allow for it when choosing your departure flight."
+            ]
+        },
+        "flight_times_daylight": {
+            "kicker": "Plan Your Arrival",
+            "title": "Flight Times and Daylight",
+            "paragraphs": [
+                "Because this is a 2.5 to 3 hour drive, the time your flight lands shapes the whole plan. This transfer is not offered for flights arriving at night; whether we can take your flight depends on its arrival time and our operating availability.",
+                "If your flight lands late in the day, send us your flight details before you book. Arriving earlier in the day gives you more time to settle in when you reach La Fortuna & Arenal."
+            ],
+            "cta": {
+                "text": "Read the Liberia Airport to Arenal Drive-Times Guide",
+                "url": "blog/liberia-airport-to-arenal-papagayo-drive-times-stops"
+            }
+        }
+    },
+    "decision_blocks": {
+        "compare": {
+            "kicker": "Compare Your Options",
+            "title": "Private Transfer, Shared Shuttle or Rental Car?",
+            "intro": "Three common ways to get from Liberia Airport to La Fortuna & Arenal. Each suits a different kind of trip.",
+            "columns": [
+                {
+                    "title": "Private transfer",
+                    "items": [
+                        "Vehicle and driver for your group only",
+                        "Arranged in both directions on this route",
+                        "Priced by quote for your dates and group",
+                        "Not offered for flights arriving at night"
+                    ]
+                },
+                {
+                    "title": "Shared shuttle",
+                    "items": [
+                        "Often the budget-friendly choice",
+                        "Typically involves waiting for other passengers and several hotel stops",
+                        "Our Liberia Airport transportation guide explains how shuttles compare"
+                    ]
+                },
+                {
+                    "title": "Rental car",
+                    "items": [
+                        "You set your own schedule and stops",
+                        "You handle the driving, navigation and parking",
+                        "See our La Fortuna trip recap for a traveler's view of going without one"
+                    ]
+                }
+            ],
+            "cta": {
+                "text": "Read the Liberia Airport Transportation Guide",
+                "url": "blog/liberia-airport-transfer-guide"
+            }
+        }
+    },
+    "hotel_pickup": {
+        "kicker": "Request a Quote",
+        "title": "Request a Quote for Your Transfer",
+        "text": "Send us the direction (airport to La Fortuna & Arenal, or back), your date, flight details, group size and where you are staying in La Fortuna & Arenal. We will confirm availability and reply with a quote.",
+        "text_2": "Pricing is by quote for this route, and no fixed price is published.",
+        "cta_text": "Request a Quote via WhatsApp",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo%21%20I%27d%20like%20a%20quote%20for%20private%20transportation%20between%20Liberia%20Airport%20%28LIR%29%20and%20La%20Fortuna%20%26%20Arenal."
+    },
+    "about_section": {
+        "kicker": "Traveler Recap",
+        "title": "La Fortuna Without a Rental Car",
+        "text": "Read an honest trip recap of getting around La Fortuna & Arenal without renting a car.",
+        "cta": {
+            "text": "Read the La Fortuna Recap",
+            "url": "blog/la-fortuna-without-a-rental-car-an-honest-trip-recap"
+        }
+    },
+    "hotel_crosslink": {
+        "kicker": "Destination Guide",
+        "title": "Planning Your Time in La Fortuna & Arenal?",
+        "text": "Explore our destination guide for what to do in La Fortuna & Arenal and how it fits into a Costa Rica trip.",
+        "cta_text": "View the La Fortuna & Arenal Guide",
+        "cta_url": "destinations/la-fortuna"
+    },
+    "section_order": [
+        "INTRO_SECTION",
+        "CONTENT_BLOCK:route_facts",
+        "CONTENT_BLOCK:how_it_works",
+        "DECISION_BLOCK:compare",
+        "CONTENT_BLOCK:vehicles_luggage_family",
+        "CONTENT_BLOCK:return_leg",
+        "CONTENT_BLOCK:flight_times_daylight",
+        "PICKUP_SECTION",
+        "ABOUT_SECTION",
+        "HOTEL_CROSSLINK",
+        "FAQ_SECTION"
+    ],
+    "faq": [
+        {
+            "q": "Is this a private transfer or a shared shuttle?",
+            "a": "It is a private transfer. The vehicle and driver are for your group only and are not shared with other travelers."
+        },
+        {
+            "q": "How long is the drive from Liberia Airport to La Fortuna & Arenal?",
+            "a": "Roughly 2.5 to 3 hours. This is a planning estimate, and timing varies with weather and road conditions."
+        },
+        {
+            "q": "How much does a private transfer from Liberia Airport to La Fortuna & Arenal cost?",
+            "a": "We price this route by quote, and no fixed price is published. Send your dates, direction, group size and flight details on WhatsApp and we will reply with a quote."
+        },
+        {
+            "q": "Can I book the return trip from La Fortuna & Arenal to Liberia Airport?",
+            "a": "Yes. Return transportation is covered on this same route. Tell us your departure flight time and where you are staying when you request your quote."
+        },
+        {
+            "q": "Is the transfer available for flights that arrive at night?",
+            "a": "No. This Liberia Airport to La Fortuna & Arenal transfer is not offered for flights arriving at night. Availability depends on your flight's arrival time and our operating availability, so send your flight details before you book if your flight lands late in the day."
+        },
+        {
+            "q": "What happens if my flight is delayed?",
+            "a": "Let us know as soon as you can. We accommodate the first 60 minutes of waiting at no charge, and for longer delays we work with you to adjust the plan rather than cancel."
+        },
+        {
+            "q": "Where will my driver meet me at the airport?",
+            "a": "In the arrivals area at LIR, with a sign bearing your name. Exact meeting details are confirmed with your booking."
+        },
+        {
+            "q": "Can I request a child seat?",
+            "a": "You can ask for one when you request your quote, and we will confirm availability."
+        },
+        {
+            "q": "What should I tell you about my luggage?",
+            "a": "Mention your luggage when you request your quote, especially anything unusual or oversized, so we can plan the vehicle accordingly."
+        },
+        {
+            "q": "How far in advance do I need to book?",
+            "a": "There is no fixed lead time; it depends on availability for your dates. Send your request as soon as your plans are set."
+        },
+        {
+            "q": "What is the cancellation policy for private transfers?",
+            "a": "A 25% deposit confirms your transfer and the remaining balance is due no later than 72 hours before pickup; bookings made within 72 hours are paid in full. Cancellations made more than 72 hours before pickup receive the refundable amount paid, less any applicable non-recoverable payment-processing costs when legally permitted. Cancellations within 72 hours of pickup are non-refundable, subject to any mandatory consumer rights. Cancellations must be submitted in writing by WhatsApp or email; see our Booking & Cancellation Policy for details."
+        }
+    ],
+    "final_cta": {
+        "kicker": "LIBERIA AIRPORT AND LA FORTUNA & ARENAL",
+        "title": "Ready to Request a Quote?",
+        "text": "Tell us your direction, date, flight details and group size, and we will confirm availability and send you a quote for private transportation between Liberia Airport and La Fortuna & Arenal.",
+        "cta_primary_text": "Request a Quote",
+        "cta_secondary_text": "Ask a Question First",
+        "whatsapp_message": "Hello Wild Papagayo! I'd like a quote for private transportation between Liberia Airport (LIR) and La Fortuna & Arenal."
+    }
+}

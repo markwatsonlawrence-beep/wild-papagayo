@@ -1,0 +1,94 @@
+{
+    "id": "liberia-airport-to-riu-guanacaste",
+    "slug": "liberia-airport-to-riu-guanacaste",
+    "output_dir": "transfers",
+    "cta_intent": "airport_transfer",
+    "page_url": "transfers/liberia-airport-to-riu-guanacaste",
+    "canonical_url": "https://wildpapagayo.com/transfers/liberia-airport-to-riu-guanacaste",
+    "include_organization_schema": true,
+    "seo_title": "Liberia Airport to Riu Guanacaste Private Transfer | Wild Papagayo",
+    "seo_description": "Book a private transfer between Liberia Airport (LIR) and Hotel Riu Guanacaste in Playa Matapalo. Private vehicle, arrival and departure, via WhatsApp.",
+    "og_image": "images/hotel-riu-guanacaste-hero.webp",
+    "h1": "Private Transportation From Liberia Airport to Riu Guanacaste",
+    "breadcrumb_parent": { "name": "Transport", "url": "transport" },
+    "hero": {
+        "eyebrow_line_1": "PRIVATE AIRPORT TRANSPORTATION",
+        "eyebrow_line_2": "Liberia Airport (LIR) to Hotel Riu Guanacaste",
+        "subtext": "Wild Papagayo arranges private, door-to-door transportation between Liberia Guanacaste Airport (LIR) and Hotel Riu Guanacaste in Playa Matapalo, for both arrival and departure.",
+        "cta_primary_text": "Book Your Private Transfer",
+        "cta_primary_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20book%20a%20private%20transfer%20from%20Liberia%20Airport%20to%20Hotel%20Riu%20Guanacaste.",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I have a question about private transportation from Liberia Airport to Hotel Riu Guanacaste.",
+        "image": "images/hotel-riu-guanacaste-hero.webp"
+    },
+    "trust_strip": [
+        "Private Vehicle",
+        "Professional Driver",
+        "Direct Hotel Pickup",
+        "Arrival & Departure"
+    ],
+    "intro_section": {
+        "kicker": "Airport Transportation",
+        "title": "Private Transfer From Liberia Airport to Hotel Riu Guanacaste",
+        "paragraphs": [
+            "Hotel Riu Guanacaste is the large all-inclusive resort on Playa Matapalo built around the Splash Water World water park. Guests flying into Daniel Oduber Quiros International Airport (LIR) can book a private transfer straight to the resort, typically 42 to 54 minutes by car.",
+            "Rather than a multi-stop shared shuttle, Wild Papagayo sends one vehicle and driver assigned only to your group, heading straight for the Splash Water World resort with no other hotel stops along the way.",
+            "Hotel Riu Guanacaste is a separate property from Hotel Riu Palace Costa Rica, even though both sit close together on Playa Matapalo. If you're booked into Riu Palace, use the dedicated transfer page linked below instead."
+        ]
+    },
+    "travel_times": {
+        "kicker": "Plan Your Route",
+        "title": "Liberia Airport to Hotel Riu Guanacaste: Travel Time",
+        "origin_label": "Liberia Airport (LIR)",
+        "note": "The return drive from Hotel Riu Guanacaste to Liberia Airport takes about the same time. Actual travel time can vary with traffic and road conditions.",
+        "source_note": "Google Routes data places the drive at approximately 42–54 minutes (33.4 km) from Daniel Oduber Quiros International Airport (LIR) to Hotel Riu Guanacaste.",
+        "rows": [
+            { "destination": "Hotel Riu Guanacaste", "min": 42, "max": 54, "best_for": "Arrival or departure" }
+        ]
+    },
+    "hotel_pickup": {
+        "kicker": "Book Your Transfer",
+        "title": "Reserve Private Transportation to Hotel Riu Guanacaste",
+        "text": "Once you land at LIR and clear customs, your Wild Papagayo driver will be waiting in the arrivals area with a sign bearing your name, ready for the drive out to the Splash Water World resort on Playa Matapalo.",
+        "text_2": "Heading home, tell us your flight time and we'll have your driver at Hotel Riu Guanacaste ready to take you back to Liberia Airport.",
+        "cta_text": "Book via WhatsApp",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20book%20a%20private%20transfer%20from%20Liberia%20Airport%20to%20Hotel%20Riu%20Guanacaste."
+    },
+    "about_section": {
+        "kicker": "Confirm Your Hotel",
+        "title": "Staying at Riu Palace Costa Rica Instead?",
+        "text": "Hotel Riu Guanacaste and Hotel Riu Palace Costa Rica are separate properties on Playa Matapalo. If you're staying at Riu Palace Costa Rica, use our dedicated transfer page for accurate pickup information.",
+        "cta": { "text": "View Riu Palace Costa Rica Transfer", "url": "transfers/liberia-airport-to-riu-palace-costa-rica" }
+    },
+    "hotel_crosslink": {
+        "kicker": "Hotel Guide",
+        "title": "Staying at Hotel Riu Guanacaste?",
+        "text": "Explore our local guide for practical information about Hotel Riu Guanacaste, the surrounding area and planning your stay.",
+        "cta_text": "View Hotel Riu Guanacaste Guide",
+        "cta_url": "hotels/hotel-riu-guanacaste"
+    },
+    "editorial_crosslink": {
+        "kicker": "Planning Your Arrival?",
+        "title": "Read the Full Liberia Airport Guide",
+        "text": "See our complete guide to Liberia Airport transportation, including shared shuttles, rental cars and what to expect when you land at LIR.",
+        "cta_text": "Read the Liberia Airport Transportation Guide",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "section_order": ["INTRO_SECTION", "TRAVEL_TIMES", "PICKUP_SECTION", "ABOUT_SECTION", "HOTEL_CROSSLINK", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "How do I get from Liberia Airport to Hotel Riu Guanacaste?", "a": "Wild Papagayo drives you directly from LIR to the Splash Water World resort on Playa Matapalo, about 42 to 54 minutes by private vehicle." },
+        { "q": "Can I book a private transfer to Hotel Riu Guanacaste?", "a": "Yes. A private vehicle and driver are assigned to your group for the airport-to-resort drive." },
+        { "q": "Can I book transportation from Hotel Riu Guanacaste back to Liberia Airport?", "a": "Yes. Share your departure flight time and we'll schedule your return pickup from the resort." },
+        { "q": "Where does airport pickup happen?", "a": "In the arrivals area at LIR, where your driver will be waiting with a sign bearing your name." },
+        { "q": "Can families or groups book this transfer?", "a": "Yes. Vehicle size is matched to your travel party ahead of time." },
+        { "q": "How far in advance should I arrange transportation?", "a": "As soon as your dates are confirmed. Arranging it after landing during busy periods can mean extra waiting." }
+    ],
+    "final_cta": {
+        "kicker": "LIBERIA AIRPORT TO RIU GUANACASTE",
+        "title": "Ready to Book Your Transfer?",
+        "text": "Tell us your arrival or departure flight details and we'll coordinate private transportation between Liberia Airport and Hotel Riu Guanacaste.",
+        "cta_primary_text": "Book Your Private Transfer",
+        "cta_secondary_text": "Ask a Question First",
+        "whatsapp_message": "Hello Wild Papagayo! I'd like to book a private transfer from Liberia Airport to Hotel Riu Guanacaste."
+    }
+}

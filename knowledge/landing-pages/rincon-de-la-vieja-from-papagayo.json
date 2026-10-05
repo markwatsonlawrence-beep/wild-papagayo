@@ -1,0 +1,196 @@
+{
+    "id": "rincon-de-la-vieja-from-papagayo",
+    "slug": "rincon-de-la-vieja-from-papagayo",
+    "page_url": "private-tours/rincon-de-la-vieja-from-papagayo",
+    "canonical_url": "https://wildpapagayo.com/private-tours/rincon-de-la-vieja-from-papagayo",
+    "seo_title": "Rincon de la Vieja Private Tours from Papagayo | Wild Papagayo",
+    "seo_description": "Explore Rincon de la Vieja from Papagayo with private resort pickup, local guides and volcano, hiking, hot springs and adventure experiences.",
+    "og_image": "images/rincon1.webp",
+    "h1": "Rincon de la Vieja Private Tours from Papagayo",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "VOLCANO · HIKING · HOT SPRINGS · ADVENTURE",
+        "eyebrow_line_2": "From Papagayo to Costa Rica's Volcanic Side",
+        "subtext": "Explore Rincon de la Vieja privately from Papagayo, with direct resort pickup and experiences ranging from volcanic hiking and geothermal landscapes to hot springs and adventure.",
+        "cta_primary_text": "Explore Rincon de la Vieja Experiences",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying in Papagayo and would love help planning a private Rincon de la Vieja day.",
+        "image": "images/rincon1.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Resort Pickup",
+        "Local Guides",
+        "Flexible Pacing",
+        "Volcano Experiences"
+    ],
+    "intro_section": {
+        "kicker": "The Honest Answer",
+        "title": "Is Rincon de la Vieja Worth Visiting From Papagayo?",
+        "paragraphs": [
+            "Rincon de la Vieja is one of the best choices from Papagayo for travelers who want to experience Costa Rica's volcanic landscapes without committing to the longer journey to Arenal.",
+            "From Peninsula Papagayo, travel time is approximately 102–130 minutes each way, depending on traffic, road conditions and the exact experience selected.",
+            "Choose Rincon de la Vieja if volcano landscapes, hiking, hot springs or adventure are priorities. If wildlife is your main goal, a sloth-focused experience may be a better fit."
+        ]
+    },
+    "about_section": {
+        "kicker": "What Makes It Different",
+        "title": "A Different Side of Guanacaste",
+        "text": "Rincon de la Vieja brings together volcanic landscapes, tropical forest and geothermal activity within Guanacaste. Depending on the experience you choose, a private day can focus on hiking, nature, hot springs or adventure — Rincon de la Vieja isn't a single experience, and this guide is here to help you choose the right one."
+    },
+    "featured_tours": {
+        "kicker": "Book Direct",
+        "title": "Rincon de la Vieja Experiences From Papagayo",
+        "tours": [
+            {
+                "id": "hikingrinconnationalpark",
+                "best_for": "Volcanic landscapes & hiking",
+                "note": "A private full-day hike through the Las Pailas Trail, past active fumaroles, bubbling mud pots and volcanic terrain."
+            },
+            {
+                "id": "oropendolahotsprings",
+                "best_for": "Hot springs & waterfall",
+                "note": "A gentler half-day private tour to Oropendola Waterfall's turquoise pool and the natural Rio Negro hot springs."
+            },
+            {
+                "id": "buenavistamegacombo",
+                "best_for": "Adventure & hot springs",
+                "note": "A private full-day adventure combining zip line, waterslide and hot springs at Buena Vista."
+            }
+        ]
+    },
+    "experience_comparison": {
+        "kicker": "Compare Your Options",
+        "title": "Choose Your Rincon de la Vieja Experience",
+        "intro_text": "Each experience covers different ground and a different pace, so consider the activity level of everyone in your group before booking.",
+        "tours": [
+            { "tour_id": "hikingrinconnationalpark", "best_for": "Volcanic landscapes", "highlights": "Las Pailas Trail, fumaroles, mud pots" },
+            { "tour_id": "oropendolahotsprings", "best_for": "Hot springs & waterfall", "highlights": "Oropendola Waterfall, Rio Negro hot springs" },
+            { "tour_id": "buenavistamegacombo", "best_for": "Adventure", "highlights": "Zip line, waterslide, hot springs" }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Not Sure Which to Pick?",
+        "title": "Which Rincon de la Vieja Experience Is Right for You?",
+        "want_header": "If You...",
+        "rows": [
+            { "want": "Want to hike", "tour_id": "hikingrinconnationalpark" },
+            { "want": "Want hot springs", "tour_id": "oropendolahotsprings" },
+            { "want": "Want adventure", "tour_id": "buenavistamegacombo" }
+        ]
+    },
+    "decision_blocks": {
+        "volcano_hiking_spotlight": {
+            "kicker": "Volcano Hiking",
+            "title": "Rincon de la Vieja Volcano Hiking From Papagayo",
+            "intro": "Travelers specifically interested in the volcanic landscape can explore the Las Pailas sector on a private hiking experience from Papagayo.",
+            "columns": [
+                { "title": "Las Pailas Trail", "items": ["Approx. 3 km (2 miles) of moderate terrain", "Active fumaroles and bubbling mud pots", "Rainforest and volcanic landscapes", "Difficulty: Easy to Moderate · Full Day (approx. 8 hours)"] }
+            ],
+            "cta": { "text": "View Volcano Hiking Tour", "url": "tours/hikingrinconnationalpark" }
+        },
+        "rincon_vs_arenal": {
+            "kicker": "Compare Volcano Regions",
+            "title": "Rincon de la Vieja or Arenal From Papagayo?",
+            "intro": "Both are volcanic regions reachable from Papagayo, but they suit different priorities and travel days.",
+            "columns": [
+                { "title": "Choose Rincon de la Vieja if...", "items": ["You want a shorter drive from Papagayo (approx. 102–130 min)", "Volcanic hiking interests you", "You want Guanacaste adventure or hot springs options"] },
+                { "title": "Choose Arenal if...", "items": ["Arenal itself is a priority for your trip", "You're comfortable with a significantly longer travel day (approx. 180–230 min)", "Your selected tour includes experiences unique to that itinerary"] }
+            ]
+        },
+        "rincon_vs_celeste": {
+            "kicker": "Compare Day Trips",
+            "title": "Rincon de la Vieja or Rio Celeste?",
+            "columns": [
+                { "title": "Rincon de la Vieja", "text": "Better fit when volcano landscapes, geothermal features, hiking or adventure are the priority." },
+                { "title": "Rio Celeste", "text": "Better fit when rainforest scenery and the blue river are the main reason for your day trip." }
+            ],
+            "cta": { "text": "Compare Rio Celeste From Papagayo", "url": "private-tours/rio-celeste-from-papagayo" }
+        },
+        "who_for": {
+            "kicker": "Is This Trip For You?",
+            "title": "Who Is Rincon de la Vieja Best For?",
+            "columns": [
+                { "title": "Great choice if...", "items": ["You want to experience volcanic landscapes", "Hiking or adventure interests your group", "You have a full day available", "You want something different from Papagayo's coastal environment"] },
+                { "title": "Consider another experience if...", "items": ["Your priority is seeing sloths — explore our sloth experiences instead", "You only have a short window away from the resort", "You want the easiest, most relaxed option — the Oropendola Waterfall & Hot Springs half-day tour is a gentler alternative to the full hiking day"] }
+            ]
+        }
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Is Rincon de la Vieja From Papagayo?",
+        "origin_label": "Peninsula Papagayo",
+        "note": "Travel time varies by resort, traffic, road conditions and the specific area of Rincon de la Vieja included in your experience.",
+        "source_note": "Computed from real driving distance via Google Routes, Peninsula Papagayo to the Rincon de la Vieja area.",
+        "rows": [
+            { "destination": "Rincon de la Vieja (Las Pailas sector)", "min": 102, "max": 130, "best_for": "Volcano hiking & adventure" }
+        ]
+    },
+    "resort_pickups": {
+        "kicker": "Hotel Pickup",
+        "title": "Private Rincon de la Vieja Tours With Resort Pickup",
+        "intro": "Wild Papagayo coordinates direct resort pickup and private transportation based on your selected Rincon de la Vieja experience.",
+        "inside_peninsula": {
+            "label": "Peninsula Papagayo Resorts",
+            "hotels": [
+                { "id": "four-seasons-papagayo", "cta": "Rincon de la Vieja Tours from Four Seasons" },
+                { "id": "andaz-costa-rica", "cta": "Rincon de la Vieja Tours from Andaz" },
+                { "id": "nekajui-peninsula-papagayo-a-ritz", "cta": "Rincon de la Vieja Tours from Nekajui" }
+            ]
+        },
+        "nearby": {
+            "label": "Nearby Guanacaste Resorts",
+            "hotels": [
+                { "id": "secrets-papagayo-costa-rica", "cta": "Tours from Secrets Papagayo" },
+                { "id": "el-mangroove-hotel", "cta": "Tours from El Mangroove" },
+                { "id": "planet-hollywood-costa-rica", "cta": "Tours from Planet Hollywood" },
+                { "id": "hotel-riu-guanacaste", "cta": "Tours from Riu Guanacaste" },
+                { "id": "hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica", "cta": "Tours from Riu Palace" }
+            ]
+        }
+    },
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why Visit Rincon de la Vieja Privately?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private Rincon de la Vieja journeys from Papagayo.",
+        "items": [
+            { "title": "Direct Resort Pickup", "text": "Start and finish at your hotel." },
+            { "title": "Private Transportation", "text": "Reserved for your group only." },
+            { "title": "Dedicated Local Guide", "text": "Focused on your itinerary." },
+            { "title": "Flexible Pacing", "text": "Especially valuable on a full-day trip." },
+            { "title": "No Multiple Hotel Pickups", "text": "Your day follows your own schedule." },
+            { "title": "Help Choosing the Right Experience", "text": "Hiking, hot springs or adventure — we help you decide." }
+        ]
+    },
+    "editorial_crosslink": {
+        "kicker": "Looking for the Volcano Hike?",
+        "title": "Looking Specifically for the Volcano Hike?",
+        "text": "This guide helps you compare Rincon de la Vieja experiences and decide what fits your day. For the full itinerary, inclusions and booking details of the hiking tour, view the product page directly.",
+        "cta_text": "View Our Rincon de la Vieja Volcano Private Hiking Tour",
+        "cta_url": "tours/hikingrinconnationalpark"
+    },
+    "section_order": ["INTRO_SECTION", "ABOUT_SECTION", "FEATURED_TOURS", "EXPERIENCE_COMPARISON", "TOUR_SELECTOR", "DECISION_BLOCK:volcano_hiking_spotlight", "TRAVEL_TIMES", "DECISION_BLOCK:rincon_vs_arenal", "DECISION_BLOCK:rincon_vs_celeste", "DECISION_BLOCK:who_for", "PICKUP_SECTION", "WHY_PRIVATE", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "Is Rincon de la Vieja worth visiting from Papagayo?", "a": "Yes for travelers who want volcanic landscapes, hiking, hot springs or adventure — it's one of the best choices from Papagayo for that without the longer drive to Arenal. If wildlife is your main goal, a sloth-focused experience may be a better fit." },
+        { "q": "How far is Rincon de la Vieja from Peninsula Papagayo?", "a": "Approximately 102 to 130 minutes each way, based on real driving distance from Peninsula Papagayo." },
+        { "q": "What is the best Rincon de la Vieja tour from Papagayo?", "a": "It depends on your priorities. The Rincon de la Vieja Hiking Tour is best for volcanic landscapes, Oropendola Waterfall & Hot Springs is a gentler half-day option, and Buena Vista Mega Combo is best for adventure." },
+        { "q": "Can I hike at Rincon de la Vieja?", "a": "Yes. Our Rincon de la Vieja Hiking Tour follows the Las Pailas Trail, approximately 3 km of moderate terrain past active fumaroles and bubbling mud pots." },
+        { "q": "How difficult is the Las Pailas hike?", "a": "The hiking tour is rated Easy to Moderate over roughly 3 km of moderate terrain, on a full-day private itinerary." },
+        { "q": "Can I combine hiking with hot springs?", "a": "The hiking tour and hot springs tours are separate private experiences. If both interest you, tell us and we can help you plan them across your stay." },
+        { "q": "Does Wild Papagayo pick up directly from my resort?", "a": "Yes. We coordinate direct pickup from Peninsula Papagayo resorts and selected nearby Guanacaste resorts for all Rincon de la Vieja experiences." },
+        { "q": "Should I visit Rincon de la Vieja or Arenal from Papagayo?", "a": "Rincon de la Vieja is the shorter drive (approx. 102–130 min) and a good fit for volcanic hiking, hot springs or adventure. Arenal is a longer day (approx. 180–230 min) worth it if Arenal itself, or an experience unique to that area, is a priority." }
+    ],
+    "final_cta": {
+        "kicker": "PLANNING YOUR VOLCANIC DAY.",
+        "title": "Which Side of Rincon de la Vieja Do You Want to Experience?",
+        "text": "Tell us where you're staying and whether you're looking for volcanic hiking, hot springs, adventure or a combination. We'll help you choose the private experience that best fits your day from Papagayo.",
+        "cta_primary_text": "Plan My Rincon de la Vieja Day",
+        "cta_secondary_text": "Ask a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying in Papagayo and would love help planning a private Rincon de la Vieja day."
+    }
+}

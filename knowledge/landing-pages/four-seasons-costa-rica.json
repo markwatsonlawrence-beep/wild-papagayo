@@ -1,0 +1,164 @@
+{
+    "id": "four-seasons-costa-rica",
+    "slug": "four-seasons-costa-rica",
+    "hotel_id": "four-seasons-papagayo",
+    "page_url": "private-tours/four-seasons-costa-rica",
+    "canonical_url": "https://wildpapagayo.com/private-tours/four-seasons-costa-rica",
+    "seo_title": "Private Tours from Four Seasons Costa Rica | Wild Papagayo",
+    "seo_description": "Explore private tours from Four Seasons Costa Rica with direct resort pickup, local guides and flexible journeys to volcanoes, wildlife and waterfalls.",
+    "og_image": "images/four-seasons-papagayo-hero.webp",
+    "h1": "Private Tours from Four Seasons Costa Rica",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "FOUR SEASONS RESORT COSTA RICA · PENINSULA PAPAGAYO",
+        "eyebrow_line_2": "Your Stay at Four Seasons. Your Costa Rica Beyond Papagayo.",
+        "subtext": "Private journeys from Four Seasons Resort Costa Rica with direct resort pickup, a dedicated local guide and flexible experiences designed around your time, interests and travel style.",
+        "cta_primary_text": "Explore Private Tours",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying at Four Seasons Costa Rica and would love help planning a private tour.",
+        "image": "images/four-seasons-papagayo-hero.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Direct Resort Pickup",
+        "Local Guides",
+        "Flexible Itineraries"
+    ],
+    "intro_section": {
+        "kicker": "Beyond the Resort",
+        "title": "Explore Costa Rica Beyond Peninsula Papagayo",
+        "paragraphs": [
+            "Four Seasons Resort Costa Rica puts you in one of Guanacaste's most extraordinary coastal settings. When you're ready to explore beyond the resort, Wild Papagayo connects your stay with private journeys into Costa Rica's volcanoes, tropical forests, wildlife areas, waterfalls and rural communities.",
+            "Every experience is private to your group, with pickup directly from Four Seasons, dedicated transportation and a local guide. Rather than adapting your day to a shared excursion schedule, we help shape the experience around you.",
+            "Book Direct. Explore Privately. Work directly with a local Costa Rican operator specializing in private experiences from Papagayo."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Signature Experiences",
+        "title": "Best Private Tours from Four Seasons",
+        "tours": [
+            { "id": "costaricahighlights", "best_for": "First-time visitors", "note": "A full-day introduction to several of the landscapes and experiences that make northern Costa Rica special." },
+            { "id": "hangingbridgessloths", "best_for": "Families & wildlife", "note": "A wildlife-focused journey combining tropical forest, hanging bridges and the chance to observe sloths with a local guide." },
+            { "id": "celesteriver", "best_for": "Nature & photography", "note": "Venture into northern Costa Rica for rainforest scenery and the remarkable blue waters of Rio Celeste." },
+            { "id": "hikingrinconnationalpark", "best_for": "Volcano & hiking", "note": "Explore the volcanic landscapes of Guanacaste with trails and geothermal features on a private full-day hike." },
+            { "id": "paloverderiverboattour", "best_for": "Wildlife with less hiking", "note": "A relaxed wildlife experience particularly attractive for travelers who prefer observing nature without a demanding hike." },
+            { "id": "buenavistamegacombo", "best_for": "Active families & adventure", "note": "Zip line, waterslide and hot springs in one active day, for travelers who want more than sightseeing." },
+            { "id": "arenalhotsprings", "best_for": "One extraordinary full day", "note": "Volcano views and natural hot springs near La Fortuna, a longer day trip worth the drive." }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Plan Your Time",
+        "title": "Which Tour Fits Your Day?",
+        "rows": [
+            { "want": "An easier wildlife day", "tour_id": "paloverderiverboattour" },
+            { "want": "Seeing sloths is a priority", "tour_id": "hangingbridgessloths" },
+            { "want": "Volcano landscapes", "tour_id": "hikingrinconnationalpark" },
+            { "want": "Traveling with active teenagers or family", "tour_id": "buenavistamegacombo" },
+            { "want": "An iconic nature experience", "tour_id": "celesteriver" },
+            { "want": "One full day to explore Costa Rica", "tour_id": "arenalhotsprings" }
+        ]
+    },
+    "hotel_pickup": {
+        "kicker": "Resort Pickup",
+        "title": "Direct Pickup From Four Seasons Resort Costa Rica",
+        "text": "Your private experience begins at Four Seasons Resort Costa Rica. Wild Papagayo coordinates resort pickup based on your selected tour and planned departure time, with private transportation reserved for your group.",
+        "text_2": "At the end of your experience, you'll return directly to the resort unless your itinerary includes another pre-arranged destination.",
+        "cta_text": "Plan a Tour From Four Seasons",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Four%20Seasons%20Costa%20Rica%20and%20would%20like%20to%20plan%20a%20private%20tour."
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Costa Rica's Top Experiences from Four Seasons?",
+        "origin_label": "Four Seasons",
+        "note": "Travel times are approximate and can vary with traffic, road conditions and the exact experience selected. Your Wild Papagayo concierge can recommend a departure time based on your itinerary.",
+        "source_note": "Computed from real driving distance via Google Routes, from Four Seasons Resort Costa Rica to each destination.",
+        "rows": [
+            { "destination": "Buena Vista Adventure Center", "min": 92, "max": 117, "best_for": "Adventure" },
+            { "destination": "Rincon de la Vieja (Las Pailas)", "min": 102, "max": 130, "best_for": "Volcano & hiking" },
+            { "destination": "Palo Verde National Park", "min": 96, "max": 123, "best_for": "Wildlife" },
+            { "destination": "Bijagua (sloth experiences)", "min": 104, "max": 132, "best_for": "Wildlife" },
+            { "destination": "Rio Celeste", "min": 119, "max": 152, "best_for": "Nature & scenery" },
+            { "destination": "La Fortuna / Arenal", "min": 180, "max": 230, "best_for": "Full-day journey" }
+        ]
+    },
+    "audience_sections": [
+        {
+            "kicker": "For Families",
+            "title": "Best Private Tours for Four Seasons Families",
+            "intro": "Traveling privately gives families more control over departure times, stops and the pace of the day.",
+            "groups": [
+                { "title": "Families with Younger Children", "text": "Wildlife, Palo Verde and other shorter, easier experiences suit families traveling with young kids." },
+                { "title": "Families with Older Children & Teens", "text": "Hanging bridges, tubing and adventure experiences give older kids and teens more to be active about." },
+                { "title": "Multigenerational Families", "text": "We can adapt the pace and minimize demanding physical activity so every generation enjoys the day." }
+            ]
+        },
+        {
+            "kicker": "For Couples",
+            "title": "Private Experiences for Couples",
+            "intro": "A private day outside the resort can be as active or relaxed as you want. Explore rainforest and waterfalls, discover Costa Rican wildlife, or combine nature with hot springs and local experiences before returning to Papagayo.",
+            "groups": [
+                { "title": "Rio Celeste", "text": "Rainforest scenery and one of Costa Rica's most photographed natural landmarks." },
+                { "title": "Sloth Experiences", "text": "A slower-paced wildlife walk through tropical forest with your own guide." },
+                { "title": "Arenal & Hot Springs", "text": "Volcano views paired with natural hot springs for a longer, more immersive day." },
+                { "title": "Cultural Experiences", "text": "Coffee, chocolate and local traditions woven into a private day trip." }
+            ]
+        }
+    ],
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Book Direct. Explore Privately.",
+        "tagline": "Wild Papagayo",
+        "tagline_text": "A local Costa Rican operator specializing in private journeys from Papagayo and Guanacaste resorts.",
+        "items": [
+            { "title": "Direct Communication", "text": "Plan directly with the team coordinating your experience." },
+            { "title": "Private Vehicle", "text": "Transportation reserved for your group." },
+            { "title": "Local Expertise", "text": "Recommendations based on destination, travel time and the experience you're looking for." },
+            { "title": "Flexible Planning", "text": "Your itinerary is designed around your group rather than a shared tour schedule." },
+            { "title": "Personal Concierge", "text": "Support choosing and coordinating your experience." }
+        ]
+    },
+    "airport_section": {
+        "kicker": "Airport Transportation",
+        "title": "Private Transportation Between LIR and Four Seasons",
+        "text": "Wild Papagayo can also coordinate private transportation between Guanacaste Airport (LIR) and Four Seasons Resort Costa Rica, roughly 41–53 minutes away, making it possible to arrange both your airport transfer and private experiences with one local team.",
+        "cta_text": "View Liberia Airport Transportation",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "hotel_crosslink": {
+        "kicker": "Resort Guide",
+        "title": "Staying at Four Seasons Resort Costa Rica?",
+        "text": "Explore our local resort guide for practical information about Four Seasons, Peninsula Papagayo, transportation and planning your stay.",
+        "cta_text": "View Four Seasons Resort Guide",
+        "cta_url": "hotels/four-seasons-papagayo"
+    },
+    "editorial_crosslink": {
+        "kicker": "Comparing Experiences?",
+        "title": "Comparing Volcano Experiences?",
+        "text": "If a volcano day is on your list, see how Rio Celeste, Rincon de la Vieja, Arenal and Miravalles compare before you choose.",
+        "cta_text": "Compare Volcano Tours from Papagayo",
+        "cta_url": "private-tours/volcano-tours"
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "TOUR_SELECTOR", "PICKUP_SECTION", "TRAVEL_TIMES", "AUDIENCE_SECTIONS", "WHY_PRIVATE", "AIRPORT_SECTION", "HOTEL_CROSSLINK", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "What are the best private tours from Four Seasons Costa Rica?", "a": "The Hanging Bridges & Sloths Experience, Rio Celeste, Rincon de la Vieja and the Buena Vista Mega Combo are among our most popular picks for Four Seasons guests, depending on whether you want wildlife, scenery or adventure." },
+        { "q": "Does Wild Papagayo pick up directly from Four Seasons Resort Costa Rica?", "a": "Yes. Every tour includes private pickup directly from Four Seasons, coordinated around your selected experience and departure time." },
+        { "q": "Are the tours completely private?", "a": "Yes. Every tour is private for your group, with your own vehicle, guide and pace, not a shared bus with other travelers." },
+        { "q": "What is the best wildlife tour from Four Seasons?", "a": "The Hanging Bridges & Sloths Experience and the Palo Verde River Boat Tour are our top wildlife-focused options, each with a different pace and terrain." },
+        { "q": "Can we visit Rio Celeste from Four Seasons Costa Rica?", "a": "Yes. Rio Celeste is a full-day private tour from Four Seasons, best booked in the December–April dry season for the most vivid water color." },
+        { "q": "What is the best tour for families staying at Four Seasons?", "a": "It depends on the age of your children: Palo Verde and wildlife tours suit younger kids, while hanging bridges and adventure parks give older children and teens more to do." },
+        { "q": "Can Wild Papagayo customize our itinerary?", "a": "Yes. Because every tour is private, pickup time, pacing and add-ons can be tailored to your group. Tell us your dates and interests and we'll help build the day." },
+        { "q": "How far are the main attractions from Four Seasons Costa Rica?", "a": "Most destinations run roughly 1.5 to 2.5 hours by private transfer, with Arenal being the longest at around 3 to 3.5 hours. See the travel-time table above for specific destinations." }
+    ],
+    "final_cta": {
+        "kicker": "MAKE ONE DAY OF YOUR STAY UNFORGETTABLE.",
+        "title": "Tell Us Who's Traveling",
+        "text": "Tell us who's traveling, how much time you have and what you'd most like to experience. We'll help you choose a private Costa Rica journey that fits naturally into your stay at Four Seasons.",
+        "cta_primary_text": "Plan My Private Tour",
+        "cta_secondary_text": "Chat With a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying at Four Seasons Costa Rica and would love help planning a private tour that fits my stay."
+    }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "couples",
+    "name": "Couples"
+  },
+  {
+    "id": "families",
+    "name": "Families",
+    "narrative_html": "<p>A “family-friendly” label doesn’t tell you much on its own — what matters more is what role you want the hotel to play in the trip.</p><p>Some properties are built around resort convenience. Hotel Riu Guanacaste, for example, is a verified all-inclusive beachfront resort with children’s programming and family room options. Others put nature and adventure closer to the center of the stay. Hotel Hacienda Guachipelín, an inland working ranch near Rincón de la Vieja, is not all-inclusive and also has family-oriented rooms and organized children’s activities — a very different setting for a family trip.</p><p>Several of the properties we’ve verified for family stays offer organized children’s programming, so this isn’t limited to one type of resort.</p><p>If a specific room setup matters to your family, it’s worth confirming it property by property rather than assuming every family-oriented hotel offers the same configuration. And if your trip includes more than one base, we arrange <a href=\"../transport\">private transportation</a> between many of the destinations we serve in Guanacaste and on other established routes, with each itinerary confirmed individually.</p>"
+  },
+  {
+    "id": "seniors",
+    "name": "Older Travelers"
+  },
+  {
+    "id": "private",
+    "name": "Private Travelers"
+  },
+  {
+    "id": "adventure",
+    "name": "Adventure Travelers"
+  },
+  {
+    "id": "honeymoon",
+    "name": "Honeymooners",
+    "preferred_tours": ["oropendolahotsprings", "costaricahighlights", "slothadventure"],
+    "preferred_destinations": ["papagayo", "rincon-de-la-vieja", "rio-celeste"],
+    "narrative_html": "<p>A honeymoon that combines La Fortuna and Guanacaste works best when the two stops feel genuinely different, not a repeat of the same waterfall-and-wildlife day twice. <a href=\"../destinations/la-fortuna\">La Fortuna</a> brings the rainforest, volcano and hot-spring side of Costa Rica; <a href=\"../destinations/guanacaste\">Guanacaste</a> brings the coast and a slower pace. Combining both isn't required -- but if you do, let one half move and the other half rest.</p><p>The accommodation side of that choice works the same way. Staying in one setting for the whole trip keeps things simple -- you unpack once and settle into a single property's rhythm. Combining two contrasting settings means changing hotels partway through, which adds one transfer but gives the trip two distinct moods instead of one.</p><p>Not every hotel recommended here markets itself specifically as a honeymoon destination -- some do, explicitly, while others fit a honeymoon because of the setting, the pace or the style of stay they offer, even without romantic marketing front and center. Adults-only is a preference, not a requirement: among the six properties evaluated for this guide, Occidental Papagayo is currently the only one verified as adults-only. Other properties we recommend for honeymoon travelers also welcome guests of different ages.</p><p>The same personal choice applies to how you fill the days: some couples want most of the trip centered on the resort itself, while others prefer to build more wildlife and adventure experiences into the time between. If your plan includes two settings, private transportation can make the move between them part of a simpler itinerary. <a href=\"../transport\">We arrange private transportation</a> between many of the destinations we serve in Guanacaste and on other established routes, with each itinerary confirmed individually.</p><p>A couple of practical details can also shape the choice. Occidental Papagayo is all-inclusive, while Suitree is not. If beach access matters, Four Seasons and Occidental sit directly on the beach, Waldorf Astoria's beach is a short walk away, while Suitree and Borinquen offer inland settings instead.</p>"
+  },
+  {
+    "id": "groups",
+    "name": "Groups"
+  },
+  {
+    "id": "first-time-visitors",
+    "name": "First-Time Visitors"
+  }
+]

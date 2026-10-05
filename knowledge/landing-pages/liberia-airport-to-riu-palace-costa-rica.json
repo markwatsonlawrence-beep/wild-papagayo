@@ -1,0 +1,94 @@
+{
+    "id": "liberia-airport-to-riu-palace-costa-rica",
+    "slug": "liberia-airport-to-riu-palace-costa-rica",
+    "output_dir": "transfers",
+    "cta_intent": "airport_transfer",
+    "page_url": "transfers/liberia-airport-to-riu-palace-costa-rica",
+    "canonical_url": "https://wildpapagayo.com/transfers/liberia-airport-to-riu-palace-costa-rica",
+    "include_organization_schema": true,
+    "seo_title": "Liberia Airport to Riu Palace Costa Rica Transfer | Wild Papagayo",
+    "seo_description": "Book a private transfer between Liberia Airport (LIR) and Hotel Riu Palace Costa Rica in Playa Matapalo. Private vehicle, arrival and departure, via WhatsApp.",
+    "og_image": "images/hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica-hero.jpg",
+    "h1": "Private Transportation From Liberia Airport to Riu Palace Costa Rica",
+    "breadcrumb_parent": { "name": "Transport", "url": "transport" },
+    "hero": {
+        "eyebrow_line_1": "PRIVATE AIRPORT TRANSPORTATION",
+        "eyebrow_line_2": "Liberia Airport (LIR) to Hotel Riu Palace Costa Rica",
+        "subtext": "Wild Papagayo arranges private, door-to-door transportation between Liberia Guanacaste Airport (LIR) and Hotel Riu Palace Costa Rica in Playa Matapalo, for both arrival and departure.",
+        "cta_primary_text": "Book Your Private Transfer",
+        "cta_primary_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20book%20a%20private%20transfer%20from%20Liberia%20Airport%20to%20Hotel%20Riu%20Palace%20Costa%20Rica.",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I have a question about private transportation from Liberia Airport to Hotel Riu Palace Costa Rica.",
+        "image": "images/hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica-hero.jpg"
+    },
+    "trust_strip": [
+        "Private Vehicle",
+        "Professional Driver",
+        "Direct Hotel Pickup",
+        "Arrival & Departure"
+    ],
+    "intro_section": {
+        "kicker": "Airport Transportation",
+        "title": "Private Transfer From Liberia Airport to Hotel Riu Palace Costa Rica",
+        "paragraphs": [
+            "Hotel Riu Palace Costa Rica is the 24-hour all-inclusive beachfront resort on golden-sand Playa Matapalo. Guests flying into Daniel Oduber Quiros International Airport (LIR) can book a private transfer straight to the resort, typically 41 to 53 minutes by car.",
+            "Wild Papagayo skips the shared shuttle model entirely: your vehicle and driver are reserved only for your group, driving straight to the beachfront resort on Playa Matapalo without stopping at other hotels first.",
+            "Hotel Riu Palace Costa Rica is a separate property from Hotel Riu Guanacaste, even though both sit close together on Playa Matapalo. If you're booked into Riu Guanacaste, use the dedicated transfer page linked below instead."
+        ]
+    },
+    "travel_times": {
+        "kicker": "Plan Your Route",
+        "title": "Liberia Airport to Hotel Riu Palace Costa Rica: Travel Time",
+        "origin_label": "Liberia Airport (LIR)",
+        "note": "The return drive from Hotel Riu Palace Costa Rica to Liberia Airport takes about the same time. Actual travel time can vary with traffic and road conditions.",
+        "source_note": "Google Routes data places the drive at approximately 41–53 minutes (33.2 km) from Daniel Oduber Quiros International Airport (LIR) to Hotel Riu Palace Costa Rica.",
+        "rows": [
+            { "destination": "Hotel Riu Palace Costa Rica", "min": 41, "max": 53, "best_for": "Arrival or departure" }
+        ]
+    },
+    "hotel_pickup": {
+        "kicker": "Book Your Transfer",
+        "title": "Reserve Private Transportation to Hotel Riu Palace Costa Rica",
+        "text": "Once you land at LIR and clear customs, your Wild Papagayo driver will be waiting in the arrivals area with a personalized sign, ready for the drive out to the beachfront resort on golden-sand Playa Matapalo.",
+        "text_2": "For your return flight, share your departure time and hotel checkout details, and we'll have transportation ready at Hotel Riu Palace Costa Rica for the drive back to Liberia Airport.",
+        "cta_text": "Book via WhatsApp",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20book%20a%20private%20transfer%20from%20Liberia%20Airport%20to%20Hotel%20Riu%20Palace%20Costa%20Rica."
+    },
+    "about_section": {
+        "kicker": "Confirm Your Hotel",
+        "title": "Staying at Riu Guanacaste Instead?",
+        "text": "Hotel Riu Palace Costa Rica and Hotel Riu Guanacaste are separate properties on Playa Matapalo. If you're staying at Riu Guanacaste, use our dedicated transfer page for accurate pickup information.",
+        "cta": { "text": "View Riu Guanacaste Transfer", "url": "transfers/liberia-airport-to-riu-guanacaste" }
+    },
+    "hotel_crosslink": {
+        "kicker": "Hotel Guide",
+        "title": "Staying at Hotel Riu Palace Costa Rica?",
+        "text": "Explore our local guide for practical information about Hotel Riu Palace Costa Rica, the surrounding area and planning your stay.",
+        "cta_text": "View Hotel Riu Palace Costa Rica Guide",
+        "cta_url": "hotels/hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica"
+    },
+    "editorial_crosslink": {
+        "kicker": "Planning Your Arrival?",
+        "title": "Read the Full Liberia Airport Guide",
+        "text": "See our complete guide to Liberia Airport transportation, including shared shuttles, rental cars and what to expect when you land at LIR.",
+        "cta_text": "Read the Liberia Airport Transportation Guide",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "section_order": ["INTRO_SECTION", "TRAVEL_TIMES", "PICKUP_SECTION", "ABOUT_SECTION", "HOTEL_CROSSLINK", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "How do I get from Liberia Airport to Hotel Riu Palace Costa Rica?", "a": "Wild Papagayo drives you directly from LIR to the beachfront resort on Playa Matapalo, about 41 to 53 minutes by private vehicle." },
+        { "q": "Can I book a private transfer to Hotel Riu Palace Costa Rica?", "a": "Yes. A private vehicle and driver are arranged specifically for your arrival." },
+        { "q": "Can I book transportation from Hotel Riu Palace Costa Rica back to Liberia Airport?", "a": "Yes. Tell us your departure flight time and checkout details, and we'll schedule your pickup from the resort." },
+        { "q": "Where does airport pickup happen?", "a": "At the designated arrivals pickup area at LIR, where your driver will be holding a personalized sign." },
+        { "q": "Can families or groups book this transfer?", "a": "Yes. Vehicle size is matched to your travel party in advance." },
+        { "q": "How far in advance should I arrange transportation?", "a": "Ideally as soon as your dates are confirmed. During high season, waiting time can increase if arranged last minute." }
+    ],
+    "final_cta": {
+        "kicker": "LIBERIA AIRPORT TO RIU PALACE COSTA RICA",
+        "title": "Ready to Book Your Transfer?",
+        "text": "Tell us your arrival or departure flight details and we'll coordinate private transportation between Liberia Airport and Hotel Riu Palace Costa Rica.",
+        "cta_primary_text": "Book Your Private Transfer",
+        "cta_secondary_text": "Ask a Question First",
+        "whatsapp_message": "Hello Wild Papagayo! I'd like to book a private transfer from Liberia Airport to Hotel Riu Palace Costa Rica."
+    }
+}

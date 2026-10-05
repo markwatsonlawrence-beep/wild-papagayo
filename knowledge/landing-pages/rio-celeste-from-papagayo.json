@@ -1,0 +1,173 @@
+{
+    "id": "rio-celeste-from-papagayo",
+    "slug": "rio-celeste-from-papagayo",
+    "page_url": "private-tours/rio-celeste-from-papagayo",
+    "canonical_url": "https://wildpapagayo.com/private-tours/rio-celeste-from-papagayo",
+    "seo_title": "Rio Celeste Private Tour from Papagayo | Wild Papagayo",
+    "seo_description": "Plan a private Rio Celeste tour from Papagayo with resort pickup, private transportation and local guides. Compare travel time, hiking and tour options.",
+    "og_image": "images/celeste1.webp",
+    "h1": "Rio Celeste Private Tour from Papagayo",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "RIO CELESTE · RAINFOREST · PRIVATE DAY TRIP",
+        "eyebrow_line_2": "From Papagayo to One of Costa Rica's Most Remarkable Landscapes",
+        "subtext": "Travel privately from Papagayo to Rio Celeste for a full-day journey into the rainforest, with direct resort pickup, private transportation and a local guide.",
+        "cta_primary_text": "Explore Rio Celeste Experiences",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying in Papagayo and would love help planning a private Rio Celeste day.",
+        "image": "images/celeste1.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Resort Pickup",
+        "Local Guide",
+        "Flexible Pacing",
+        "Full-Day Experience"
+    ],
+    "intro_section": {
+        "kicker": "The Honest Answer",
+        "title": "Is Rio Celeste Worth the Drive From Papagayo?",
+        "paragraphs": [
+            "For travelers who want to see one of northern Costa Rica's most distinctive natural landscapes, Rio Celeste can absolutely be worth the journey — but it should be planned as a full-day experience from Papagayo.",
+            "From Peninsula Papagayo, the drive to the Rio Celeste area is approximately 119–152 minutes each way, depending on traffic and road conditions. A private tour makes the longer travel day more comfortable by giving your group direct resort pickup, dedicated transportation and control over the pace of the experience.",
+            "If you'd rather spend less time driving, Wild Papagayo can recommend wildlife, volcano and adventure experiences closer to your resort."
+        ]
+    },
+    "about_section": {
+        "kicker": "What Makes It Special",
+        "title": "Why Visit Rio Celeste?",
+        "text": "Rio Celeste is known for its strikingly blue-colored river, set within Tenorio Volcano National Park's rainforest. A rainforest hike leads to a waterfall viewpoint, with the river's distinctive color influenced by the area's volcanic and mineral geology.",
+        "cta": { "text": "View the Rio Celeste Tour", "url": "tours/celesteriver" }
+    },
+    "featured_tours": {
+        "kicker": "Book Direct",
+        "title": "Rio Celeste Experiences From Papagayo",
+        "tours": [
+            {
+                "id": "celesteriver",
+                "best_for": "Classic Rio Celeste experience",
+                "note": "A private full-day hike to Rio Celeste's aquamarine blue river and waterfall viewpoint inside Tenorio Volcano National Park."
+            },
+            {
+                "id": "tubingceleste",
+                "best_for": "A more active way to experience the river",
+                "note": "Float directly on Rio Celeste's blue water through the rainforest, navigating small rapids with a private guide."
+            }
+        ]
+    },
+    "experience_comparison": {
+        "kicker": "Compare Your Options",
+        "title": "Choose Your Rio Celeste Experience",
+        "intro_text": "Both experiences involve time on natural trails or in the water, and conditions can change with weather. Before booking, consider the activity level of everyone in your group and the specific itinerary you select.",
+        "tours": [
+            { "tour_id": "celesteriver", "best_for": "Hiking + waterfall viewpoint", "highlights": "Rainforest trail, blue river, Tenorio National Park" },
+            { "tour_id": "tubingceleste", "best_for": "On-the-water experience", "highlights": "Floating on the blue river, small rapids, rainforest wildlife" }
+        ]
+    },
+    "decision_blocks": {
+        "combine_sloths": {
+            "kicker": "Rio Celeste + Wildlife",
+            "title": "Rio Celeste + Sloths: Should You Combine Them?",
+            "intro": "If both Rio Celeste and Costa Rica's wildlife are high on your wish list, combining them can make good use of a full day away from Papagayo. There isn't a single tour that packages both, but our sloth experiences operate in the same Bijagua / Rio Celeste area, so it's easy to plan both into your trip.",
+            "columns": [
+                { "title": "Choose Rio Celeste only if...", "items": ["The blue river and rainforest are your main priorities", "You prefer a more focused, single-destination itinerary"] },
+                { "title": "Add a sloth experience if...", "items": ["Wildlife is equally important to your group", "You're comfortable planning a fuller day, or a separate day, around Bijagua"] }
+            ],
+            "cta": { "text": "Explore Private Sloth Tours", "url": "private-tours/sloths-from-papagayo" }
+        },
+        "plan_your_day": {
+            "kicker": "Planning Your Day",
+            "title": "How to Make the Most of a Rio Celeste Day From Papagayo",
+            "columns": [
+                { "title": "Start at the right time", "text": "Your recommended departure depends on your resort, itinerary and expected road conditions." },
+                { "title": "Don't overpack the itinerary", "text": "Rio Celeste already requires meaningful travel time from Papagayo. Adding too many stops can make the day feel rushed." },
+                { "title": "Decide what matters most", "text": "Choose between a focused Rio Celeste experience or a combination with wildlife based on your priorities." },
+                { "title": "Travel privately", "text": "Direct transportation avoids multiple resort pickups and lets the day follow your group's itinerary." }
+            ]
+        },
+        "who_for": {
+            "kicker": "Is This Trip For You?",
+            "title": "Who Is This Day Trip For?",
+            "columns": [
+                { "title": "Great choice if...", "items": ["You specifically want to see Rio Celeste", "You enjoy rainforest scenery", "You're comfortable dedicating a full day", "You prefer a private itinerary"] },
+                { "title": "Consider another tour if...", "items": ["You want minimal driving", "You only have half a day available", "Your group prefers a very relaxed day close to the resort"] }
+            ]
+        }
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Is Rio Celeste From Papagayo?",
+        "origin_label": "Peninsula Papagayo",
+        "note": "Travel time varies depending on your resort. Guests staying at Andaz, Four Seasons, Nekajui and other Guanacaste properties may have different drive times.",
+        "source_note": "Computed from real driving distance via Google Routes, Peninsula Papagayo to the Rio Celeste area.",
+        "rows": [
+            { "destination": "Rio Celeste Waterfall / Tenorio National Park", "min": 119, "max": 152, "best_for": "Full-day rainforest experience" }
+        ]
+    },
+    "resort_pickups": {
+        "kicker": "Hotel Pickup",
+        "title": "Private Rio Celeste Tours With Pickup From Papagayo",
+        "intro": "Your private day begins at your resort, with transportation reserved for your group and coordinated around the selected Rio Celeste itinerary.",
+        "inside_peninsula": {
+            "label": "Peninsula Papagayo Resorts",
+            "hotels": [
+                { "id": "four-seasons-papagayo", "cta": "Rio Celeste Tours from Four Seasons" },
+                { "id": "andaz-costa-rica", "cta": "Rio Celeste Tours from Andaz" },
+                { "id": "nekajui-peninsula-papagayo-a-ritz", "cta": "Rio Celeste Tours from Nekajui" }
+            ]
+        },
+        "nearby": {
+            "label": "Nearby Guanacaste Resorts",
+            "hotels": [
+                { "id": "secrets-papagayo-costa-rica", "cta": "Tours from Secrets Papagayo" },
+                { "id": "el-mangroove-hotel", "cta": "Tours from El Mangroove" },
+                { "id": "planet-hollywood-costa-rica", "cta": "Tours from Planet Hollywood" },
+                { "id": "hotel-riu-guanacaste", "cta": "Tours from Riu Guanacaste" },
+                { "id": "hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica", "cta": "Tours from Riu Palace" }
+            ]
+        }
+    },
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why Visit Rio Celeste Privately?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private Rio Celeste journeys from Papagayo.",
+        "items": [
+            { "title": "Direct Transportation", "text": "No additional hotel pickups." },
+            { "title": "Your Own Guide", "text": "Focused on your group." },
+            { "title": "Flexible Pacing", "text": "Especially valuable on a longer day." },
+            { "title": "Resort-to-Resort Service", "text": "Start and finish at your hotel." },
+            { "title": "Itinerary Guidance", "text": "Help deciding whether to combine Rio Celeste with wildlife or keep the day focused." }
+        ]
+    },
+    "editorial_crosslink": {
+        "kicker": "Ready to See the Details?",
+        "title": "Ready to See the Full Itinerary?",
+        "text": "This guide helps you decide if Rio Celeste is the right day trip and which experience fits your group. For the full itinerary, inclusions and booking details, view the tour page directly.",
+        "cta_text": "View Our Rio Celeste Private Tour",
+        "cta_url": "tours/celesteriver"
+    },
+    "section_order": ["INTRO_SECTION", "ABOUT_SECTION", "EXPERIENCE_COMPARISON", "DECISION_BLOCK:combine_sloths", "TRAVEL_TIMES", "DECISION_BLOCK:plan_your_day", "DECISION_BLOCK:who_for", "PICKUP_SECTION", "WHY_PRIVATE", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "Is Rio Celeste worth visiting from Papagayo?", "a": "For travelers who want to see one of northern Costa Rica's most distinctive natural landscapes, yes — but it should be planned as a full-day trip. If you'd rather spend less time driving, we can recommend closer wildlife, volcano or adventure experiences instead." },
+        { "q": "How far is Rio Celeste from Peninsula Papagayo?", "a": "Approximately 119 to 152 minutes each way, based on real driving distance from Peninsula Papagayo." },
+        { "q": "How long does it take to drive from Papagayo to Rio Celeste?", "a": "Around 2 to 2.5 hours each way, depending on traffic and road conditions, which is why we recommend planning it as a full-day private tour." },
+        { "q": "How difficult is the Rio Celeste hike?", "a": "The classic Rio Celeste tour is rated Moderate difficulty and involves walking on natural rainforest trails. Conditions can change with weather, so consider the activity level of everyone in your group before booking." },
+        { "q": "Can I combine Rio Celeste with a sloth experience?", "a": "There isn't a single tour that combines both, but our sloth experiences operate in the same Bijagua area near Rio Celeste, so many guests plan both into their trip." },
+        { "q": "Does Wild Papagayo pick up directly from my resort?", "a": "Yes. We coordinate direct pickup from Peninsula Papagayo resorts and selected nearby Guanacaste resorts for all Rio Celeste experiences." },
+        { "q": "Are Rio Celeste tours private?", "a": "Yes. Every tour is private for your group, with your own vehicle, guide and pace, never combined with other travelers." },
+        { "q": "Is Rio Celeste suitable for families?", "a": "It can be, but the hike is rated Moderate difficulty and it's a longer travel day, so it's worth considering the age and stamina of everyone in your group before booking." }
+    ],
+    "final_cta": {
+        "kicker": "PLANNING YOUR RIO CELESTE DAY.",
+        "title": "Is Rio Celeste Right for Your Day?",
+        "text": "Tell us where you're staying, who's traveling and what you'd most like to experience. We'll help you decide whether Rio Celeste — on its own or combined with wildlife — is the right private journey from Papagayo.",
+        "cta_primary_text": "Plan My Rio Celeste Day",
+        "cta_secondary_text": "Ask a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying in Papagayo and would love help planning a private Rio Celeste day."
+    }
+}

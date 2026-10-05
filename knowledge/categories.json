@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "destination-guides",
+    "name": "Destination Guides",
+    "description": "Which beach, town or region to choose and why, from a team that lives here year-round."
+  },
+  {
+    "slug": "tours-experiences",
+    "name": "Tours & Experiences",
+    "description": "Honest comparisons and recommendations across our private tours and experiences."
+  },
+  {
+    "slug": "transportation-transfers",
+    "name": "Transportation & Transfers",
+    "description": "Airport transfers, private drivers, rental cars and getting around Guanacaste and Arenal."
+  },
+  {
+    "slug": "trip-planning",
+    "name": "Trip Planning",
+    "description": "Itineraries, logistics and practical planning advice for your Costa Rica trip."
+  },
+  {
+    "slug": "weather-seasons",
+    "name": "Weather & Seasons",
+    "description": "What to expect month by month, and how the dry and green seasons shape your trip."
+  },
+  {
+    "slug": "safety-practical-tips",
+    "name": "Safety & Practical Tips",
+    "description": "Money, packing, safety and other practical questions travelers actually ask."
+  },
+  {
+    "slug": "nature-conservation",
+    "name": "Nature & Conservation",
+    "description": "Wildlife, protected areas and the conservation stories behind Costa Rica's natural attractions."
+  }
+]

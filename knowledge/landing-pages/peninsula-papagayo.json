@@ -1,0 +1,333 @@
+{
+    "id": "peninsula-papagayo",
+    "slug": "peninsula-papagayo",
+    "page_url": "private-tours/peninsula-papagayo",
+    "canonical_url": "https://wildpapagayo.com/private-tours/peninsula-papagayo",
+    "seo_title": "Private Tours from Peninsula Papagayo | Wild Papagayo",
+    "seo_description": "Explore Costa Rica privately from Peninsula Papagayo with direct resort pickup, certified local guides, private transportation and flexible day trips.",
+    "og_image": "images/four-seasons-papagayo-hero.webp",
+    "h1": "Private Tours from Peninsula Papagayo",
+    "subheading": "Private journeys beyond the resort, with direct pickup, local guides and flexible experiences across Guanacaste and northern Costa Rica.",
+    "child_landing_groups": [
+        {
+            "label": "Hotel-specific guides",
+            "items": [
+                { "title": "Four Seasons Costa Rica", "url": "private-tours/four-seasons-costa-rica" },
+                { "title": "Andaz Peninsula Papagayo", "url": "private-tours/andaz-peninsula-papagayo" },
+                { "title": "Nekajui, a Ritz-Carlton Reserve", "url": "private-tours/nekajui-ritz-carlton-reserve" }
+            ]
+        },
+        {
+            "label": "Experience guides",
+            "items": [
+                { "title": "Sloths from Papagayo", "url": "private-tours/sloths-from-papagayo" },
+                { "title": "Rio Celeste from Papagayo", "url": "private-tours/rio-celeste-from-papagayo" },
+                { "title": "Rincon de la Vieja from Papagayo", "url": "private-tours/rincon-de-la-vieja-from-papagayo" },
+                { "title": "Best Volcano Tours from Papagayo", "url": "private-tours/volcano-tours" }
+            ]
+        }
+    ],
+    "hero": {
+        "eyebrow_line_1": "YOU'VE DISCOVERED PAPAGAYO.",
+        "eyebrow_line_2": "Now discover Costa Rica.",
+        "subtext": "Volcanoes, wildlife, waterfalls, rainforest and authentic local experiences — privately, at your pace.",
+        "cta_primary_text": "Find Your Private Tour",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Talk to a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying in Peninsula Papagayo and would love help planning a private tour.",
+        "image": "images/four-seasons-papagayo-hero.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Direct Resort Pickup",
+        "Certified Local Guides",
+        "Flexible Itineraries",
+        "Personal Travel Concierge"
+    ],
+    "intro_section": {
+        "kicker": "Beyond the Resort",
+        "title": "Explore Beyond Peninsula Papagayo",
+        "paragraphs": [
+            "Peninsula Papagayo offers exceptional beaches, dining, golf, wellness and resort experiences. Wild Papagayo helps you explore what lies beyond the peninsula with private journeys designed around your hotel, schedule and travel style.",
+            "Travel into Guanacaste and northern Costa Rica to discover volcanoes, tropical forests, wildlife, waterfalls, hot springs, coffee, chocolate and local culture — without joining a shared bus tour."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Signature Experiences",
+        "title": "Best Private Tours from Peninsula Papagayo",
+        "tours": [
+            {
+                "id": "hangingbridgessloths",
+                "best_for": "Wildlife & families",
+                "note": "Walk through tropical forest, search for sloths with a local guide and enjoy one of the most wildlife-focused day trips from Papagayo."
+            },
+            {
+                "id": "celesteriver",
+                "best_for": "Scenery & nature",
+                "note": "Explore one of Costa Rica's most recognizable natural attractions on a private day trip from Papagayo."
+            },
+            {
+                "id": "hikingrinconnationalpark",
+                "best_for": "Volcano & hiking",
+                "note": "Hike the Las Pailas Trail past fumaroles, mud pots and volcanic vents on a private full-day tour."
+            },
+            {
+                "id": "paloverderiverboattour",
+                "best_for": "Wildlife, easier day",
+                "note": "A relaxed riverboat safari through Palo Verde's wetlands, ideal if you want wildlife without a demanding hike."
+            },
+            {
+                "id": "buenavistamegacombo",
+                "best_for": "Adventure",
+                "note": "Zip line, waterslide and hot springs in one active day, for travelers who want more than sightseeing."
+            },
+            {
+                "id": "arenalhotsprings",
+                "best_for": "Full-day Costa Rica experience",
+                "note": "Volcano views and natural hot springs near La Fortuna, a longer day trip worth the drive."
+            },
+            {
+                "id": "costaricahighlights",
+                "best_for": "First-time visitors",
+                "note": "Sloths, waterfall, coffee, hot springs and hanging bridges combined into one private day."
+            },
+            {
+                "id": "slothchocolatetour",
+                "best_for": "Local culture",
+                "note": "A hands-on cacao-to-chocolate experience paired with a wild sloth hike in Bijagua."
+            }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Not Sure Where to Start?",
+        "title": "Which Private Tour Is Right for You?",
+        "rows": [
+            {
+                "want": "Sloths & wildlife",
+                "tour_id": "hangingbridgessloths"
+            },
+            {
+                "want": "Volcano landscapes",
+                "tour_id": "hikingrinconnationalpark"
+            },
+            {
+                "want": "Blue-water scenery",
+                "tour_id": "celesteriver"
+            },
+            {
+                "want": "Wildlife with less hiking",
+                "tour_id": "paloverderiverboattour"
+            },
+            {
+                "want": "Adventure",
+                "tour_id": "buenavistamegacombo"
+            },
+            {
+                "want": "One unforgettable full day",
+                "tour_id": "arenalhotsprings"
+            },
+            {
+                "want": "Local culture",
+                "tour_id": "slothchocolatetour"
+            }
+        ]
+    },
+    "resort_pickups": {
+        "kicker": "Hotel Pickup",
+        "title": "Private Tours from Your Papagayo Resort",
+        "intro": "Wild Papagayo provides direct pickup from resorts and hotels throughout Peninsula Papagayo and the surrounding Guanacaste area.",
+        "inside_peninsula": {
+            "label": "Inside Peninsula Papagayo",
+            "hotels": [
+                {
+                    "id": "four-seasons-papagayo",
+                    "cta": "Tours from Four Seasons"
+                },
+                {
+                    "id": "andaz-costa-rica",
+                    "cta": "Tours from Andaz"
+                },
+                {
+                    "id": "nekajui-peninsula-papagayo-a-ritz",
+                    "cta": "Tours from Nekajui"
+                }
+            ]
+        },
+        "nearby": {
+            "label": "Nearby Guanacaste Resorts",
+            "hotels": [
+                {
+                    "id": "secrets-papagayo-costa-rica",
+                    "cta": "Tours from Secrets Papagayo"
+                },
+                {
+                    "id": "el-mangroove-hotel",
+                    "cta": "Tours from El Mangroove"
+                },
+                {
+                    "id": "planet-hollywood-costa-rica",
+                    "cta": "Tours from Planet Hollywood"
+                },
+                {
+                    "id": "hotel-riu-guanacaste",
+                    "cta": "Tours from Riu Guanacaste"
+                },
+                {
+                    "id": "hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica",
+                    "cta": "Tours from Riu Palace"
+                }
+            ]
+        }
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Costa Rica's Top Attractions from Papagayo?",
+        "note": "Travel times are real driving estimates from Peninsula Papagayo and can vary with traffic and road conditions. Your Wild Papagayo concierge can recommend the best departure time for your itinerary.",
+        "source_note": "Computed from real driving distance via Google Routes, Peninsula Papagayo to each destination.",
+        "rows": [
+            {
+                "destination": "Buena Vista Adventure Center",
+                "min": 92,
+                "max": 117,
+                "best_for": "Adventure"
+            },
+            {
+                "destination": "Rincon de la Vieja (Las Pailas)",
+                "min": 102,
+                "max": 130,
+                "best_for": "Volcano & hiking"
+            },
+            {
+                "destination": "Palo Verde National Park",
+                "min": 96,
+                "max": 123,
+                "best_for": "Wildlife"
+            },
+            {
+                "destination": "Bijagua (sloth experiences)",
+                "min": 104,
+                "max": 132,
+                "best_for": "Wildlife"
+            },
+            {
+                "destination": "Rio Celeste",
+                "min": 119,
+                "max": 152,
+                "best_for": "Nature & scenery"
+            },
+            {
+                "destination": "La Fortuna / Arenal",
+                "min": 180,
+                "max": 230,
+                "best_for": "Full-day journey"
+            }
+        ]
+    },
+    "traveler_types": {
+        "kicker": "Travel Styles",
+        "title": "Best Tours for Families, Couples & Different Travel Styles",
+        "types": [
+            {
+                "title": "Families",
+                "text": "Wildlife-focused experiences, flexible pacing and private transportation make it easier to travel with children."
+            },
+            {
+                "title": "Couples",
+                "text": "Choose quieter nature experiences, waterfalls, hot springs or a personalized full-day route."
+            },
+            {
+                "title": "Active Travelers",
+                "text": "Hiking, rafting, canyoning, tubing and adventure parks."
+            },
+            {
+                "title": "First-Time Visitors",
+                "text": "Combine several Costa Rica highlights into one private day."
+            },
+            {
+                "title": "Travelers with Limited Time",
+                "text": "Choose destinations closer to Papagayo and avoid spending most of the day on the road."
+            }
+        ]
+    },
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why Explore Privately with Wild Papagayo?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private experiences from Papagayo.",
+        "items": [
+            {
+                "title": "Private Vehicle",
+                "text": "No shared buses."
+            },
+            {
+                "title": "Personal Local Guide",
+                "text": "A guide focused on your group."
+            },
+            {
+                "title": "Door-to-Door Resort Pickup",
+                "text": "Start and finish at your hotel."
+            },
+            {
+                "title": "Flexible Pacing",
+                "text": "Spend more time where it matters to you."
+            },
+            {
+                "title": "Local Knowledge",
+                "text": "Recommendations based on real travel times and conditions."
+            },
+            {
+                "title": "Personal Concierge",
+                "text": "Help before and during your experience."
+            }
+        ]
+    },
+    "airport_section": {
+        "kicker": "Airport Transportation",
+        "title": "Liberia Airport Transportation to Peninsula Papagayo",
+        "text": "Flying into Guanacaste Airport (LIR)? Wild Papagayo also provides private airport transportation to Peninsula Papagayo and nearby Guanacaste resorts.",
+        "cta_text": "View Liberia Airport Transportation",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "faq": [
+        {
+            "q": "Are Wild Papagayo tours private?",
+            "a": "Yes. Every tour is private for your group, with your own vehicle, guide and pace, not a shared bus with other travelers."
+        },
+        {
+            "q": "Do you pick up directly from Peninsula Papagayo resorts?",
+            "a": "Yes. We offer direct pickup from Four Seasons, Andaz, Nekajui and other resorts across Peninsula Papagayo and the wider Guanacaste area."
+        },
+        {
+            "q": "What are the best tours from Peninsula Papagayo?",
+            "a": "Popular options include the Hanging Bridges & Sloths Experience, Rio Celeste, Rincon de la Vieja and the Buena Vista Mega Combo, depending on whether you want wildlife, scenery or adventure."
+        },
+        {
+            "q": "What is the best wildlife tour from Papagayo?",
+            "a": "The Hanging Bridges & Sloths Experience and the Palo Verde River Boat Tour are our top wildlife-focused options, each with a different pace and terrain."
+        },
+        {
+            "q": "Can we customize our tour?",
+            "a": "Yes. Because every tour is private, pickup time, pacing and add-ons can be tailored to your group. Tell us your dates and interests and we'll help build the day."
+        },
+        {
+            "q": "Are private tours suitable for families?",
+            "a": "Yes. Many of our tours are family-friendly and paced accordingly. Tell us the age of your children and we can point you to the tours that fit best."
+        },
+        {
+            "q": "How far are Rio Celeste and Rincon de la Vieja from Papagayo?",
+            "a": "Rio Celeste is roughly 2 to 2.5 hours by private transfer, and Rincon de la Vieja's Las Pailas sector is roughly 1.7 to 2.2 hours, based on real driving distance."
+        },
+        {
+            "q": "Can you help us choose a tour based on how much time we have?",
+            "a": "Yes. Tell us how many days you have and your travel style, and your Wild Papagayo concierge can recommend the best mix of closer and farther destinations."
+        }
+    ],
+    "final_cta": {
+        "kicker": "YOUR RESORT IS JUST THE BEGINNING.",
+        "title": "Tell Us Where You're Staying",
+        "text": "Tell us where you're staying, how much time you have and what you'd love to experience. We'll help you plan a private journey beyond Papagayo.",
+        "cta_primary_text": "Plan My Private Experience",
+        "cta_secondary_text": "Chat on WhatsApp",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying in Peninsula Papagayo and would love help planning a private journey beyond the resort."
+    }
+}

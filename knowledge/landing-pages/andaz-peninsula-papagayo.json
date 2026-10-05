@@ -1,0 +1,179 @@
+{
+    "id": "andaz-peninsula-papagayo",
+    "slug": "andaz-peninsula-papagayo",
+    "hotel_id": "andaz-costa-rica",
+    "page_url": "private-tours/andaz-peninsula-papagayo",
+    "canonical_url": "https://wildpapagayo.com/private-tours/andaz-peninsula-papagayo",
+    "seo_title": "Private Tours from Andaz Peninsula Papagayo | Wild Papagayo",
+    "seo_description": "Discover private tours from Andaz Peninsula Papagayo with direct resort pickup, local guides and flexible day trips across Guanacaste and northern Costa Rica.",
+    "og_image": "images/andaz-costa-rica-hero.webp",
+    "h1": "Private Tours from Andaz Peninsula Papagayo",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "ANDAZ PENINSULA PAPAGAYO · GUANACASTE, COSTA RICA",
+        "eyebrow_line_2": "Step Beyond Andaz. Discover More of Costa Rica.",
+        "subtext": "Private journeys from Andaz Peninsula Papagayo with direct resort pickup, dedicated local guides and flexible experiences designed around your interests, pace and available time.",
+        "cta_primary_text": "Find My Private Tour",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying at Andaz Peninsula Papagayo and would love help planning a private tour.",
+        "image": "images/andaz-costa-rica-hero.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Direct Andaz Pickup",
+        "Local Guides",
+        "Flexible Itineraries",
+        "Personal Concierge"
+    ],
+    "intro_section": {
+        "kicker": "Beyond the Resort",
+        "title": "Explore Beyond Andaz Peninsula Papagayo",
+        "paragraphs": [
+            "Andaz Peninsula Papagayo offers beaches, dining, wellness and activities within one of Costa Rica's most distinctive resort destinations. When you want to experience more of the country, Wild Papagayo connects your stay with private journeys into Guanacaste and northern Costa Rica.",
+            "Explore wildlife, rainforest, volcanoes, waterfalls, hot springs, adventure experiences and local culture without adjusting your day to a shared tour schedule.",
+            "Book Direct. Explore Privately. Work directly with a local Costa Rican operator specializing in private experiences from Papagayo."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Signature Experiences",
+        "title": "Best Private Tours from Andaz Papagayo",
+        "cta": { "text": "Explore All Private Tours", "url": "tours" },
+        "tours": [
+            { "id": "hangingbridgessloths", "best_for": "Wildlife", "note": "Explore tropical forest with a local guide while searching for sloths and other wildlife on one of the most nature-focused private experiences from Andaz." },
+            { "id": "celesteriver", "best_for": "Nature & scenery", "note": "Travel into northern Costa Rica for rainforest landscapes and the striking blue waters of Rio Celeste." },
+            { "id": "hikingrinconnationalpark", "best_for": "Volcano & hiking", "note": "Discover one of Guanacaste's volcanic landscapes through trails and geothermal features on a private full-day hike." },
+            { "id": "paloverderiverboattour", "best_for": "Wildlife with less hiking", "note": "A relaxed way to experience Costa Rican wildlife, especially for travelers who prefer less strenuous activity." },
+            { "id": "buenavistamegacombo", "best_for": "Adventure", "note": "Zip line, waterslide and hot springs combined into one active day for travelers who want more than sightseeing." },
+            { "id": "costaricahighlights", "best_for": "First visit to Costa Rica", "note": "A full-day introduction to several of the landscapes and experiences that make northern Costa Rica special." },
+            { "id": "arenalhotsprings", "best_for": "One full day", "note": "Volcano views and natural hot springs near La Fortuna, a longer day trip worth the drive." }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Plan Your Trip",
+        "title": "Choose Your Tour by Travel Style",
+        "want_header": "Best For...",
+        "rows": [
+            { "want": "Couples", "tour_id": "celesteriver" },
+            { "want": "Families", "tour_id": "hangingbridgessloths" },
+            { "want": "Wildlife lovers", "tour_id": "paloverderiverboattour" },
+            { "want": "Adventure", "tour_id": "buenavistamegacombo" },
+            { "want": "First-time visitors", "tour_id": "costaricahighlights" }
+        ]
+    },
+    "secondary_selector": {
+        "kicker": "Short On Time?",
+        "title": "If You Only Have One Free Day",
+        "want_header": "You Want...",
+        "rows": [
+            { "want": "Wildlife?", "tour_id": "hangingbridgessloths" },
+            { "want": "A volcano?", "tour_id": "hikingrinconnationalpark" },
+            { "want": "Iconic scenery?", "tour_id": "celesteriver" },
+            { "want": "Adventure?", "tour_id": "buenavistamegacombo" },
+            { "want": "Several Costa Rica highlights?", "tour_id": "costaricahighlights" }
+        ],
+        "cta": { "text": "Help Me Choose", "whatsapp_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Andaz%20Peninsula%20Papagayo%20with%20one%20free%20day%20and%20would%20love%20help%20choosing%20a%20tour." }
+    },
+    "hotel_pickup": {
+        "kicker": "Resort Pickup",
+        "title": "Direct Pickup From Andaz Peninsula Papagayo",
+        "text": "Your private tour begins directly from Andaz Peninsula Papagayo. Wild Papagayo coordinates pickup according to your selected experience and departure time, with private transportation reserved for your group.",
+        "text_2": "After your tour, transportation returns you directly to Andaz unless another destination has been arranged in advance.",
+        "cta_text": "Plan a Tour From Andaz",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Andaz%20Peninsula%20Papagayo%20and%20would%20like%20to%20plan%20a%20private%20tour."
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Costa Rica's Top Experiences from Andaz?",
+        "origin_label": "Andaz",
+        "note": "Travel times vary with road conditions, traffic and the exact activity selected. Your Wild Papagayo concierge can recommend the best departure time from Andaz for your itinerary.",
+        "source_note": "Computed from real driving distance via Google Routes, from Andaz Peninsula Papagayo to each destination.",
+        "rows": [
+            { "destination": "Buena Vista Adventure Center", "min": 86, "max": 110, "best_for": "Adventure" },
+            { "destination": "Rincon de la Vieja (Las Pailas)", "min": 93, "max": 118, "best_for": "Volcano & hiking" },
+            { "destination": "Palo Verde National Park", "min": 87, "max": 112, "best_for": "Wildlife" },
+            { "destination": "Bijagua (sloth area)", "min": 95, "max": 122, "best_for": "Wildlife" },
+            { "destination": "Rio Celeste", "min": 110, "max": 140, "best_for": "Nature & scenery" },
+            { "destination": "La Fortuna / Arenal", "min": 171, "max": 218, "best_for": "Full-day journey" }
+        ]
+    },
+    "audience_sections": [
+        {
+            "kicker": "For Couples",
+            "title": "Private Tours for Couples Staying at Andaz",
+            "intro": "A private experience gives two travelers the freedom to choose the pace of the day, spend more time where it matters and avoid a fixed shared-tour itinerary.",
+            "groups": [
+                { "title": "Nature-Focused Day", "text": "Rio Celeste or wildlife-focused experiences for couples who want scenery and nature." },
+                { "title": "Relaxed Full Day", "text": "Nature paired with hot springs or local experiences where the itinerary allows." },
+                { "title": "Active Day", "text": "Hiking and adventure experiences for couples who want to stay active." }
+            ]
+        },
+        {
+            "kicker": "For Families",
+            "title": "Private Tours for Families at Andaz",
+            "intro": "Private transportation and flexible pacing can make exploring Costa Rica easier for families staying at Andaz.",
+            "groups": [
+                { "title": "Younger Travelers", "text": "Wildlife-focused experiences and less demanding days suit families with young children." },
+                { "title": "Active Families", "text": "Hanging bridges and adventure experiences give older kids more to be active about." },
+                { "title": "Multigenerational Groups", "text": "We can adapt the pace so tours work for every generation traveling together." }
+            ]
+        }
+    ],
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why Explore Privately?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private experiences from Papagayo.",
+        "items": [
+            { "title": "Private Transportation", "text": "Your own vehicle for the day." },
+            { "title": "Dedicated Local Guide", "text": "Focused on your group." },
+            { "title": "Direct Resort Pickup", "text": "Start from Andaz." },
+            { "title": "Flexible Pacing", "text": "No shared-tour schedule." },
+            { "title": "Local Recommendations", "text": "Tour selection based on what you want to see and how much time you have." },
+            { "title": "Personal Concierge", "text": "Help planning before the experience." }
+        ]
+    },
+    "airport_section": {
+        "kicker": "Airport Transportation",
+        "title": "Liberia Airport Transportation to Andaz",
+        "text": "Wild Papagayo can also coordinate private transportation between Guanacaste Airport (LIR) and Andaz Peninsula Papagayo, roughly 32–40 minutes away, allowing you to arrange airport transfers and private day trips with the same local team.",
+        "cta_text": "View Liberia Airport Transportation",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "hotel_crosslink": {
+        "kicker": "Resort Guide",
+        "title": "Staying at Andaz Peninsula Papagayo?",
+        "text": "Explore our Andaz resort guide for hotel information, transportation, nearby experiences and planning your stay in Peninsula Papagayo.",
+        "cta_text": "View Andaz Resort Guide",
+        "cta_url": "hotels/andaz-costa-rica"
+    },
+    "editorial_crosslink": {
+        "kicker": "Not Sure Which Volcano?",
+        "title": "Not Sure Which Volcano Fits Your Day?",
+        "text": "Miravalles, Rincon de la Vieja, Arenal and Tenorio each offer a different kind of day. See how they compare before deciding.",
+        "cta_text": "Compare Volcano Tours",
+        "cta_url": "private-tours/volcano-tours"
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "TOUR_SELECTOR", "SECONDARY_SELECTOR", "PICKUP_SECTION", "TRAVEL_TIMES", "AUDIENCE_SECTIONS", "WHY_PRIVATE", "AIRPORT_SECTION", "HOTEL_CROSSLINK", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "What are the best private tours from Andaz Peninsula Papagayo?", "a": "The Hanging Bridges & Sloths Experience, Rio Celeste, Rincon de la Vieja and the Buena Vista Mega Combo are among our most popular picks for Andaz guests, depending on your travel style." },
+        { "q": "Does Wild Papagayo pick up directly from Andaz?", "a": "Yes. Every tour includes private pickup directly from Andaz Peninsula Papagayo, coordinated around your selected experience and departure time." },
+        { "q": "Are the tours private or shared?", "a": "Every tour is private for your group, with your own vehicle, guide and pace, not a shared bus with other travelers." },
+        { "q": "What is the best wildlife tour from Andaz Papagayo?", "a": "The Hanging Bridges & Sloths Experience and the Palo Verde River Boat Tour are our top wildlife-focused options, each with a different pace and terrain." },
+        { "q": "What is the best tour if we only have one free day?", "a": "It depends on what you most want to see: Hanging Bridges & Sloths for wildlife, Rincon de la Vieja for a volcano, Rio Celeste for iconic scenery, or Costa Rica Highlights to combine several in one day." },
+        { "q": "Can families book private tours from Andaz?", "a": "Yes. Many of our tours are family-friendly, and because every tour is private, pacing can be adapted to the ages traveling with you." },
+        { "q": "Can we customize our itinerary?", "a": "Yes. Because every tour is private, pickup time, pacing and add-ons can be tailored to your group. Tell us your dates and interests and we'll help build the day." },
+        { "q": "How far are Rio Celeste and Rincon de la Vieja from Andaz?", "a": "Rio Celeste is roughly 110 to 140 minutes by private transfer, and Rincon de la Vieja's Las Pailas sector is roughly 93 to 118 minutes, based on real driving distance from Andaz." }
+    ],
+    "final_cta": {
+        "kicker": "ONE FREE DAY CAN SHOW YOU A DIFFERENT SIDE OF COSTA RICA.",
+        "title": "Tell Us How You'd Like to Spend It",
+        "text": "Tell us who you're traveling with, how much time you have and what you'd most like to experience. We'll help you choose a private journey that fits naturally into your stay at Andaz Peninsula Papagayo.",
+        "cta_primary_text": "Plan My Private Experience",
+        "cta_secondary_text": "Chat With a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying at Andaz Peninsula Papagayo and would love help planning a private experience for my free day."
+    }
+}

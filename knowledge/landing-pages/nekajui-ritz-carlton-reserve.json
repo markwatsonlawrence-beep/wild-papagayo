@@ -1,0 +1,139 @@
+{
+    "id": "nekajui-ritz-carlton-reserve",
+    "slug": "nekajui-ritz-carlton-reserve",
+    "hotel_id": "nekajui-peninsula-papagayo-a-ritz",
+    "page_url": "private-tours/nekajui-ritz-carlton-reserve",
+    "canonical_url": "https://wildpapagayo.com/private-tours/nekajui-ritz-carlton-reserve",
+    "seo_title": "Private Tours from Nekajui Ritz-Carlton Reserve | Wild Papagayo",
+    "seo_description": "Curated private journeys from Nekajui, a Ritz-Carlton Reserve, with direct resort pickup, local guides and flexible experiences across Costa Rica.",
+    "og_image": "images/nekajui-peninsula-papagayo-a-ritz-hero.webp",
+    "h1": "Private Tours from Nekajui, a Ritz-Carlton Reserve",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "NEKAJUI, A RITZ-CARLTON RESERVE · PENINSULA PAPAGAYO",
+        "eyebrow_line_2": "Beyond Nekajui. Costa Rica, Privately Curated.",
+        "subtext": "Private journeys designed around your stay, with direct resort pickup, dedicated local guides and flexible itineraries across Guanacaste and northern Costa Rica.",
+        "cta_primary_text": "Explore Signature Journeys",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying at Nekajui and would love help planning a private journey.",
+        "image": "images/nekajui-peninsula-papagayo-a-ritz-hero.webp"
+    },
+    "trust_strip": [
+        "Private Vehicle",
+        "Direct Resort Pickup",
+        "Dedicated Local Guide",
+        "Flexible Departure",
+        "Personal Concierge"
+    ],
+    "intro_section": {
+        "kicker": "Curated Journeys",
+        "title": "Curated Journeys Beyond Peninsula Papagayo",
+        "paragraphs": [
+            "Nekajui offers an extraordinary experience within Peninsula Papagayo. When you want to explore beyond the resort, Wild Papagayo creates private journeys into Costa Rica's volcanoes, rainforest, wildlife areas, waterfalls and cultural landscapes.",
+            "Every experience is designed around your group, with private transportation, direct resort pickup and a local guide dedicated to your day.",
+            "Book Direct. Explore Privately."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Signature Private Journeys",
+        "title": "Signature Private Journeys from Nekajui",
+        "cta": { "text": "Explore All Private Tours", "url": "tours" },
+        "tours": [
+            { "id": "costaricahighlights", "best_for": "A Complete Private Day", "note": "A carefully paced full-day journey for travelers who want to experience several sides of Costa Rica in one itinerary." },
+            { "id": "celesteriver", "best_for": "Rainforest & Iconic Scenery", "note": "Travel into northern Costa Rica for rainforest landscapes and the remarkable blue waters of Rio Celeste." },
+            { "id": "hikingrinconnationalpark", "best_for": "Volcanic Landscapes", "note": "Discover one of Guanacaste's volcanic landscapes through trails and geothermal features on a private full-day hike." },
+            { "id": "hangingbridgessloths", "best_for": "Wildlife & Tropical Forest", "note": "Walk through tropical forest with a dedicated guide, searching for sloths and other wildlife along the way." },
+            { "id": "arenalhotsprings", "best_for": "A Deeper Journey Into Costa Rica", "note": "Volcano views and natural hot springs near La Fortuna, a full-day journey further into the country." },
+            { "id": "paloverderiverboattour", "best_for": "Wildlife at an Easier Pace", "note": "A relaxed riverboat safari through Palo Verde's wetlands, for a quieter wildlife encounter." }
+        ]
+    },
+    "curated_journeys": {
+        "kicker": "Choose Your Pace",
+        "title": "A Journey Shaped Around You",
+        "journeys": [
+            { "title": "A Quiet Nature Day", "text": "Wildlife, forest and flexible pacing, for a day that moves at your rhythm.", "tour_id": "paloverderiverboattour" },
+            { "title": "An Active Costa Rica Day", "text": "Volcano landscapes, hiking and adventure for travelers who want to stay active.", "tour_id": "hikingrinconnationalpark" },
+            { "title": "A Full-Day Signature Journey", "text": "Arenal or Costa Rica Highlights, a longer day that goes deeper into the country.", "tour_id": "arenalhotsprings" },
+            { "title": "A Wildlife-Focused Experience", "text": "Sloths and tropical forest, or a relaxed riverboat safari through Palo Verde.", "tour_id": "hangingbridgessloths" },
+            { "title": "A Custom Day Designed Around You", "text": "Not every journey needs to follow a set itinerary. Tell your concierge what you'd like to experience and we'll help shape the day.", "whatsapp_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Nekajui%20and%20would%20like%20to%20design%20a%20custom%20private%20day.", "link_text": "Talk to a Local Expert" }
+        ]
+    },
+    "why_private": {
+        "kicker": "Private Planning",
+        "title": "Private Planning, Not a Shared Itinerary",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private experiences from Papagayo.",
+        "items": [
+            { "title": "Dedicated Transportation", "text": "Your own vehicle for the day." },
+            { "title": "Private Local Guide", "text": "A guide focused entirely on your group." },
+            { "title": "Flexible Departure", "text": "Timing shaped around your stay, not a fixed schedule." },
+            { "title": "Personalized Pacing", "text": "As much or as little activity as you'd like." }
+        ]
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Costa Rica's Top Experiences from Nekajui?",
+        "origin_label": "Nekajui",
+        "note": "Travel time is only one part of choosing the right experience. Your Wild Papagayo concierge can help balance driving time, activity level and how much of the day you want to spend beyond Papagayo.",
+        "source_note": "Computed from real driving distance via Google Routes, from Nekajui, A Ritz-Carlton Reserve to each destination.",
+        "rows": [
+            { "destination": "Buena Vista Adventure Center", "min": 91, "max": 116, "best_for": "Adventure" },
+            { "destination": "Rincon de la Vieja (Las Pailas)", "min": 97, "max": 124, "best_for": "Volcano & hiking" },
+            { "destination": "Palo Verde National Park", "min": 92, "max": 117, "best_for": "Wildlife" },
+            { "destination": "Bijagua (sloth area)", "min": 100, "max": 128, "best_for": "Wildlife" },
+            { "destination": "Rio Celeste", "min": 114, "max": 146, "best_for": "Nature & scenery" },
+            { "destination": "La Fortuna / Arenal", "min": 176, "max": 224, "best_for": "Full-day journey" }
+        ]
+    },
+    "hotel_pickup": {
+        "kicker": "Resort Pickup",
+        "title": "Direct Pickup From Nekajui",
+        "text": "Your private journey begins directly from Nekajui, a Ritz-Carlton Reserve. Pickup and departure time are coordinated around your itinerary, with private transportation reserved exclusively for your group.",
+        "cta_text": "Plan a Private Journey",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Nekajui%20and%20would%20like%20to%20plan%20a%20private%20journey."
+    },
+    "airport_section": {
+        "kicker": "Airport Transportation",
+        "title": "Private Transportation Between LIR and Nekajui",
+        "text": "Wild Papagayo can also coordinate private transportation between Guanacaste Airport (LIR) and Nekajui, roughly 36–46 minutes away. Arrange your airport transfer and private experiences with one local team.",
+        "cta_text": "View Liberia Airport Transportation",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "hotel_crosslink": {
+        "kicker": "Resort Guide",
+        "title": "Staying at Nekajui?",
+        "text": "Explore our Nekajui resort guide for location, transportation and planning information.",
+        "cta_text": "View Nekajui Resort Guide",
+        "cta_url": "hotels/nekajui-peninsula-papagayo-a-ritz"
+    },
+    "editorial_crosslink": {
+        "kicker": "Planning a Volcano Day?",
+        "title": "Planning a Volcano Day from Nekajui?",
+        "text": "Your concierge can help you choose between Miravalles, Rincon de la Vieja, Arenal and Tenorio based on the kind of day you want.",
+        "cta_text": "Compare Volcano Experiences",
+        "cta_url": "private-tours/volcano-tours"
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "CURATED_JOURNEYS", "PICKUP_SECTION", "TRAVEL_TIMES", "WHY_PRIVATE", "AIRPORT_SECTION", "HOTEL_CROSSLINK", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "Does Wild Papagayo pick up directly from Nekajui?", "a": "Yes. Every private journey includes pickup directly from Nekajui, coordinated around your selected experience and departure time." },
+        { "q": "Are all experiences completely private?", "a": "Yes. Every journey is private for your group, with your own vehicle, guide and pace, never combined with other travelers." },
+        { "q": "Can you customize a private journey from Nekajui?", "a": "Yes. Tell your concierge what you'd like to experience, and we'll help shape a private itinerary around your available time." },
+        { "q": "What is the best wildlife experience from Nekajui?", "a": "The Hanging Bridges & Sloths Experience and the Palo Verde River Boat Tour are our top wildlife-focused journeys, each with a different pace." },
+        { "q": "Can we combine multiple experiences in one day?", "a": "Some full-day journeys, such as Costa Rica Highlights, already combine several destinations. For a fully custom combination, tell your concierge and we'll help plan it." },
+        { "q": "How far is Rio Celeste from Nekajui?", "a": "Roughly 114 to 146 minutes by private transfer, based on real driving distance from Nekajui." },
+        { "q": "Can you recommend an experience based on how much time we have?", "a": "Yes. Tell us how much time you'd like to spend beyond the resort and your Wild Papagayo concierge can recommend the journey that fits best." },
+        { "q": "Can Wild Papagayo arrange both airport transportation and tours?", "a": "Yes. The same local team can coordinate your private airport transfer and your private journeys during your stay." }
+    ],
+    "final_cta": {
+        "kicker": "COSTA RICA, DESIGNED AROUND YOUR STAY.",
+        "title": "Tell Us What You'd Like to Experience",
+        "text": "Tell us what you'd like to experience and how much time you want to spend exploring beyond Papagayo. We'll help shape a private journey around your interests, pace and schedule.",
+        "cta_primary_text": "Plan My Private Journey",
+        "cta_secondary_text": "Chat With a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying at Nekajui and would love help planning a private journey around my stay."
+    }
+}
