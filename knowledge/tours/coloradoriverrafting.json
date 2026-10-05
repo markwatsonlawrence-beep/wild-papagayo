@@ -4,9 +4,8 @@
     "slug":  "coloradoriverrafting",
     "status":  "active",
     "page_file":  "tours/coloradoriverrafting.html",
-    "page_url":  "../tours/coloradoriverrafting.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/coloradoriverrafting",
-    "category":  "Experience",
+    "page_url":  "../tours/coloradoriverrafting",
+    "category":  "Scenic River Rafting",
     "short_description":  "Private Class II–III white water rafting on the Colorado River, natural canyon, swimming holes and lunch included. No experience necessary. Certified bilingual guide exclusively for your group.",
     "hero_image":  "images/coloradorafting1.webp",
     "hero_image_alt":  "Colorado River Rafting Class II–III in Costa Rica",
@@ -234,10 +233,8 @@
                                                                      "Waterproof cameras and GoPros are welcome. Standard phones should be stored securely in the provided dry bag.",
                                                                      "Please inform your guide of any medical conditions or swimming limitations before launching."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe river or weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -272,19 +269,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "tenoriorafting.html",
+                                                "href":  "tenoriorafting",
                                                 "image":  "../images/tenoriorafting1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Tenorio River Rafting"
                                             },
                                             {
-                                                "href":  "canyoningtubing.html",
+                                                "href":  "canyoningtubing",
                                                 "image":  "../images/canyoningtubing1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Canyoning \u0026 River Tubing"
                                             },
                                             {
-                                                "href":  "tubingceleste.html",
+                                                "href":  "tubingceleste",
                                                 "image":  "../images/tubingceleste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Tubing Celeste"
@@ -425,7 +422,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

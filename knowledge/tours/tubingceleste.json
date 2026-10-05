@@ -4,9 +4,8 @@
     "slug":  "tubingceleste",
     "status":  "active",
     "page_file":  "tours/tubingceleste.html",
-    "page_url":  "../tours/tubingceleste.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/tubingceleste.html",
-    "category":  "Experience",
+    "page_url":  "../tours/tubingceleste",
+    "category":  "River Tubing",
     "short_description":  "Private tubing experience on Río Celeste, float through the striking aquamarine blue river in lush rainforest, navigating small rapids with birds, monkeys and rich biodiversity. Minimum age 4. Lunch included.",
     "hero_image":  "images/tubingceleste1.webp",
     "hero_image_alt":  "Tubing at Río Celeste — Blue River Tubing in Costa Rica",
@@ -225,11 +224,11 @@
                                                                      "Waterproof cases for cameras and phones are strongly recommended.",
                                                                      "Apply sunscreen before departure and bring extra, much of the river run is in open sun."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                           "reservation_policy_extra":  [
                                                                       "No refunds or credits are issued for changes in river colour due to rainfall or weather conditions. This is a natural occurrence.",
                                                                       "Experiences cancelled due to genuinely unsafe river conditions (not colour change) will be rescheduled or fully refunded."
                                                                   ],
+                                           "reservation_policy_include_noshow": false,
                                            "weather_policy":  [
                                                                   "River color changes from rainfall are natural and are not treated as a safety cancellation, see our reservation policy for details.",
                                                                   "Departures may be adjusted for genuinely unsafe river conditions such as high water or flash flood risk.",
@@ -267,19 +266,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "floatingtenorio.html",
+                                                "href":  "floatingtenorio",
                                                 "image":  "../images/floatingtenorio1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Floating Tenorio"
                                             },
                                             {
-                                                "href":  "tenoriorafting.html",
+                                                "href":  "tenoriorafting",
                                                 "image":  "../images/tenoriorafting1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Tenorio River Rafting"
                                             },
                                             {
-                                                "href":  "celesteriver.html",
+                                                "href":  "celesteriver",
                                                 "image":  "../images/celeste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Celeste River Hike"
@@ -328,8 +327,6 @@
                                                      "Río Celeste tubing, tubes, life jackets, helmets provided",
                                                      "Traditional Costa Rican lunch"
                                                  ],
-                         "seo_title_override":  "Rio Celeste Tubing | Private Blue River Float Costa Rica",
-                         "seo_description_override":  "Private tubing float through Rio Celeste\u0027s famous turquoise waters, gentle rapids and rainforest wildlife. Certified bilingual guide, lunch included, minimum age 4.",
                          "hero_subtitle_html":  "Float at water level through Rio Celeste\u0027s famous turquoise current, gentle rapids and rainforest wildlife passing by from a view almost no visitor gets.",
                          "tour_at_a_glance":  [
                                                   {
@@ -417,5 +414,7 @@
                                  ],
                          "peak_season_note":  "The river runs its most vivid blue during drier stretches of weather; heavy rain can temporarily change the color, a natural occurrence that happens at any time of year.",
                          "departure_time":  "7:30 AM"
-                     }
+                     },
+    "seo_title_override": "Rio Celeste Tubing | Private Blue River Float Costa Rica",
+    "seo_description_override": "Private tubing float through Rio Celeste's turquoise waters, gentle rapids and rainforest wildlife. Bilingual guide, lunch included, minimum age 4."
 }

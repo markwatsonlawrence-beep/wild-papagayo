@@ -4,8 +4,7 @@
     "slug":  "slothadventure",
     "status":  "active",
     "page_file":  "tours/slothadventure.html",
-    "page_url":  "../tours/slothadventure.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/slothadventure.html",
+    "page_url":  "../tours/slothadventure",
     "category":  "Wildlife",
     "short_description":  "Private sloth wildlife encounter in the Costa Rica rainforest. Full-day private tour with certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
     "hero_image":  "images/sloth1.webp",
@@ -27,7 +26,8 @@
                      "Families",
                      "Couples",
                      "Nature lovers",
-                     "First-time visitors"
+                     "First-time visitors",
+                     "Honeymooners"
                  ],
     "difficulty":  "Easy",
     "duration_label":  "Full Day (approx. 8 hours)",
@@ -234,10 +234,8 @@
                                                                      "Apply sunscreen and bug spray before departure. Bring a hat, sunglasses and a reusable water bottle.",
                                                                      "Please inform us of any dietary restrictions or relevant health conditions at the time of booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
                                                                   ],
                                            "weather_policy":  [
                                                                   "Costa Rica\u0027s weather can shift quickly, especially near waterfalls and rainforest trails.",
@@ -283,19 +281,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "hangingbridgessloths.html",
+                                                "href":  "hangingbridgessloths",
                                                 "image":  "../images/bridgessloths1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Hanging Bridges \u0026 Sloths"
                                             },
                                             {
-                                                "href":  "slothchocolatetour.html",
+                                                "href":  "slothchocolatetour",
                                                 "image":  "../images/slothchocolate1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sloth \u0026 Chocolate Tour"
                                             },
                                             {
-                                                "href":  "celesteriver.html",
+                                                "href":  "celesteriver",
                                                 "image":  "../images/celeste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Celeste River Hike"
@@ -347,9 +345,7 @@
                                                      "Complimentary bottled water and snacks",
                                                      "Coffee \u0026amp; Chocolate Tour, interactive tasting experience (✦ PLUS only)"
                                                  ],
-                         "seo_title_override":  "Sloth, Waterfall \u0026 Coffee Tour | Private Wildlife Day Costa Rica",
-                         "seo_description_override":  "Private day combining Llanos de Cortes Waterfall, a guided sloth-spotting nature walk, and an optional coffee \u0026 chocolate tasting tour. Private guide, lunch included.",
-                         "hero_subtitle_html":  "Swim beneath a Guanacaste waterfall, walk the rainforest in search of wild sloths, and taste real Costa Rican coffee and chocolate, all in one private day.",
+                         "hero_subtitle_html":  "Swim beneath a Guanacaste waterfall, walk the Bijagua rainforest in search of wild sloths, and taste real Costa Rican coffee and chocolate, all in one private day.",
                          "tour_at_a_glance":  [
                                                   {
                                                       "icon":  "⏱️",
@@ -437,9 +433,15 @@
                                      {
                                          "question":  "How does private pricing work for this tour?",
                                          "answer":  "Pricing varies by pickup location, group size, and whether you choose the Classic or Plus option. Reach out on WhatsApp or through the booking form and your Wild Papagayo concierge will confirm an exact quote."
+                                     },
+                                     {
+                                         "question":  "Does this tour take place in Bijagua?",
+                                         "answer":  "Yes, the sloth nature walk takes place in the Bijagua area, along with a stop at Llanos de Cortes Waterfall and, on the Plus option, a coffee and chocolate tour."
                                      }
                                  ],
                          "peak_season_note":  "The waterfall runs fullest during the May to November rainy season, though the tour is enjoyable and runs daily year-round.",
                          "departure_time":  "7:00 AM"
-                     }
+                     },
+    "seo_title_override": "Sloth, Waterfall & Coffee Tour | Private Wildlife Day Costa Rica",
+    "seo_description_override": "A private day combining Llanos de Cortes Waterfall, a guided sloth-spotting walk, and an optional coffee & chocolate tasting. Lunch included."
 }

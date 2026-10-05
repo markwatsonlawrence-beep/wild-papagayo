@@ -4,9 +4,8 @@
     "slug":  "laleona",
     "status":  "active",
     "page_file":  "tours/laleona.html",
-    "page_url":  "../tours/laleona.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/laleona",
-    "category":  "Experience",
+    "page_url":  "../tours/laleona",
+    "category":  "Waterfall, Zip Line \u0026 Tubing",
     "short_description":  "Private La Leona Waterfall experience, a 3-hour hike through 5 river pools in a stone canyon. The Classic option adds zip line, The Plus option adds tubing. Available November to April only.",
     "hero_image":  "images/laleona1.webp",
     "hero_image_alt":  "La Leona Waterfall — Zip Line \u0026 Tubing in Costa Rica",
@@ -234,10 +233,10 @@
                                                                      "Waterproof cases for phones and cameras are strongly recommended.",
                                                                      "Please inform us of any dietary restrictions for lunch and swimming ability at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
+                                           "reservation_policy_extra":  [
                                                                       "Experiences affected by extreme weather events or unsafe river levels will be rescheduled whenever possible. If rescheduling is not possible, a full refund will be issued. Normal rainfall does not constitute an unsafe condition."
-                                                                  ]
+                                                                  ],
+                                           "reservation_policy_include_noshow": false
                                        },
                          "pricing_tiers":  {
                                                "guide_only":  {
@@ -277,19 +276,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "hikingrinconnationalpark.html",
+                                                "href":  "hikingrinconnationalpark",
                                                 "image":  "../images/rincon1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Hiking Rincón National Park"
                                             },
                                             {
-                                                "href":  "celesteriver.html",
+                                                "href":  "celesteriver",
                                                 "image":  "../images/celeste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Celeste River Hike"
                                             },
                                             {
-                                                "href":  "waterfalllovers.html",
+                                                "href":  "waterfalllovers",
                                                 "image":  "../images/waterfalllovers1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Waterfall Lovers"
@@ -433,7 +432,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "This tour runs seasonally from November to April. Private availability is limited within the season, early reservations are recommended."

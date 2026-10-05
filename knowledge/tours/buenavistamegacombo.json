@@ -4,9 +4,8 @@
     "slug":  "buenavistamegacombo",
     "status":  "active",
     "page_file":  "tours/buenavistamegacombo.html",
-    "page_url":  "../tours/buenavistamegacombo.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/buenavistamegacombo",
-    "category":  "Adventure",
+    "page_url":  "../tours/buenavistamegacombo",
+    "category":  "Water Slide Adventure Combo",
     "short_description":  "Private full-day adventure at Buena Vista, Guanacaste, zip line, waterslide, hot springs and more. Certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
     "hero_image":  "images/Buenavista1.webp",
     "hero_image_alt":  "Buena Vista Mega Combo in Costa Rica",
@@ -270,19 +269,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "haciendaguachipelin.html",
+                                                "href":  "haciendaguachipelin",
                                                 "image":  "../images/guachipelin1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Hacienda Guachipelín"
                                             },
                                             {
-                                                "href":  "congotrail.html",
+                                                "href":  "congotrail",
                                                 "image":  "../images/congotrail1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Congo Trail Combo"
+                                                "title":  "Congo Trail Half-Day Adventure"
                                             },
                                             {
-                                                "href":  "atvmountainride.html",
+                                                "href":  "atvmountainride",
                                                 "image":  "../images/atvmountain1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "ATV Mountain Ride"
@@ -296,10 +295,8 @@
                                                                      "Guests should inform the guide of any medical conditions or special needs prior to the tour.",
                                                                      "Meals, snacks, and drinks are included as specified in the itinerary."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -469,8 +466,12 @@
                                          "answer":  "Weather in Costa Rica can change quickly, and some activities may be adjusted or rescheduled for safety reasons. Our team will contact you to discuss the available options if conditions require it."
                                      },
                                      {
+                                         "question":  "What is the difference between this tour and Hacienda Guachipelín?",
+                                         "answer":  "Buena Vista and Hacienda Guachipelín share zip lining, tubing, horseback riding and hot springs. Buena Vista adds a water slide, tractor wagon ride and volcanic mud; Guachipelín adds rappelling, rock climbing and a Tarzan swing."
+                                     },
+                                     {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

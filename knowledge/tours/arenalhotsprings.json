@@ -4,8 +4,7 @@
     "slug":  "arenalhotsprings",
     "status":  "active",
     "page_file":  "tours/arenalhotsprings.html",
-    "page_url":  "../tours/arenalhotsprings.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/arenalhotsprings",
+    "page_url":  "../tours/arenalhotsprings",
     "category":  "Wellness \u0026 Nature",
     "short_description":  "Private full-day Arenal experience, Bogarin Trail wildlife hike, La Fortuna Waterfall or Arenal National Park, thermal hot springs, breakfast and lunch included. Arenal Volcano and Central America\u0027s largest man-made lake.",
     "hero_image":  "images/arenalhotsprings1.webp",
@@ -238,10 +237,8 @@
                                                                      "Apply insect repellent before departure and bring a travel-size bottle for reapplication on the trail.",
                                                                      "A camera or binoculars for the Bogarin Trail wildlife walk will significantly enhance the experience, sloths are far more compelling through a zoom lens."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences affected by National Park closures or severe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -283,25 +280,25 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "arenalhangingbridges.html",
+                                                "href":  "arenalhangingbridges",
                                                 "image":  "../images/arenalbridges1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Arenal Hanging Bridges"
                                             },
                                             {
-                                                "href":  "miravallesspa.html",
+                                                "href":  "miravallesspa",
                                                 "image":  "../images/miravalles1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Miravalles Spa \u0026 Volcano"
                                             },
                                             {
-                                                "href":  "costaricahighlights.html",
+                                                "href":  "costaricahighlights",
                                                 "image":  "../images/costaricahighlights1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Costa Rica Highlights"
                                             },
                                             {
-                                                "href":  "../private-tours/volcano-tours.html",
+                                                "href":  "../private-tours/volcano-tours",
                                                 "image":  "../images/arenalhotsprings1.webp",
                                                 "label":  "Travel Guide",
                                                 "title":  "Best Volcano Tours from Papagayo"
@@ -447,7 +444,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

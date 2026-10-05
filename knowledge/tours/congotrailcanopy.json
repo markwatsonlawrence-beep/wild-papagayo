@@ -4,9 +4,8 @@
     "slug":  "congotrailcanopy",
     "status":  "active",
     "page_file":  "tours/congotrailcanopy.html",
-    "page_url":  "../tours/congotrailcanopy.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/congotrailcanopy",
-    "category":  "Experience",
+    "page_url":  "../tours/congotrailcanopy",
+    "category":  "Extreme Zip Line Canopy",
     "short_description":  "Private Congo Trail experience, 11-station zip line through tropical forest with 3 hanging bridges, plus extreme cables including Superman and Tarzan Swing. The Plus option adds 2 hours ATV.",
     "hero_image":  "images/congotrailnew1.webp",
     "hero_image_alt":  "Congo Trail Canopy \u0026 Extreme Zip Line in Costa Rica",
@@ -226,10 +225,7 @@
                                                                      "Athletic or outdoor clothing, comfortable for movement, can get dusty on ATV.",
                                                                      "Secure cameras and phones during the zip line section. A chest or wrist mount is ideal. Bring a light snack if needed as this is a morning-only experience."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
-                                                                  ]
+                                           "reservation_policy_extra":  []
                                        },
                          "pricing_tiers":  {
                                                "guide_only":  {
@@ -269,19 +265,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "congotrail.html",
+                                                "href":  "congotrail",
                                                 "image":  "../images/congotrail1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Congo Trail Combo"
+                                                "title":  "Congo Trail Half-Day Adventure"
                                             },
                                             {
-                                                "href":  "canyoningtubing.html",
+                                                "href":  "canyoningtubing",
                                                 "image":  "../images/canyoningtubing1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Canyoning \u0026 River Tubing"
                                             },
                                             {
-                                                "href":  "buenavistamegacombo.html",
+                                                "href":  "buenavistamegacombo",
                                                 "image":  "../images/Buenavista1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Buena Vista Mega Combo"
@@ -421,7 +417,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

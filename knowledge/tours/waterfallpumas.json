@@ -4,9 +4,8 @@
     "slug":  "waterfallpumas",
     "status":  "active",
     "page_file":  "tours/waterfallpumas.html",
-    "page_url":  "../tours/waterfallpumas.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/waterfallpumas.html",
-    "category":  "Experience",
+    "page_url":  "../tours/waterfallpumas",
+    "category":  "Waterfall \u0026 Wildlife Rescue",
     "short_description":  "Private half-day at Llanos del Cortes waterfall and Las Pumas Wildlife Rescue Center, swim under the falls, then meet pumas, jaguars, ocelots, monkeys and macaws. Lunch included. Certified bilingual guide.",
     "hero_image":  "images/waterfallpumas1.webp",
     "hero_image_alt":  "Waterfall \u0026 Las Pumas Wildlife Rescue Center in Costa Rica",
@@ -26,7 +25,8 @@
                      "Families",
                      "Couples",
                      "Nature lovers",
-                     "First-time visitors"
+                     "First-time visitors",
+                     "Honeymooners"
                  ],
     "difficulty":  "Easy",
     "duration_label":  "Half Day (approx. 6 hours)",
@@ -232,10 +232,8 @@
                                                                      "Cameras with zoom lenses are ideal for the wildlife center, many animals are inside large enclosures.",
                                                                      "Please do not bring food into the wildlife rescue center. Feeding the animals is strictly prohibited."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ],
                                            "weather_policy":  [
@@ -270,19 +268,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "waterfalllovers.html",
-                                                "image":  "../images/waterfalllovers1.webp",
+                                                "href":  "ostionalturtles",
+                                                "image":  "../images/ostional1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Waterfall Lovers"
+                                                "title":  "Ostional Turtle Watching"
                                             },
                                             {
-                                                "href":  "hangingbridgessloths.html",
+                                                "href":  "hangingbridgessloths",
                                                 "image":  "../images/bridgessloths1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Hanging Bridges \u0026 Sloths"
                                             },
                                             {
-                                                "href":  "slothadventure.html",
+                                                "href":  "slothadventure",
                                                 "image":  "../images/sloth1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sloth Adventure"
@@ -333,8 +331,6 @@
                                                      "Las Pumas Wildlife Rescue Center guided visit",
                                                      "Traditional Costa Rican lunch"
                                                  ],
-                         "seo_title_override":  "Waterfall \u0026 Las Pumas Rescue Center | Private Tour Costa Rica",
-                         "seo_description_override":  "Private tour combining Llanos de Cortes waterfall swimming with a guided visit to Las Pumas Wildlife Rescue Center, home to pumas, jaguars and ocelots. Lunch included.",
                          "hero_subtitle_html":  "Swim beneath Llanos de Cortes waterfall, then come face to face with rescued jaguars, pumas and ocelots at a wildlife sanctuary doing real conservation work.",
                          "tour_at_a_glance":  [
                                                   {
@@ -422,5 +418,7 @@
                                  ],
                          "peak_season_note":  "The waterfall runs fullest during the May to November rainy season, though both stops are enjoyable year-round.",
                          "departure_time":  "8:00 AM"
-                     }
+                     },
+    "seo_title_override": "Waterfall & Las Pumas Rescue Center | Private Tour Costa Rica",
+    "seo_description_override": "Swim at Llanos de Cortes waterfall, then visit Las Pumas Wildlife Rescue Center to see pumas, jaguars and ocelots. Private tour with lunch included."
 }

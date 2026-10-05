@@ -4,9 +4,8 @@
     "slug":  "sensoriarainforest",
     "status":  "active",
     "page_file":  "tours/sensoriarainforest.html",
-    "page_url":  "../tours/sensoriarainforest.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/sensoriarainforest.html",
-    "category":  "Experience",
+    "page_url":  "../tours/sensoriarainforest",
+    "category":  "Rainforest Hike \u0026 Hot Springs",
     "short_description":  "Private full-day Sensoria nature reserve, 7km rainforest trail with multiple waterfalls, thermal pools, howler monkeys and incredible biodiversity where Guanacaste transforms into lush rainforest. Walking sticks and lunch included.",
     "hero_image":  "images/sensoria1.webp",
     "hero_image_alt":  "Sensoria Land of Senses \u0026 Magical Rainforest in Costa Rica",
@@ -238,10 +237,8 @@
                                                                      "Apply insect repellent before departure and bring extra for the trail. The rainforest is beautiful but active.",
                                                                      "Please inform us of any dietary restrictions for lunch at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences affected by severe weather or reserve closures will be rescheduled whenever possible; if not, a full refund will be issued."
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions. Experiences affected by severe weather or reserve closures will be rescheduled whenever possible; if not, a full refund will be issued."
                                                                   ],
                                            "weather_policy":  [
                                                                   "Rain is part of the Guanacaste highlands ecosystem and doesn\u0027t usually stop the tour, but conditions are monitored for trail safety.",
@@ -280,19 +277,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "miravallesspa.html",
+                                                "href":  "miravallesspa",
                                                 "image":  "../images/miravalles1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Miravalles Spa \u0026 Volcano"
                                             },
                                             {
-                                                "href":  "borinque4senses.html",
+                                                "href":  "borinque4senses",
                                                 "image":  "../images/borinque1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Borinquen 4 Senses"
                                             },
                                             {
-                                                "href":  "paloverdeculturalviejo.html",
+                                                "href":  "paloverdeculturalviejo",
                                                 "image":  "../images/paloverdeviejo1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Palo Verde Cultural Tour"
@@ -344,8 +341,6 @@
                                                      "Geothermal thermal pools",
                                                      "Traditional Costa Rican lunch"
                                                  ],
-                         "seo_title_override":  "Sensoria Rainforest \u0026 Hot Springs | Private Waterfall Hike Costa Rica",
-                         "seo_description_override":  "Private full-day Sensoria reserve tour: 7km rainforest trail, cascading waterfalls, howler monkeys and geothermal hot springs. Private guide, lunch included.",
                          "hero_subtitle_html":  "Hike a 7km rainforest trail past cascading waterfalls, then soak in geothermal hot springs. A private guide at your own pace, in one of Guanacaste\u0027s best-kept secrets.",
                          "tour_at_a_glance":  [
                                                   {
@@ -438,5 +433,7 @@
                                  ],
                          "peak_season_note":  "The trail and waterfalls are lush and flowing year-round, with the greenest scenery during the May to November rainy season.",
                          "departure_time":  "6:30 AM"
-                     }
+                     },
+    "seo_title_override": "Sensoria Rainforest & Hot Springs | Private Tour Costa Rica",
+    "seo_description_override": "Private full-day Sensoria reserve tour: 7km rainforest trail, cascading waterfalls, howler monkeys and geothermal hot springs. Private guide, lunch included."
 }

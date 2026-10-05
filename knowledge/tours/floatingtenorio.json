@@ -4,9 +4,8 @@
     "slug":  "floatingtenorio",
     "status":  "active",
     "page_file":  "tours/floatingtenorio.html",
-    "page_url":  "../tours/floatingtenorio.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/floatingtenorio",
-    "category":  "Experience",
+    "page_url":  "../tours/floatingtenorio",
+    "category":  "Wildlife River Float",
     "short_description":  "Private Class 1-2 safari float down the Tenorio River, giant kapok trees, wildlife, Llanos de Cortez Waterfall. Option to add Las Pumas Rescue Center. Lunch and fruit break included.",
     "hero_image":  "images/floatingtenorio1.webp",
     "hero_image_alt":  "Floating at Tenorio River Safari Float in Costa Rica",
@@ -230,10 +229,7 @@
                                                                      "Apply sunscreen before departure and bring extra for the waterfall stop.",
                                                                      "Please inform us of any dietary restrictions for lunch at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
-                                                                  ]
+                                           "reservation_policy_extra":  []
                                        },
                          "pricing_tiers":  {
                                                "guide_only":  {
@@ -273,19 +269,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "celesteriver.html",
+                                                "href":  "celesteriver",
                                                 "image":  "../images/celeste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Celeste River Hike"
                                             },
                                             {
-                                                "href":  "tubingceleste.html",
+                                                "href":  "tubingceleste",
                                                 "image":  "../images/tubingceleste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Tubing Celeste"
                                             },
                                             {
-                                                "href":  "tenoriorafting.html",
+                                                "href":  "tenoriorafting",
                                                 "image":  "../images/tenoriorafting1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Tenorio River Rafting"
@@ -425,7 +421,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

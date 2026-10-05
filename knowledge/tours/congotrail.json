@@ -4,9 +4,8 @@
     "slug":  "congotrail",
     "status":  "active",
     "page_file":  "tours/congotrail.html",
-    "page_url":  "../tours/congotrail.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/congotrail",
-    "category":  "Experience",
+    "page_url":  "../tours/congotrail",
+    "category":  "Zip Line, ATV \u0026 Horseback",
     "short_description":  "Six zip lines, hanging bridges, 45 minutes on ATV and horseback riding through Guanacaste dry forest. Half-day private adventure at Congo Trail with certified bilingual guide.",
     "hero_image":  "images/congotrail1.webp",
     "hero_image_alt":  "Congo Trail Half-Day Adventure in Costa Rica",
@@ -234,10 +233,8 @@
                                                                      "Cameras and phones are welcome, secure mounting or bags recommended for ATV segments.",
                                                                      "All safety equipment (helmets, harnesses) is provided and inspected by certified staff."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -272,22 +269,22 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "buenavistamegacombo.html",
+                                                "href":  "buenavistamegacombo",
                                                 "image":  "../images/Buenavista1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Buena Vista Mega Combo"
                                             },
                                             {
-                                                "href":  "congotrailcanopy.html",
+                                                "href":  "congotrailcanopy",
                                                 "image":  "../images/congotrailnew1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Congo Trail Canopy"
+                                                "title":  "Congo Trail Canopy & Extreme Zip Line"
                                             },
                                             {
-                                                "href":  "atvmountainride.html",
-                                                "image":  "../images/atvmountain1.webp",
+                                                "href":  "haciendaaromal",
+                                                "image":  "../images/aromal1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "ATV Mountain Ride"
+                                                "title":  "Hacienda Aromal"
                                             }
                                         ],
                          "gallery":  [
@@ -425,7 +422,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

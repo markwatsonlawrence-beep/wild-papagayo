@@ -4,8 +4,7 @@
     "slug":  "hangingbridgessloths",
     "status":  "active",
     "page_file":  "tours/hangingbridgessloths.html",
-    "page_url":  "../tours/hangingbridgessloths.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/hangingbridgessloths",
+    "page_url":  "../tours/hangingbridgessloths",
     "category":  "Wildlife \u0026 Nature",
     "short_description":  "Private hanging bridges and sloth encounter, 3 suspension bridges through tropical forest, Llanos de Cortez Waterfall and an intimate sloth experience that inspires wonder in every age. Lunch included.",
     "hero_image":  "images/bridgessloths1.webp",
@@ -252,10 +251,7 @@
                                                                      "A camera with a zoom lens is excellent for sloth photography, the encounters are close but respectful distance is maintained.",
                                                                      "Please inform us of any dietary restrictions for lunch at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
-                                                                  ],
+                                           "reservation_policy_extra":  [],
                                            "weather_policy":  [
                                                                   "Costa Rica\u0027s tropical weather can change quickly. This tour includes outdoor stops at a waterfall and rainforest reserve.",
                                                                   "Tours normally operate in light rain, but safety always comes first. If conditions prevent an activity from operating safely, our team will contact you to discuss the available options, including rescheduling."
@@ -292,19 +288,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "slothadventure.html",
+                                                "href":  "slothadventure",
                                                 "image":  "../images/sloth1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sloth Adventure"
                                             },
                                             {
-                                                "href":  "slothchocolatetour.html",
+                                                "href":  "slothchocolatetour",
                                                 "image":  "../images/slothchocolate1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sloth \u0026 Chocolate Tour"
                                             },
                                             {
-                                                "href":  "celesteriver.html",
+                                                "href":  "celesteriver",
                                                 "image":  "../images/celeste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Celeste River Hike"
@@ -451,7 +447,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

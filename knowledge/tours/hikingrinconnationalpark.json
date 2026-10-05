@@ -4,8 +4,7 @@
     "slug":  "hikingrinconnationalpark",
     "status":  "active",
     "page_file":  "tours/hikingrinconnationalpark.html",
-    "page_url":  "../tours/hikingrinconnationalpark.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/hikingrinconnationalpark",
+    "page_url":  "../tours/hikingrinconnationalpark",
     "category":  "Volcano \u0026 Hiking",
     "short_description":  "Private full-day hiking in Rincon de la Vieja National Park, Guanacaste. Volcanoes, hot springs and wildlife with a certified bilingual guide. Book via WhatsApp.",
     "hero_image":  "images/rincon1.webp",
@@ -25,7 +24,8 @@
     "best_for":  [
                      "Couples",
                      "Wellness travelers",
-                     "Nature lovers"
+                     "Nature lovers",
+                     "Honeymooners"
                  ],
     "difficulty":  "Easy to Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
@@ -228,10 +228,8 @@
                                                                      "Apply sunscreen and bug spray before departure. The trail passes through both open and forested areas.",
                                                                      "Please inform us of any dietary restrictions or relevant health conditions at the time of booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                                                                      "Tour rescheduling must be requested at least 48 hours in advance. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
                                                                   ],
                                            "weather_policy":  [
                                                                   "Weather in the park can change throughout the day. Tours normally operate in light rain, but safety always comes first.",
@@ -276,25 +274,25 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "celesteriver.html",
+                                                "href":  "celesteriver",
                                                 "image":  "../images/celeste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Celeste River Hike"
                                             },
                                             {
-                                                "href":  "laleona.html",
-                                                "image":  "../images/laleona1.webp",
+                                                "href":  "oropendolahotsprings",
+                                                "image":  "../images/oropendola1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "La Leona Waterfall"
+                                                "title":  "Oropendola Waterfall & Rio Negro Hot Springs"
                                             },
                                             {
-                                                "href":  "floatingtenorio.html",
+                                                "href":  "floatingtenorio",
                                                 "image":  "../images/floatingtenorio1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Floating Tenorio"
                                             },
                                             {
-                                                "href":  "../private-tours/rincon-de-la-vieja-from-papagayo.html",
+                                                "href":  "../private-tours/rincon-de-la-vieja-from-papagayo",
                                                 "image":  "../images/rincon1.webp",
                                                 "label":  "Travel Guide",
                                                 "title":  "Rincon de la Vieja from Papagayo"
@@ -458,7 +456,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      },
                                      {
                                          "question":  "How difficult is the Rincon de la Vieja volcano hike?",
@@ -467,6 +465,10 @@
                                      {
                                          "question":  "How long is the Las Pailas Trail?",
                                          "answer":  "The Las Pailas Trail itself is approximately 3km, hiked with your naturalist guide past active fumaroles, bubbling mud pots and volcanic vents. Combined with transport, hotel pickup and lunch, the full private tour runs a full day."
+                                     },
+                                     {
+                                         "question":  "How much does this tour cost?",
+                                         "answer":  "Pricing starts at $100 per person for the Private Guide Only option, where you provide your own transportation. The Classic package, including private transportation, the national park hike, Oropendola Waterfall and lunch, is $250 per person. The Plus package, which adds the Rio Negro hot springs and volcanic mud, is $270 per person. Exact pricing varies by pickup location and group size, contact us for a confirmed quote."
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

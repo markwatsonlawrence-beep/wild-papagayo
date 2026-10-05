@@ -4,9 +4,8 @@
     "slug":  "monteverdtreetopwalk",
     "status":  "active",
     "page_file":  "tours/monteverdtreetopwalk.html",
-    "page_url":  "../tours/monteverdtreetopwalk.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/monteverdtreetopwalk",
-    "category":  "Experience",
+    "page_url":  "../tours/monteverdtreetopwalk",
+    "category":  "Canopy Treetop Walk",
     "short_description":  "Private full-day Monteverde Cloud Forest treetop walk, suspension bridges at canopy level with zip line (Classic option) or reptiles exhibition, butterfly garden and sloth sanctuary (Plus option). Breakfast and lunch included.",
     "hero_image":  "images/monteverdewalk1.webp",
     "hero_image_alt":  "Monteverde Treetop Walk in Costa Rica",
@@ -237,10 +236,8 @@
                                                                      "Bring a camera, the bridges offer perspectives on the forest canopy that are impossible to replicate from the ground.",
                                                                      "Apply insect repellent before departure and bring a small amount for the trail."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences affected by severe weather will be rescheduled whenever possible; if not, a full refund will be issued."
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions. Experiences affected by severe weather will be rescheduled whenever possible; if not, a full refund will be issued."
                                                                   ]
                                        },
                          "pricing_tiers":  {
@@ -281,19 +278,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "monteverdehangingbridgescoffee.html",
+                                                "href":  "monteverdehangingbridgescoffee",
                                                 "image":  "../images/monteverdebridge1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Monteverde Bridges \u0026 Coffee"
                                             },
                                             {
-                                                "href":  "arenalhangingbridges.html",
+                                                "href":  "arenalhangingbridges",
                                                 "image":  "../images/arenalbridges1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Arenal Hanging Bridges"
                                             },
                                             {
-                                                "href":  "sensoriarainforest.html",
+                                                "href":  "sensoriarainforest",
                                                 "image":  "../images/sensoria1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sensoria Rainforest"
@@ -432,7 +429,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

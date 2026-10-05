@@ -4,8 +4,7 @@
     "slug":  "arenalhangingbridges",
     "status":  "active",
     "page_file":  "tours/arenalhangingbridges.html",
-    "page_url":  "../tours/arenalhangingbridges.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/arenalhangingbridges",
+    "page_url":  "../tours/arenalhangingbridges",
     "category":  "Rainforest \u0026 Wildlife",
     "short_description":  "Private full-day Arenal Hanging Bridges experience at Mistico Park, canopy-level suspension bridges from 5 to 100 metres, La Fortuna Waterfall and optional hot springs. Breakfast and lunch included. Bilingual guide.",
     "hero_image":  "images/arenalbridges1.webp",
@@ -25,7 +24,8 @@
     "best_for":  [
                      "Nature Lovers",
                      "Families",
-                     "Photographers"
+                     "Photographers",
+                     "Honeymooners"
                  ],
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 12 hours)",
@@ -241,10 +241,8 @@
                                                                      "Bring a change of clothing, particularly if you plan to swim at the waterfall or use the hot springs.",
                                                                      "A camera with a zoom lens or binoculars will enhance the bridge section significantly, the canopy perspective reveals birds and wildlife that are otherwise invisible from the trail below."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences affected by severe weather or park conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -286,19 +284,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "arenalhotsprings.html",
+                                                "href":  "arenalhotsprings",
                                                 "image":  "../images/arenalhotsprings1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Arenal Hot Springs"
                                             },
                                             {
-                                                "href":  "monteverdehangingbridgescoffee.html",
+                                                "href":  "monteverdehangingbridgescoffee",
                                                 "image":  "../images/monteverdebridge1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Monteverde Bridges \u0026 Coffee"
                                             },
                                             {
-                                                "href":  "costaricahighlights.html",
+                                                "href":  "costaricahighlights",
                                                 "image":  "../images/costaricahighlights1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Costa Rica Highlights"
@@ -447,7 +445,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

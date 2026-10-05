@@ -4,9 +4,8 @@
     "slug":  "waterfalllovers",
     "status":  "active",
     "page_file":  "tours/waterfalllovers.html",
-    "page_url":  "../tours/waterfalllovers.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/waterfalllovers.html",
-    "category":  "Experience",
+    "page_url":  "../tours/waterfalllovers",
+    "category":  "Horseback \u0026 Waterfalls",
     "short_description":  "Private Costa Rica waterfall and jungle tour. Discover hidden waterfalls with a certified local guide, exclusively for your group. Book via WhatsApp with Wild Papagayo.",
     "hero_image":  "images/waterfalllovers1.webp",
     "hero_image_alt":  "Waterfall Lovers Tour Costa Rica in Costa Rica",
@@ -229,10 +228,8 @@
                                                                      "Weather and seasonal water conditions may influence activity timing to ensure the safest experience.",
                                                                      "Please inform us of any dietary restrictions or health conditions at the time of booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions. Experiences canceled by Wild Papagayo due to unsafe conditions will be rescheduled or fully refunded."
                                                                   ],
                                            "weather_policy":  [
                                                                   "Costa Rica\u0027s weather can shift quickly, especially near waterfalls and river crossings.",
@@ -278,22 +275,22 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "waterfallpumas.html",
+                                                "href":  "waterfallpumas",
                                                 "image":  "../images/waterfallpumas1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Waterfall \u0026 Wildlife Rescue"
                                             },
                                             {
-                                                "href":  "celesteriver.html",
+                                                "href":  "celesteriver",
                                                 "image":  "../images/celeste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Celeste River Hike"
                                             },
                                             {
-                                                "href":  "coloradoriverrafting.html",
-                                                "image":  "../images/coloradorafting1.webp",
+                                                "href":  "ostionalturtles",
+                                                "image":  "../images/ostional1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Colorado River Rafting"
+                                                "title":  "Ostional Turtle Watching"
                                             }
                                         ],
                          "gallery":  [
@@ -341,8 +338,6 @@
                                                      "Traditional Costa Rican lunch",
                                                      "Hot Spring \u0026amp; Volcanic Mud Spa (✦ PLUS only)"
                                                  ],
-                         "seo_title_override":  "Waterfall Lovers Tour | Private Horseback \u0026 Waterfall Day Costa Rica",
-                         "seo_description_override":  "Private full-day tour combining horseback riding, Chorrera, Oropendola and Rio Negro waterfalls, turquoise pools, and an optional hot springs upgrade in Guanacaste.",
                          "hero_subtitle_html":  "Ride on horseback to a chain of hidden waterfalls, swim in turquoise pools, and finish with an optional soak in volcanic hot springs, all in your own private group.",
                          "tour_at_a_glance":  [
                                                   {
@@ -435,5 +430,7 @@
                                  ],
                          "peak_season_note":  "Waterfalls run fullest during the May to November rainy season, though the tour operates daily year-round.",
                          "departure_time":  "7:00 AM"
-                     }
+                     },
+    "seo_title_override": "Waterfall Lovers Tour | Private Horseback Day Costa Rica",
+    "seo_description_override": "Private full-day tour combining horseback riding with Chorrera, Oropendola and Rio Negro waterfalls, turquoise pools, and an optional hot springs upgrade."
 }

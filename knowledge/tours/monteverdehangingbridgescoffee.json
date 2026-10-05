@@ -4,9 +4,8 @@
     "slug":  "monteverdehangingbridgescoffee",
     "status":  "active",
     "page_file":  "tours/monteverdehangingbridgescoffee.html",
-    "page_url":  "../tours/monteverdehangingbridgescoffee.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/monteverdehangingbridgescoffee",
-    "category":  "Experience",
+    "page_url":  "../tours/monteverdehangingbridgescoffee",
+    "category":  "Hanging Bridges \u0026 Coffee Tour",
     "short_description":  "Private full-day Monteverde Cloud Forest experience, 8 Selvatura suspension bridges, butterfly garden, interactive coffee plantation tour from seed to cup, sugar cane and chocolate. Breakfast and lunch included.",
     "hero_image":  "images/monteverdebridge1.webp",
     "hero_image_alt":  "Monteverde Hanging Bridges \u0026 Coffee Tour in Costa Rica",
@@ -26,7 +25,8 @@
                      "Families",
                      "Couples",
                      "Nature lovers",
-                     "First-time visitors"
+                     "First-time visitors",
+                     "Honeymooners"
                  ],
     "difficulty":  "Easy",
     "duration_label":  "Full Day (approx. 12 hours)",
@@ -238,10 +238,8 @@
                                                                      "The coffee tour involves tasting at multiple stages. If you have caffeine sensitivities, let your guide know.",
                                                                      "Please inform us of any dietary restrictions for breakfast and lunch at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance. Experiences affected by severe weather will be rescheduled whenever possible; if not, a full refund will be issued."
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions. Experiences affected by severe weather will be rescheduled whenever possible; if not, a full refund will be issued."
                                                                   ]
                                        },
                          "pricing_tiers":  {
@@ -275,19 +273,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "arenalhangingbridges.html",
+                                                "href":  "arenalhangingbridges",
                                                 "image":  "../images/arenalbridges1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Arenal Hanging Bridges"
                                             },
                                             {
-                                                "href":  "monteverdtreetopwalk.html",
+                                                "href":  "monteverdtreetopwalk",
                                                 "image":  "../images/monteverdewalk1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Monteverde Treetop Walk"
                                             },
                                             {
-                                                "href":  "costaricahighlights.html",
+                                                "href":  "costaricahighlights",
                                                 "image":  "../images/costaricahighlights1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Costa Rica Highlights"
@@ -426,7 +424,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

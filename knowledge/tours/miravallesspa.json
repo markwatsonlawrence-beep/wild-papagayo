@@ -4,9 +4,8 @@
     "slug":  "miravallesspa",
     "status":  "active",
     "page_file":  "tours/miravallesspa.html",
-    "page_url":  "../tours/miravallesspa.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/miravallesspa",
-    "category":  "Experience",
+    "page_url":  "../tours/miravallesspa",
+    "category":  "Volcano Wellness \u0026 Waterfalls",
     "short_description":  "Private full-day at Miravalles Volcano, 3 cascading waterfalls, geothermal hot springs and volcanic mud treatments in a live crater. Lunch and all entrance fees included.",
     "hero_image":  "images/miravalles1.webp",
     "hero_image_alt":  "Miravalles Volcano Waterfalls \u0026 Natural Spa in Costa Rica",
@@ -26,7 +25,8 @@
     "best_for":  [
                      "Couples",
                      "Wellness travelers",
-                     "Nature lovers"
+                     "Nature lovers",
+                     "Honeymooners"
                  ],
     "difficulty":  "Easy to Moderate",
     "duration_label":  "Full Day (approx. 8 hours)",
@@ -234,10 +234,8 @@
                                                                      "Trail shoes or closed-toe shoes are recommended for the forest sections.",
                                                                      "Please inform us of any dietary restrictions for lunch at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance."
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions."
                                                                   ],
                                            "weather_policy":  [
                                                                   "Costa Rica\u0027s tropical weather can change quickly. This tour includes several outdoor stops across forest and geothermal terrain.",
@@ -275,25 +273,25 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "costaricahighlights.html",
+                                                "href":  "costaricahighlights",
                                                 "image":  "../images/costaricahighlights1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Costa Rica Highlights"
                                             },
                                             {
-                                                "href":  "sensoriarainforest.html",
+                                                "href":  "sensoriarainforest",
                                                 "image":  "../images/sensoria1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sensoria Rainforest"
                                             },
                                             {
-                                                "href":  "borinque4senses.html",
+                                                "href":  "borinque4senses",
                                                 "image":  "../images/borinque1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Borinquen 4 Senses"
                                             },
                                             {
-                                                "href":  "../private-tours/volcano-tours.html",
+                                                "href":  "../private-tours/volcano-tours",
                                                 "image":  "../images/miravalles1.webp",
                                                 "label":  "Travel Guide",
                                                 "title":  "Best Volcano Tours from Papagayo"
@@ -437,7 +435,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

@@ -4,9 +4,8 @@
     "slug":  "tenoriorafting",
     "status":  "active",
     "page_file":  "tours/tenoriorafting.html",
-    "page_url":  "../tours/tenoriorafting.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/tenoriorafting.html",
-    "category":  "Experience",
+    "page_url":  "../tours/tenoriorafting",
+    "category":  "Advanced Whitewater Rafting",
     "short_description":  "Private Class III–IV white water rafting on the Tenorio River, racing rapids, plunging over falls and lush tropical wildlife. Snacks and lunch included. Certified bilingual guide exclusively for your group.",
     "hero_image":  "images/tenoriorafting1.webp",
     "hero_image_alt":  "Tenorio River White Water Rafting Class III–IV in Costa Rica",
@@ -227,10 +226,8 @@
                                                                      "Secure-fitting water shoes or sandals with straps are strongly recommended. Flip-flops will be lost on the river.",
                                                                      "A GoPro with a secure chest mount is the best way to capture the experience. Handheld cameras are not suitable for Class III–IV."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe river or weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ],
                                            "weather_policy":  [
@@ -270,19 +267,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "coloradoriverrafting.html",
+                                                "href":  "coloradoriverrafting",
                                                 "image":  "../images/coloradorafting1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Colorado River Rafting"
                                             },
                                             {
-                                                "href":  "floatingtenorio.html",
+                                                "href":  "floatingtenorio",
                                                 "image":  "../images/floatingtenorio1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Floating Tenorio"
                                             },
                                             {
-                                                "href":  "tubingceleste.html",
+                                                "href":  "tubingceleste",
                                                 "image":  "../images/tubingceleste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Tubing Celeste"
@@ -333,8 +330,6 @@
                                                      "Traditional Costa Rican lunch",
                                                      "All safety gear (helmet, life jacket, paddle, dry bag)"
                                                  ],
-                         "seo_title_override":  "Tenorio River Rafting Class III-IV | Private Whitewater Costa Rica",
-                         "seo_description_override":  "Private Class III-IV white water rafting on the Tenorio River. Rapids, canyon scenery and a waterfall drop with a certified guide exclusively for your group. Lunch included.",
                          "hero_subtitle_html":  "Paddle Class III-IV rapids through a rainforest canyon on the Tenorio River, with a certified guide and raft dedicated entirely to your group.",
                          "tour_at_a_glance":  [
                                                   {
@@ -427,5 +422,7 @@
                                  ],
                          "peak_season_note":  "River flow and rapid intensity are strongest during the May to November rainy season, though the Tenorio runs rafting trips year-round.",
                          "departure_time":  "7:30 AM"
-                     }
+                     },
+    "seo_title_override": "Tenorio River Rafting Class III-IV | Private Tour Costa Rica",
+    "seo_description_override": "Private Class III-IV white water rafting on the Tenorio River: rapids, canyon scenery and a waterfall drop with a certified guide. Lunch included."
 }

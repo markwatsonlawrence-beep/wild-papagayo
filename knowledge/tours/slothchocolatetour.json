@@ -4,9 +4,8 @@
     "slug":  "slothchocolatetour",
     "status":  "active",
     "page_file":  "tours/slothchocolatetour.html",
-    "page_url":  "../tours/slothchocolatetour.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/slothchocolatetour.html",
-    "category":  "Experience",
+    "page_url":  "../tours/slothchocolatetour",
+    "category":  "Chocolate \u0026 Sloth Tour",
     "short_description":  "Private chocolate tour from cacao tree to handmade bar, then a short hike in Bijagua to observe wild sloths, butterflies and toucans in their natural habitat. Lunch included. Easy, all ages.",
     "hero_image":  "images/slothchocolate1.webp",
     "hero_image_alt":  "Sloth Adventure \u0026 Chocolate Tour in Costa Rica",
@@ -231,10 +230,8 @@
                                                                      "Bring a camera or phone with a good zoom. Sloth observations are close but the forest light can be variable, a zoom capability helps.",
                                                                      "Please inform us of any food allergies at booking, particularly for the chocolate tasting and lunch."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance. If severe weather affects the experience, rescheduling or a full refund will be arranged."
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions. If severe weather affects the experience, rescheduling or a full refund will be arranged."
                                                                   ],
                                            "weather_policy":  [
                                                                   "Costa Rica\u0027s weather can shift quickly; both the chocolate tour and sloth hike run under light forest cover.",
@@ -273,19 +270,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "hangingbridgessloths.html",
+                                                "href":  "hangingbridgessloths",
                                                 "image":  "../images/bridgessloths1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Hanging Bridges \u0026 Sloths"
                                             },
                                             {
-                                                "href":  "slothadventure.html",
+                                                "href":  "slothadventure",
                                                 "image":  "../images/sloth1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sloth Adventure"
                                             },
                                             {
-                                                "href":  "paloverdeculturalviejo.html",
+                                                "href":  "paloverdeculturalviejo",
                                                 "image":  "../images/paloverdeviejo1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Palo Verde Cultural Tour"
@@ -334,8 +331,6 @@
                                                      "Sloth Adventure hike, wild sloths",
                                                      "Traditional Costa Rican lunch"
                                                  ],
-                         "seo_title_override":  "Sloth \u0026 Chocolate Tour | Private Bijagua Wildlife Experience",
-                         "seo_description_override":  "Private half-day tour combining a hands-on cacao-to-chocolate experience with a guided wild sloth hike in Bijagua. Certified bilingual guide, lunch included.",
                          "hero_subtitle_html":  "Make chocolate by hand from the cacao tree, then walk into Bijagua\u0027s rainforest to find wild sloths in the canopy. An easy, unhurried day for all ages.",
                          "tour_at_a_glance":  [
                                                   {
@@ -423,5 +418,7 @@
                                  ],
                          "peak_season_note":  "This tour runs comfortably year-round, since both the chocolate experience and sloth habitat are unaffected by season.",
                          "departure_time":  "7:30 AM"
-                     }
+                     },
+    "seo_title_override": "Sloth & Chocolate Tour | Private Bijagua Wildlife Experience",
+    "seo_description_override": "Private half-day tour combining a hands-on cacao-to-chocolate experience with a guided wild sloth hike in Bijagua. Certified bilingual guide, lunch included."
 }

@@ -4,8 +4,7 @@
     "slug":  "paloverdeculturalviejo",
     "status":  "active",
     "page_file":  "tours/paloverdeculturalviejo.html",
-    "page_url":  "../tours/paloverdeculturalviejo.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/paloverdeculturalviejo",
+    "page_url":  "../tours/paloverdeculturalviejo",
     "category":  "Wildlife \u0026 Culture",
     "short_description":  "Covered boat ride down the Tempisque River through Palo Verde National Park, then a private visit to Hacienda El Viejo, tortilla making, the ox-powered trapiche sugar mill, and traditional Guanacaste cuisine. Lunch and National Park fee included.",
     "hero_image":  "images/paloverdeviejo1.webp",
@@ -241,10 +240,8 @@
                                                                      "Sunscreen and a hat are recommended for the outdoor sections at the hacienda.",
                                                                      "Please notify your guide of any food allergies or dietary requirements prior to the farmhouse lunch."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences affected by exceptional weather or river conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -279,19 +276,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "paloverderiverboattour.html",
+                                                "href":  "paloverderiverboattour",
                                                 "image":  "../images/paloverde1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Palo Verde River Boat"
                                             },
                                             {
-                                                "href":  "costaricahighlights.html",
+                                                "href":  "costaricahighlights",
                                                 "image":  "../images/costaricahighlights1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Costa Rica Highlights"
                                             },
                                             {
-                                                "href":  "sensoriarainforest.html",
+                                                "href":  "sensoriarainforest",
                                                 "image":  "../images/sensoria1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sensoria Rainforest"
@@ -424,11 +421,11 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."
                      },
-    "seo_title_override":  "Palo Verde River Safari \u0026 Hacienda El Viejo Private Tour | Wild Papagayo",
+    "seo_title_override":  "Palo Verde River Safari \u0026 Hacienda El Viejo | Wild Papagayo",
     "seo_description_override":  "Private Palo Verde river safari and Hacienda El Viejo cultural tour from Papagayo, wildlife, tortilla making, sugar mill, lunch and hotel pickup included."
 }

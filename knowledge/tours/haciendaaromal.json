@@ -4,9 +4,8 @@
     "slug":  "haciendaaromal",
     "status":  "active",
     "page_file":  "tours/haciendaaromal.html",
-    "page_url":  "../tours/haciendaaromal.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/haciendaaromal",
-    "category":  "Experience",
+    "page_url":  "../tours/haciendaaromal",
+    "category":  "Cultural Hacienda Adventure",
     "short_description":  "A full day at an authentic Guanacaste hacienda, zip lines, horseback riding through the estate, ATV adventure and a traditional Sabanero lunch. Private experience with certified bilingual guide.",
     "hero_image":  "images/aromal1.webp",
     "hero_image_alt":  "Hacienda Aromal Full Day in Costa Rica",
@@ -239,10 +238,8 @@
                                                                      "Please inform your guide of any dietary restrictions, traditional lunch options can be accommodated with advance notice.",
                                                                      "All safety equipment (harnesses, helmets) is provided and inspected by certified staff."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -284,16 +281,22 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "horsebackaromal.html",
+                                                "href":  "horsebackaromal",
                                                 "image":  "../images/horsebackaromal1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Horseback Riding Aromal"
                                             },
                                             {
-                                                "href":  "congotrail.html",
+                                                "href":  "congotrail",
                                                 "image":  "../images/congotrail1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Congo Trail Combo"
+                                                "title":  "Congo Trail Half-Day Adventure"
+                                            },
+                                            {
+                                                "href":  "paloverdeculturalviejo",
+                                                "image":  "../images/paloverde1.webp",
+                                                "label":  "Private Tour",
+                                                "title":  "Palo Verde Cultural & Hacienda El Viejo"
                                             }
                                         ],
                          "gallery":  [
@@ -432,7 +435,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

@@ -4,8 +4,7 @@
     "slug":  "paloverderiverboattour",
     "status":  "active",
     "page_file":  "tours/paloverderiverboattour.html",
-    "page_url":  "../tours/paloverderiverboattour.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/paloverderiverboattour.html",
+    "page_url":  "../tours/paloverderiverboattour",
     "category":  "Wildlife \u0026 Culture",
     "short_description":  "Private half-day riverboat excursion through Palo Verde National Park, crocodiles, monkeys, tropical birds and the Tempisque River. Certified bilingual guide. Book with Wild Papagayo.",
     "hero_image":  "images/paloverde1.webp",
@@ -29,7 +28,7 @@
                  ],
     "difficulty":  "Easy",
     "duration_label":  "Half Day (approx. 6 hours)",
-    "minimum_age":  8,
+    "minimum_age":  2,
     "included":  [
                      "Private air-conditioned transportation",
                      "Complimentary bottled water",
@@ -113,7 +112,7 @@
                          "duration_hours":  6,
                          "duration_type":  "Half Day",
                          "energy_level":  "Low",
-                         "minimum_age":  8,
+                         "minimum_age":  2,
                          "best_for":  [
                                           "Nature lovers",
                                           "Birdwatchers",
@@ -174,7 +173,8 @@
                                                   "required":  true,
                                                   "notes":  [
                                                                 "Verify pickup zones.",
-                                                                "Verify minimum age and difficulty.",
+                                                                "Verify difficulty.",
+                                                                "Minimum age owner-confirmed as 2 (2026-10-02), resolving the prior 8-vs-2 source-of-truth conflict.",
                                                                 "Review traveler scores before public use."
                                                             ]
                                               },
@@ -235,10 +235,8 @@
                                                                      "Guests should inform the guide of any medical conditions or special needs prior to departure.",
                                                                      "Breakfast or lunch and drinks are included as specified."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather or river conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ],
                                            "weather_policy":  [
@@ -278,19 +276,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "paloverdeculturalviejo.html",
+                                                "href":  "paloverdeculturalviejo",
                                                 "image":  "../images/paloverdeviejo1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Palo Verde Cultural Tour"
                                             },
                                             {
-                                                "href":  "costaricahighlights.html",
+                                                "href":  "costaricahighlights",
                                                 "image":  "../images/costaricahighlights1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Costa Rica Highlights"
                                             },
                                             {
-                                                "href":  "miravallesspa.html",
+                                                "href":  "miravallesspa",
                                                 "image":  "../images/miravalles1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Miravalles Spa \u0026 Volcano"
@@ -339,8 +337,6 @@
                                                      "Private 90-minute riverboat excursion",
                                                      "Palo Verde National Park entrance fee"
                                                  ],
-                         "seo_title_override":  "Palo Verde River Boat Tour | Private Wildlife Safari Costa Rica",
-                         "seo_description_override":  "Private riverboat safari through Palo Verde National Park. Spot crocodiles, monkeys and tropical birds on the Tempisque River with your own bilingual guide.",
                          "hero_subtitle_html":  "Cruise the Tempisque River in your own private boat, where crocodiles bask on the banks and scarlet macaws cross overhead. No crowded tour boats, just you, your guide, and the wetlands.",
                          "tour_at_a_glance":  [
                                                   {
@@ -357,7 +353,7 @@
                                                   },
                                                   {
                                                       "icon":  "🧑‍🤝‍🧑",
-                                                      "label":  "Minimum Age 8"
+                                                      "label":  "Minimum Age 2"
                                                   },
                                                   {
                                                       "icon":  "📍",
@@ -407,7 +403,7 @@
                                      },
                                      {
                                          "question":  "Is this tour suitable for kids?",
-                                         "answer":  "The recommended minimum age is 8, since the excursion involves a boat ride and a full morning or afternoon out. It\u0027s a leisurely, seated cruise, so it suits most fitness levels."
+                                         "answer":  "Yes, the recommended minimum age is 2. It\u0027s a leisurely, seated riverboat cruise, so it suits young children and most fitness levels, though it is still a half day out with sun and time on the water."
                                      },
                                      {
                                          "question":  "Do we need to swim or get in the water?",
@@ -428,5 +424,7 @@
                                  ],
                          "peak_season_note":  "River conditions and wildlife visibility are best during the dry season (December to April), though the tour runs daily year-round.",
                          "departure_time":  "To be confirmed (tide-dependent)"
-                     }
+                     },
+    "seo_title_override": "Palo Verde River Boat Tour | Private Wildlife Safari Costa Rica",
+    "seo_description_override": "Private riverboat safari through Palo Verde National Park. Spot crocodiles, monkeys and tropical birds on the Tempisque River with your own bilingual guide."
 }

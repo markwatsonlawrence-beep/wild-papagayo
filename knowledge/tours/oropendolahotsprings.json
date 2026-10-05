@@ -4,8 +4,7 @@
     "slug": "oropendolahotsprings",
     "status": "active",
     "page_file": "tours/oropendolahotsprings.html",
-    "page_url": "../tours/oropendolahotsprings.html",
-    "canonical_url": "https://wildpapagayo.com/tours/oropendolahotsprings",
+    "page_url": "../tours/oropendolahotsprings",
     "category": "Waterfall & Hot Springs",
     "short_description": "Private tour to Oropendola Waterfall's crystal-clear swimming pool and the natural Rio Negro hot springs at the base of Rincon de la Vieja Volcano. Certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
     "hero_image": "images/oropendola1.webp",
@@ -26,7 +25,8 @@
         "Families",
         "Couples",
         "Nature lovers",
-        "First-time visitors"
+        "First-time visitors",
+        "Honeymooners"
     ],
     "difficulty": "Easy",
     "duration_label": "Half Day (approx. 5-6 hours)",
@@ -67,7 +67,6 @@
         "path": "tours/oropendolahotsprings.html"
     },
     "review_notes": [
-        "Price intentionally left blank -- this experience already exists bundled into 2 other tours at $205-220; confirm whether the standalone version should be priced lower (shorter, no hike/horseback) before publishing.",
         "Confirm exact duration for the standalone version without the hike or horseback ride add-ons.",
         "Confirm whether self-serve volcanic mud is officially part of this experience or an unofficial visitor activity before promising it in marketing copy."
     ],
@@ -164,7 +163,6 @@
         "editorial_review": {
             "required": true,
             "notes": [
-                "Verify pricing before this tour appears in customer-facing recommendations.",
                 "Decide whether to keep this as a standalone product alongside the existing bundled versions, or fold it back into those 2 tours.",
                 "Confirm duration and inclusions for the standalone (non-hiking, non-horseback) version."
             ]
@@ -220,10 +218,8 @@
                 "The waterfall pool and hot spring pools are shared with other visitors on busy days.",
                 "Please inform us of any relevant health conditions at booking, hot springs are not recommended for some medical conditions."
             ],
-            "reservation_policy": [
-                "We understand that travel plans may change. Cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                "Tour rescheduling must be requested at least 24 hours in advance."
+            "reservation_policy_extra": [
+                "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions."
             ]
         },
         "pricing_tiers": {
@@ -250,19 +246,19 @@
         "testimonials": [],
         "cross_sell": [
             {
-                "href": "hikingrinconnationalpark.html",
+                "href": "hikingrinconnationalpark",
                 "image": "../images/rincon1.webp",
                 "label": "Private Tour",
                 "title": "Rincon de la Vieja Hiking Tour"
             },
             {
-                "href": "waterfalllovers.html",
+                "href": "waterfalllovers",
                 "image": "../images/waterfalllovers2.webp",
                 "label": "Private Tour",
                 "title": "Waterfall Lovers Tour"
             },
             {
-                "href": "haciendaguachipelin.html",
+                "href": "haciendaguachipelin",
                 "image": "../images/guachipelin1.webp",
                 "label": "Private Tour",
                 "title": "Hacienda Guachipelín Extreme"
@@ -385,7 +381,7 @@
             },
             {
                 "question": "Can I cancel my reservation?",
-                "answer": "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                "answer_source": "central_policy:cancellation_faq"
             }
         ]
     },

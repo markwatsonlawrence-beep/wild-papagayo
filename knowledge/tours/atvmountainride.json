@@ -4,9 +4,8 @@
     "slug":  "atvmountainride",
     "status":  "active",
     "page_file":  "tours/atvmountainride.html",
-    "page_url":  "../tours/atvmountainride.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/atvmountainride",
-    "category":  "Experience",
+    "page_url":  "../tours/atvmountainride",
+    "category":  "ATV Adventure",
     "short_description":  "Two hours of private ATV adventure through unpaved mountain roads and dry forest terrain in Guanacaste. Off-the-beaten-track riding with a certified bilingual guide, exclusively for your group.",
     "hero_image":  "images/atvmountain1.webp",
     "hero_image_alt":  "2-Hour ATV Mountain Ride in Costa Rica",
@@ -232,10 +231,8 @@
                                                                      "GoPros and cameras with secure mounts are welcome. Loose electronics should be secured in a bag.",
                                                                      "All safety equipment (helmets, protective gear) is provided and inspected by certified staff before every departure."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe weather or trail conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -270,19 +267,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "congotrail.html",
+                                                "href":  "congotrail",
                                                 "image":  "../images/congotrail1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Congo Trail Combo"
+                                                "title":  "Congo Trail Half-Day Adventure"
                                             },
                                             {
-                                                "href":  "buenavistamegacombo.html",
+                                                "href":  "buenavistamegacombo",
                                                 "image":  "../images/Buenavista1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Buena Vista Mega Combo"
                                             },
                                             {
-                                                "href":  "canyoningtubing.html",
+                                                "href":  "canyoningtubing",
                                                 "image":  "../images/canyoningtubing1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Canyoning \u0026 River Tubing"
@@ -419,7 +416,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

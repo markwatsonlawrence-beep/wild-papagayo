@@ -4,8 +4,7 @@
     "slug":  "costaricahighlights",
     "status":  "active",
     "page_file":  "tours/costaricahighlights.html",
-    "page_url":  "../tours/costaricahighlights.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/costaricahighlights",
+    "page_url":  "../tours/costaricahighlights",
     "category":  "Signature Journey",
     "short_description":  "The ultimate one-day Costa Rica experience, sloth observation, waterfall, hands-on coffee and cacao workshop, natural mineral hot springs and two hanging bridges. Everything that makes Costa Rica extraordinary, in one private day.",
     "hero_image":  "images/costaricahighlights1.webp",
@@ -28,7 +27,8 @@
                      "First-Time Visitors",
                      "Families",
                      "Nature & Wildlife Lovers",
-                     "Couples"
+                     "Couples",
+                     "Honeymooners"
                  ],
     "difficulty":  "Moderate",
     "duration_label":  "Full Day (approx. 10 hours)",
@@ -238,10 +238,7 @@
                                                                      "Apply insect repellent before departure. A long-sleeved layer is useful for the forested sections in the morning.",
                                                                      "Please inform us of any dietary restrictions for lunch at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
-                                                                  ],
+                                           "reservation_policy_extra":  [],
                                            "weather_policy":  [
                                                                   "Costa Rica\u0027s tropical weather can change quickly. This tour includes several outdoor stops across different microclimates.",
                                                                   "Tours normally operate in light rain, but safety always comes first. If conditions prevent an activity from operating safely, our team will contact you to discuss the available options, including rescheduling."
@@ -279,19 +276,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "miravallesspa.html",
+                                                "href":  "miravallesspa",
                                                 "image":  "../images/miravalles1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Miravalles Spa \u0026 Volcano"
                                             },
                                             {
-                                                "href":  "arenalhotsprings.html",
+                                                "href":  "arenalhotsprings",
                                                 "image":  "../images/arenalhotsprings1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Arenal Hot Springs"
                                             },
                                             {
-                                                "href":  "arenalhangingbridges.html",
+                                                "href":  "arenalhangingbridges",
                                                 "image":  "../images/arenalbridges1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Arenal Hanging Bridges"
@@ -440,7 +437,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended.",

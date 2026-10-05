@@ -4,8 +4,7 @@
     "slug":  "celesteriver",
     "status":  "active",
     "page_file":  "tours/celesteriver.html",
-    "page_url":  "../tours/celesteriver.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/celesteriver",
+    "page_url":  "../tours/celesteriver",
     "seo_title_override":  "Rio Celeste Waterfall Private Tour from Papagayo | Wild Papagayo",
     "seo_description_override":  "Private Rio Celeste tour from Papagayo and Guanacaste with hotel pickup, certified guide, Tenorio National Park entrance, waterfall hike and lunch.",
     "category":  "Waterfall \u0026 Hiking",
@@ -233,10 +232,8 @@
                                                                      "Apply insect repellent before departure and bring extra for the trail.",
                                                                      "Please inform us of any dietary restrictions for lunch at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded.",
-                                                                      "Because national park access requires advance registration with visitor limits, rescheduling requests must be made at least 48 hours in advance to allow for re-registration."
+                                           "reservation_policy_extra":  [
+                                                                      "Because national park access requires advance registration with visitor limits, date changes must be requested more than 72 hours before the tour to allow for re-registration, and remain subject to park availability."
                                                                   ],
                                            "weather_policy":  [
                                                                   "Costa Rica\u0027s tropical weather can change quickly, and the Tenorio highlands receive significant rainfall year-round.",
@@ -274,25 +271,25 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "floatingtenorio.html",
+                                                "href":  "floatingtenorio",
                                                 "image":  "../images/floatingtenorio1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Floating Tenorio"
                                             },
                                             {
-                                                "href":  "hangingbridgessloths.html",
+                                                "href":  "hangingbridgessloths",
                                                 "image":  "../images/bridgessloths1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Hanging Bridges \u0026 Sloths"
                                             },
                                             {
-                                                "href":  "tubingceleste.html",
+                                                "href":  "tubingceleste",
                                                 "image":  "../images/tubingceleste1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Tubing Celeste"
                                             },
                                             {
-                                                "href":  "../private-tours/rio-celeste-from-papagayo.html",
+                                                "href":  "../private-tours/rio-celeste-from-papagayo",
                                                 "image":  "../images/celeste1.webp",
                                                 "label":  "Travel Guide",
                                                 "title":  "Rio Celeste from Papagayo"
@@ -435,7 +432,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended.",

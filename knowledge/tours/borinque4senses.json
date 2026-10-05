@@ -4,9 +4,8 @@
     "slug":  "borinque4senses",
     "status":  "active",
     "page_file":  "tours/borinque4senses.html",
-    "page_url":  "../tours/borinque4senses.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/borinque4senses",
-    "category":  "Experience",
+    "page_url":  "../tours/borinque4senses",
+    "category":  "Horseback \u0026 Hot Springs",
     "short_description":  "Private Borinque 4 Senses Tour, horseback riding with Pacific coast panoramas, forest hike to Misterio Waterfall, adrenaline zip line and volcanic hot springs with mud and sauna. Lunch included.",
     "hero_image":  "images/borinque1.webp",
     "hero_image_alt":  "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall \u0026 Hot Springs in Costa Rica",
@@ -239,10 +238,7 @@
                                                                      "Apply sunscreen before departure. The horseback trails are partially exposed.",
                                                                      "Please inform us of any dietary restrictions for lunch and any relevant health conditions (weight, cardiovascular, joint) at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
-                                                                  ],
+                                           "reservation_policy_extra":  [],
                                            "weather_policy":  [
                                                                   "Costa Rica\u0027s tropical weather can change quickly. This tour combines horseback riding, a forest hike, a zipline and outdoor hot springs.",
                                                                   "Tours normally operate in light rain, but safety always comes first. If conditions prevent an activity from operating safely, our team will contact you to discuss the available options, including rescheduling."
@@ -279,19 +275,19 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "sensoriarainforest.html",
+                                                "href":  "sensoriarainforest",
                                                 "image":  "../images/sensoria1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Sensoria Rainforest"
                                             },
                                             {
-                                                "href":  "miravallesspa.html",
+                                                "href":  "miravallesspa",
                                                 "image":  "../images/miravalles1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Miravalles Spa \u0026 Volcano"
                                             },
                                             {
-                                                "href":  "haciendaguachipelin.html",
+                                                "href":  "haciendaguachipelin",
                                                 "image":  "../images/guachipelin1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Hacienda Guachipelín"
@@ -442,7 +438,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

@@ -4,9 +4,8 @@
     "slug":  "canyoningtubing",
     "status":  "active",
     "page_file":  "tours/canyoningtubing.html",
-    "page_url":  "../tours/canyoningtubing.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/canyoningtubing",
-    "category":  "Experience",
+    "page_url":  "../tours/canyoningtubing",
+    "category":  "Canyoning \u0026 Tubing",
     "short_description":  "Private waterfall canyoning and river tubing, rappel into majestic falls, rock climb, Tarzan pendulum, then tube 5km of crystal-clear Class 2–3 rapids. Lunch included. Certified bilingual guide.",
     "hero_image":  "images/canyoningtubing1.webp",
     "hero_image_alt":  "Waterfall Canyoning \u0026 Tubing in Costa Rica",
@@ -239,10 +238,8 @@
                                                                      "Apply sunscreen before departure. All safety equipment, harnesses, helmets, life jackets, is provided and inspected before every session.",
                                                                      "Please inform your guide of any height concerns, medical conditions or swimming limitations before the activity begins."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking will be considered a no-show.",
-                                                                      "Tour rescheduling must be requested at least 24 hours in advance.",
+                                           "reservation_policy_extra":  [
+                                                                      "Date changes can be requested more than 72 hours before the tour, subject to availability. Within 72 hours, there is no automatic right to reschedule; any exceptional change is at Wild Papagayo's discretion and subject to availability and supplier conditions.",
                                                                       "Guest safety is our priority. Experiences canceled by Wild Papagayo due to unsafe water levels or weather conditions will be rescheduled whenever possible. If rescheduling cannot be arranged, a full refund will be issued."
                                                                   ]
                                        },
@@ -277,22 +274,22 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "congotrailcanopy.html",
-                                                "image":  "../images/congotrailnew1.webp",
+                                                "href":  "canyonadventurepark",
+                                                "image":  "../images/canyonadventure1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Congo Trail Canopy"
+                                                "title":  "Canyon Adventure Park"
                                             },
                                             {
-                                                "href":  "haciendaguachipelin.html",
+                                                "href":  "haciendaguachipelin",
                                                 "image":  "../images/guachipelin1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Hacienda Guachipelín"
                                             },
                                             {
-                                                "href":  "atvmountainride.html",
-                                                "image":  "../images/atvmountain1.webp",
+                                                "href":  "laleona",
+                                                "image":  "../images/laleona1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "ATV Mountain Ride"
+                                                "title":  "La Leona Waterfall"
                                             }
                                         ],
                          "gallery":  [
@@ -431,7 +428,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

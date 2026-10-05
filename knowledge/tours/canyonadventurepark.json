@@ -4,9 +4,8 @@
     "slug":  "canyonadventurepark",
     "status":  "active",
     "page_file":  "tours/canyonadventurepark.html",
-    "page_url":  "../tours/canyonadventurepark.html",
-    "canonical_url":  "https://wildpapagayo.com/tours/canyonadventurepark",
-    "category":  "Experience",
+    "page_url":  "../tours/canyonadventurepark",
+    "category":  "Canyon Adventure",
     "short_description":  "Private half-day at Canyon Adventure Park, zip line 7 cables with bird\u0027s-eye canopy views, rappel, rock climbing and 2-mile Class II-III rafting. Lunch included. Minimum age 5.",
     "hero_image":  "images/canyonadventure1.webp",
     "hero_image_alt":  "Canyon Adventure Park — Zip, Rappel, Climb \u0026 Raft in Costa Rica",
@@ -231,10 +230,7 @@
                                                                      "Apply sunscreen before departure. The zip line and rock climbing involve extended time in the open.",
                                                                      "Please inform us of children\u0027s ages and any dietary restrictions for lunch at booking."
                                                                  ],
-                                           "reservation_policy":  [
-                                                                      "We understand that travel plans may change. Our cancellation policy for tours and day experiences: cancellations made 7 or more days before the tour date receive a full refund. Cancellations made between 48 hours and 6 days before receive a 50% refund. Cancellations made less than 48 hours before the scheduled experience are not eligible for a refund, although exceptional situations may be reviewed individually.",
-                                                                      "No-show reservations are charged in full. Guests are granted up to 1 hour after the scheduled pickup time before a no-show is recorded."
-                                                                  ]
+                                           "reservation_policy_extra":  []
                                        },
                          "pricing_tiers":  {
                                                "guide_only":  {
@@ -267,22 +263,22 @@
                                           ],
                          "cross_sell":  [
                                             {
-                                                "href":  "canyoningtubing.html",
+                                                "href":  "canyoningtubing",
                                                 "image":  "../images/canyoningtubing1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "Canyoning \u0026 River Tubing"
                                             },
                                             {
-                                                "href":  "atvmountainride.html",
+                                                "href":  "atvmountainride",
                                                 "image":  "../images/atvmountain1.webp",
                                                 "label":  "Private Tour",
                                                 "title":  "ATV Mountain Ride"
                                             },
                                             {
-                                                "href":  "congotrail.html",
+                                                "href":  "congotrail",
                                                 "image":  "../images/congotrail1.webp",
                                                 "label":  "Private Tour",
-                                                "title":  "Congo Trail Combo"
+                                                "title":  "Congo Trail Half-Day Adventure"
                                             }
                                         ],
                          "gallery":  [
@@ -419,7 +415,7 @@
                                      },
                                      {
                                          "question":  "Can I cancel my reservation?",
-                                         "answer":  "Yes. Cancellations made 7 or more days before the tour date receive a full refund, and cancellations made 48 hours to 6 days before receive a 50% refund. See our full reservation policy below."
+                                         "answer_source": "central_policy:cancellation_faq"
                                      }
                                  ],
                          "peak_season_note":  "Private availability is limited, especially during peak travel periods. Early reservations are recommended."

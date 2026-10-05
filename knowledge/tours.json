@@ -1,0 +1,487 @@
+[
+  {
+    "id": "arenalhangingbridges",
+    "name": "Arenal Hanging Bridges Mistico",
+    "page_url": "../tours/arenalhangingbridges",
+    "destination_ids": [
+      "la-fortuna"
+    ],
+    "activity_ids": [
+      "hanging-bridges",
+      "wildlife-watching"
+    ],
+    "aliases": [],
+    "image": "images/arenalbridges1.webp",
+    "category": "Rainforest & Wildlife",
+    "description": "Private full-day Arenal Hanging Bridges experience at Mistico Park — canopy-level suspension bridges from 5 to 100 metres, La Fortuna Waterfall and optional hot springs. Breakfast and lunch included. Bilingual guide."
+  },
+  {
+    "id": "arenalhotsprings",
+    "name": "Rainforest & Hot Springs Arenal",
+    "page_url": "../tours/arenalhotsprings",
+    "destination_ids": [
+      "la-fortuna"
+    ],
+    "activity_ids": [
+      "hot-springs"
+    ],
+    "aliases": [],
+    "image": "images/arenalhotsprings1.webp",
+    "category": "Wellness & Nature",
+    "description": "Private full-day Arenal experience — Bogarin Trail wildlife hike, La Fortuna Waterfall or Arenal National Park, thermal hot springs, breakfast and lunch included. Arenal Volcano and Central America's largest man-made lake."
+  },
+  {
+    "id": "atvmountainride",
+    "name": "2-Hour ATV Mountain Ride",
+    "page_url": "../tours/atvmountainride",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [
+      "atv"
+    ],
+    "aliases": [],
+    "image": "images/atvmountain1.webp",
+    "category": "ATV Adventure",
+    "description": "Two hours of private ATV adventure through unpaved mountain roads and dry forest terrain in Guanacaste. Off-the-beaten-track riding with a certified bilingual guide — exclusively for your group."
+  },
+  {
+    "id": "borinque4senses",
+    "name": "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall & Hot Springs",
+    "page_url": "../tours/borinque4senses",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/borinque1.webp",
+    "category": "Horseback & Hot Springs",
+    "description": "Private Borinque 4 Senses Tour — horseback riding with Pacific coast panoramas, forest hike to Misterio Waterfall, adrenaline zip line and volcanic hot springs with mud and sauna. Lunch included."
+  },
+  {
+    "id": "buenavistamegacombo",
+    "name": "Buena Vista Mega Combo",
+    "page_url": "../tours/buenavistamegacombo",
+    "destination_ids": [
+      "rincon-de-la-vieja"
+    ],
+    "activity_ids": [
+      "ziplining",
+      "tubing",
+      "horseback-riding",
+      "hot-springs"
+    ],
+    "aliases": [],
+    "image": "images/Buenavista1.webp",
+    "category": "Water Slide Adventure Combo",
+    "description": "Private full-day adventure at Buena Vista, Guanacaste — zip line, waterslide, hot springs and more. Certified bilingual guide. Book via WhatsApp with Wild Papagayo."
+  },
+  {
+    "id": "canyonadventurepark",
+    "name": "Canyon Adventure Park — Zip, Rappel, Climb & Raft",
+    "page_url": "../tours/canyonadventurepark",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/canyonadventure1.webp",
+    "category": "Canyon Adventure",
+    "description": "Private half-day at Canyon Adventure Park — zip line 8 cables with bird's-eye canopy views, rappel, rock climbing and 2-mile Class II-III rafting. Lunch included. Minimum age 5."
+  },
+  {
+    "id": "canyoningtubing",
+    "name": "Waterfall Canyoning & Tubing",
+    "page_url": "../tours/canyoningtubing",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/canyoningtubing1.webp",
+    "category": "Canyoning & Tubing",
+    "description": "Private waterfall canyoning and river tubing — rappel into majestic falls, rock climb, Tarzan pendulum, then tube 5km of crystal-clear Class 2–3 rapids. Lunch included. Certified bilingual guide."
+  },
+  {
+    "id": "celesteriver",
+    "name": "Celeste River Hike & Tenorio National Park",
+    "page_url": "../tours/celesteriver",
+    "destination_ids": [
+      "rio-celeste",
+      "bijagua"
+    ],
+    "activity_ids": [
+      "waterfalls",
+      "hiking",
+      "wildlife-watching"
+    ],
+    "aliases": [],
+    "image": "images/celeste1.webp",
+    "category": "Waterfall & Hiking",
+    "description": "Private full-day hike to Río Celeste — the nearly opaque aquamarine blue river at Tenorio Volcano National Park. Lunch and national park fee included. Passport details required for all guests."
+  },
+  {
+    "id": "coloradoriverrafting",
+    "name": "Colorado River Rafting Class II–III",
+    "page_url": "../tours/coloradoriverrafting",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/coloradorafting1.webp",
+    "category": "Scenic River Rafting",
+    "description": "Private Class II–III white water rafting on the Colorado River — natural canyon, swimming holes and lunch included. No experience necessary. Certified bilingual guide exclusively for your group."
+  },
+  {
+    "id": "congotrail",
+    "name": "Congo Trail Half-Day Adventure",
+    "page_url": "../tours/congotrail",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/congotrail1.webp",
+    "category": "Zip Line, ATV & Horseback",
+    "description": "Six zip lines, hanging bridges, 45 minutes on ATV and horseback riding through Guanacaste dry forest. Half-day private adventure at Congo Trail with certified bilingual guide."
+  },
+  {
+    "id": "congotrailcanopy",
+    "name": "Congo Trail Canopy & Extreme Zip Line",
+    "page_url": "../tours/congotrailcanopy",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/congotrailnew1.webp",
+    "category": "Extreme Zip Line Canopy",
+    "description": "Private Congo Trail experience — 11-station zip line through tropical forest with 3 hanging bridges, plus extreme cables including Superman and Tarzan Swing. The Plus option adds 2 hours ATV."
+  },
+  {
+    "id": "costaricahighlights",
+    "name": "Costa Rica Highlights Tour — Sloths, Waterfall, Coffee, Hot Springs & Hanging Bridges",
+    "page_url": "../tours/costaricahighlights",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/costaricahighlights1.webp",
+    "category": "Signature Journey",
+    "description": "The ultimate one-day Costa Rica experience — sloth observation, waterfall, hands-on coffee and cacao workshop, natural mineral hot springs and two hanging bridges. Everything that makes Costa Rica extraordinary, in one private day."
+  },
+  {
+    "id": "floatingtenorio",
+    "name": "Floating at Tenorio River Safari Float",
+    "page_url": "../tours/floatingtenorio",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/floatingtenorio1.webp",
+    "category": "Wildlife River Float",
+    "description": "Private Class 1-2 safari float down the Tenorio River — giant kapok trees, wildlife, Llanos de Cortez Waterfall. Option to add Las Pumas Rescue Center. Lunch and fruit break included."
+  },
+  {
+    "id": "haciendaaromal",
+    "name": "Hacienda Aromal Full Day",
+    "page_url": "../tours/haciendaaromal",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/aromal1.webp",
+    "category": "Cultural Hacienda Adventure",
+    "description": "A full day at an authentic Guanacaste hacienda — zip lines, horseback riding through the estate, ATV adventure and a traditional Sabanero lunch. Private experience with certified bilingual guide."
+  },
+  {
+    "id": "haciendaguachipelin",
+    "name": "Hacienda Guachipelín Extreme",
+    "page_url": "../tours/haciendaguachipelin",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/guachipelin1.webp",
+    "category": "Extreme Canyon Adventure",
+    "description": "Private full-day extreme adventure at Hacienda Guachipelín — zipline, rappel, rock climbing, river tubing and hot springs in Guanacaste. Certified bilingual guide. Book with Wild Papagayo."
+  },
+  {
+    "id": "hangingbridgessloths",
+    "name": "Hanging Bridges & Sloths Experience",
+    "page_url": "../tours/hangingbridgessloths",
+    "destination_ids": [
+      "la-fortuna"
+    ],
+    "activity_ids": [
+      "hanging-bridges",
+      "sloth-watching",
+      "wildlife-watching"
+    ],
+    "aliases": [],
+    "image": "images/bridgessloths1.webp",
+    "category": "Wildlife & Nature",
+    "description": "Private hanging bridges and sloth encounter — 3 suspension bridges through tropical forest, Llanos de Cortez Waterfall and an intimate sloth experience that inspires wonder in every age. Lunch included."
+  },
+  {
+    "id": "hikingrinconnationalpark",
+    "name": "Rincon de la Vieja Hiking Tour",
+    "page_url": "../tours/hikingrinconnationalpark",
+    "destination_ids": [
+      "rincon-de-la-vieja"
+    ],
+    "activity_ids": [
+      "hiking",
+      "wildlife-watching"
+    ],
+    "aliases": [],
+    "image": "images/rincon1.webp",
+    "category": "Volcano & Hiking",
+    "description": "Private full-day hiking in Rincon de la Vieja National Park, Guanacaste. Volcanoes, hot springs and wildlife with a certified bilingual guide. Book via WhatsApp."
+  },
+  {
+    "id": "horsebackaromal",
+    "name": "Horseback Riding at Hacienda Aromal",
+    "page_url": "../tours/horsebackaromal",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/horsebackaromal1.webp",
+    "category": "Horseback Riding",
+    "description": "Private horseback riding through Hacienda Aromal's natural trails — deer, armadillos, anteaters and tropical birds in the heart of Guanacaste. Authentic Sabanero experience with certified bilingual guide."
+  },
+  {
+    "id": "laleona",
+    "name": "La Leona Waterfall — Zip Line & Tubing",
+    "page_url": "../tours/laleona",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/laleona1.webp",
+    "category": "Waterfall, Zip Line & Tubing",
+    "description": "Private La Leona Waterfall experience — a 3-hour hike through 5 river pools in a stone canyon. The Classic option adds zip line, The Plus option adds tubing. Available November to April only."
+  },
+  {
+    "id": "miravallesspa",
+    "name": "Miravalles Volcano Waterfalls & Natural Spa",
+    "page_url": "../tours/miravallesspa",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/miravalles1.webp",
+    "category": "Volcano Wellness & Waterfalls",
+    "description": "Private full-day at Miravalles Volcano — 3 cascading waterfalls, geothermal hot springs and volcanic mud treatments in a live crater. Lunch and all entrance fees included."
+  },
+  {
+    "id": "monteverdehangingbridgescoffee",
+    "name": "Monteverde Hanging Bridges & Coffee Tour",
+    "page_url": "../tours/monteverdehangingbridgescoffee",
+    "destination_ids": [
+      "monteverde"
+    ],
+    "activity_ids": [
+      "hanging-bridges",
+      "coffee"
+    ],
+    "aliases": [],
+    "image": "images/monteverdebridge1.webp",
+    "category": "Hanging Bridges & Coffee Tour",
+    "description": "Private full-day Monteverde Cloud Forest experience — 8 Selvatura suspension bridges, butterfly garden, interactive coffee plantation tour from seed to cup, sugar cane and chocolate. Breakfast and lunch included."
+  },
+  {
+    "id": "monteverdtreetopwalk",
+    "name": "Monteverde Treetop Walk",
+    "page_url": "../tours/monteverdtreetopwalk",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/monteverdewalk1.webp",
+    "category": "Canopy Treetop Walk",
+    "description": "Private full-day Monteverde Cloud Forest treetop walk — suspension bridges at canopy level with zip line (Classic option) or reptiles exhibition, butterfly garden and sloth sanctuary (Plus option). Breakfast and lunch included."
+  },
+  {
+    "id": "oropendolahotsprings",
+    "name": "Oropendola Waterfall & Rio Negro Hot Springs Tour",
+    "page_url": "../tours/oropendolahotsprings",
+    "destination_ids": [
+      "rincon-de-la-vieja"
+    ],
+    "activity_ids": [
+      "waterfalls",
+      "hot-springs"
+    ],
+    "aliases": [
+      "Oropendola Waterfall Tour",
+      "Rio Negro Hot Springs Tour"
+    ],
+    "image": "images/oropendola1.webp",
+    "category": "Waterfall & Hot Springs",
+    "description": "Private tour to Oropendola Waterfall's crystal-clear swimming pool and the natural Rio Negro hot springs at the base of Rincon de la Vieja Volcano. Certified bilingual guide. Book via WhatsApp with Wild Papagayo."
+  },
+  {
+    "id": "ostionalturtles",
+    "name": "Ostional Turtle Watching Tour Costa Rica",
+    "page_url": "../tours/ostionalturtles",
+    "destination_ids": [
+      "samara"
+    ],
+    "activity_ids": [
+      "turtle-watching",
+      "wildlife-watching",
+      "night-tour"
+    ],
+    "aliases": [
+      "Ostional Wildlife Refuge Tour",
+      "Olive Ridley Turtle Tour"
+    ],
+    "image": "images/ostional1.webp",
+    "category": "Wildlife",
+    "description": "Private nighttime tour to Ostional National Wildlife Refuge to witness olive ridley sea turtles nesting on the beach. Certified local community guide and responsible nighttime viewing under refuge lighting rules. Book via WhatsApp with Wild Papagayo."
+  },
+  {
+    "id": "paloverdeculturalviejo",
+    "name": "Palo Verde & Cultural Experience El Viejo",
+    "page_url": "../tours/paloverdeculturalviejo",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/paloverdeviejo1.webp",
+    "category": "Wildlife & Culture",
+    "description": "Covered boat ride down the Tempisque River through Palo Verde National Park, then a private visit to Hacienda El Viejo — tortilla making, the ox-powered trapiche sugar mill, and traditional Guanacaste cuisine. Lunch and National Park fee included."
+  },
+  {
+    "id": "paloverderiverboattour",
+    "name": "Palo Verde River Boat Tour",
+    "page_url": "../tours/paloverderiverboattour",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [
+      "boat-tour",
+      "wildlife-watching"
+    ],
+    "aliases": [],
+    "image": "images/paloverde1.webp",
+    "category": "Wildlife & Culture",
+    "description": "Private half-day riverboat excursion through Palo Verde National Park — crocodiles, monkeys, tropical birds and the Tempisque River. Certified bilingual guide. Book with Wild Papagayo."
+  },
+  {
+    "id": "sensoriarainforest",
+    "name": "Sensoria Land of Senses & Magical Rainforest",
+    "page_url": "../tours/sensoriarainforest",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/sensoria1.webp",
+    "category": "Rainforest Hike & Hot Springs",
+    "description": "Private full-day Sensoria nature reserve — 7km rainforest trail with multiple waterfalls, thermal pools, howler monkeys and incredible biodiversity where Guanacaste transforms into lush rainforest. Walking sticks and lunch included."
+  },
+  {
+    "id": "slothadventure",
+    "name": "Sloth Adventure Tour Costa Rica",
+    "page_url": "../tours/slothadventure",
+    "destination_ids": [
+      "bijagua",
+      "rio-celeste"
+    ],
+    "activity_ids": [
+      "sloth-watching",
+      "wildlife-watching"
+    ],
+    "aliases": [],
+    "image": "images/sloth1.webp",
+    "category": "Wildlife",
+    "description": "Private sloth wildlife encounter in the Costa Rica rainforest. Full-day private tour with certified bilingual guide. Book via WhatsApp with Wild Papagayo."
+  },
+  {
+    "id": "slothchocolatetour",
+    "name": "Sloth Adventure & Chocolate Tour",
+    "page_url": "../tours/slothchocolatetour",
+    "destination_ids": [
+      "bijagua",
+      "rio-celeste"
+    ],
+    "activity_ids": [
+      "sloth-watching",
+      "chocolate"
+    ],
+    "aliases": [],
+    "image": "images/slothchocolate1.webp",
+    "category": "Chocolate & Sloth Tour",
+    "description": "Private chocolate tour from cacao tree to handmade bar, then a short hike in Bijagua to observe wild sloths, butterflies and toucans in their natural habitat. Lunch included. Easy, all ages."
+  },
+  {
+    "id": "tenoriorafting",
+    "name": "Tenorio River White Water Rafting Class III–IV",
+    "page_url": "../tours/tenoriorafting",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/tenoriorafting1.webp",
+    "category": "Advanced Whitewater Rafting",
+    "description": "Private Class III–IV white water rafting on the Tenorio River — racing rapids, plunging over falls and lush tropical wildlife. Snacks and lunch included. Certified bilingual guide exclusively for your group."
+  },
+  {
+    "id": "tubingceleste",
+    "name": "Tubing at Río Celeste — Blue River Tubing",
+    "page_url": "../tours/tubingceleste",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [],
+    "aliases": [],
+    "image": "images/tubingceleste1.webp",
+    "category": "River Tubing",
+    "description": "Private tubing experience on Río Celeste — float through the striking aquamarine blue river in lush rainforest, navigating small rapids with birds, monkeys and rich biodiversity. Minimum age 4. Lunch included."
+  },
+  {
+    "id": "waterfalllovers",
+    "name": "Waterfall Lovers Tour Costa Rica",
+    "page_url": "../tours/waterfalllovers",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [
+      "waterfalls"
+    ],
+    "aliases": [],
+    "image": "images/waterfalllovers1.webp",
+    "category": "Horseback & Waterfalls",
+    "description": "Private Costa Rica waterfall and jungle tour. Discover hidden waterfalls with a certified local guide, exclusively for your group. Book via WhatsApp with Wild Papagayo."
+  },
+  {
+    "id": "waterfallpumas",
+    "name": "Waterfall & Las Pumas Wildlife Rescue Center",
+    "page_url": "../tours/waterfallpumas",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "activity_ids": [
+      "waterfalls",
+      "wildlife-watching"
+    ],
+    "aliases": [],
+    "image": "images/waterfallpumas1.webp",
+    "category": "Waterfall & Wildlife Rescue",
+    "description": "Private half-day at Llanos del Cortes waterfall and Las Pumas Wildlife Rescue Center — swim under the falls, then meet pumas, jaguars, ocelots, monkeys and macaws. Lunch included. Certified bilingual guide."
+  }
+]
