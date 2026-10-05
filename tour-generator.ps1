@@ -95,6 +95,17 @@ function Get-PropertyValue {
     if ($null -eq $p -or $null -eq $p.Value) { return $Default }
     return $p.Value
 }
+# Resolves one FAQ item's effective answer text. A tour's own `answer` is used verbatim UNLESS the
+# item carries `answer_source: "central_policy:cancellation_faq"`, in which case the policy file's
+# cancellation_faq.answer wins -- this is what lets ~25 tours share one centrally-maintained answer
+# without duplicating the text into each knowledge/tours/<slug>.json. Every other FAQ on every tour
+# is completely untouched by this.
+function Get-FaqAnswer {
+    param($FaqItem, [string]$CentralAnswer)
+    $source = [string](Get-PropertyValue $FaqItem 'answer_source' '')
+    if ($source -eq 'central_policy:cancellation_faq') { return $CentralAnswer }
+    return [string]$FaqItem.answer
+}
 function ConvertTo-HtmlSafe {
     param([string]$Text)
     if ([string]::IsNullOrEmpty($Text)) { return "" }
@@ -125,6 +136,26 @@ if (-not (Test-Path $pricingJsonPath)) {
     throw "tour-pricing.json not found -- cannot generate tour pages without the commercial pricing source. Run 'npm run pricing:convert' first."
 }
 $pricingData = Read-Utf8Json $pricingJsonPath
+
+# Booking & cancellation policy source of truth (single central file, replacing the 33 independent
+# per-tour copies that used to live in knowledge/tours/<slug>.json). Loaded once, validated up front,
+# and fails the whole build rather than silently falling back to stale/missing policy text -- same
+# fail-safe posture as the pricing source above.
+$policyJsonPath = Join-Path $root "knowledge\policies\booking-cancellation.json"
+if (-not (Test-Path $policyJsonPath)) {
+    throw "knowledge/policies/booking-cancellation.json not found -- cannot generate tour pages without the central booking/cancellation policy source."
+}
+$policyData = Read-Utf8Json $policyJsonPath
+$policyVersion = Get-PropertyValue $policyData 'version' $null
+$policyCore = [string](Get-PropertyValue $policyData 'reservation_policy_core' '')
+$policyNoshow = [string](Get-PropertyValue $policyData 'reservation_policy_noshow' '')
+$policyFaq = Get-PropertyValue $policyData 'cancellation_faq' $null
+$policyFaqQuestion = [string](Get-PropertyValue $policyFaq 'question' '')
+$policyFaqAnswer = [string](Get-PropertyValue $policyFaq 'answer' '')
+if ($null -eq $policyVersion) { throw "knowledge/policies/booking-cancellation.json: missing 'version'." }
+if (-not $policyCore) { throw "knowledge/policies/booking-cancellation.json: missing or empty 'reservation_policy_core'." }
+if (-not $policyNoshow) { throw "knowledge/policies/booking-cancellation.json: missing or empty 'reservation_policy_noshow'." }
+if (-not $policyFaqQuestion -or -not $policyFaqAnswer) { throw "knowledge/policies/booking-cancellation.json: 'cancellation_faq' must have both a non-empty 'question' and 'answer'." }
 
 # Pickup-zone display names for the trust-bar (S1 fix) -- reuses the existing
 # destination taxonomy rather than duplicating a location-name list in code.
@@ -275,17 +306,15 @@ foreach ($file in $files) {
     $canonical = "$siteUrl/tours/$slug"
 
     # ---- Head / SEO ----
-    # Optional per-tour overrides -- when absent, falls back to the auto-generated
-    # title/description derived from name/short_description. Root-level wins when
-    # present; some tours were authored with the override nested under
-    # page_content instead (an editorial mistake, not an intentional alternate
-    # location -- tour-schema.json documents neither location), so that's read
-    # as a second-choice source before falling back to the generated copy.
+    # Optional per-tour overrides, root-level only -- when absent, falls back to the auto-generated
+    # title/description derived from name/short_description. A page_content-nested second-choice
+    # location existed historically (some tours were authored with the override nested there by
+    # editorial mistake); all 33 tours were migrated to the root-level field and that fallback was
+    # retired -- see knowledge/tour-schema.json, which documents root-level seo_title_override /
+    # seo_description_override as the single canonical location. Do not reintroduce a nested copy.
     $seoTitleOverride = [string](Get-PropertyValue $tour 'seo_title_override' '')
-    if (-not $seoTitleOverride) { $seoTitleOverride = [string](Get-PropertyValue $pc 'seo_title_override' '') }
     $seoTitle = if ($seoTitleOverride) { $seoTitleOverride } else { Get-SeoTitle $name }
     $seoDescOverride = [string](Get-PropertyValue $tour 'seo_description_override' '')
-    if (-not $seoDescOverride) { $seoDescOverride = [string](Get-PropertyValue $pc 'seo_description_override' '') }
     $seoDesc = if ($seoDescOverride) { $seoDescOverride } else { Get-SeoDescription $shortDesc }
     $ogImage = "$siteUrl/$heroImage"
 
@@ -446,11 +475,13 @@ foreach ($file in $files) {
     $faqSchema = $null
     if ($faqItems.Count -gt 0) {
         $faqBlocks = ($faqItems | ForEach-Object {
-            '<div class="accordion-item"><button class="accordion-trigger"><span>' + (ConvertTo-HtmlSafe $_.question) + '</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>' + (ConvertTo-HtmlSafe $_.answer) + '</p></div></div>'
+            $answer = Get-FaqAnswer $_ $policyFaqAnswer
+            '<div class="accordion-item"><button class="accordion-trigger"><span>' + (ConvertTo-HtmlSafe $_.question) + '</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>' + (ConvertTo-HtmlSafe $answer) + '</p></div></div>'
         }) -join "`n"
         $faqHtml = '<div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack">' + $faqBlocks + '</div></div>'
         $faqEntities = $faqItems | ForEach-Object {
-            [ordered]@{"@type"="Question";name=[string]$_.question;acceptedAnswer=[ordered]@{"@type"="Answer";text=[string]$_.answer}}
+            $answer = Get-FaqAnswer $_ $policyFaqAnswer
+            [ordered]@{"@type"="Question";name=[string]$_.question;acceptedAnswer=[ordered]@{"@type"="Answer";text=$answer}}
         }
         $faqSchema = [ordered]@{"@context"="https://schema.org";"@type"="FAQPage";mainEntity=@($faqEntities)} | ConvertTo-Json -Depth 10 -Compress
     }
@@ -508,7 +539,16 @@ foreach ($file in $files) {
         $items = ($beforeYouArrive | ForEach-Object { "<li>$_</li>" }) -join "`n"
         $accordionBlocks.Add('<div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list">' + $items + '</ul></div></div>')
     }
-    $reservationPolicy = @(Get-PropertyValue $accordion 'reservation_policy' @())
+    # Reservation Policy accordion: composed from the central policy file (core deposit/cancellation
+    # wording + the no-show paragraph), never from a per-tour hard-coded copy. reservation_policy_extra
+    # holds only what is genuinely tour-specific (date-change/weather/park-registration riders) --
+    # see knowledge/policies/booking-cancellation.json's source_note for the full rationale.
+    $includeNoshow = $true
+    $noshowFlag = Get-PropertyValue $accordion 'reservation_policy_include_noshow' $null
+    if ($null -ne $noshowFlag) { $includeNoshow = [bool]$noshowFlag }
+    $reservationPolicy = @($policyCore)
+    if ($includeNoshow) { $reservationPolicy += $policyNoshow }
+    $reservationPolicy += @(Get-PropertyValue $accordion 'reservation_policy_extra' @())
     if ($reservationPolicy.Count -gt 0) {
         $items = ($reservationPolicy | ForEach-Object { "<p>$_</p>" }) -join "`n<hr>`n"
         $accordionBlocks.Add('<div class="accordion-item"><button class="accordion-trigger"><span>Reservation Policy</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><div class="accordion-policy">' + $items + '</div></div></div>')
@@ -679,6 +719,16 @@ foreach ($file in $files) {
         $crossSellSection = '<section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid">' + $cards + '</div></div></section>'
     }
 
+    # CRO pilot (Costa Rica Highlights only): a small, real Wild Papagayo
+    # testimonial block placed near the decision point (right after the
+    # FAQ, before the booking card). Reuses two verified quotes already
+    # published on the homepage -- nothing invented. Every other tour gets
+    # an empty string here, so __PILOT_REVIEWS__ renders as nothing for them.
+    $pilotReviewsHtml = ''
+    if ($id -eq 'costaricahighlights') {
+        $pilotReviewsHtml = '<section class="section reviews-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why travelers choose Wild Papagayo</span></div><div class="reviews-grid"><article class="review-card reveal"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&quot;Our guide made the trip unforgettable. We felt like we had Costa Rica all to ourselves.&quot;</blockquote><cite>&mdash; Thomas B., Germany</cite></article><article class="review-card reveal"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&quot;The most professional company we found in Costa Rica. Every detail was perfect.&quot;</blockquote><cite>&mdash; Sarah M., United States</cite></article></div></div></section>'
+    }
+
     # ---- Assemble ----
     $html = $template
     $replacements = [ordered]@{
@@ -694,6 +744,7 @@ foreach ($file in $files) {
         '__PRICE_TEASER__' = $priceTeaserHtml
         '__ITINERARY_STEPS__' = $itineraryHtml
         '__FAQ_SECTION__' = $faqHtml
+        '__PILOT_REVIEWS__' = $pilotReviewsHtml
         '__RELATED_ARTICLES__' = $relatedArticlesHtml
         '__HERO_REGION__' = (ConvertTo-HtmlSafe $heroRegion)
         '__HERO_TITLE_HTML__' = $heroTitleHtml

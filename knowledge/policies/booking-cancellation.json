@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "last_updated": "2026-10-03",
+    "source_note": "Single source of truth for Wild Papagayo's tour booking & cancellation policy wording (the 25% deposit / 72-hour / no-show rules). tour-generator.ps1 reads this file once per run and injects reservation_policy_core and reservation_policy_noshow into every tour's Reservation Policy accordion, and cancellation_faq.answer into any tour FAQ item whose answer_source is \"central_policy:cancellation_faq\". To change the policy: edit the three fields below, bump \"version\", then re-run tour-generator.ps1. Do NOT re-introduce this wording as a hard-coded copy inside knowledge/tours/<slug>.json -- that is exactly the duplication this file replaces. Tour-specific riders (weather/rescheduling/park-registration wording that genuinely differs by activity) stay in each tour's own page_content.accordion.reservation_policy_extra, not here.",
+    "reservation_policy_core": "A 25% deposit confirms your booking, and the remaining 75% is due no later than 72 hours before the tour. Bookings made within 72 hours of the tour are paid in full at the time of booking. Cancellations made more than 72 hours before the tour receive the refundable amount paid, less any applicable non-recoverable payment-processing costs when legally permitted. Cancellations made within 72 hours of the tour are non-refundable, subject to any mandatory consumer rights under Costa Rican law. <a href=\"../politicasdecancelacion\">Read the full Booking &amp; Cancellation Policy</a>.",
+    "reservation_policy_noshow": "No-shows are 100% non-refundable, subject to any mandatory consumer rights. Guests are granted a complimentary waiting period of up to 1 hour after the scheduled pickup time; beyond this period, the booking is considered a no-show.",
+    "cancellation_faq": {
+        "question": "Can I cancel my reservation?",
+        "answer": "Yes. Cancellations made more than 72 hours before the tour receive the refundable amount paid, less any applicable non-recoverable payment-processing costs when legally permitted. Cancellations made within 72 hours of the tour, and no-shows, are non-refundable, subject to any mandatory consumer rights. See our full reservation policy below."
+    }
+}

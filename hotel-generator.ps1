@@ -110,12 +110,6 @@ function Get-StarHtml {
     $html += '</span>'
     return $html
 }
-function Get-DayImage {
-    param([string]$Title, [hashtable]$TourImageByName, [string]$FallbackImage)
-    $key = $Title.ToLowerInvariant()
-    if ($TourImageByName.ContainsKey($key)) { return $TourImageByName[$key] }
-    return $FallbackImage
-}
 function Get-ProfileDescription {
     param([string]$Label,[string]$HotelName)
     $key = $Label.ToLowerInvariant()
@@ -128,37 +122,6 @@ function Get-ProfileDescription {
     if ($key -match 'beach') { return "Easy access to the coast for swimming, relaxing and Pacific sunsets." }
     if ($key -match 'design') { return "Distinctive architecture and thoughtful details create a memorable stay." }
     return "A travel style that pairs naturally with the experience offered at $HotelName."
-}
-function Get-ScoreDescription {
-    param([string]$Key,[int]$Score)
-    $label = ($Key -replace '_',' ')
-    switch -Regex ($Key) {
-        'luxury' { return 'Premium service, facilities and overall resort positioning.' }
-        'famil' { return 'How comfortably the property works for family travel.' }
-        'couple' { return 'Privacy, atmosphere and appeal for couples.' }
-        'wellness' { return 'Strength of the relaxation and wellness experience.' }
-        'adventure' { return 'Convenience for reaching private tours and outdoor experiences.' }
-        'walk' { return 'Ease of moving around without dedicated transportation.' }
-        'night' { return 'Availability of social or evening entertainment.' }
-        default { return "Local experience score for $label." }
-    }
-}
-function Get-HotelScoreValue {
-    param($Value)
-    if ($null -eq $Value) { return 0.0 }
-    $sp = $Value.PSObject.Properties["score"]
-    if ($sp -and $null -ne $sp.Value) { return [double]$sp.Value }
-    $n = 0.0
-    if ([double]::TryParse([string]$Value, [System.Globalization.NumberStyles]::Any, [System.Globalization.CultureInfo]::InvariantCulture, [ref]$n)) { return $n }
-    return 0.0
-}
-function Get-HotelScoreReason {
-    param($Value, [string]$Fallback = "")
-    if ($null -ne $Value) {
-        $rp = $Value.PSObject.Properties["reason"]
-        if ($rp -and -not [string]::IsNullOrWhiteSpace([string]$rp.Value)) { return [string]$rp.Value }
-    }
-    return $Fallback
 }
 function Get-TemplateFile {
     param(
@@ -174,55 +137,6 @@ function Get-TemplateFile {
     }
     return "templates/hotel.html"
 }
-function Get-WhyStayHere {
-    param($Hotel)
-    if ($Hotel.why_stay_here) {
-        $summary = [string](Get-PropertyValue $Hotel.why_stay_here "summary" "")
-        if (-not [string]::IsNullOrWhiteSpace($summary)) { return $summary }
-    }
-    $name = [string](Get-PropertyValue $Hotel "name" "This property")
-    return "$name is an excellent base for exploring Guanacaste thanks to its location, access to nature, premium accommodations and proximity to Costa Rica's top experiences."
-}
-function Get-ExperienceHighlights {
-    param($Hotel)
-    if ($Hotel.experience_highlights) {
-        $items = @($Hotel.experience_highlights)
-        if ($items.Count -gt 0) { return $items }
-    }
-    return @(
-        [PSCustomObject]@{title="Great Location";description="Easy access to Guanacaste's best attractions."},
-        [PSCustomObject]@{title="Nature";description="Surrounded by tropical landscapes."},
-        [PSCustomObject]@{title="Comfort";description="Ideal place to relax between adventures."},
-        [PSCustomObject]@{title="Private Experiences";description="Perfect starting point for customized tours."}
-    )
-}
-function Get-LocalTips {
-    param($Hotel)
-    if ($Hotel.local_tips) {
-        $items = @($Hotel.local_tips)
-        if ($items.Count -gt 0) { return $items }
-    }
-    return @(
-        "Book popular tours early.",
-        "Carry sunscreen and water.",
-        "Private transportation saves time.",
-        "Ask our team for hidden local spots."
-    )
-}
-function Get-SuggestedStay {
-    param($Hotel)
-    if ($Hotel.suggested_stay) {
-        $items = @($Hotel.suggested_stay)
-        if ($items.Count -gt 0) { return $items }
-    }
-    return @(
-        [PSCustomObject]@{day=1;title="Arrival";description="Airport transfer and hotel check-in."},
-        [PSCustomObject]@{day=2;title="Adventure";description="Recommended signature experience."},
-        [PSCustomObject]@{day=3;title="Relax";description="Beach or resort day."},
-        [PSCustomObject]@{day=4;title="Departure";description="Transfer to the airport."}
-    )
-}
-
 $header = [System.IO.File]::ReadAllText($headerPath,[System.Text.Encoding]::UTF8)
 $footer = [System.IO.File]::ReadAllText($footerPath,[System.Text.Encoding]::UTF8)
 $blogs = if (Test-Path $blogPath) { @(Read-JsonFile $blogPath) } else { @() }
@@ -260,12 +174,13 @@ if (Test-Path $airportsPath) {
 } else { Write-Warning "Airport repository not found: $airportsPath" }
 $destinationById = @{}
 foreach ($file in @(Get-ChildItem $destinationDir -Filter "*.json" -File)) { $d = Read-JsonFile $file.FullName; $destinationById[[string]$d.id] = $d }
+# A hotel page may link to a destination guide only when that destination's status
+# is exactly "published" (a draft/unknown destination has no public page).
+function Test-DestinationPublic($DestinationRecord) { return ($null -ne $DestinationRecord -and [string]$DestinationRecord.status -eq 'published') }
 $tourById = @{}
-$tourImageByName = @{}
 foreach ($file in @(Get-ChildItem $tourDir -Filter "*.json" -File)) {
     $t = Read-JsonFile $file.FullName
     $tourById[[string]$t.id] = $t
-    if ($t.name -and $t.hero_image) { $tourImageByName[([string]$t.name).ToLowerInvariant()] = [string]$t.hero_image }
 }
 
 $hotels = @()
@@ -288,7 +203,12 @@ if (Test-Path $landingPagesDir) {
 }
 
 foreach ($hotel in $hotels) {
-    if ([string](Get-PropertyValue $hotel "status" "review") -eq "disabled") { continue }
+    # Strict eligibility gate: only a record whose status is exactly
+    # "published" may generate a page. Missing, "draft", "disabled", or any
+    # other value is excluded -- matches the gate already applied to Bubu's
+    # knowledge and llms.txt (assistant-knowledge-generator.ps1 /
+    # llms-txt-generator.ps1).
+    if ([string](Get-PropertyValue $hotel "status" "review") -ne "published") { continue }
 
     $templatePath = Join-Path $root (Get-TemplateFile $hotel)
     $template = [System.IO.File]::ReadAllText($templatePath, [System.Text.Encoding]::UTF8)
@@ -348,12 +268,6 @@ foreach ($hotel in $hotels) {
     $formattedAddress = [string](Get-PropertyValue $hotel "formatted_address" "")
     $addressHtml = if ($formattedAddress) { '<p class="hp-address">' + (ConvertTo-HtmlSafe $formattedAddress) + '</p>' } else { '' }
 
-    $scoreValues = @()
-    $scores = Get-PropertyValue $hotel "hotel_scores" $null
-    if ($scores) { foreach ($p in $scores.PSObject.Properties) { $scoreValues += Get-HotelScoreValue $p.Value } }
-    $overallScore = if ($scoreValues.Count -gt 0) { [Math]::Round((($scoreValues | Measure-Object -Average).Average),1) } else { 4.5 }
-    $overallStars = Get-StarHtml $overallScore
-
     $facts = @(
         @{label="Location";value=$destinationName;icon="location"},
         @{label="Nearest airport";value=$airportName;icon="airport"},
@@ -382,37 +296,10 @@ foreach ($hotel in $hotels) {
 
     $googleReviews = Get-PropertyValue $hotel "google_reviews" $null
 
-    $scoresHtml = ""
-    if ($scores) {
-        foreach ($p in $scores.PSObject.Properties) {
-            $score = Get-HotelScoreValue $p.Value
-            if ($score -lt 0) { $score = 0 }
-            if ($score -gt 5) { $score = 5 }
-            $label = ($p.Name -replace '_',' ')
-            $fallbackReason = Get-ScoreDescription $p.Name ([int]$score)
-            $scoreReason = Get-HotelScoreReason $p.Value $fallbackReason
-            $scoresHtml += '<div class="hp-rating-row" title="' + (ConvertTo-HtmlSafe $scoreReason) + '"><strong>' + (ConvertTo-HtmlSafe $label) + '</strong>' + (Get-StarHtml $score) + '<span class="hp-rating-number">' + $score.ToString('0.0', [System.Globalization.CultureInfo]::InvariantCulture) + '</span></div>'
-        }
-    }
-
-    # Every category defaulting to the same untouched value (3) means no one
-    # has actually assessed this hotel yet -- showing identical "3.0" stars
-    # across 7 unrelated categories (luxury, nightlife, wellness...) reads as
-    # fabricated to visitors and undermines trust in the rest of the page.
-    # Show real stars when at least one category has been differentiated;
-    # otherwise show an honest "not yet rated" state instead of fake precision.
-    $hasRealScores = ($scoreValues.Count -gt 0) -and (@($scoreValues | Where-Object { $_ -ne 3 }).Count -gt 0)
-
-    if ($hasRealScores) {
-        $ratingPanelBlock = '<div class="hp-rating-panel"><div class="hp-panel-title">Experience rating</div>' + $scoresHtml + '<div class="hp-overall"><div><strong>' + $overallScore.ToString('0.0', [System.Globalization.CultureInfo]::InvariantCulture) + ' / 5</strong><p>Overall local experience profile</p></div>' + $overallStars + '</div></div>'
-    } else {
-        $ratingPanelBlock = ''
-    }
-
-    # Both the hero badge and the insight-panel badge used to show a fabricated
-    # "Local experience profile" / "Wild Papagayo Recommended" score derived from
-    # the same untouched default hotel_scores as $hasRealScores above -- replaced
-    # with the real Google rating so both badges show genuine, verifiable data.
+    # The hero badge and the insight-panel badge used to show a fabricated
+    # "Local experience profile" score derived from hotel_scores (often an
+    # untouched default) -- replaced with the real Google rating so both
+    # badges show genuine, verifiable data.
     if ($googleReviews -and $googleReviews.rating) {
         $googleStarsSmall = Get-StarHtml ([double]$googleReviews.rating)
         $googleRatingText = ([double]$googleReviews.rating).ToString('0.0', [System.Globalization.CultureInfo]::InvariantCulture)
@@ -421,8 +308,15 @@ foreach ($hotel in $hotels) {
         # Hero facts strip: real Google rating + review count + transfer time.
         # No photo needed -- these are the three most decision-relevant, fully
         # verifiable facts about the property, replacing an unlicensed image.
+        # CRO pilot (source-driven, see hotel.cro_pilot -- currently only set on
+        # andaz-costa-rica.json): the rating shown here is the HOTEL's own Google
+        # rating, not Wild Papagayo's -- the generic "Google Rating" label read
+        # ambiguously in that context, so an opted-in page gets an explicit
+        # "<hotel> · Google" label instead. Every other hotel keeps the original
+        # label untouched.
+        $googleRatingLabel = if ((Get-PropertyValue $hotel 'cro_pilot' $null) -and (Get-PropertyValue $hotel.cro_pilot 'google_rating_label' $false)) { (ConvertTo-HtmlSafe $short) + ' &middot; Google' } else { 'Google Rating' }
         $heroFactsStrip = '<div class="hp-hero-facts">' +
-            '<div class="hp-hero-fact"><strong>' + $googleRatingText + '</strong><small>Google Rating</small></div>' +
+            '<div class="hp-hero-fact"><strong>' + $googleRatingText + '</strong><small>' + $googleRatingLabel + '</small></div>' +
             '<div class="hp-hero-fact"><strong>' + [string]$googleReviews.review_count + '</strong><small>Reviews</small></div>' +
             '<div class="hp-hero-fact"><strong>' + (ConvertTo-HtmlSafe $transferShort) + '</strong><small>From ' + (ConvertTo-HtmlSafe $airport.iata) + '</small></div>' +
             '</div>'
@@ -469,7 +363,7 @@ foreach ($hotel in $hotels) {
         $tour = $tourById[[string]$rec.id]
         $name = if ($rec.name) { [string]$rec.name } elseif ($tour) { [string]$tour.name } else { [string]$rec.id }
         $category = if ($rec.category) { [string]$rec.category } elseif ($tour) { [string]$tour.category } else { "Experience" }
-        $url = if ($rec.url) { [string]$rec.url } elseif ($tour) { [string]$tour.page_url } else { "tours.html" }
+        $url = if ($rec.url) { [string]$rec.url } elseif ($tour) { [string]$tour.page_url } else { "tours" }
         $image = if ($rec.image) { [string]$rec.image } elseif ($tour) { [string]$tour.hero_image } else { [string]$hotel.hero_image }
         $desc = if ($tour) { [string](Get-PropertyValue $tour "short_description" (Get-PropertyValue $tour "description" "Private Costa Rica experience.")) } else { "Private Costa Rica experience." }
         $duration = if ($rec.duration) { [string]$rec.duration } elseif ($tour) { [string](Get-PropertyValue $tour "duration_label" "Private experience") } else { "Private experience" }
@@ -523,7 +417,7 @@ foreach ($hotel in $hotels) {
         $privateToursIntro += '<p>Popular options include ' + (ConvertTo-HtmlSafe $recNamesJoined) + ' and other private day trips tailored to your group.</p>'
     }
     $hotelLanding = $landingByHotelId[[string]$hotel.id]
-    $privateToursLinkUrl = if ($hotelLanding) { '../private-tours/' + [string]$hotelLanding.slug + '.html' } else { '../tours.html' }
+    $privateToursLinkUrl = if ($hotelLanding) { '../private-tours/' + [string]$hotelLanding.slug } else { '../tours' }
     $privateToursLinkText = if ($hotelLanding) { 'Explore Private Tours From ' + $short } else { 'Explore Private Tours' }
     $privateToursIntro += '<a class="hp-btn hp-btn-outline-navy" href="' + (ConvertTo-HtmlSafe $privateToursLinkUrl) + '">' + (ConvertTo-HtmlSafe $privateToursLinkText) + '</a>'
 
@@ -541,27 +435,12 @@ foreach ($hotel in $hotels) {
     $pickupBlurb = '<div class="hp-transport-row"><strong>Private Tour Pickup</strong><p>Wild Papagayo can arrange private pickup directly from ' + (ConvertTo-HtmlSafe $short) + ' for tours and excursions. Your departure time is coordinated around your selected experience, group size and itinerary, so you do not need to travel to a separate meeting point.</p></div>'
     $transferLandingUrl = [string](Get-PropertyValue $hotel 'transfer_landing_url' '')
     $airportBlurb = if ([string]$hotel.airport_id -eq 'lir') {
-        $airportLinks = '<a href="../blog/liberia-airport-transfer-guide.html">Read our Liberia Airport Transportation Guide &rarr;</a>'
+        $airportLinks = '<a href="../blog/liberia-airport-transfer-guide">Read our Liberia Airport Transportation Guide &rarr;</a>'
         if ($transferLandingUrl) {
             $airportLinks += ' <a href="../' + (ConvertTo-HtmlSafe $transferLandingUrl) + '">Book Your Private Transfer to ' + (ConvertTo-HtmlSafe $short) + ' &rarr;</a>'
         }
         '<div class="hp-transport-row"><strong>Liberia Airport Transportation</strong><p>' + (ConvertTo-HtmlSafe $short) + ' is served by Guanacaste Airport (LIR). ' + $airportLinks + '</p></div>'
     } else { '' }
-
-    $itineraryTours = @($recommended | Select-Object -First 2)
-    $day2 = if ($itineraryTours.Count -gt 0) { [string]$itineraryTours[0].name } else { "Private adventure" }
-    $day3 = if ($itineraryTours.Count -gt 1) { [string]$itineraryTours[1].name } else { "Relax and explore" }
-    $itineraryHtml = ''
-    $itineraryItems = @(
-        @{day='Day 1';title='Arrival';text='Private airport transfer and a relaxed first evening.';icon='arrival'},
-        @{day='Day 2';title=$day2;text='A curated day experience with hotel pickup.';icon='adventure'},
-        @{day='Day 3';title=$day3;text='Balance exploration with time to enjoy the resort.';icon='nature'},
-        @{day='Day 4';title='Departure';text='A comfortable private transfer back to the airport.';icon='departure'}
-    )
-    foreach ($item in $itineraryItems) {
-        $dayImg = Get-DayImage $item.title $tourImageByName $hotel.hero_image
-        $itineraryHtml += '<article class="hp-day-card"><div class="hp-day-card-media" style="background-image:url(&quot;../' + (ConvertTo-HtmlSafe $dayImg) + '&quot;)"><span class="hp-day-badge">' + $item.day + '</span></div><div class="hp-day-card-body"><h3>' + (ConvertTo-HtmlSafe $item.title) + '</h3><p>' + (ConvertTo-HtmlSafe $item.text) + '</p></div></article>'
-    }
 
     # "What Guests Are Saying" -- replaces the old "Perfect N-day stay" itinerary block,
     # which just re-showed the same 3 tours already listed in Curated Experiences above.
@@ -576,21 +455,6 @@ foreach ($hotel in $hotels) {
         }) -join ''
         $overallGoogleStars = Get-StarHtml ([double]$googleReviews.rating)
         $reviewsSection = '<section class="hp-section hp-section-soft"><div class="hp-wrap"><div class="hp-heading"><div class="hp-eyebrow">Real guest sentiment</div><h2>What Guests Are Saying</h2><p>' + (Get-GoogleBadgeHtml) + $overallGoogleStars + ' <strong>' + ([double]$googleReviews.rating).ToString([System.Globalization.CultureInfo]::InvariantCulture) + '/5</strong> on Google &middot; ' + [string]$googleReviews.review_count + ' reviews</p></div><div class="hp-review-grid">' + $reviewCards + '</div></div></section>'
-    }
-
-    $nearbyCards = ""
-    foreach ($destId in (Get-ArrayValue $hotel.nearby_destinations | Select-Object -First 3)) {
-        if ($destinationById.ContainsKey([string]$destId)) {
-            $d = $destinationById[[string]$destId]
-            $destImage = [string](Get-PropertyValue $d "hero_image" $hotel.hero_image)
-            $destSlug = [string](Get-PropertyValue $d "slug" $d.id)
-            if ([string]::IsNullOrWhiteSpace($destSlug)) { $destSlug = [string]$d.id }
-            $nearbyCards += '<a class="hp-nearby" href="../destinations/' + (ConvertTo-HtmlSafe $destSlug) + '.html" style="background-image:url(&quot;../' + (ConvertTo-HtmlSafe $destImage) + '&quot;)"><span><small>Explore nearby</small>' + (ConvertTo-HtmlSafe $d.name) + '</span></a>'
-        }
-    }
-    if ([string]::IsNullOrWhiteSpace($nearbyCards) -and $destination) {
-        $destImage = [string](Get-PropertyValue $destination "hero_image" $hotel.hero_image)
-        $nearbyCards = '<a class="hp-nearby" href="../destinations/' + (ConvertTo-HtmlSafe $destination.id) + '.html" style="background-image:url(&quot;../' + (ConvertTo-HtmlSafe $destImage) + '&quot;)"><span><small>Explore nearby</small>' + (ConvertTo-HtmlSafe $destination.name) + '</span></a>'
     }
 
     $articleCards = ""
@@ -628,10 +492,10 @@ foreach ($hotel in $hotels) {
     }
     foreach ($article in @($relevantArticles | Select-Object -First 3)) {
         $articleImage = [string](Get-PropertyValue $article "image_top" $hotel.hero_image)
-        $articleCards += '<a class="hp-article" href="../blog/' + (ConvertTo-HtmlSafe $article.slug) + '.html"><img src="../' + (ConvertTo-HtmlSafe $articleImage) + '" alt="' + (ConvertTo-HtmlSafe $article.image_top_alt) + '" loading="lazy"><div><small>' + (ConvertTo-HtmlSafe $article.category) + '</small><h3>' + (ConvertTo-HtmlSafe $article.title) + '</h3><p>' + (ConvertTo-HtmlSafe $article.excerpt) + '</p></div></a>'
+        $articleCards += '<a class="hp-article" href="../blog/' + (ConvertTo-HtmlSafe $article.slug) + '"><img src="../' + (ConvertTo-HtmlSafe $articleImage) + '" alt="' + (ConvertTo-HtmlSafe $article.image_top_alt) + '" loading="lazy"><div><small>' + (ConvertTo-HtmlSafe $article.category) + '</small><h3>' + (ConvertTo-HtmlSafe $article.title) + '</h3><p>' + (ConvertTo-HtmlSafe $article.excerpt) + '</p></div></a>'
     }
     if ([string]::IsNullOrWhiteSpace($articleCards)) {
-        $articleCards = '<a class="hp-article" href="../Blogs.html"><div><small>Insider guide</small><h3>Explore Costa Rica travel advice</h3><p>Browse practical local guides for transportation, destinations and private experiences.</p></div></a>'
+        $articleCards = '<a class="hp-article" href="../Blogs"><div><small>Insider guide</small><h3>Explore Costa Rica travel advice</h3><p>Browse practical local guides for transportation, destinations and private experiences.</p></div></a>'
     }
 
     $faqHtml = ""
@@ -639,35 +503,6 @@ foreach ($hotel in $hotels) {
     foreach ($faq in (Get-ArrayValue $hotel.faq)) {
         $faqHtml += '<details class="hp-faq"><summary>' + (ConvertTo-HtmlSafe $faq.q) + '</summary><p>' + (ConvertTo-HtmlSafe $faq.a) + '</p></details>'
         $faqEntities += @{"@type"="Question";name=[string]$faq.q;acceptedAnswer=@{"@type"="Answer";text=[string]$faq.a}}
-    }
-
-    $WhyStayHere  = Get-WhyStayHere  $hotel
-    $Highlights   = Get-ExperienceHighlights $hotel
-    $LocalTips    = Get-LocalTips    $hotel
-    $SuggestedStay = Get-SuggestedStay $hotel
-
-    $highlightsHtml = ""
-    foreach ($h in @($Highlights | Select-Object -First 4)) {
-        $hTitle = [string](Get-PropertyValue $h "title" "")
-        $hDesc  = [string](Get-PropertyValue $h "description" "")
-        $highlightsHtml += '<article class="hp-love-card"><div class="hp-love-icon">' + (Get-IconHtml $hTitle) + '</div><h3>' + (ConvertTo-HtmlSafe $hTitle) + '</h3><p>' + (ConvertTo-HtmlSafe $hDesc) + '</p></article>'
-    }
-
-    $localTipsHtml = '<ul class="hp-tips-list">'
-    foreach ($tip in @($LocalTips)) {
-        $localTipsHtml += '<li>' + (ConvertTo-HtmlSafe ([string]$tip)) + '</li>'
-    }
-    $localTipsHtml += '</ul>'
-
-    $suggestedStayHtml = ""
-    $dayIndex = 1
-    foreach ($dayItem in @($SuggestedStay)) {
-        $dayNum   = [string](Get-PropertyValue $dayItem "day" $dayIndex)
-        $dayTitle = [string](Get-PropertyValue $dayItem "title" "Day $dayNum")
-        $dayDesc  = [string](Get-PropertyValue $dayItem "description" "")
-        $dayImg = Get-DayImage $dayTitle $tourImageByName $hotel.hero_image
-        $suggestedStayHtml += '<article class="hp-day-card"><div class="hp-day-card-media" style="background-image:url(&quot;../' + (ConvertTo-HtmlSafe $dayImg) + '&quot;)"><span class="hp-day-badge">Day ' + $dayNum + '</span></div><div class="hp-day-card-body"><h3>' + (ConvertTo-HtmlSafe $dayTitle) + '</h3><p>' + (ConvertTo-HtmlSafe $dayDesc) + '</p></div></article>'
-        $dayIndex++
     }
 
     # Interactive map: prefer the real geocoded coordinates (hotel-transfer-time-finder.ps1)
@@ -688,15 +523,15 @@ foreach ($hotel in $hotels) {
     # Best time to visit: reuses the destination's real best_season data (dry/green season),
     # already Claude-scored with real reasons -- no restaurant/wildlife data needed for this part.
     $bestTimeHtml = ""
-    if ($destination -and $destination.best_season) {
+    if ($destination -and $destination.best_season -and (Test-DestinationPublic $destination)) {
         $destSlug = [string]$destination.id
         $bestTimeHtml = '<div class="hp-besttime-grid">' +
-            '<div class="hp-besttime-card"><div class="hp-besttime-icon">' + (Get-IconHtml 'season') + '</div><h3>' + (ConvertTo-HtmlSafe $destination.name) + '</h3><p>Best visited ' + (ConvertTo-HtmlSafe $destination.best_season) + '.</p><a href="../destinations/' + $destSlug + '.html">See the full ' + (ConvertTo-HtmlSafe $destination.name) + ' travel guide &rarr;</a></div>' +
-            '<div class="hp-besttime-card"><div class="hp-besttime-icon">' + (Get-IconHtml 'calendar') + '</div><h3>Costa Rica, month by month</h3><p>Compare rainfall, temperatures and crowds across the whole country.</p><a href="../months.html">Browse weather by month &rarr;</a></div>' +
+            '<div class="hp-besttime-card"><div class="hp-besttime-icon">' + (Get-IconHtml 'season') + '</div><h3>' + (ConvertTo-HtmlSafe $destination.name) + '</h3><p>Best visited ' + (ConvertTo-HtmlSafe $destination.best_season) + '.</p><a href="../destinations/' + $destSlug + '">See the full ' + (ConvertTo-HtmlSafe $destination.name) + ' travel guide &rarr;</a></div>' +
+            '<div class="hp-besttime-card"><div class="hp-besttime-icon">' + (Get-IconHtml 'calendar') + '</div><h3>Costa Rica, month by month</h3><p>Compare rainfall, temperatures and crowds across the whole country.</p><a href="../months">Browse weather by month &rarr;</a></div>' +
             '</div>'
     } else {
         $bestTimeHtml = '<div class="hp-besttime-grid">' +
-            '<div class="hp-besttime-card"><div class="hp-besttime-icon">' + (Get-IconHtml 'calendar') + '</div><h3>Costa Rica, month by month</h3><p>Compare rainfall, temperatures and crowds across the whole country.</p><a href="../months.html">Browse weather by month &rarr;</a></div>' +
+            '<div class="hp-besttime-card"><div class="hp-besttime-icon">' + (Get-IconHtml 'calendar') + '</div><h3>Costa Rica, month by month</h3><p>Compare rainfall, temperatures and crowds across the whole country.</p><a href="../months">Browse weather by month &rarr;</a></div>' +
             '</div>'
     }
 
@@ -773,8 +608,8 @@ foreach ($hotel in $hotels) {
         '<div class="hp-transport-row"><strong>Private Driver</strong><p>Door-to-door private transportation for every tour and excursion -- no shared shuttles, no waiting on other guests.</p></div>' +
         '<div class="hp-transport-row"><strong>Certified Local Guides</strong><p>Every experience is led by a bilingual, certified local guide who knows ' + (ConvertTo-HtmlSafe $destinationName) + ' firsthand.</p></div>' +
         '<div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">' +
-        '<a class="hp-btn hp-btn-primary" href="../Bookingform.html?service=transportation">Book Private Transport</a>' +
-        '<a class="hp-btn hp-btn-outline-navy" href="../Bookingform.html?service=guide">Book a Private Guide</a>' +
+        '<a class="hp-btn hp-btn-primary" href="../Bookingform?service=transportation">Book Private Transport</a>' +
+        '<a class="hp-btn hp-btn-outline-navy" href="../Bookingform?service=guide">Book a Private Guide</a>' +
         '</div></div>'
 
     $seoTitleOverride = [string](Get-PropertyValue $hotel "seo_title_override" "")
@@ -791,6 +626,20 @@ foreach ($hotel in $hotels) {
     } else {
         $seoDesc = $seoDescVariants | Where-Object { $_.Length -le 150 } | Select-Object -First 1
         if (-not $seoDesc) { $seoDesc = Get-SeoDescription $seoDescVariants[-1] }
+    }
+
+    # Temporary operational notice (e.g. a property closed for renovation) -- entirely
+    # source-driven and generic: no hotel name or wording is hardcoded here. Only renders
+    # when the source record carries an operational_notice.hotel_page_message; absent on
+    # every other hotel, so this stays empty for all of them.
+    $operationalNoticeHtml = ''
+    $operationalNoticeMessage = ''
+    $operationalNotice = Get-PropertyValue $hotel 'operational_notice' $null
+    if ($operationalNotice) {
+        $operationalNoticeMessage = [string](Get-PropertyValue $operationalNotice 'hotel_page_message' '')
+    }
+    if (-not [string]::IsNullOrWhiteSpace($operationalNoticeMessage)) {
+        $operationalNoticeHtml = '<p style="background:var(--hp-gold-soft);color:var(--hp-gold-ink);border:1px solid var(--hp-line);border-radius:4px;padding:12px 16px;font-size:.86rem;line-height:1.5;margin:0 0 16px">' + (ConvertTo-HtmlSafe $operationalNoticeMessage) + '</p>'
     }
 
     $officialLine = ''
@@ -829,6 +678,16 @@ foreach ($hotel in $hotels) {
         $roomTypesSection = '<section class="hp-section hp-section-soft"><div class="hp-wrap"><div class="hp-heading"><div class="hp-eyebrow">Where to stay</div><h2>Room &amp; suite types</h2></div><div class="hp-room-grid">' + $roomCards + '</div></div></section>'
     }
 
+    # CRO pilot (source-driven, see hotel.cro_pilot.traveler_reviews -- currently
+    # only set on andaz-costa-rica.json): a small, real Wild Papagayo testimonial
+    # block placed just before the final CTA. Reuses two verified quotes already
+    # published on the homepage -- nothing invented. Every other hotel gets
+    # an empty string here, so __PILOT_REVIEWS__ renders as nothing for them.
+    $pilotReviewsHtml = ''
+    if ((Get-PropertyValue $hotel 'cro_pilot' $null) -and (Get-PropertyValue $hotel.cro_pilot 'traveler_reviews' $false)) {
+        $pilotReviewsHtml = '<section class="section reviews-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why travelers choose Wild Papagayo</span></div><div class="reviews-grid"><article class="review-card reveal"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&quot;Everything felt effortless from the first message. Our guide was exceptional.&quot;</blockquote><cite>&mdash; James &amp; Laura K., Canada</cite></article><article class="review-card reveal"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&quot;The most professional company we found in Costa Rica. Every detail was perfect.&quot;</blockquote><cite>&mdash; Sarah M., United States</cite></article></div></div></section>'
+    }
+
     $html = $template
     $map = @{
         '__COMPONENT_HEADER__'=$header
@@ -838,15 +697,12 @@ foreach ($hotel in $hotels) {
         '__CANONICAL__'=$canon
         '__OG_IMAGE__'=$og
         '__SCHEMA__'=$schema
-        '__HERO_IMAGE__'=[string]$hotel.hero_image
-        '__HERO_IMAGE_ALT__'=(ConvertTo-HtmlSafe ([string](Get-PropertyValue $hotel "hero_image_alt" $hotel.name)))
         '__HOTEL_CATEGORY__'=[string]$hotel.category
         '__LOCATION_LABEL__'=[string]$hotel.location_label
         '__HOTEL_NAME__'=[string]$hotel.name
         '__HERO_DESCRIPTION__'=$heroDescription
         '__HERO_FACTS_STRIP__'=$heroFactsStrip
         '__INSIGHT_RATING_BLOCK__'=$insightRatingBlock
-        '__RATING_PANEL_BLOCK__'=$ratingPanelBlock
         '__QUICK_FACTS__'=$factsHtml
         '__AMENITIES_SECTION__'=$amenitiesSection
         '__ROOM_TYPES_SECTION__'=$roomTypesSection
@@ -856,27 +712,22 @@ foreach ($hotel in $hotels) {
         '__CURATED_EXPERIENCES_SECTION__'=$curatedExperiencesSectionHtml
         '__EXCURSION_GUIDE_SECTION__'=$excursionGuideSectionHtml
         '__PRIVATE_TOURS_SECTION__'=$privateToursSectionHtml
-        '__ITINERARY__'=$itineraryHtml
         '__MAP_EMBED__'=$mapEmbed
         '__MAP_LINK__'=$mapLinkHtml
         '__ADDRESS__'=$addressHtml
         '__BEST_TIME_HTML__'=$bestTimeHtml
         '__RESTAURANTS_SECTION__'=$restaurantsSection
-        '__NEARBY_CARDS__'=$nearbyCards
         '__TRANSPORT_PANEL__'=$transportPanelHtml
         '__REVIEWS_SECTION__'=$reviewsSection
+        '__PILOT_REVIEWS__'=$pilotReviewsHtml
         '__ARTICLE_CARDS__'=$articleCards
         '__FAQ_BLOCK__'=$faqHtml
-        '__OFFICIAL_URL__'=[string]$hotel.official_url
         '__OFFICIAL_LINE__'=$officialLine
+        '__OPERATIONAL_NOTICE__'=$operationalNoticeHtml
         '__HOTEL_SHORT_NAME__'=$short
         '__CTA_URL__'=$cta
         '__EXPEDIA_BUTTON__'=$expediaButtonHtml
         '__EXPEDIA_DISCLOSURE__'=$expediaDisclosureHtml
-        '__WHY_STAY_HERE__'=$WhyStayHere
-        '__EXPERIENCE_HIGHLIGHTS__'=$highlightsHtml
-        '__LOCAL_TIPS__'=$localTipsHtml
-        '__SUGGESTED_STAY__'=$suggestedStayHtml
     }
     foreach ($key in $map.Keys) { $html = $html.Replace($key,[string]$map[$key]) }
 
