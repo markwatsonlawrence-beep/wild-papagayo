@@ -27,7 +27,7 @@
                      "Active groups"
                  ],
     "difficulty":  "Moderate",
-    "duration_label":  "Half Day (approx. 4 hours)",
+    "duration_label":  "Half Day (approx. 7 hours)",
     "minimum_age":  10,
     "included":  [
                      "Private air-conditioned transportation",
@@ -109,7 +109,7 @@
                          "intelligence_status":  "auto_generated_review_required",
                          "primary_category":  "Water Adventure",
                          "difficulty":  "Moderate",
-                         "duration_hours":  4,
+                         "duration_hours":  7,
                          "duration_type":  "Half Day",
                          "energy_level":  "High",
                          "minimum_age":  10,
@@ -342,7 +342,7 @@
                                                   {
                                                       "icon":  "🕒",
                                                       "label":  "Duration",
-                                                      "value":  "Half Day · Approx. 4 Hours"
+                                                      "value":  "Half Day · Approx. 7 Hours"
                                                   },
                                                   {
                                                       "icon":  "🚙",
@@ -404,7 +404,7 @@
                                      },
                                      {
                                          "question":  "How long does the tour take?",
-                                         "answer":  "The full experience takes approximately 4 hours, combining the canyoning and river tubing sections, depending on your pickup location and traffic."
+                                         "answer":  "The full experience takes approximately 7 hours, combining the canyoning and river tubing sections, depending on your pickup location and traffic."
                                      },
                                      {
                                          "question":  "What is the minimum age?",
