@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en-CR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-wildpapagayo.png"><link rel="icon" type="image/svg+xml" href="images/favicon-wildpapagayo.svg">
+    <link rel="preload" as="image" href="images/luxury-costa-rica-tours-hero.webp" fetchpriority="high">
+    <title>Wild Papagayo Insider | Costa Rica Travel Guide</title>
+    <meta name="description" content="Destination guides, travel tips and insider knowledge for Costa Rica — written by the Wild Papagayo team based in Guanacaste. Plan your private trip with local expertise.">
+    <meta name="keywords" content="costa rica travel guide, guanacaste tips, playa coco, samara beach, costa rica destinations, private tours costa rica, wild papagayo blog">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Wild Papagayo">
+    <meta name="theme-color" content="#062448">
+    <link rel="canonical" href="https://wildpapagayo.com/Blogs">
+    <link rel="alternate" hreflang="en-cr" href="https://wildpapagayo.com/Blogs">
+    <link rel="alternate" hreflang="x-default" href="https://wildpapagayo.com/Blogs">
+    <link rel="preload" href="style.min.css" as="style">
+    <link rel="stylesheet" href="style.min.css">
+    <meta property="og:locale" content="en_CR">
+    <meta property="og:site_name" content="Wild Papagayo">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wild Papagayo Insider | Costa Rica Travel Guide">
+    <meta property="og:description" content="Local knowledge. Private travel inspiration. Costa Rica beyond the guidebooks.">
+    <meta property="og:image" content="https://wildpapagayo.com/images/luxury-costa-rica-tours-hero.webp">
+    <meta property="og:url" content="https://wildpapagayo.com/Blogs">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wild Papagayo Insider | Costa Rica Travel Guide">
+    <meta name="twitter:description" content="Local knowledge. Private travel inspiration. Costa Rica beyond the guidebooks.">
+    <meta name="twitter:image" content="https://wildpapagayo.com/images/luxury-costa-rica-tours-hero.webp">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "@id": "https://wildpapagayo.com/Blogs#blog",
+      "name": "Wild Papagayo Insider",
+      "url": "https://wildpapagayo.com/Blogs",
+      "description": "Local knowledge, private travel inspiration and Costa Rica beyond the guidebooks.",
+      "publisher": { "@type": "TravelAgency", "name": "Wild Papagayo", "url": "https://wildpapagayo.com/" },
+      "inLanguage": "en-CR"
+    }
+    </script>
+    <style>
+        /* ── BLOG HERO (shared .plain-hero) ── */
+
+        /* ── SEARCH ── */
+        .blog-search { margin-bottom: 22px; }
+        .blog-search input {
+            width: 100%;
+            max-width: 480px;
+            padding: 14px 20px;
+            border-radius: 999px;
+            border: 1.5px solid rgba(6,36,72,.18);
+            font-size: .92rem;
+            color: #062448;
+            background: #fff;
+        }
+        .blog-search input:focus {
+            outline: none;
+            border-color: #C9A24B;
+        }
+
+        /* ── CATEGORY FILTERS ── */
+        .blog-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 40px;
+        }
+        .blog-cat-btn {
+            padding: 11px 26px;
+            border-radius: 999px;
+            border: 1.5px solid rgba(6,36,72,.18);
+            background: #fff;
+            color: #062448;
+            font-size: .65rem;
+            font-weight: 800;
+            cursor: pointer;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            transition: background .18s, color .18s, border-color .18s;
+        }
+        .blog-cat-btn:hover,
+        .blog-cat-btn.active {
+            background: #062448;
+            color: #fff;
+            border-color: #062448;
+        }
+
+        /* ── FEATURED ARTICLE ── */
+        .blog-featured-card {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 52px;
+            box-shadow: 0 12px 50px rgba(6,36,72,.11);
+            text-decoration: none;
+            background: #fff;
+            border: 1px solid rgba(6,36,72,.08);
+            transition: transform .25s ease, box-shadow .25s ease;
+        }
+        .blog-featured-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 22px 60px rgba(6,36,72,.16);
+        }
+        .blog-featured-img {
+            position: relative;
+            overflow: hidden;
+        }
+        .blog-featured-img img {
+            width: 100%;
+            height: 100%;
+            min-height: 360px;
+            object-fit: cover;
+            display: block;
+            transition: transform .5s ease;
+        }
+        .blog-featured-card:hover .blog-featured-img img {
+            transform: scale(1.04);
+        }
+        .blog-featured-badge {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+            background: #062448;
+            color: #C9A24B;
+            font-size: .6rem;
+            font-weight: 900;
+            letter-spacing: .18em;
+            text-transform: uppercase;
+            padding: 6px 14px;
+            border-radius: 999px;
+        }
+        .blog-featured-body {
+            padding: 44px 44px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 14px;
+        }
+        .blog-cat-label {
+            font-size: .62rem;
+            font-weight: 900;
+            letter-spacing: .18em;
+            text-transform: uppercase;
+            color: #C9A24B;
+        }
+        .blog-featured-body h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(1.4rem, 2.4vw, 2rem);
+            font-weight: 700;
+            color: #062448;
+            line-height: 1.22;
+            margin: 0;
+        }
+        .blog-featured-body p {
+            font-size: .91rem;
+            color: #586878;
+            line-height: 1.68;
+            margin: 0;
+        }
+        .blog-read-link {
+            display: inline-block;
+            font-size: .7rem;
+            font-weight: 800;
+            color: #062448;
+            text-decoration: none;
+            letter-spacing: .09em;
+            text-transform: uppercase;
+            border-bottom: 1.5px solid rgba(6,36,72,.3);
+            padding-bottom: 2px;
+            margin-top: 6px;
+            align-self: flex-start;
+            transition: color .2s, border-color .2s;
+        }
+        .blog-read-link:hover {
+            color: #C9A24B;
+            border-color: #C9A24B;
+        }
+
+        /* ── ARTICLE CARDS ── */
+        .blog-article-card {
+            display: flex;
+            flex-direction: column;
+            border-radius: 14px;
+            overflow: hidden;
+            background: #fff;
+            border: 1px solid rgba(6,36,72,.08);
+            box-shadow: 0 4px 18px rgba(6,36,72,.07);
+            text-decoration: none;
+            transition: transform .22s ease, box-shadow .22s ease;
+        }
+        .blog-article-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(6,36,72,.12);
+        }
+        .blog-article-card img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            display: block;
+        }
+        .blog-article-body {
+            padding: 22px 24px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+            flex: 1;
+        }
+        .blog-article-cat {
+            font-size: .6rem;
+            font-weight: 900;
+            letter-spacing: .18em;
+            text-transform: uppercase;
+            color: #C9A24B;
+        }
+        .blog-article-card h3 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #062448;
+            line-height: 1.28;
+            margin: 0;
+        }
+        .blog-article-card p {
+            font-size: .8rem;
+            color: #586878;
+            line-height: 1.6;
+            margin: 0;
+            flex: 1;
+        }
+        .blog-article-readmore {
+            font-size: .68rem;
+            font-weight: 800;
+            color: #062448;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            margin-top: 8px;
+        }
+
+        /* ── BLOG CTA ── */
+        .blog-cta-section {
+            background: #062448;
+            padding: 82px 0;
+            text-align: center;
+        }
+        .blog-cta-section h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            color: #fff;
+            font-size: clamp(1.6rem, 3vw, 2.2rem);
+            margin: 0 0 12px;
+        }
+        .blog-cta-section p {
+            color: rgba(255,255,255,.70);
+            font-size: 1rem;
+            margin: 0 0 28px;
+        }
+
+        /* ── HERO STATS ── */
+        .blog-hero-stats {
+            display: flex;
+            gap: 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 18px 0 24px;
+        }
+        .blog-hero-stats span {
+            font-size: .62rem;
+            font-weight: 700;
+            color: var(--muted);
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            padding-right: 20px;
+            margin-right: 20px;
+            border-right: 1px solid rgba(6,36,72,.14);
+        }
+        .blog-hero-stats span:last-child {
+            border-right: none;
+            padding-right: 0;
+            margin-right: 0;
+        }
+
+        /* ── TRUST BAR ── */
+        .blog-trust-bar {
+            background: #EEF6FF;
+            padding: 13px 0;
+            border-bottom: 1px solid rgba(6,36,72,.08);
+            text-align: center;
+        }
+        .blog-trust-bar p {
+            font-size: .8rem;
+            font-weight: 600;
+            color: #062448;
+            letter-spacing: .04em;
+            margin: 0;
+            opacity: .72;
+        }
+
+        /* ── FEATURED META ── */
+        .blog-featured-meta {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            font-size: .62rem;
+            font-weight: 700;
+            color: #8a9aac;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+        .blog-featured-meta span + span::before {
+            content: "·";
+            margin-right: 18px;
+            color: #c8d5e0;
+        }
+
+        /* ── CARD GRID SPACING ── */
+        #blog-container {
+            row-gap: 48px;
+        }
+
+        /* ── RESPONSIVE ── */
+        @media(max-width:860px) {
+            .blog-featured-card { grid-template-columns: 1fr; }
+            .blog-featured-img img { min-height: 260px; }
+            .blog-featured-body { padding: 28px 28px 30px; }
+        }
+        @media(max-width:700px) {
+            /* Hero stats: scroll horizontal sin saltos + fade hint */
+            .blog-hero-stats { flex-wrap: nowrap; overflow-x: auto; gap: 0; justify-content: flex-start; -webkit-mask-image: linear-gradient(to right, white 75%, transparent 100%); mask-image: linear-gradient(to right, white 75%, transparent 100%); }
+            .blog-hero-stats span { white-space: nowrap; flex-shrink: 0; }
+            /* Categorías: grid de 2 columnas en móvil */
+            .blog-categories {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+                margin-bottom: 24px;
+            }
+            .blog-cat-btn {
+                padding: 10px 12px;
+                font-size: .6rem;
+                text-align: center;
+                width: 100%;
+            }
+            .blog-cat-btn:first-child {
+                grid-column: 1 / -1;
+            }
+            /* Artículo destacado */
+            .blog-featured-card { grid-template-columns: 1fr; }
+            .blog-featured-img img { min-height: 220px; }
+            .blog-featured-body { padding: 22px 20px 24px; gap: 10px; }
+            .blog-featured-body h2 { font-size: 1.3rem; }
+        }
+        @media(max-width:480px) {
+            .blog-article-card img { height: 180px; }
+            .blog-cta-section { padding: 44px 0; }
+        }
+    </style>
+    <noscript></noscript>
+
+<!-- Google tag (gtag.js) -- deferred until window 'load' so it never competes with LCP/FCP-critical resources -->
+<script>
+window.addEventListener('load', function() {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-9V2MY7J6RJ';
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'G-9V2MY7J6RJ');
+});
+</script>
+</head>
+<body>
+<a class="skip-to-content" href="#main-content">Skip to main content</a>
+<header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="/" aria-label="Wild Papagayo Home">
+            <img src="images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" width="160" height="80" loading="eager" fetchpriority="high" decoding="async">
+        </a>
+        <button aria-label="Open menu" aria-expanded="false" aria-controls="main-navigation" class="hamburger">&#9776;</button>
+        <div class="nav-links" id="main-navigation">
+            <a href="/">Home</a>
+            <a href="tours">All Experiences</a>
+            <a href="paquete">Multi-Day Journeys</a>
+            <div class="nav-dropdown">
+                <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">Discover <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div class="nav-dropdown-menu">
+                    <a href="destination-finder">Destinations</a>
+                    <a href="hotels">Hotels</a>
+                    <a href="private-tours/peninsula-papagayo">Tours from Papagayo</a>
+                    <a href="months">When to Visit</a>
+                    <a href="blog/liberia-airport-transfer-guide">Liberia Airport Guide</a>
+                    <a href="waterfalls-near-papagayo-guide">Waterfalls Near Papagayo</a>
+                    <a href="plan-by-traveler-type">Plan by Traveler Type</a>
+                </div>
+            </div>
+            <a href="transport">Transport</a>
+            <a href="guides">Expert Guides</a>
+            <a href="about">Our Story</a>
+            <a href="Blogs">Insider Guide</a>
+            <a href="travel-insurance">Travel Insurance</a>
+            <a href="contact">Connect</a>
+        </div>
+        <a class="btn btn-primary header-cta" href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20want%20to%20plan%20my%20Costa%20Rica%20trip." target="_blank" rel="noopener noreferrer">Plan Your Trip</a>
+    </nav>
+</header>
+
+<main id="main-content">
+
+    <!-- HERO -->
+    <header class="plain-hero">
+        <div class="container plain-hero-inner">
+            <h1>Costa Rica Travel Guide &amp; Insider Tips</h1>
+            <p>Hidden waterfalls. Secret beaches. Wildlife encounters. Local knowledge from the people who call Costa Rica home.</p>
+            <div class="blog-hero-stats">
+                <span id="stat-articles">32+ Articles</span>
+                <span>33 Experiences</span>
+                <span>100% Private</span>
+            </div>
+            <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;">
+                <a href="#blog-articles" class="btn btn-primary">Start Exploring ↓</a>
+                <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20love%20to%20plan%20my%20Costa%20Rica%20trip." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Plan My Trip →</a>
+            </div>
+        </div>
+        <div class="plain-hero-photo">
+            <img src="images/luxury-costa-rica-tours-hero.webp" alt="Costa Rica travel guide and insider tips" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+        </div>
+    </header>
+
+    <!-- TRUST BAR -->
+    <div class="blog-trust-bar">
+        <div class="container">
+            <p>Trusted local advice from the team behind Wild Papagayo.</p>
+        </div>
+    </div>
+
+    <!-- ARTICLES -->
+    <section class="section" id="blog-articles">
+        <div class="container">
+
+            <div class="blog-search"><input type="search" id="blog-search-input" placeholder="Search articles... (e.g. Uber, Rio Celeste, packing)" aria-label="Search articles"></div>
+            <div class="blog-categories" id="blog-categories">
+                <button class="blog-cat-btn active" data-cat="all">All Articles</button>
+                <button class="blog-cat-btn" data-cat="Destination Guides">Destination Guides</button>
+                <button class="blog-cat-btn" data-cat="Tours & Experiences">Tours &amp; Experiences</button>
+                <button class="blog-cat-btn" data-cat="Transportation & Transfers">Transportation &amp; Transfers</button>
+                <button class="blog-cat-btn" data-cat="Trip Planning">Trip Planning</button>
+                <button class="blog-cat-btn" data-cat="Weather & Seasons">Weather &amp; Seasons</button>
+                <button class="blog-cat-btn" data-cat="Safety & Practical Tips">Safety &amp; Practical Tips</button>
+            </div>
+            <p style="font-size:.8rem;color:#667085;margin:-24px 0 30px;">Browse by category: <a href="categories/destination-guides">Destination Guides</a> &middot; <a href="categories/tours-experiences">Tours &amp; Experiences</a> &middot; <a href="categories/transportation-transfers">Transportation &amp; Transfers</a> &middot; <a href="categories/trip-planning">Trip Planning</a> &middot; <a href="categories/weather-seasons">Weather &amp; Seasons</a> &middot; <a href="categories/safety-practical-tips">Safety &amp; Practical Tips</a></p>
+
+            <div id="blog-featured"></div>
+
+            <div class="grid grid-3" id="blog-container" aria-live="polite">
+                <p>Loading articles…</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="blog-cta-section">
+        <div class="container">
+            <h2>Planning Your Costa Rica Trip?</h2>
+            <p>Need personalized recommendations instead of generic itineraries?</p>
+            <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20need%20help%20planning%20my%20Costa%20Rica%20trip." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Chat with a Local Expert</a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-grid footer-grid-clean">
+
+        <div class="footer-brand">
+            <img src="images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180">
+            <p>Exceptional Costa Rica, exclusively curated for discerning travelers.</p>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/wild.papagayo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="footer-social-ig">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+                <a href="https://www.facebook.com/share/1JLByXiV4k/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="footer-social-fb">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="https://wa.me/50688566325" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="footer-social-wa">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <div class="footer-title">Explore</div>
+            <a href="/">Home</a>
+            <a href="tours">All Experiences</a>
+            <a href="paquete">Multi-Day Journeys</a><a href="hotels">Hotels</a>
+            <a href="transport">Transport</a>
+            <a href="guides">Expert Guides</a>
+            <a href="about">Our Story</a>
+            <a href="Blogs">Insider Guide</a>
+            <a href="travel-insurance">Travel Insurance</a>
+            <div class="footer-title footer-title-spaced">Legal</div>
+            <a href="Terminosycondiciones">Terms &amp; Conditions</a>
+            <a href="politicasdecancelacion">Booking &amp; Cancellation Policy</a>
+            <a href="politicasdeprivacidad">Privacy Policy</a>
+        </div>
+
+        <div>
+            <div class="footer-title">Get in Touch</div>
+            <div class="footer-contact">
+                <p>Guanacaste, Costa Rica</p>
+                <p><a href="tel:+50688566325">+506 8856-6325</a></p>
+                <p><a href="mailto:info@wildpapagayo.com">info@wildpapagayo.com</a></p>
+            </div>
+            <p class="footer-ict">Costa Rica - ICT License #491</p>
+        </div>
+
+        <div>
+            <div class="footer-title">Trip Planning Tips</div>
+            <p>Real trip-planning tips, seasonal advice and new tours from our local team. No spam, unsubscribe anytime.</p>
+            <div class="newsletter-form">
+                <label for="newsletterEmail" class="sr-only">Email</label>
+                <input id="newsletterEmail" name="newsletterEmail" type="email" placeholder="Your email address" required>
+                <button class="btn-newsletter" type="button" id="btnNewsletterReal" onclick="enviarNewsletter()">Join</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+        &copy; <span id="year"></span> Wild Papagayo. All rights reserved.
+    </div>
+</footer>
+
+<a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20want%20to%20plan%20a%20private%20Costa%20Rica%20experience."
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+</a>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    // Nav toggle is handled by script.js's initNavigation() (now loaded on
+    // this page) -- a duplicate listener here would double-toggle the menu.
+
+    // Year
+    const yearEl = document.getElementById("year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    const featuredEl = document.getElementById("blog-featured");
+    const container  = document.getElementById("blog-container");
+    if (!container) return;
+
+    const cleanText = v => String(v ?? "").replace(/[<>]/g, "").trim();
+    const cleanImg  = v => {
+        const p = String(v ?? "images/tranport1.webp").replace(/^(\.\.\/|\.\/|\/)+/, "").replace(/[^a-zA-Z0-9_\-./]/g, "");
+        return p.startsWith("images/") ? p : `../${p}`;
+    };
+    const articleURL = a => a.slug
+        ? `blog/${cleanText(a.slug)}.html`
+        : `single-blog.html?id=${encodeURIComponent(cleanText(a.id))}`;
+
+    let allArticles = [];
+
+    function renderFeatured(article) {
+        if (!featuredEl || !article) return;
+        const metaDate = cleanText(article.date || "");
+        const metaRead = article.readTime ? `${article.readTime} min read` : "";
+        const metaHTML = (metaDate || metaRead)
+            ? `<div class="blog-featured-meta">${metaDate ? `<span>${metaDate}</span>` : ""}${metaRead ? `<span>${metaRead}</span>` : ""}</div>`
+            : "";
+        featuredEl.innerHTML = `
+            <a href="${articleURL(article)}" class="blog-featured-card reveal">
+                <div class="blog-featured-img">
+                    <img src="${cleanImg(article.image_top)}" alt="${cleanText(article.title)}" loading="lazy" width="720" height="480">
+                    <span class="blog-featured-badge">Featured</span>
+                </div>
+                <div class="blog-featured-body">
+                    <span class="blog-cat-label">${cleanText(article.category)}</span>
+                    <h2>${cleanText(article.title)}</h2>
+                    <p>${cleanText(article.excerpt)}</p>
+                    ${metaHTML}
+                    <span class="blog-read-link">Read Story →</span>
+                </div>
+            </a>`;
+    }
+
+    function renderGrid(articles) {
+        container.innerHTML = "";
+        if (!articles.length) {
+            container.innerHTML = '<p style="color:#586878;grid-column:1/-1;padding:20px 0;">No articles in this category yet.</p>';
+            return;
+        }
+        articles.forEach(article => {
+            const card = document.createElement("a");
+            card.href = articleURL(article);
+            card.className = "blog-article-card reveal";
+            card.innerHTML = `
+                <img src="${cleanImg(article.image_top)}" alt="${cleanText(article.title)}" loading="lazy" width="720" height="480">
+                <div class="blog-article-body">
+                    <span class="blog-article-cat">${cleanText(article.category)}</span>
+                    <h3>${cleanText(article.title)}</h3>
+                    <p>${cleanText(article.excerpt)}</p>
+                    <span class="blog-article-readmore">Read Story →</span>
+                </div>`;
+            container.appendChild(card);
+        });
+
+        // Re-observe new cards for scroll reveal
+        document.querySelectorAll(".reveal:not(.visible)").forEach(el => revealObs.observe(el));
+    }
+
+    let activeCat = "all";
+    let activeQuery = "";
+
+    function applyFilter(cat) {
+        if (cat !== undefined) activeCat = cat;
+        document.querySelectorAll(".blog-cat-btn").forEach(btn =>
+            btn.classList.toggle("active", btn.dataset.cat === activeCat));
+
+        let matches = activeCat === "all" ? allArticles.slice() : allArticles.filter(a => cleanText(a.category) === activeCat);
+
+        if (activeQuery) {
+            const q = activeQuery.toLowerCase();
+            matches = matches.filter(a =>
+                cleanText(a.title).toLowerCase().includes(q) ||
+                cleanText(a.excerpt).toLowerCase().includes(q) ||
+                cleanText(a.seo_keywords).toLowerCase().includes(q) ||
+                cleanText(a.category).toLowerCase().includes(q)
+            );
+            featuredEl.style.display = "none";
+            renderGrid(matches);
+            return;
+        }
+
+        if (activeCat === "all") {
+            featuredEl.style.display = "";
+            renderGrid(matches.slice(1));
+        } else {
+            featuredEl.style.display = "none";
+            renderGrid(matches);
+        }
+    }
+
+    document.querySelectorAll(".blog-cat-btn").forEach(btn =>
+        btn.addEventListener("click", () => applyFilter(btn.dataset.cat)));
+
+    const searchInput = document.getElementById("blog-search-input");
+    if (searchInput) {
+        let searchTimer;
+        searchInput.addEventListener("input", () => {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => {
+                activeQuery = searchInput.value.trim();
+                applyFilter();
+            }, 180);
+        });
+    }
+
+    // Scroll reveal
+    const revealObs = new IntersectionObserver(entries => entries.forEach(en => {
+        if (en.isIntersecting) { en.target.classList.add("visible"); revealObs.unobserve(en.target); }
+    }), { threshold: 0.10 });
+    document.querySelectorAll(".reveal").forEach(el => revealObs.observe(el));
+
+    fetch("blog-data.json?v=" + Date.now())
+        .then(r => { if (!r.ok) throw new Error("JSON missing"); return r.json(); })
+        .then(articles => {
+            allArticles = articles.sort((a, b) => Number(a.id) - Number(b.id));
+            const statEl = document.getElementById("stat-articles");
+            if (statEl) statEl.textContent = allArticles.length + "+ Articles";
+            renderFeatured(allArticles[0]);
+            renderGrid(allArticles.slice(1));
+        })
+        .catch(err => {
+            console.error(err);
+            container.innerHTML = '<p style="color:#d82925;font-weight:700;grid-column:1/-1;">Error loading articles.</p>';
+        });
+
+});
+</script>
+<script src="script.js" defer></script>
+<script src="assistant-widget.js" defer></script>
+</body>
+</html>

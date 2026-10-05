@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-wildpapagayo.png"><link rel="icon" type="image/svg+xml" href="images/favicon-wildpapagayo.svg">
+    <link rel="preload" href="style.min.css" as="style">
+    <link rel="preload" as="image" href="images/luxury-costa-rica-tours-hero.webp" fetchpriority="high">
+    <title>Private Multi-Day Journeys Costa Rica | Wild Papagayo</title>
+    <meta name="description" content="Bespoke multi-day Costa Rica journeys, romantic escapes, family adventures and volcano retreats. Private transport, expert guides and personalized planning included.">
+    <meta name="keywords" content="multi-day Costa Rica journey, bespoke costa rica vacation, private costa rica itinerary, guanacaste multi day tour, costa rica private package, wild papagayo">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="theme-color" content="#062448">
+    <meta property="og:title" content="Private Multi-Day Journeys Costa Rica | Wild Papagayo">
+    <meta property="og:description" content="Your entire Costa Rica vacation, perfectly planned. Private transport, hand-picked experiences and local concierge from arrival to departure.">
+    <meta property="og:image" content="https://wildpapagayo.com/images/why-3.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wildpapagayo.com/paquete">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Wild Papagayo">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Private Multi-Day Journeys Costa Rica | Wild Papagayo">
+    <meta name="twitter:description" content="Bespoke multi-day Costa Rica journeys with private transport, expert guides and personalized planning.">
+    <meta name="twitter:image" content="https://wildpapagayo.com/images/why-3.webp">
+    <link rel="canonical" href="https://wildpapagayo.com/paquete">
+    <link rel="alternate" hreflang="en" href="https://wildpapagayo.com/paquete">
+    <link rel="alternate" hreflang="x-default" href="https://wildpapagayo.com/paquete">
+    <link href="style.min.css" rel="stylesheet" />
+    <style>
+        /* ── JOURNEY HERO (shared .plain-hero; page-specific actions row only) ── */
+        .journey-hero-actions { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+
+        /* ── TRUST BAR ── */
+        .journey-trust-bar { background: #EEF6FF; border-bottom: 1px solid rgba(6,36,72,.08); }
+        .journey-trust-bar .container { display: flex; gap: 0; flex-wrap: wrap; align-items: center; justify-content: center; padding-top: 18px; padding-bottom: 18px; }
+        .journey-trust-pill { display: flex; align-items: center; gap: 8px; padding: 0 22px; border-right: 1px solid rgba(6,36,72,.12); font-size: .76rem; font-weight: 700; color: #062448; letter-spacing: .03em; }
+        .journey-trust-pill:last-child { border-right: none; }
+        .journey-trust-pill svg { color: #C9A24B; flex-shrink: 0; }
+
+        /* ── WHY COMPLETE JOURNEY ── */
+        .why-journey-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 28px; margin-top: 44px; }
+        .why-journey-card { background: #fff; border: 1.5px solid rgba(6,36,72,.08); border-radius: 18px; padding: 32px 28px; position: relative; overflow: hidden; }
+        .why-journey-head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+        .why-journey-icon { width: 22px; height: 22px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+        .why-journey-card h3 { margin: 0; }
+        .why-journey-card h3 { font-size: 1.05rem; font-weight: 800; color: #062448; margin: 0 0 8px; }
+        .why-journey-card p { font-size: .88rem; color: #667085; line-height: 1.65; margin: 0; }
+
+        /* ── FEATURED JOURNEY ── */
+        .featured-journey { background: #062448; border-radius: 22px; overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; min-height: 480px; margin-bottom: 20px; }
+        .featured-journey-img { overflow: hidden; }
+        .featured-journey-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .featured-journey-body { padding: 48px 44px; display: flex; flex-direction: column; justify-content: center; }
+        .featured-journey-meta { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+        .journey-badge { display: inline-flex; align-items: center; padding: 5px 12px; border-radius: 20px; font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+        .journey-badge-gold { background: rgba(201,162,75,.18); color: #C9A24B; border: 1px solid rgba(201,162,75,.35); }
+        .journey-badge-light { background: rgba(255,255,255,.1); color: rgba(255,255,255,.75); border: 1px solid rgba(255,255,255,.15); }
+        .featured-journey-body h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 2.1rem; color: #fff; margin: 0 0 12px; line-height: 1.15; }
+        .featured-journey-body > p { font-size: .95rem; color: rgba(255,255,255,.68); line-height: 1.7; margin: 0 0 24px; }
+        .featured-journey-includes { display: flex; flex-direction: column; gap: 8px; margin-bottom: 28px; }
+        .fji-item { display: flex; align-items: center; gap: 9px; font-size: .86rem; color: rgba(255,255,255,.82); }
+        .fji-dot { width: 18px; height: 18px; border-radius: 50%; background: #C9A24B; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .featured-journey-price { font-size: .8rem; color: rgba(255,255,255,.5); margin-bottom: 20px; }
+        .featured-journey-price strong { font-size: 1.1rem; color: #fff; font-weight: 800; }
+
+        /* ── JOURNEY CARDS ── */
+        .journeys-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+        .journey-card { background: #fff; border: 1.5px solid rgba(6,36,72,.08); border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; transition: transform .2s, box-shadow .2s; }
+        .journey-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(6,36,72,.12); }
+        .journey-card-actions .btn-secondary { background: transparent; color: #062448; border: 1.5px solid #062448; backdrop-filter: none; }
+        .journey-card-actions .btn-secondary:hover { background: #062448; color: #fff; }
+        .journey-card-img { height: 200px; overflow: hidden; position: relative; }
+        .journey-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s; }
+        .journey-card:hover .journey-card-img img { transform: scale(1.04); }
+        .journey-card-ribbon { position: absolute; top: 14px; left: 14px; background: #062448; color: #C9A24B; font-size: .62rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; padding: 4px 10px; border-radius: 4px; }
+        .journey-card-body { padding: 24px 24px 28px; display: flex; flex-direction: column; flex: 1; }
+        .journey-card-duration { font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #8a6e24; margin-bottom: 8px; }
+        .journey-card-body h3 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; color: #062448; margin: 0 0 10px; line-height: 1.2; }
+        .journey-card-body > p { font-size: .87rem; color: #667085; line-height: 1.6; margin: 0 0 16px; }
+        .journey-card-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+        .journey-tag { background: #EEF6FF; color: #062448; font-size: .64rem; font-weight: 700; letter-spacing: .05em; padding: 3px 10px; border-radius: 20px; }
+        .journey-card-includes { display: flex; flex-direction: column; gap: 5px; margin-bottom: 20px; }
+        .jci-item { display: flex; align-items: center; gap: 7px; font-size: .82rem; color: #667085; }
+        .jci-check { width: 16px; height: 16px; border-radius: 50%; background: #C9A24B; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .journey-card-footer { margin-top: auto; padding-top: 18px; border-top: 1px solid rgba(6,36,72,.06); display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+        .journey-card-price { font-size: .75rem; color: #8a9aac; }
+        .journey-card-price strong { display: block; font-size: 1.05rem; color: #062448; font-weight: 800; margin-top: 2px; }
+        .journey-card-actions { display: flex; gap: 8px; }
+
+        /* ── WHAT'S INCLUDED SECTION ── */
+        .whats-included-section { background: #062448; }
+        .whats-included-section .section-kicker { color: #C9A24B; }
+        .whats-included-section h2 { color: #fff; }
+        .whats-included-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-top: 40px; }
+        .wi-item { display: flex; align-items: flex-start; gap: 12px; padding: 18px; background: rgba(255,255,255,.07); border-radius: 12px; border: 1px solid rgba(255,255,255,.1); }
+        .wi-check { width: 22px; height: 22px; border-radius: 50%; background: #C9A24B; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+        .wi-text { font-size: .88rem; font-weight: 700; color: rgba(255,255,255,.88); line-height: 1.35; }
+
+        /* ── DESIGNED AROUND YOU ── */
+        .designed-section { background: #FFF9F2; }
+        .designed-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; margin-top: 0; }
+        .designed-img { border-radius: 18px; overflow: hidden; height: 400px; }
+        .designed-img img { width: 100%; height: 100%; object-fit: cover; }
+
+        /* ── FAQ ── */
+        .journey-faq-list { display: flex; flex-direction: column; gap: 10px; max-width: 760px; margin: 32px auto 0; }
+        .journey-faq-item { background: #fff; border: 1px solid rgba(6,36,72,.08); border-radius: 12px; overflow: hidden; }
+        .journey-faq-item summary { padding: 20px 24px; font-weight: 700; font-size: .98rem; color: #062448; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+        .journey-faq-item summary::-webkit-details-marker { display: none; }
+        .journey-faq-item summary::after { content: "+"; font-size: 1.4rem; color: #C9A24B; font-weight: 300; flex-shrink: 0; transition: transform .2s; }
+        .journey-faq-item[open] summary::after { transform: rotate(45deg); }
+        .journey-faq-item p { margin: 0; padding: 14px 24px 20px; font-size: .92rem; color: #667085; line-height: 1.68; border-top: 1px solid rgba(6,36,72,.06); }
+
+        /* ── FINAL CTA ── */
+        .journey-cta-section { background: linear-gradient(135deg, #062448 0%, #0d4f8a 100%); text-align: center; }
+        .journey-cta-section .section-kicker { color: #C9A24B; }
+        .journey-cta-section h2 { color: #fff; font-family: 'Playfair Display', Georgia, serif; }
+        .journey-cta-section p { color: rgba(255,255,255,.72); max-width: 480px; margin: 0 auto 32px; line-height: 1.7; }
+
+        /* ── RESPONSIVE ── */
+        @media(max-width:1024px) {
+            .why-journey-grid { grid-template-columns: 1fr 1fr; }
+            .whats-included-grid { grid-template-columns: repeat(2,1fr); }
+        }
+        @media(max-width:860px) {
+            .featured-journey { grid-template-columns: 1fr; }
+            .featured-journey-img { height: 280px; }
+            .journeys-grid { grid-template-columns: 1fr 1fr; }
+            .designed-grid { grid-template-columns: 1fr; }
+            .designed-img { height: 260px; }
+        }
+        @media(max-width:600px) {
+            /* Trust bar: scroll horizontally to avoid dangling border-right on wrap */
+            .journey-trust-bar .container { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-top: 14px; padding-bottom: 14px; -webkit-mask-image: linear-gradient(to right, white 80%, transparent 100%); mask-image: linear-gradient(to right, white 80%, transparent 100%); }
+            .journey-trust-pill { flex-shrink: 0; white-space: nowrap; padding: 0 14px; font-size: .7rem; }
+            .why-journey-grid { grid-template-columns: 1fr; }
+            .journeys-grid { grid-template-columns: 1fr; }
+            .featured-journey-body { padding: 28px 24px; }
+            .whats-included-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TouristTrip",
+      "name": "Private Multi-Day Journeys Costa Rica",
+      "description": "Bespoke multi-day Costa Rica journeys with private transport, expert guides and personalized planning, romantic escapes, family adventures and volcano retreats.",
+      "url": "https://wildpapagayo.com/paquete",
+      "provider": {
+        "@type": "TravelAgency",
+        "name": "Wild Papagayo",
+        "url": "https://wildpapagayo.com"
+      },
+      "touristType": ["Private Traveler", "Couple", "Family"],
+      "itinerary": {
+        "@type": "ItemList",
+        "name": "Costa Rica Multi-Day Journey Highlights",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Private airport transfer on arrival" },
+          { "@type": "ListItem", "position": 2, "name": "Curated private day tours" },
+          { "@type": "ListItem", "position": 3, "name": "Expert local guide throughout" },
+          { "@type": "ListItem", "position": 4, "name": "Private transfers between destinations" }
+        ]
+      }
+    }
+    </script>
+
+<!-- Google tag (gtag.js) -- deferred until window 'load' so it never competes with LCP/FCP-critical resources -->
+<script>
+window.addEventListener('load', function() {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-9V2MY7J6RJ';
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'G-9V2MY7J6RJ');
+});
+</script>
+</head>
+
+<body>
+<a class="skip-to-content" href="#main-content">Skip to main content</a>
+<header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="/" aria-label="Wild Papagayo Home">
+            <img src="images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" width="160" height="80" loading="eager" fetchpriority="high" decoding="async">
+        </a>
+        <button aria-label="Open menu" aria-expanded="false" aria-controls="main-navigation" class="hamburger">&#9776;</button>
+        <div class="nav-links" id="main-navigation">
+            <a href="/">Home</a>
+            <a href="tours">All Experiences</a>
+            <a href="paquete">Multi-Day Journeys</a>
+            <div class="nav-dropdown">
+                <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">Discover <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div class="nav-dropdown-menu">
+                    <a href="destination-finder">Destinations</a>
+                    <a href="hotels">Hotels</a>
+                    <a href="private-tours/peninsula-papagayo">Tours from Papagayo</a>
+                    <a href="months">When to Visit</a>
+                    <a href="blog/liberia-airport-transfer-guide">Liberia Airport Guide</a>
+                    <a href="waterfalls-near-papagayo-guide">Waterfalls Near Papagayo</a>
+                    <a href="plan-by-traveler-type">Plan by Traveler Type</a>
+                </div>
+            </div>
+            <a href="transport">Transport</a>
+            <a href="guides">Expert Guides</a>
+            <a href="about">Our Story</a>
+            <a href="Blogs">Insider Guide</a>
+            <a href="travel-insurance">Travel Insurance</a>
+            <a href="contact">Connect</a>
+        </div>
+        <a class="btn btn-primary header-cta" href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20want%20to%20plan%20my%20Costa%20Rica%20trip." target="_blank" rel="noopener noreferrer">Plan Your Trip</a>
+    </nav>
+</header>
+
+<main id="main-content">
+
+    <!-- ── HERO ── -->
+    <header class="plain-hero">
+        <div class="container plain-hero-inner">
+            <h1>Your Private Multi-Day Costa Rica Journey.<br>Every Detail. Perfectly Yours.</h1>
+            <p>From the moment you land until your flight home, every transfer, tour and experience is carefully arranged around your travel style.</p>
+            <p style="font-size:.8rem;color:var(--muted);margin:-12px 0 22px;font-weight:600;letter-spacing:.04em;">⚠ Dec – Apr peak season books 3–4 weeks in advance. Secure your dates early.</p>
+            <div class="journey-hero-actions">
+                <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20plan%20a%20private%20multi-day%20journey%20in%20Costa%20Rica." target="_blank" rel="noopener" class="btn btn-primary">Start Planning</a>
+                <a href="#all-journeys" class="btn btn-secondary">Explore Journeys</a>
+            </div>
+        </div>
+        <div class="plain-hero-photo">
+            <img src="images/luxury-costa-rica-tours-hero.webp" alt="Private multi-day Costa Rica journeys" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+        </div>
+    </header>
+
+    <!-- ── TRUST BAR ── -->
+    <div class="journey-trust-bar">
+        <div class="container">
+            <div class="journey-trust-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                33 Experiences
+            </div>
+            <div class="journey-trust-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Private Transportation
+            </div>
+            <div class="journey-trust-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Local Concierge
+            </div>
+            <div class="journey-trust-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                Fully Customizable
+            </div>
+        </div>
+    </div>
+
+    <!-- ── WHY CHOOSE A COMPLETE JOURNEY ── -->
+    <section class="section" style="background:#fff;">
+        <div class="container">
+            <div class="section-head" style="text-align:center;">
+                <span class="section-kicker">Why Book a Complete Journey?</span>
+                <h2 class="section-title">Everything handled.<br>Nothing left to chance.</h2>
+                <p class="lead" style="max-width:560px;margin:0 auto;">One conversation with our team is all it takes. We design, coordinate and confirm every detail, so your only job is to arrive.</p>
+            </div>
+            <div class="why-journey-grid">
+                <div class="why-journey-card reveal">
+                    <div class="why-journey-head">
+                        <svg class="why-journey-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        <h3>One Contact</h3>
+                    </div>
+                    <p>One team coordinates everything. No juggling vendors, no follow-up chains, just a single WhatsApp conversation that covers your whole trip.</p>
+                </div>
+                <div class="why-journey-card reveal">
+                    <div class="why-journey-head">
+                        <svg class="why-journey-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        <h3>Everything Coordinated</h3>
+                    </div>
+                    <p>Transfers, guides, tours and activities all connected. Timing aligns, no gaps, no confusion, every handoff is planned in advance.</p>
+                </div>
+                <div class="why-journey-card reveal">
+                    <div class="why-journey-head">
+                        <svg class="why-journey-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                        <h3>Completely Flexible</h3>
+                    </div>
+                    <p>Change your pace, add a day, skip an activity. Every journey adapts to you, not the other way around. Itineraries are starting points, not contracts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FEATURED JOURNEY ── -->
+    <section class="section" style="background:#EEF6FF;">
+        <div class="container">
+            <div class="section-head" style="text-align:center;margin-bottom:32px;">
+                <span class="section-kicker">Featured Journey</span>
+                <h2 class="section-title">Our most requested journey</h2>
+            </div>
+            <div class="featured-journey reveal">
+                <div class="featured-journey-img">
+                    <img src="images/costaricahighlights1.webp" alt="Costa Rica Highlights, 7-day private journey through rainforests, volcanoes and coast" loading="lazy">
+                </div>
+                <div class="featured-journey-body">
+                    <div class="featured-journey-meta">
+                        <span class="journey-badge journey-badge-gold">7 Days · 6 Nights</span>
+                        <span class="journey-badge journey-badge-light">Private Journey</span>
+                        <span class="journey-badge journey-badge-light">Best for Families &amp; Couples</span>
+                    </div>
+                    <h2>Costa Rica Highlights</h2>
+                    <p>The complete Costa Rica experience, rainforest, volcano, Pacific coast and wildlife, expertly paced over one unforgettable week. Everything arranged, nothing to organize.</p>
+                    <div class="featured-journey-includes">
+                        <div class="fji-item">
+                            <div class="fji-dot"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                            Airport transfer + 6 nights accommodation coordination
+                        </div>
+                        <div class="fji-item">
+                            <div class="fji-dot"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                            Arenal volcano, Rincón de la Vieja, Pacific catamaran
+                        </div>
+                        <div class="fji-item">
+                            <div class="fji-dot"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                            Private bilingual guide throughout
+                        </div>
+                        <div class="fji-item">
+                            <div class="fji-dot"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                            Flexible itinerary, customizable by request
+                        </div>
+                    </div>
+                    <div style="display:flex;gap:12px;flex-wrap:wrap;">
+                        <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20explore%20the%207-Day%20Costa%20Rica%20Highlights%20journey." target="_blank" rel="noopener" class="btn btn-primary">Explore This Journey</a>
+                        <a href="contact" class="btn btn-secondary" style="border-color:rgba(255,255,255,.3);color:#fff;">Request Custom Dates</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── ALL JOURNEYS ── -->
+    <section class="section" id="all-journeys" style="background:#fff;">
+        <div class="container">
+            <div class="section-head" style="text-align:center;margin-bottom:40px;">
+                <span class="section-kicker">Private Journeys</span>
+                <h2 class="section-title">Choose your starting point</h2>
+                <p class="lead" style="max-width:520px;margin:0 auto;">All journeys are customizable. Dates, group size, hotels and activities are confirmed personally via WhatsApp. Multi-day journeys and services involving lodging or special suppliers may have their own deposit and cancellation terms, which we confirm in writing before you pay.</p>
+            </div>
+            <div class="journeys-grid">
+
+                <!-- Romantic Pacific -->
+                <article class="journey-card reveal">
+                    <div class="journey-card-img">
+                        <img src="images/luxury-costa-rica-tours-hero.webp" alt="Romantic Pacific Getaway, private Costa Rica escape for couples" loading="lazy">
+                        <div class="journey-card-ribbon">Best for Couples</div>
+                    </div>
+                    <div class="journey-card-body">
+                        <div class="journey-card-duration">3 Days · 2 Nights</div>
+                        <h3>Romantic Pacific Getaway</h3>
+                        <p>Ocean sunsets, private transfers and curated Pacific beach experiences. Perfectly paced for couples who want to slow down and truly arrive.</p>
+                        <div class="journey-card-tags">
+                            <span class="journey-tag">Private Journey</span>
+                            <span class="journey-tag">Beach &amp; Ocean</span>
+                            <span class="journey-tag">Couples</span>
+                        </div>
+                        <div class="journey-card-includes">
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Private transportation</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Hand-picked experiences</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Flexible itinerary</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Local concierge &amp; planning</div>
+                        </div>
+                        <div class="journey-card-footer">
+                            <div class="journey-card-actions">
+                                <a href="packages/romantic-pacific" class="btn btn-secondary" style="padding:9px 16px;font-size:.82rem;" aria-label="View Romantic Pacific Getaway full itinerary">View Full Itinerary</a>
+                                <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20know%20more%20about%20the%20Romantic%20Pacific%20Getaway." target="_blank" rel="noopener" class="btn btn-primary" style="padding:9px 16px;font-size:.82rem;">Explore This Journey</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Family Adventure -->
+                <article class="journey-card reveal">
+                    <div class="journey-card-img">
+                        <img src="images/waterfalllovers1.webp" alt="Family Adventure Journey, Costa Rica rainforest and wildlife for families" loading="lazy">
+                        <div class="journey-card-ribbon">Best for Families</div>
+                    </div>
+                    <div class="journey-card-body">
+                        <div class="journey-card-duration">4 Days · 3 Nights</div>
+                        <h3>Family Adventure Journey</h3>
+                        <p>Rainforest, waterfall, wildlife and safe family-friendly activities, all paced for children and adults alike. Educational, exciting and stress-free.</p>
+                        <div class="journey-card-tags">
+                            <span class="journey-tag">Private Journey</span>
+                            <span class="journey-tag">Wildlife</span>
+                            <span class="journey-tag">Families</span>
+                        </div>
+                        <div class="journey-card-includes">
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Private transportation</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Bilingual family guide</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Kid-safe activity selection</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Flexible itinerary</div>
+                        </div>
+                        <div class="journey-card-footer">
+                            <div class="journey-card-actions">
+                                <a href="packages/family-adventure" class="btn btn-secondary" style="padding:9px 16px;font-size:.82rem;" aria-label="View Family Adventure Journey full itinerary">View Full Itinerary</a>
+                                <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20know%20more%20about%20the%20Family%20Adventure%20Journey." target="_blank" rel="noopener" class="btn btn-primary" style="padding:9px 16px;font-size:.82rem;">Explore This Journey</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Volcano Escape -->
+                <article class="journey-card reveal">
+                    <div class="journey-card-img">
+                        <img src="images/arenalhotsprings1.webp" alt="Volcano Private Escape, Arenal and Rincón de la Vieja private journey" loading="lazy">
+                        <div class="journey-card-ribbon">Most Popular</div>
+                    </div>
+                    <div class="journey-card-body">
+                        <div class="journey-card-duration">5 Days · 4 Nights</div>
+                        <h3>Volcano Private Escape</h3>
+                        <p>Arenal volcano, hot springs and Rincón de la Vieja, a perfect balance of adventure and relaxation with private transport and expert guidance throughout.</p>
+                        <div class="journey-card-tags">
+                            <span class="journey-tag">Private Journey</span>
+                            <span class="journey-tag">Volcano &amp; Hot Springs</span>
+                            <span class="journey-tag">Adventure</span>
+                        </div>
+                        <div class="journey-card-includes">
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Private transportation</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Volcano &amp; hot springs access</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Certified local guide</div>
+                            <div class="jci-item"><div class="jci-check"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>Hotel coordination included</div>
+                        </div>
+                        <div class="journey-card-footer">
+                            <div class="journey-card-actions">
+                                <a href="packages/volcano-private" class="btn btn-secondary" style="padding:9px 16px;font-size:.82rem;" aria-label="View Volcano Private Escape full itinerary">View Full Itinerary</a>
+                                <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20know%20more%20about%20the%20Volcano%20Private%20Escape." target="_blank" rel="noopener" class="btn btn-primary" style="padding:9px 16px;font-size:.82rem;">Explore This Journey</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── WHAT'S INCLUDED ── -->
+    <section class="section whats-included-section">
+        <div class="container">
+            <div style="text-align:center;">
+                <span class="section-kicker">Your Journey Includes</span>
+                <h2 class="section-title" style="color:#fff;">Everything you need.<br>Nothing you don't.</h2>
+            </div>
+            <div class="whats-included-grid">
+                <div class="wi-item reveal">
+                    <div class="wi-check"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <span class="wi-text">Airport Transfers</span>
+                </div>
+                <div class="wi-item reveal">
+                    <div class="wi-check"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <span class="wi-text">Private Tours</span>
+                </div>
+                <div class="wi-item reveal">
+                    <div class="wi-check"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <span class="wi-text">Local Guides</span>
+                </div>
+                <div class="wi-item reveal">
+                    <div class="wi-check"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <span class="wi-text">Travel Concierge</span>
+                </div>
+                <div class="wi-item reveal">
+                    <div class="wi-check"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <span class="wi-text">Hotel Coordination</span>
+                </div>
+                <div class="wi-item reveal">
+                    <div class="wi-check"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <span class="wi-text">Restaurant Recommendations</span>
+                </div>
+                <div class="wi-item reveal">
+                    <div class="wi-check"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <span class="wi-text">Flexible Schedule</span>
+                </div>
+                <div class="wi-item reveal">
+                    <div class="wi-check"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <span class="wi-text">WhatsApp Support</span>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:44px;">
+                <a class="btn btn-primary" href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20love%20to%20start%20planning%20a%20private%20Costa%20Rica%20journey." target="_blank" rel="noopener noreferrer">Start Planning My Journey →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── DESIGNED AROUND YOU ── -->
+    <section class="section designed-section">
+        <div class="container">
+            <div class="designed-grid">
+                <div class="reveal">
+                    <span class="section-kicker">Designed Around You</span>
+                    <h2 class="section-title" style="margin-top:10px;">We don't sell packages.<br>We design vacations.</h2>
+                    <p class="lead" style="margin-bottom:28px;">You don't buy a package here. You design a journey. Our team listens to what matters most, your pace, your interests, your travel companions, and builds the experience around that.</p>
+                    <div style="display:flex;flex-direction:column;gap:14px;">
+                        <div style="display:flex;align-items:flex-start;gap:12px;">
+                            <span style="width:24px;height:24px;border-radius:50%;background:#062448;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <div>
+                                <strong style="color:#062448;font-size:.93rem;">You tell us the vision</strong>
+                                <p style="margin:2px 0 0;font-size:.85rem;color:#667085;line-height:1.5;">Dates, destinations, travel style, group size. One message is enough to start.</p>
+                            </div>
+                        </div>
+                        <div style="display:flex;align-items:flex-start;gap:12px;">
+                            <span style="width:24px;height:24px;border-radius:50%;background:#062448;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <div>
+                                <strong style="color:#062448;font-size:.93rem;">We build it around you</strong>
+                                <p style="margin:2px 0 0;font-size:.85rem;color:#667085;line-height:1.5;">We propose activities, timing and experiences that match your group's rhythm, then adjust until it feels right.</p>
+                            </div>
+                        </div>
+                        <div style="display:flex;align-items:flex-start;gap:12px;">
+                            <span style="width:24px;height:24px;border-radius:50%;background:#062448;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <div>
+                                <strong style="color:#062448;font-size:.93rem;">You arrive. We handle the rest.</strong>
+                                <p style="margin:2px 0 0;font-size:.85rem;color:#667085;line-height:1.5;">From your first transfer to your last drop-off, every moment is coordinated so you can be fully present.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="designed-img reveal">
+                    <img src="images/waterfalllovers1.webp" alt="Wild Papagayo private journey, designed around you" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FAQ ── -->
+    <section class="section" style="background:#EEF6FF;text-align:center;">
+        <div class="container">
+            <span class="section-kicker">Questions</span>
+            <h2 class="section-title" style="margin-top:10px;">Frequently asked before booking</h2>
+            <div class="journey-faq-list">
+                <details class="journey-faq-item">
+                    <summary>Can I change the itinerary?</summary>
+                    <p>Yes. Every itinerary is a starting point. We adjust activities, add days or completely redesign based on your interests, before or even during the trip.</p>
+                </details>
+                <details class="journey-faq-item">
+                    <summary>Can I choose my own hotels?</summary>
+                    <p>Absolutely. We can work with your existing hotel bookings or help you choose properties that match your style and budget. Either way, we coordinate all logistics.</p>
+                </details>
+                <details class="journey-faq-item">
+                    <summary>Do I have to book every activity?</summary>
+                    <p>No. Journeys are flexible by design. Some travelers love a full day-by-day schedule; others prefer breathing room. We build around what works for you.</p>
+                </details>
+                <details class="journey-faq-item">
+                    <summary>Can I add transportation to my journey?</summary>
+                    <p>Yes. Airport transfers, inter-city routes and daily private transport can be added to any journey. Just let us know your pickup points and we'll build it in.</p>
+                </details>
+                <details class="journey-faq-item">
+                    <summary>Can I extend my stay?</summary>
+                    <p>Of course. We can extend any journey before or after the main dates, add a beach day, an extra night or a final activity. Just let us know what you're thinking.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FINAL CTA ── -->
+    <section class="section journey-cta-section">
+        <div class="container">
+            <span class="section-kicker">Let's Plan Together</span>
+            <h2 class="section-title" style="margin-top:10px;">Let's Build Your Perfect<br>Costa Rica Journey.</h2>
+            <p>No two travelers are alike. Neither are our itineraries. Tell us your dates and we'll design something that's entirely yours.</p>
+            <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+                <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20love%20to%20start%20planning%20a%20private%20Costa%20Rica%20journey." target="_blank" rel="noopener" class="btn btn-primary">Start Planning</a>
+                <a href="contact" class="btn btn-secondary" style="border-color:rgba(255,255,255,.3);color:#fff;">Send a Request</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20need%20help%20planning%20a%20Costa%20Rica%20journey."
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+</a>
+
+<footer class="footer">
+    <div class="container footer-grid footer-grid-clean">
+
+        <div class="footer-brand">
+            <img src="images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180">
+            <p>Exceptional Costa Rica, exclusively curated for discerning travelers.</p>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/wild.papagayo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="footer-social-ig">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+                <a href="https://www.facebook.com/share/1JLByXiV4k/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="footer-social-fb">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="https://wa.me/50688566325" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="footer-social-wa">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <div class="footer-title">Explore</div>
+            <a href="/">Home</a>
+            <a href="tours">All Experiences</a>
+            <a href="paquete">Multi-Day Journeys</a><a href="hotels">Hotels</a>
+            <a href="transport">Transport</a>
+            <a href="guides">Expert Guides</a>
+            <a href="about">Our Story</a>
+            <a href="Blogs">Insider Guide</a>
+            <a href="travel-insurance">Travel Insurance</a>
+            <div class="footer-title footer-title-spaced">Legal</div>
+            <a href="Terminosycondiciones">Terms &amp; Conditions</a>
+            <a href="politicasdecancelacion">Booking &amp; Cancellation Policy</a>
+            <a href="politicasdeprivacidad">Privacy Policy</a>
+        </div>
+
+        <div>
+            <div class="footer-title">Get in Touch</div>
+            <div class="footer-contact">
+                <p>Guanacaste, Costa Rica</p>
+                <p><a href="tel:+50688566325">+506 8856-6325</a></p>
+                <p><a href="mailto:info@wildpapagayo.com">info@wildpapagayo.com</a></p>
+            </div>
+            <p class="footer-ict">Costa Rica - ICT License #491</p>
+        </div>
+
+        <div>
+            <div class="footer-title">Trip Planning Tips</div>
+            <p>Real trip-planning tips, seasonal advice and new tours from our local team. No spam, unsubscribe anytime.</p>
+            <div class="newsletter-form">
+                <label for="newsletterEmail" class="sr-only">Email</label>
+                <input id="newsletterEmail" name="newsletterEmail" type="email" placeholder="Your email address" required>
+                <button class="btn-newsletter" type="button" id="btnNewsletterReal" onclick="enviarNewsletter()">Join</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+        &copy; <span id="year"></span> Wild Papagayo. All rights reserved.
+    </div>
+</footer>
+
+<a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20want%20to%20plan%20a%20private%20Costa%20Rica%20experience."
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+</a>
+
+<script>const _y=document.getElementById('year');if(_y)_y.textContent=new Date().getFullYear();</script>
+<script src="script.js" defer></script><script src="assistant-widget.js" defer></script>
+</body>
+</html>

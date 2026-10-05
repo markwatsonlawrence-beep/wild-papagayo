@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-wildpapagayo.png"><link rel="icon" type="image/svg+xml" href="images/favicon-wildpapagayo.svg">
+    <link rel="preload" href="style.min.css" as="style">
+    <link rel="preload" as="image" href="images/foto-guia-home.webp" fetchpriority="high">
+
+    <title>Private Local Guides Costa Rica | Wild Papagayo</title>
+    <meta name="description" content="Book experienced private local guides in Costa Rica with Wild Papagayo. Personalized guide service, local expertise, tour planning and WhatsApp confirmation.">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="private guide costa rica, local tour guide guanacaste, costa rica private guide, expert nature guide costa rica, wild papagayo guides">
+    <link rel="canonical" href="https://wildpapagayo.com/guides">
+    <link rel="alternate" hreflang="en" href="https://wildpapagayo.com/guides">
+    <link rel="alternate" hreflang="x-default" href="https://wildpapagayo.com/guides">
+    <meta name="author" content="Wild Papagayo">
+    <meta name="theme-color" content="#062448">
+
+    <meta property="og:title" content="Private Local Guides Costa Rica | Wild Papagayo">
+    <meta property="og:description" content="Book experienced Costa Rica private guides for tours, nature experiences and personalized travel support.">
+    <meta property="og:image" content="https://wildpapagayo.com/images/why-3.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wildpapagayo.com/guides">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Private Local Guides Costa Rica | Wild Papagayo">
+    <meta name="twitter:description" content="Experienced local guides for personalized Costa Rica experiences.">
+    <meta name="twitter:image" content="https://wildpapagayo.com/images/why-3.webp">
+
+    <link rel="stylesheet" href="style.min.css" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Wild Papagayo",
+      "url": "https://wildpapagayo.com/",
+      "description": "Premium Costa Rica tours, private transportation and local guide services.",
+      "telephone": "+50688566325",
+      "areaServed": "Costa Rica",
+      "priceRange": "$$$",
+      "image": "https://wildpapagayo.com/images/why-3.webp",
+      "sameAs": [
+        "https://facebook.com/share/1JLByXiV4k/?mibextid=wwXIfr",
+        "https://instagram.com/wild.papagayo"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {
+          "@type":"ListItem",
+          "position":1,
+          "name":"Home",
+          "item":"https://wildpapagayo.com/"
+        },
+        {
+          "@type":"ListItem",
+          "position":2,
+          "name":"Guides",
+          "item":"https://wildpapagayo.com/guides"
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"What's included in a private guide service?","acceptedAnswer":{"@type":"Answer","text":"Our private guide service covers bilingual explanations, trail navigation, wildlife spotting, and personalized itinerary support throughout your experience. Most guests explore with their own rental car; your guide rides along and directs the way. Entry fees to national parks or activities are quoted separately."}},
+      {"@type":"Question","name":"Do I need to pay in advance?","acceptedAnswer":{"@type":"Answer","text":"No payment is required to submit your request. Once we confirm availability, a 25% deposit confirms your guide, and the remaining balance is due no later than 72 hours before the service. Bookings made within 72 hours are paid in full at the time of booking."}},
+      {"@type":"Question","name":"Can I customize the itinerary?","acceptedAnswer":{"@type":"Answer","text":"Absolutely: that's the whole point of a private guide. Tell us your interests, pace and must-see spots and your guide will build a day around you. Want to start at 5 AM for wildlife? No problem. Prefer a slower morning? Done."}},
+      {"@type":"Question","name":"Are your guides certified and insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. All guides hold official Costa Rica Tourism Board (ICT) certification and carry first-aid training. Your safety is non-negotiable."}},
+      {"@type":"Question","name":"How far in advance should I book?","acceptedAnswer":{"@type":"Answer","text":"We recommend booking at least 72 hours ahead to guarantee your preferred guide and date; bookings made within 72 hours are paid in full at the time of booking. During peak season (December–April) 5–7 days in advance is ideal. Last-minute requests? Reach out, we do our best."}},
+      {"@type":"Question","name":"Can my guide meet me if I have my own rental car?","acceptedAnswer":{"@type":"Answer","text":"Yes, this is one of our most flexible options. Your guide can meet you at the trailhead, national park entrance, or any agreed point so you drive your own vehicle while they lead. Just let us know your preference when you book."}}
+    ]}
+    </script>
+    <noscript></noscript>
+    <style>
+        /* Contact preference toggles */
+        .contact-pref-group { display:flex; gap:10px; flex-wrap:wrap; margin-top:8px; }
+        .contact-pref-label { display:flex; align-items:center; gap:9px; cursor:pointer; padding:11px 18px; border:1.5px solid #dde3ec; border-radius:8px; flex:1; min-width:110px; font-size:.88rem; font-weight:600; color:#062448; transition:border-color .18s, background .18s; }
+        .contact-pref-label:has(input:checked) { border-color:#062448; background:#EEF6FF; }
+        .contact-pref-label input[type="radio"] { accent-color:#062448; width:15px; height:15px; flex-shrink:0; }
+        /* Meet Your Guide — mobile stack */
+        @media (max-width: 700px) {
+            .guide-split {
+                grid-template-columns: 1fr !important;
+                min-height: unset !important;
+            }
+            .guide-split-img {
+                min-height: 260px !important;
+                order: -1;
+            }
+            .guide-split-text {
+                padding: 44px 24px !important;
+            }
+            .guide-split-text h2 {
+                font-size: 2rem !important;
+            }
+            .guide-bullets {
+                grid-template-columns: 1fr !important;
+            }
+            /* Hero CTAs: full-width stacked on mobile */
+            .guides-hero-actions { flex-direction: column; gap: 10px; }
+            .guides-hero-actions .btn { width: 100%; text-align: center; box-sizing: border-box; }
+            /* Hero stats: stack vertically to avoid border-right issues */
+            .guides-hero-stats { flex-direction: column; gap: 12px; }
+            .guides-hero-stats > div { border-right: none !important; padding-right: 0 !important; margin-right: 0 !important; }
+        }
+    </style>
+
+<!-- Google tag (gtag.js) -- deferred until window 'load' so it never competes with LCP/FCP-critical resources -->
+<script>
+window.addEventListener('load', function() {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-9V2MY7J6RJ';
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'G-9V2MY7J6RJ');
+});
+</script>
+</head>
+
+<body><a class="skip-to-content" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="/" aria-label="Wild Papagayo Home">
+            <img src="images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" width="160" height="80" loading="eager" fetchpriority="high" decoding="async">
+        </a>
+        <button aria-label="Open menu" aria-expanded="false" aria-controls="main-navigation" class="hamburger">&#9776;</button>
+        <div class="nav-links" id="main-navigation">
+            <a href="/">Home</a>
+            <a href="tours">All Experiences</a>
+            <a href="paquete">Multi-Day Journeys</a>
+            <div class="nav-dropdown">
+                <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">Discover <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div class="nav-dropdown-menu">
+                    <a href="destination-finder">Destinations</a>
+                    <a href="hotels">Hotels</a>
+                    <a href="private-tours/peninsula-papagayo">Tours from Papagayo</a>
+                    <a href="months">When to Visit</a>
+                    <a href="blog/liberia-airport-transfer-guide">Liberia Airport Guide</a>
+                    <a href="waterfalls-near-papagayo-guide">Waterfalls Near Papagayo</a>
+                    <a href="plan-by-traveler-type">Plan by Traveler Type</a>
+                </div>
+            </div>
+            <a href="transport">Transport</a>
+            <a href="guides">Expert Guides</a>
+            <a href="about">Our Story</a>
+            <a href="Blogs">Insider Guide</a>
+            <a href="travel-insurance">Travel Insurance</a>
+            <a href="contact">Connect</a>
+        </div>
+        <a class="btn btn-primary header-cta" href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20want%20to%20plan%20my%20Costa%20Rica%20trip." target="_blank" rel="noopener noreferrer">Plan Your Trip</a>
+    </nav>
+</header>
+
+    <main id="main-content">
+        <header class="plain-hero">
+            <div class="container plain-hero-inner">
+                <h1 class="booking-title">Born in Guanacaste. Your Costa Rica story deserves a guide who actually lives it.</h1>
+                <p class="booking-subtitle">
+                    Not a script. Not a group bus. A real local, someone who knows the exact tree where the scarlet macaws nest at sunrise, and the hidden waterfall the tourists never reach.
+                </p>
+                <div class="booking-trust">
+                    <span class="trust-pill">✓ 100% Private — just your group</span>
+                    <span class="trust-pill">✓ Fully flexible itinerary</span>
+                    <span class="trust-pill">✓ Bilingual · Certified · Local</span>
+                </div>
+                <div class="guides-hero-actions" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:22px;justify-content:center;">
+                    <a href="#guideBookingForm" class="btn btn-primary">Book a Private Guide</a>
+                    <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20book%20a%20private%20guide%20in%20Costa%20Rica." target="_blank" rel="noopener" class="btn btn-secondary">Chat on WhatsApp</a>
+                </div>
+            </div>
+            <div class="plain-hero-photo">
+                <img src="images/luxury-costa-rica-tours-hero.webp" alt="Private local guides in Guanacaste, Costa Rica" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+            </div>
+        </header>
+
+        <!-- ═══ MEET YOUR GUIDE ═══ -->
+        <section style="padding:0;background:#fff;overflow:hidden;">
+            <div class="guide-split" style="display:grid;grid-template-columns:1.2fr 0.8fr;align-items:stretch;min-height:380px;">
+                <div class="guide-split-text" style="background:#FFF9F2;padding:72px max(48px,5vw) 72px max(32px,calc((100vw - 1280px)/2 + 40px));display:flex;flex-direction:column;justify-content:center;">
+                    <div style="width:36px;height:3px;background:#C9A24B;margin-bottom:20px;border-radius:2px;"></div>
+                    <h2 style="font-family:'Playfair Display',serif;color:#062448;font-size:clamp(2.2rem,3.2vw,3.2rem);line-height:1.12;margin:0 0 20px;">
+                        <span style="display:block;">Born here.</span>
+                        <span style="display:block;">ICT certified.</span>
+                        <span style="display:block;">Fluent in adventure.</span>
+                    </h2>
+                    <p style="color:#667085;font-size:.97rem;line-height:1.75;margin:0 0 32px;max-width:400px;">Every guide on our team is a Costa Rican local, trained and certified by the ICT, passionate about sharing what no travel app can replicate.</p>
+                    <div class="guide-bullets" style="display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin-bottom:40px;">
+                        <div style="display:flex;align-items:center;gap:10px;">
+                            <span style="width:20px;height:20px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <span style="font-size:.88rem;font-weight:600;color:#062448;">Born in Costa Rica</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:10px;">
+                            <span style="width:20px;height:20px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <span style="font-size:.88rem;font-weight:600;color:#062448;">ICT Certified</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:10px;">
+                            <span style="width:20px;height:20px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <span style="font-size:.88rem;font-weight:600;color:#062448;">Fluent English</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:10px;">
+                            <span style="width:20px;height:20px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <span style="font-size:.88rem;font-weight:600;color:#062448;">Wildlife Specialist</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:10px;">
+                            <span style="width:20px;height:20px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <span style="font-size:.88rem;font-weight:600;color:#062448;">First Aid Trained</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:10px;">
+                            <span style="width:20px;height:20px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            </span>
+                            <span style="font-size:.88rem;font-weight:600;color:#062448;">Small Groups Only</span>
+                        </div>
+                    </div>
+                    <a href="#book-guide" class="btn btn-primary" style="align-self:flex-start;text-decoration:none;">Book Your Private Guide</a>
+                </div>
+                <div class="guide-split-img" style="overflow:hidden;min-height:380px;position:relative;">
+                    <img src="images/foto-guia-home.webp" alt="Wild Papagayo expert guide with guests in Costa Rica rainforest" style="width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0;" loading="eager" fetchpriority="high">
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ WHY A PRIVATE GUIDE ═══ -->
+        <section style="padding:82px 0;background:#fff;">
+            <div class="container">
+                <h2 style="text-align:center;font-family:'Playfair Display',serif;color:#062448;font-size:2rem;margin-bottom:12px;">Why a private guide changes everything</h2>
+                <p style="text-align:center;color:#667085;max-width:560px;margin:0 auto 48px;font-size:.97rem;line-height:1.65;">Group tours follow a fixed schedule. Our private guides follow <em>yours</em>, adapting to your pace, your interests and the moments that matter most.</p>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;">
+
+                    <div style="padding:36px 28px;border-radius:18px;border:1.5px solid #e4edf8;">
+                        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#062448" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            <h3 style="color:#062448;font-size:1.15rem;margin:0;">Your pace, your schedule</h3>
+                        </div>
+                        <p style="color:#667085;font-size:.9rem;line-height:1.65;margin:0;">Start at sunrise for the best wildlife, linger at a waterfall, or skip the crowd: a private guide adapts every minute of the day to what you want.</p>
+                    </div>
+
+                    <div style="padding:36px 28px;border-radius:18px;border:1.5px solid #e4edf8;">
+                        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8a6e24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 8v4l3 3"/></svg>
+                            <h3 style="color:#062448;font-size:1.15rem;margin:0;">Local insider knowledge</h3>
+                        </div>
+                        <p style="color:#667085;font-size:.9rem;line-height:1.65;margin:0;">Secret swimming holes, the exact tree where the toucans nest, the best local soda for lunch: knowledge you can only get from someone born and raised here.</p>
+                    </div>
+
+                    <div style="padding:36px 28px;border-radius:18px;border:1.5px solid #e4edf8;">
+                        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1aab52" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            <h3 style="color:#062448;font-size:1.15rem;margin:0;">Bilingual & safety-first</h3>
+                        </div>
+                        <p style="color:#667085;font-size:.9rem;line-height:1.65;margin:0;">All our guides are fluent English–Spanish speakers with first-aid certification. Families, seniors and first-time visitors feel safe and cared for at every step.</p>
+                    </div>
+
+                </div>
+                <div style="text-align:center;margin-top:44px;">
+                    <a class="btn btn-primary" href="#guideBookingForm">Book Your Private Guide →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ EXPERTISE AREAS ═══ -->
+        <section style="padding:82px 0;background:#EEF6FF;">
+            <div class="container">
+                <h2 style="text-align:center;font-family:'Playfair Display',serif;color:#062448;font-size:2rem;margin-bottom:48px;">Guide specialty areas</h2>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:20px;">
+
+                    <div style="background:#fff;border-radius:14px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);">
+                        <div style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 12px;border:2px solid #EEF6FF;">
+                            <img src="images/sloth1.webp" alt="Wildlife" style="width:100%;height:100%;object-fit:cover;" loading="lazy">
+                        </div>
+                        <div style="font-weight:700;color:#062448;font-size:.92rem;">Wildlife & Birdwatching</div>
+                        <div style="font-size:.8rem;color:#667085;margin-top:6px;">700+ bird species, monkeys, sloths, iguanas</div>
+                    </div>
+
+                    <div style="background:#fff;border-radius:14px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);">
+                        <div style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 12px;border:2px solid #EEF6FF;">
+                            <img src="images/rincon1.webp" alt="Volcanoes" style="width:100%;height:100%;object-fit:cover;" loading="lazy">
+                        </div>
+                        <div style="font-weight:700;color:#062448;font-size:.92rem;">Volcano & Geothermal</div>
+                        <div style="font-size:.8rem;color:#667085;margin-top:6px;">Rincón de la Vieja, hot springs, mud pools</div>
+                    </div>
+
+                    <div style="background:#fff;border-radius:14px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);">
+                        <div style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 12px;border:2px solid #EEF6FF;">
+                            <img src="images/waterfallpumas1.webp" alt="Waterfalls" style="width:100%;height:100%;object-fit:cover;" loading="lazy">
+                        </div>
+                        <div style="font-weight:700;color:#062448;font-size:.92rem;">Waterfall Trekking</div>
+                        <div style="font-size:.8rem;color:#667085;margin-top:6px;">Hidden falls, jungle trails, natural pools</div>
+                    </div>
+
+                    <div style="background:#fff;border-radius:14px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);">
+                        <div style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 12px;border:2px solid #EEF6FF;">
+                            <img src="images/atvmountain1.webp" alt="Adventure" style="width:100%;height:100%;object-fit:cover;" loading="lazy">
+                        </div>
+                        <div style="font-weight:700;color:#062448;font-size:.92rem;">Adventure & Adrenaline</div>
+                        <div style="font-size:.8rem;color:#667085;margin-top:6px;">Zipline, ATV, surfing, white-water rafting</div>
+                    </div>
+
+                    <div style="background:#fff;border-radius:14px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);">
+                        <div style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 12px;border:2px solid #EEF6FF;">
+                            <img src="images/luxury-costa-rica-tours-hero.webp" alt="Family" style="width:100%;height:100%;object-fit:cover;" loading="lazy">
+                        </div>
+                        <div style="font-weight:700;color:#062448;font-size:.92rem;">Family Adventures</div>
+                        <div style="font-size:.8rem;color:#667085;margin-top:6px;">Kid-friendly, safe, educational and fun</div>
+                    </div>
+
+                    <div style="background:#fff;border-radius:14px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);">
+                        <div style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 12px;border:2px solid #EEF6FF;">
+                            <img src="images/Buenavista1.webp" alt="Photography" style="width:100%;height:100%;object-fit:cover;object-position:center top;" loading="lazy">
+                        </div>
+                        <div style="font-weight:700;color:#062448;font-size:.92rem;">Photography Tours</div>
+                        <div style="font-size:.8rem;color:#667085;margin-top:6px;">Golden hour, wildlife shoots, landscape spots</div>
+                    </div>
+
+                    <div style="background:#fff;border-radius:14px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);">
+                        <div style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 12px;border:2px solid #EEF6FF;">
+                            <img src="images/celeste1.webp" alt="Marine" style="width:100%;height:100%;object-fit:cover;object-position:center bottom;" loading="lazy">
+                        </div>
+                        <div style="font-weight:700;color:#062448;font-size:.92rem;">Marine & Coastal</div>
+                        <div style="font-size:.8rem;color:#667085;margin-top:6px;">Turtle nesting, snorkeling, catamaran tours</div>
+                    </div>
+
+                    <div style="background:#fff;border-radius:14px;padding:24px 16px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06);">
+                        <div style="width:64px;height:64px;border-radius:50%;overflow:hidden;margin:0 auto 12px;border:2px solid #EEF6FF;">
+                            <img src="images/coffeetour1.webp" alt="Culture" style="width:100%;height:100%;object-fit:cover;object-position:center top;" loading="lazy">
+                        </div>
+                        <div style="font-weight:700;color:#062448;font-size:.92rem;">Culture & Coffee</div>
+                        <div style="font-size:.8rem;color:#667085;margin-top:6px;">Guanacaste traditions, markets, coffee farms</div>
+                    </div>
+
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:44px;">
+                <a class="btn btn-primary" href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27d%20like%20to%20book%20a%20private%20guide%20in%20Costa%20Rica." target="_blank" rel="noopener noreferrer">Book a Private Guide →</a>
+            </div>
+        </section>
+
+        <!-- ═══ HOW IT WORKS ═══ -->
+        <section style="padding:82px 0;background:linear-gradient(135deg,#062448 0%,#0d3a6e 100%);">
+            <div class="container">
+                <h2 style="text-align:center;font-family:'Playfair Display',serif;color:#fff;font-size:2rem;margin-bottom:52px;">How booking your guide works</h2>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;position:relative;">
+
+                    <div style="text-align:center;padding:0 24px;position:relative;">
+                        <div style="width:64px;height:64px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:1.5rem;font-weight:800;color:#062448;">1</div>
+                        <h3 style="color:#fff;font-size:1rem;margin:0 0 10px;">Fill the form below</h3>
+                        <p style="color:rgba(255,255,255,.7);font-size:.88rem;line-height:1.6;margin:0;">Tell us your dates, group size, interests and pickup location. Takes 2 minutes.</p>
+                    </div>
+
+                    <div style="text-align:center;padding:0 24px;position:relative;">
+                        <div style="width:64px;height:64px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:1.5rem;font-weight:800;color:#062448;">2</div>
+                        <h3 style="color:#fff;font-size:1rem;margin:0 0 10px;">We match your guide</h3>
+                        <p style="color:rgba(255,255,255,.7);font-size:.88rem;line-height:1.6;margin:0;">We assign the best guide for your interests, language and travel style and confirm availability.</p>
+                    </div>
+
+                    <div style="text-align:center;padding:0 24px;position:relative;">
+                        <div style="width:64px;height:64px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:1.5rem;font-weight:800;color:#062448;">3</div>
+                        <h3 style="color:#fff;font-size:1rem;margin:0 0 10px;">Personal follow-up</h3>
+                        <p style="color:rgba(255,255,255,.7);font-size:.88rem;line-height:1.6;margin:0;">You receive a personal message with your guide's profile, the meeting point and all details.</p>
+                    </div>
+
+                    <div style="text-align:center;padding:0 24px;position:relative;">
+                        <div style="width:64px;height:64px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <h3 style="color:#fff;font-size:1rem;margin:0 0 10px;">Meet & explore</h3>
+                        <p style="color:rgba(255,255,255,.7);font-size:.88rem;line-height:1.6;margin:0;">Your guide picks you up and takes care of everything. Just show up and enjoy Costa Rica.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section booking-shell tour-booking-section" id="book-guide">
+            <div class="container reservation-layout">
+                <div class="reservation-card reveal">
+                    <div class="reservation-top">
+                        <div>
+                            <h2>Start planning your Costa Rica experience</h2>
+                        </div>
+                        <span class="secure-badge">🔒 Secure request</span>
+                    </div>
+
+                    <div class="reservation-body">
+                        <div class="step-row" aria-label="Reservation steps">
+                            <div class="step"><strong>Step 1</strong><span>Your details</span></div>
+                            <div class="step"><strong>Step 2</strong><span>Travel plan</span></div>
+                            <div class="step"><strong>Step 3</strong><span>Email confirmation</span></div>
+                        </div>
+
+                        <form class="premium-form" id="guideBookingForm">
+                            <div class="form-grid two">
+                                <div class="field-group">
+                                    <label for="fullName">Full name *</label>
+                                    <input id="fullName" name="fullName" type="text" placeholder="Example: John Smith" required />
+                                </div>
+
+                                <div class="field-group">
+                                    <label for="whatsappNumber">WhatsApp number *</label>
+                                    <input id="whatsappNumber" name="whatsappNumber" type="tel" placeholder="Country code + phone" required />
+                                </div>
+
+                                <div class="field-group">
+                                    <label for="email">Email</label>
+                                    <input id="email" name="email" type="email" placeholder="your@email.com" />
+                                </div>
+
+                                <div class="field-group">
+                                    <label for="preferredDate">Preferred travel date</label>
+                                    <input id="preferredDate" name="preferredDate" type="date" />
+                                </div>
+
+                                <div class="field-group">
+                                    <label for="serviceType">Service type</label>
+                                    <select id="serviceType" name="serviceType">
+                                        <option value="Tour reservation">Tour reservation</option>
+                                        <option value="Private transportation">Private transportation</option>
+                                        <option value="Private guide service" selected>Private guide service</option>
+                                        <option value="Custom vacation package">Custom vacation package</option>
+                                    </select>
+                                </div>
+
+                                <div class="field-group">
+                                    <label for="travelers">Number of travelers</label>
+                                    <input id="travelers" name="travelers" type="number" min="1" placeholder="2" />
+                                </div>
+
+                                <div class="field-group">
+                                    <label for="pickupLocation">Pickup location</label>
+                                    <input id="pickupLocation" name="pickupLocation" type="text" placeholder="Hotel, Airbnb or airport" />
+                                </div>
+
+                                <div class="field-group">
+                                    <label for="destinationTour">Destination / Tour name</label>
+                                    <input id="destinationTour" name="destinationTour" type="text" placeholder="Catamaran, Arenal, Manuel Antonio..." />
+                                </div>
+
+                                <div class="field-group field-full">
+                                    <label for="reservationNotes">Reservation notes</label>
+                                    <textarea id="reservationNotes" name="reservationNotes" placeholder="Tell us your schedule, hotel name, special requests, ages, luggage, mobility needs or celebration details." rows="5"></textarea>
+                                </div>
+
+                                <div class="field-group field-full">
+                                    <label>How would you like us to contact you?</label>
+                                    <div class="contact-pref-group">
+                                        <label class="contact-pref-label">
+                                            <input type="radio" name="preferredContact" value="Email">
+                                            📧 Email
+                                        </label>
+                                        <label class="contact-pref-label">
+                                            <input type="radio" name="preferredContact" value="WhatsApp">
+                                            💬 WhatsApp
+                                        </label>
+                                        <label class="contact-pref-label">
+                                            <input type="radio" name="preferredContact" value="Either works" checked>
+                                            ✓ Either works
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary premium-submit" id="guideSubmitBtn" style="margin-top:22px;">Send Reservation Request</button>
+                            <div id="guideFormMsg" style="display:none;"></div>
+                            <p class="mini-note">
+                                No payment required. We'll reply within the hour via email, or send us a message on WhatsApp if you prefer a quicker response.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+                <aside class="summary-panel reveal">
+                    <h2 class="summary-title">Your request includes</h2>
+                    <p>We review your dates, pickup details, group size and best available options before confirming.</p>
+
+                    <div class="summary-list">
+                        <div class="summary-item">
+                            <span class="summary-icon">1</span>
+                            <div>
+                                <strong>Check Availability</strong>
+                                <p>We verify date, time, route and supplier availability.</p>
+                            </div>
+                        </div>
+
+                        <div class="summary-item">
+                            <span class="summary-icon">2</span>
+                            <div>
+                                <strong>Clear pricing</strong>
+                                <p>Private tour, self-drive and guide options can be quoted.</p>
+                            </div>
+                        </div>
+
+                        <div class="summary-item">
+                            <span class="summary-icon">3</span>
+                            <div>
+                                <strong>Personal follow-up</strong>
+                                <p>Receive personal assistance and final confirmation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="payment-note">We will confirm availability via your preferred contact method.</div>
+                </aside>
+            </div>
+        </section>
+        <!-- ═══ FAQ ═══ -->
+        <section style="padding:82px 0;background:#fff;">
+            <div class="container" style="max-width:760px;">
+                <h2 style="text-align:center;font-family:'Playfair Display',serif;color:#062448;font-size:2rem;margin-bottom:48px;">Frequently asked questions</h2>
+
+                <div style="display:flex;flex-direction:column;gap:0;border:1.5px solid #e4edf8;border-radius:18px;overflow:hidden;">
+
+                    <details style="border-bottom:1px solid #e4edf8;">
+                        <summary style="padding:22px 24px;font-weight:700;color:#062448;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:.97rem;">
+                            What's included in a private guide service?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="6 9 12 15 18 9"/></svg>
+                        </summary>
+                        <div style="padding:0 24px 22px;color:#667085;font-size:.9rem;line-height:1.7;">Our private guide service covers bilingual explanations, trail navigation, wildlife spotting, and personalized itinerary support throughout your experience. Most guests explore with their own rental car; your guide rides along and directs the way. Entry fees to national parks or activities are quoted separately.</div>
+                    </details>
+
+                    <details style="border-bottom:1px solid #e4edf8;">
+                        <summary style="padding:22px 24px;font-weight:700;color:#062448;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:.97rem;">
+                            Do I need to pay in advance?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="6 9 12 15 18 9"/></svg>
+                        </summary>
+                        <div style="padding:0 24px 22px;color:#667085;font-size:.9rem;line-height:1.7;">No payment is required to submit your request. Once we confirm availability, a 25% deposit confirms your guide, and the remaining balance is due no later than 72 hours before the service. Bookings made within 72 hours are paid in full at the time of booking.</div>
+                    </details>
+
+                    <details style="border-bottom:1px solid #e4edf8;">
+                        <summary style="padding:22px 24px;font-weight:700;color:#062448;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:.97rem;">
+                            Can I customize the itinerary?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="6 9 12 15 18 9"/></svg>
+                        </summary>
+                        <div style="padding:0 24px 22px;color:#667085;font-size:.9rem;line-height:1.7;">Absolutely: that's the whole point of a private guide. Tell us your interests, pace and must-see spots and your guide will build a day around you. Want to start at 5 AM for wildlife? No problem. Prefer a slower morning? Done.</div>
+                    </details>
+
+                    <details style="border-bottom:1px solid #e4edf8;">
+                        <summary style="padding:22px 24px;font-weight:700;color:#062448;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:.97rem;">
+                            Are your guides certified and insured?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="6 9 12 15 18 9"/></svg>
+                        </summary>
+                        <div style="padding:0 24px 22px;color:#667085;font-size:.9rem;line-height:1.7;">Yes. All guides hold official Costa Rica Tourism Board (ICT) certification and carry first-aid training. Your safety is non-negotiable.</div>
+                    </details>
+
+                    <details style="border-bottom:1px solid #e4edf8;">
+                        <summary style="padding:22px 24px;font-weight:700;color:#062448;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:.97rem;">
+                            How far in advance should I book?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="6 9 12 15 18 9"/></svg>
+                        </summary>
+                        <div style="padding:0 24px 22px;color:#667085;font-size:.9rem;line-height:1.7;">We recommend booking at least 72 hours ahead to guarantee your preferred guide and date; bookings made within 72 hours are paid in full at the time of booking. During peak season (December–April) 5–7 days in advance is ideal. Last-minute requests? Reach out, we do our best.</div>
+                    </details>
+
+                    <details>
+                        <summary style="padding:22px 24px;font-weight:700;color:#062448;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:.97rem;">
+                            Can my guide meet me if I have my own rental car?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><polyline points="6 9 12 15 18 9"/></svg>
+                        </summary>
+                        <div style="padding:0 24px 22px;color:#667085;font-size:.9rem;line-height:1.7;">Yes, this is one of our most flexible options. Your guide can meet you at the trailhead, national park entrance, or any agreed point so you drive your own vehicle while they lead. Just let us know your preference when you book.</div>
+                    </details>
+
+                </div>
+
+                <div style="text-align:center;margin-top:48px;padding:40px 32px;background:#EEF6FF;border-radius:18px;">
+                    <h3 style="font-family:'Playfair Display',serif;color:#062448;font-size:1.6rem;margin:0 0 10px;line-height:1.2;">Let's talk.</h3>
+                    <p style="color:#667085;font-size:.95rem;line-height:1.65;margin:0 0 24px;max-width:480px;margin-left:auto;margin-right:auto;">We'll recommend the best guide based on your interests, travel style and destination, just a real conversation, no pressure.</p>
+                    <a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20looking%20for%20a%20private%20guide%20recommendation." target="_blank" rel="noopener" class="btn btn-primary">Chat with a Local Expert</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+ <footer class="footer">
+    <div class="container footer-grid footer-grid-clean">
+
+        <div class="footer-brand">
+            <img src="images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180">
+            <p>Exceptional Costa Rica, exclusively curated for discerning travelers.</p>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/wild.papagayo" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="footer-social-ig">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+                <a href="https://www.facebook.com/share/1JLByXiV4k/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="footer-social-fb">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="https://wa.me/50688566325" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="footer-social-wa">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <div class="footer-title">Explore</div>
+            <a href="/">Home</a>
+            <a href="tours">All Experiences</a>
+            <a href="paquete">Multi-Day Journeys</a><a href="hotels">Hotels</a>
+            <a href="transport">Transport</a>
+            <a href="guides">Expert Guides</a>
+            <a href="about">Our Story</a>
+            <a href="Blogs">Insider Guide</a>
+            <a href="travel-insurance">Travel Insurance</a>
+            <div class="footer-title footer-title-spaced">Legal</div>
+            <a href="Terminosycondiciones">Terms &amp; Conditions</a>
+            <a href="politicasdecancelacion">Booking &amp; Cancellation Policy</a>
+            <a href="politicasdeprivacidad">Privacy Policy</a>
+        </div>
+
+        <div>
+            <div class="footer-title">Get in Touch</div>
+            <div class="footer-contact">
+                <p>Guanacaste, Costa Rica</p>
+                <p><a href="tel:+50688566325">+506 8856-6325</a></p>
+                <p><a href="mailto:info@wildpapagayo.com">info@wildpapagayo.com</a></p>
+            </div>
+            <p class="footer-ict">Costa Rica - ICT License #491</p>
+        </div>
+
+        <div>
+            <div class="footer-title">Trip Planning Tips</div>
+            <p>Real trip-planning tips, seasonal advice and new tours from our local team. No spam, unsubscribe anytime.</p>
+            <div class="newsletter-form">
+                <label for="newsletterEmail" class="sr-only">Email</label>
+                <input id="newsletterEmail" name="newsletterEmail" type="email" placeholder="Your email address" required>
+                <button class="btn-newsletter" type="button" id="btnNewsletterReal" onclick="enviarNewsletter()">Join</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+        &copy; <span id="year"></span> Wild Papagayo. All rights reserved.
+    </div>
+</footer>
+
+<a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20want%20to%20plan%20a%20private%20Costa%20Rica%20experience."
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+</a>
+
+<a href="https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%20want%20to%20book%20a%20private%20guide%20in%20Costa%20Rica."
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+</a>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const year = document.getElementById("year");
+            if (year) year.textContent = new Date().getFullYear();
+
+            const form = document.getElementById("guideBookingForm");
+            const btn  = document.getElementById("guideSubmitBtn");
+            const msg  = document.getElementById("guideFormMsg");
+
+            if (!form) return;
+
+            form.addEventListener("submit", async function (e) {
+                e.preventDefault();
+
+                const fd = new FormData(form);
+                btn.textContent = "Sending…";
+                btn.disabled = true;
+
+                const body = JSON.stringify({
+                    "_subject":         "New Guide Booking — Wild Papagayo",
+                    "_template":        "table",
+                    "_captcha":         "false",
+                    "Full Name":        fd.get("fullName")        || "",
+                    "WhatsApp":         fd.get("whatsappNumber")  || "",
+                    "Email":            fd.get("email")           || "",
+                    "Preferred Date":   fd.get("preferredDate")   || "",
+                    "Service Type":     fd.get("serviceType")     || "",
+                    "Travelers":        fd.get("travelers")       || "",
+                    "Pickup Location":  fd.get("pickupLocation")  || "",
+                    "Tour / Destination": fd.get("destinationTour")  || "",
+                    "Notes":            fd.get("reservationNotes")|| "",
+                "Preferred Contact": fd.get("preferredContact") || "Either works"
+                });
+
+                try {
+                    const res    = await fetch("https://formsubmit.co/ajax/reservas@wildpapagayo.com", {
+                        method:  "POST",
+                        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+                        body
+                    });
+                    const result = await res.json();
+
+                    if (result.success) {
+                        if (typeof trackEvent === "function") {
+                            trackEvent("generate_lead", { lead_type: "private_guide", page_type: "guides" });
+                        }
+                        const waText = encodeURIComponent(
+                            "Hello Wild Papagayo! I just submitted a guide booking request.\n\n" +
+                            "Name: "    + (fd.get("fullName")        || "") + "\n" +
+                            "Date: "    + (fd.get("preferredDate")   || "") + "\n" +
+                            "Travelers: "+ (fd.get("travelers")      || "") + "\n" +
+                            "Tour: "    + (fd.get("destinationTour") || "")
+                        );
+                        form.innerHTML =
+                            '<div style="text-align:center;padding:40px 20px;">' +
+                            '<div style="width:56px;height:56px;border-radius:50%;background:#C9A24B;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;">' +
+                            '<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>' +
+                            '</div>' +
+                            '<h3 style="font-family:\'Playfair Display\',serif;color:#062448;font-size:1.45rem;margin:0 0 10px;">Request Received!</h3>' +
+                            '<p style="color:#667085;margin:0 0 28px;line-height:1.7;max-width:360px;margin-inline:auto;">We\'ll review your request and get back to you within the hour. Check your email for our reply.</p>' +
+                            '<a href="https://wa.me/50688566325?text=' + waText + '" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:6px;background:#25D366;color:#fff;text-decoration:none;font-weight:600;font-size:.9rem;">' +
+                            '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>' +
+                            'Also confirm on WhatsApp</a>' +
+                            '</div>';
+                    } else {
+                        throw new Error("failed");
+                    }
+                } catch (_) {
+                    btn.textContent = "Send Reservation Request";
+                    btn.disabled = false;
+                    const fd2 = new FormData(form);
+                    const waFallback = encodeURIComponent(
+                        "Hello Wild Papagayo! I'd like to request a guide service.\n\n" +
+                        "Name: "    + (fd2.get("fullName")        || "") + "\n" +
+                        "Date: "    + (fd2.get("preferredDate")   || "") + "\n" +
+                        "Service: " + (fd2.get("serviceType")     || "") + "\n" +
+                        "Travelers: "+ (fd2.get("travelers")      || "") + "\n" +
+                        "Tour: "    + (fd2.get("destinationTour") || "") + "\n" +
+                        "Notes: "   + (fd2.get("reservationNotes")|| "")
+                    );
+                    msg.style.display = "block";
+                    msg.innerHTML =
+                        '<div style="margin-top:14px;padding:14px 16px;border-radius:8px;background:#fff3cd;border:1px solid #ffc107;color:#664d03;font-size:.88rem;">' +
+                        '⚠️ Email submission failed. <a href="https://wa.me/50688566325?text=' + waFallback + '" target="_blank" rel="noopener" style="color:#062448;font-weight:600;">Send via WhatsApp instead →</a>' +
+                        '</div>';
+                }
+            });
+        });
+    </script>
+
+    <script src="script.js" defer></script><script src="assistant-widget.js" defer></script>
+</body>
+</html>
