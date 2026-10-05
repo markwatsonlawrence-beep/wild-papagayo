@@ -14,6 +14,7 @@ $knowledgeDir = Join-Path $root "knowledge"
 $reportsDir = Join-Path $root "reports"
 $rulesPath = Join-Path $knowledgeDir "recommendation-rules.json"
 $toursDir = Join-Path $knowledgeDir "tours"
+$pricingJsonPath = Join-Path $root "tour-pricing.json"
 $hotelsDir = Join-Path $knowledgeDir "hotels"
 $destinationsDir = Join-Path $knowledgeDir "destinations"
 $blogPath = Join-Path $root "blog-data.json"
@@ -84,10 +85,35 @@ function ConvertTo-HtmlSafe {
     return [System.Net.WebUtility]::HtmlEncode($Value.ToString())
 }
 
+function Get-CanonicalTourFromPrice {
+    # Same "public starting price" contract tour-generator.ps1's teaser and
+    # tours-catalog-pricing-sync.ps1's catalog cards already use: the
+    # minimum pp_2/pp_3/pp_4plus across every ACTIVE option for this tour in
+    # tour-pricing.json. Returns $null (never 0) when the tour has no
+    # tour-pricing.json entry, no ACTIVE option, or is MANUAL QUOTE only --
+    # recommendations must show the same "no starting price" state the
+    # public page shows, never a guessed number.
+    param([object]$PricingData, [string]$TourId)
+    if ($null -eq $PricingData) { return $null }
+    $entry = Get-ObjectProperty $PricingData.tours $TourId $null
+    if ($null -eq $entry) { return $null }
+    $activeOpts = @(Get-ObjectProperty $entry 'options' @() | Where-Object { (Get-ObjectProperty $_ 'estimator_status' '') -eq 'active' })
+    if ($activeOpts.Count -eq 0) { return $null }
+    $minVal = $null
+    foreach ($opt in $activeOpts) {
+        foreach ($tierField in @('pp_2', 'pp_3', 'pp_4plus')) {
+            $tierVal = Get-ObjectProperty $opt $tierField $null
+            if ($null -ne $tierVal -and ($null -eq $minVal -or [double]$tierVal -lt $minVal)) { $minVal = [double]$tierVal }
+        }
+    }
+    return $minVal
+}
+
 $errors = @()
 $warnings = @()
 
 try { $rules = Read-JsonFile $rulesPath } catch { $errors += $_.Exception.Message; $rules = $null }
+try { $tourPricingData = Read-JsonFile $pricingJsonPath } catch { $errors += $_.Exception.Message; $tourPricingData = $null }
 
 $tours = @()
 if (Test-Path $toursDir) {
@@ -162,8 +188,8 @@ function New-RecommendationItem {
         url = [string](Get-ObjectProperty $Tour "page_url" "")
         image = [string](Get-ObjectProperty $Tour "hero_image" "")
         duration = [string](Get-ObjectProperty $Tour "duration_label" "")
-        from_price = Get-ObjectProperty (Get-ObjectProperty $Tour "pricing" $null) "from_price" $null
-        currency = [string](Get-ObjectProperty (Get-ObjectProperty $Tour "pricing" $null) "currency" "")
+        from_price = Get-CanonicalTourFromPrice -PricingData $tourPricingData -TourId ([string]$Tour.id)
+        currency = "USD"
     }
 }
 
@@ -195,7 +221,7 @@ foreach ($hotel in $hotels) {
         if ($hotelDestination.Length -gt 0 -and $tourDestinations -contains $hotelDestination) { $score += [int]$w.hotel_destination_match; $reasons = Add-Reason $reasons "Matches the hotel destination" }
         if (Test-AnyShared $hotelNearbyDestinations $tourDestinations) { $score += [int]$w.hotel_nearby_destination_match; $reasons = Add-Reason $reasons "Matches a nearby destination" }
         $score += [int]$w.active_tour_bonus
-        $price = Get-ObjectProperty (Get-ObjectProperty $tour "pricing" $null) "from_price" $null
+        $price = Get-CanonicalTourFromPrice -PricingData $tourPricingData -TourId ([string]$tour.id)
         if ($null -ne $price) { $score += [int]$w.priced_tour_bonus }
 
         if ($score -gt 0) { $items += New-RecommendationItem $tour $score $reasons }
@@ -220,7 +246,7 @@ foreach ($destination in $destinations) {
         if ($tourDestinations -contains $destinationId) { $score += [int]$w.tour_destination_match; $reasons = Add-Reason $reasons "Tour takes place in this destination" }
         if (Test-AnyShared $nearbyDestinations $tourDestinations) { $score += [int]$w.tour_nearby_destination_match; $reasons = Add-Reason $reasons "Tour takes place near this destination" }
         $score += [int]$w.active_tour_bonus
-        $price = Get-ObjectProperty (Get-ObjectProperty $tour "pricing" $null) "from_price" $null
+        $price = Get-CanonicalTourFromPrice -PricingData $tourPricingData -TourId ([string]$tour.id)
         if ($null -ne $price) { $score += [int]$w.priced_tour_bonus }
         if ($score -gt 0) { $items += New-RecommendationItem $tour $score $reasons }
     }

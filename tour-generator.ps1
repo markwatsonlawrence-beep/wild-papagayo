@@ -337,39 +337,16 @@ foreach ($file in $files) {
         image=$ogImage
         availableLanguage=@("en","es")
     }
-    # Primary offer price -- pricing.from_price is the single canonical
-    # source of truth for a tour's publicly advertised starting price, but
-    # ONLY once it's been explicitly confirmed (pricing.price_confirmed ==
-    # true). An unconfirmed from_price is a draft value, not a public price.
-    #
-    # If it isn't confirmed, the ONLY allowed fallback is a pricing option
-    # explicitly flagged as the main one (page_content.pricing_tiers.options[].
-    # is_primary == true) -- never array position, and never guide_only
-    # (a guide-only product is not necessarily the same product as the full
-    # tour, so it must never silently become "the" tour price).
-    #
-    # If neither exists, omit offers.price entirely. A missing price in
-    # schema is safer than a wrong or contradicted one.
+    # pricing.from_price / pricing.price_confirmed -- read here only for the
+    # teaser's own legacy fallback below (an unmigrated tour with no
+    # tour-pricing.json options at all). The JSON-LD Offer.price itself no
+    # longer uses these: it's computed further below from the same
+    # tour-pricing.json-derived minimum price as the public teaser (see
+    # "Schema Offer.price" after the Pricing section). $schema is also
+    # finalized there; nothing between here and there reads either variable.
     $pricingBlock = Get-PropertyValue $tour 'pricing' $null
     $canonicalFromPrice = Get-PropertyValue $pricingBlock 'from_price' $null
     $priceConfirmed = [bool](Get-PropertyValue $pricingBlock 'price_confirmed' $false)
-
-    $primaryOfferPrice = $null
-    if ($canonicalFromPrice -and $priceConfirmed) {
-        $primaryOfferPrice = $canonicalFromPrice
-    } else {
-        $pricingTiers = Get-PropertyValue $pc 'pricing_tiers' $null
-        $pricingOptionsList = @(Get-PropertyValue $pricingTiers 'options' @())
-        $explicitMainOption = $pricingOptionsList | Where-Object { [bool](Get-PropertyValue $_ 'is_primary' $false) } | Select-Object -First 1
-        if ($explicitMainOption) {
-            $primaryOfferPrice = Get-PropertyValue $explicitMainOption 'price' $null
-        }
-    }
-
-    if ($primaryOfferPrice) {
-        $touristTrip.offers = [ordered]@{"@type"="Offer";price=[string]$primaryOfferPrice;priceCurrency="USD";availability="https://schema.org/InStock"}
-    }
-    $schema = @{"@context"="https://schema.org";"@graph"=@($breadcrumb,$touristTrip)} | ConvertTo-Json -Depth 10 -Compress
 
     # ---- Hero ----
     $heroRegion = [string](Get-PropertyValue $pc 'hero_region_label' $tour.category)
@@ -651,6 +628,11 @@ foreach ($file in $files) {
     # price_confirmed-gated behavior, unchanged.
     $migratedOptions = @($derivedOptions | Where-Object { $_.estOpt })
     $priceTeaserHtml = ""
+    # Reset every loop iteration -- $winner (below) is only assigned when
+    # this tour has a migrated ACTIVE option; without this reset, a tour
+    # with none (e.g. ostionalturtles, MANUAL QUOTE only) would silently
+    # inherit the previous tour's $winner and leak its price into schema.
+    $winner = $null
     if ($migratedOptions.Count -gt 0) {
         $activeMigrated = @($migratedOptions | Where-Object { $_.estOpt.estimator_status -eq 'active' })
         if ($activeMigrated.Count -gt 0) {
@@ -670,16 +652,14 @@ foreach ($file in $files) {
             $priceTeaserHtml = '<div class="tour-price-teaser reveal" data-option-id="' + (ConvertTo-HtmlSafe $winner.entry.optionId) + '"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + $priceStr + ' <small>p.p.</small></strong></div><p class="tour-from-qualifier">for ' + $guestPhrase + '</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
             $priceValidationChecks.Add([pscustomobject]@{ slug = $slug; optionId = $winner.entry.optionId; expected = $priceStr; isTeaser = $true }) | Out-Null
 
-            # Guardrail: pricing.from_price (gated by pricing.price_confirmed)
-            # is a separate field, read independently by the JSON-LD schema
-            # Offer.price above (see "Primary offer price" block) and by
-            # recommendation-engine.ps1 -- it is NOT derived from
-            # tour-pricing.json and nothing previously checked it against the
-            # tour-pricing.json-derived value this teaser just computed. Catch
-            # silent drift here instead of letting the schema/recommendations
-            # price quietly diverge from the public page price.
+            # pricing.from_price staleness (informational): this field is no
+            # longer read by schema Offer.price (see "Schema Offer.price"
+            # below) or by recommendation-engine.ps1 (both now derive from
+            # tour-pricing.json directly) -- its only remaining reader is
+            # Start-Wild-CMS.ps1's editorial display. Flagged so an editor
+            # knows to refresh it, but never blocks the build.
             if ($priceConfirmed -and $null -ne $canonicalFromPrice -and [double]$canonicalFromPrice -ne $winner.priceInfo.price) {
-                $schemaPriceMismatches.Add("Tour '$id': pricing.from_price is `$$canonicalFromPrice but the tour-pricing.json-derived price is `$$($winner.priceInfo.price) (option '$($winner.entry.optionId)') -- schema Offer.price and recommendations.json will use the stale `$$canonicalFromPrice value.") | Out-Null
+                $schemaPriceMismatches.Add("Tour '$id': pricing.from_price is `$$canonicalFromPrice but the tour-pricing.json-derived price is `$$($winner.priceInfo.price) (option '$($winner.entry.optionId)') -- update knowledge/tours/$id.json's pricing.from_price so the CMS editor doesn't show a stale value (public schema/recommendations already use the correct price).") | Out-Null
             }
         } else {
             $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
@@ -694,6 +674,28 @@ foreach ($file in $files) {
         # instead of implying a specific starting price.
         $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
     }
+
+    # ---- Schema Offer.price ----
+    # Migrated from pricing.from_price/page_content.pricing_tiers.options[].
+    # is_primary to the exact same tour-pricing.json-derived minimum price
+    # the public teaser above just used -- schema can no longer disagree
+    # with the visible page by construction, not just by the guardrail
+    # further below. Mirrors the teaser's own three cases exactly:
+    #   1. A migrated ACTIVE option exists ($winner)      -> use its price.
+    #   2. No migrated option, but a legacy confirmed price -> unchanged
+    #      fallback behavior for an unmigrated tour (none exist today).
+    #   3. Neither (e.g. ostionalturtles, MANUAL QUOTE only) -> omit
+    #      offers.price entirely, same as before.
+    $primaryOfferPrice = $null
+    if ($winner) {
+        $primaryOfferPrice = $winner.priceInfo.price
+    } elseif ($priceConfirmed -and $canonicalFromPrice) {
+        $primaryOfferPrice = $canonicalFromPrice
+    }
+    if ($primaryOfferPrice) {
+        $touristTrip.offers = [ordered]@{"@type"="Offer";price=[string]$primaryOfferPrice;priceCurrency="USD";availability="https://schema.org/InStock"}
+    }
+    $schema = @{"@context"="https://schema.org";"@graph"=@($breadcrumb,$touristTrip)} | ConvertTo-Json -Depth 10 -Compress
 
     # Real per-tour departure time -- "To be confirmed" when not yet verified,
     # rather than a fixed placeholder time that's wrong for most tours.
@@ -883,10 +885,20 @@ if ($pricingMismatches.Count -gt 0) {
 Write-Host "All derived prices verified against tour-pricing.json by Tour Slug + Option ID. 0 mismatches." -ForegroundColor Green
 
 Write-Host ""
-Write-Host "== pricing.from_price / Schema Guardrail ==" -ForegroundColor Cyan
+Write-Host "== pricing.from_price Staleness Check (editorial field, non-blocking) ==" -ForegroundColor Cyan
+# Downgraded from a hard failure to a warning now that schema Offer.price
+# and knowledge/recommendations.json are both migrated to read the
+# tour-pricing.json-derived price directly (see tour-generator.ps1's
+# "Schema Offer.price" section and recommendation-engine.ps1's
+# Get-CanonicalTourFromPrice) -- pricing.from_price no longer drives any
+# public output, so a stale value here is an editorial/CMS-display
+# inconsistency, not a customer-facing price risk. A hard throw would
+# block every build after every legitimate Excel price change until
+# someone hand-edits 33 JSON files, defeating the point of having a
+# single source of truth.
 if ($schemaPriceMismatches.Count -gt 0) {
-    Write-Host "MISMATCHES FOUND: $($schemaPriceMismatches.Count)" -ForegroundColor Red
-    $schemaPriceMismatches | ForEach-Object { Write-Host "  $_" -ForegroundColor Red }
-    throw "pricing.from_price no coincide con el precio derivado de tour-pricing.json para uno o mas tours -- la schema JSON-LD y knowledge/recommendations.json usarian un valor obsoleto. Actualiza pricing.from_price (vease knowledge/tours/<slug>.json) para que coincida antes de continuar."
+    Write-Host "$($schemaPriceMismatches.Count) tour(s) have a stale pricing.from_price (informational only):" -ForegroundColor Yellow
+    $schemaPriceMismatches | ForEach-Object { Write-Host "  $_" -ForegroundColor Yellow }
+} else {
+    Write-Host "pricing.from_price matches tour-pricing.json for every price_confirmed tour. 0 stale values." -ForegroundColor Green
 }
-Write-Host "pricing.from_price checked against tour-pricing.json for every price_confirmed tour. 0 mismatches." -ForegroundColor Green
