@@ -1,6 +1,6 @@
 {
-  "pricing_version": "sha256-e0128036fbcdff49",
-  "generated_at": "2026-10-05T18:05:43.677Z",
+  "pricing_version": "sha256-6b9715ec39bd1694",
+  "generated_at": "2026-10-05T18:39:57.971Z",
   "source_file": "Matriz_Cotizador_Wild_Papagayo_Catalogo_Completo.xlsx",
   "scope": "full-catalogue",
   "zones": {
@@ -68,8 +68,8 @@
           "pp_4plus": 300,
           "zone_adjustment_applies": true,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
+            "a": 0,
+            "b": 0,
             "c": 25
           },
           "notes": null,
@@ -89,8 +89,8 @@
           "pp_4plus": 320,
           "zone_adjustment_applies": true,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
+            "a": 0,
+            "b": 0,
             "c": 30
           },
           "notes": "Hanging Bridges + La Fortuna Waterfall",
@@ -105,8 +105,8 @@
           "pp_4plus": 360,
           "zone_adjustment_applies": true,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
+            "a": 0,
+            "b": 0,
             "c": 30
           },
           "notes": "Hanging Bridges + Hot Springs + La Fortuna Waterfall",
@@ -124,10 +124,10 @@
           "pp_2": 270,
           "pp_3": 220,
           "pp_4plus": 185,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
+            "a": 0,
+            "b": 0,
             "c": 25
           },
           "notes": null,
@@ -145,11 +145,11 @@
           "pp_2": 355,
           "pp_3": 300,
           "pp_4plus": 275,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "4+ mantiene $275 p.p.",
           "source_row": 9
@@ -166,11 +166,11 @@
           "pp_2": 310,
           "pp_3": 250,
           "pp_4plus": 225,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Confirmed by ops -- Classic $310/$250/$225 p.p., Plus $325/$270/$240 p.p.",
           "source_row": 10
@@ -182,11 +182,11 @@
           "pp_2": 325,
           "pp_3": 270,
           "pp_4plus": 240,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Confirmed by ops -- Classic $310/$250/$225 p.p., Plus $325/$270/$240 p.p.",
           "source_row": 47
@@ -203,11 +203,11 @@
           "pp_2": 565,
           "pp_3": 465,
           "pp_4plus": 410,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Adventure Experience + Hanging Bridges + Zip Line (Age 4+)",
           "source_row": 11
@@ -219,11 +219,11 @@
           "pp_2": 585,
           "pp_3": 485,
           "pp_4plus": 430,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Wildlife Experience + Hanging Bridges + Reptiles + Butterfly Garden + Sloth Sanctuary",
           "source_row": 12
@@ -240,11 +240,11 @@
           "pp_2": 500,
           "pp_3": 400,
           "pp_4plus": 360,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 13
@@ -261,11 +261,11 @@
           "pp_2": 425,
           "pp_3": 360,
           "pp_4plus": 325,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 14
@@ -282,11 +282,11 @@
           "pp_2": 480,
           "pp_3": 380,
           "pp_4plus": 330,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Bogarin Trail + Hot Springs + La Fortuna Waterfall (500-step stair)",
           "source_row": 15
@@ -298,11 +298,11 @@
           "pp_2": 480,
           "pp_3": 380,
           "pp_4plus": 330,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Bogarin Trail + Arenal National Park Hike + Hot Springs",
           "source_row": 16
@@ -319,11 +319,11 @@
           "pp_2": 330,
           "pp_3": 285,
           "pp_4plus": 265,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 17
@@ -340,11 +340,11 @@
           "pp_2": 305,
           "pp_3": 250,
           "pp_4plus": 230,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 18
@@ -361,11 +361,11 @@
           "pp_2": 345,
           "pp_3": 290,
           "pp_4plus": 270,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 19
@@ -382,11 +382,11 @@
           "pp_2": 300,
           "pp_3": 245,
           "pp_4plus": 220,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 20
@@ -403,11 +403,11 @@
           "pp_2": 330,
           "pp_3": 275,
           "pp_4plus": 250,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "National Park hike + Oropendola Waterfall + Lunch",
           "source_row": 21
@@ -419,11 +419,11 @@
           "pp_2": 350,
           "pp_3": 295,
           "pp_4plus": 270,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "National Park hike + Oropendola Waterfall + Hot Springs + Volcanic Mud + Lunch",
           "source_row": 22
@@ -440,11 +440,11 @@
           "pp_2": 320,
           "pp_3": 265,
           "pp_4plus": 240,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Llanos de Cortez Waterfall + 90 min Safari Float",
           "source_row": 23
@@ -456,11 +456,11 @@
           "pp_2": 340,
           "pp_3": 285,
           "pp_4plus": 260,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Llanos de Cortez Waterfall + Safari Float + Las Pumas Rescue Center",
           "source_row": 24
@@ -479,8 +479,8 @@
           "pp_4plus": 205,
           "zone_adjustment_applies": true,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
+            "a": 0,
+            "b": 0,
             "c": 25
           },
           "notes": null,
@@ -498,11 +498,11 @@
           "pp_2": null,
           "pp_3": null,
           "pp_4plus": null,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 26
@@ -519,11 +519,11 @@
           "pp_2": 330,
           "pp_3": 275,
           "pp_4plus": 250,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Horseback Riding + Chorrera + Oropendola + Rio Negro Waterfall",
           "source_row": 27
@@ -535,11 +535,11 @@
           "pp_2": 350,
           "pp_3": 295,
           "pp_4plus": 270,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Classic activities + Hot Springs / Volcanic Mud at Rio Negro",
           "source_row": 28
@@ -556,11 +556,11 @@
           "pp_2": 320,
           "pp_3": 260,
           "pp_4plus": 235,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 29
@@ -577,11 +577,11 @@
           "pp_2": 335,
           "pp_3": 275,
           "pp_4plus": 245,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 30
@@ -598,11 +598,11 @@
           "pp_2": 325,
           "pp_3": 280,
           "pp_4plus": 255,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "La Leona Waterfall + Lunch + Zip Line",
           "source_row": 31
@@ -614,11 +614,11 @@
           "pp_2": 325,
           "pp_3": 280,
           "pp_4plus": 255,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "La Leona Waterfall + Lunch + Tubing",
           "source_row": 32
@@ -635,11 +635,11 @@
           "pp_2": 420,
           "pp_3": 370,
           "pp_4plus": 340,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 33
@@ -656,11 +656,11 @@
           "pp_2": 340,
           "pp_3": 290,
           "pp_4plus": 270,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 34
@@ -677,11 +677,11 @@
           "pp_2": 265,
           "pp_3": 225,
           "pp_4plus": 210,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 35
@@ -698,11 +698,11 @@
           "pp_2": 300,
           "pp_3": 255,
           "pp_4plus": 240,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 36
@@ -719,11 +719,11 @@
           "pp_2": 285,
           "pp_3": 220,
           "pp_4plus": 190,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Zip Line 11 cables + Extreme 3 cables (Superman + Tarzan Swing)",
           "source_row": 37
@@ -735,11 +735,11 @@
           "pp_2": 345,
           "pp_3": 300,
           "pp_4plus": 285,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Classic + 2-hour ATV",
           "source_row": 38
@@ -756,11 +756,11 @@
           "pp_2": 345,
           "pp_3": 290,
           "pp_4plus": 270,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 39
@@ -777,11 +777,11 @@
           "pp_2": 360,
           "pp_3": 295,
           "pp_4plus": 265,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 40
@@ -798,11 +798,11 @@
           "pp_2": 300,
           "pp_3": 260,
           "pp_4plus": 245,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 41
@@ -819,11 +819,11 @@
           "pp_2": 250,
           "pp_3": 220,
           "pp_4plus": 205,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 42
@@ -840,11 +840,11 @@
           "pp_2": 275,
           "pp_3": 235,
           "pp_4plus": 220,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Zip Line + traditional cultural experience",
           "source_row": 43
@@ -856,11 +856,11 @@
           "pp_2": 395,
           "pp_3": 360,
           "pp_4plus": 340,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Zip Line + ATV + cultural experience + horseback riding + traditional lunch",
           "source_row": 44
@@ -877,11 +877,11 @@
           "pp_2": 370,
           "pp_3": 315,
           "pp_4plus": 295,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": null,
           "source_row": 45
@@ -898,11 +898,11 @@
           "pp_2": 395,
           "pp_3": 345,
           "pp_4plus": 325,
-          "zone_adjustment_applies": true,
+          "zone_adjustment_applies": false,
           "zone_adjustment": {
-            "a": null,
-            "b": null,
-            "c": null
+            "a": 0,
+            "b": 0,
+            "c": 0
           },
           "notes": "Waterfall Rappel + Tarzan Swing + River Tubing + Lunch",
           "source_row": 46
