@@ -116,8 +116,8 @@ foreach ($category in @(
 # ---- Riu-specific required checks (Section 12/Step 4's ongoing guard) ----
 $riuGuanacasteHotel = @($hotels | Where-Object { $_.name -eq 'Hotel Riu Guanacaste' })
 $riuPalaceHotel = @($hotels | Where-Object { $_.name -eq 'Hotel Riu Palace Costa Rica' })
-$riuGuanacasteTransfer = @($transfers | Where-Object { $_.url -eq '/transfers/liberia-airport-to-riu-guanacaste.html' })
-$riuPalaceTransfer = @($transfers | Where-Object { $_.url -eq '/transfers/liberia-airport-to-riu-palace-costa-rica.html' })
+$riuGuanacasteTransfer = @($transfers | Where-Object { $_.url -eq '/transfers/liberia-airport-to-riu-guanacaste' })
+$riuPalaceTransfer = @($transfers | Where-Object { $_.url -eq '/transfers/liberia-airport-to-riu-palace-costa-rica' })
 
 if ($riuGuanacasteHotel.Count -eq 0) { Add-ValidationError "Hotel Riu Guanacaste is missing from the hotels category" }
 if ($riuPalaceHotel.Count -eq 0) { Add-ValidationError "Hotel Riu Palace Costa Rica is missing from the hotels category" }
