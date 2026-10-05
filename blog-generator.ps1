@@ -875,9 +875,21 @@ foreach ($a in $articles) {
     }
 
     # ── Previous / Next navigation (list order in blog-data.json) ──
+    # Must skip non-published neighbors (e.g. status "draft") -- the same
+    # status gate already applied above to decide whether to render a page
+    # at all, or a published article's Next/Previous nav links to a slug
+    # that was never given a page.
     $prevNextHtml = ""
-    $prevPart = if ($articleIndex -gt 0) { $articles[$articleIndex - 1] } else { $null }
-    $nextPart = if ($articleIndex -lt ($articles.Count - 1)) { $articles[$articleIndex + 1] } else { $null }
+    $prevPart = $null
+    for ($pi = $articleIndex - 1; $pi -ge 0; $pi--) {
+        $cand = $articles[$pi]
+        if (-not $cand.status -or [string]$cand.status -eq 'published') { $prevPart = $cand; break }
+    }
+    $nextPart = $null
+    for ($ni = $articleIndex + 1; $ni -lt $articles.Count; $ni++) {
+        $cand = $articles[$ni]
+        if (-not $cand.status -or [string]$cand.status -eq 'published') { $nextPart = $cand; break }
+    }
     if ($prevPart -or $nextPart) {
         $prevHtml = if ($prevPart) { "<a href=`"$($prevPart.slug)`"><small>&larr; Previous</small><strong>$($prevPart.title)</strong></a>" } else { "<span></span>" }
         $nextHtml = if ($nextPart) { "<a class=`"blog-next`" href=`"$($nextPart.slug)`"><small>Next &rarr;</small><strong>$($nextPart.title)</strong></a>" } else { "<span></span>" }

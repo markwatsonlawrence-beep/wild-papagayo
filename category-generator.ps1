@@ -45,6 +45,12 @@ $header = Component "header"
 $footer = Component "footer"
 $ctaTemplate = Component "cta"
 $articles = @(Read-Utf8Json $blogPath)
+# Same status gate blog-generator.ps1 applies before rendering a page: an
+# article whose status is explicitly something other than "published"
+# (e.g. "draft") never gets its own page, so category listings must not
+# link to it either. Missing status defaults to published for backward
+# compatibility with older records that never had the field.
+$articles = @($articles | Where-Object { -not $_.status -or [string]$_.status -eq 'published' })
 $heroImage = "images/luxury-costa-rica-tours-hero.webp"
 
 $categoriesPath = Join-Path $root "knowledge/categories.json"

@@ -65,6 +65,10 @@ if (Test-Path $toursDir) {
 $blogPath = Join-Path $root 'blog-data.json'
 if (Test-Path $blogPath) {
     $articles = @(Read-Utf8Json $blogPath)
+    # Strict publication gate: only status "published" is listed (an
+    # article never gets its own /blog/ page otherwise, per
+    # blog-generator.ps1's own gate, so listing it here would be a dead link).
+    $articles = @($articles | Where-Object { -not $_.status -or [string]$_.status -eq 'published' })
     if ($articles.Count -gt 0) {
         $lines.Add("## Travel Guides")
         foreach ($a in $articles) {
