@@ -228,6 +228,7 @@ function Get-PricingDisclaimer {
 # This is what stops a future code change from silently reintroducing a
 # legacy/stale price without anyone noticing.
 $priceValidationChecks = New-Object System.Collections.Generic.List[object]
+$schemaPriceMismatches = New-Object System.Collections.Generic.List[object]
 
 $files = Get-ChildItem $tourDir -Filter "*.json" -File | Sort-Object Name
 $generated = 0
@@ -668,6 +669,18 @@ foreach ($file in $files) {
             $teaserBadge = $winner.entry.editorial.badge
             $priceTeaserHtml = '<div class="tour-price-teaser reveal" data-option-id="' + (ConvertTo-HtmlSafe $winner.entry.optionId) + '"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + $priceStr + ' <small>p.p.</small></strong></div><p class="tour-from-qualifier">for ' + $guestPhrase + '</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
             $priceValidationChecks.Add([pscustomobject]@{ slug = $slug; optionId = $winner.entry.optionId; expected = $priceStr; isTeaser = $true }) | Out-Null
+
+            # Guardrail: pricing.from_price (gated by pricing.price_confirmed)
+            # is a separate field, read independently by the JSON-LD schema
+            # Offer.price above (see "Primary offer price" block) and by
+            # recommendation-engine.ps1 -- it is NOT derived from
+            # tour-pricing.json and nothing previously checked it against the
+            # tour-pricing.json-derived value this teaser just computed. Catch
+            # silent drift here instead of letting the schema/recommendations
+            # price quietly diverge from the public page price.
+            if ($priceConfirmed -and $null -ne $canonicalFromPrice -and [double]$canonicalFromPrice -ne $winner.priceInfo.price) {
+                $schemaPriceMismatches.Add("Tour '$id': pricing.from_price is `$$canonicalFromPrice but the tour-pricing.json-derived price is `$$($winner.priceInfo.price) (option '$($winner.entry.optionId)') -- schema Offer.price and recommendations.json will use the stale `$$canonicalFromPrice value.") | Out-Null
+            }
         } else {
             $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
         }
@@ -868,3 +881,12 @@ if ($pricingMismatches.Count -gt 0) {
     throw "Derived public pricing validation failed -- refusing to leave a build with a price mismatch between tour-pricing.json and the generated HTML."
 }
 Write-Host "All derived prices verified against tour-pricing.json by Tour Slug + Option ID. 0 mismatches." -ForegroundColor Green
+
+Write-Host ""
+Write-Host "== pricing.from_price / Schema Guardrail ==" -ForegroundColor Cyan
+if ($schemaPriceMismatches.Count -gt 0) {
+    Write-Host "MISMATCHES FOUND: $($schemaPriceMismatches.Count)" -ForegroundColor Red
+    $schemaPriceMismatches | ForEach-Object { Write-Host "  $_" -ForegroundColor Red }
+    throw "pricing.from_price no coincide con el precio derivado de tour-pricing.json para uno o mas tours -- la schema JSON-LD y knowledge/recommendations.json usarian un valor obsoleto. Actualiza pricing.from_price (vease knowledge/tours/<slug>.json) para que coincida antes de continuar."
+}
+Write-Host "pricing.from_price checked against tour-pricing.json for every price_confirmed tour. 0 mismatches." -ForegroundColor Green
