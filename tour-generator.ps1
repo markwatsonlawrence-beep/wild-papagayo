@@ -703,9 +703,21 @@ foreach ($file in $files) {
     $departureOptionHtml = if ($departureTime) { '<option>' + (ConvertTo-HtmlSafe $departureTime) + '</option>' } else { '<option>To be confirmed</option>' }
 
     # ---- Quick stats ----
+    # Difficulty always comes from the single canonical field (tour.difficulty)
+    # -- never from a per-tour quick_stats override, which used to let the two
+    # silently drift apart (quick_stats.difficulty is retired from
+    # knowledge/tours/*.json). The quick-stats panel's duration badge needs a
+    # short type string ("Full Day"/"Half Day"), distinct from the long
+    # customer-facing duration_label ("Full Day (approx. 8 hours)") used
+    # everywhere else -- so its one canonical source is intelligence.duration_type
+    # (quick_stats.duration is retired the same way). availability and best_for
+    # remain legitimate quick_stats-only fields (no canonical equivalent /
+    # best_for here is a genuinely different, page-specific taxonomy from the
+    # top-level best_for used by other generators), so they keep reading from
+    # quick_stats with their existing fallback.
     $qs = Get-PropertyValue $pc 'quick_stats' $null
-    $qsDifficulty = if ($qs -and $qs.difficulty) { [string]$qs.difficulty } else { [string]$tour.difficulty }
-    $qsDuration = if ($qs -and $qs.duration) { [string]$qs.duration } else { [string]$tour.duration_label }
+    $qsDifficulty = [string]$tour.difficulty
+    $qsDuration = [string](Get-PropertyValue $tour.intelligence 'duration_type' $tour.duration_label)
     $qsAvailability = if ($qs -and $qs.availability) { [string]$qs.availability } else { "Daily" }
     $bestFor = if ($qs -and $qs.best_for) { @($qs.best_for) } else { @(Get-PropertyValue $tour 'best_for' @()) }
     $qsBestForHtml = ($bestFor | ForEach-Object { '<span>' + (ConvertTo-HtmlSafe $_) + '</span>' }) -join "`n"
