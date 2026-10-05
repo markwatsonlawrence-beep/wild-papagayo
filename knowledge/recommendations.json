@@ -1,6 +1,6 @@
 {
     "version":  "1.0",
-    "generated_at":  "2026-10-04T18:00:44.9911460-06:00",
+    "generated_at":  "2026-10-05T11:43:15.7932248-06:00",
     "rules_file":  "knowledge/recommendation-rules.json",
     "counts":  {
                    "hotels":  21,
@@ -235,7 +235,7 @@
                                                              "url":  "../tours/oropendolahotsprings",
                                                              "image":  "images/oropendola1.webp",
                                                              "duration":  "Half Day (approx. 5-6 hours)",
-                                                             "from_price":  235,
+                                                             "from_price":  205,
                                                              "currency":  "USD"
                                                          }
                                                      ],
@@ -497,7 +497,7 @@
                                                          "url":  "../tours/oropendolahotsprings",
                                                          "image":  "images/oropendola1.webp",
                                                          "duration":  "Half Day (approx. 5-6 hours)",
-                                                         "from_price":  235,
+                                                         "from_price":  205,
                                                          "currency":  "USD"
                                                      },
                                                      {
@@ -617,7 +617,7 @@
                                                                "url":  "../tours/oropendolahotsprings",
                                                                "image":  "images/oropendola1.webp",
                                                                "duration":  "Half Day (approx. 5-6 hours)",
-                                                               "from_price":  235,
+                                                               "from_price":  205,
                                                                "currency":  "USD"
                                                            }
                                                        ],
@@ -1069,7 +1069,7 @@
                                                                                                       "url":  "../tours/oropendolahotsprings",
                                                                                                       "image":  "images/oropendola1.webp",
                                                                                                       "duration":  "Half Day (approx. 5-6 hours)",
-                                                                                                      "from_price":  235,
+                                                                                                      "from_price":  205,
                                                                                                       "currency":  "USD"
                                                                                                   }
                                                                                               ],
@@ -1652,7 +1652,7 @@
                                                      "url":  "../tours/costaricahighlights",
                                                      "image":  "images/costaricahighlights1.webp",
                                                      "duration":  "Full Day (approx. 10 hours)",
-                                                     "from_price":  330,
+                                                     "from_price":  300,
                                                      "currency":  "USD"
                                                  },
                                                  {
@@ -1949,7 +1949,7 @@
                                                              "url":  "../tours/oropendolahotsprings",
                                                              "image":  "images/oropendola1.webp",
                                                              "duration":  "Half Day (approx. 5-6 hours)",
-                                                             "from_price":  235,
+                                                             "from_price":  205,
                                                              "currency":  "USD"
                                                          },
                                                          {
@@ -2298,7 +2298,7 @@
                                                                                      "url":  "../tours/costaricahighlights",
                                                                                      "image":  "images/costaricahighlights1.webp",
                                                                                      "duration":  "Full Day (approx. 10 hours)",
-                                                                                     "from_price":  330,
+                                                                                     "from_price":  300,
                                                                                      "currency":  "USD"
                                                                                  },
                                                                                  {
@@ -2372,7 +2372,7 @@
                                                                                      "url":  "../tours/costaricahighlights",
                                                                                      "image":  "images/costaricahighlights1.webp",
                                                                                      "duration":  "Full Day (approx. 10 hours)",
-                                                                                     "from_price":  330,
+                                                                                     "from_price":  300,
                                                                                      "currency":  "USD"
                                                                                  }
                                                                              ],
@@ -2660,7 +2660,7 @@
                                                                                         "url":  "../tours/costaricahighlights",
                                                                                         "image":  "images/costaricahighlights1.webp",
                                                                                         "duration":  "Full Day (approx. 10 hours)",
-                                                                                        "from_price":  330,
+                                                                                        "from_price":  300,
                                                                                         "currency":  "USD"
                                                                                     },
                                                                                     {
@@ -3076,7 +3076,7 @@
                                                                                         "url":  "../tours/oropendolahotsprings",
                                                                                         "image":  "images/oropendola1.webp",
                                                                                         "duration":  "Half Day (approx. 5-6 hours)",
-                                                                                        "from_price":  235,
+                                                                                        "from_price":  205,
                                                                                         "currency":  "USD"
                                                                                     },
                                                                                     {
@@ -3122,7 +3122,7 @@
                                                                                          "url":  "../tours/costaricahighlights",
                                                                                          "image":  "images/costaricahighlights1.webp",
                                                                                          "duration":  "Full Day (approx. 10 hours)",
-                                                                                         "from_price":  330,
+                                                                                         "from_price":  300,
                                                                                          "currency":  "USD"
                                                                                      },
                                                                                      {
@@ -3261,7 +3261,7 @@
                                                                          "url":  "../tours/costaricahighlights",
                                                                          "image":  "images/costaricahighlights1.webp",
                                                                          "duration":  "Full Day (approx. 10 hours)",
-                                                                         "from_price":  330,
+                                                                         "from_price":  300,
                                                                          "currency":  "USD"
                                                                      }
                                                                  ],
@@ -3319,7 +3319,7 @@
                                                            "url":  "../tours/costaricahighlights",
                                                            "image":  "images/costaricahighlights1.webp",
                                                            "duration":  "Full Day (approx. 10 hours)",
-                                                           "from_price":  330,
+                                                           "from_price":  300,
                                                            "currency":  "USD"
                                                        }
                                                    ],
@@ -3377,7 +3377,7 @@
                                                                               "url":  "../tours/costaricahighlights",
                                                                               "image":  "images/costaricahighlights1.webp",
                                                                               "duration":  "Full Day (approx. 10 hours)",
-                                                                              "from_price":  330,
+                                                                              "from_price":  300,
                                                                               "currency":  "USD"
                                                                           }
                                                                       ],
@@ -4009,7 +4009,7 @@
                                                             "url":  "../tours/costaricahighlights",
                                                             "image":  "images/costaricahighlights1.webp",
                                                             "duration":  "Full Day (approx. 10 hours)",
-                                                            "from_price":  330,
+                                                            "from_price":  300,
                                                             "currency":  "USD"
                                                         }
                                                     ],
@@ -4130,7 +4130,7 @@
                                                            "url":  "../tours/costaricahighlights",
                                                            "image":  "images/costaricahighlights1.webp",
                                                            "duration":  "Full Day (approx. 10 hours)",
-                                                           "from_price":  330,
+                                                           "from_price":  300,
                                                            "currency":  "USD"
                                                        }
                                                    ],
@@ -4189,7 +4189,7 @@
                                                                "url":  "../tours/oropendolahotsprings",
                                                                "image":  "images/oropendola1.webp",
                                                                "duration":  "Half Day (approx. 5-6 hours)",
-                                                               "from_price":  235,
+                                                               "from_price":  205,
                                                                "currency":  "USD"
                                                            }
                                                        ],
@@ -4313,7 +4313,7 @@
                                                            "url":  "../tours/costaricahighlights",
                                                            "image":  "images/costaricahighlights1.webp",
                                                            "duration":  "Full Day (approx. 10 hours)",
-                                                           "from_price":  330,
+                                                           "from_price":  300,
                                                            "currency":  "USD"
                                                        }
                                                    ],
@@ -4742,7 +4742,7 @@
                                                           "url":  "../tours/costaricahighlights",
                                                           "image":  "images/costaricahighlights1.webp",
                                                           "duration":  "Full Day (approx. 10 hours)",
-                                                          "from_price":  330,
+                                                          "from_price":  300,
                                                           "currency":  "USD"
                                                       }
                                                   ],
@@ -4820,7 +4820,7 @@
                                                                 "url":  "../tours/costaricahighlights",
                                                                 "image":  "images/costaricahighlights1.webp",
                                                                 "duration":  "Full Day (approx. 10 hours)",
-                                                                "from_price":  330,
+                                                                "from_price":  300,
                                                                 "currency":  "USD"
                                                             },
                                                             {
@@ -5095,7 +5095,7 @@
                                                          "url":  "../tours/costaricahighlights",
                                                          "image":  "images/costaricahighlights1.webp",
                                                          "duration":  "Full Day (approx. 10 hours)",
-                                                         "from_price":  330,
+                                                         "from_price":  300,
                                                          "currency":  "USD"
                                                      },
                                                      {
@@ -5155,7 +5155,7 @@
                                                                           "url":  "../tours/costaricahighlights",
                                                                           "image":  "images/costaricahighlights1.webp",
                                                                           "duration":  "Full Day (approx. 10 hours)",
-                                                                          "from_price":  330,
+                                                                          "from_price":  300,
                                                                           "currency":  "USD"
                                                                       },
                                                                       {
@@ -5273,7 +5273,7 @@
                                                                 "url":  "../tours/costaricahighlights",
                                                                 "image":  "images/costaricahighlights1.webp",
                                                                 "duration":  "Full Day (approx. 10 hours)",
-                                                                "from_price":  330,
+                                                                "from_price":  300,
                                                                 "currency":  "USD"
                                                             },
                                                             {
@@ -5520,7 +5520,7 @@
                                                               "url":  "../tours/costaricahighlights",
                                                               "image":  "images/costaricahighlights1.webp",
                                                               "duration":  "Full Day (approx. 10 hours)",
-                                                              "from_price":  330,
+                                                              "from_price":  300,
                                                               "currency":  "USD"
                                                           },
                                                           {
@@ -5642,7 +5642,7 @@
                                                               "url":  "../tours/costaricahighlights",
                                                               "image":  "images/costaricahighlights1.webp",
                                                               "duration":  "Full Day (approx. 10 hours)",
-                                                              "from_price":  330,
+                                                              "from_price":  300,
                                                               "currency":  "USD"
                                                           },
                                                           {
@@ -5809,7 +5809,7 @@
                                                            "url":  "../tours/costaricahighlights",
                                                            "image":  "images/costaricahighlights1.webp",
                                                            "duration":  "Full Day (approx. 10 hours)",
-                                                           "from_price":  330,
+                                                           "from_price":  300,
                                                            "currency":  "USD"
                                                        },
                                                        {
@@ -5901,7 +5901,7 @@
                                                           "url":  "../tours/costaricahighlights",
                                                           "image":  "images/costaricahighlights1.webp",
                                                           "duration":  "Full Day (approx. 10 hours)",
-                                                          "from_price":  330,
+                                                          "from_price":  300,
                                                           "currency":  "USD"
                                                       }
                                                   ]

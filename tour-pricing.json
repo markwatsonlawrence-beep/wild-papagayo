@@ -1,6 +1,6 @@
 {
-  "pricing_version": "sha256-b4bfe8a17e5bb3ca",
-  "generated_at": "2026-09-16T02:02:11.708Z",
+  "pricing_version": "sha256-d5989e1c1a8f830d",
+  "generated_at": "2026-10-05T17:25:14.241Z",
   "source_file": "Matriz_Cotizador_Wild_Papagayo_Catalogo_Completo.xlsx",
   "scope": "full-catalogue",
   "zones": {
@@ -47,6 +47,10 @@
       "zone": "a"
     },
     {
+      "name": "Westin Reserva Conchal",
+      "zone": "c"
+    },
+    {
       "name": "Other / Not listed",
       "zone": "especial"
     }
@@ -59,14 +63,14 @@
           "id": "full-experience",
           "label": "Full Experience",
           "estimator_status": "active",
-          "pp_2": 485,
-          "pp_3": 385,
-          "pp_4plus": 330,
+          "pp_2": 400,
+          "pp_3": 350,
+          "pp_4plus": 300,
           "zone_adjustment_applies": false,
           "zone_adjustment": {
             "a": null,
             "b": null,
-            "c": null
+            "c": 25
           },
           "notes": null,
           "source_row": 5
@@ -470,14 +474,14 @@
           "id": "full-experience",
           "label": "Full Experience",
           "estimator_status": "active",
-          "pp_2": 320,
-          "pp_3": 260,
-          "pp_4plus": 235,
+          "pp_2": 285,
+          "pp_3": 240,
+          "pp_4plus": 205,
           "zone_adjustment_applies": false,
           "zone_adjustment": {
             "a": null,
             "b": null,
-            "c": null
+            "c": 25
           },
           "notes": null,
           "source_row": 25
