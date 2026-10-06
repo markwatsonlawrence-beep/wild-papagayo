@@ -214,7 +214,7 @@ window.addEventListener('load', function() {
 </script>
 </head>
 
-<body>
+<body data-tour-slug="horsebackaromal">
     <header class="site-header">
         <nav class="nav container" aria-label="Main navigation">
             <a class="brand" href="../">
@@ -574,11 +574,12 @@ window.addEventListener('load', function() {
                 // Non-PII only: tour/package/zone/guests/price numbers -- never
                 // name, email, phone or message (those live in `d`, not here).
                 var s = window.WPEstimatorState;
-                gtag('event', 'quote_form_submitted', {
+                var attributionCtx = (window.WPAttribution && window.WPAttribution.getContext()) || {};
+                gtag('event', 'quote_form_submitted', Object.assign({
                     tour: s.tourSlug || '', package: s.optionId || '', hotel_zone: s.zone || '',
                     guests: s.guests || '', estimated_pp: s.estimatedPp || '', estimated_total: s.estimatedTotal || '',
-                    pricing_version: s.pricingVersion || ''
-                });
+                    pricing_version: s.pricingVersion || '', cta_id: 'quote_form_submit'
+                }, attributionCtx));
             }
             var t = 'Hello Wild Papagayo! I just submitted a tour booking.\n\nTour: ' +
                 (d.get('Selected tour') || d.get('Tour') || '') +

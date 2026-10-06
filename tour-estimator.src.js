@@ -11,7 +11,9 @@
   var OTHER_HOTEL_VALUE = '__other__';
 
   function trackEvent(name, params) {
-    if (typeof gtag === 'function') gtag('event', name, params || {});
+    if (typeof gtag !== 'function') return;
+    var attributionCtx = (window.WPAttribution && window.WPAttribution.getContext()) || {};
+    gtag('event', name, Object.assign({}, params || {}, attributionCtx));
   }
 
   function fmtMoney(n) {
