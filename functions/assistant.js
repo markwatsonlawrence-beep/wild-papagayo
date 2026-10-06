@@ -269,6 +269,35 @@ function mergeMemory(memory, meta, userMessage) {
   return next;
 }
 
+// Client-supplied attribution context (landing page, referrer host, UTMs,
+// session id, tour slug) is never trusted blindly for a DB write -- every
+// field is type-checked and length-capped here before it ever reaches a
+// bind() param. A missing/malformed field becomes null, never a crash, so a
+// client running an older cached script (no `attribution` field at all)
+// still works exactly as before this was added.
+const ATTRIBUTION_MAX_LEN = 200;
+function sanitizeAttrField(v) {
+  if (typeof v !== 'string') return null;
+  const trimmed = v.trim();
+  return trimmed ? trimmed.slice(0, ATTRIBUTION_MAX_LEN) : null;
+}
+function sanitizeAttribution(raw) {
+  if (!raw || typeof raw !== 'object') return {};
+  return {
+    landingPage: sanitizeAttrField(raw.landing_page),
+    pagePath: sanitizeAttrField(raw.page_path),
+    referrerHost: sanitizeAttrField(raw.referrer_host),
+    utmSource: sanitizeAttrField(raw.utm_source),
+    utmMedium: sanitizeAttrField(raw.utm_medium),
+    utmCampaign: sanitizeAttrField(raw.utm_campaign),
+    utmContent: sanitizeAttrField(raw.utm_content),
+    utmTerm: sanitizeAttrField(raw.utm_term),
+    tourSlug: sanitizeAttrField(raw.tour_slug),
+    sessionId: sanitizeAttrField(raw.session_id),
+    firstTouchAt: sanitizeAttrField(raw.first_touch_at),
+  };
+}
+
 // Simple, transparent, documented rules -- not an opaque score. A lead
 // record is only created/updated for WARM or HOT; a purely informational
 // question never becomes a stored lead.
@@ -291,9 +320,10 @@ function classifyLead(userMessage, meta, memory, contactJustProvided) {
   return { temperature: 'INFORMATION', status: null, humanHandoff: false };
 }
 
-async function upsertLead(env, { conversationId, memory, classification }) {
+async function upsertLead(env, { conversationId, memory, classification, attribution }) {
   if (!env.BUBU_LEADS_DB || !conversationId) return;
   if (classification.temperature === 'INFORMATION') return; // never store casual visitors as leads
+  const attr = attribution || {};
   try {
     const nowIso = new Date().toISOString();
     await env.BUBU_LEADS_DB.prepare(
@@ -301,8 +331,10 @@ async function upsertLead(env, { conversationId, memory, classification }) {
         lead_id, conversation_id, source, created_at, updated_at, language,
         name, email, phone, hotel, travel_date, departure_date, adults, children, children_ages,
         interests, tour_interest, transfer_interest, origin, destination,
-        recommended_products, lead_temperature, status, human_handoff_required, conversation_summary
-      ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+        recommended_products, lead_temperature, status, human_handoff_required, conversation_summary,
+        landing_page, conversion_page, referrer_host, utm_source, utm_medium, utm_campaign, utm_content,
+        utm_term, tour_slug, session_id, first_touch_at
+      ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
       ON CONFLICT(lead_id) DO UPDATE SET
         updated_at = excluded.updated_at,
         language = COALESCE(excluded.language, leads.language),
@@ -320,13 +352,31 @@ async function upsertLead(env, { conversationId, memory, classification }) {
         lead_temperature = excluded.lead_temperature,
         status = CASE WHEN leads.status IN ('BOOKED','LOST') THEN leads.status ELSE excluded.status END,
         human_handoff_required = MAX(leads.human_handoff_required, excluded.human_handoff_required),
-        conversation_summary = excluded.conversation_summary
+        conversation_summary = excluded.conversation_summary,
+        -- Attribution is first-touch: once a lead has a landing_page/session_id,
+        -- a later message in the same conversation never overwrites it. Only
+        -- conversion_page (where the lead actually converted) is free to update,
+        -- since that legitimately reflects the page the user was on at upsert time.
+        landing_page = COALESCE(leads.landing_page, excluded.landing_page),
+        conversion_page = COALESCE(excluded.conversion_page, leads.conversion_page),
+        referrer_host = COALESCE(leads.referrer_host, excluded.referrer_host),
+        utm_source = COALESCE(leads.utm_source, excluded.utm_source),
+        utm_medium = COALESCE(leads.utm_medium, excluded.utm_medium),
+        utm_campaign = COALESCE(leads.utm_campaign, excluded.utm_campaign),
+        utm_content = COALESCE(leads.utm_content, excluded.utm_content),
+        utm_term = COALESCE(leads.utm_term, excluded.utm_term),
+        tour_slug = COALESCE(leads.tour_slug, excluded.tour_slug),
+        session_id = COALESCE(leads.session_id, excluded.session_id),
+        first_touch_at = COALESCE(leads.first_touch_at, excluded.first_touch_at)
       `
     ).bind(
       conversationId, conversationId, 'website', nowIso, nowIso, memory.language,
       null, memory.email, memory.phone, memory.hotel, memory.travelDate, memory.departureDate, memory.adults, memory.children, memory.childrenAges,
       memory.interests, memory.tourInterest, memory.transferInterest, null, null,
-      null, classification.temperature, classification.status || 'NEW', classification.humanHandoff ? 1 : 0, buildKnownContext(memory)
+      null, classification.temperature, classification.status || 'NEW', classification.humanHandoff ? 1 : 0, buildKnownContext(memory),
+      attr.landingPage || null, attr.pagePath || null, attr.referrerHost || null, attr.utmSource || null,
+      attr.utmMedium || null, attr.utmCampaign || null, attr.utmContent || null, attr.utmTerm || null,
+      attr.tourSlug || null, attr.sessionId || null, attr.firstTouchAt || null
     ).run();
   } catch (err) {
     console.log('Lead D1 write error (continuing without lead storage):', err.message);
@@ -353,6 +403,7 @@ export async function onRequestPost(context) {
   const clientHistory = Array.isArray(payload.history) ? payload.history.slice(-MAX_STORED_MESSAGES) : [];
   const rawConversationId = typeof payload.conversation_id === 'string' ? payload.conversation_id : '';
   const conversationId = CONVERSATION_ID_RE.test(rawConversationId) ? rawConversationId : null;
+  const attribution = sanitizeAttribution(payload.attribution);
   if (!message) {
     return json(400, { error: 'message is required' }, origin);
   }
@@ -455,7 +506,7 @@ ${JSON.stringify(knowledge, null, 0)}`;
 
       const contactJustProvided = !hadContactBefore && !!(updatedMemory.email || updatedMemory.phone);
       const classification = classifyLead(message, meta, updatedMemory, contactJustProvided);
-      await upsertLead(env, { conversationId, memory: updatedMemory, classification });
+      await upsertLead(env, { conversationId, memory: updatedMemory, classification, attribution });
     }
 
     return json(200, { reply }, origin);
