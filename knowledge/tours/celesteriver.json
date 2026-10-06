@@ -47,10 +47,10 @@
 
                 ],
     "pricing":  {
-                    "from_price":  215,
+                    "from_price":  185,
                     "price_confirmed":  true,
                     "currency":  "USD",
-                    "pricing_note":  "Confirmed by ops (Batch 1 normalization): canonical From price is $215 p.p., sourced from tour-pricing.json."
+                    "pricing_note":  "Confirmed by ops (Batch 1 normalization): canonical From price is $185 p.p., sourced from tour-pricing.json."
                 },
     "source":  {
                    "type":  "existing-tour-page",
