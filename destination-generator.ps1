@@ -31,6 +31,7 @@ $siteUrl = "https://wildpapagayo.com"
 
 if (-not (Test-Path $templatePath)) { throw "Missing template: $templatePath" }
 if (-not (Test-Path $destinationsDir)) { throw "Missing destination data: $destinationsDir" }
+if (-not (Test-Path $airportsPath)) { throw "Missing canonical airport data: $airportsPath" }
 New-Item -ItemType Directory -Force $outputDir | Out-Null
 
 function Read-Utf8Json([string]$path) {
@@ -60,7 +61,7 @@ $footer = Component "footer"
 $ctaTemplate = Component "cta"
 $articles = if (Test-Path $blogPath) { @(Read-Utf8Json $blogPath) } else { @() }
 $tours = if (Test-Path $toursPath) { @(Read-Utf8Json $toursPath) } else { @() }
-$airports = if (Test-Path $airportsPath) { @(Read-Utf8Json $airportsPath) } else { @() }
+$airports = @(Read-Utf8Json $airportsPath)
 $masterHotelsDir = Join-Path $root 'knowledge\master\hotels'
 $hotels = @()
 if (Test-Path $masterHotelsDir) {

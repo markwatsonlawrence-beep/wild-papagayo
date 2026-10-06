@@ -163,15 +163,17 @@ try {
     $v3PilotHotels = @{}
 }
 
+# Required, not optional: a silent fallback here previously degraded airport
+# display text on every hotel page (e.g. "From " with no code) whenever this
+# file was absent (e.g. a checkout that never had it tracked in git).
+if (-not (Test-Path $airportsPath)) { throw "Missing canonical airport data: $airportsPath" }
 $airportsById = @{}
-if (Test-Path $airportsPath) {
-    $airportsData = [System.IO.File]::ReadAllText($airportsPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json
-    $airportItems = if ($airportsData.PSObject.Properties["airports"]) { @($airportsData.airports) } else { @($airportsData) }
-    foreach ($airport in $airportItems) {
-        $airportId = if ($airport.id) { [string]$airport.id } elseif ($airport.code) { [string]$airport.code } elseif ($airport.iata) { [string]$airport.iata } else { "" }
-        if (-not [string]::IsNullOrWhiteSpace($airportId)) { $airportsById[$airportId.Trim().ToLowerInvariant()] = $airport }
-    }
-} else { Write-Warning "Airport repository not found: $airportsPath" }
+$airportsData = [System.IO.File]::ReadAllText($airportsPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json
+$airportItems = if ($airportsData.PSObject.Properties["airports"]) { @($airportsData.airports) } else { @($airportsData) }
+foreach ($airport in $airportItems) {
+    $airportId = if ($airport.id) { [string]$airport.id } elseif ($airport.code) { [string]$airport.code } elseif ($airport.iata) { [string]$airport.iata } else { "" }
+    if (-not [string]::IsNullOrWhiteSpace($airportId)) { $airportsById[$airportId.Trim().ToLowerInvariant()] = $airport }
+}
 $destinationById = @{}
 foreach ($file in @(Get-ChildItem $destinationDir -Filter "*.json" -File)) { $d = Read-JsonFile $file.FullName; $destinationById[[string]$d.id] = $d }
 # A hotel page may link to a destination guide only when that destination's status

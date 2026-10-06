@@ -167,15 +167,17 @@ if (-not $policyFaqQuestion -or -not $policyFaqAnswer) { throw "knowledge/polici
 
 # Pickup-zone display names for the trust-bar (S1 fix) -- reuses the existing
 # destination taxonomy rather than duplicating a location-name list in code.
+# Required, not optional: a silent fallback here previously degraded every
+# tour's pickup text to neutral wording whenever this file was absent
+# (e.g. a checkout that never had it tracked in git) -- fail loud instead.
 $destinationsJsonPath = Join-Path $root "knowledge\destinations.json"
+if (-not (Test-Path $destinationsJsonPath)) { throw "Missing canonical pickup-zone data: $destinationsJsonPath" }
 $destinationNameById = @{}
-if (Test-Path $destinationsJsonPath) {
-    $destinationsData = Read-Utf8Json $destinationsJsonPath
-    foreach ($dest in @($destinationsData)) {
-        $destId = [string](Get-PropertyValue $dest 'id' '')
-        $destName = [string](Get-PropertyValue $dest 'name' '')
-        if ($destId -and $destName) { $destinationNameById[$destId] = $destName }
-    }
+$destinationsData = Read-Utf8Json $destinationsJsonPath
+foreach ($dest in @($destinationsData)) {
+    $destId = [string](Get-PropertyValue $dest 'id' '')
+    $destName = [string](Get-PropertyValue $dest 'name' '')
+    if ($destId -and $destName) { $destinationNameById[$destId] = $destName }
 }
 
 function Get-DerivedPriceInfo {
