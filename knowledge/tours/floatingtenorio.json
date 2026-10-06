@@ -260,6 +260,13 @@
                                                 "title":  "Tenorio River Rafting"
                                             }
                                         ],
+                         "decision_support":  {
+                                                  "choose_this_if":  "You want an easy, low-exertion wildlife-spotting float on the Tenorio River rather than hiking or whitewater.",
+                                                  "choose_instead":  {
+                                                                         "tour_slug":  "tenoriorafting",
+                                                                         "reason":  "you want more adrenaline on the same river, with Class III-IV whitewater rapids instead of a gentle float"
+                                                                     }
+                                              },
                          "gallery":  [
                                          {
                                              "alt":  "Safari float raft on the calm Tenorio River, Costa Rica",

@@ -261,6 +261,13 @@
                                                 "title":  "Celeste River Hike"
                                             }
                                         ],
+                         "decision_support":  {
+                                                  "choose_this_if":  "You want to float and tube through Rio Celeste's turquoise waters and gentle rapids, and your group includes children as young as 4.",
+                                                  "choose_instead":  {
+                                                                         "tour_slug":  "celesteriver",
+                                                                         "reason":  "seeing the waterfall itself and hiking the national park trail is the priority (minimum age 8)"
+                                                                     }
+                                              },
                          "gallery":  [
                                          {
                                              "alt":  "Tubing on the blue Río Celeste through tropical rainforest, Costa Rica",

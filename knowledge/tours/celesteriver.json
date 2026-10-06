@@ -273,6 +273,13 @@
                                                 "title":  "Rio Celeste from Papagayo"
                                             }
                                         ],
+                         "decision_support":  {
+                                                  "choose_this_if":  "You want the classic Rio Celeste waterfall hike inside Tenorio National Park on foot (minimum age 8).",
+                                                  "choose_instead":  {
+                                                                         "tour_slug":  "tubingceleste",
+                                                                         "reason":  "your group includes children under 8, or you would rather float the river than hike to the waterfall"
+                                                                     }
+                                              },
                          "gallery":  [
                                          {
                                              "alt":  "Río Celeste brilliant blue river in Tenorio National Park",

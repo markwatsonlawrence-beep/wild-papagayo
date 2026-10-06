@@ -260,6 +260,13 @@
                                                 "title":  "Tubing Celeste"
                                             }
                                         ],
+                         "decision_support":  {
+                                                  "choose_this_if":  "You specifically want Class III-IV whitewater rafting with rapids and a waterfall drop on the Tenorio River.",
+                                                  "choose_instead":  {
+                                                                         "tour_slug":  "floatingtenorio",
+                                                                         "reason":  "you would prefer a calmer wildlife-watching float on the same river instead of whitewater rapids"
+                                                                     }
+                                              },
                          "gallery":  [
                                          {
                                              "alt":  "Class III-IV white water rafting on the Tenorio River, Costa Rica",

@@ -255,6 +255,13 @@
                                                 "title":  "ATV Mountain Ride"
                                             }
                                         ],
+                         "decision_support":  {
+                                                  "choose_this_if":  "You want a hacienda adventure day built around water slides, suited to families and nature lovers.",
+                                                  "choose_instead":  {
+                                                                         "tour_slug":  "haciendaguachipelin",
+                                                                         "reason":  "you want zipline, rappel, river tubing and horseback riding added to the day, finishing with hot springs"
+                                                                     }
+                                              },
                          "accordion":  {
                                            "before_you_arrive":  [
                                                                      "Children must be supervised at all times and follow the guide’s instructions.",

@@ -795,6 +795,27 @@ foreach ($file in $files) {
         $crossSellSection = '<section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid">' + $cards + '</div></div></section>'
     }
 
+    # ---- Decision support (optional -- empty/absent tours render nothing).
+    # choose_instead.tour_slug is resolved against this tour's own cross_sell
+    # entries so the alternative's display title always matches an existing,
+    # already-reviewed cross-sell relationship instead of a second hardcoded
+    # name that could drift from it. ----
+    $decisionSupport = Get-PropertyValue $pc 'decision_support' $null
+    $decisionSupportHtml = ''
+    if ($decisionSupport -and $decisionSupport.choose_this_if) {
+        $chooseThisIf = (ConvertTo-HtmlSafe ([string]$decisionSupport.choose_this_if))
+        $altHtml = ''
+        if ($decisionSupport.choose_instead -and $decisionSupport.choose_instead.tour_slug) {
+            $altSlug = [string]$decisionSupport.choose_instead.tour_slug
+            $altEntry = $crossSell | Where-Object { $_.href -eq $altSlug } | Select-Object -First 1
+            if ($altEntry) {
+                $altReason = (ConvertTo-HtmlSafe ([string]$decisionSupport.choose_instead.reason))
+                $altHtml = '<p class="tour-decision-alt">Consider instead: <a href="' + $altEntry.href + '">' + (ConvertTo-HtmlSafe $altEntry.title) + '</a> if ' + $altReason + '.</p>'
+            }
+        }
+        $decisionSupportHtml = '<div class="tour-decision-support reveal"><p class="tour-decision-fit"><strong>Best fit:</strong> ' + $chooseThisIf + '</p>' + $altHtml + '</div>'
+    }
+
     # CRO pilot (Costa Rica Highlights only): a small, real Wild Papagayo
     # testimonial block placed near the decision point (right after the
     # FAQ, before the booking card). Reuses two verified quotes already
@@ -829,6 +850,7 @@ foreach ($file in $files) {
         '__TOUR_GLANCE__' = $glanceHtml
         '__EVERYTHING_INCLUDED_TOP__' = $everythingIncludedTopHtml
         '__PEAK_SEASON_NOTE__' = $peakSeasonHtml
+        '__DECISION_SUPPORT__' = $decisionSupportHtml
         '__PICKUP_AREAS__' = $pickupAreasHtml
         '__HERO_IMAGE__' = $heroImage
         '__HERO_IMAGE_ALT__' = (ConvertTo-HtmlSafe $heroImageAlt)

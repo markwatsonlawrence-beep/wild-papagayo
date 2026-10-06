@@ -265,6 +265,13 @@
                                                 "title":  "Canyoning \u0026 River Tubing"
                                             }
                                         ],
+                         "decision_support":  {
+                                                  "choose_this_if":  "You want zipline, rappel, river tubing, horseback riding and hot springs combined into one adventure day.",
+                                                  "choose_instead":  {
+                                                                         "tour_slug":  "buenavistamegacombo",
+                                                                         "reason":  "you would prefer a water-slide-focused adventure day instead"
+                                                                     }
+                                              },
                          "gallery":  [
                                          {
                                              "alt":  "Hacienda Guachipelín zipline over the canyon, Guanacaste",
