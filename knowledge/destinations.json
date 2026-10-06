@@ -1,0 +1,225 @@
+[
+  {
+    "id": "guanacaste",
+    "name": "Guanacaste",
+    "type": "region",
+    "country": "Costa Rica",
+    "aliases": [
+      "Guanacaste Province"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": []
+  },
+  {
+    "id": "papagayo",
+    "name": "Papagayo",
+    "type": "destination",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Gulf of Papagayo",
+      "Peninsula Papagayo"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": [
+      "playa-coco",
+      "playa-hermosa",
+      "playa-panama"
+    ]
+  },
+  {
+    "id": "playa-coco",
+    "name": "Playas del Coco",
+    "type": "beach-town",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Playa Coco",
+      "Coco Beach",
+      "El Coco"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": [
+      "playa-hermosa",
+      "papagayo"
+    ]
+  },
+  {
+    "id": "samara",
+    "name": "Sámara",
+    "type": "beach-town",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Playa Sámara",
+      "Samara"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": []
+  },
+  {
+    "id": "playa-hermosa",
+    "name": "Playa Hermosa",
+    "type": "beach-town",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Playa Hermosa Guanacaste"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": [
+      "playa-coco",
+      "papagayo"
+    ]
+  },
+  {
+    "id": "playa-panama",
+    "name": "Playa Panamá",
+    "type": "beach",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Panama Beach"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": [
+      "papagayo"
+    ]
+  },
+  {
+    "id": "tamarindo",
+    "name": "Tamarindo",
+    "type": "beach-town",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Playa Tamarindo"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": ["playa-conchal"]
+  },
+  {
+    "id": "playa-flamingo",
+    "name": "Playa Flamingo",
+    "type": "beach-town",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Flamingo"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": ["playa-conchal"]
+  },
+  {
+    "id": "playa-conchal",
+    "name": "Playa Conchal",
+    "type": "beach-town",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Conchal",
+      "Playa Conchal Beach",
+      "Shell Beach"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": ["playa-flamingo", "tamarindo"]
+  },
+  {
+    "id": "rincon-de-la-vieja",
+    "name": "Rincón de la Vieja",
+    "type": "volcano-region",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Rincon de la Vieja"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": [
+      "liberia"
+    ]
+  },
+  {
+    "id": "liberia",
+    "name": "Liberia",
+    "type": "city",
+    "region_id": "guanacaste",
+    "aliases": [
+      "Liberia Costa Rica"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": [
+      "rincon-de-la-vieja"
+    ]
+  },
+  {
+    "id": "la-fortuna",
+    "name": "La Fortuna",
+    "type": "destination",
+    "region_id": "alajuela",
+    "aliases": [
+      "Arenal",
+      "Arenal La Fortuna"
+    ],
+    "airport_ids": [
+      "lir",
+      "sjo"
+    ],
+    "nearby_ids": []
+  },
+  {
+    "id": "rio-celeste",
+    "name": "Río Celeste",
+    "type": "nature-destination",
+    "region_id": "guanacaste-alajuela",
+    "aliases": [
+      "Rio Celeste",
+      "Tenorio"
+    ],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": [
+      "bijagua"
+    ]
+  },
+  {
+    "id": "bijagua",
+    "name": "Bijagua",
+    "type": "town",
+    "region_id": "guanacaste-alajuela",
+    "aliases": [],
+    "airport_ids": [
+      "lir"
+    ],
+    "nearby_ids": [
+      "rio-celeste"
+    ]
+  },
+  {
+    "id": "monteverde",
+    "name": "Monteverde",
+    "type": "mountain-destination",
+    "region_id": "puntarenas",
+    "aliases": [
+      "Monteverde Cloud Forest"
+    ],
+    "airport_ids": [
+      "lir",
+      "sjo"
+    ],
+    "nearby_ids": []
+  }
+]

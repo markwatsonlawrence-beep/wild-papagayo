@@ -1,0 +1,24 @@
+[
+  {
+    "id": "lir",
+    "name": "Guanacaste Airport",
+    "official_name": "Daniel Oduber Quirós International Airport",
+    "iata": "LIR",
+    "city_id": "liberia",
+    "aliases": [
+      "Liberia Airport",
+      "Liberia International Airport"
+    ]
+  },
+  {
+    "id": "sjo",
+    "name": "Juan Santamaría International Airport",
+    "official_name": "Juan Santamaría International Airport",
+    "iata": "SJO",
+    "city_id": "san-jose-area",
+    "aliases": [
+      "San José Airport",
+      "San Jose Airport"
+    ]
+  }
+]
