@@ -78,6 +78,11 @@ foreach ($dir in $contentDirs.Keys) {
             $destStatus = [string]([System.IO.File]::ReadAllText($destRecord, [System.Text.Encoding]::UTF8) | ConvertFrom-Json).status
             if ($destStatus -ne 'published') { return }
         }
+        # Universal noindex gate: a page with <meta name="robots" content="noindex…">
+        # must never appear in the sitemap, regardless of directory. Sending Google a
+        # URL it cannot index wastes crawl budget and contradicts the noindex signal.
+        $pageContent = [System.IO.File]::ReadAllText($_.FullName, [System.Text.Encoding]::UTF8)
+        if ($pageContent -match '<meta\s+name="robots"\s+content="[^"]*noindex') { return }
         $lines.Add("  <url><loc>$siteUrl/$dir/$slug</loc><lastmod>$($_.LastWriteTime.ToString('yyyy-MM-dd'))</lastmod><changefreq>$freq</changefreq><priority>$priority</priority></url>")
     }
 }

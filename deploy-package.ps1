@@ -103,7 +103,10 @@ $publicFileExtensions = @('.html', '.xml', '.css', '.ico', '.json', '.js', '.tom
 # top-level package.json to install the Netlify Function's dependencies
 # (@anthropic-ai/sdk). Excluding them (the original behavior) is what caused
 # the "Could not resolve @anthropic-ai/sdk" build failure.
-$excludeFileNames = @('.env', 'script.src.js', 'WILD-ENGINE-3-README.txt', 'hotel-engine-report.txt', 'knowledge-repository-report.txt', 'question-engine-report.txt')
+# blog-data.json is source data (drafts and full article bodies); the public site reads the
+# published-only blog-index.json written by blog-generator.ps1 instead (audit 2026-11-02).
+# The three *-report.txt files are internal validation output; removed from the public site 2026-11-02.
+$excludeFileNames = @('.env', 'script.src.js', 'WILD-ENGINE-3-README.txt', 'hotel-engine-report.txt', 'knowledge-repository-report.txt', 'question-engine-report.txt', 'blog-data.json', 'knowledge-validation-report.txt', 'hotel-knowledge-report.txt', 'tour-knowledge-report.txt')
 
 foreach ($item in Get-ChildItem $root -Force) {
     if ($item.PSIsContainer) {
@@ -116,6 +119,34 @@ foreach ($item in Get-ChildItem $root -Force) {
         if (-not $isConfigFile -and $publicFileExtensions -notcontains $item.Extension) { continue }
         Copy-Item $item.FullName -Destination (Join-Path $deployDir $item.Name) -Force
     }
+}
+
+# Post-copy noindex purge: remove any HTML page that carries
+# <meta name="robots" content="noindex…"> from the deploy package.
+# These are local-review drafts and must never reach production,
+# even if they sit under a public content directory (e.g. blog/).
+# The sitemap-generator already gates them out of sitemap.xml; this
+# step ensures the file itself does not ship and become a live URL.
+# SCOPE: content subdirectories only -- root-level pages (404.html, offline.html,
+# etc.) are infrastructure pages that must ship even when tagged noindex, since
+# Cloudflare Pages needs them to serve error responses.
+Write-Host "== 3a/3: Purging noindex pages from deploy package ==" -ForegroundColor Cyan
+$noindexPurged = 0
+Get-ChildItem $deployDir -Filter '*.html' -Recurse -File | ForEach-Object {
+    # Skip root-level files -- only purge content pages inside subdirectories.
+    $relPath = $_.FullName.Replace($deployDir, '').TrimStart('\', '/')
+    if ($relPath -notmatch '[/\\]') { return }
+    $pageText = [System.IO.File]::ReadAllText($_.FullName, [System.Text.Encoding]::UTF8)
+    if ($pageText -match '<meta\s+name="robots"\s+content="[^"]*noindex') {
+        Remove-Item $_.FullName -Force
+        Write-Host "  Purged (noindex): $relPath" -ForegroundColor DarkYellow
+        $noindexPurged++
+    }
+}
+if ($noindexPurged -eq 0) {
+    Write-Host "  No noindex pages found in package." -ForegroundColor DarkGray
+} else {
+    Write-Host "  $noindexPurged noindex page(s) purged from package." -ForegroundColor DarkYellow
 }
 
 if ($BuildFunctions) {
