@@ -4,3 +4,16 @@ Thumbs.db
 *.log
 npm-debug.log*
 .env
+
+# seo-intelligence: cache/logs/raw API responses are ephemeral and can be
+# regenerated on demand -- excluded so the repo doesn't accumulate large,
+# constantly-churning files. data/processed/, reports/, snapshots/ and
+# opportunities/ are NOT excluded: they're the system's actual analysis
+# output and are useful to keep versioned once git catches up.
+seo-intelligence/cache/
+seo-intelligence/logs/
+seo-intelligence/data/raw/
+
+# P026: noindex draft — excluded from git to prevent accidental staging.
+# deploy-package.ps1 step 3a also purges it from any deploy package.
+blog/are-private-tours-worth-it-guanacaste.html
