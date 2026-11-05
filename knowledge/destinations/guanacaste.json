@@ -10,6 +10,7 @@
     "best_season":  "December–April",
     "province":  "Guanacaste",
     "airport_id":  "lir",
+    "tours_url":  "../tours",
     "best_for":  [
                      "Beaches",
                      "Adventure",

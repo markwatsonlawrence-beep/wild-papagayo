@@ -156,6 +156,7 @@
         .tour-mobile-cta-label { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #062448; }
         .tour-mobile-cta-btn { flex: 1; max-width: 220px; min-height: 44px; text-align: center; font-size: .8rem; }
         .whatsapp-float { bottom: 82px; }
+        :root { --wpa-fab-bottom: 150px; --wpa-fab-bottom-m: 146px; } /* chat + back-to-top stack above the raised WhatsApp button */
     }
     .why-private-section { background: #f7f4ee; padding: 48px 0; }
     .why-private-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; margin-top: 28px; }
@@ -269,7 +270,7 @@ window.addEventListener('load', function() {
                 </div>
             </div>
             <div class="ths-right">
-                <img src="../images/tubingceleste1.webp" alt="Tubing at Río Celeste — Blue River Tubing in Costa Rica" width="1080" height="810" loading="eager" fetchpriority="high" decoding="async">
+                <img src="../images/tubingceleste1.webp" alt="Tubing at Río Celeste — Blue River Tubing in Costa Rica" width="1080" height="810" srcset="../images/tubingceleste1-480w.webp 480w, ../images/tubingceleste1-800w.webp 800w, ../images/tubingceleste1.webp 1080w" sizes="(max-width: 1039px) 100vw, 600px" loading="eager" fetchpriority="high" decoding="async">
             </div>
         </section>
         <div class="tour-glance-bar reveal"><div class="tour-glance-grid"><div class="glance-item"><div class="glance-icon">⏱️</div><b>Full Day · Approx. 8 Hours</b><span></span></div>
@@ -278,7 +279,7 @@ window.addEventListener('load', function() {
 <div class="glance-item"><div class="glance-icon">🧑‍🤝‍🧑</div><b>Minimum Age 4</b><span></span></div>
 <div class="glance-item"><div class="glance-icon">🦜</div><b>Wildlife Along the River</b><span></span></div>
 <div class="glance-item"><div class="glance-icon">🗓️</div><b>Available Daily</b><span></span></div></div><p class="tour-glance-note">A gentle float suitable for the whole family, with small rapids that keep the current moving without feeling dangerous.</p></div>
-        <div class="tour-price-teaser reveal" data-option-id="full-experience"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 FULL EXPERIENCE</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$265 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
+        <div class="tour-price-teaser" data-option-id="full-experience"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 FULL EXPERIENCE</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$265 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
         <section class="why-private-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why It Matters</span><h2 class="section-title">Why Explore Privately?</h2></div><div class="why-private-grid"><div class="why-private-item reveal"><h3>Your Own Vehicle</h3><p>Travel comfortably without sharing transportation with other groups.</p></div><div class="why-private-item reveal"><h3>Direct Hotel Pickup</h3><p>Start and end the experience directly at your resort. No shared buses, no unnecessary hotel stops.</p></div><div class="why-private-item reveal"><h3>Personal Attention</h3><p>Enjoy more interaction with your certified local guide.</p></div><div class="why-private-item reveal"><h3>A Better Pace</h3><p>Spend your day experiencing Costa Rica instead of waiting on a large group.</p></div><div class="why-private-item reveal"><h3>Local Support</h3><p>Your Wild Papagayo concierge helps coordinate every detail before your tour.</p></div></div></div></section>
         <section class="tour-page-v3">
             <div class="container tour-page-grid">
@@ -286,20 +287,20 @@ window.addEventListener('load', function() {
                     <div class="tour-gallery-area">
                         <div class="premium-gallery-card reveal">
                             <div class="gallery-main">
-                                <img alt="Tubing on the blue Río Celeste through tropical rainforest, Costa Rica" src="../images/tubingceleste1.webp" width="1080" height="810" loading="lazy" decoding="async">
-<img alt="Group tubing together on Río Celeste, seeing the blue color up close" src="../images/tubingceleste2.webp" width="1080" height="1440" loading="lazy" decoding="async">
-<img alt="Small rapids on Río Celeste during private tubing experience" src="../images/tubingceleste3.webp" width="810" height="1080" loading="lazy" decoding="async">
+                                <img alt="Tubing on the blue Río Celeste through tropical rainforest, Costa Rica" src="../images/tubingceleste1.webp" width="1080" height="810" srcset="../images/tubingceleste1-480w.webp 480w, ../images/tubingceleste1-800w.webp 800w, ../images/tubingceleste1.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Group tubing together on Río Celeste, seeing the blue color up close" src="../images/tubingceleste2.webp" width="1080" height="1440" srcset="../images/tubingceleste2-480w.webp 480w, ../images/tubingceleste2-800w.webp 800w, ../images/tubingceleste2.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Small rapids on Río Celeste during private tubing experience" src="../images/tubingceleste3.webp" width="810" height="1080" srcset="../images/tubingceleste3-800w.webp 800w, ../images/tubingceleste3.webp 810w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
 <img alt="Wildlife observed during Río Celeste tubing, birds and monkeys" src="../images/tubingceleste4.webp" width="608" height="1080" loading="lazy" decoding="async">
-<img alt="Lush rainforest canopy over Río Celeste, Costa Rica" src="../images/tubingceleste5.webp" width="810" height="1080" loading="lazy" decoding="async">
+<img alt="Lush rainforest canopy over Río Celeste, Costa Rica" src="../images/tubingceleste5.webp" width="810" height="1080" srcset="../images/tubingceleste5-800w.webp 800w, ../images/tubingceleste5.webp 810w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
                                 <button class="gallery-arrow gallery-prev" type="button">‹</button>
                                 <button class="gallery-arrow gallery-next" type="button">›</button>
                             </div>
                             <div class="gallery-thumbs">
                                 <button type="button"><img alt="Tubing on the blue Río Celeste through tropical rainforest, Costa Rica" src="../images/tubingceleste1.webp" width="1080" height="810" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Group tubing together on Río Celeste, seeing the blue color up close" src="../images/tubingceleste2.webp" width="1080" height="1440" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Small rapids on Río Celeste during private tubing experience" src="../images/tubingceleste3.webp" width="810" height="1080" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Wildlife observed during Río Celeste tubing, birds and monkeys" src="../images/tubingceleste4.webp" width="608" height="1080" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Lush rainforest canopy over Río Celeste, Costa Rica" src="../images/tubingceleste5.webp" width="810" height="1080" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Group tubing together on Río Celeste, seeing the blue color up close" src="../images/tubingceleste2.webp" width="1080" height="1440" srcset="../images/tubingceleste2-200w.webp 200w, ../images/tubingceleste2.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Small rapids on Río Celeste during private tubing experience" src="../images/tubingceleste3.webp" width="810" height="1080" srcset="../images/tubingceleste3-200w.webp 200w, ../images/tubingceleste3.webp 810w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Wildlife observed during Río Celeste tubing, birds and monkeys" src="../images/tubingceleste4.webp" width="608" height="1080" srcset="../images/tubingceleste4-200w.webp 200w, ../images/tubingceleste4.webp 608w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Lush rainforest canopy over Río Celeste, Costa Rica" src="../images/tubingceleste5.webp" width="810" height="1080" srcset="../images/tubingceleste5-200w.webp 200w, ../images/tubingceleste5.webp 810w" sizes="64px" loading="lazy" decoding="async"></button>
                             </div>
                             <div class="share-icons compact-share">
                                 <a class="share-icon share-whatsapp" data-message="Hello Wild Papagayo! I want to book the Tubing at Río Celeste — Blue River Tubing experience." data-whatsapp="" data-intent="book_tour" data-label="Tour WhatsApp Icon" title="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -312,18 +313,18 @@ window.addEventListener('load', function() {
                     <div class="tour-details-area">
     <div class="tour-details-card">
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Float Through Costa Rica's Famous Blue River</h2><p class="experience-intro">Experience Río Celeste from a completely different perspective as you float through its world-famous turquoise waters. This relaxing tubing adventure combines gentle rapids, spectacular rainforest scenery, and incredible wildlife into one unforgettable private experience suitable for the whole family.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🛟</div><h3>River Tubing Adventure</h3><p>Float comfortably through gentle rapids and calm sections of Río Celeste while enjoying one of Costa Rica's most scenic river experiences.</p></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Float Through Costa Rica's Famous Blue River</h2><p class="experience-intro">Experience Río Celeste from a completely different perspective as you float through its world-famous turquoise waters. This relaxing tubing adventure combines gentle rapids, spectacular rainforest scenery, and incredible wildlife into one unforgettable private experience suitable for the whole family.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🛟</div><h3>River Tubing Adventure</h3><p>Float comfortably through gentle rapids and calm sections of Río Celeste while enjoying one of Costa Rica's most scenic river experiences.</p></div>
 <div class="experience-item"><div class="experience-icon">💎</div><h3>Turquoise Waters</h3><p>Experience the incredible volcanic-blue waters that have made Río Celeste one of Costa Rica's most photographed natural wonders.</p></div>
 <div class="experience-item"><div class="experience-icon">🦜</div><h3>Wildlife Along the River</h3><p>Watch for monkeys, tropical birds, butterflies, iguanas, and other native wildlife that inhabit the rainforest surrounding the river.</p></div>
 <div class="experience-item"><div class="experience-icon">👨‍👩‍👧</div><h3>Family-Friendly Adventure</h3><p>Suitable for guests aged 4 and older, this private experience offers the perfect balance of fun, nature, and relaxation for families, couples, and small groups.</p></div></div><div class="experience-footer"><div class="experience-highlight"><span>💙</span><div><h3>Discover Río Celeste Like Few Ever Do</h3><p>Instead of simply admiring Costa Rica's famous blue river from the shore, you'll float through its crystal-clear turquoise waters while surrounded by lush rainforest, incredible wildlife, and breathtaking scenery that few visitors ever experience.</p></div></div></div></div>
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p></p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">02</div><div class="itinerary-step-body"><h3>Gear Up</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">03</div><div class="itinerary-step-body"><h3>Float the Blue River</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">04</div><div class="itinerary-step-body"><h3>Dry Off &amp; Traditional Lunch</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">05</div><div class="itinerary-step-body"><h3>Ride Back to Your Hotel</h3><p></p></div></div></div></div>
 
-                            <div class="accordion-stack clean-stack reveal">
+                            <div class="accordion-stack clean-stack">
                                 <div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list"><li>Wear swimwear under quick-dry shorts or leggings, you will be wet throughout.</li>
 <li>Water shoes or secure-strap sandals are recommended. Flip-flops will not stay on in the rapids.</li>
 <li>Bring a dry change of clothing and a small towel for after the float.</li>
@@ -352,8 +353,8 @@ window.addEventListener('load', function() {
 <p><span class="check-red">&#10003;</span> Cash for personal expenses (gratuities)</p></div></div></div>
                             </div>
 
-        <section class="ti-section reveal"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid"><a class="ti-card" href="../blog/things-to-do-in-papagayo-costa-rica"><img src="../images/papagayo-hero.webp" alt="Calm turquoise bay at Papagayo, Guanacaste, Costa Rica" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">Destination Guides</span><h3>15 Best Things to Do in Papagayo, Costa Rica</h3><p>From calm Pacific bays to volcanic hikes, turquoise rivers and sloth-spotting rainforest walks, here's a local's guide to the best things to do in and around Papagayo, Costa Rica.</p></div></a></div></section>
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this tubing tour private?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, your guide and float are dedicated exclusively to your group, not combined with other travelers.</p></div></div>
+        <section class="ti-section"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid"><a class="ti-card" href="../blog/things-to-do-in-papagayo-costa-rica"><img src="../images/papagayo-hero.webp" alt="Calm turquoise bay at Papagayo, Guanacaste, Costa Rica" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">Destination Guides</span><h3>15 Best Things to Do in Papagayo, Costa Rica</h3><p>From calm Pacific bays to volcanic hikes, turquoise rivers and sloth-spotting rainforest walks, here's a local's guide to the best things to do in and around Papagayo, Costa Rica.</p></div></a></div></section>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this tubing tour private?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, your guide and float are dedicated exclusively to your group, not combined with other travelers.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>What's the minimum age?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>This float is suitable for guests aged 4 and older, the rapids are gentle enough for a family-friendly pace.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Will the river always be that famous blue color?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Rio Celeste's color can shift after heavy rainfall, this is a natural occurrence and not something Wild Papagayo can control, so no refunds are issued for color changes specifically. Genuinely unsafe river conditions are handled separately, see our weather policy.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>What wildlife might we see?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Monkeys, toucans, kingfishers and other tropical birds are frequently spotted along the river corridor. Sightings cannot be guaranteed, though frequent.</p></div></div>
@@ -367,7 +368,7 @@ window.addEventListener('load', function() {
                 </div>
 
                 <div class="tour-right-column">
-                    <div class="tour-summary-card reveal">
+                    <div class="tour-summary-card">
                         <h2 class="tour-title-premium">Tubing at Río Celeste — Blue River Tubing</h2>
                         <div class="tour-rating">
                             <span class="driving-time">Full Day</span>
@@ -381,7 +382,7 @@ window.addEventListener('load', function() {
                             </div>
                         </div>
 
-                        <div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
+                        <div class="everything-included-top"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
 <p><span class="check-red">&#10003;</span> Complimentary bottled water</p>
 <p><span class="check-red">&#10003;</span> Snacks and refreshments</p>
 <p><span class="check-red">&#10003;</span> Experienced certified bilingual local guide</p>
@@ -485,9 +486,9 @@ window.addEventListener('load', function() {
 
     </main>
 
-    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="floatingtenorio" class="cross-sell-card"><img src="../images/floatingtenorio1.webp" alt="Floating Tenorio" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Floating Tenorio</div></div></a>
-<a href="tenoriorafting" class="cross-sell-card"><img src="../images/tenoriorafting1.webp" alt="Tenorio River Rafting" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Tenorio River Rafting</div></div></a>
-<a href="celesteriver" class="cross-sell-card"><img src="../images/celeste1.webp" alt="Celeste River Hike" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Celeste River Hike</div></div></a></div></div></section><footer class="footer">
+    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="floatingtenorio" class="cross-sell-card"><img src="../images/floatingtenorio1.webp" srcset="../images/floatingtenorio1-480w.webp 480w, ../images/floatingtenorio1-800w.webp 800w, ../images/floatingtenorio1.webp 1080w" sizes="(max-width: 700px) 100vw, 400px" alt="Floating Tenorio" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Floating Tenorio</div></div></a>
+<a href="tenoriorafting" class="cross-sell-card"><img src="../images/tenoriorafting1.webp" srcset="../images/tenoriorafting1-480w.webp 480w, ../images/tenoriorafting1.webp 685w" sizes="(max-width: 700px) 100vw, 400px" alt="Tenorio River Rafting" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Tenorio River Rafting</div></div></a>
+<a href="celesteriver" class="cross-sell-card"><img src="../images/celeste1.webp" srcset="../images/celeste1-800w.webp 800w, ../images/celeste1.webp 1200w" sizes="(max-width: 700px) 100vw, 400px" alt="Celeste River Hike" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Celeste River Hike</div></div></a></div></div></section><footer class="footer">
     <div class="container footer-grid footer-grid-clean">
         <div class="footer-brand">
             <img src="../images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180" loading="lazy" decoding="async">

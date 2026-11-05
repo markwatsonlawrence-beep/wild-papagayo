@@ -156,6 +156,7 @@
         .tour-mobile-cta-label { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #062448; }
         .tour-mobile-cta-btn { flex: 1; max-width: 220px; min-height: 44px; text-align: center; font-size: .8rem; }
         .whatsapp-float { bottom: 82px; }
+        :root { --wpa-fab-bottom: 150px; --wpa-fab-bottom-m: 146px; } /* chat + back-to-top stack above the raised WhatsApp button */
     }
     .why-private-section { background: #f7f4ee; padding: 48px 0; }
     .why-private-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; margin-top: 28px; }
@@ -278,7 +279,7 @@ window.addEventListener('load', function() {
 <div class="glance-item"><div class="glance-icon">🗣️</div><b>Guide</b><span>Certified bilingual local guide</span></div>
 <div class="glance-item"><div class="glance-icon">🐴</div><b>Highlights</b><span>Horseback, Waterfall &amp; Zipline</span></div>
 <div class="glance-item"><div class="glance-icon">🍽️</div><b>Lunch</b><span>Traditional Costa Rican lunch included</span></div></div><p class="tour-glance-note">No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.</p></div>
-        <div class="tour-price-teaser reveal" data-option-id="full-experience"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 FULL EXPERIENCE</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$340 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
+        <div class="tour-price-teaser" data-option-id="full-experience"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 FULL EXPERIENCE</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$340 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
         <section class="why-private-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why It Matters</span><h2 class="section-title">Why Explore Privately?</h2></div><div class="why-private-grid"><div class="why-private-item reveal"><h3>Your Own Vehicle</h3><p>Travel comfortably without sharing transportation with other groups.</p></div><div class="why-private-item reveal"><h3>Direct Hotel Pickup</h3><p>Start and end the experience directly at your resort. No shared buses, no unnecessary hotel stops.</p></div><div class="why-private-item reveal"><h3>Personal Attention</h3><p>Enjoy more interaction with your certified local guide.</p></div><div class="why-private-item reveal"><h3>A Better Pace</h3><p>Spend your day experiencing Costa Rica instead of waiting on a large group.</p></div><div class="why-private-item reveal"><h3>Local Support</h3><p>Your Wild Papagayo concierge helps coordinate every detail before your tour.</p></div></div></div></section>
         <section class="tour-page-v3">
             <div class="container tour-page-grid">
@@ -287,7 +288,7 @@ window.addEventListener('load', function() {
                         <div class="premium-gallery-card reveal">
                             <div class="gallery-main">
                                 <img alt="Horseback riding on mountain trails with North Pacific views, Borinque Costa Rica" src="../images/borinque2.webp" width="533" height="800" loading="lazy" decoding="async">
-<img alt="Zip line through tropical forest canopy at Borinque 4 Senses, Costa Rica" src="../images/borinque3.webp" width="600" height="800" loading="lazy" decoding="async">
+<img alt="Zip line through tropical forest canopy at Borinque 4 Senses, Costa Rica" src="../images/borinque3.webp" width="600" height="800" srcset="../images/borinque3-480w.webp 480w, ../images/borinque3.webp 600w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
 <img alt="Natural volcanic hot springs at Borinque 4 Senses Guanacaste" src="../images/borinque4.webp" width="600" height="800" loading="lazy" decoding="async">
 <img alt="Misterio Waterfall on the Borinque 4 Senses Tour, Costa Rica" src="../images/borinque5.webp" width="800" height="533" loading="lazy" decoding="async">
 <img alt="Volcanic mud treatment at Borinque 4 Senses, Guanacaste Costa Rica" src="../images/borinque6.webp" width="800" height="533" loading="lazy" decoding="async">
@@ -296,8 +297,8 @@ window.addEventListener('load', function() {
                             </div>
                             <div class="gallery-thumbs">
                                 <button type="button"><img alt="Horseback riding on mountain trails with North Pacific views, Borinque Costa Rica" src="../images/borinque2.webp" width="533" height="800" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Zip line through tropical forest canopy at Borinque 4 Senses, Costa Rica" src="../images/borinque3.webp" width="600" height="800" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Natural volcanic hot springs at Borinque 4 Senses Guanacaste" src="../images/borinque4.webp" width="600" height="800" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Zip line through tropical forest canopy at Borinque 4 Senses, Costa Rica" src="../images/borinque3.webp" width="600" height="800" srcset="../images/borinque3-200w.webp 200w, ../images/borinque3.webp 600w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Natural volcanic hot springs at Borinque 4 Senses Guanacaste" src="../images/borinque4.webp" width="600" height="800" srcset="../images/borinque4-200w.webp 200w, ../images/borinque4.webp 600w" sizes="64px" loading="lazy" decoding="async"></button>
 <button type="button"><img alt="Misterio Waterfall on the Borinque 4 Senses Tour, Costa Rica" src="../images/borinque5.webp" width="800" height="533" loading="lazy" decoding="async"></button>
 <button type="button"><img alt="Volcanic mud treatment at Borinque 4 Senses, Guanacaste Costa Rica" src="../images/borinque6.webp" width="800" height="533" loading="lazy" decoding="async"></button>
                             </div>
@@ -312,19 +313,19 @@ window.addEventListener('load', function() {
                     <div class="tour-details-area">
     <div class="tour-details-card">
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Adventure, Nature &amp; Relaxation in One Perfect Day</h2><p class="experience-intro">Discover the best of Borinquen Adventure Park on an unforgettable journey that combines horseback riding, waterfalls, panoramic mountain views, volcanic mud baths, and natural hot springs in one complete experience.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🐴</div><h3>Horseback Adventure</h3><p>Ride through scenic mountain trails surrounded by tropical forests while enjoying spectacular views of Guanacaste's beautiful countryside.</p></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Adventure, Nature &amp; Relaxation in One Perfect Day</h2><p class="experience-intro">Discover the best of Borinquen Adventure Park on an unforgettable journey that combines horseback riding, waterfalls, panoramic mountain views, volcanic mud baths, and natural hot springs in one complete experience.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🐴</div><h3>Horseback Adventure</h3><p>Ride through scenic mountain trails surrounded by tropical forests while enjoying spectacular views of Guanacaste's beautiful countryside.</p></div>
 <div class="experience-item"><div class="experience-icon">💦</div><h3>Misterio Waterfall</h3><p>Visit the stunning Misterio Waterfall, hidden deep within the rainforest, where refreshing waters and lush vegetation create the perfect natural escape.</p></div>
 <div class="experience-item"><div class="experience-icon">🌄</div><h3>Panoramic Viewpoints</h3><p>Stop at breathtaking viewpoints overlooking the mountains, valleys, and Pacific lowlands,ideal for unforgettable photographs.</p></div>
 <div class="experience-item"><div class="experience-icon">♨️</div><h3>Hot Springs &amp; Volcanic Mud</h3><p>Complete your adventure by relaxing in naturally heated thermal pools and enjoying a rejuvenating volcanic mud treatment surrounded by nature.</p></div></div><div class="experience-footer"><div class="experience-highlight"><span>🌿</span><div><h3>Four Experiences, One Incredible Adventure</h3><p>Horseback riding, waterfalls, panoramic viewpoints, volcanic mud baths, and natural hot springs come together in one unforgettable experience that perfectly combines adventure, nature, and relaxation.</p></div></div></div></div>
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p>Your private guide meets you directly at your hotel or resort in Guanacaste.</p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p>Your private guide meets you directly at your hotel or resort in Guanacaste.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">02</div><div class="itinerary-step-body"><h3>Horseback Ride</h3><p>Ride mountain trails with panoramic views of the North Pacific coast.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">03</div><div class="itinerary-step-body"><h3>Misterio Waterfall Hike</h3><p>Hike through the forest to the hidden Misterio Waterfall.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">04</div><div class="itinerary-step-body"><h3>Zipline Canopy Tour</h3><p>Fly above the rainforest canopy with your certified guide.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">05</div><div class="itinerary-step-body"><h3>Hot Springs, Mud &amp; Sauna</h3><p>Relax in natural volcanic hot springs, mud treatment and sauna.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">06</div><div class="itinerary-step-body"><h3>Lunch &amp; Private Return</h3><p>Enjoy a traditional Costa Rican lunch before your private return to the resort.</p></div></div></div></div>
 
-                            <div class="accordion-stack clean-stack reveal">
+                            <div class="accordion-stack clean-stack">
                                 <div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list"><li>Wear long trousers or leggings for the horseback section. Closed-toe shoes or boots are required.</li>
 <li>Bring old swimwear or dark clothing for the volcanic mud treatment.</li>
 <li>Bring a change of clothing and a small towel for after the hot springs.</li>
@@ -352,7 +353,7 @@ window.addEventListener('load', function() {
                             </div>
 
         
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group.</p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is hotel pickup included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>How long does the tour take?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>The full experience takes approximately 8 hours, combining all four activities, depending on your pickup location and traffic.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is lunch included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, a traditional Costa Rican lunch is included.</p></div></div>
@@ -368,7 +369,7 @@ window.addEventListener('load', function() {
                 </div>
 
                 <div class="tour-right-column">
-                    <div class="tour-summary-card reveal">
+                    <div class="tour-summary-card">
                         <h2 class="tour-title-premium">Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall &amp; Hot Springs</h2>
                         <div class="tour-rating">
                             <span class="driving-time">Full Day</span>
@@ -382,7 +383,7 @@ window.addEventListener('load', function() {
                             </div>
                         </div>
 
-                        <div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
+                        <div class="everything-included-top"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
 <p><span class="check-red">&#10003;</span> Complimentary bottled water</p>
 <p><span class="check-red">&#10003;</span> Snacks and refreshments</p>
 <p><span class="check-red">&#10003;</span> Experienced certified bilingual local guide</p>
@@ -435,6 +436,7 @@ window.addEventListener('load', function() {
     </div>
 
 </div>
+
 <div class="tour-booking-area">
                         <aside class="booking-side not-sticky" id="book">
                             <div class="reservation-card">
@@ -490,9 +492,9 @@ window.addEventListener('load', function() {
 
     </main>
 
-    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="sensoriarainforest" class="cross-sell-card"><img src="../images/sensoria1.webp" alt="Sensoria Rainforest" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Sensoria Rainforest</div></div></a>
-<a href="miravallesspa" class="cross-sell-card"><img src="../images/miravalles1.webp" alt="Miravalles Spa &amp; Volcano" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Miravalles Spa &amp; Volcano</div></div></a>
-<a href="haciendaguachipelin" class="cross-sell-card"><img src="../images/guachipelin1.webp" alt="Hacienda Guachipelín" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Hacienda Guachipelín</div></div></a></div></div></section><footer class="footer">
+    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="sensoriarainforest" class="cross-sell-card"><img src="../images/sensoria1.webp" srcset="../images/sensoria1-480w.webp 480w, ../images/sensoria1-800w.webp 800w, ../images/sensoria1.webp 864w" sizes="(max-width: 700px) 100vw, 400px" alt="Sensoria Rainforest" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Sensoria Rainforest</div></div></a>
+<a href="miravallesspa" class="cross-sell-card"><img src="../images/miravalles1.webp" srcset="../images/miravalles1-480w.webp 480w, ../images/miravalles1-800w.webp 800w, ../images/miravalles1.webp 810w" sizes="(max-width: 700px) 100vw, 400px" alt="Miravalles Spa &amp; Volcano" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Miravalles Spa &amp; Volcano</div></div></a>
+<a href="haciendaguachipelin" class="cross-sell-card"><img src="../images/guachipelin1.webp" srcset="../images/guachipelin1-480w.webp 480w, ../images/guachipelin1-800w.webp 800w, ../images/guachipelin1.webp 1080w" sizes="(max-width: 700px) 100vw, 400px" alt="Hacienda Guachipelín" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Hacienda Guachipelín</div></div></a></div></div></section><footer class="footer">
     <div class="container footer-grid footer-grid-clean">
         <div class="footer-brand">
             <img src="../images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180" loading="lazy" decoding="async">

@@ -156,6 +156,7 @@ __FAQ_SCHEMA__
         .tour-mobile-cta-label { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #062448; }
         .tour-mobile-cta-btn { flex: 1; max-width: 220px; min-height: 44px; text-align: center; font-size: .8rem; }
         .whatsapp-float { bottom: 82px; }
+        :root { --wpa-fab-bottom: 150px; --wpa-fab-bottom-m: 146px; } /* chat + back-to-top stack above the raised WhatsApp button */
     }
     .why-private-section { background: #f7f4ee; padding: 48px 0; }
     .why-private-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; margin-top: 28px; }
@@ -303,7 +304,7 @@ window.addEventListener('load', function() {
 
         __ITINERARY_STEPS__
 
-                            <div class="accordion-stack clean-stack reveal">
+                            <div class="accordion-stack clean-stack">
                                 __ACCORDION_ITEMS__
                             </div>
 
@@ -316,7 +317,7 @@ window.addEventListener('load', function() {
                 </div>
 
                 <div class="tour-right-column">
-                    <div class="tour-summary-card reveal">
+                    <div class="tour-summary-card">
                         <h2 class="tour-title-premium">__TOUR_NAME__</h2>
                         <div class="tour-rating">
                             <span class="driving-time">__DURATION_LABEL__</span>

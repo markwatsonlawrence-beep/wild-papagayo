@@ -84,6 +84,25 @@ function Get-ImageDimAttrs {
     return ' width="' + [string]$prop.Value.width + '" height="' + [string]$prop.Value.height + '"'
 }
 
+# Responsive variants written by engine/image-variants.js (images/<name>-<w>w.webp, audit 2026-11-02).
+# srcset lists only variants that exist (each passed a quality check) plus the original as the largest
+# candidate, so no browser is offered a smaller image than it needs; with no variant nothing is emitted.
+function Get-SrcsetAttrs {
+    param([string]$Src, [string]$Sizes, [int[]]$Widths)
+    if ($Src -notmatch '^(.*/)?images/([^/]+)\.webp$') { return '' }
+    $prefix = [string]$Matches[1]; $base = $Matches[2]
+    if ($null -eq $imageDimensions) { return '' }
+    $orig = $imageDimensions.PSObject.Properties["$base.webp"]
+    if ($null -eq $orig) { return '' }
+    $parts = @()
+    foreach ($w in $Widths) {
+        if ($w -lt [int]$orig.Value.width -and (Test-Path -LiteralPath (Join-Path $root "images/$base-$($w)w.webp") -PathType Leaf)) { $parts += "$($prefix)images/$base-$($w)w.webp $($w)w" }
+    }
+    if ($parts.Count -eq 0) { return '' }
+    $parts += "$Src $([int]$orig.Value.width)w"
+    return ' srcset="' + ($parts -join ', ') + '" sizes="' + $Sizes + '"'
+}
+
 function Read-Utf8Json {
     param([string]$Path)
     return ([System.IO.File]::ReadAllText($Path, [System.Text.Encoding]::UTF8) | ConvertFrom-Json)
@@ -348,7 +367,7 @@ foreach ($file in $files) {
     $shortDesc = [string]$tour.short_description
     $heroImage = [string]$tour.hero_image
     $heroImageAlt = [string]$tour.hero_image_alt
-    $heroImageDim = Get-ImageDimAttrs $heroImage
+    $heroImageDim = (Get-ImageDimAttrs $heroImage) + (Get-SrcsetAttrs ('../' + $heroImage.TrimStart('.', '/')) '(max-width: 1039px) 100vw, 600px' @(480, 800))
     $canonical = "$siteUrl/tours/$slug"
 
     # ---- Head / SEO ----
@@ -453,12 +472,12 @@ foreach ($file in $files) {
     $galleryMainHtml = ($gallery | ForEach-Object {
         $src = [string]$_.src
         if (-not $src.StartsWith('..')) { $src = "../$src" }
-        '<img alt="' + (ConvertTo-HtmlSafe $_.alt) + '" src="' + $src + '"' + (Get-ImageDimAttrs $src) + ' loading="lazy" decoding="async">'
+        '<img alt="' + (ConvertTo-HtmlSafe $_.alt) + '" src="' + $src + '"' + (Get-ImageDimAttrs $src) + (Get-SrcsetAttrs $src '(max-width: 1039px) 100vw, 560px' @(480, 800)) + ' loading="lazy" decoding="async">'
     }) -join "`n"
     $galleryThumbsHtml = ($gallery | ForEach-Object {
         $src = [string]$_.src
         if (-not $src.StartsWith('..')) { $src = "../$src" }
-        '<button type="button"><img alt="' + (ConvertTo-HtmlSafe $_.alt) + '" src="' + $src + '"' + (Get-ImageDimAttrs $src) + ' loading="lazy" decoding="async"></button>'
+        '<button type="button"><img alt="' + (ConvertTo-HtmlSafe $_.alt) + '" src="' + $src + '"' + (Get-ImageDimAttrs $src) + (Get-SrcsetAttrs $src '64px' @(200)) + ' loading="lazy" decoding="async"></button>'
     }) -join "`n"
 
     # ---- Why Explore Privately (universal Wild Papagayo brand block, same on every tour) ----
@@ -476,7 +495,7 @@ foreach ($file in $files) {
         if ($footer -and $footer.title) {
             $footerHtml = '<div class="experience-footer"><div class="experience-highlight"><span>' + $footer.icon + '</span><div><h3>' + (ConvertTo-HtmlSafe $footer.title) + '</h3><p>' + (ConvertTo-HtmlSafe $footer.text) + '</p></div></div></div>'
         }
-        $experienceSectionHtml = '<div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">' + (ConvertTo-HtmlSafe $exp.tag) + '</span><h2>' + (ConvertTo-HtmlSafe $exp.title) + '</h2><p class="experience-intro">' + (ConvertTo-HtmlSafe $exp.intro) + '</p><div class="experience-grid">' + $itemsHtml + '</div>' + $footerHtml + '</div>'
+        $experienceSectionHtml = '<div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">' + (ConvertTo-HtmlSafe $exp.tag) + '</span><h2>' + (ConvertTo-HtmlSafe $exp.title) + '</h2><p class="experience-intro">' + (ConvertTo-HtmlSafe $exp.intro) + '</p><div class="experience-grid">' + $itemsHtml + '</div>' + $footerHtml + '</div>'
     }
 
     # ---- Step-by-step itinerary (optional) ----
@@ -489,7 +508,7 @@ foreach ($file in $files) {
             $num = ('{0:D2}' -f ($i + 1))
             $stepBlocks.Add('<div class="itinerary-step reveal"><div class="itinerary-step-num">' + $num + '</div><div class="itinerary-step-body"><h3>' + (ConvertTo-HtmlSafe $step.title) + '</h3><p>' + (ConvertTo-HtmlSafe $step.text) + '</p></div></div>')
         }
-        $itineraryHtml = '<div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack">' + ($stepBlocks -join "`n") + '</div></div>'
+        $itineraryHtml = '<div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack">' + ($stepBlocks -join "`n") + '</div></div>'
     }
 
     # ---- FAQ (optional) ----
@@ -507,7 +526,7 @@ foreach ($file in $files) {
             $answer = Get-FaqAnswer $_ $policyFaqAnswer $id $pricingData $faqGuideOnlyPrice
             '<div class="accordion-item"><button class="accordion-trigger"><span>' + (ConvertTo-HtmlSafe $_.question) + '</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>' + (ConvertTo-HtmlSafe $answer) + '</p></div></div>'
         }) -join "`n"
-        $faqHtml = '<div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack">' + $faqBlocks + '</div></div>'
+        $faqHtml = '<div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack">' + $faqBlocks + '</div></div>'
         $faqEntities = $faqItems | ForEach-Object {
             $answer = Get-FaqAnswer $_ $policyFaqAnswer $id $pricingData $faqGuideOnlyPrice
             [ordered]@{"@type"="Question";name=[string]$_.question;acceptedAnswer=[ordered]@{"@type"="Answer";text=$answer}}
@@ -549,9 +568,9 @@ foreach ($file in $files) {
         $riCards = ($relatedArticleEntries | ForEach-Object {
             $art = $_.article
             $artImg = if ($art.image_top) { $art.image_top } else { $tour.hero_image }
-            '<a class="ti-card" href="../blog/' + (ConvertTo-HtmlSafe $art.slug) + '"><img src="../' + (ConvertTo-HtmlSafe $artImg) + '" alt="' + (ConvertTo-HtmlSafe $art.image_top_alt) + '" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">' + (ConvertTo-HtmlSafe $art.category) + '</span><h3>' + (ConvertTo-HtmlSafe $art.title) + '</h3><p>' + (ConvertTo-HtmlSafe $art.excerpt) + '</p></div></a>'
+            '<a class="ti-card" href="../blog/' + (ConvertTo-HtmlSafe $art.slug) + '"><img src="../' + (ConvertTo-HtmlSafe $artImg) + '"' + (Get-SrcsetAttrs ('../' + $artImg) '(max-width: 700px) 100vw, 320px' @(480, 800)) + ' alt="' + (ConvertTo-HtmlSafe $art.image_top_alt) + '" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">' + (ConvertTo-HtmlSafe $art.category) + '</span><h3>' + (ConvertTo-HtmlSafe $art.title) + '</h3><p>' + (ConvertTo-HtmlSafe $art.excerpt) + '</p></div></a>'
         }) -join ''
-        $relatedArticlesHtml = '<section class="ti-section reveal"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid">' + $riCards + '</div></section>'
+        $relatedArticlesHtml = '<section class="ti-section"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid">' + $riCards + '</div></section>'
     }
 
     # ---- Accordion items ----
@@ -598,7 +617,7 @@ foreach ($file in $files) {
     $everythingIncludedTopHtml = ""
     if ($everythingIncluded.Count -gt 0) {
         $items = ($everythingIncluded | ForEach-Object { '<p><span class="check-red">&#10003;</span> ' + (ConvertTo-HtmlSafe $_) + '</p>' }) -join "`n"
-        $everythingIncludedTopHtml = '<div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list">' + $items + '</div></div>'
+        $everythingIncludedTopHtml = '<div class="everything-included-top"><h3>Everything Included</h3><div class="itinerary-list">' + $items + '</div></div>'
     }
     $accordionHtml = $accordionBlocks -join "`n"
 
@@ -700,7 +719,7 @@ foreach ($file in $files) {
             $priceStr = Format-DerivedPrice $winner.priceInfo.price
             $guestPhrase = Format-GuestPhrase $winner.priceInfo.guestLabels
             $teaserBadge = $winner.entry.editorial.badge
-            $priceTeaserHtml = '<div class="tour-price-teaser reveal" data-option-id="' + (ConvertTo-HtmlSafe $winner.entry.optionId) + '"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + $priceStr + ' <small>p.p.</small></strong></div><p class="tour-from-qualifier">for ' + $guestPhrase + '</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
+            $priceTeaserHtml = '<div class="tour-price-teaser" data-option-id="' + (ConvertTo-HtmlSafe $winner.entry.optionId) + '"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + $priceStr + ' <small>p.p.</small></strong></div><p class="tour-from-qualifier">for ' + $guestPhrase + '</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
             $priceValidationChecks.Add([pscustomobject]@{ slug = $slug; optionId = $winner.entry.optionId; expected = $priceStr; isTeaser = $true }) | Out-Null
 
             # pricing.from_price staleness (informational): this field is no
@@ -713,17 +732,17 @@ foreach ($file in $files) {
                 $schemaPriceMismatches.Add("Tour '$id': pricing.from_price is `$$canonicalFromPrice but the tour-pricing.json-derived price is `$$($winner.priceInfo.price) (option '$($winner.entry.optionId)') -- update knowledge/tours/$id.json's pricing.from_price so the CMS editor doesn't show a stale value (public schema/recommendations already use the correct price).") | Out-Null
             }
         } else {
-            $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
+            $priceTeaserHtml = '<div class="tour-price-teaser"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
         }
     } elseif ($priceConfirmed -and $canonicalFromPrice) {
         # Legacy path -- unmigrated tour, unchanged from current production behavior.
         $primaryOptForBadge = $options | Where-Object { [bool](Get-PropertyValue $_ 'is_primary' $false) } | Select-Object -First 1
         $teaserBadge = if ($primaryOptForBadge) { $primaryOptForBadge.badge } elseif ($options.Count -gt 0) { $options[0].badge } else { 'PRIVATE TOUR' }
-        $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + [string]$canonicalFromPrice + ' <small>p.p.</small></strong></div><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
+        $priceTeaserHtml = '<div class="tour-price-teaser"><div class="container tour-price-teaser-inner"><span class="option-badge">' + $teaserBadge + '</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$' + [string]$canonicalFromPrice + ' <small>p.p.</small></strong></div><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>'
     } elseif ($options.Count -gt 0 -or ($guideOnly -and $guideOnly.price)) {
         # No confirmed canonical price yet -- neutral conversion message
         # instead of implying a specific starting price.
-        $priceTeaserHtml = '<div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
+        $priceTeaserHtml = '<div class="tour-price-teaser"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>'
     }
 
     # ---- Schema Offer.price ----
@@ -792,7 +811,7 @@ foreach ($file in $files) {
         $cards = ($crossSell | ForEach-Object {
             $img = [string]$_.image
             if (-not $img.StartsWith('..')) { $img = "../$img" }
-            '<a href="' + $_.href + '" class="cross-sell-card"><img src="' + $img + '" alt="' + (ConvertTo-HtmlSafe $_.title) + '" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">' + (ConvertTo-HtmlSafe $_.label) + '</div><div class="cross-sell-title">' + (ConvertTo-HtmlSafe $_.title) + '</div></div></a>'
+            '<a href="' + $_.href + '" class="cross-sell-card"><img src="' + $img + '"' + (Get-SrcsetAttrs $img '(max-width: 700px) 100vw, 400px' @(480, 800)) + ' alt="' + (ConvertTo-HtmlSafe $_.title) + '" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">' + (ConvertTo-HtmlSafe $_.label) + '</div><div class="cross-sell-title">' + (ConvertTo-HtmlSafe $_.title) + '</div></div></a>'
         }) -join "`n"
         $crossSellSection = '<section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid">' + $cards + '</div></div></section>'
     }

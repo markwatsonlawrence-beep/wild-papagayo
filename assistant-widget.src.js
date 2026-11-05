@@ -47,9 +47,9 @@
     return (window.WPAttribution && window.WPAttribution.getContext()) || {};
   }
 
-  var css = '.wpa-fab{position:fixed;bottom:98px;right:28px;width:58px;height:58px;border-radius:50%;background:#062448;color:#fff;border:none;box-shadow:0 8px 24px rgba(6,36,72,.3);cursor:pointer;z-index:9998;font-size:26px;display:flex;align-items:center;justify-content:center}' +
+  var css = '.wpa-fab{position:fixed;bottom:var(--wpa-fab-bottom,98px);right:28px;width:58px;height:58px;border-radius:50%;background:#062448;color:#fff;border:none;box-shadow:0 8px 24px rgba(6,36,72,.3);cursor:pointer;z-index:9998;font-size:26px;display:flex;align-items:center;justify-content:center}' +
     '.wpa-fab:hover{background:#0a3768}' +
-    '.wpa-panel{position:fixed;bottom:166px;right:24px;width:min(360px,92vw);height:min(520px,72vh);background:#fff;border-radius:12px;box-shadow:0 20px 60px rgba(6,36,72,.25);z-index:9999;display:none;flex-direction:column;overflow:hidden;font-family:Arial,Helvetica,sans-serif}' +
+    '.wpa-panel{position:fixed;bottom:calc(var(--wpa-fab-bottom,98px) + 68px);right:24px;width:min(360px,92vw);height:min(520px,72vh);background:#fff;border-radius:12px;box-shadow:0 20px 60px rgba(6,36,72,.25);z-index:9999;display:none;flex-direction:column;overflow:hidden;font-family:Arial,Helvetica,sans-serif}' +
     '.wpa-panel.open{display:flex}' +
     '.wpa-head{background:#062448;color:#fff;padding:16px 18px;display:flex;justify-content:space-between;align-items:center;flex-shrink:0}' +
     '.wpa-head strong{font-size:.95rem}' +
@@ -73,7 +73,7 @@
     '.wpa-lead-send:disabled{opacity:.6;cursor:default}' +
     '.wpa-lead-skip{background:none;border:none;color:#8a94a3;cursor:pointer;font-size:.8rem;text-decoration:underline}' +
     '.wpa-lead-status{color:#b3261e;font-size:.78rem;margin:6px 0 0}' +
-    '.wpa-tip{position:fixed;bottom:104px;right:96px;max-width:200px;background:#fff;color:#062448;font-size:.82rem;line-height:1.4;padding:11px 14px;border-radius:10px;box-shadow:0 10px 30px rgba(6,36,72,.22);z-index:9997;font-family:Arial,Helvetica,sans-serif;display:flex;align-items:flex-start;gap:8px;animation:wpaFadeIn .3s ease}' +
+    '.wpa-tip{position:fixed;bottom:calc(var(--wpa-fab-bottom,98px) + 6px);right:96px;max-width:200px;background:#fff;color:#062448;font-size:.82rem;line-height:1.4;padding:11px 14px;border-radius:10px;box-shadow:0 10px 30px rgba(6,36,72,.22);z-index:9997;font-family:Arial,Helvetica,sans-serif;display:flex;align-items:flex-start;gap:8px;animation:wpaFadeIn .3s ease}' +
     '.wpa-tip:after{content:"";position:absolute;right:-6px;top:22px;width:12px;height:12px;background:#fff;transform:rotate(45deg);box-shadow:3px -3px 6px rgba(6,36,72,.04)}' +
     '.wpa-tip-close{background:none;border:none;color:#8a94a3;font-size:15px;cursor:pointer;line-height:1;padding:0;flex-shrink:0}' +
     '@keyframes wpaFadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}' +
@@ -81,9 +81,12 @@
     '@media(max-width:600px){' +
       '.wpa-panel{top:0;left:0;right:0;bottom:0;width:100%;height:100dvh;max-height:100dvh;border-radius:0;animation:wpaSheetUp 280ms cubic-bezier(.22,1,.36,1)}' +
       '.wpa-head{padding-top:calc(16px + env(safe-area-inset-top))}' +
-      '.wpa-fab{right:16px;bottom:78px}' +
-      '.wpa-tip{right:16px;bottom:84px;max-width:calc(100vw - 32px)}' +
+      '.wpa-fab{right:16px;bottom:var(--wpa-fab-bottom-m,78px)}' +
+      // beside the button (16px + 58px + 10px gap), not a full-width banner over the page text
+      '.wpa-tip{right:84px;bottom:calc(var(--wpa-fab-bottom-m,78px) + 6px);max-width:min(240px,calc(100vw - 108px))}' +
     '}' +
+    // short landscape screens: the panel would rise above the top edge (close button out of reach)
+    '@media(min-width:601px) and (max-height:600px){.wpa-panel{top:12px;bottom:12px;height:auto}}' +
     '@media(max-width:600px) and (prefers-reduced-motion:reduce){.wpa-panel{animation:none}}';
   var styleEl = document.createElement('style');
   styleEl.textContent = css;
@@ -124,6 +127,8 @@
         var autoHide = setTimeout(hideTip, 7000);
         tip.querySelector('.wpa-tip-close').addEventListener('click', function () { clearTimeout(autoHide); hideTip(); });
         fab.addEventListener('click', function () { clearTimeout(autoHide); hideTip(); }, { once: true });
+        // The reader is moving on: the tip must not sit over the text they scroll to.
+        window.addEventListener('scroll', function () { clearTimeout(autoHide); hideTip(); }, { once: true, passive: true });
       }, 2000);
     }
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Offline | Wild Papagayo</title>
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0}
+        body{font-family:'Plus Jakarta Sans',Segoe UI,Arial,sans-serif;background:#FFF9F2;color:#062448;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center;}
+        .logo{width:160px;margin-bottom:32px;}
+        .icon{font-size:3rem;margin-bottom:20px;display:block;}
+        h1{font-family:Georgia,serif;font-size:clamp(1.6rem,4vw,2.2rem);font-weight:600;margin-bottom:12px;color:#062448;}
+        p{color:#667085;font-size:1rem;line-height:1.7;max-width:380px;margin-bottom:28px;}
+        a{display:inline-block;background:#C9A24B;color:#062448;font-weight:700;font-size:.9rem;letter-spacing:.04em;padding:14px 32px;border-radius:4px;text-decoration:none;transition:opacity .2s;}
+        a:hover{opacity:.88;}
+    </style>
+
+<!-- Google tag (gtag.js) -- deferred until window 'load' so it never competes with LCP/FCP-critical resources -->
+<script>
+window.addEventListener('load', function() {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-9V2MY7J6RJ';
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'G-9V2MY7J6RJ');
+});
+</script>
+</head>
+<body>
+    <img class="logo" src="images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo" onerror="this.style.display='none'">
+    <span class="icon">🌿</span>
+    <h1>No internet connection</h1>
+    <p>It looks like you're offline. Check your connection and try again — Costa Rica will still be here when you're back.</p>
+    <a href="/" onclick="location.reload();return false;">Try again</a>
+</body>
+</html>

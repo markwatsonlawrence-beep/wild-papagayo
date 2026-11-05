@@ -49,6 +49,25 @@ function Get-ImageDimAttrs {
     if ($null -eq $prop) { return '' }
     return ' width="' + [string]$prop.Value.width + '" height="' + [string]$prop.Value.height + '"'
 }
+
+# Responsive variants written by engine/image-variants.js (images/<name>-<w>w.webp, audit 2026-11-02).
+# srcset lists only variants that exist (each passed a quality check) plus the original as the largest
+# candidate, so no browser is offered a smaller image than it needs; with no variant nothing is emitted.
+function Get-SrcsetAttrs {
+    param([string]$Src, [string]$Sizes, [int[]]$Widths)
+    if ($Src -notmatch '^(.*/)?images/([^/]+)\.webp$') { return '' }
+    $prefix = [string]$Matches[1]; $base = $Matches[2]
+    if ($null -eq $imageDimensions) { return '' }
+    $orig = $imageDimensions.PSObject.Properties["$base.webp"]
+    if ($null -eq $orig) { return '' }
+    $parts = @()
+    foreach ($w in $Widths) {
+        if ($w -lt [int]$orig.Value.width -and (Test-Path -LiteralPath (Join-Path $root "images/$base-$($w)w.webp") -PathType Leaf)) { $parts += "$($prefix)images/$base-$($w)w.webp $($w)w" }
+    }
+    if ($parts.Count -eq 0) { return '' }
+    $parts += "$Src $([int]$orig.Value.width)w"
+    return ' srcset="' + ($parts -join ', ') + '" sizes="' + $Sizes + '"'
+}
 function Component([string]$name) {
   $p = Join-Path $root "templates/components/$name.html"
   if (-not (Test-Path $p)) { throw "Missing component: $p" }
@@ -148,6 +167,9 @@ foreach ($file in $destinationFiles) {
     "<div class=`"destination-why-cols`">$highlightsHtml$considerationsHtml</div>"
   } else { "" }
   $destinationBody = "<section class=`"destination-body-section`"><h2>Why visit $($d.name)?</h2>$whyParas<div class=`"destination-pills`">$($bestFor -join '')</div>$colsHtml</section>$faqHtml"
+  # Images already shown in an experience card; the photo gallery reuses the card sizes for them so a
+  # phone picks the same file for both and downloads it once.
+  $cardImages = @{}
   $tourCards = @()
   $itineraryTours = @()
   foreach ($tourId in @($d.featured_tours)) {
@@ -156,12 +178,13 @@ foreach ($file in $destinationFiles) {
     if (Test-Path $tourFile) {
       $tourName = if ($tour -and $tour.name) { $tour.name } else { ($tourId -replace '-', ' ') }
       $image = if ($tour -and $tour.image) { $tour.image } else { $d.hero_image }
+      $cardImages[[string]$image] = $true
       $category = if ($tour -and $tour.category) { $tour.category } else { "Curated Experience" }
       $description = if ($tour -and $tour.description) { $tour.description } else { "Explore this experience from $($d.name) with private transportation and local support." }
       $tourHref = if ($tour -and $tour.page_url) { [string]$tour.page_url } else { "../tours/$tourId" }
       $tourCards += @"
 <a class="wp-destination-experience-card" href="$tourHref">
-  <img class="wp-destination-experience-image" src="../$image" alt="$(ConvertTo-HtmlSafe $tourName)"$(Get-ImageDimAttrs $image) loading="lazy" decoding="async">
+  <img class="wp-destination-experience-image" src="../$image" alt="$(ConvertTo-HtmlSafe $tourName)"$(Get-ImageDimAttrs $image)$(Get-SrcsetAttrs "../$image" '(max-width: 700px) 100vw, 400px' @(480, 800)) loading="lazy" decoding="async">
   <div class="wp-destination-experience-content">
     <span class="wp-destination-experience-label">$(ConvertTo-HtmlSafe $category)</span>
     <h3>$(ConvertTo-HtmlSafe $tourName)</h3>
@@ -247,20 +270,24 @@ foreach ($file in $destinationFiles) {
   # ── Transportation cards: card 1 is informational (real airport data). Cards 2 and 3
   #    each sell one specific Wild Papagayo service and link straight to that service's
   #    own booking form -- guides.html for a local guide, transport.html for a private
-  #    transfer -- instead of a single generic "recommended" card. ──
+  #    transfer -- instead of a single generic "recommended" card.
+  #    If transfer_url is set in the destination JSON, the transfer card links to that
+  #    specific landing page; otherwise it falls back to transport.html. ──
+  $transferCardUrl = if ($d.transfer_url) { [string]$d.transfer_url } else { '../transport#booking-form' }
   $transportCards = @(
     "<div class=`"destination-transport-card destination-transport-card--cta`"><small>Nearest Airport</small><strong>$(ConvertTo-HtmlSafe $airportDisplay)</strong><span>The gateway most Wild Papagayo guests use to reach $(ConvertTo-HtmlSafe $d.name).</span></div>"
     "<div class=`"destination-transport-card destination-transport-card--cta`"><small>Book Direct With Us</small><strong>Local Bilingual Guide</strong><span>A local guide who knows $(ConvertTo-HtmlSafe $d.name) turns a day trip into a real experience -- wildlife, history and the spots most visitors miss.</span><a class=`"destination-transport-cta-link`" href=`"../guides#book-guide`">Book a guide &rarr;</a></div>"
-    "<div class=`"destination-transport-card destination-transport-card--cta`"><small>Book Direct With Us</small><strong>Private Transfer</strong><span>Skip the rental car -- English-speaking drivers, door-to-door, timed to your flight, approx. $(ConvertTo-HtmlSafe $d.transfer_time) from $(ConvertTo-HtmlSafe $airportDisplay).</span><a class=`"destination-transport-cta-link`" href=`"../transport#booking-form`">Book a transfer &rarr;</a></div>"
+    "<div class=`"destination-transport-card destination-transport-card--cta`"><small>Book Direct With Us</small><strong>Private Transfer</strong><span>Skip the rental car -- English-speaking drivers, door-to-door, timed to your flight, approx. $(ConvertTo-HtmlSafe $d.transfer_time) from $(ConvertTo-HtmlSafe $airportDisplay).</span><a class=`"destination-transport-cta-link`" href=`"$(ConvertTo-HtmlSafe $transferCardUrl)`">Book a transfer &rarr;</a></div>"
   )
 
   $hotelCards = @()
   foreach ($hotel in @($hotels | Where-Object { $_.destination_id -eq $d.id })) {
     $hotelImage = if ($hotel.hero_image) { $hotel.hero_image } else { $d.hero_image }
+    $cardImages[[string]$hotelImage] = $true
     $hotelDesc = if ($hotel.hero_description) { $hotel.hero_description } else { "Stay at $($hotel.name) with easy access to $($d.name)." }
     $hotelCards += @"
 <a class="wp-destination-experience-card" href="../hotels/$($hotel.id)">
-  <img class="wp-destination-experience-image" src="../$hotelImage" alt="$(ConvertTo-HtmlSafe $hotel.hero_image_alt)"$(Get-ImageDimAttrs $hotelImage) loading="lazy" decoding="async">
+  <img class="wp-destination-experience-image" src="../$hotelImage" alt="$(ConvertTo-HtmlSafe $hotel.hero_image_alt)"$(Get-ImageDimAttrs $hotelImage)$(Get-SrcsetAttrs "../$hotelImage" '(max-width: 700px) 100vw, 400px' @(480, 800)) loading="lazy" decoding="async">
   <div class="wp-destination-experience-content">
     <span class="wp-destination-experience-label">$(ConvertTo-HtmlSafe $hotel.category)</span>
     <h3>$(ConvertTo-HtmlSafe $hotel.name)</h3>
@@ -314,7 +341,7 @@ foreach ($file in $destinationFiles) {
       $nearImg = if ($near.hero_image) { [string]$near.hero_image } else { [string]$d.hero_image }
       $nearBestFor = @($near.best_for) | Select-Object -First 3
       $tagsHtml = ($nearBestFor | ForEach-Object { "<span class=`"destination-stay-tag`">$(ConvertTo-HtmlSafe $_)</span>" }) -join ""
-      $stayCards.Add("<a class=`"dg-guide-card`" href=`"$sbId`"><div class=`"dg-guide-img`"><img src=`"../$nearImg`" alt=`"$(ConvertTo-HtmlSafe $near.name)`"$(Get-ImageDimAttrs $nearImg) loading=`"lazy`" decoding=`"async`"></div><div><h3>$(ConvertTo-HtmlSafe $near.name)</h3><p>$(ConvertTo-HtmlSafe $near.hero_description)</p><div class=`"destination-stay-tags`">$tagsHtml</div></div></a>")
+      $stayCards.Add("<a class=`"dg-guide-card`" href=`"$sbId`"><div class=`"dg-guide-img`"><img src=`"../$nearImg`" alt=`"$(ConvertTo-HtmlSafe $near.name)`"$(Get-ImageDimAttrs $nearImg)$(Get-SrcsetAttrs "../$nearImg" '(max-width: 700px) 100vw, 340px' @(480, 800)) loading=`"lazy`" decoding=`"async`"></div><div><h3>$(ConvertTo-HtmlSafe $near.name)</h3><p>$(ConvertTo-HtmlSafe $near.hero_description)</p><div class=`"destination-stay-tags`">$tagsHtml</div></div></a>")
       $bestForText = (@($near.best_for) | Select-Object -First 2) -join ", "
       $rowStyle = if ($stayRowIndex % 2 -eq 1) { " style=`"background:#f8f5ef;`"" } else { "" }
       $stayTableRows.Add("<tr$rowStyle><td style=`"padding:10px 14px;`"><strong>$(ConvertTo-HtmlSafe $near.name)</strong></td><td style=`"padding:10px 14px;`">$(ConvertTo-HtmlSafe $bestForText)</td><td style=`"padding:10px 14px;`">$(ConvertTo-HtmlSafe $near.transfer_time)</td><td style=`"padding:10px 14px;`">$(ConvertTo-HtmlSafe $sb.without_car_note)</td></tr>")
@@ -334,7 +361,7 @@ foreach ($file in $destinationFiles) {
       $nearImg = if ($near.hero_image) { [string]$near.hero_image } else { [string]$d.hero_image }
       $nearBestFor = @($near.best_for) | Select-Object -First 3
       $tagsHtml = ($nearBestFor | ForEach-Object { "<span class=`"destination-stay-tag`">$(ConvertTo-HtmlSafe $_)</span>" }) -join ""
-      "<a class=`"dg-guide-card`" href=`"$_`"><div class=`"dg-guide-img`"><img src=`"../$nearImg`" alt=`"$(ConvertTo-HtmlSafe $near.name)`"$(Get-ImageDimAttrs $nearImg) loading=`"lazy`" decoding=`"async`"></div><div><h3>$(ConvertTo-HtmlSafe $near.name)</h3><p>$(ConvertTo-HtmlSafe $near.hero_description)</p><div class=`"destination-stay-tags`">$tagsHtml</div></div></a>"
+      "<a class=`"dg-guide-card`" href=`"$_`"><div class=`"dg-guide-img`"><img src=`"../$nearImg`" alt=`"$(ConvertTo-HtmlSafe $near.name)`"$(Get-ImageDimAttrs $nearImg)$(Get-SrcsetAttrs "../$nearImg" '(max-width: 700px) 100vw, 340px' @(480, 800)) loading=`"lazy`" decoding=`"async`"></div><div><h3>$(ConvertTo-HtmlSafe $near.name)</h3><p>$(ConvertTo-HtmlSafe $near.hero_description)</p><div class=`"destination-stay-tags`">$tagsHtml</div></div></a>"
     }
     $stayCards = @($stayCards | Where-Object { $_ })
     if ($stayCards.Count -gt 0) {
@@ -350,10 +377,11 @@ foreach ($file in $destinationFiles) {
     $ids = @($a.destinations) + @($a.destination_ids)
     if ($ids -contains $d.id) {
       $articleImg = if ($a.image_top -and (Test-Path (Join-Path $root $a.image_top))) { $a.image_top } else { $d.hero_image }
+      $cardImages[[string]$articleImg] = $true
       $articleCategory = if ($a.category) { $a.category } else { "Travel Guide" }
       $articleCards += @"
 <a class="wp-destination-experience-card" href="../blog/$($a.slug)">
-  <img class="wp-destination-experience-image" src="../$articleImg" alt="$(ConvertTo-HtmlSafe $a.image_top_alt)"$(Get-ImageDimAttrs $articleImg) loading="lazy" decoding="async">
+  <img class="wp-destination-experience-image" src="../$articleImg" alt="$(ConvertTo-HtmlSafe $a.image_top_alt)"$(Get-ImageDimAttrs $articleImg)$(Get-SrcsetAttrs "../$articleImg" '(max-width: 700px) 100vw, 400px' @(480, 800)) loading="lazy" decoding="async">
   <div class="wp-destination-experience-content">
     <span class="wp-destination-experience-label">$(ConvertTo-HtmlSafe $articleCategory)</span>
     <h3>$(ConvertTo-HtmlSafe $a.title)</h3>
@@ -372,7 +400,7 @@ foreach ($file in $destinationFiles) {
       $near = Read-Utf8Json $nearFile
       $nearImg = if ($near.hero_image) { [string]$near.hero_image } else { [string]$d.hero_image }
       $nearDesc = if ($near.hero_description) { [string]$near.hero_description } else { [string]$near.description }
-      "<a class=`"dg-guide-card`" href=`"$_`"><div class=`"dg-guide-img`"><img src=`"../$nearImg`" alt=`"$(ConvertTo-HtmlSafe $near.name)`"$(Get-ImageDimAttrs $nearImg) loading=`"lazy`" decoding=`"async`"></div><div><h3>$(ConvertTo-HtmlSafe $near.name)</h3><p>$(ConvertTo-HtmlSafe $nearDesc)</p></div></a>"
+      "<a class=`"dg-guide-card`" href=`"$_`"><div class=`"dg-guide-img`"><img src=`"../$nearImg`" alt=`"$(ConvertTo-HtmlSafe $near.name)`"$(Get-ImageDimAttrs $nearImg)$(Get-SrcsetAttrs "../$nearImg" '(max-width: 700px) 100vw, 340px' @(480, 800)) loading=`"lazy`" decoding=`"async`"></div><div><h3>$(ConvertTo-HtmlSafe $near.name)</h3><p>$(ConvertTo-HtmlSafe $nearDesc)</p></div></a>"
     }
     # A nearby id with no record, or a record that is not published, gets no card
     # (previously a dead-href text card was rendered for a missing record).
@@ -383,7 +411,7 @@ foreach ($file in $destinationFiles) {
   # Links this page (not the destination itself) to the single site-wide
   # Wild Papagayo organization node, same pattern used on hotel/tour pages.
   $destWebPage = @{'@type'='WebPage';'@id'="$canonical#webpage";url=$canonical;name=[string]$d.name;publisher=@{'@type'='TravelAgency';'@id'="$siteUrl/#organization";name='Wild Papagayo'}}
-  $destBreadcrumb = @{'@type'='BreadcrumbList';itemListElement=@(@{'@type'='ListItem';position=1;name='Home';item="$siteUrl/"},@{'@type'='ListItem';position=2;name='Destinations';item="$siteUrl/destinations/"},@{'@type'='ListItem';position=3;name=[string]$d.name;item=$canonical})}
+  $destBreadcrumb = @{'@type'='BreadcrumbList';itemListElement=@(@{'@type'='ListItem';position=1;name='Home';item="$siteUrl/"},@{'@type'='ListItem';position=2;name=[string]$d.name;item=$canonical})}
   $schemaGraph = @($touristDestination, $destWebPage, $destBreadcrumb)
   if ($d.faq -and $d.faq.Count -gt 0) {
     $faqEntities = @($d.faq | ForEach-Object { @{'@type'='Question';name=[string]$_.q;acceptedAnswer=@{'@type'='Answer';text=[string]$_.a}} })
@@ -392,7 +420,7 @@ foreach ($file in $destinationFiles) {
   $schema = (@{'@context'='https://schema.org';'@graph'=$schemaGraph} | ConvertTo-Json -Depth 10 -Compress)
   $photoGallery = ""
   if ($d.gallery -and $d.gallery.Count -gt 0) {
-    $galleryImgs = ($d.gallery | ForEach-Object { '<div class="destination-gallery-img"><img src="../' + [string]$_.src + '" alt="' + (ConvertTo-HtmlSafe $_.alt) + '"' + (Get-ImageDimAttrs $_.src) + ' loading="lazy" decoding="async"></div>' }) -join ''
+    $galleryImgs = ($d.gallery | ForEach-Object { '<div class="destination-gallery-img"><img src="../' + [string]$_.src + '" alt="' + (ConvertTo-HtmlSafe $_.alt) + '"' + (Get-ImageDimAttrs $_.src) + (Get-SrcsetAttrs ('../' + [string]$_.src) $(if ($cardImages.ContainsKey([string]$_.src)) { '(max-width: 700px) 100vw, 400px' } else { '(max-width: 700px) 50vw, 300px' }) @(480, 800)) + ' loading="lazy" decoding="async"></div>' }) -join ''
     $photoGallery = '<div class="destination-gallery">' + $galleryImgs + '</div>'
   }
 
@@ -405,10 +433,20 @@ foreach ($file in $destinationFiles) {
     }) -join ''
     $testimonialsSection = '<section class="section testimonials-section" style="padding:60px 0;"><div class="container"><div class="section-head reveal"><span class="section-kicker">Traveler Stories</span><h2 class="section-title">What Travelers Say About ' + (ConvertTo-HtmlSafe $d.name) + '</h2></div><div class="testimonials-grid">' + $tCards + '</div></div></section>'
   }
+  $tourCta = ""
+  if ($d.tours_url) {
+    $toursUrl = ConvertTo-HtmlSafe ([string]$d.tours_url)
+    $ctaLinks = "<a class=`"destination-transport-cta-link`" href=`"$toursUrl`" style=`"font-size:.9rem;`">Browse all private tours &rarr;</a>"
+    if ($d.private_tours_url) {
+      $privateTours = ConvertTo-HtmlSafe ([string]$d.private_tours_url)
+      $ctaLinks += " &nbsp;&middot;&nbsp; <a class=`"destination-transport-cta-link`" href=`"$privateTours`" style=`"font-size:.9rem;`">Papagayo tours guide &rarr;</a>"
+    }
+    $tourCta = "<div style=`"padding:20px 0 0;text-align:center;`">$ctaLinks</div>"
+  }
   $html = $template.Replace('__COMPONENT_HEADER__',$header).Replace('__COMPONENT_FOOTER__',$footer).Replace('__COMPONENT_CTA__',$cta)
   $replacements = @{
-    '__SEO_TITLE__' = "$($d.name) Travel Guide | Wild Papagayo"
-    '__SEO_DESCRIPTION__' = Get-SeoDescription ([string]$d.description)
+    '__SEO_TITLE__' = if ($d.seo_title) { [string]$d.seo_title } else { "$($d.name) Travel Guide | Wild Papagayo" }
+    '__SEO_DESCRIPTION__' = if ($d.seo_description) { [string]$d.seo_description } else { Get-SeoDescription ([string]$d.description) }
     '__CANONICAL__' = $canonical
     '__OG_IMAGE__' = "$siteUrl/$($d.hero_image)"
     '__SCHEMA__' = $schema
@@ -420,6 +458,7 @@ foreach ($file in $destinationFiles) {
     '__QUICK_FACTS__' = ($quickFacts -join "`n")
     '__WHERE_TO_STAY_SECTION__' = $whereToStaySection
     '__TOUR_CARDS__' = ($tourCards -join "`n")
+    '__TOUR_CTA__' = $tourCta
     '__ARTICLE_CARDS__' = ($articleCards -join "`n")
     '__NEARBY_LINKS__' = ($nearbyLinks -join "`n")
     '__TESTIMONIALS_SECTION__' = $testimonialsSection

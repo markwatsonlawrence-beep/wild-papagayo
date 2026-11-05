@@ -156,6 +156,7 @@
         .tour-mobile-cta-label { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #062448; }
         .tour-mobile-cta-btn { flex: 1; max-width: 220px; min-height: 44px; text-align: center; font-size: .8rem; }
         .whatsapp-float { bottom: 82px; }
+        :root { --wpa-fab-bottom: 150px; --wpa-fab-bottom-m: 146px; } /* chat + back-to-top stack above the raised WhatsApp button */
     }
     .why-private-section { background: #f7f4ee; padding: 48px 0; }
     .why-private-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; margin-top: 28px; }
@@ -278,7 +279,7 @@ window.addEventListener('load', function() {
 <div class="glance-item"><div class="glance-icon">🗣️</div><b>Guide</b><span>Local community guide (required by refuge)</span></div>
 <div class="glance-item"><div class="glance-icon">🐢</div><b>Highlights</b><span>Olive Ridley Turtle Arribada</span></div>
 <div class="glance-item"><div class="glance-icon">📅</div><b>Best Season</b><span>August to November (arribada)</span></div></div><p class="tour-glance-note">No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.</p></div>
-        <div class="tour-price-teaser reveal"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>
+        <div class="tour-price-teaser"><div class="container tour-price-teaser-inner"><span class="option-badge">PRIVATE TOUR</span><div class="tour-from-price"><strong class="from-amount" style="font-size:1.3rem;">Private pricing available</strong></div><a class="btn btn-primary" href="#book">Get Exact Quote</a></div></div>
         <section class="why-private-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why It Matters</span><h2 class="section-title">Why Explore Privately?</h2></div><div class="why-private-grid"><div class="why-private-item reveal"><h3>Your Own Vehicle</h3><p>Travel comfortably without sharing transportation with other groups.</p></div><div class="why-private-item reveal"><h3>Direct Hotel Pickup</h3><p>Start and end the experience directly at your resort. No shared buses, no unnecessary hotel stops.</p></div><div class="why-private-item reveal"><h3>Personal Attention</h3><p>Enjoy more interaction with your certified local guide.</p></div><div class="why-private-item reveal"><h3>A Better Pace</h3><p>Spend your day experiencing Costa Rica instead of waiting on a large group.</p></div><div class="why-private-item reveal"><h3>Local Support</h3><p>Your Wild Papagayo concierge helps coordinate every detail before your tour.</p></div></div></div></section>
         <section class="tour-page-v3">
             <div class="container tour-page-grid">
@@ -287,11 +288,11 @@ window.addEventListener('load', function() {
                         <div class="premium-gallery-card reveal">
                             <div class="gallery-main">
                                 <img alt="Olive ridley sea turtle nesting on Ostional beach at sunset" src="../images/ostional1.webp" width="1600" height="900" loading="lazy" decoding="async">
-<img alt="Olive ridley sea turtle resting at the water's edge, Ostional" src="../images/ostional2.webp" width="1100" height="825" loading="lazy" decoding="async">
-<img alt="Olive ridley sea turtle crawling across the sand at Ostional" src="../images/ostional3.webp" width="1100" height="825" loading="lazy" decoding="async">
-<img alt="Close-up of an olive ridley sea turtle's head, Ostional" src="../images/ostional4.webp" width="1100" height="825" loading="lazy" decoding="async">
-<img alt="Olive ridley sea turtle in shallow water with reflection, Ostional" src="../images/ostional5.webp" width="1100" height="825" loading="lazy" decoding="async">
-<img alt="Sea turtle eggs in a nest on Ostional beach" src="../images/ostional6.webp" width="1100" height="825" loading="lazy" decoding="async">
+<img alt="Olive ridley sea turtle resting at the water's edge, Ostional" src="../images/ostional2.webp" width="1100" height="825" srcset="../images/ostional2-800w.webp 800w, ../images/ostional2.webp 1100w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Olive ridley sea turtle crawling across the sand at Ostional" src="../images/ostional3.webp" width="1100" height="825" srcset="../images/ostional3-800w.webp 800w, ../images/ostional3.webp 1100w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Close-up of an olive ridley sea turtle's head, Ostional" src="../images/ostional4.webp" width="1100" height="825" srcset="../images/ostional4-800w.webp 800w, ../images/ostional4.webp 1100w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Olive ridley sea turtle in shallow water with reflection, Ostional" src="../images/ostional5.webp" width="1100" height="825" srcset="../images/ostional5-800w.webp 800w, ../images/ostional5.webp 1100w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Sea turtle eggs in a nest on Ostional beach" src="../images/ostional6.webp" width="1100" height="825" srcset="../images/ostional6-800w.webp 800w, ../images/ostional6.webp 1100w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
 <img alt="Turtle tracks in the sand at Ostional beach at sunrise" src="../images/ostional7.webp" width="1100" height="825" loading="lazy" decoding="async">
 <img alt="Sunset over the ocean at Ostional beach" src="../images/ostional8.webp" width="1100" height="825" loading="lazy" decoding="async">
 <img alt="Ostional beach coastline at golden hour" src="../images/ostional9.webp" width="1100" height="825" loading="lazy" decoding="async">
@@ -300,11 +301,11 @@ window.addEventListener('load', function() {
                             </div>
                             <div class="gallery-thumbs">
                                 <button type="button"><img alt="Olive ridley sea turtle nesting on Ostional beach at sunset" src="../images/ostional1.webp" width="1600" height="900" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Olive ridley sea turtle resting at the water's edge, Ostional" src="../images/ostional2.webp" width="1100" height="825" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Olive ridley sea turtle crawling across the sand at Ostional" src="../images/ostional3.webp" width="1100" height="825" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Close-up of an olive ridley sea turtle's head, Ostional" src="../images/ostional4.webp" width="1100" height="825" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Olive ridley sea turtle in shallow water with reflection, Ostional" src="../images/ostional5.webp" width="1100" height="825" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Sea turtle eggs in a nest on Ostional beach" src="../images/ostional6.webp" width="1100" height="825" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Olive ridley sea turtle resting at the water's edge, Ostional" src="../images/ostional2.webp" width="1100" height="825" srcset="../images/ostional2-200w.webp 200w, ../images/ostional2.webp 1100w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Olive ridley sea turtle crawling across the sand at Ostional" src="../images/ostional3.webp" width="1100" height="825" srcset="../images/ostional3-200w.webp 200w, ../images/ostional3.webp 1100w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Close-up of an olive ridley sea turtle's head, Ostional" src="../images/ostional4.webp" width="1100" height="825" srcset="../images/ostional4-200w.webp 200w, ../images/ostional4.webp 1100w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Olive ridley sea turtle in shallow water with reflection, Ostional" src="../images/ostional5.webp" width="1100" height="825" srcset="../images/ostional5-200w.webp 200w, ../images/ostional5.webp 1100w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Sea turtle eggs in a nest on Ostional beach" src="../images/ostional6.webp" width="1100" height="825" srcset="../images/ostional6-200w.webp 200w, ../images/ostional6.webp 1100w" sizes="64px" loading="lazy" decoding="async"></button>
 <button type="button"><img alt="Turtle tracks in the sand at Ostional beach at sunrise" src="../images/ostional7.webp" width="1100" height="825" loading="lazy" decoding="async"></button>
 <button type="button"><img alt="Sunset over the ocean at Ostional beach" src="../images/ostional8.webp" width="1100" height="825" loading="lazy" decoding="async"></button>
 <button type="button"><img alt="Ostional beach coastline at golden hour" src="../images/ostional9.webp" width="1100" height="825" loading="lazy" decoding="async"></button>
@@ -320,18 +321,18 @@ window.addEventListener('load', function() {
                     <div class="tour-details-area">
     <div class="tour-details-card">
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>One of the Rarest Wildlife Events on Earth</h2><p class="experience-intro">Ostional National Wildlife Refuge is one of the few beaches in the world where olive ridley sea turtles come ashore by the thousands to nest, a phenomenon known as the arribada. On this private night tour, you'll walk the shoreline under moonlight with a certified local community guide, watching these ancient creatures dig their nests and lay their eggs just steps away.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🐢</div><h3>Olive Ridley Sea Turtles</h3><p>Ostional is one of only a handful of nesting beaches on the planet where olive ridley turtles nest in mass synchronized arrivals, a natural event found in very few places worldwide.</p></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>One of the Rarest Wildlife Events on Earth</h2><p class="experience-intro">Ostional National Wildlife Refuge is one of the few beaches in the world where olive ridley sea turtles come ashore by the thousands to nest, a phenomenon known as the arribada. On this private night tour, you'll walk the shoreline under moonlight with a certified local community guide, watching these ancient creatures dig their nests and lay their eggs just steps away.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🐢</div><h3>Olive Ridley Sea Turtles</h3><p>Ostional is one of only a handful of nesting beaches on the planet where olive ridley turtles nest in mass synchronized arrivals, a natural event found in very few places worldwide.</p></div>
 <div class="experience-item"><div class="experience-icon">🌙</div><h3>Guided Night Walk</h3><p>Certified local community guides, required by the refuge for all beach access after dark, lead the walk using red-light flashlights that do not disturb nesting turtles.</p></div>
 <div class="experience-item"><div class="experience-icon">🏖️</div><h3>Community-Protected Refuge</h3><p>Ostional is managed in partnership with the local community, whose guides fund conservation work through regulated, small-group beach access.</p></div>
 <div class="experience-item"><div class="experience-icon">🌊</div><h3>A Genuine Wild Encounter</h3><p>No enclosures, no staged sightings, just wild turtles on a wild beach. Sightings depend on nature and cannot be guaranteed, but the experience of the beach itself is unforgettable.</p></div></div><div class="experience-footer"><div class="experience-highlight"><span>🇨🇷</span><div><h3>A Long Journey Worth Taking</h3><p>Ostional sits on the Nicoya Peninsula, a substantial private drive from Papagayo. This is a long day into night, but for travelers who want to witness one of Costa Rica's most extraordinary natural events, it is worth every hour on the road.</p></div></div></div></div>
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Afternoon Pickup</h3><p>Your private guide meets you at your hotel or resort for the drive to the Nicoya Peninsula.</p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Afternoon Pickup</h3><p>Your private guide meets you at your hotel or resort for the drive to the Nicoya Peninsula.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">02</div><div class="itinerary-step-body"><h3>Journey to Ostional</h3><p>A private, air-conditioned drive to the wildlife refuge, with a dinner stop along the way.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">03</div><div class="itinerary-step-body"><h3>Community Guide Briefing</h3><p>Meet your certified local community guide, required by the refuge for all after-dark beach access.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">04</div><div class="itinerary-step-body"><h3>Night Turtle Watching</h3><p>Walk the shoreline under moonlight with red-light flashlights, watching olive ridley turtles nest.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">05</div><div class="itinerary-step-body"><h3>Private Late Return</h3><p>A private, late-night return to your resort.</p></div></div></div></div>
 
-                            <div class="accordion-stack clean-stack reveal">
+                            <div class="accordion-stack clean-stack">
                                 <div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list"><li>This is a long private day into night, expect roughly 10-11 hours round trip including drive time. Plan a lighter following day.</li>
 <li>Turtle sightings occur in a natural, wild environment and cannot be guaranteed on any single visit, though sightings are frequent during arribada season.</li>
 <li>Wear dark or neutral clothing and avoid white light or flash photography, both disturb nesting turtles and are restricted on the refuge beach.</li>
@@ -352,8 +353,8 @@ window.addEventListener('load', function() {
 <p><span class="check-red">&#10003;</span> Passport or ID</p></div></div></div>
                             </div>
 
-        <section class="ti-section reveal"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid"><a class="ti-card" href="../blog/is-ostional-turtle-watching-worth-it-from-papagayo"><img src="../images/ostional1.webp" alt="Olive ridley sea turtle nesting on the beach at Ostional National Wildlife Refuge, Costa Rica" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">Tours &amp; Experiences</span><h3>Is Ostional Turtle Watching Worth It From Papagayo?</h3><p>Ostional turtle watching can be worth the long trip from Papagayo for wildlife-focused travelers, especially when a larger olive ridley arribada is active.</p></div></a></div></section>
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, transportation and your driver-guide are private and exclusive to your group. Beach access after dark is coordinated with a certified local community guide, a refuge regulation, not a Wild Papagayo policy.</p></div></div>
+        <section class="ti-section"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid"><a class="ti-card" href="../blog/is-ostional-turtle-watching-worth-it-from-papagayo"><img src="../images/ostional1.webp" alt="Olive ridley sea turtle nesting on the beach at Ostional National Wildlife Refuge, Costa Rica" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">Tours &amp; Experiences</span><h3>Is Ostional Turtle Watching Worth It From Papagayo?</h3><p>Ostional turtle watching can be worth the long trip from Papagayo for wildlife-focused travelers, especially when a larger olive ridley arribada is active.</p></div></a></div></section>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, transportation and your driver-guide are private and exclusive to your group. Beach access after dark is coordinated with a certified local community guide, a refuge regulation, not a Wild Papagayo policy.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is hotel pickup included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>How much does this tour cost?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Pricing is confirmed directly with our concierge based on your pickup zone and group size, contact us on WhatsApp for a custom quote.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Will we definitely see turtles?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Turtle nesting occurs in a wild, natural environment and cannot be guaranteed on any single visit, though sightings are frequent, especially during arribada season.</p></div></div>
@@ -368,7 +369,7 @@ window.addEventListener('load', function() {
                 </div>
 
                 <div class="tour-right-column">
-                    <div class="tour-summary-card reveal">
+                    <div class="tour-summary-card">
                         <h2 class="tour-title-premium">Ostional Turtle Watching Tour Costa Rica</h2>
                         <div class="tour-rating">
                             <span class="driving-time">Full Day into Night</span>
@@ -382,7 +383,7 @@ window.addEventListener('load', function() {
                             </div>
                         </div>
 
-                        <div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
+                        <div class="everything-included-top"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
 <p><span class="check-red">&#10003;</span> Bilingual driver-guide for the full journey</p>
 <p><span class="check-red">&#10003;</span> Ostional National Wildlife Refuge entrance fee</p>
 <p><span class="check-red">&#10003;</span> Certified local community guide for the beach walk</p>
@@ -431,6 +432,7 @@ window.addEventListener('load', function() {
     </div>
 
 </div>
+
 <div class="tour-booking-area">
                         <aside class="booking-side not-sticky" id="book">
                             <div class="reservation-card">
@@ -485,9 +487,9 @@ window.addEventListener('load', function() {
 
     </main>
 
-    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="slothadventure" class="cross-sell-card"><img src="../images/sloth1.webp" alt="Sloth Adventure Tour" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Sloth Adventure Tour</div></div></a>
-<a href="celesteriver" class="cross-sell-card"><img src="../images/celeste1.webp" alt="Celeste River Hike" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Celeste River Hike</div></div></a>
-<a href="waterfallpumas" class="cross-sell-card"><img src="../images/waterfallpumas1.webp" alt="Waterfall &amp; Las Pumas Wildlife Rescue" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Waterfall &amp; Las Pumas Wildlife Rescue</div></div></a></div></div></section><footer class="footer">
+    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="slothadventure" class="cross-sell-card"><img src="../images/sloth1.webp" srcset="../images/sloth1-480w.webp 480w, ../images/sloth1-800w.webp 800w, ../images/sloth1.webp 976w" sizes="(max-width: 700px) 100vw, 400px" alt="Sloth Adventure Tour" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Sloth Adventure Tour</div></div></a>
+<a href="celesteriver" class="cross-sell-card"><img src="../images/celeste1.webp" srcset="../images/celeste1-800w.webp 800w, ../images/celeste1.webp 1200w" sizes="(max-width: 700px) 100vw, 400px" alt="Celeste River Hike" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Celeste River Hike</div></div></a>
+<a href="waterfallpumas" class="cross-sell-card"><img src="../images/waterfallpumas1.webp" srcset="../images/waterfallpumas1-480w.webp 480w, ../images/waterfallpumas1.webp 608w" sizes="(max-width: 700px) 100vw, 400px" alt="Waterfall &amp; Las Pumas Wildlife Rescue" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Waterfall &amp; Las Pumas Wildlife Rescue</div></div></a></div></div></section><footer class="footer">
     <div class="container footer-grid footer-grid-clean">
         <div class="footer-brand">
             <img src="../images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180" loading="lazy" decoding="async">

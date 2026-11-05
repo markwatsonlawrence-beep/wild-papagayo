@@ -42,6 +42,16 @@ function Get-ImageDimAttrs {
     return ' width="' + [string]$prop.Value.width + '" height="' + [string]$prop.Value.height + '"'
 }
 
+# An empty image path used to render <img src="../"> (broken hero on two landing pages, audit
+# 2026-11-02). Stop the build instead of publishing a broken image.
+function Assert-ImagePath {
+    param([string]$Path, [string]$Context)
+    if ([string]::IsNullOrWhiteSpace($Path)) { throw "Landing page generator: $Context has no image path." }
+    $full = Join-Path $root ($Path.TrimStart('.', '/'))
+    if (-not (Test-Path -LiteralPath $full -PathType Leaf)) { throw "Landing page generator: $Context image '$Path' does not exist." }
+    return $Path
+}
+
 $templatePath = Join-Path $root "templates/landing-page.html"
 $configDir = Join-Path $root "knowledge/landing-pages"
 if (-not (Test-Path $templatePath)) { throw "Missing template: $templatePath" }
@@ -100,7 +110,7 @@ foreach ($file in $configFiles) {
         '<a class="btn btn-primary" data-intent="' + (ConvertTo-HtmlSafe $ctaIntent) + '" data-cta-location="' + (ConvertTo-HtmlSafe $c.id) + '_hero" href="' + (ConvertTo-HtmlSafe $hero.cta_primary_url) + '">' + (ConvertTo-HtmlSafe $hero.cta_primary_text) + '</a>' +
         '<a class="btn btn-secondary" style="border-color:#fff;color:#fff;" data-intent="' + (ConvertTo-HtmlSafe $ctaIntent) + '" data-cta-location="' + (ConvertTo-HtmlSafe $c.id) + '_hero" href="' + (ConvertTo-HtmlSafe $heroCtaSecondaryUrl) + '" target="_blank" rel="noopener noreferrer">' + (ConvertTo-HtmlSafe $hero.cta_secondary_text) + '</a>' +
         '</div></div>' +
-        '<div class="plp-hero-photo"><img src="../' + (ConvertTo-HtmlSafe $hero.image) + '" alt="' + (ConvertTo-HtmlSafe $c.h1) + '"' + (Get-ImageDimAttrs $hero.image) + ' loading="eager" fetchpriority="high" decoding="async"></div>' +
+        '<div class="plp-hero-photo"><img src="../' + (ConvertTo-HtmlSafe (Assert-ImagePath ([string]$hero.image) "landing '$($c.slug)' hero.image")) + '" alt="' + (ConvertTo-HtmlSafe $c.h1) + '"' + (Get-ImageDimAttrs $hero.image) + ' loading="eager" fetchpriority="high" decoding="async"></div>' +
         '</header>'
 
     # ---- Trust strip ----
@@ -118,7 +128,7 @@ foreach ($file in $configFiles) {
         if (-not $tourById.ContainsKey($tid)) { return }
         $t = $tourById[$tid]
         $url = [string]$t.page_url
-        $img = [string]$t.hero_image
+        $img = Assert-ImagePath ([string]$t.hero_image) "tour '$tid' hero_image (landing '$($c.slug)')"
         '<a class="plp-tour-card" href="../' + (ConvertTo-HtmlSafe $url.TrimStart('.','/')) + '"><div class="plp-tour-img"><img src="../' + (ConvertTo-HtmlSafe $img) + '" alt="' + (ConvertTo-HtmlSafe $t.name) + '"' + (Get-ImageDimAttrs $img) + ' loading="lazy" decoding="async"></div><div class="plp-tour-body"><span class="plp-tour-best">' + (ConvertTo-HtmlSafe $_.best_for) + '</span><h3>' + (ConvertTo-HtmlSafe $t.name) + '</h3><p>' + (ConvertTo-HtmlSafe $_.note) + '</p><span class="plp-tour-link">View Experience &rarr;</span></div></a>'
     }) -join ''
     $featuredToursHtml = '<div class="section-head" style="text-align:center;"><span class="section-kicker">' + (ConvertTo-HtmlSafe $ft.kicker) + '</span><h2 class="section-title">' + (ConvertTo-HtmlSafe $ft.title) + '</h2></div><div class="plp-tour-grid">' + $tourCards + '</div>'
@@ -309,7 +319,7 @@ foreach ($file in $configFiles) {
                 $hid = [string]$_.id
                 if (-not $hotelById.ContainsKey($hid)) { return }
                 $h = $hotelById[$hid]
-                $img = [string]$h.hero_image
+                $img = Assert-ImagePath ([string]$h.hero_image) "hotel '$hid' hero_image (landing '$($c.slug)')"
                 $href = if ($landingByHotelId.ContainsKey($hid)) { '../private-tours/' + $landingByHotelId[$hid] } else { '../hotels/' + $hid }
                 '<a class="plp-pickup-card" href="' + (ConvertTo-HtmlSafe $href) + '"><div class="plp-pickup-img"><img src="../' + (ConvertTo-HtmlSafe $img) + '" alt="' + (ConvertTo-HtmlSafe $h.name) + '"' + (Get-ImageDimAttrs $img) + ' loading="lazy" decoding="async"></div><div class="plp-pickup-card-body"><h4>' + (ConvertTo-HtmlSafe $h.name) + '</h4><span>' + (ConvertTo-HtmlSafe $_.cta) + ' &rarr;</span></div></a>'
             }) -join ''

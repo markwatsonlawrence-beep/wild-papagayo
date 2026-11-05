@@ -156,6 +156,7 @@
         .tour-mobile-cta-label { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #062448; }
         .tour-mobile-cta-btn { flex: 1; max-width: 220px; min-height: 44px; text-align: center; font-size: .8rem; }
         .whatsapp-float { bottom: 82px; }
+        :root { --wpa-fab-bottom: 150px; --wpa-fab-bottom-m: 146px; } /* chat + back-to-top stack above the raised WhatsApp button */
     }
     .why-private-section { background: #f7f4ee; padding: 48px 0; }
     .why-private-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; margin-top: 28px; }
@@ -269,7 +270,7 @@ window.addEventListener('load', function() {
                 </div>
             </div>
             <div class="ths-right">
-                <img src="../images/floatingtenorio1.webp" alt="Floating at Tenorio River Safari Float in Costa Rica" width="1080" height="722" loading="eager" fetchpriority="high" decoding="async">
+                <img src="../images/floatingtenorio1.webp" alt="Floating at Tenorio River Safari Float in Costa Rica" width="1080" height="722" srcset="../images/floatingtenorio1-480w.webp 480w, ../images/floatingtenorio1-800w.webp 800w, ../images/floatingtenorio1.webp 1080w" sizes="(max-width: 1039px) 100vw, 600px" loading="eager" fetchpriority="high" decoding="async">
             </div>
         </section>
         <div class="tour-glance-bar reveal"><div class="tour-glance-grid"><div class="glance-item"><div class="glance-icon">🕒</div><b>Duration</b><span>Full Day · Approx. 8 Hours</span></div>
@@ -278,7 +279,7 @@ window.addEventListener('load', function() {
 <div class="glance-item"><div class="glance-icon">🗣️</div><b>Guide</b><span>Certified bilingual local guide</span></div>
 <div class="glance-item"><div class="glance-icon">🚣</div><b>Highlights</b><span>90-Min Safari Float &amp; Waterfall</span></div>
 <div class="glance-item"><div class="glance-icon">🍽️</div><b>Lunch</b><span>Traditional Costa Rican lunch included</span></div></div><p class="tour-glance-note">No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.</p></div>
-        <div class="tour-price-teaser reveal" data-option-id="classic"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 CLASSIC</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$240 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
+        <div class="tour-price-teaser" data-option-id="classic"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 CLASSIC</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$240 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
         <section class="why-private-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why It Matters</span><h2 class="section-title">Why Explore Privately?</h2></div><div class="why-private-grid"><div class="why-private-item reveal"><h3>Your Own Vehicle</h3><p>Travel comfortably without sharing transportation with other groups.</p></div><div class="why-private-item reveal"><h3>Direct Hotel Pickup</h3><p>Start and end the experience directly at your resort. No shared buses, no unnecessary hotel stops.</p></div><div class="why-private-item reveal"><h3>Personal Attention</h3><p>Enjoy more interaction with your certified local guide.</p></div><div class="why-private-item reveal"><h3>A Better Pace</h3><p>Spend your day experiencing Costa Rica instead of waiting on a large group.</p></div><div class="why-private-item reveal"><h3>Local Support</h3><p>Your Wild Papagayo concierge helps coordinate every detail before your tour.</p></div></div></div></section>
         <section class="tour-page-v3">
             <div class="container tour-page-grid">
@@ -286,20 +287,20 @@ window.addEventListener('load', function() {
                     <div class="tour-gallery-area">
                         <div class="premium-gallery-card reveal">
                             <div class="gallery-main">
-                                <img alt="Safari float raft on the calm Tenorio River, Costa Rica" src="../images/floatingtenorio1.webp" width="1080" height="722" loading="lazy" decoding="async">
-<img alt="Giant kapok trees overhanging the Tenorio River during safari float" src="../images/floatingtenorio2.webp" width="1080" height="722" loading="lazy" decoding="async">
-<img alt="Llanos de Cortez Waterfall, Guanacaste Costa Rica" src="../images/floatingtenorio3.webp" width="1080" height="725" loading="lazy" decoding="async">
-<img alt="Wildlife spotted during Tenorio River safari float" src="../images/floatingtenorio4.webp" width="859" height="577" loading="lazy" decoding="async">
-<img alt="Group on private Tenorio River float, tropical fruit snack break" src="../images/floatingtenorio5.webp" width="1080" height="722" loading="lazy" decoding="async">
+                                <img alt="Safari float raft on the calm Tenorio River, Costa Rica" src="../images/floatingtenorio1.webp" width="1080" height="722" srcset="../images/floatingtenorio1-480w.webp 480w, ../images/floatingtenorio1-800w.webp 800w, ../images/floatingtenorio1.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Giant kapok trees overhanging the Tenorio River during safari float" src="../images/floatingtenorio2.webp" width="1080" height="722" srcset="../images/floatingtenorio2-800w.webp 800w, ../images/floatingtenorio2.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Llanos de Cortez Waterfall, Guanacaste Costa Rica" src="../images/floatingtenorio3.webp" width="1080" height="725" srcset="../images/floatingtenorio3-800w.webp 800w, ../images/floatingtenorio3.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Wildlife spotted during Tenorio River safari float" src="../images/floatingtenorio4.webp" width="859" height="577" srcset="../images/floatingtenorio4-800w.webp 800w, ../images/floatingtenorio4.webp 859w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Group on private Tenorio River float, tropical fruit snack break" src="../images/floatingtenorio5.webp" width="1080" height="722" srcset="../images/floatingtenorio5-800w.webp 800w, ../images/floatingtenorio5.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
                                 <button class="gallery-arrow gallery-prev" type="button">‹</button>
                                 <button class="gallery-arrow gallery-next" type="button">›</button>
                             </div>
                             <div class="gallery-thumbs">
-                                <button type="button"><img alt="Safari float raft on the calm Tenorio River, Costa Rica" src="../images/floatingtenorio1.webp" width="1080" height="722" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Giant kapok trees overhanging the Tenorio River during safari float" src="../images/floatingtenorio2.webp" width="1080" height="722" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Llanos de Cortez Waterfall, Guanacaste Costa Rica" src="../images/floatingtenorio3.webp" width="1080" height="725" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Wildlife spotted during Tenorio River safari float" src="../images/floatingtenorio4.webp" width="859" height="577" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Group on private Tenorio River float, tropical fruit snack break" src="../images/floatingtenorio5.webp" width="1080" height="722" loading="lazy" decoding="async"></button>
+                                <button type="button"><img alt="Safari float raft on the calm Tenorio River, Costa Rica" src="../images/floatingtenorio1.webp" width="1080" height="722" srcset="../images/floatingtenorio1-200w.webp 200w, ../images/floatingtenorio1.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Giant kapok trees overhanging the Tenorio River during safari float" src="../images/floatingtenorio2.webp" width="1080" height="722" srcset="../images/floatingtenorio2-200w.webp 200w, ../images/floatingtenorio2.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Llanos de Cortez Waterfall, Guanacaste Costa Rica" src="../images/floatingtenorio3.webp" width="1080" height="725" srcset="../images/floatingtenorio3-200w.webp 200w, ../images/floatingtenorio3.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Wildlife spotted during Tenorio River safari float" src="../images/floatingtenorio4.webp" width="859" height="577" srcset="../images/floatingtenorio4-200w.webp 200w, ../images/floatingtenorio4.webp 859w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Group on private Tenorio River float, tropical fruit snack break" src="../images/floatingtenorio5.webp" width="1080" height="722" srcset="../images/floatingtenorio5-200w.webp 200w, ../images/floatingtenorio5.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
                             </div>
                             <div class="share-icons compact-share">
                                 <a class="share-icon share-whatsapp" data-message="Hello Wild Papagayo! I want to book the Floating at Tenorio River Safari Float experience." data-whatsapp="" data-intent="book_tour" data-label="Tour WhatsApp Icon" title="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -312,18 +313,18 @@ window.addEventListener('load', function() {
                     <div class="tour-details-area">
     <div class="tour-details-card">
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>A Relaxing Wildlife Adventure for All Ages</h2><p class="experience-intro">Discover Costa Rica's incredible wildlife from a unique perspective as you gently float along the peaceful Tenorio River. Perfect for families, couples, photographers, and nature lovers, this experience combines spectacular scenery, abundant wildlife, and relaxing outdoor adventure.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🚣</div><h3>Private Safari Float</h3><p>Enjoy a peaceful 90-minute guided float through calm Class I–II waters while your expert guide navigates the river and points out wildlife hidden along the riverbanks.</p></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>A Relaxing Wildlife Adventure for All Ages</h2><p class="experience-intro">Discover Costa Rica's incredible wildlife from a unique perspective as you gently float along the peaceful Tenorio River. Perfect for families, couples, photographers, and nature lovers, this experience combines spectacular scenery, abundant wildlife, and relaxing outdoor adventure.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🚣</div><h3>Private Safari Float</h3><p>Enjoy a peaceful 90-minute guided float through calm Class I–II waters while your expert guide navigates the river and points out wildlife hidden along the riverbanks.</p></div>
 <div class="experience-item"><div class="experience-icon">🦥</div><h3>Wildlife Watching</h3><p>Keep your eyes open for monkeys, sloths, crocodiles, iguanas, colorful birds, and many other species that thrive along the Tenorio River.</p></div>
 <div class="experience-item"><div class="experience-icon">💦</div><h3>Llanos de Cortez Waterfall</h3><p>Visit one of Guanacaste's most beautiful waterfalls, where crystal-clear water and a wide sandy shoreline create the perfect place to relax and enjoy nature.</p></div>
 <div class="experience-item"><div class="experience-icon">🐆</div><h3>PLUS: Las Pumas Rescue Center</h3><p>Upgrade to the PLUS option and visit the famous Las Pumas Wildlife Rescue Center to learn about Costa Rica's rescued native animals and ongoing conservation efforts.</p></div></div><div class="experience-footer"><div class="experience-highlight"><span>🌿</span><div><h3>Wildlife is Everywhere</h3><p>From the calm waters of the Tenorio River to the beauty of Llanos de Cortez Waterfall and the optional wildlife rescue center, this tour offers the perfect combination of relaxation, nature, and unforgettable wildlife encounters.</p></div></div></div></div>
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p>Your private guide meets you directly at your hotel or resort in Guanacaste.</p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p>Your private guide meets you directly at your hotel or resort in Guanacaste.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">02</div><div class="itinerary-step-body"><h3>Llanos de Cortez Waterfall</h3><p>Visit one of Guanacaste's most beautiful waterfalls before the float.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">03</div><div class="itinerary-step-body"><h3>Safari Float</h3><p>A peaceful 90-minute guided float through calm Class I-II waters, spotting wildlife along the way.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">04</div><div class="itinerary-step-body"><h3>PLUS: Las Pumas Rescue Center</h3><p>With the Plus option, visit the wildlife rescue center to learn about conservation efforts.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">05</div><div class="itinerary-step-body"><h3>Lunch &amp; Private Return</h3><p>Enjoy a traditional Costa Rican lunch before your private return to the resort.</p></div></div></div></div>
 
-                            <div class="accordion-stack clean-stack reveal">
+                            <div class="accordion-stack clean-stack">
                                 <div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list"><li>Wear light clothing and footwear that can get wet for the waterfall visit and float.</li>
 <li>Bring a dry change of clothing for after the river sections.</li>
 <li>Waterproof cases for phones and cameras are strongly recommended on the raft.</li>
@@ -347,7 +348,7 @@ window.addEventListener('load', function() {
                             </div>
 
         
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Your Wild Papagayo experience is reserved exclusively for your group, private raft and private guide, no other travelers added to your group.</p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Your Wild Papagayo experience is reserved exclusively for your group, private raft and private guide, no other travelers added to your group.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is hotel pickup included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>What's the difference between Classic and Plus?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Classic includes the waterfall and the 90-minute safari float. Plus adds a visit to Las Pumas Wildlife Rescue Center.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is lunch included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, a traditional Costa Rican lunch is included, along with a tropical fruit snack break on the river.</p></div></div>
@@ -362,7 +363,7 @@ window.addEventListener('load', function() {
                 </div>
 
                 <div class="tour-right-column">
-                    <div class="tour-summary-card reveal">
+                    <div class="tour-summary-card">
                         <h2 class="tour-title-premium">Floating at Tenorio River Safari Float</h2>
                         <div class="tour-rating">
                             <span class="driving-time">Full Day</span>
@@ -377,7 +378,7 @@ window.addEventListener('load', function() {
                             </div>
                         </div>
 
-                        <div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
+                        <div class="everything-included-top"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
 <p><span class="check-red">&#10003;</span> Complimentary bottled water</p>
 <p><span class="check-red">&#10003;</span> Snacks and refreshments</p>
 <p><span class="check-red">&#10003;</span> Experienced certified bilingual local guide</p>
@@ -485,9 +486,9 @@ window.addEventListener('load', function() {
 
     </main>
 
-    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="celesteriver" class="cross-sell-card"><img src="../images/celeste1.webp" alt="Celeste River Hike" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Celeste River Hike</div></div></a>
-<a href="tubingceleste" class="cross-sell-card"><img src="../images/tubingceleste1.webp" alt="Tubing Celeste" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Tubing Celeste</div></div></a>
-<a href="tenoriorafting" class="cross-sell-card"><img src="../images/tenoriorafting1.webp" alt="Tenorio River Rafting" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Tenorio River Rafting</div></div></a></div></div></section><footer class="footer">
+    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="celesteriver" class="cross-sell-card"><img src="../images/celeste1.webp" srcset="../images/celeste1-800w.webp 800w, ../images/celeste1.webp 1200w" sizes="(max-width: 700px) 100vw, 400px" alt="Celeste River Hike" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Celeste River Hike</div></div></a>
+<a href="tubingceleste" class="cross-sell-card"><img src="../images/tubingceleste1.webp" srcset="../images/tubingceleste1-480w.webp 480w, ../images/tubingceleste1-800w.webp 800w, ../images/tubingceleste1.webp 1080w" sizes="(max-width: 700px) 100vw, 400px" alt="Tubing Celeste" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Tubing Celeste</div></div></a>
+<a href="tenoriorafting" class="cross-sell-card"><img src="../images/tenoriorafting1.webp" srcset="../images/tenoriorafting1-480w.webp 480w, ../images/tenoriorafting1.webp 685w" sizes="(max-width: 700px) 100vw, 400px" alt="Tenorio River Rafting" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Tenorio River Rafting</div></div></a></div></div></section><footer class="footer">
     <div class="container footer-grid footer-grid-clean">
         <div class="footer-brand">
             <img src="../images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180" loading="lazy" decoding="async">

@@ -155,26 +155,53 @@ function initNavigation() {
     const header    = document.querySelector('.site-header');
 
     if (hamburger && navLinks) {
+        // While the mobile menu is open the page behind it must not scroll. Pinning <body>
+        // (position:fixed at the current offset) also works on iOS Safari, where overflow:hidden
+        // on <body> does not stop touch scrolling; the exact offset is restored on close.
+        let lockedY = 0;
+        const root = document.documentElement;
+        const lockScroll = () => {
+            if (root.classList.contains('nav-open')) return;
+            lockedY = window.scrollY;
+            root.classList.add('nav-open');
+            Object.assign(document.body.style, { position: 'fixed', top: `-${lockedY}px`, left: '0', right: '0', width: '100%' });
+        };
+        const unlockScroll = () => {
+            if (!root.classList.contains('nav-open')) return;
+            Object.assign(document.body.style, { position: '', top: '', left: '', right: '', width: '' });
+            root.classList.remove('nav-open');
+            // jump straight back: the page's smooth scroll-behavior would otherwise animate from the top
+            const behavior = root.style.scrollBehavior;
+            root.style.scrollBehavior = 'auto';
+            window.scrollTo(0, lockedY);
+            root.style.scrollBehavior = behavior;
+        };
+        const setMenu = open => {
+            navLinks.classList.toggle('active', open);
+            hamburger.setAttribute('aria-expanded', String(open));
+            if (open) lockScroll(); else unlockScroll();
+        };
         const toggle = e => {
             e.preventDefault();
             e.stopPropagation();
-            const open = navLinks.classList.toggle('active');
-            hamburger.setAttribute('aria-expanded', String(open));
+            setMenu(!navLinks.classList.contains('active'));
         };
         hamburger.addEventListener('touchstart', toggle, { passive: false });
         hamburger.addEventListener('click', toggle);
 
-        navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-            hamburger.setAttribute('aria-expanded', 'false');
-        }));
+        navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
 
         document.addEventListener('click', e => {
-            if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
-                navLinks.classList.remove('active');
-                hamburger.setAttribute('aria-expanded', 'false');
+            if (navLinks.classList.contains('active') && !hamburger.contains(e.target) && !navLinks.contains(e.target)) setMenu(false);
+        });
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+                setMenu(false);
+                hamburger.focus();
             }
         });
+        // Widening into the desktop layout (no hamburger) must not leave the page locked.
+        window.matchMedia('(min-width: 1040px)').addEventListener('change', mq => { if (mq.matches) setMenu(false); });
     }
 
     // Discover dropdown — click-toggle (covers mobile/touch; desktop also gets CSS hover)
@@ -209,7 +236,8 @@ function initNavigation() {
 
     // Scrolled navbar — adds .scrolled class for a more solid background feel
     if (header) {
-        const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 50);
+        // Skipped while the mobile menu pins <body> (scrollY reads 0 then), so the header keeps its look.
+        const onScroll = () => { if (!document.documentElement.classList.contains('nav-open')) header.classList.toggle('scrolled', window.scrollY > 50); };
         window.addEventListener('scroll', onScroll, { passive: true });
         onScroll();
     }
@@ -271,12 +299,25 @@ function initForms() {
 }
 
 // ── SCROLL REVEAL ───────────────────────────────────────────────────────────
+// .reveal content is hidden only once this runs (html.reveal-ready, see style.css), so it stays
+// visible if JavaScript fails. threshold 0 plus a positive bottom margin starts the fade just before
+// an element enters the viewport, whatever its height: a ratio threshold such as 0.12 can never be
+// reached by an element taller than ~8 viewports, which left tall tour blocks permanently invisible.
 function initReveal() {
-    if (!document.querySelector('.reveal')) return;
+    const els = [...document.querySelectorAll('.reveal')];
+    if (!els.length) return;
+    const show = el => el.classList.add('visible');
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        els.forEach(show);
+        return;
+    }
+    // Whatever is already on screen stays visible, so switching hiding on below never makes it flicker.
+    els.forEach(el => { const r = el.getBoundingClientRect(); if (r.top < window.innerHeight && r.bottom > 0) show(el); });
+    document.documentElement.classList.add('reveal-ready');
     const obs = new IntersectionObserver(entries => entries.forEach(en => {
-        if (en.isIntersecting) { en.target.classList.add('visible'); obs.unobserve(en.target); }
-    }), { threshold: 0.12, rootMargin: '0px 0px -80px 0px' });
-    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+        if (en.isIntersecting) { show(en.target); obs.unobserve(en.target); }
+    }), { threshold: 0, rootMargin: '0px 0px 15% 0px' });
+    els.forEach(el => { if (!el.classList.contains('visible')) obs.observe(el); });
 }
 
 // ── TOUR FILTERS ────────────────────────────────────────────────────────────
@@ -444,7 +485,7 @@ function initBackToTop() {
     btn.setAttribute('aria-label', 'Back to top');
     btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>';
     Object.assign(btn.style, {
-        position: 'fixed', bottom: '90px', right: '22px',
+        position: 'fixed', // bottom/right come from style.css (.back-to-top), above the chat and WhatsApp buttons
         width: '40px', height: '40px', borderRadius: '50%',
         background: '#062448', color: '#fff', border: 'none',
         cursor: 'pointer', zIndex: '998',

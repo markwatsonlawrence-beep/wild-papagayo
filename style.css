@@ -652,15 +652,29 @@ img {
 }
 
 /* 05. Componentes de Galería, Lightbox & Animaciones */
+/* Hidden only after script.js has run (it adds html.reveal-ready), so .reveal content stays
+   visible when JavaScript is unavailable. initReveal() fades elements in as they near the viewport. */
 .reveal {
+    transition: opacity .75s ease, transform .75s ease;
+}
+
+.reveal-ready .reveal:not(.visible) {
     opacity: 0;
     transform: translateY(24px);
-    transition: opacity .75s ease, transform .75s ease;
 }
 
 .reveal.visible {
     opacity: 1;
     transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .reveal-ready .reveal:not(.visible) {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
 }
 
 .slider {
@@ -4274,4 +4288,26 @@ border-color:#C9A22755;
     [class*="hero"] img {
         animation: none !important;
     }
+}
+/* =========================================================
+   Mobile menu scroll lock + floating controls (2026-11-02)
+   ========================================================= */
+@media (max-width: 1039px) {
+    /* The page behind the open menu is locked (script.js), so a menu taller than the viewport
+       (short phones, landscape) scrolls inside its own panel instead of being cut off. */
+    .nav-links {
+        max-height: calc(100vh - 112px);
+        max-height: calc(100dvh - 112px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+/* One column of floating controls, bottom right, none overlapping:
+   WhatsApp (lowest), Bubu chat above it, back-to-top above the chat.
+   --wpa-fab-bottom(-m) is the chat button offset; pages with a sticky bar raise it. */
+.back-to-top { bottom: calc(var(--wpa-fab-bottom, 98px) + 68px); right: 37px; }
+@media (max-width: 600px) {
+    .back-to-top { bottom: calc(var(--wpa-fab-bottom-m, 78px) + 68px); right: 25px; }
 }

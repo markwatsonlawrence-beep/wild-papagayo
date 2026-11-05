@@ -31,6 +31,29 @@ function Get-SeoDescription {
 }
 
 $root = $PSScriptRoot
+
+# Real image widths from get-image-dimensions.js, needed by Get-SrcsetAttrs below.
+$dimensionsPath = Join-Path $root "image-dimensions.json"
+$imageDimensions = if (Test-Path $dimensionsPath) { [System.IO.File]::ReadAllText($dimensionsPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json } else { $null }
+
+# Responsive variants written by engine/image-variants.js (images/<name>-<w>w.webp, audit 2026-11-02).
+# srcset lists only variants that exist (each passed a quality check) plus the original as the largest
+# candidate, so no browser is offered a smaller image than it needs; with no variant nothing is emitted.
+function Get-SrcsetAttrs {
+    param([string]$Src, [string]$Sizes, [int[]]$Widths)
+    if ($Src -notmatch '^(.*/)?images/([^/]+)\.webp$') { return '' }
+    $prefix = [string]$Matches[1]; $base = $Matches[2]
+    if ($null -eq $imageDimensions) { return '' }
+    $orig = $imageDimensions.PSObject.Properties["$base.webp"]
+    if ($null -eq $orig) { return '' }
+    $parts = @()
+    foreach ($w in $Widths) {
+        if ($w -lt [int]$orig.Value.width -and (Test-Path -LiteralPath (Join-Path $root "images/$base-$($w)w.webp") -PathType Leaf)) { $parts += "$($prefix)images/$base-$($w)w.webp $($w)w" }
+    }
+    if ($parts.Count -eq 0) { return '' }
+    $parts += "$Src $([int]$orig.Value.width)w"
+    return ' srcset="' + ($parts -join ', ') + '" sizes="' + $Sizes + '"'
+}
 $hotelDir = Join-Path $root "knowledge\hotels"
 $destinationDir = Join-Path $root "knowledge\destinations"
 $tourDir = Join-Path $root "knowledge\tours"
@@ -371,7 +394,7 @@ foreach ($hotel in $hotels) {
         $duration = if ($rec.duration) { [string]$rec.duration } elseif ($tour) { [string](Get-PropertyValue $tour "duration_label" "Private experience") } else { "Private experience" }
         $badge = $badgeLabels[[Math]::Min($tourIndex,$badgeLabels.Count-1)]
         # $url (page_url / rec.url) is already root-relative from a one-level-deep page (e.g. "../tours/x.html") -- do not prepend another "../"
-        $tourCards += '<a class="hp-experience" href="' + (ConvertTo-HtmlSafe $url) + '"><span class="hp-badge">' + $badge + '</span><img src="../' + (ConvertTo-HtmlSafe $image) + '" alt="' + (ConvertTo-HtmlSafe $name) + '" loading="lazy"><div class="hp-experience-body"><h3>' + (ConvertTo-HtmlSafe $name) + '</h3><div class="hp-experience-meta"><span>' + (ConvertTo-HtmlSafe $duration) + '</span><span>' + (ConvertTo-HtmlSafe $category) + '</span></div><p>' + (ConvertTo-HtmlSafe $desc) + '</p><div class="hp-experience-footer">' + (Get-StarHtml 5) + '<span class="hp-experience-link">View experience</span></div></div></a>'
+        $tourCards += '<a class="hp-experience" href="' + (ConvertTo-HtmlSafe $url) + '"><span class="hp-badge">' + $badge + '</span><img src="../' + (ConvertTo-HtmlSafe $image) + '"' + (Get-SrcsetAttrs ('../' + $image) '(max-width: 700px) 100vw, 400px' @(480, 800)) + ' alt="' + (ConvertTo-HtmlSafe $name) + '" loading="lazy"><div class="hp-experience-body"><h3>' + (ConvertTo-HtmlSafe $name) + '</h3><div class="hp-experience-meta"><span>' + (ConvertTo-HtmlSafe $duration) + '</span><span>' + (ConvertTo-HtmlSafe $category) + '</span></div><p>' + (ConvertTo-HtmlSafe $desc) + '</p><div class="hp-experience-footer">' + (Get-StarHtml 5) + '<span class="hp-experience-link">View experience</span></div></div></a>'
         $tourIndex++
     }
     if ([string]::IsNullOrWhiteSpace($tourCards)) { $tourCards = '<p>No tour recommendations are available yet.</p>' }
@@ -494,7 +517,7 @@ foreach ($hotel in $hotels) {
     }
     foreach ($article in @($relevantArticles | Select-Object -First 3)) {
         $articleImage = [string](Get-PropertyValue $article "image_top" $hotel.hero_image)
-        $articleCards += '<a class="hp-article" href="../blog/' + (ConvertTo-HtmlSafe $article.slug) + '"><img src="../' + (ConvertTo-HtmlSafe $articleImage) + '" alt="' + (ConvertTo-HtmlSafe $article.image_top_alt) + '" loading="lazy"><div><small>' + (ConvertTo-HtmlSafe $article.category) + '</small><h3>' + (ConvertTo-HtmlSafe $article.title) + '</h3><p>' + (ConvertTo-HtmlSafe $article.excerpt) + '</p></div></a>'
+        $articleCards += '<a class="hp-article" href="../blog/' + (ConvertTo-HtmlSafe $article.slug) + '"><img src="../' + (ConvertTo-HtmlSafe $articleImage) + '"' + (Get-SrcsetAttrs ('../' + $articleImage) '(max-width: 700px) 100vw, 400px' @(480, 800)) + ' alt="' + (ConvertTo-HtmlSafe $article.image_top_alt) + '" loading="lazy"><div><small>' + (ConvertTo-HtmlSafe $article.category) + '</small><h3>' + (ConvertTo-HtmlSafe $article.title) + '</h3><p>' + (ConvertTo-HtmlSafe $article.excerpt) + '</p></div></a>'
     }
     if ([string]::IsNullOrWhiteSpace($articleCards)) {
         $articleCards = '<a class="hp-article" href="../Blogs"><div><small>Insider guide</small><h3>Explore Costa Rica travel advice</h3><p>Browse practical local guides for transportation, destinations and private experiences.</p></div></a>'

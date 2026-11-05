@@ -80,7 +80,7 @@
     "featured_tours":  [
                            "miravallesspa",
                            "hikingrinconnationalpark",
-                           "oropendolahotsprings"
+                           "monteverdehangingbridgescoffee"
                        ],
     "related_articles":  [
                              "liberia-airport-transfer-guide"
@@ -215,5 +215,7 @@
     "editorial_standard":  "Wild Papagayo Hotel Gold Standard v2.0",
     "expedia_affiliate_link":  "https://expedia.com/affiliates/playa-hermosa-hoteles-hotel-bosque-del-mar.FRj5wgN",
     "seo_title_override":  "Hotel Bosque del Mar Playa Hermosa | Tours \u0026 Transfers",
-    "seo_description_override":  "Plan your stay at Hotel Bosque del Mar with recommended tours, private airport transfers and local Guanacaste insight."
+    "seo_description_override":  "Plan your stay at Hotel Bosque del Mar with recommended tours, private airport transfers and local Guanacaste insight.",
+    "factual_attributes":  null,
+    "operational_notice":  null
 }

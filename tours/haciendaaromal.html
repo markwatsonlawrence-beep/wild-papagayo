@@ -156,6 +156,7 @@
         .tour-mobile-cta-label { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #062448; }
         .tour-mobile-cta-btn { flex: 1; max-width: 220px; min-height: 44px; text-align: center; font-size: .8rem; }
         .whatsapp-float { bottom: 82px; }
+        :root { --wpa-fab-bottom: 150px; --wpa-fab-bottom-m: 146px; } /* chat + back-to-top stack above the raised WhatsApp button */
     }
     .why-private-section { background: #f7f4ee; padding: 48px 0; }
     .why-private-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; margin-top: 28px; }
@@ -269,7 +270,7 @@ window.addEventListener('load', function() {
                 </div>
             </div>
             <div class="ths-right">
-                <img src="../images/aromal1.webp" alt="Hacienda Aromal Full Day in Costa Rica" width="720" height="1080" loading="eager" fetchpriority="high" decoding="async">
+                <img src="../images/aromal1.webp" alt="Hacienda Aromal Full Day in Costa Rica" width="720" height="1080" srcset="../images/aromal1-480w.webp 480w, ../images/aromal1.webp 720w" sizes="(max-width: 1039px) 100vw, 600px" loading="eager" fetchpriority="high" decoding="async">
             </div>
         </section>
         <div class="tour-glance-bar reveal"><div class="tour-glance-grid"><div class="glance-item"><div class="glance-icon">🕒</div><b>Duration</b><span>Full Day · Approx. 8 Hours</span></div>
@@ -278,7 +279,7 @@ window.addEventListener('load', function() {
 <div class="glance-item"><div class="glance-icon">🗣️</div><b>Guide</b><span>Certified bilingual local guide</span></div>
 <div class="glance-item"><div class="glance-icon">🤠</div><b>Highlights</b><span>Zipline, Cultural Experience &amp; Ranch Life</span></div>
 <div class="glance-item"><div class="glance-icon">🍽️</div><b>Lunch</b><span>Traditional Sabanero lunch included</span></div></div><p class="tour-glance-note">No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.</p></div>
-        <div class="tour-price-teaser reveal" data-option-id="classic"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 CLASSIC</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$220 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
+        <div class="tour-price-teaser" data-option-id="classic"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 CLASSIC</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$220 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
         <section class="why-private-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why It Matters</span><h2 class="section-title">Why Explore Privately?</h2></div><div class="why-private-grid"><div class="why-private-item reveal"><h3>Your Own Vehicle</h3><p>Travel comfortably without sharing transportation with other groups.</p></div><div class="why-private-item reveal"><h3>Direct Hotel Pickup</h3><p>Start and end the experience directly at your resort. No shared buses, no unnecessary hotel stops.</p></div><div class="why-private-item reveal"><h3>Personal Attention</h3><p>Enjoy more interaction with your certified local guide.</p></div><div class="why-private-item reveal"><h3>A Better Pace</h3><p>Spend your day experiencing Costa Rica instead of waiting on a large group.</p></div><div class="why-private-item reveal"><h3>Local Support</h3><p>Your Wild Papagayo concierge helps coordinate every detail before your tour.</p></div></div></div></section>
         <section class="tour-page-v3">
             <div class="container tour-page-grid">
@@ -286,20 +287,20 @@ window.addEventListener('load', function() {
                     <div class="tour-gallery-area">
                         <div class="premium-gallery-card reveal">
                             <div class="gallery-main">
-                                <img alt="Zip line over the dry forest at Hacienda Aromal, Guanacaste" src="../images/aromal1.webp" width="720" height="1080" loading="lazy" decoding="async">
-<img alt="Traditional corn grinding and Costa Rican culture at Hacienda Aromal" src="../images/aromal2.webp" width="1024" height="682" loading="lazy" decoding="async">
-<img alt="Horseback riding across Hacienda Aromal estate" src="../images/aromal3.webp" width="1080" height="720" loading="lazy" decoding="async">
-<img alt="ATV adventure through jungle trails at Hacienda Aromal" src="../images/aromal4.webp" width="1080" height="725" loading="lazy" decoding="async">
-<img alt="Traditional Guanacaste lunch at Hacienda Aromal" src="../images/aromal5.webp" width="1080" height="721" loading="lazy" decoding="async">
+                                <img alt="Zip line over the dry forest at Hacienda Aromal, Guanacaste" src="../images/aromal1.webp" width="720" height="1080" srcset="../images/aromal1-480w.webp 480w, ../images/aromal1.webp 720w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Traditional corn grinding and Costa Rican culture at Hacienda Aromal" src="../images/aromal2.webp" width="1024" height="682" srcset="../images/aromal2-800w.webp 800w, ../images/aromal2.webp 1024w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Horseback riding across Hacienda Aromal estate" src="../images/aromal3.webp" width="1080" height="720" srcset="../images/aromal3-800w.webp 800w, ../images/aromal3.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="ATV adventure through jungle trails at Hacienda Aromal" src="../images/aromal4.webp" width="1080" height="725" srcset="../images/aromal4-800w.webp 800w, ../images/aromal4.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Traditional Guanacaste lunch at Hacienda Aromal" src="../images/aromal5.webp" width="1080" height="721" srcset="../images/aromal5-800w.webp 800w, ../images/aromal5.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
                                 <button class="gallery-arrow gallery-prev" type="button">‹</button>
                                 <button class="gallery-arrow gallery-next" type="button">›</button>
                             </div>
                             <div class="gallery-thumbs">
-                                <button type="button"><img alt="Zip line over the dry forest at Hacienda Aromal, Guanacaste" src="../images/aromal1.webp" width="720" height="1080" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Traditional corn grinding and Costa Rican culture at Hacienda Aromal" src="../images/aromal2.webp" width="1024" height="682" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Horseback riding across Hacienda Aromal estate" src="../images/aromal3.webp" width="1080" height="720" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="ATV adventure through jungle trails at Hacienda Aromal" src="../images/aromal4.webp" width="1080" height="725" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Traditional Guanacaste lunch at Hacienda Aromal" src="../images/aromal5.webp" width="1080" height="721" loading="lazy" decoding="async"></button>
+                                <button type="button"><img alt="Zip line over the dry forest at Hacienda Aromal, Guanacaste" src="../images/aromal1.webp" width="720" height="1080" srcset="../images/aromal1-200w.webp 200w, ../images/aromal1.webp 720w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Traditional corn grinding and Costa Rican culture at Hacienda Aromal" src="../images/aromal2.webp" width="1024" height="682" srcset="../images/aromal2-200w.webp 200w, ../images/aromal2.webp 1024w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Horseback riding across Hacienda Aromal estate" src="../images/aromal3.webp" width="1080" height="720" srcset="../images/aromal3-200w.webp 200w, ../images/aromal3.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="ATV adventure through jungle trails at Hacienda Aromal" src="../images/aromal4.webp" width="1080" height="725" srcset="../images/aromal4-200w.webp 200w, ../images/aromal4.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Traditional Guanacaste lunch at Hacienda Aromal" src="../images/aromal5.webp" width="1080" height="721" srcset="../images/aromal5-200w.webp 200w, ../images/aromal5.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
                             </div>
                             <div class="share-icons compact-share">
                                 <a class="share-icon share-whatsapp" data-message="Hello Wild Papagayo! I want to book the Hacienda Aromal Full Day experience." data-whatsapp="" data-intent="book_tour" data-label="Tour WhatsApp Icon" title="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -312,18 +313,18 @@ window.addEventListener('load', function() {
                     <div class="tour-details-area">
     <div class="tour-details-card">
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Tradition, Adventure &amp; Authentic Guanacaste</h2><p class="experience-intro">Step into the authentic heart of Guanacaste, where centuries-old ranch traditions meet thrilling outdoor adventures. Ride horseback across a historic hacienda, soar through the forest canopy, explore scenic ATV trails, and enjoy an unforgettable taste of Costa Rican culture..</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🤠</div><h3>Authentic Hacienda Experience</h3><p>Discover the traditions, history, and daily life of a genuine Guanacaste cattle ranch while learning about the region's rich cultural heritage.</p></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Tradition, Adventure &amp; Authentic Guanacaste</h2><p class="experience-intro">Step into the authentic heart of Guanacaste, where centuries-old ranch traditions meet thrilling outdoor adventures. Ride horseback across a historic hacienda, soar through the forest canopy, explore scenic ATV trails, and enjoy an unforgettable taste of Costa Rican culture..</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🤠</div><h3>Authentic Hacienda Experience</h3><p>Discover the traditions, history, and daily life of a genuine Guanacaste cattle ranch while learning about the region's rich cultural heritage.</p></div>
 <div class="experience-item"><div class="experience-icon">🌲</div><h3>Zip Line Adventure</h3><p>Fly above the tropical forest on an exciting zip line experience that offers spectacular views of the surrounding countryside.</p></div>
 <div class="experience-item"><div class="experience-icon">🏍️</div><h3>PLUS: ATV &amp; Horseback Riding</h3><p>Upgrade to the PLUS option and continue your adventure exploring scenic ranch trails by ATV and horseback through the beautiful landscapes of Guanacaste.</p></div>
 <div class="experience-item"><div class="experience-icon">🍽️</div><h3>Traditional Sabanero Lunch</h3><p>Enjoy an authentic Costa Rican meal prepared with local flavors and traditional recipes in the heart of the hacienda.</p></div></div><div class="experience-footer"><div class="experience-highlight"><span>🤠</span><div><h3>Where Adventure Meets Tradition</h3><p>Few places in Costa Rica combine authentic ranch life, outdoor adventure, and local traditions as beautifully as Hacienda Aromal.</p></div></div></div></div>
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p>Your private guide meets you directly at your hotel or resort in Guanacaste.</p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p>Your private guide meets you directly at your hotel or resort in Guanacaste.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">02</div><div class="itinerary-step-body"><h3>Authentic Hacienda Experience</h3><p>Learn about the traditions and history of a genuine Guanacaste cattle ranch.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">03</div><div class="itinerary-step-body"><h3>Zip Line Adventure</h3><p>Fly above the tropical forest canopy with spectacular countryside views.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">04</div><div class="itinerary-step-body"><h3>PLUS: ATV &amp; Horseback Riding</h3><p>With the Plus option, explore the ranch trails by ATV and horseback.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">05</div><div class="itinerary-step-body"><h3>Sabanero Lunch &amp; Private Return</h3><p>Enjoy a traditional Guanacaste lunch before your private return to the resort.</p></div></div></div></div>
 
-                            <div class="accordion-stack clean-stack reveal">
+                            <div class="accordion-stack clean-stack">
                                 <div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list"><li>Pickup time is coordinated individually based on your resort location, your Wild Papagayo concierge will confirm your exact time.</li>
 <li>Sunscreen and insect repellent are strongly recommended.</li>
 <li>Cameras are welcome throughout the experience, secure mounting recommended for ATV segments.</li>
@@ -352,7 +353,7 @@ window.addEventListener('load', function() {
                             </div>
 
         
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group.</p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is hotel pickup included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>What's the difference between Classic and Plus?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Classic includes the zipline and cultural experience. Plus adds ATV riding and horseback riding across the estate.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is lunch included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, a traditional Sabanero lunch is included, and dietary options can be accommodated with advance notice.</p></div></div>
@@ -367,7 +368,7 @@ window.addEventListener('load', function() {
                 </div>
 
                 <div class="tour-right-column">
-                    <div class="tour-summary-card reveal">
+                    <div class="tour-summary-card">
                         <h2 class="tour-title-premium">Hacienda Aromal Full Day</h2>
                         <div class="tour-rating">
                             <span class="driving-time">Full Day</span>
@@ -382,7 +383,7 @@ window.addEventListener('load', function() {
                             </div>
                         </div>
 
-                        <div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
+                        <div class="everything-included-top"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
 <p><span class="check-red">&#10003;</span> Complimentary bottled water</p>
 <p><span class="check-red">&#10003;</span> Snacks and refreshments</p>
 <p><span class="check-red">&#10003;</span> Experienced certified bilingual local guide</p>
@@ -434,6 +435,7 @@ window.addEventListener('load', function() {
     </div>
 
 </div>
+
 <div class="tour-booking-area">
                         <aside class="booking-side not-sticky" id="book">
                             <div class="reservation-card">
@@ -490,9 +492,9 @@ window.addEventListener('load', function() {
 
     </main>
 
-    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="horsebackaromal" class="cross-sell-card"><img src="../images/horsebackaromal1.webp" alt="Horseback Riding Aromal" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Horseback Riding Aromal</div></div></a>
-<a href="congotrail" class="cross-sell-card"><img src="../images/congotrail1.webp" alt="Congo Trail Half-Day Adventure" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Congo Trail Half-Day Adventure</div></div></a>
-<a href="paloverdeculturalviejo" class="cross-sell-card"><img src="../images/paloverde1.webp" alt="Palo Verde Cultural &amp; Hacienda El Viejo" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Palo Verde Cultural &amp; Hacienda El Viejo</div></div></a></div></div></section><footer class="footer">
+    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="horsebackaromal" class="cross-sell-card"><img src="../images/horsebackaromal1.webp" srcset="../images/horsebackaromal1-480w.webp 480w, ../images/horsebackaromal1-800w.webp 800w, ../images/horsebackaromal1.webp 1024w" sizes="(max-width: 700px) 100vw, 400px" alt="Horseback Riding Aromal" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Horseback Riding Aromal</div></div></a>
+<a href="congotrail" class="cross-sell-card"><img src="../images/congotrail1.webp" srcset="../images/congotrail1-800w.webp 800w, ../images/congotrail1.webp 1080w" sizes="(max-width: 700px) 100vw, 400px" alt="Congo Trail Half-Day Adventure" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Congo Trail Half-Day Adventure</div></div></a>
+<a href="paloverdeculturalviejo" class="cross-sell-card"><img src="../images/paloverde1.webp" srcset="../images/paloverde1-480w.webp 480w, ../images/paloverde1.webp 720w" sizes="(max-width: 700px) 100vw, 400px" alt="Palo Verde Cultural &amp; Hacienda El Viejo" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Palo Verde Cultural &amp; Hacienda El Viejo</div></div></a></div></div></section><footer class="footer">
     <div class="container footer-grid footer-grid-clean">
         <div class="footer-brand">
             <img src="../images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180" loading="lazy" decoding="async">

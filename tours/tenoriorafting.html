@@ -156,6 +156,7 @@
         .tour-mobile-cta-label { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #062448; }
         .tour-mobile-cta-btn { flex: 1; max-width: 220px; min-height: 44px; text-align: center; font-size: .8rem; }
         .whatsapp-float { bottom: 82px; }
+        :root { --wpa-fab-bottom: 150px; --wpa-fab-bottom-m: 146px; } /* chat + back-to-top stack above the raised WhatsApp button */
     }
     .why-private-section { background: #f7f4ee; padding: 48px 0; }
     .why-private-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; margin-top: 28px; }
@@ -269,7 +270,7 @@ window.addEventListener('load', function() {
                 </div>
             </div>
             <div class="ths-right">
-                <img src="../images/tenoriorafting1.webp" alt="Tenorio River White Water Rafting Class III–IV in Costa Rica" width="685" height="458" loading="eager" fetchpriority="high" decoding="async">
+                <img src="../images/tenoriorafting1.webp" alt="Tenorio River White Water Rafting Class III–IV in Costa Rica" width="685" height="458" srcset="../images/tenoriorafting1-480w.webp 480w, ../images/tenoriorafting1.webp 685w" sizes="(max-width: 1039px) 100vw, 600px" loading="eager" fetchpriority="high" decoding="async">
             </div>
         </section>
         <div class="tour-glance-bar reveal"><div class="tour-glance-grid"><div class="glance-item"><div class="glance-icon">⏱️</div><b>Full Day · Approx. 8 Hours</b><span></span></div>
@@ -278,7 +279,7 @@ window.addEventListener('load', function() {
 <div class="glance-item"><div class="glance-icon">🧑‍🤝‍🧑</div><b>Minimum Age 8</b><span></span></div>
 <div class="glance-item"><div class="glance-icon">🦺</div><b>Full Safety Gear Included</b><span></span></div>
 <div class="glance-item"><div class="glance-icon">🗓️</div><b>Available Daily</b><span></span></div></div><p class="tour-glance-note">A physically active adventure, previous rafting experience is not required but a baseline fitness level and comfort in moving water are recommended.</p></div>
-        <div class="tour-price-teaser reveal" data-option-id="full-experience"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 FULL EXPERIENCE</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$270 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
+        <div class="tour-price-teaser" data-option-id="full-experience"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 FULL EXPERIENCE</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$270 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
         <section class="why-private-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why It Matters</span><h2 class="section-title">Why Explore Privately?</h2></div><div class="why-private-grid"><div class="why-private-item reveal"><h3>Your Own Vehicle</h3><p>Travel comfortably without sharing transportation with other groups.</p></div><div class="why-private-item reveal"><h3>Direct Hotel Pickup</h3><p>Start and end the experience directly at your resort. No shared buses, no unnecessary hotel stops.</p></div><div class="why-private-item reveal"><h3>Personal Attention</h3><p>Enjoy more interaction with your certified local guide.</p></div><div class="why-private-item reveal"><h3>A Better Pace</h3><p>Spend your day experiencing Costa Rica instead of waiting on a large group.</p></div><div class="why-private-item reveal"><h3>Local Support</h3><p>Your Wild Papagayo concierge helps coordinate every detail before your tour.</p></div></div></div></section>
         <section class="tour-page-v3">
             <div class="container tour-page-grid">
@@ -286,20 +287,20 @@ window.addEventListener('load', function() {
                     <div class="tour-gallery-area">
                         <div class="premium-gallery-card reveal">
                             <div class="gallery-main">
-                                <img alt="Class III-IV white water rafting on the Tenorio River, Costa Rica" src="../images/tenoriorafting1.webp" width="685" height="458" loading="lazy" decoding="async">
-<img alt="Private rafting group hitting rapids on the Tenorio River" src="../images/tenoriorafting2.webp" width="1080" height="720" loading="lazy" decoding="async">
-<img alt="Waterfall drop on the Tenorio River rafting route, Guanacaste" src="../images/tenoriorafting3.webp" width="1080" height="720" loading="lazy" decoding="async">
-<img alt="Tropical jungle scenery along the Tenorio River rafting route" src="../images/tenoriorafting4.webp" width="856" height="573" loading="lazy" decoding="async">
+                                <img alt="Class III-IV white water rafting on the Tenorio River, Costa Rica" src="../images/tenoriorafting1.webp" width="685" height="458" srcset="../images/tenoriorafting1-480w.webp 480w, ../images/tenoriorafting1.webp 685w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Private rafting group hitting rapids on the Tenorio River" src="../images/tenoriorafting2.webp" width="1080" height="720" srcset="../images/tenoriorafting2-480w.webp 480w, ../images/tenoriorafting2-800w.webp 800w, ../images/tenoriorafting2.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Waterfall drop on the Tenorio River rafting route, Guanacaste" src="../images/tenoriorafting3.webp" width="1080" height="720" srcset="../images/tenoriorafting3-800w.webp 800w, ../images/tenoriorafting3.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Tropical jungle scenery along the Tenorio River rafting route" src="../images/tenoriorafting4.webp" width="856" height="573" srcset="../images/tenoriorafting4-800w.webp 800w, ../images/tenoriorafting4.webp 856w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
 <img alt="Rafters celebrating after Class III-IV rapids, Tenorio River" src="../images/tenoriorafting5.webp" width="683" height="455" loading="lazy" decoding="async">
                                 <button class="gallery-arrow gallery-prev" type="button">‹</button>
                                 <button class="gallery-arrow gallery-next" type="button">›</button>
                             </div>
                             <div class="gallery-thumbs">
-                                <button type="button"><img alt="Class III-IV white water rafting on the Tenorio River, Costa Rica" src="../images/tenoriorafting1.webp" width="685" height="458" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Private rafting group hitting rapids on the Tenorio River" src="../images/tenoriorafting2.webp" width="1080" height="720" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Waterfall drop on the Tenorio River rafting route, Guanacaste" src="../images/tenoriorafting3.webp" width="1080" height="720" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Tropical jungle scenery along the Tenorio River rafting route" src="../images/tenoriorafting4.webp" width="856" height="573" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Rafters celebrating after Class III-IV rapids, Tenorio River" src="../images/tenoriorafting5.webp" width="683" height="455" loading="lazy" decoding="async"></button>
+                                <button type="button"><img alt="Class III-IV white water rafting on the Tenorio River, Costa Rica" src="../images/tenoriorafting1.webp" width="685" height="458" srcset="../images/tenoriorafting1-200w.webp 200w, ../images/tenoriorafting1.webp 685w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Private rafting group hitting rapids on the Tenorio River" src="../images/tenoriorafting2.webp" width="1080" height="720" srcset="../images/tenoriorafting2-200w.webp 200w, ../images/tenoriorafting2.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Waterfall drop on the Tenorio River rafting route, Guanacaste" src="../images/tenoriorafting3.webp" width="1080" height="720" srcset="../images/tenoriorafting3-200w.webp 200w, ../images/tenoriorafting3.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Tropical jungle scenery along the Tenorio River rafting route" src="../images/tenoriorafting4.webp" width="856" height="573" srcset="../images/tenoriorafting4-200w.webp 200w, ../images/tenoriorafting4.webp 856w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Rafters celebrating after Class III-IV rapids, Tenorio River" src="../images/tenoriorafting5.webp" width="683" height="455" srcset="../images/tenoriorafting5-200w.webp 200w, ../images/tenoriorafting5.webp 683w" sizes="64px" loading="lazy" decoding="async"></button>
                             </div>
                             <div class="share-icons compact-share">
                                 <a class="share-icon share-whatsapp" data-message="Hello Wild Papagayo! I want to book the Tenorio River White Water Rafting Class III–IV experience." data-whatsapp="" data-intent="book_tour" data-label="Tour WhatsApp Icon" title="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -312,19 +313,19 @@ window.addEventListener('load', function() {
                     <div class="tour-details-area">
     <div class="tour-details-card">
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Conquer the Rapids of the Tenorio River</h2><p class="experience-intro">Challenge yourself on one of Costa Rica's premier white-water rafting adventures. The Tenorio River offers exciting Class III–IV rapids, breathtaking canyon scenery, crystal-clear waters, and an unforgettable journey through one of Guanacaste's most spectacular tropical landscapes.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🚣</div><h3>White-Water Rafting</h3><p>Paddle through exciting Class III–IV rapids with experienced professional guides, enjoying one of the country's most thrilling rafting experiences.</p></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Conquer the Rapids of the Tenorio River</h2><p class="experience-intro">Challenge yourself on one of Costa Rica's premier white-water rafting adventures. The Tenorio River offers exciting Class III–IV rapids, breathtaking canyon scenery, crystal-clear waters, and an unforgettable journey through one of Guanacaste's most spectacular tropical landscapes.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🚣</div><h3>White-Water Rafting</h3><p>Paddle through exciting Class III–IV rapids with experienced professional guides, enjoying one of the country's most thrilling rafting experiences.</p></div>
 <div class="experience-item"><div class="experience-icon">🌊</div><h3>Rapids &amp; Waterfalls</h3><p>Navigate exhilarating rapids, rolling waves, and dramatic river drops as the Tenorio River winds through untouched tropical rainforest.</p></div>
 <div class="experience-item"><div class="experience-icon">🌿</div><h3>Rainforest Canyon</h3><p>Drift between towering canyon walls surrounded by lush rainforest, where spectacular scenery accompanies every section of the river.</p></div>
 <div class="experience-item"><div class="experience-icon">🦺</div><h3>Professional River Guides</h3><p>Your certified rafting guides provide expert instruction, high-quality safety equipment, and support throughout the adventure, ensuring an exciting and safe experience.</p></div></div><div class="experience-footer"><div class="experience-highlight"><span>🌊</span><div><h3>One of Costa Rica's Premier Rafting Adventures</h3><p>Powerful rapids, breathtaking canyon scenery, and nonstop excitement make the Tenorio River one of the country's most unforgettable white-water rafting experiences for adventure seekers.</p></div></div></div></div>
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p></p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">02</div><div class="itinerary-step-body"><h3>Safety Briefing &amp; Gear Fitting</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">03</div><div class="itinerary-step-body"><h3>Class III-IV Rapids</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">04</div><div class="itinerary-step-body"><h3>Snacks on the River</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">05</div><div class="itinerary-step-body"><h3>Traditional Lunch</h3><p></p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">06</div><div class="itinerary-step-body"><h3>Ride Back to Your Hotel</h3><p></p></div></div></div></div>
 
-                            <div class="accordion-stack clean-stack reveal">
+                            <div class="accordion-stack clean-stack">
                                 <div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list"><li>Wear a swimsuit or quick-dry clothing underneath. You will be completely soaked.</li>
 <li>Leave valuables, phones and cameras at the resort or secured in the provided dry bag. The Tenorio is not forgiving of loose electronics.</li>
 <li>Apply sunscreen before departure. Helmets and life jackets are provided and inspected before every launch.</li>
@@ -355,8 +356,8 @@ window.addEventListener('load', function() {
 <p><span class="check-red">&#10003;</span> Cash for personal expenses (gratuities)</p></div></div></div>
                             </div>
 
-        <section class="ti-section reveal"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid"><a class="ti-card" href="../blog/can-you-bring-a-phone-on-costa-rica-adventure-tours"><img src="../images/costa-rica-adventure-tour-phone-safety.webp" alt="Alt text: Green waterproof phone pouch with a clear touchscreen window and secure locking clips." loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">Safety &amp; Practical Tips</span><h3>Can You Bring a Phone on Costa Rica Adventure Tours?</h3><p>Wondering where to keep your phone, towels and valuables during Costa Rica adventure tours? Here is what to expect on rafting, ziplining, ATV and catamaran excursions.</p></div></a></div></section>
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this rafting trip private?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, your raft and certified guide are reserved exclusively for your group, not shared with other travelers.</p></div></div>
+        <section class="ti-section"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid"><a class="ti-card" href="../blog/can-you-bring-a-phone-on-costa-rica-adventure-tours"><img src="../images/costa-rica-adventure-tour-phone-safety.webp" srcset="../images/costa-rica-adventure-tour-phone-safety-480w.webp 480w, ../images/costa-rica-adventure-tour-phone-safety-800w.webp 800w, ../images/costa-rica-adventure-tour-phone-safety.webp 1280w" sizes="(max-width: 700px) 100vw, 320px" alt="Alt text: Green waterproof phone pouch with a clear touchscreen window and secure locking clips." loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">Safety &amp; Practical Tips</span><h3>Can You Bring a Phone on Costa Rica Adventure Tours?</h3><p>Wondering where to keep your phone, towels and valuables during Costa Rica adventure tours? Here is what to expect on rafting, ziplining, ATV and catamaran excursions.</p></div></a></div></section>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this rafting trip private?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, your raft and certified guide are reserved exclusively for your group, not shared with other travelers.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Do we need prior rafting experience?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>No prior experience is required. Your guide gives a full safety briefing before launch, though a baseline comfort level in moving water is recommended given the Class III-IV rapids.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>What's the minimum age?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>The recommended minimum age is 8, and participants should be comfortable being in and around whitewater.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is safety gear included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes, helmets, life jackets, paddles and a dry bag are all included and inspected before every launch.</p></div></div>
@@ -370,7 +371,7 @@ window.addEventListener('load', function() {
                 </div>
 
                 <div class="tour-right-column">
-                    <div class="tour-summary-card reveal">
+                    <div class="tour-summary-card">
                         <h2 class="tour-title-premium">Tenorio River White Water Rafting Class III–IV</h2>
                         <div class="tour-rating">
                             <span class="driving-time">Full Day</span>
@@ -384,7 +385,7 @@ window.addEventListener('load', function() {
                             </div>
                         </div>
 
-                        <div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
+                        <div class="everything-included-top"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
 <p><span class="check-red">&#10003;</span> Complimentary bottled water</p>
 <p><span class="check-red">&#10003;</span> Snacks and refreshments</p>
 <p><span class="check-red">&#10003;</span> Experienced certified bilingual local guide</p>
@@ -490,9 +491,9 @@ window.addEventListener('load', function() {
 
     </main>
 
-    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="coloradoriverrafting" class="cross-sell-card"><img src="../images/coloradorafting1.webp" alt="Colorado River Rafting" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Colorado River Rafting</div></div></a>
-<a href="floatingtenorio" class="cross-sell-card"><img src="../images/floatingtenorio1.webp" alt="Floating Tenorio" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Floating Tenorio</div></div></a>
-<a href="tubingceleste" class="cross-sell-card"><img src="../images/tubingceleste1.webp" alt="Tubing Celeste" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Tubing Celeste</div></div></a></div></div></section><footer class="footer">
+    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="coloradoriverrafting" class="cross-sell-card"><img src="../images/coloradorafting1.webp" srcset="../images/coloradorafting1-480w.webp 480w, ../images/coloradorafting1-800w.webp 800w, ../images/coloradorafting1.webp 1080w" sizes="(max-width: 700px) 100vw, 400px" alt="Colorado River Rafting" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Colorado River Rafting</div></div></a>
+<a href="floatingtenorio" class="cross-sell-card"><img src="../images/floatingtenorio1.webp" srcset="../images/floatingtenorio1-480w.webp 480w, ../images/floatingtenorio1-800w.webp 800w, ../images/floatingtenorio1.webp 1080w" sizes="(max-width: 700px) 100vw, 400px" alt="Floating Tenorio" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Floating Tenorio</div></div></a>
+<a href="tubingceleste" class="cross-sell-card"><img src="../images/tubingceleste1.webp" srcset="../images/tubingceleste1-480w.webp 480w, ../images/tubingceleste1-800w.webp 800w, ../images/tubingceleste1.webp 1080w" sizes="(max-width: 700px) 100vw, 400px" alt="Tubing Celeste" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Tubing Celeste</div></div></a></div></div></section><footer class="footer">
     <div class="container footer-grid footer-grid-clean">
         <div class="footer-brand">
             <img src="../images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180" loading="lazy" decoding="async">

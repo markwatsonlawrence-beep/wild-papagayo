@@ -971,6 +971,48 @@ if ($singleSlug) {
 }
 
 # ============================================================
+# Public blog index (blog-index.json), read by Blogs.html and single-blog.html: published articles
+# only, and only the fields the blog list needs. blog-data.json is source data (drafts, full article
+# bodies) and is no longer deployed (see deploy-package.ps1). Written in every mode.
+# ============================================================
+# image_srcset: responsive variants from engine/image-variants.js that exist for the card image
+# (images/<name>-<w>w.webp) plus the original as the largest candidate; empty = original only.
+$blogDimsPath = Join-Path $PSScriptRoot 'image-dimensions.json'
+$blogImageDims = if (Test-Path $blogDimsPath) { [System.IO.File]::ReadAllText($blogDimsPath, [System.Text.Encoding]::UTF8) | ConvertFrom-Json } else { $null }
+function Get-BlogImageSrcset([string]$Src) {
+    if ($Src -notmatch '^(.*/)?images/([^/]+)\.webp$' -or $null -eq $blogImageDims) { return '' }
+    $prefix = [string]$Matches[1]; $base = $Matches[2]
+    $orig = $blogImageDims.PSObject.Properties["$base.webp"]
+    if ($null -eq $orig) { return '' }
+    $parts = @(foreach ($w in @(480, 800)) { if ($w -lt [int]$orig.Value.width -and (Test-Path -LiteralPath (Join-Path $PSScriptRoot "images/$base-$($w)w.webp") -PathType Leaf)) { "$($prefix)images/$base-$($w)w.webp $($w)w" } })
+    if ($parts.Count -eq 0) { return '' }
+    return (($parts + "$Src $([int]$orig.Value.width)w") -join ', ')
+}
+$publishedArticles = @($articles | Where-Object { -not $_.status -or [string]$_.status -eq 'published' })
+$blogIndex = @($publishedArticles | ForEach-Object {
+    [ordered]@{ id = $_.id; slug = $_.slug; title = $_.title; excerpt = $_.excerpt; category = $_.category; date = $_.date; readTime = $_.readTime; image_top = $_.image_top; seo_keywords = $_.seo_keywords; image_srcset = (Get-BlogImageSrcset ([string]$_.image_top)) }
+})
+Write-FileIfChanged -Path (Join-Path $PSScriptRoot 'blog-index.json') -Content (ConvertTo-Json -InputObject $blogIndex -Depth 3)
+Write-Host "blog-index.json up to date ($($blogIndex.Count) published articles)"
+
+# Static article links for crawlers that do not run JavaScript: a <noscript> list in Blogs.html between
+# the BLOG-STATIC-LINKS markers (published articles only, clean URLs). Only that block is rewritten.
+$blogsPagePath = Join-Path $PSScriptRoot 'Blogs.html'
+if (Test-Path $blogsPagePath) {
+    $blogsPage = [System.IO.File]::ReadAllText($blogsPagePath, [System.Text.Encoding]::UTF8)
+    $startMarker = '<!-- BLOG-STATIC-LINKS:START (written by blog-generator.ps1 from the published articles; do not edit by hand) -->'
+    $endMarker = '<!-- BLOG-STATIC-LINKS:END -->'
+    $si = $blogsPage.IndexOf($startMarker); $ei = $blogsPage.IndexOf($endMarker)
+    if ($si -lt 0 -or $ei -lt $si) { throw "Blogs.html: BLOG-STATIC-LINKS markers missing or out of order" }
+    $nl = if ($blogsPage.Contains("`r`n")) { "`r`n" } else { "`n" }
+    $items = @($publishedArticles | Sort-Object { [long]$_.id } | ForEach-Object { '                    <li><a href="blog/' + [System.Net.WebUtility]::HtmlEncode([string]$_.slug) + '">' + [System.Net.WebUtility]::HtmlEncode([string]$_.title) + '</a></li>' })
+    $block = $startMarker + $nl + '                <ul class="blog-static-list">' + $nl + ($items -join $nl) + $nl + '                </ul>' + $nl + '                '
+    $newPage = $blogsPage.Substring(0, $si) + $block + $blogsPage.Substring($ei)
+    Write-FileIfChanged -Path $blogsPagePath -Content $newPage
+    Write-Host "Blogs.html static links up to date ($($items.Count) articles)"
+}
+
+# ============================================================
 # Wild Engine: automatic rss.xml
 # (sitemap.xml is owned solely by sitemap-generator.ps1, which runs
 # later in deploy-package.ps1 and scans real output folders with
@@ -1005,7 +1047,8 @@ function Get-ArticleUtcDate {
 }
 if ((-not $singleSlug) -or $RefreshRss) {
     $rssItems = New-Object System.Collections.Generic.List[string]
-    $rssRows = for ($ri = 0; $ri -lt $articles.Count; $ri++) { [pscustomobject]@{ article = $articles[$ri]; utc = (Get-ArticleUtcDate $articles[$ri]); pos = $ri } }
+    # Same status gate as the HTML pages and sitemap: a draft must not appear in the public feed.
+    $rssRows = for ($ri = 0; $ri -lt $articles.Count; $ri++) { if ($articles[$ri].status -and [string]$articles[$ri].status -ne 'published') { continue }; [pscustomobject]@{ article = $articles[$ri]; utc = (Get-ArticleUtcDate $articles[$ri]); pos = $ri } }
     $sortedForRss = @($rssRows | Sort-Object @{ Expression = { $_.utc }; Descending = $true }, @{ Expression = { $_.pos }; Ascending = $true })
     foreach ($row in $sortedForRss) {
         $ra = $row.article

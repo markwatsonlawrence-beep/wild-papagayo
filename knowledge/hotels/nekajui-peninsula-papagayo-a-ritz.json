@@ -243,5 +243,6 @@
                                                                                   "src-nekajui-spa-page"
                                                                               ]
                                                  }
-                           }
+                           },
+    "operational_notice":  null
 }

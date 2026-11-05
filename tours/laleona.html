@@ -156,6 +156,7 @@
         .tour-mobile-cta-label { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: #062448; }
         .tour-mobile-cta-btn { flex: 1; max-width: 220px; min-height: 44px; text-align: center; font-size: .8rem; }
         .whatsapp-float { bottom: 82px; }
+        :root { --wpa-fab-bottom: 150px; --wpa-fab-bottom-m: 146px; } /* chat + back-to-top stack above the raised WhatsApp button */
     }
     .why-private-section { background: #f7f4ee; padding: 48px 0; }
     .why-private-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px; margin-top: 28px; }
@@ -269,7 +270,7 @@ window.addEventListener('load', function() {
                 </div>
             </div>
             <div class="ths-right">
-                <img src="../images/laleona1.webp" alt="La Leona Waterfall — Zip Line &amp; Tubing in Costa Rica" width="810" height="1080" loading="eager" fetchpriority="high" decoding="async">
+                <img src="../images/laleona1.webp" alt="La Leona Waterfall — Zip Line &amp; Tubing in Costa Rica" width="810" height="1080" srcset="../images/laleona1-480w.webp 480w, ../images/laleona1-800w.webp 800w, ../images/laleona1.webp 810w" sizes="(max-width: 1039px) 100vw, 600px" loading="eager" fetchpriority="high" decoding="async">
             </div>
         </section>
         <div class="tour-glance-bar reveal"><div class="tour-glance-grid"><div class="glance-item"><div class="glance-icon">🕒</div><b>Duration</b><span>Full Day · Approx. 8 Hours</span></div>
@@ -278,7 +279,7 @@ window.addEventListener('load', function() {
 <div class="glance-item"><div class="glance-icon">🗣️</div><b>Guide</b><span>Certified bilingual local guide</span></div>
 <div class="glance-item"><div class="glance-icon">💦</div><b>Highlights</b><span>5 River Pools &amp; Hidden Waterfall</span></div>
 <div class="glance-item"><div class="glance-icon">📅</div><b>Season</b><span>November to April only</span></div></div><p class="tour-glance-note">No shared buses. No unnecessary hotel stops. Your guide and vehicle are dedicated exclusively to your group.</p></div>
-        <div class="tour-price-teaser reveal" data-option-id="classic"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 CLASSIC</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$255 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
+        <div class="tour-price-teaser" data-option-id="classic"><div class="container tour-price-teaser-inner"><span class="option-badge">👑 CLASSIC</span><div class="tour-from-price"><span class="from-label">From</span> <strong class="from-amount">$255 <small>p.p.</small></strong></div><p class="tour-from-qualifier">for groups of 4+ guests</p><a class="btn btn-primary" href="#book">Check Availability &amp; Get My Private Quote</a></div></div>
         <section class="why-private-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Why It Matters</span><h2 class="section-title">Why Explore Privately?</h2></div><div class="why-private-grid"><div class="why-private-item reveal"><h3>Your Own Vehicle</h3><p>Travel comfortably without sharing transportation with other groups.</p></div><div class="why-private-item reveal"><h3>Direct Hotel Pickup</h3><p>Start and end the experience directly at your resort. No shared buses, no unnecessary hotel stops.</p></div><div class="why-private-item reveal"><h3>Personal Attention</h3><p>Enjoy more interaction with your certified local guide.</p></div><div class="why-private-item reveal"><h3>A Better Pace</h3><p>Spend your day experiencing Costa Rica instead of waiting on a large group.</p></div><div class="why-private-item reveal"><h3>Local Support</h3><p>Your Wild Papagayo concierge helps coordinate every detail before your tour.</p></div></div></div></section>
         <section class="tour-page-v3">
             <div class="container tour-page-grid">
@@ -286,20 +287,20 @@ window.addEventListener('load', function() {
                     <div class="tour-gallery-area">
                         <div class="premium-gallery-card reveal">
                             <div class="gallery-main">
-                                <img alt="La Leona Waterfall in tropical stone canyon, Costa Rica" src="../images/laleona1.webp" width="810" height="1080" loading="lazy" decoding="async">
+                                <img alt="La Leona Waterfall in tropical stone canyon, Costa Rica" src="../images/laleona1.webp" width="810" height="1080" srcset="../images/laleona1-480w.webp 480w, ../images/laleona1-800w.webp 800w, ../images/laleona1.webp 810w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
 <img alt="Natural river pools inside stone canyon on La Leona hike" src="../images/laleona2.webp" width="720" height="960" loading="lazy" decoding="async">
-<img alt="Swimming beneath La Leona Waterfall in natural pool" src="../images/laleona3.webp" width="810" height="1080" loading="lazy" decoding="async">
-<img alt="Zip line option above canopy near La Leona Waterfall" src="../images/laleona4.webp" width="853" height="853" loading="lazy" decoding="async">
-<img alt="Tubing through rapids below La Leona Waterfall, Costa Rica" src="../images/laleona5.webp" width="1080" height="721" loading="lazy" decoding="async">
+<img alt="Swimming beneath La Leona Waterfall in natural pool" src="../images/laleona3.webp" width="810" height="1080" srcset="../images/laleona3-480w.webp 480w, ../images/laleona3-800w.webp 800w, ../images/laleona3.webp 810w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Zip line option above canopy near La Leona Waterfall" src="../images/laleona4.webp" width="853" height="853" srcset="../images/laleona4-800w.webp 800w, ../images/laleona4.webp 853w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
+<img alt="Tubing through rapids below La Leona Waterfall, Costa Rica" src="../images/laleona5.webp" width="1080" height="721" srcset="../images/laleona5-800w.webp 800w, ../images/laleona5.webp 1080w" sizes="(max-width: 1039px) 100vw, 560px" loading="lazy" decoding="async">
                                 <button class="gallery-arrow gallery-prev" type="button">‹</button>
                                 <button class="gallery-arrow gallery-next" type="button">›</button>
                             </div>
                             <div class="gallery-thumbs">
-                                <button type="button"><img alt="La Leona Waterfall in tropical stone canyon, Costa Rica" src="../images/laleona1.webp" width="810" height="1080" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Natural river pools inside stone canyon on La Leona hike" src="../images/laleona2.webp" width="720" height="960" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Swimming beneath La Leona Waterfall in natural pool" src="../images/laleona3.webp" width="810" height="1080" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Zip line option above canopy near La Leona Waterfall" src="../images/laleona4.webp" width="853" height="853" loading="lazy" decoding="async"></button>
-<button type="button"><img alt="Tubing through rapids below La Leona Waterfall, Costa Rica" src="../images/laleona5.webp" width="1080" height="721" loading="lazy" decoding="async"></button>
+                                <button type="button"><img alt="La Leona Waterfall in tropical stone canyon, Costa Rica" src="../images/laleona1.webp" width="810" height="1080" srcset="../images/laleona1-200w.webp 200w, ../images/laleona1.webp 810w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Natural river pools inside stone canyon on La Leona hike" src="../images/laleona2.webp" width="720" height="960" srcset="../images/laleona2-200w.webp 200w, ../images/laleona2.webp 720w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Swimming beneath La Leona Waterfall in natural pool" src="../images/laleona3.webp" width="810" height="1080" srcset="../images/laleona3-200w.webp 200w, ../images/laleona3.webp 810w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Zip line option above canopy near La Leona Waterfall" src="../images/laleona4.webp" width="853" height="853" srcset="../images/laleona4-200w.webp 200w, ../images/laleona4.webp 853w" sizes="64px" loading="lazy" decoding="async"></button>
+<button type="button"><img alt="Tubing through rapids below La Leona Waterfall, Costa Rica" src="../images/laleona5.webp" width="1080" height="721" srcset="../images/laleona5-200w.webp 200w, ../images/laleona5.webp 1080w" sizes="64px" loading="lazy" decoding="async"></button>
                             </div>
                             <div class="share-icons compact-share">
                                 <a class="share-icon share-whatsapp" data-message="Hello Wild Papagayo! I want to book the La Leona Waterfall — Zip Line &amp; Tubing experience." data-whatsapp="" data-intent="book_tour" data-label="Tour WhatsApp Icon" title="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -312,19 +313,19 @@ window.addEventListener('load', function() {
                     <div class="tour-details-area">
     <div class="tour-details-card">
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Hike, Swim &amp; Discover La Leona Waterfall</h2><p class="experience-intro">Venture deep into one of Guanacaste's best-kept secrets on an exciting adventure that combines hiking, river crossings, swimming, and spectacular canyon scenery. This experience is perfect for travelers looking for an active day surrounded by Costa Rica's incredible natural beauty.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🥾</div><h3>Guided Canyon Hike</h3><p>Follow your experienced guide through forest trails, rocky riverbeds, and natural canyon formations while discovering one of Costa Rica's most scenic hidden locations.</p></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">The Experience</span><h2>Hike, Swim &amp; Discover La Leona Waterfall</h2><p class="experience-intro">Venture deep into one of Guanacaste's best-kept secrets on an exciting adventure that combines hiking, river crossings, swimming, and spectacular canyon scenery. This experience is perfect for travelers looking for an active day surrounded by Costa Rica's incredible natural beauty.</p><div class="experience-grid"><div class="experience-item"><div class="experience-icon">🥾</div><h3>Guided Canyon Hike</h3><p>Follow your experienced guide through forest trails, rocky riverbeds, and natural canyon formations while discovering one of Costa Rica's most scenic hidden locations.</p></div>
 <div class="experience-item"><div class="experience-icon">💦</div><h3>Natural River Pools</h3><p>Swim through five crystal-clear river pools carved into the canyon as you make your way toward the spectacular La Leona Waterfall.</p></div>
 <div class="experience-item"><div class="experience-icon">🌊</div><h3>La Leona Waterfall</h3><p>Reach the hidden waterfall deep inside the canyon, where powerful turquoise waters create one of Guanacaste's most breathtaking natural settings.</p></div>
 <div class="experience-item"><div class="experience-icon">⚡</div><h3>Choose Your Adventure</h3><p>Select the Classic option with an exciting zip line experience above the forest canopy, or upgrade to the PLUS option and enjoy an unforgettable river tubing adventure through refreshing Class I–II rapids.</p></div></div><div class="experience-footer"><div class="experience-highlight"><span>🌿</span><div><h3>Costa Rica's Hidden Canyon Adventure</h3><p>Hike, swim, climb, and explore your way to the spectacular La Leona Waterfall before completing your adventure with either an exhilarating zip line experience or an exciting river tubing descent. A true adventure for travelers seeking something beyond the ordinary.</p></div></div></div></div>
 
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p>Your private guide meets you directly at your hotel or resort in Guanacaste.</p></div></div>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Your Day, Step by Step</span><h2>What to Expect</h2><div class="itinerary-steps-stack"><div class="itinerary-step reveal"><div class="itinerary-step-num">01</div><div class="itinerary-step-body"><h3>Private Hotel Pickup</h3><p>Your private guide meets you directly at your hotel or resort in Guanacaste.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">02</div><div class="itinerary-step-body"><h3>Canyon Hike Begins</h3><p>Follow forest trails and rocky riverbeds into the stone canyon.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">03</div><div class="itinerary-step-body"><h3>Five River Pools</h3><p>Swim through five crystal-clear pools carved into the canyon.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">04</div><div class="itinerary-step-body"><h3>La Leona Waterfall</h3><p>Reach the hidden waterfall deep inside the canyon.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">05</div><div class="itinerary-step-body"><h3>Zip Line or Tubing</h3><p>Classic finishes with a zip line above the canopy. Plus finishes with a river tubing descent.</p></div></div>
 <div class="itinerary-step reveal"><div class="itinerary-step-num">06</div><div class="itinerary-step-body"><h3>Lunch &amp; Private Return</h3><p>Enjoy a traditional Costa Rican lunch before your private return to the resort.</p></div></div></div></div>
 
-                            <div class="accordion-stack clean-stack reveal">
+                            <div class="accordion-stack clean-stack">
                                 <div class="accordion-item"><button class="accordion-trigger"><span>Before You Arrive</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><ul class="accordion-list"><li>Wear swimwear under quick-dry shorts or leggings, you will be wet for most of the hike.</li>
 <li>Bring water shoes or secure-strap sandals, open flip-flops will not stay on in the river pools.</li>
 <li>Bring a dry change of clothing and a small towel for after the experience.</li>
@@ -347,8 +348,8 @@ window.addEventListener('load', function() {
 <p><span class="check-red">&#10003;</span> Cash for personal expenses (gratuities)</p></div></div></div>
                             </div>
 
-        <section class="ti-section reveal"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid"><a class="ti-card" href="../blog/best-waterfalls-near-papagayo-which-day-trip-to-pick"><img src="../images/waterfall-day-trip-from-papagayo.webp" alt="Tropical waterfall surrounded by rainforest on a day trip from Papagayo, Costa Rica" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">Tours &amp; Experiences</span><h3>Best Waterfalls Near Papagayo: Which Day Trip to Pick</h3><p>A local look at the best waterfall day trips from Papagayo, comparing drive time, walking difficulty, swimming access and how each changes between green and dry season.</p></div></a></div></section>
-        <div class="info-panel reveal" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group.</p></div></div>
+        <section class="ti-section"><div class="ti-heading"><span class="ti-eyebrow">Plan with confidence</span><h2>Travel Insights</h2></div><div class="ti-grid"><a class="ti-card" href="../blog/best-waterfalls-near-papagayo-which-day-trip-to-pick"><img src="../images/waterfall-day-trip-from-papagayo.webp" srcset="../images/waterfall-day-trip-from-papagayo-480w.webp 480w, ../images/waterfall-day-trip-from-papagayo-800w.webp 800w, ../images/waterfall-day-trip-from-papagayo.webp 960w" sizes="(max-width: 700px) 100vw, 320px" alt="Tropical waterfall surrounded by rainforest on a day trip from Papagayo, Costa Rica" loading="lazy" decoding="async"><div class="ti-card-body"><span class="ti-card-tag">Tours &amp; Experiences</span><h3>Best Waterfalls Near Papagayo: Which Day Trip to Pick</h3><p>A local look at the best waterfall day trips from Papagayo, comparing drive time, walking difficulty, swimming access and how each changes between green and dry season.</p></div></a></div></section>
+        <div class="info-panel" style="grid-column:1/-1;"><span class="section-tag">Good to Know</span><h2>Frequently Asked Questions</h2><div class="accordion-stack clean-stack"><div class="accordion-item"><button class="accordion-trigger"><span>Is this a private tour?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Your Wild Papagayo experience is reserved exclusively for your group, private vehicle and private guide, no shared buses or other travelers added to your group.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is hotel pickup included?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Yes. Private pickup and return are included from Papagayo, Playa Hermosa and Playas del Coco. Pickup from other Guanacaste areas is available, exact pricing depends on your hotel location.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>Is this tour available year-round?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>No, La Leona is only available from November to April, depending on river and canyon conditions.</p></div></div>
 <div class="accordion-item"><button class="accordion-trigger"><span>What's the difference between Classic and Plus?</span><b aria-hidden="true">&#8964;</b></button><div class="accordion-content"><p>Classic finishes the adventure with a zip line above the canopy. Plus finishes with a river tubing descent through the rapids.</p></div></div>
@@ -363,7 +364,7 @@ window.addEventListener('load', function() {
                 </div>
 
                 <div class="tour-right-column">
-                    <div class="tour-summary-card reveal">
+                    <div class="tour-summary-card">
                         <h2 class="tour-title-premium">La Leona Waterfall — Zip Line &amp; Tubing</h2>
                         <div class="tour-rating">
                             <span class="driving-time">Full Day</span>
@@ -378,7 +379,7 @@ window.addEventListener('load', function() {
                             </div>
                         </div>
 
-                        <div class="everything-included-top reveal"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
+                        <div class="everything-included-top"><h3>Everything Included</h3><div class="itinerary-list"><p><span class="check-red">&#10003;</span> Private air-conditioned transportation</p>
 <p><span class="check-red">&#10003;</span> Complimentary bottled water</p>
 <p><span class="check-red">&#10003;</span> Snacks and refreshments</p>
 <p><span class="check-red">&#10003;</span> Experienced certified bilingual local guide</p>
@@ -429,6 +430,7 @@ window.addEventListener('load', function() {
     </div>
 
 </div>
+
 <div class="tour-booking-area">
                         <aside class="booking-side not-sticky" id="book">
                             <div class="reservation-card">
@@ -485,9 +487,9 @@ window.addEventListener('load', function() {
 
     </main>
 
-    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="hikingrinconnationalpark" class="cross-sell-card"><img src="../images/rincon1.webp" alt="Hiking Rincón National Park" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Hiking Rincón National Park</div></div></a>
-<a href="celesteriver" class="cross-sell-card"><img src="../images/celeste1.webp" alt="Celeste River Hike" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Celeste River Hike</div></div></a>
-<a href="waterfalllovers" class="cross-sell-card"><img src="../images/waterfalllovers1.webp" alt="Waterfall Lovers" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Waterfall Lovers</div></div></a></div></div></section><footer class="footer">
+    <section class="cross-sell-section"><div class="container"><div class="section-head reveal"><span class="section-kicker">Keep Exploring</span><h2 class="section-title">You May Also Love</h2></div><div class="cross-sell-grid"><a href="hikingrinconnationalpark" class="cross-sell-card"><img src="../images/rincon1.webp" srcset="../images/rincon1-480w.webp 480w, ../images/rincon1-800w.webp 800w, ../images/rincon1.webp 1024w" sizes="(max-width: 700px) 100vw, 400px" alt="Hiking Rincón National Park" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Hiking Rincón National Park</div></div></a>
+<a href="celesteriver" class="cross-sell-card"><img src="../images/celeste1.webp" srcset="../images/celeste1-800w.webp 800w, ../images/celeste1.webp 1200w" sizes="(max-width: 700px) 100vw, 400px" alt="Celeste River Hike" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Celeste River Hike</div></div></a>
+<a href="waterfalllovers" class="cross-sell-card"><img src="../images/waterfalllovers1.webp" srcset="../images/waterfalllovers1-480w.webp 480w, ../images/waterfalllovers1-800w.webp 800w, ../images/waterfalllovers1.webp 1280w" sizes="(max-width: 700px) 100vw, 400px" alt="Waterfall Lovers" class="cross-sell-img" loading="lazy" decoding="async"><div class="cross-sell-info"><div class="cross-sell-label">Private Tour</div><div class="cross-sell-title">Waterfall Lovers</div></div></a></div></div></section><footer class="footer">
     <div class="container footer-grid footer-grid-clean">
         <div class="footer-brand">
             <img src="../images/logo-wildpapagayo-nav.webp" alt="Wild Papagayo Private Journeys Costa Rica" class="footer-logo" width="180" height="180" loading="lazy" decoding="async">

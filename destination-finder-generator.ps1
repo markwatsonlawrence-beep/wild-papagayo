@@ -58,6 +58,12 @@ $html = @'
 <meta name="description" content="Tell us what matters most to your trip and see which Guanacaste and Arenal destination matches best, scored from our real destination Travel Scores.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://wildpapagayo.com/destination-finder">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Find Your Perfect Costa Rica Destination | Wild Papagayo">
+<meta property="og:description" content="Tell us what matters most to your trip and see which Guanacaste and Arenal destination matches best, scored from our real destination Travel Scores.">
+<meta property="og:url" content="https://wildpapagayo.com/destination-finder">
+<meta property="og:image" content="https://wildpapagayo.com/images/luxury-costa-rica-tours-hero.webp">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="style.min.css">
 <style>
 .finder-wrap{width:min(880px,92%);margin:-40px auto 70px;background:#fff;border-radius:8px;box-shadow:0 20px 50px rgba(6,36,72,.14);padding:40px;position:relative;z-index:2}
