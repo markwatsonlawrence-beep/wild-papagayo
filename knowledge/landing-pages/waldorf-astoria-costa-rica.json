@@ -1,0 +1,152 @@
+{
+    "id": "waldorf-astoria-costa-rica",
+    "slug": "waldorf-astoria-costa-rica",
+    "hotel_id": "waldorf-astoria-costa-rica",
+    "page_url": "private-tours/waldorf-astoria-costa-rica",
+    "canonical_url": "https://wildpapagayo.com/private-tours/waldorf-astoria-costa-rica",
+    "seo_title": "Private Tours from Waldorf Astoria Costa Rica | Wild Papagayo",
+    "seo_description": "Private day tours from Waldorf Astoria Costa Rica Punta Cacique with direct resort pickup, local guides and exclusive experiences across Guanacaste and northern Costa Rica.",
+    "og_image": "images/waldorf-astoria-costa-rica-hero.webp",
+    "h1": "Private Tours from the Waldorf Astoria Costa Rica",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "WALDORF ASTORIA COSTA RICA · GUANACASTE",
+        "eyebrow_line_2": "Beyond the Resort. Privately.",
+        "subtext": "Private day tours from Waldorf Astoria Costa Rica Punta Cacique with direct resort pickup, local bilingual guides and experiences reserved exclusively for your group.",
+        "cta_primary_text": "Find My Private Tour",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying at Waldorf Astoria Costa Rica and would like to plan a private tour.",
+        "image": "images/waldorf-astoria-costa-rica-hero.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Direct Waldorf Pickup",
+        "Local Guides",
+        "Flexible Itineraries",
+        "Personal Concierge"
+    ],
+    "intro_section": {
+        "kicker": "Beyond the Resort",
+        "title": "Explore Beyond Waldorf Astoria Costa Rica",
+        "paragraphs": [
+            "Waldorf Astoria Costa Rica Punta Cacique is a luxury resort on the Gulf of Papagayo, approximately 32 to 40 minutes from Liberia airport (LIR). When you are ready to step outside the resort for the day, Wild Papagayo organizes private tours with direct pickup from the hotel.",
+            "Every experience in this guide departs from and returns to Waldorf Astoria Costa Rica. Day trips range from a shorter outing of about six hours to full days of eight or nine hours in Costa Rica's national parks, volcanic landscapes and wildlife reserves. Exact pickup time is confirmed after booking based on your selected experience and travel date.",
+            "One group. One vehicle. One guide. No shared buses. No other travelers on your schedule."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Signature Experiences",
+        "title": "Six Private Tours from Waldorf Astoria Costa Rica",
+        "cta": { "text": "Explore All Private Tours", "url": "tours" },
+        "tours": [
+            { "id": "waterfallpumas", "best_for": "Shorter day · Easy", "note": "Swim at Llanos del Cortes waterfall, then visit Las Pumas Wildlife Rescue Center — pumas, jaguars, ocelots and monkeys. Lunch included. About 6 hours." },
+            { "id": "waterfalllovers", "best_for": "Waterfalls · Moderate", "note": "Hidden waterfalls and tropical forest, reserved exclusively for your group. Certified bilingual guide. About 8 hours. Minimum age 4." },
+            { "id": "hikingrinconnationalpark", "best_for": "Volcano · Easy–Moderate", "note": "Las Pailas Trail through fumaroles and mud pots at Rincón de la Vieja. Classic (waterfall) or Plus (hot springs) options. About 8 hours. Runs Tuesday through Sunday — park closed Mondays." },
+            { "id": "hangingbridgessloths", "best_for": "Wildlife · Easy", "note": "Three suspension bridges, Llanos de Cortez waterfall and a sloth encounter. Lunch included. Sightings are frequent but not guaranteed. About 9 hours." },
+            { "id": "celesteriver", "best_for": "Blue river · Moderate", "note": "Full-day hike to Río Celeste at Tenorio Volcano National Park. Swimming is not permitted in the river. Park entrance fee included. About 9 hours. Minimum age 8." },
+            { "id": "paloverderiverboattour", "best_for": "Wildlife · Easy", "note": "Covered boat through Palo Verde National Park. Crocodiles, howler monkeys and tropical birds along the Tempisque River. Half day. Ages 2+." }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Plan Your Trip",
+        "title": "Choose Your Tour by Travel Style",
+        "want_header": "Best For...",
+        "rows": [
+            { "want": "Families with children", "tour_id": "hangingbridgessloths" },
+            { "want": "Couples", "tour_id": "celesteriver" },
+            { "want": "Wildlife without hiking", "tour_id": "paloverderiverboattour" },
+            { "want": "Waterfall day", "tour_id": "waterfalllovers" },
+            { "want": "Volcano & hiking", "tour_id": "hikingrinconnationalpark" },
+            { "want": "Shorter day", "tour_id": "waterfallpumas" }
+        ]
+    },
+    "hotel_pickup": {
+        "kicker": "Resort Pickup",
+        "title": "Direct Pickup From Waldorf Astoria Costa Rica",
+        "text": "Your private experience begins at Waldorf Astoria Costa Rica Punta Cacique. Wild Papagayo coordinates resort pickup based on your selected tour and planned departure time, with a private vehicle and guide reserved for your group.",
+        "text_2": "At the end of your experience, your driver returns you directly to the resort. To get started, send us a WhatsApp message with your hotel, your planned travel dates and the experience you're considering.",
+        "cta_text": "Plan a Tour From Waldorf Astoria",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Waldorf%20Astoria%20Costa%20Rica%20and%20would%20like%20to%20plan%20a%20private%20tour."
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Costa Rica's Top Experiences from Waldorf Astoria?",
+        "origin_label": "Waldorf Astoria",
+        "note": "As general Papagayo-area planning context — not Waldorf-specific measurements. Actual travel time depends on the hotel pickup location, route, and road conditions. Your Wild Papagayo guide can recommend the best departure time from the resort for your itinerary.",
+        "source_note": "Travel time estimates based on verified driving distances in the Papagayo region.",
+        "rows": [
+            { "destination": "Rincón de la Vieja (Las Pailas)", "min": 102, "max": 130, "best_for": "Volcano & hiking" },
+            { "destination": "Río Celeste (Tenorio Volcano NP)", "min": 120, "max": 150, "best_for": "Nature & scenery" },
+            { "destination": "Palo Verde National Park", "min": 87, "max": 112, "best_for": "Wildlife" }
+        ]
+    },
+    "audience_sections": [
+        {
+            "kicker": "For Families",
+            "title": "Private Tours for Families at Waldorf Astoria",
+            "intro": "Waldorf Astoria Costa Rica is a family-friendly resort. Because every Wild Papagayo tour is private, the pace of the day adapts to the ages in your group.",
+            "groups": [
+                { "title": "With Young Children", "text": "Waterfall & Las Pumas and Palo Verde River Boat are the most relaxed options for families with young children — shorter days with manageable activity levels." },
+                { "title": "With Older Kids", "text": "Hanging Bridges & Sloths and Rincón de la Vieja Hiking give older children more to engage with — wildlife, suspension bridges and volcanic landscapes." },
+                { "title": "Multigenerational Groups", "text": "We adapt pace and activity level so tours work for every generation traveling together. Let us know the ages when you reach out." }
+            ]
+        }
+    ],
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why a Private Tour from the Waldorf?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private experiences from Papagayo.",
+        "items": [
+            { "title": "Private Transportation", "text": "Your own vehicle for the day — no shared buses." },
+            { "title": "Dedicated Local Guide", "text": "Focused entirely on your group." },
+            { "title": "Direct Resort Pickup", "text": "Start from Waldorf Astoria Costa Rica." },
+            { "title": "Flexible Pacing", "text": "No fixed shared-tour schedule." },
+            { "title": "Personal Concierge", "text": "Help planning before the experience." },
+            { "title": "Experienced Operator", "text": "Local team with direct knowledge of each experience." }
+        ]
+    },
+    "airport_section": {
+        "kicker": "Airport Transportation",
+        "title": "Liberia Airport Transportation to Waldorf Astoria",
+        "text": "Wild Papagayo can also coordinate private transportation between Guanacaste Airport (LIR) and Waldorf Astoria Costa Rica Punta Cacique, approximately 32 to 40 minutes away. Arrange airport transfers and private day tours with the same local team.",
+        "cta_text": "View Liberia Airport Transportation",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "hotel_crosslink": {
+        "kicker": "Resort Guide",
+        "title": "Staying at Waldorf Astoria Costa Rica?",
+        "text": "Explore our Waldorf Astoria Costa Rica guide for hotel information, transportation, nearby experiences and planning your stay in Peninsula Papagayo.",
+        "cta_text": "View Waldorf Astoria Resort Guide",
+        "cta_url": "hotels/waldorf-astoria-costa-rica"
+    },
+    "editorial_crosslink": {
+        "kicker": "Not Sure Which Tour to Pick?",
+        "title": "See Our Editorial Guide to Tours from Waldorf Astoria",
+        "text": "Our editorial guide reviews each experience by duration, difficulty and what kind of traveler it suits best — a useful starting point before booking.",
+        "cta_text": "Read the Tour Guide",
+        "cta_url": "blog/best-tours-from-waldorf-astoria-costa-rica"
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "TOUR_SELECTOR", "PICKUP_SECTION", "TRAVEL_TIMES", "AUDIENCE_SECTIONS", "WHY_PRIVATE", "AIRPORT_SECTION", "HOTEL_CROSSLINK", "EDITORIAL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "Can Wild Papagayo arrange pickup directly from Waldorf Astoria Costa Rica?", "a": "Yes. Wild Papagayo coordinates direct resort pickup from Waldorf Astoria Costa Rica Punta Cacique. Exact pickup time is confirmed after booking based on your selected tour and travel date." },
+        { "q": "What private tours are available from Waldorf Astoria Costa Rica?", "a": "Six tours are listed in this guide, ranging from about 6 to about 9 hours: Waterfall & Las Pumas, Waterfall Lovers, Rincón de la Vieja Hiking, Hanging Bridges & Sloths, Celeste River Hike and Palo Verde River Boat. All include direct resort pickup." },
+        { "q": "How long is the drive from Waldorf Astoria to Rincón de la Vieja?", "a": "As general Papagayo-area planning context, the drive is approximately 102 to 130 minutes each way. Actual travel time depends on the hotel pickup location, route, and road conditions. The hiking tour takes about 8 hours and runs Tuesday through Sunday, as the national park is closed on Mondays." },
+        { "q": "Is the Celeste River Hike worth the drive from Waldorf Astoria?", "a": "Yes, for travelers who want a full nature day and are comfortable with a longer drive. Approximately 2 to 2.5 hours each way, depending on the pickup location and road conditions. The hike itself takes about 9 hours and is rated Moderate. Swimming is not permitted in Río Celeste. Park registration requires visitor identification details." },
+        { "q": "Are tours at Waldorf Astoria Costa Rica private?", "a": "Yes. Every Wild Papagayo experience is reserved exclusively for your group. No shared buses, no other travelers added to your group." },
+        { "q": "What is the shortest day trip from Waldorf Astoria Costa Rica?", "a": "Waterfall & Las Pumas is the shortest at about 6 hours, rated Easy and suitable for all ages. It combines a waterfall swim with a guided visit to Las Pumas Wildlife Rescue Center, where the animals are rescued rather than wild." },
+        { "q": "Can children join tours from Waldorf Astoria Costa Rica?", "a": "Most tours in this guide are suitable for children. The Celeste River Hike has a minimum age of 8, and Waterfall Lovers has a minimum age of 4. Let us know the ages of your group when planning, and we'll confirm what works for your family." }
+    ],
+    "final_cta": {
+        "kicker": "ONE FREE DAY CAN SHOW YOU A DIFFERENT SIDE OF COSTA RICA.",
+        "title": "Tell Us How You'd Like to Spend It",
+        "text": "Tell us who you're traveling with, how much time you have and what you'd most like to experience. We'll help you choose a private journey that fits naturally into your stay at Waldorf Astoria Costa Rica.",
+        "cta_primary_text": "Plan My Private Experience",
+        "cta_secondary_text": "Chat With a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying at Waldorf Astoria Costa Rica and would love help planning a private experience for my free day."
+    }
+}

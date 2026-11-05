@@ -1,0 +1,202 @@
+{
+    "id": "hotel-riu-guanacaste",
+    "slug": "hotel-riu-guanacaste",
+    "hotel_id": "hotel-riu-guanacaste",
+    "page_url": "private-tours/hotel-riu-guanacaste",
+    "canonical_url": "https://wildpapagayo.com/private-tours/hotel-riu-guanacaste",
+    "seo_title": "Private Tours from Hotel Riu Guanacaste | Wild Papagayo",
+    "seo_description": "Private day tours from Hotel Riu Guanacaste with direct hotel pickup at Playa Matapalo. Wildlife, rainforest and volcanic landscapes — guided, private, yours.",
+    "og_image": "images/hotel-riu-guanacaste-hero.webp",
+    "h1": "Private Tours from Hotel Riu Guanacaste",
+    "parent_hub": {
+        "title": "Private Tours from Peninsula Papagayo",
+        "url": "private-tours/peninsula-papagayo"
+    },
+    "hero": {
+        "eyebrow_line_1": "HOTEL RIU GUANACASTE · PLAYA MATAPALO",
+        "eyebrow_line_2": "Beyond the Resort. Privately.",
+        "subtext": "Private day tours from Hotel Riu Guanacaste with direct hotel pickup, local bilingual guides and experiences reserved exclusively for your group.",
+        "cta_primary_text": "Find My Private Tour",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying at Hotel Riu Guanacaste and would like to plan a private tour.",
+        "image": "images/hotel-riu-guanacaste-hero.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Direct Hotel Pickup",
+        "Local Bilingual Guides",
+        "Flexible Itineraries",
+        "Personal Concierge"
+    ],
+    "intro_section": {
+        "kicker": "Beyond the Resort",
+        "title": "Explore Beyond Hotel Riu Guanacaste",
+        "paragraphs": [
+            "Hotel Riu Guanacaste is a large all-inclusive resort on Playa Matapalo, approximately 42 to 54 minutes from Liberia airport (LIR). The resort's water park, pools and beach keep most guests entertained on-site — but Guanacaste's most memorable experiences are a short private drive away.",
+            "Every tour in this guide departs from and returns to Hotel Riu Guanacaste. Day trips range from a shorter half-day outing of about six hours to full days of eight or nine hours in Costa Rica's national parks, volcanic landscapes and wildlife reserves. Exact pickup time is confirmed after booking based on your selected experience and travel date.",
+            "One group. One vehicle. One guide. No shared buses. No other travelers on your schedule."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Signature Experiences",
+        "title": "Five Private Tours from Hotel Riu Guanacaste",
+        "cta": { "text": "Explore All Private Tours", "url": "tours" },
+        "tours": [
+            {
+                "id": "hangingbridgessloths",
+                "best_for": "Wildlife · Easy · Full Day",
+                "note": "Three suspension bridges, Llanos de Cortes waterfall and a guided sloth encounter. Lunch included. Sloth sightings are frequent but not guaranteed. About 9 hours."
+            },
+            {
+                "id": "congotrail",
+                "best_for": "Adventure · Shorter Day · Half Day",
+                "note": "Six zip lines, ATV and horseback riding through Guanacaste dry forest. Direct hotel pickup. About 6 hours — back in time for the pools."
+            },
+            {
+                "id": "buenavistamegacombo",
+                "best_for": "Active Adventure · Full Day · Minimum Age 8",
+                "note": "Zip line, horseback ride, mountain waterslide, hot springs and volcanic mud — all in one private full day at Buena Vista. Lunch included. About 8 hours."
+            },
+            {
+                "id": "paloverderiverboattour",
+                "best_for": "Wildlife · Easy · Half Day · Ages 2+",
+                "note": "Covered boat through Palo Verde National Park along the Tempisque River. Crocodiles, howler monkeys and tropical birds. About 6 hours. Great with young children."
+            },
+            {
+                "id": "celesteriver",
+                "best_for": "Nature · Moderate · Full Day · Minimum Age 8",
+                "note": "Full-day hike to the turquoise waters of Río Celeste at Tenorio Volcano National Park. Swimming is not permitted in the river. Passport details required for all guests. About 9 hours."
+            }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Plan Your Trip",
+        "title": "Choose Your Tour by Travel Style",
+        "want_header": "Best For...",
+        "rows": [
+            { "want": "Families with young children", "tour_id": "paloverderiverboattour" },
+            { "want": "Wildlife and suspension bridges", "tour_id": "hangingbridgessloths" },
+            { "want": "Short adventure day", "tour_id": "congotrail" },
+            { "want": "Active full-day combo", "tour_id": "buenavistamegacombo" },
+            { "want": "Nature and scenery", "tour_id": "celesteriver" },
+            { "want": "Back by pool time", "tour_id": "congotrail" }
+        ]
+    },
+    "hotel_pickup": {
+        "kicker": "Hotel Pickup",
+        "title": "Direct Pickup From Hotel Riu Guanacaste",
+        "text": "Your private experience begins at Hotel Riu Guanacaste. Wild Papagayo coordinates hotel pickup based on your selected tour and planned departure time, with a private vehicle and guide reserved for your group.",
+        "text_2": "At the end of your experience, your driver returns you directly to the hotel. To get started, send us a WhatsApp message with your hotel, your planned travel dates and the experience you're considering.",
+        "cta_text": "Plan a Tour From Riu Guanacaste",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Hotel%20Riu%20Guanacaste%20and%20would%20like%20to%20plan%20a%20private%20tour."
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Costa Rica's Top Experiences from Hotel Riu Guanacaste?",
+        "origin_label": "Hotel Riu Guanacaste",
+        "note": "General Papagayo-area planning context — not hotel-specific measurements. Hotel Riu Guanacaste is on Playa Matapalo, approximately 42 to 54 minutes from Liberia airport. Actual travel time to each destination depends on the pickup location, route and road conditions. Your Wild Papagayo guide can recommend the best departure time for your selected tour.",
+        "source_note": "Travel time estimates based on verified driving distances in the Papagayo region.",
+        "rows": [
+            { "destination": "Palo Verde National Park", "min": 87, "max": 112, "best_for": "Wildlife & boat tour" },
+            { "destination": "Rincón de la Vieja / Buena Vista area", "min": 93, "max": 118, "best_for": "Adventure & volcano" },
+            { "destination": "Río Celeste (Tenorio Volcano NP)", "min": 110, "max": 140, "best_for": "Nature & scenery" }
+        ]
+    },
+    "audience_sections": [
+        {
+            "kicker": "For Families",
+            "title": "Private Tours for Families at Hotel Riu Guanacaste",
+            "intro": "Hotel Riu Guanacaste is designed with families in mind — Splash Water World, a children's pool and RIULand kids' programming all keep younger travelers happy on-site. When the family is ready for an off-site day, every Wild Papagayo tour is private, so the pace stays your own.",
+            "groups": [
+                { "title": "Easy Half-Day Wildlife", "text": "Palo Verde River Boat Tour is an Easy, covered boat tour suitable from age 2. Perfect for families with young children who want wildlife without a demanding pace — typically back by early afternoon." },
+                { "title": "Wildlife Full Day", "text": "Hanging Bridges & Sloths is rated Easy and suits every age. Three suspension bridges, a waterfall swim stop and a guided sloth encounter — consistently the tour families thank us for most." },
+                { "title": "Active Families", "text": "Congo Trail's half-day adventure (zip lines, ATV, horseback) works well for families with older children. Minimum age is flexible — ask us and we'll confirm suitability for your group." }
+            ]
+        },
+        {
+            "kicker": "For Couples",
+            "title": "Private Tours for Couples at Hotel Riu Guanacaste",
+            "intro": "Every Wild Papagayo tour is private — no shared vans, no other travelers. Couples at Riu Guanacaste often use one free day for a full nature or adventure experience, then return to the all-inclusive by evening.",
+            "groups": [
+                { "title": "Nature & Scenery", "text": "Celeste River Hike offers a full day at one of Costa Rica's most photographed natural wonders. Moderate effort, long drive, high reward — best suited for the dry season (December–April) when the trail is dry and the river color is at its best." },
+                { "title": "Adventure Combo", "text": "Buena Vista Mega Combo packs zip lining, horseback riding, a mountain waterslide and volcanic hot springs into one private full day. Active, varied and a good use of one day if you want to do a lot." },
+                { "title": "Shorter Day", "text": "Congo Trail's half-day adventure leaves the afternoon free for the pools and resort. Good option when you want an experience without spending the whole day away." }
+            ]
+        }
+    ],
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why a Private Tour from Riu Guanacaste?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private experiences from the Papagayo area.",
+        "items": [
+            { "title": "Direct Hotel Pickup", "text": "Start from Hotel Riu Guanacaste — no separate meeting point." },
+            { "title": "Private Transportation", "text": "Your own vehicle for the day — no shared vans or buses." },
+            { "title": "Dedicated Local Guide", "text": "Focused entirely on your group, not a crowd." },
+            { "title": "Flexible Pacing", "text": "No shared-tour schedule — go at your group's pace." },
+            { "title": "Personal Concierge", "text": "Help choosing and planning before the experience." },
+            { "title": "Return to the Resort", "text": "Back at Riu Guanacaste in time for dinner and the pool." }
+        ]
+    },
+    "editorial_crosslink": {
+        "kicker": "Looking for a Comparison?",
+        "title": "Read Our Honest Tour Guide for Riu Guanacaste",
+        "text": "Our editorial guide reviews the best tours from Hotel Riu Guanacaste in more depth, including honest trade-offs by pace, duration and traveler type — a good starting point before booking.",
+        "cta_text": "Read the Riu Guanacaste Tour Guide",
+        "cta_url": "blog/best-tours-from-riu-guanacaste-local-recommendations"
+    },
+    "airport_section": {
+        "kicker": "Airport Transportation",
+        "title": "Liberia Airport Transportation to Hotel Riu Guanacaste",
+        "text": "Wild Papagayo can also coordinate private transportation between Guanacaste Airport (LIR) and Hotel Riu Guanacaste, approximately 42 to 54 minutes away. Arrange airport transfers and private day tours with the same local team.",
+        "cta_text": "View Liberia Airport Transportation",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "hotel_crosslink": {
+        "kicker": "Hotel Guide",
+        "title": "Staying at Hotel Riu Guanacaste?",
+        "text": "Explore our Hotel Riu Guanacaste guide for hotel information, transportation options, nearby experiences and planning your stay.",
+        "cta_text": "View Hotel Riu Guanacaste Guide",
+        "cta_url": "hotels/hotel-riu-guanacaste"
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "TOUR_SELECTOR", "PICKUP_SECTION", "TRAVEL_TIMES", "AUDIENCE_SECTIONS", "WHY_PRIVATE", "EDITORIAL_CROSSLINK", "AIRPORT_SECTION", "HOTEL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        {
+            "q": "Can Wild Papagayo arrange pickup directly from Hotel Riu Guanacaste?",
+            "a": "Yes. Wild Papagayo coordinates direct hotel pickup from Hotel Riu Guanacaste at Playa Matapalo. Exact pickup time is confirmed after booking based on your selected tour and travel date."
+        },
+        {
+            "q": "What private tours are available from Hotel Riu Guanacaste?",
+            "a": "Five tours are featured in this guide: Hanging Bridges & Sloths, Congo Trail Half-Day Adventure, Buena Vista Mega Combo, Palo Verde River Boat Tour and Celeste River Hike. All include direct hotel pickup and a private vehicle and guide for your group."
+        },
+        {
+            "q": "Which tour is best for families with young children at Riu Guanacaste?",
+            "a": "The Palo Verde River Boat Tour is rated Easy, starts from age 2 and runs about 6 hours — a good choice for families with younger children. Hanging Bridges & Sloths is also rated Easy, includes lunch and suits every age group."
+        },
+        {
+            "q": "How long is the drive from Riu Guanacaste to Río Celeste?",
+            "a": "As general Papagayo-area planning context, the drive is approximately 110 to 140 minutes each way. Actual travel time depends on road conditions and your exact pickup point. The hike itself is about 9 hours total. Passport details for all guests are required for the national park entry."
+        },
+        {
+            "q": "Are the tours private — not shared with other guests?",
+            "a": "Yes. Every Wild Papagayo experience is reserved exclusively for your group. No shared vans, no other travelers added to your tour."
+        },
+        {
+            "q": "What is the difference between the Congo Trail and the Buena Vista Mega Combo?",
+            "a": "Congo Trail is a half-day adventure (about 6 hours) combining zip lines, ATV and horseback riding — a good option when you want to be back at the resort by early afternoon. Buena Vista Mega Combo is a full day (about 8 hours) with zip lining, horseback riding, a mountain waterslide, hot springs and volcanic mud. Minimum age for Buena Vista is 8."
+        },
+        {
+            "q": "How far is Hotel Riu Guanacaste from Liberia Airport?",
+            "a": "Hotel Riu Guanacaste on Playa Matapalo is approximately 42 to 54 minutes from Daniel Oduber Quiros International Airport (LIR), based on verified driving distance data."
+        }
+    ],
+    "final_cta": {
+        "kicker": "ONE FREE DAY CAN SHOW YOU A DIFFERENT SIDE OF COSTA RICA.",
+        "title": "Tell Us How You'd Like to Spend It",
+        "text": "Tell us who you're traveling with, how much time you have and what you'd most like to experience. We'll help you choose a private journey that fits naturally into your stay at Hotel Riu Guanacaste.",
+        "cta_primary_text": "Plan My Private Experience",
+        "cta_secondary_text": "Chat With a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying at Hotel Riu Guanacaste and would love help planning a private experience for my free day."
+    }
+}

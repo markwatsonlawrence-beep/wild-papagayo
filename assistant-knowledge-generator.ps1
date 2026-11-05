@@ -84,16 +84,51 @@ $transferConfigs = Get-ChildItem (Join-Path $root 'knowledge\landing-pages') -Fi
     Read-Utf8Json $_.FullName
 } | Where-Object { [string]$_.output_dir -eq 'transfers' }
 
+# Helper: read a named fact from content_blocks.route_facts.facts.
+# Used as fallback for transfer configs that have no travel_times block.
+function Get-RouteFact {
+    param([object]$lp, [string]$label)
+    $facts = @($lp.content_blocks.route_facts.facts)
+    $fact = $facts | Where-Object { [string]$_.label -eq $label } | Select-Object -First 1
+    if ($fact) { [string]$fact.value } else { '' }
+}
+
 $transfers = $transferConfigs | ForEach-Object {
     $lp = $_
     $firstRow = @($lp.travel_times.rows) | Select-Object -First 1
+    $hasTravelTimes = $lp.travel_times -and $firstRow
+
+    # origin: prefer travel_times.origin_label; fall back to route_facts "From" (strip city suffix after comma)
+    $originVal = if ($lp.travel_times -and $lp.travel_times.origin_label) {
+        [string]$lp.travel_times.origin_label
+    } else {
+        $raw = Get-RouteFact $lp 'From'
+        if ($raw -match '^([^,]+)') { $Matches[1].Trim() } else { $raw }
+    }
+
+    # destination: prefer travel_times first row; fall back to route_facts "To"
+    $destinationVal = if ($hasTravelTimes) {
+        [string]$firstRow.destination
+    } else {
+        Get-RouteFact $lp 'To'
+    }
+
+    # travel_time: prefer travel_times min-max; fall back to route_facts "Drive time" first sentence
+    $travelTimeVal = if ($hasTravelTimes) {
+        "$($firstRow.min)-$($firstRow.max) minutes"
+    } else {
+        $raw = Get-RouteFact $lp 'Drive time'
+        # Stop at '. ' (sentence boundary) not at every '.', to preserve decimals like 2.5
+        if ($raw -match '^(.*?)\.\s') { $Matches[1].Trim() } elseif ($raw) { $raw } else { '' }
+    }
+
     [ordered]@{
-        name = [string]$lp.h1
-        origin = [string]$lp.travel_times.origin_label
-        destination = if ($firstRow) { [string]$firstRow.destination } else { '' }
-        travel_time = if ($firstRow -and $firstRow.min -and $firstRow.max) { "$($firstRow.min)-$($firstRow.max) minutes" } else { '' }
+        name        = [string]$lp.h1
+        origin      = $originVal
+        destination = $destinationVal
+        travel_time = $travelTimeVal
         description = [string]$lp.seo_description
-        url = "/$($lp.output_dir)/$($lp.slug)"
+        url         = "/$($lp.output_dir)/$($lp.slug)"
     }
 }
 

@@ -1,0 +1,1051 @@
+{
+    "generated":  "2026-11-05",
+    "company":  {
+                    "name":  "Wild Papagayo",
+                    "description":  "A private tour and transportation company operating in Guanacaste and Arenal, Costa Rica. Offers private day tours, airport transfers and private drivers -- not group bus tours.",
+                    "whatsapp":  "https://wa.me/50688566325",
+                    "service_area":  "Guanacaste (Papagayo, Playa Coco, Playa Hermosa, Tamarindo, Flamingo, Rincon de la Vieja) and Arenal/La Fortuna",
+                    "booking_policy":  {
+                                           "deposit":  "A 25% deposit confirms a booking.",
+                                           "final_balance":  "The remaining 75% is due no later than 72 hours before the service begins.",
+                                           "bookings_within_72_hours":  "Bookings made within 72 hours of the service require full payment at the time of booking.",
+                                           "cancellation_more_than_72_hours":  "Guest-requested cancellations made more than 72 hours before the service receive a refund of the refundable amount paid, less any applicable non-recoverable payment-processing costs when legally permitted.",
+                                           "cancellation_within_72_hours":  "Cancellations made within 72 hours of the service are non-refundable, subject to any mandatory consumer rights under Costa Rican law.",
+                                           "no_show":  "No-shows are 100% non-refundable, subject to any mandatory consumer rights.",
+                                           "date_changes":  "Date changes can be requested more than 72 hours before the service, subject to availability. Within 72 hours there is no automatic right to reschedule; any exceptional change is at Wild Papagayo\u0027s discretion.",
+                                           "wild_papagayo_cancels":  "If Wild Papagayo cancels and cannot offer an alternative or new date the guest accepts, the guest receives a 100% refund and Wild Papagayo covers the processing fee and refund cost.",
+                                           "weather":  "Normal rain does not automatically qualify for a refund. If an activity cannot operate safely, Wild Papagayo first tries to reschedule, adjust the itinerary or offer a suitable alternative.",
+                                           "payment_method":  "The standard electronic payment method is Compra Click (BAC). No card surcharge is added to the published price.",
+                                           "refund_costs":  "For international card payments via Compra Click (BAC), the non-recoverable costs are currently the original 2.50% processing fee and a US$8 bank fee per refund. No other fee is deducted.",
+                                           "refund_timing":  "Once an approved card refund is submitted, BAC processing currently takes approximately four days; the time for the credit to appear depends on the card issuer.",
+                                           "special_services":  "Multi-day journeys, lodging packages and some supplier-operated services may have different written conditions, disclosed before payment.",
+                                           "consumer_rights":  "Nothing in this policy limits any mandatory consumer rights under applicable Costa Rican law.",
+                                           "url":  "/politicasdecancelacion"
+                                       }
+                },
+    "hotels":  [
+                   {
+                       "name":  "Andaz Peninsula Papagayo Resort, Costa Rica",
+                       "category":  "Luxury Eco Resort",
+                       "location":  "Peninsula Papagayo",
+                       "description":  "Andaz Peninsula Papagayo Resort is a design-forward luxury property set within the private Peninsula Papagayo. Its beaches, golf access, dining and activity program make it a good match for travelers who want an upscale resort experience with a relaxed Costa Rican identity and convenient access to private day tours.",
+                       "url":  "/hotels/andaz-costa-rica"
+                   },
+                   {
+                       "name":  "Borinquen Thermal Resort",
+                       "category":  "Thermal Springs \u0026 Spa Resort",
+                       "location":  "Rincón de la Vieja",
+                       "description":  "Set in the natural beauty of the Rincón de la Vieja countryside in Guanacaste, Borinquen Thermal Resort combines hot springs, a thermal spa, and villas and bungalows surrounded by nature. Established in 1999, it offers wellness, adventure, and multiple dining venues in a secluded North Pacific setting.",
+                       "url":  "/hotels/borinquen-thermal-resort"
+                   },
+                   {
+                       "name":  "el Mangroove Hotel",
+                       "category":  "Luxury Beachfront Resort",
+                       "location":  "Gulf of Papagayo",
+                       "description":  "El Mangroove is a contemporary luxury beachfront resort on the Gulf of Papagayo, blending modern design with tropical nature. With a tranquil pool, two ocean-view restaurants, and a nature-set spa, it delivers a refined yet relaxed Pacific coast escape.",
+                       "url":  "/hotels/el-mangroove-hotel"
+                   },
+                   {
+                       "name":  "Four Seasons Peninsula Papagayo",
+                       "category":  "Luxury Beach Resort",
+                       "location":  "Peninsula Papagayo",
+                       "description":  "Four Seasons Resort Costa Rica at Peninsula Papagayo is an ultra-luxury coastal retreat combining beaches, wellness, dining, golf and access to private Guanacaste adventures. It is a strong base for travelers who want polished resort service while still exploring volcanoes, wildlife and rainforest landscapes beyond the peninsula.",
+                       "url":  "/hotels/four-seasons-papagayo"
+                   },
+                   {
+                       "name":  "Hotel Belmar",
+                       "category":  "Cloud Forest Eco-Boutique Hotel",
+                       "location":  "Monteverde",
+                       "description":  "A family-owned boutique hotel and 40-year flagship of the Monteverde region, Hotel Belmar blends alpine architecture with Costa Rican flair overlooking the cloud forest. A member of Design Hotels, it emphasizes regenerative sustainability, immersive nature experiences, and elevated farm-to-table cuisine.",
+                       "url":  "/hotels/hotel-belmar"
+                   },
+                   {
+                       "name":  "Hotel Bosque del Mar",
+                       "category":  "Boutique Beachfront Hotel",
+                       "location":  "Playa Hermosa",
+                       "description":  "Hotel Bosque del Mar is a boutique beachfront hotel directly on Playa Hermosa, one of Guanacaste\u0027s most walkable beach towns. Its Niromi Restaurant and Nya Bar overlook the water, and rooms range from garden-view suites to Ocean Front Suites just steps from the sand. Staying in Playa Hermosa also gives travelers quick access to nearby beaches, restaurants and private excursions throughout northern Guanacaste.",
+                       "url":  "/hotels/hotel-bosque-del-mar"
+                   },
+                   {
+                       "name":  "Hotel Hacienda Guachipelín",
+                       "category":  "Adventure Ranch Hotel",
+                       "location":  "Rincón de la Vieja / Liberia",
+                       "description":  "A family-friendly ranch hotel set in the dry tropical forest beside Rincón de la Vieja National Park, offering comfortable rooms and a huge lineup of on-site adventure tours. Guests enjoy complimentary access to waterfalls and the Río Negro hot springs.",
+                       "url":  "/hotels/hotel-hacienda-guachipel-n"
+                   },
+                   {
+                       "name":  "Occidental Papagayo",
+                       "category":  "Adults-Only All-Inclusive Beach Resort",
+                       "location":  "Golfo de Papagayo",
+                       "description":  "Occidental Papagayo is an adults-only, all-inclusive resort set on the Gulf of Papagayo in Costa Rica\u0027s Guanacaste province. Geared to couples and grown-up getaways, it pairs a beachfront Pacific setting with full all-inclusive dining and resort amenities.",
+                       "url":  "/hotels/hotel-occidental-papagayo"
+                   },
+                   {
+                       "name":  "Hotel Riu Guanacaste",
+                       "category":  "All-Inclusive Resort",
+                       "location":  "Playa Matapalo",
+                       "description":  "Hotel Riu Guanacaste is a large all-inclusive resort on Playa Matapalo, built around the Splash Water World water park, three outdoor pools and seven bars. It\u0027s part of the RIU chain, known for high-energy, all-inclusive stays rather than boutique intimacy.",
+                       "url":  "/hotels/hotel-riu-guanacaste"
+                   },
+                   {
+                       "name":  "Hotel Riu Palace Costa Rica",
+                       "category":  "All-Inclusive Beach Resort",
+                       "location":  "Playa Matapalo",
+                       "description":  "A large beachfront all-inclusive resort on Playa Matapalo, framed by green mountains and the Pacific. With 24-hour all-inclusive service, six pools, a water park, spa, and lively entertainment, it\u0027s built for carefree family beach holidays.",
+                       "url":  "/hotels/hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica"
+                   },
+                   {
+                       "name":  "Nekajui, A Ritz-Carlton Reserve",
+                       "category":  "Luxury Beach Resort",
+                       "location":  "Peninsula Papagayo",
+                       "description":  "Nekajui Peninsula Papagayo is a five-star Ritz-Carlton Reserve set within a 567-hectare private peninsula on Costa Rica\u0027s Pacific coast. Surrounded by protected forest and turquoise waters above Playa Pochote, it blends refined dining, a Nicoyan-inspired spa, and treetop luxury accommodations.",
+                       "url":  "/hotels/nekajui-peninsula-papagayo-a-ritz"
+                   },
+                   {
+                       "name":  "Planet Hollywood Costa Rica",
+                       "category":  "All-Inclusive Resort",
+                       "location":  "Bahía Culebra",
+                       "description":  "Planet Hollywood Costa Rica is an all-inclusive resort on Bahía Culebra with Hollywood-movie theming throughout, seven on-site restaurants, a kids splash pad and the PH Spa. It\u0027s built for families and groups who want entertainment on property.",
+                       "url":  "/hotels/planet-hollywood-costa-rica"
+                   },
+                   {
+                       "name":  "Buena Vista del Rincón",
+                       "category":  "Eco Adventure Mountain Lodge",
+                       "location":  "Rincón de la Vieja",
+                       "description":  "Buena Vista del Rincón is an eco adventure park, hotel and spa nestled in the rainforest foothills of the Rincón de la Vieja volcano in Guanacaste. With 76 rooms, natural volcanic hot springs, and an on-site adventure park, it blends thrill and relaxation in a lush mountain setting.",
+                       "url":  "/hotels/rincon-de-la-vieja-hotel-eco-adventure-park-guanacaste-costa-rica"
+                   },
+                   {
+                       "name":  "Secrets Papagayo Costa Rica",
+                       "category":  "Luxury All-Inclusive Resort",
+                       "location":  "Golfo de Papagayo",
+                       "description":  "Secrets Papagayo Costa Rica is a Preferred Club all-inclusive resort on the Golfo de Papagayo, part of AMResorts\u0027 adults-oriented Secrets brand. Its Unlimited-Luxury program includes seven dining options and a full-service spa.",
+                       "url":  "/hotels/secrets-papagayo-costa-rica"
+                   },
+                   {
+                       "name":  "Suitree Experience Hotel",
+                       "category":  "Luxury Treehouse Nature Retreat",
+                       "location":  "Sardinal",
+                       "description":  "Suitree is an architectural treehouse retreat set 9 meters above the forest floor in Guanacaste, where light, elevated suites blend into the jungle canopy. Guests enjoy panoramic mountain views, deep nature immersion, and a refined slow-food dining experience in total seclusion.",
+                       "url":  "/hotels/suitree-experience-hotel-costa-rica"
+                   },
+                   {
+                       "name":  "Waldorf Astoria Costa Rica Punta Cacique",
+                       "category":  "Luxury Oceanfront Resort",
+                       "location":  "Punta Cacique, Playa Penca",
+                       "description":  "Waldorf Astoria Costa Rica Punta Cacique is a secluded luxury resort overlooking Playa Penca on Guanacaste\u0027s Pacific coast. Its short airport transfer, oceanfront setting, spa and refined resort experience make it especially appealing to couples, families and travelers seeking privacy with convenient access to nearby beach towns and private excursions.",
+                       "url":  "/hotels/waldorf-astoria-costa-rica"
+                   }
+               ],
+    "tours":  [
+                  {
+                      "name":  "Arenal Hanging Bridges Mistico",
+                      "category":  "Rainforest \u0026 Wildlife",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 12 hours)",
+                      "best_for":  [
+                                       "Nature Lovers",
+                                       "Families",
+                                       "Photographers",
+                                       "Honeymooners"
+                                   ],
+                      "description":  "Private full-day Arenal Hanging Bridges experience at Mistico Park, canopy-level suspension bridges from 5 to 100 metres, La Fortuna Waterfall and optional hot springs. Breakfast and lunch included. Bilingual guide.",
+                      "url":  "/tours/arenalhangingbridges"
+                  },
+                  {
+                      "name":  "Rainforest \u0026 Hot Springs Arenal",
+                      "category":  "Wellness \u0026 Nature",
+                      "difficulty":  "Easy to Moderate",
+                      "duration":  "Full Day (approx. 12 hours)",
+                      "best_for":  [
+                                       "Couples",
+                                       "Wellness travelers",
+                                       "Nature lovers"
+                                   ],
+                      "description":  "Private full-day Arenal experience, Bogarin Trail wildlife hike, La Fortuna Waterfall or Arenal National Park, thermal hot springs, breakfast and lunch included. Arenal Volcano and Central America\u0027s largest man-made lake.",
+                      "url":  "/tours/arenalhotsprings"
+                  },
+                  {
+                      "name":  "2-Hour ATV Mountain Ride",
+                      "category":  "ATV Adventure",
+                      "difficulty":  "Moderate",
+                      "duration":  "4 Hours",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Friends",
+                                       "Active couples"
+                                   ],
+                      "description":  "Two hours of private ATV adventure through unpaved mountain roads and dry forest terrain in Guanacaste. Off-the-beaten-track riding with a certified bilingual guide, exclusively for your group.",
+                      "url":  "/tours/atvmountainride"
+                  },
+                  {
+                      "name":  "Borinque 4 Senses Tour — Horseback, Zip Line, Waterfall \u0026 Hot Springs",
+                      "category":  "Horseback \u0026 Hot Springs",
+                      "difficulty":  "Easy to Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Couples",
+                                       "Wellness travelers",
+                                       "Nature lovers"
+                                   ],
+                      "description":  "Private Borinque 4 Senses Tour, horseback riding with Pacific coast panoramas, forest hike to Misterio Waterfall, adrenaline zip line and volcanic hot springs with mud and sauna. Lunch included.",
+                      "url":  "/tours/borinque4senses"
+                  },
+                  {
+                      "name":  "Buena Vista Mega Combo",
+                      "category":  "Water Slide Adventure Combo",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private full-day adventure at Buena Vista, Guanacaste, zip line, waterslide, hot springs and more. Certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
+                      "url":  "/tours/buenavistamegacombo"
+                  },
+                  {
+                      "name":  "Canyon Adventure Park — Zip, Rappel, Climb \u0026 Raft",
+                      "category":  "Canyon Adventure",
+                      "difficulty":  "Moderate",
+                      "duration":  "Half Day (approx. 7 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private half-day at Canyon Adventure Park, zip line 7 cables with bird\u0027s-eye canopy views, rappel, rock climbing and 2-mile Class II-III rafting. Lunch included. Minimum age 6.",
+                      "url":  "/tours/canyonadventurepark"
+                  },
+                  {
+                      "name":  "Waterfall Canyoning \u0026 Tubing",
+                      "category":  "Canyoning \u0026 Tubing",
+                      "difficulty":  "Moderate",
+                      "duration":  "Half Day (approx. 7 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private waterfall canyoning and river tubing, rappel into majestic falls, rock climb, Tarzan pendulum, then tube 5km of crystal-clear Class 2–3 rapids. Lunch included. Certified bilingual guide.",
+                      "url":  "/tours/canyoningtubing"
+                  },
+                  {
+                      "name":  "Celeste River Hike \u0026 Tenorio National Park",
+                      "category":  "Waterfall \u0026 Hiking",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 9 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private full-day hike to Río Celeste, the nearly opaque aquamarine blue river at Tenorio Volcano National Park. Lunch and national park fee included. Visitor identification details are required for national park registration and will be requested securely after booking confirmation.",
+                      "url":  "/tours/celesteriver"
+                  },
+                  {
+                      "name":  "Colorado River Rafting Class II–III",
+                      "category":  "Scenic River Rafting",
+                      "difficulty":  "Moderate",
+                      "duration":  "Half Day (approx. 6 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private Class II–III white water rafting on the Colorado River, natural canyon, swimming holes and lunch included. No experience necessary. Certified bilingual guide exclusively for your group.",
+                      "url":  "/tours/coloradoriverrafting"
+                  },
+                  {
+                      "name":  "Congo Trail Half-Day Adventure",
+                      "category":  "Zip Line, ATV \u0026 Horseback",
+                      "difficulty":  "Moderate",
+                      "duration":  "Half Day (approx. 6 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors"
+                                   ],
+                      "description":  "Six zip lines, hanging bridges, 45 minutes on ATV and horseback riding through Guanacaste dry forest. Half-day private adventure at Congo Trail with certified bilingual guide.",
+                      "url":  "/tours/congotrail"
+                  },
+                  {
+                      "name":  "Congo Trail Canopy \u0026 Extreme Zip Line",
+                      "category":  "Extreme Zip Line Canopy",
+                      "difficulty":  "Moderate",
+                      "duration":  "Half Day (approx. 7 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Friends",
+                                       "Active couples"
+                                   ],
+                      "description":  "Private Congo Trail experience, 11-station zip line through tropical forest with 3 hanging bridges, plus extreme cables including Superman and Tarzan Swing. The Plus option adds 2 hours ATV.",
+                      "url":  "/tours/congotrailcanopy"
+                  },
+                  {
+                      "name":  "Costa Rica Highlights Tour — Sloths, Waterfall, Coffee, Hot Springs \u0026 Hanging Bridges",
+                      "category":  "Signature Journey",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 10 hours)",
+                      "best_for":  [
+                                       "First-Time Visitors",
+                                       "Families",
+                                       "Nature \u0026 Wildlife Lovers",
+                                       "Couples",
+                                       "Honeymooners"
+                                   ],
+                      "description":  "The ultimate one-day Costa Rica experience, sloth observation, waterfall, hands-on coffee and cacao workshop, natural mineral hot springs and two hanging bridges. Everything that makes Costa Rica extraordinary, in one private day.",
+                      "url":  "/tours/costaricahighlights"
+                  },
+                  {
+                      "name":  "Floating at Tenorio River Safari Float",
+                      "category":  "Wildlife River Float",
+                      "difficulty":  "Easy",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private Class 1-2 safari float down the Tenorio River, giant kapok trees, wildlife, Llanos de Cortez Waterfall. Option to add Las Pumas Rescue Center. Lunch and fruit break included.",
+                      "url":  "/tours/floatingtenorio"
+                  },
+                  {
+                      "name":  "Hacienda Aromal Full Day",
+                      "category":  "Cultural Hacienda Adventure",
+                      "difficulty":  "Easy",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Culture lovers",
+                                       "Curious travelers"
+                                   ],
+                      "description":  "A full day at an authentic Guanacaste hacienda, zip lines, horseback riding through the estate, ATV adventure and a traditional Sabanero lunch. Private experience with certified bilingual guide.",
+                      "url":  "/tours/haciendaaromal"
+                  },
+                  {
+                      "name":  "Hacienda Guachipelín Extreme",
+                      "category":  "Extreme Canyon Adventure",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private full-day extreme adventure at Hacienda Guachipelín, zipline, rappel, rock climbing, river tubing and hot springs in Guanacaste. Certified bilingual guide. Book with Wild Papagayo.",
+                      "url":  "/tours/haciendaguachipelin"
+                  },
+                  {
+                      "name":  "Hanging Bridges \u0026 Sloths Experience",
+                      "category":  "Wildlife \u0026 Nature",
+                      "difficulty":  "Easy",
+                      "duration":  "Full Day (approx. 9 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors"
+                                   ],
+                      "description":  "Private hanging bridges and sloth encounter, 3 suspension bridges through tropical forest, Llanos de Cortez Waterfall and an intimate sloth experience that inspires wonder in every age. Lunch included.",
+                      "url":  "/tours/hangingbridgessloths"
+                  },
+                  {
+                      "name":  "Rincon de la Vieja Hiking Tour",
+                      "category":  "Volcano \u0026 Hiking",
+                      "difficulty":  "Easy to Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Couples",
+                                       "Wellness travelers",
+                                       "Nature lovers",
+                                       "Honeymooners"
+                                   ],
+                      "description":  "Private full-day hiking in Rincon de la Vieja National Park, Guanacaste. Volcanoes, hot springs and wildlife with a certified bilingual guide. Book via WhatsApp.",
+                      "url":  "/tours/hikingrinconnationalpark"
+                  },
+                  {
+                      "name":  "Horseback Riding at Hacienda Aromal",
+                      "category":  "Horseback Riding",
+                      "difficulty":  "Easy",
+                      "duration":  "Half Day (approx. 4 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Culture lovers",
+                                       "Curious travelers"
+                                   ],
+                      "description":  "Private horseback riding through Hacienda Aromal\u0027s natural trails, deer, armadillos, anteaters and tropical birds in the heart of Guanacaste. Authentic Sabanero experience with certified bilingual guide.",
+                      "url":  "/tours/horsebackaromal"
+                  },
+                  {
+                      "name":  "La Leona Waterfall — Zip Line \u0026 Tubing",
+                      "category":  "Waterfall, Zip Line \u0026 Tubing",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private La Leona Waterfall experience, a 3-hour hike through 5 river pools in a stone canyon. The Classic option adds zip line, The Plus option adds tubing. Available November to April only.",
+                      "url":  "/tours/laleona"
+                  },
+                  {
+                      "name":  "Miravalles Volcano Waterfalls \u0026 Natural Spa",
+                      "category":  "Volcano Wellness \u0026 Waterfalls",
+                      "difficulty":  "Easy to Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Couples",
+                                       "Wellness travelers",
+                                       "Nature lovers",
+                                       "Honeymooners"
+                                   ],
+                      "description":  "Private full-day at Miravalles Volcano, 3 cascading waterfalls, geothermal hot springs and volcanic mud treatments in a live crater. Lunch and all entrance fees included.",
+                      "url":  "/tours/miravallesspa"
+                  },
+                  {
+                      "name":  "Monteverde Hanging Bridges \u0026 Coffee Tour",
+                      "category":  "Hanging Bridges \u0026 Coffee Tour",
+                      "difficulty":  "Easy",
+                      "duration":  "Full Day (approx. 12 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors",
+                                       "Honeymooners"
+                                   ],
+                      "description":  "Private full-day Monteverde Cloud Forest experience, 8 Selvatura suspension bridges, butterfly garden, interactive coffee plantation tour from seed to cup, sugar cane and chocolate. Breakfast and lunch included.",
+                      "url":  "/tours/monteverdehangingbridgescoffee"
+                  },
+                  {
+                      "name":  "Monteverde Treetop Walk",
+                      "category":  "Canopy Treetop Walk",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 12 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors"
+                                   ],
+                      "description":  "Private full-day Monteverde Cloud Forest treetop walk, suspension bridges at canopy level with zip line (Classic option) or reptiles exhibition, butterfly garden and sloth sanctuary (Plus option). Breakfast and lunch included.",
+                      "url":  "/tours/monteverdtreetopwalk"
+                  },
+                  {
+                      "name":  "Oropendola Waterfall \u0026 Rio Negro Hot Springs Tour",
+                      "category":  "Waterfall \u0026 Hot Springs",
+                      "difficulty":  "Easy",
+                      "duration":  "Half Day (approx. 5-6 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors",
+                                       "Honeymooners"
+                                   ],
+                      "description":  "Private tour to Oropendola Waterfall\u0027s crystal-clear swimming pool and the natural Rio Negro hot springs at the base of Rincon de la Vieja Volcano. Certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
+                      "url":  "/tours/oropendolahotsprings"
+                  },
+                  {
+                      "name":  "Ostional Turtle Watching Tour Costa Rica",
+                      "category":  "Wildlife",
+                      "difficulty":  "Easy",
+                      "duration":  "Full Day into Night (approx. 10-11 hours round trip)",
+                      "best_for":  [
+                                       "Nature lovers",
+                                       "Couples",
+                                       "Wildlife lovers",
+                                       "Photographers"
+                                   ],
+                      "description":  "Private nighttime tour to Ostional National Wildlife Refuge to witness olive ridley sea turtles nesting on the beach. Certified local community guide and responsible nighttime viewing under refuge lighting rules. Book via WhatsApp with Wild Papagayo.",
+                      "url":  "/tours/ostionalturtles"
+                  },
+                  {
+                      "name":  "Palo Verde \u0026 Cultural Experience El Viejo",
+                      "category":  "Wildlife \u0026 Culture",
+                      "difficulty":  "Easy",
+                      "duration":  "Full Day (approx. 9 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors"
+                                   ],
+                      "description":  "Covered boat ride down the Tempisque River through Palo Verde National Park, then a private visit to Hacienda El Viejo, tortilla making, the ox-powered trapiche sugar mill, and traditional Guanacaste cuisine. Lunch and National Park fee included.",
+                      "url":  "/tours/paloverdeculturalviejo"
+                  },
+                  {
+                      "name":  "Palo Verde River Boat Tour",
+                      "category":  "Wildlife \u0026 Culture",
+                      "difficulty":  "Easy",
+                      "duration":  "Half Day (approx. 6 hours)",
+                      "best_for":  [
+                                       "Nature lovers",
+                                       "Birdwatchers",
+                                       "Photography"
+                                   ],
+                      "description":  "Private half-day riverboat excursion through Palo Verde National Park, crocodiles, monkeys, tropical birds and the Tempisque River. Certified bilingual guide. Book with Wild Papagayo.",
+                      "url":  "/tours/paloverderiverboattour"
+                  },
+                  {
+                      "name":  "Sensoria Land of Senses \u0026 Magical Rainforest",
+                      "category":  "Rainforest Hike \u0026 Hot Springs",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors"
+                                   ],
+                      "description":  "Private full-day Sensoria nature reserve, 7km rainforest trail with multiple waterfalls, thermal pools, howler monkeys and incredible biodiversity where Guanacaste transforms into lush rainforest. Walking sticks and lunch included.",
+                      "url":  "/tours/sensoriarainforest"
+                  },
+                  {
+                      "name":  "Sloth Adventure Tour Costa Rica",
+                      "category":  "Wildlife",
+                      "difficulty":  "Easy",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors",
+                                       "Honeymooners"
+                                   ],
+                      "description":  "Private sloth wildlife encounter in the Costa Rica rainforest. Full-day private tour with certified bilingual guide. Book via WhatsApp with Wild Papagayo.",
+                      "url":  "/tours/slothadventure"
+                  },
+                  {
+                      "name":  "Sloth Adventure \u0026 Chocolate Tour",
+                      "category":  "Chocolate \u0026 Sloth Tour",
+                      "difficulty":  "Easy",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors"
+                                   ],
+                      "description":  "Private chocolate tour from cacao tree to handmade bar, then a short hike in Bijagua to observe wild sloths, butterflies and toucans in their natural habitat. Lunch included. Easy, all ages.",
+                      "url":  "/tours/slothchocolatetour"
+                  },
+                  {
+                      "name":  "Tenorio River White Water Rafting Class III–IV",
+                      "category":  "Advanced Whitewater Rafting",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private Class III–IV white water rafting on the Tenorio River, racing rapids, plunging over falls and lush tropical wildlife. Snacks and lunch included. Certified bilingual guide exclusively for your group.",
+                      "url":  "/tours/tenoriorafting"
+                  },
+                  {
+                      "name":  "Tubing at Río Celeste — Blue River Tubing",
+                      "category":  "River Tubing",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Adventure travelers",
+                                       "Teens",
+                                       "Active groups"
+                                   ],
+                      "description":  "Private tubing experience on Río Celeste, float through the striking aquamarine blue river in lush rainforest, navigating small rapids with birds, monkeys and rich biodiversity. Minimum age 4. Lunch included.",
+                      "url":  "/tours/tubingceleste"
+                  },
+                  {
+                      "name":  "Waterfall Lovers Tour Costa Rica",
+                      "category":  "Horseback \u0026 Waterfalls",
+                      "difficulty":  "Moderate",
+                      "duration":  "Full Day (approx. 8 hours)",
+                      "best_for":  [
+                                       "Couples",
+                                       "Families",
+                                       "Nature lovers",
+                                       "Photographers"
+                                   ],
+                      "description":  "Private Costa Rica waterfall and jungle tour. Discover hidden waterfalls with a certified local guide, exclusively for your group. Book via WhatsApp with Wild Papagayo.",
+                      "url":  "/tours/waterfalllovers"
+                  },
+                  {
+                      "name":  "Waterfall \u0026 Las Pumas Wildlife Rescue Center",
+                      "category":  "Waterfall \u0026 Wildlife Rescue",
+                      "difficulty":  "Easy",
+                      "duration":  "Half Day (approx. 6 hours)",
+                      "best_for":  [
+                                       "Families",
+                                       "Couples",
+                                       "Nature lovers",
+                                       "First-time visitors",
+                                       "Honeymooners"
+                                   ],
+                      "description":  "Private half-day at Llanos del Cortes waterfall and Las Pumas Wildlife Rescue Center, swim under the falls, then meet pumas, jaguars, ocelots, monkeys and macaws. Lunch included. Certified bilingual guide.",
+                      "url":  "/tours/waterfallpumas"
+                  }
+              ],
+    "destinations":  [
+                         {
+                             "name":  "Bijagua",
+                             "province":  "Alajuela",
+                             "best_season":  "December–April",
+                             "description":  "Bijagua is a small highland village located at the base of Tenorio Volcano in Alajuela province. It serves as the primary gateway to Río Celeste and Tenorio National Park, offering one of Costa Rica\u0027s most genuine off-the-beaten-path experiences.",
+                             "url":  "/destinations/bijagua"
+                         },
+                         {
+                             "name":  "Guanacaste",
+                             "province":  "Guanacaste",
+                             "best_season":  "December–April",
+                             "description":  "Guanacaste is Costa Rica\u0027s northwestern Pacific province, home to some of the country\u0027s most celebrated beaches, national parks and adventure destinations. From the resort peninsula of Papagayo to the volcanic trails of Rincón de la Vieja, the region offers a diverse range of experiences for every type of traveler.",
+                             "url":  "/destinations/guanacaste"
+                         },
+                         {
+                             "name":  "La Fortuna \u0026 Arenal",
+                             "province":  "Alajuela",
+                             "best_season":  "Year-round",
+                             "description":  "La Fortuna offers one of Costa Rica’s most complete nature experiences. Travelers can combine rainforest walks, hanging bridges, wildlife observation, waterfalls and volcanic hot springs.",
+                             "url":  "/destinations/la-fortuna"
+                         },
+                         {
+                             "name":  "Monteverde",
+                             "province":  "Puntarenas",
+                             "best_season":  "",
+                             "description":  "Monteverde is one of Costa Rica\u0027s premier ecotourism destinations, home to the famed Monteverde Cloud Forest Reserve and a rich community founded by American Quakers in the 1950s. Perched high in the Cordillera de Tilarán, it offers cool climates and abundant natural beauty.",
+                             "url":  "/destinations/monteverde"
+                         },
+                         {
+                             "name":  "Papagayo",
+                             "province":  "Guanacaste",
+                             "best_season":  "December–April",
+                             "description":  "Papagayo combines exclusive resorts, calm Pacific beaches and convenient access to Liberia International Airport. It is an excellent base for travelers who want private service, relaxation and memorable day trips.",
+                             "url":  "/destinations/papagayo"
+                         },
+                         {
+                             "name":  "Playas del Coco",
+                             "province":  "Guanacaste",
+                             "best_season":  "December–April",
+                             "description":  "Playas del Coco is one of Guanacaste’s most convenient coastal bases. Visitors enjoy supermarkets, restaurants, nightlife, marina access and short transfers from Liberia Airport.",
+                             "url":  "/destinations/playa-coco"
+                         },
+                         {
+                             "name":  "Playa Hermosa",
+                             "province":  "Guanacaste",
+                             "best_season":  "December–April",
+                             "description":  "Playa Hermosa is ideal for travelers seeking a quieter coastal stay without giving up convenient access to restaurants, private transportation and Guanacaste’s main attractions.",
+                             "url":  "/destinations/playa-hermosa"
+                         },
+                         {
+                             "name":  "Rincón de la Vieja",
+                             "province":  "Guanacaste",
+                             "best_season":  "December–April",
+                             "description":  "Rincón de la Vieja is a top choice for hiking and adventure. Its volcanic terrain, forests and nearby haciendas make it possible to combine nature, hot springs, tubing, ziplining and waterfalls.",
+                             "url":  "/destinations/rincon-de-la-vieja"
+                         },
+                         {
+                             "name":  "Río Celeste",
+                             "province":  "Alajuela",
+                             "best_season":  "December–April",
+                             "description":  "Río Celeste is one of Costa Rica\u0027s most photographed natural attractions. The river\u0027s striking turquoise color is created by a natural chemical reaction where two volcanic streams converge inside Tenorio Volcano National Park.",
+                             "url":  "/destinations/rio-celeste"
+                         },
+                         {
+                             "name":  "Sámara",
+                             "province":  "Guanacaste",
+                             "best_season":  "",
+                             "description":  "Sámara is a laid-back beach town and district in the Nicoya canton of Costa Rica\u0027s Guanacaste province. Sitting at sea level roughly 35 km from Nicoya, it\u0027s a relaxed corner of the Nicoya Peninsula served by a small nearby airport.",
+                             "url":  "/destinations/samara"
+                         },
+                         {
+                             "name":  "Tamarindo",
+                             "province":  "Guanacaste",
+                             "best_season":  "December-April",
+                             "description":  "Tamarindo is Guanacaste\u0027s largest developed beach town, transformed from a small fishing village into a lively surf and eco-tourism hub. Popular with surfers, digital nomads, and expats, it blends renowned surf breaks with a vibrant arts and nightlife scene.",
+                             "url":  "/destinations/tamarindo"
+                         }
+                     ],
+    "articles":  [
+                     {
+                         "title":  "Liberia Airport Transportation (LIR): Private Transfers to Guanacaste Hotels",
+                         "category":  "Transportation \u0026 Transfers",
+                         "excerpt":  "Landing in Costa Rica is exciting—but figuring out transportation shouldn\u0027t be. Here\u0027s everything first-time visitors need to know before arriving at Liberia Airport.",
+                         "url":  "/blog/liberia-airport-transfer-guide"
+                     },
+                     {
+                         "title":  "Is Uber Available at Liberia Airport? What to Know",
+                         "category":  "Transportation \u0026 Transfers",
+                         "excerpt":  "Uber technically operates in Costa Rica, but relying on it for your Liberia Airport arrival can be a gamble. Here\u0027s what first-time visitors should actually expect.",
+                         "url":  "/blog/is-uber-available-at-liberia-airport-what-to-know"
+                     },
+                     {
+                         "title":  "Playa Coco vs Samara: Which Beach Town Is Better for Your Costa Rica Vacation?",
+                         "category":  "Destination Guides",
+                         "excerpt":  "Playa Coco is livelier and closer to the airport; Samara is mellower and more scenic. Which fits your trip depends on the pace you want in Guanacaste.",
+                         "url":  "/blog/playa-coco-vs-samara-which-is-better"
+                     },
+                     {
+                         "title":  "Is Río Celeste Worth the Drive From Papagayo?",
+                         "category":  "Destination Guides",
+                         "excerpt":  "A balanced, locally-informed look at whether the famous turquoise river and its rainforest trail are worth the trip from the Papagayo area, plus who might prefer something closer.",
+                         "url":  "/blog/is-rio-celeste-worth-the-drive-from-papagayo"
+                     },
+                     {
+                         "title":  "Costa Rica in September: Will Rain Ruin Your Tours?",
+                         "category":  "Weather \u0026 Seasons",
+                         "excerpt":  "September rain rarely cancels tours in Guanacaste and Arenal. Here\u0027s how the green season actually works and how to plan around it.",
+                         "url":  "/blog/costa-rica-in-september-will-rain-ruin-your-tours"
+                     },
+                     {
+                         "title":  "Arenal Hanging Bridges and a Waterfall in One Day?",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Yes, you can comfortably combine Arenal\u0027s hanging bridges with a waterfall in a single day near La Fortuna, and here\u0027s how to pace it right.",
+                         "url":  "/blog/arenal-hanging-bridges-and-a-waterfall-in-one-day"
+                     },
+                     {
+                         "title":  "Green Season Packing List: Guanacaste \u0026 Arenal",
+                         "category":  "Safety \u0026 Practical Tips",
+                         "excerpt":  "A practical, locally-informed packing guide for Costa Rica\u0027s Green Season, separating beach, rainforest, and transfer-day essentials for Guanacaste and Arenal.",
+                         "url":  "/blog/green-season-packing-list-guanacaste-arenal"
+                     },
+                     {
+                         "title":  "Is Playas del Coco Safe at Night for Solo Female Travelers?",
+                         "category":  "Safety \u0026 Practical Tips",
+                         "excerpt":  "An honest, locally-informed look at nighttime safety in Playas del Coco for solo women in their 30s, with practical tips for staying comfortable after dark.",
+                         "url":  "/blog/is-playas-del-coco-safe-at-night-for-solo-female-travelers"
+                     },
+                     {
+                         "title":  "Costa Rica With an 11-Month-Old: Where Should You Stay?",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Planning a first Costa Rica vacation with a baby can feel overwhelming. Here is an honest comparison of the weather, accommodations and easiest areas for a relaxed family trip.",
+                         "url":  "/blog/costa-rica-with-an-11-month-old-where-should-you-stay"
+                     },
+                     {
+                         "title":  "Should Kids Bring Life Jackets to Costa Rica?",
+                         "category":  "Safety \u0026 Practical Tips",
+                         "excerpt":  "Traveling to La Fortuna and Riu Guanacaste with young children? Here is when strong swimmers still benefit from bringing properly fitted life jackets.",
+                         "url":  "/blog/should-kids-bring-life-jackets-to-costa-rica"
+                     },
+                     {
+                         "title":  "How to Experience Costa Rica Without the Crowds",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Guanacaste rewards travelers who time their visits right and skip the obvious spots. Here\u0027s how we plan crowd-free days for our guests.",
+                         "url":  "/blog/ditching-the-crowds"
+                     },
+                     {
+                         "title":  "Should You Book Flights and Hotels Together?",
+                         "category":  "Trip Planning",
+                         "excerpt":  "It\u0027s the question every first-time visitor asks. The honest answer might surprise you — and it depends on one thing most booking sites won\u0027t tell you.",
+                         "url":  "/blog/costa-rica-flight-hotel-booking-guide"
+                     },
+                     {
+                         "title":  "Liberia Airport to Arenal \u0026 Papagayo: Drive Times \u0026 Stops",
+                         "category":  "Trip Planning",
+                         "excerpt":  "A practical guide to connecting Liberia Airport, Amor Arenal, and the Waldorf Astoria Papagayo, with drive times, worthwhile stops, activities near Arenal, and honest advice about September\u0027s green-season rain.",
+                         "url":  "/blog/liberia-airport-to-arenal-papagayo-drive-times-stops"
+                     },
+                     {
+                         "title":  "Do You Need a Rental Car at Riu Guanacaste?",
+                         "category":  "Transportation \u0026 Transfers",
+                         "excerpt":  "An honest look at whether renting a car makes sense during an all-inclusive stay at Hotel Riu Guanacaste, and when private transfers work better.",
+                         "url":  "/blog/do-you-need-a-rental-car-at-riu-guanacaste"
+                     },
+                     {
+                         "title":  "Liberia or San José Airport: Which Is Better for Guanacaste?",
+                         "category":  "Transportation \u0026 Transfers",
+                         "excerpt":  "For a Guanacaste vacation, Liberia (LIR) usually beats San José (SJO) on drive time, but the right choice depends on your flights, budget, and itinerary.",
+                         "url":  "/blog/liberia-or-san-jos-airport-which-is-better-for-guanacaste"
+                     },
+                     {
+                         "title":  "Best Sloth Tours From Papagayo: A Local Comparison",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Wondering which sloth tour is worth the trip from Papagayo? Here\u0027s an honest local comparison of drive times, walking difficulty and what each experience actually offers.",
+                         "url":  "/blog/best-sloth-tours-from-papagayo-a-local-comparison"
+                     },
+                     {
+                         "title":  "Best Private Day Tours From Four Seasons Papagayo",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "A local guide to the best day tours from Four Seasons Papagayo, with realistic door-to-door timing and honest picks for families and couples.",
+                         "url":  "/blog/best-private-day-tours-from-four-seasons-papagayo"
+                     },
+                     {
+                         "title":  "Best Tours From Riu Guanacaste: Private Tours \u0026 Excursions",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "After years arranging trips from Riu Guanacaste, these four private tours are the ones we send guests on again and again — from sloths to Río Celeste.",
+                         "url":  "/blog/best-tours-from-riu-guanacaste-local-recommendations"
+                     },
+                     {
+                         "title":  "Cash, Colones or Cards: What to Use in Costa Rica",
+                         "category":  "Safety \u0026 Practical Tips",
+                         "excerpt":  "In Guanacaste you\u0027ll juggle US dollars, colones, and cards daily. Here\u0027s how locals actually handle payments so you don\u0027t overpay or get stuck without cash.",
+                         "url":  "/blog/cash-colones-or-cards-what-to-use-in-costa-rica"
+                     },
+                     {
+                         "title":  "Is Papagayo Safe for Families? A Practical Local Guide",
+                         "category":  "Safety \u0026 Practical Tips",
+                         "excerpt":  "Papagayo is one of the calmest, most family-friendly corners of Guanacaste, but a few practical precautions help first-time visitors relax and enjoy the trip.",
+                         "url":  "/blog/is-papagayo-safe-for-families-a-practical-local-guide"
+                     },
+                     {
+                         "title":  "Best Waterfalls Near Papagayo: Which Day Trip to Pick",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "A local look at the best waterfall day trips from Papagayo, comparing drive time, walking difficulty, swimming access and how each changes between green and dry season.",
+                         "url":  "/blog/best-waterfalls-near-papagayo-which-day-trip-to-pick"
+                     },
+                     {
+                         "title":  "Private Driver From Papagayo: Waterfall \u0026 Lunch Half-Day",
+                         "category":  "Trip Planning",
+                         "excerpt":  "A private driver from Papagayo turns a waterfall-and-lunch half-day into an easy, no-stress outing. Here\u0027s how we arrange it and what to expect.",
+                         "url":  "/blog/private-driver-from-papagayo-waterfall-lunch-half-day"
+                     },
+                     {
+                         "title":  "Río Negro Tubing at Hacienda Guachipelín",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Ride 5 kilometers of Class II and III rapids on the Río Negro at Hacienda Guachipelín, surrounded by clear water, tropical forest and volcanic scenery.",
+                         "url":  "/blog/rio-negro-tubing-at-hacienda-guachipelin"
+                     },
+                     {
+                         "title":  "How to Find Small-Group Volcano and Rainforest Tours in Costa Rica",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Looking for a more personal Costa Rica adventure? Learn how to choose local guides, smaller tour groups and authentic volcano and rainforest experiences.",
+                         "url":  "/blog/how-to-find-small-group-volcano-and-rainforest-tours-in-costa-rica"
+                     },
+                     {
+                         "title":  "Bat Islands, Costa Rica: A Remote Guanacaste Adventure",
+                         "category":  "Destination Guides",
+                         "excerpt":  "Far beyond Guanacaste’s resort beaches, the Bat Islands reveal a remote protected seascape of rocky islets, open Pacific water and remarkable marine life.",
+                         "url":  "/blog/bat-islands-costa-rica-a-remote-guanacaste-adventure"
+                     },
+                     {
+                         "title":  "Costa Rica’s UNESCO World Heritage: Land, Ocean and Culture",
+                         "category":  "Destination Guides",
+                         "excerpt":  "Costa Rica’s four UNESCO World Heritage properties protect extraordinary forests, marine ecosystems, wildlife and an important part of the country’s pre-Columbian history.",
+                         "url":  "/blog/costa-rica-s-unesco-world-heritage-land-ocean-and-culture"
+                     },
+                     {
+                         "title":  "Can You Bring a Phone on Costa Rica Adventure Tours?",
+                         "category":  "Safety \u0026 Practical Tips",
+                         "excerpt":  "Wondering where to keep your phone, towels and valuables during Costa Rica adventure tours? Here is what to expect on rafting, ziplining, ATV and catamaran excursions.",
+                         "url":  "/blog/can-you-bring-a-phone-on-costa-rica-adventure-tours"
+                     },
+                     {
+                         "title":  "Costa Rica Place Names Travelers Often Get Wrong",
+                         "category":  "Destination Guides",
+                         "excerpt":  "Tourism, social media and online maps can popularize names that differ from Costa Rica’s official cartography. Discover why correct place names matter.",
+                         "url":  "/blog/costa-rica-place-names-travelers-often-get-wrong"
+                     },
+                     {
+                         "title":  "How Many Beaches Does Costa Rica Really Have?",
+                         "category":  "Destination Guides",
+                         "excerpt":  "Costa Rica has hundreds of named beaches across the Pacific and Caribbean. Discover why counting them is complicated and what official maps reveal.",
+                         "url":  "/blog/how-many-beaches-does-costa-rica-really-have"
+                     },
+                     {
+                         "title":  "La Fortuna to Playa Flamingo Without the Monkey Trail",
+                         "category":  "Transportation \u0026 Transfers",
+                         "excerpt":  "Driving from La Fortuna to Playa Flamingo? Learn how to avoid Route 911, choose the paved route through Guanacaste and decide between driving or hiring a private transfer.",
+                         "url":  "/blog/la-fortuna-to-playa-flamingo-without-the-monkey-trail"
+                     },
+                     {
+                         "title":  "Sea Turtles in Costa Rica: How to See Them Responsibly",
+                         "category":  "Nature \u0026 Conservation",
+                         "excerpt":  "Costa Rica’s Pacific and Caribbean beaches provide critical nesting habitat for sea turtles. Learn where they nest and how to observe them responsibly.",
+                         "url":  "/blog/sea-turtles-in-costa-rica-how-to-see-them-responsibly"
+                     },
+                     {
+                         "title":  "La Fortuna Without a Rental Car: An Honest Trip Recap",
+                         "category":  "Destination Guides",
+                         "excerpt":  "A traveler’s La Fortuna recap shows how to enjoy the region without a rental car, combining a domestic flight, boutique lodging, wildlife, local food and hot springs.",
+                         "url":  "/blog/la-fortuna-without-a-rental-car-an-honest-trip-recap"
+                     },
+                     {
+                         "title":  "Can You Visit Rincón de la Vieja From Papagayo in One Day?",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Rincón de la Vieja can be visited as a full-day private trip from Papagayo, combining volcanic hiking, waterfalls and hot springs without an overnight stay.",
+                         "url":  "/blog/can-you-visit-rincon-de-la-vieja-from-papagayo-in-one-day"
+                     },
+                     {
+                         "title":  "Best Tours From Andaz Peninsula Papagayo",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Four featured private tours from Andaz Peninsula Papagayo combine hanging bridges and sloths, Río Celeste, Palo Verde wildlife and a full-day adventure combo, all with hotel pickup.",
+                         "url":  "/blog/best-tours-from-andaz-peninsula-papagayo"
+                     },
+                     {
+                         "title":  "Is Monteverde Worth a Day Trip From Guanacaste?",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Monteverde works as a long private day trip from Guanacaste, with a roughly 3-hour drive each way, in exchange for cloud forest hiking, hanging bridges and coffee.",
+                         "url":  "/blog/is-monteverde-worth-a-day-trip-from-guanacaste"
+                     },
+                     {
+                         "title":  "Is Ostional Turtle Watching Worth It From Papagayo?",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Ostional turtle watching can be worth the long trip from Papagayo for wildlife-focused travelers, especially when a larger olive ridley arribada is active.",
+                         "url":  "/blog/is-ostional-turtle-watching-worth-it-from-papagayo"
+                     },
+                     {
+                         "title":  "Canyon Adventure Park vs Congo Trail: Which Zip Line Is Better From Papagayo?",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Canyon Adventure Park and Congo Trail Canopy both offer private zip line adventures from Papagayo, but they differ in activity mix and pace.",
+                         "url":  "/blog/canyon-adventure-park-vs-congo-trail-which-zip-line-is-better-from-papagayo"
+                     },
+                     {
+                         "title":  "15 Best Things to Do in Papagayo, Costa Rica",
+                         "category":  "Destination Guides",
+                         "excerpt":  "From calm Pacific bays to volcanic hikes, turquoise rivers and sloth-spotting rainforest walks, here\u0027s a local\u0027s guide to the best things to do in and around Papagayo, Costa Rica.",
+                         "url":  "/blog/things-to-do-in-papagayo-costa-rica"
+                     },
+                     {
+                         "title":  "Costa Rica With a Baby Without a Rental Car: Transfers, Bases and Rest Days",
+                         "category":  "Transportation \u0026 Transfers",
+                         "excerpt":  "Yes, you can travel Costa Rica with a baby without a rental car: use fewer bases, arrange transfers ahead, confirm child seating and build enough downtime around longer transfer days.",
+                         "url":  "/blog/costa-rica-with-a-baby-without-rental-car"
+                     },
+                     {
+                         "title":  "Best Tours From Riu Palace Costa Rica: Which Day Trips Are Worth It?",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Which day trips are actually worth leaving Hotel Riu Palace Costa Rica for? Seven private tours sorted by what you want from the day: wildlife, families, adventure, volcano hiking, relaxation, a shorter option or a scenic long day.",
+                         "url":  "/blog/best-tours-from-riu-palace-costa-rica"
+                     },
+                     {
+                         "title":  "Best Tours From Nekajui: Day Trips by Pace and Distance",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Which day trips are worth leaving Nekajui, A Ritz-Carlton Reserve for? Six private tours sorted by pace and measured driving time, from wildlife and volcano hikes to waterfalls and adventure.",
+                         "url":  "/blog/best-tours-from-nekajui"
+                     },
+                     {
+                         "title":  "Best Tours From Waldorf Astoria Costa Rica: Day Trips by Time Available",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Which day trips fit your time from Waldorf Astoria Costa Rica Punta Cacique? Six private tours grouped by approximate tour length, from a shorter day to a longer full day of wildlife, waterfalls and volcanoes.",
+                         "url":  "/blog/best-tours-from-waldorf-astoria-costa-rica"
+                     },
+                     {
+                         "title":  "Palo Verde Tours From Papagayo: River Boat or El Viejo?",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Two private Palo Verde tours leave from Papagayo: a shorter, boat-focused River Boat of about 6 hours and a longer El Viejo cultural day of about 9 hours. Here is how to choose between them.",
+                         "url":  "/blog/palo-verde-tours-from-papagayo-river-boat-or-el-viejo"
+                     },
+                     {
+                         "title":  "Best Half-Day Tours From Papagayo",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Seven private half-day tours from Papagayo, generally about 4 to 7 hours, covering wildlife, waterfalls, horseback riding, rafting and zip lines, for travelers who don\u0027t want to lose a whole day.",
+                         "url":  "/blog/best-half-day-tours-from-papagayo"
+                     },
+                     {
+                         "title":  "Best Tours From Secrets Papagayo Costa Rica",
+                         "category":  "Tours \u0026 Experiences",
+                         "excerpt":  "Six private day trips from Secrets Papagayo Costa Rica, grouped by experience: wildlife, waterfall scenery, volcano hiking, adventure and a first-timer overview, from a shorter river safari to full-day trips.",
+                         "url":  "/blog/best-tours-from-secrets-papagayo-costa-rica"
+                     },
+                     {
+                         "title":  "How Many Days Do You Need in La Fortuna? 2, 3 or 4 Nights Explained",
+                         "category":  "Trip Planning",
+                         "excerpt":  "There is no single right number of nights for La Fortuna. Compare 2, 3, 4 and 5+ nights, understand why nights aren\u0027t the same as full days, and see how arrival and departure timing changes the real answer.",
+                         "url":  "/blog/how-many-days-la-fortuna"
+                     },
+                     {
+                         "title":  "How to Get Around From Papagayo: Private Drivers, Transfers and Day Trips",
+                         "category":  "Transportation \u0026 Transfers",
+                         "excerpt":  "Once you\u0027re staying in Papagayo, how do you get around for transfers and day trips? Compare private transfers, a private-driver-style day and private tours, plus general route times and rental-car planning.",
+                         "url":  "/blog/how-to-get-around-from-papagayo"
+                     },
+                     {
+                         "title":  "Palo Verde vs Rincón de la Vieja From Papagayo: Which Day Trip Fits You?",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Palo Verde and Rincón de la Vieja are both solid day trips from Papagayo. Compare wildlife riverboat vs volcano hiking, duration, difficulty and general drive time to find the experience that fits you.",
+                         "url":  "/blog/palo-verde-vs-rincon-de-la-vieja-from-papagayo"
+                     },
+                     {
+                         "title":  "Río Celeste vs Rincón de la Vieja From Papagayo: Which Day Trip Fits You?",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Río Celeste and Rincón de la Vieja are both full-day trips from Papagayo. Compare rainforest/waterfall hiking vs volcano/geothermal hiking, duration, difficulty and general drive time to find the day trip that fits you.",
+                         "url":  "/blog/rio-celeste-vs-rincon-de-la-vieja-from-papagayo"
+                     },
+                     {
+                         "title":  "Which Day Trip From Papagayo Fits You? Wildlife, Waterfalls, Volcanoes or Adventure",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Papagayo\u0027s day trips fall into a few genuinely different categories: wildlife, waterfall/rainforest, volcano/geothermal, adventure and relaxation. This guide helps you narrow down the type that fits you, with links to deeper comparisons.",
+                         "url":  "/blog/which-day-trip-from-papagayo-fits-you"
+                     },
+                     {
+                         "title":  "Can You Still Do a Tour on Your Departure Day From Papagayo?",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Flying out of Liberia Airport later today? Whether a short activity fits before your flight depends on counting backward from your flight time, not on a tour\u0027s nominal duration alone.",
+                         "url":  "/blog/can-you-do-a-tour-on-your-departure-day-from-papagayo"
+                     },
+                     {
+                         "title":  "Dry Season in Guanacaste: What to Expect From December to April",
+                         "category":  "Weather \u0026 Seasons",
+                         "excerpt":  "December through April is Guanacaste\u0027s dry season: generally drier, sunnier and busier for bookings, though rain and inland rainforest conditions still matter for planning.",
+                         "url":  "/blog/dry-season-in-guanacaste-what-to-expect"
+                     },
+                     {
+                         "title":  "What to Do on Your First Day in Papagayo After Landing at Liberia Airport",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Landing in Papagayo and wondering whether to plan an activity or just settle in? Transfer time, hotel logistics and tour structure shape what realistically fits.",
+                         "url":  "/blog/what-to-do-on-your-first-day-in-papagayo"
+                     },
+                     {
+                         "title":  "Playa Hermosa, Guanacaste With Kids: Family Activities \u0026 Day Trips",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Is Playa Hermosa, Guanacaste a practical base with kids? Family activities, age-specific tour notes and approximate travel times for day trips.",
+                         "url":  "/blog/playa-hermosa-guanacaste-with-kids"
+                     },
+                     {
+                         "title":  "Costa Rica Without a Car: How to Plan Your Trip",
+                         "category":  "Trip Planning",
+                         "excerpt":  "Traveling Costa Rica without a rental car is practical on many routes. Compare transport options, plan realistic transfers, and decide what fits your trip.",
+                         "url":  "/blog/costa-rica-without-a-car-guide"
+                     },
+                     {
+                         "title":  "SJO to La Fortuna: Continue Today or Stay Overnight?",
+                         "category":  "Transportation \u0026 Transfers",
+                         "excerpt":  "Landing at SJO in the afternoon or evening? Here\u0027s how to decide whether to continue to La Fortuna the same day or stay near the airport and travel the next morning.",
+                         "url":  "/blog/sjo-to-la-fortuna-continue-or-overnight"
+                     }
+                 ],
+    "transfers":  [
+                      {
+                          "name":  "Private Transportation From Liberia Airport to La Fortuna \u0026 Arenal",
+                          "origin":  "Liberia Airport (LIR)",
+                          "destination":  "La Fortuna \u0026 Arenal",
+                          "travel_time":  "Roughly 2.5 to 3 hours",
+                          "description":  "Private transportation between Liberia Airport (LIR) and La Fortuna \u0026 Arenal, in both directions. Request a quote from Wild Papagayo via WhatsApp.",
+                          "url":  "/transfers/liberia-airport-to-la-fortuna"
+                      },
+                      {
+                          "name":  "Private Transportation From Liberia Airport to Peninsula Papagayo",
+                          "origin":  "Liberia Airport (LIR)",
+                          "destination":  "Peninsula Papagayo resorts",
+                          "travel_time":  "Approximately 30 to 45 minutes, depending on your resort and road conditions",
+                          "description":  "Private transportation between Liberia Airport (LIR) and Peninsula Papagayo resorts, in both directions. Quote on request — Wild Papagayo.",
+                          "url":  "/transfers/liberia-airport-to-papagayo-peninsula"
+                      },
+                      {
+                          "name":  "Private Transportation From Liberia Airport to Riu Guanacaste",
+                          "origin":  "Liberia Airport (LIR)",
+                          "destination":  "Hotel Riu Guanacaste",
+                          "travel_time":  "42-54 minutes",
+                          "description":  "Book a private transfer between Liberia Airport (LIR) and Hotel Riu Guanacaste in Playa Matapalo. Private vehicle, arrival and departure, via WhatsApp.",
+                          "url":  "/transfers/liberia-airport-to-riu-guanacaste"
+                      },
+                      {
+                          "name":  "Private Transportation From Liberia Airport to Riu Palace Costa Rica",
+                          "origin":  "Liberia Airport (LIR)",
+                          "destination":  "Hotel Riu Palace Costa Rica",
+                          "travel_time":  "41-53 minutes",
+                          "description":  "Book a private transfer between Liberia Airport (LIR) and Hotel Riu Palace Costa Rica in Playa Matapalo. Private vehicle, arrival and departure, via WhatsApp.",
+                          "url":  "/transfers/liberia-airport-to-riu-palace-costa-rica"
+                      },
+                      {
+                          "name":  "Private Transfer from Liberia Airport (LIR) to Tamarindo",
+                          "origin":  "Liberia Airport (LIR)",
+                          "destination":  "Tamarindo and surrounding area, Guanacaste",
+                          "travel_time":  "Approximately 1 hour and 20 minutes to central Tamarindo in normal conditions",
+                          "description":  "Private transportation from Liberia Airport (LIR) to Tamarindo in approximately 1 hour 20 minutes. Hotels served include Occidental Tamarindo, Tamarindo Diria, Wyndham, JW Marriott Guanacaste and others. Quote via WhatsApp.",
+                          "url":  "/transfers/liberia-airport-to-tamarindo"
+                      }
+                  ]
+}

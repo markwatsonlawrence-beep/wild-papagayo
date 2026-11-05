@@ -1,0 +1,268 @@
+{
+    "id": "liberia-airport-to-tamarindo",
+    "slug": "liberia-airport-to-tamarindo",
+    "output_dir": "transfers",
+    "cta_intent": "airport_transfer",
+    "page_url": "transfers/liberia-airport-to-tamarindo",
+    "canonical_url": "https://wildpapagayo.com/transfers/liberia-airport-to-tamarindo",
+    "include_organization_schema": true,
+    "webpage_id": true,
+    "seo_title": "Liberia Airport to Tamarindo Private Transfer | Wild Papagayo",
+    "seo_description": "Private transportation from Liberia Airport (LIR) to Tamarindo in approximately 1 hour 20 minutes. Hotels served include Occidental Tamarindo, Tamarindo Diria, Wyndham, JW Marriott Guanacaste and others. Quote via WhatsApp.",
+    "og_image": "images/tamarindo-hero.webp",
+    "h1": "Private Transfer from Liberia Airport (LIR) to Tamarindo",
+    "breadcrumb_parent": {
+        "name": "Transport",
+        "url": "transport"
+    },
+    "hero": {
+        "eyebrow_line_1": "PRIVATE AIRPORT TRANSPORTATION",
+        "eyebrow_line_2": "Liberia Airport (LIR) and Tamarindo",
+        "subtext": "Wild Papagayo arranges private transportation between Liberia Airport (LIR) and Tamarindo, in both directions. The vehicle and driver are for your group only, not shared with other travelers. Pricing is by quote.",
+        "cta_primary_text": "Request a Quote",
+        "cta_primary_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo%21%20I%27d%20like%20a%20quote%20for%20private%20transportation%20between%20Liberia%20Airport%20%28LIR%29%20and%20Tamarindo.",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I have a question about private transportation between Liberia Airport and Tamarindo.",
+        "image": "images/tamarindo-hero.webp"
+    },
+    "trust_strip": [
+        "Private, Not Shared",
+        "Both Directions",
+        "1h 20m from LIR",
+        "Quote on Request"
+    ],
+    "intro_section": {
+        "kicker": "Airport Transportation",
+        "title": "Private Transfer Between Liberia Airport and Tamarindo",
+        "paragraphs": [
+            "Wild Papagayo arranges private transportation between Liberia Airport (LIR) and Tamarindo, in both directions. The vehicle and driver are for your group only — not a shared shuttle — and the drive takes approximately 1 hour and 20 minutes to central Tamarindo in normal conditions.",
+            "Liberia Airport is officially Daniel Oduber Quirós International Airport and is also known as Guanacaste Airport. Pricing for this route is by quote: send your dates, direction, group size and flight details on WhatsApp and we will reply with a quote.",
+            "Properties served on this route include Tamarindo Diria Beach Resort, Hotel Occidental Tamarindo, Wyndham Tamarindo, Cala Luna Boutique Hotel and other hotels in the Tamarindo and Playa Langosta area. JW Marriott Guanacaste Resort & Spa, located near Playa Conchal approximately 15 minutes north of central Tamarindo, is also served with a drive time of approximately 1 hour and 35 minutes from Liberia Airport. If your property is not listed, include its name when you request your quote."
+        ]
+    },
+    "content_blocks": {
+        "route_facts": {
+            "kicker": "At a Glance",
+            "title": "Liberia Airport (LIR) to Tamarindo: Route Facts",
+            "alt": true,
+            "facts": [
+                {
+                    "label": "Service",
+                    "value": "Private transportation. The vehicle and driver are for your group only, not shared with other travelers."
+                },
+                {
+                    "label": "Provided by",
+                    "value": "Wild Papagayo"
+                },
+                {
+                    "label": "From",
+                    "value": "Liberia Airport (LIR), Guanacaste"
+                },
+                {
+                    "label": "To",
+                    "value": "Tamarindo and surrounding area, Guanacaste"
+                },
+                {
+                    "label": "Return trip",
+                    "value": "Yes. Return transportation from Tamarindo to Liberia Airport is arranged on this same route. Share your departure flight time when you request a quote."
+                },
+                {
+                    "label": "Drive time",
+                    "value": "Approximately 1 hour and 20 minutes to central Tamarindo in normal conditions. Properties near Playa Grande or Playa Avellanas (including JW Marriott Guanacaste) take approximately 1 hour and 35 minutes. These are planning estimates."
+                },
+                {
+                    "label": "Pricing",
+                    "value": "By quote. No fixed price is published for this route."
+                },
+                {
+                    "label": "Booking",
+                    "value": "Request a quote on WhatsApp. Availability depends on your dates."
+                },
+                {
+                    "label": "Night arrivals",
+                    "value": "Depends on your flight time and operating availability. Include your flight details when you request a quote."
+                },
+                {
+                    "label": "Flight delays",
+                    "value": "The first 60 minutes of waiting are at no charge. For longer delays we work with you to adjust the plan."
+                },
+                {
+                    "label": "Child seats",
+                    "value": "Ask for one when you request your quote. Availability is confirmed with the quote."
+                },
+                {
+                    "label": "Luggage",
+                    "value": "Tell us about your luggage when you request a quote, and mention anything unusual or oversized."
+                },
+                {
+                    "label": "Booking & cancellation",
+                    "value": "25% deposit to confirm; balance due 72 hours before pickup (bookings within 72 hours are paid in full). Cancellations within 72 hours of pickup are non-refundable, subject to mandatory consumer rights."
+                }
+            ],
+            "cta": {
+                "text": "Read the Booking & Cancellation Policy",
+                "url": "politicasdecancelacion"
+            }
+        },
+        "how_it_works": {
+            "kicker": "How It Works",
+            "title": "How Your Transfer Works, Step by Step",
+            "steps": [
+                "Send your request on WhatsApp: the direction (airport to Tamarindo, or back to the airport), your date, flight details, group size and your hotel name.",
+                "We check availability and reply with a quote.",
+                "If you go ahead, we confirm your booking in writing and arrange a private vehicle and driver for your group.",
+                "On arrival at LIR, your driver meets you in the arrivals area with a sign bearing your name. Exact meeting details are confirmed with your booking.",
+                "For the return trip, tell us your departure flight time and we plan your pickup for the drive back to Liberia Airport."
+            ],
+            "cta": {
+                "text": "See All Wild Papagayo Airport Transfers",
+                "url": "transport"
+            }
+        },
+        "vehicles_luggage_family": {
+            "kicker": "Groups & Families",
+            "title": "Vehicles, Luggage and Traveling With Children",
+            "paragraphs": [
+                "Vehicle size depends on your group and your luggage, so we confirm it as part of your quote rather than fixing it in advance.",
+                "Luggage: tell us how many people are traveling and mention anything unusual or oversized when you request your quote.",
+                "Children: if you need a child seat, ask for one when you request your quote and we will confirm availability."
+            ]
+        },
+        "return_leg": {
+            "kicker": "Return Trip",
+            "title": "Return Transportation From Tamarindo to Liberia Airport",
+            "alt": true,
+            "paragraphs": [
+                "The return trip from Tamarindo to Liberia Airport is covered on this same page. Share your departure flight time and hotel name when you request your quote, and we plan the pickup around your flight.",
+                "The drive back takes approximately 1 hour and 20 minutes from central Tamarindo to Liberia Airport in normal conditions, so allow for it when choosing your departure flight."
+            ]
+        }
+    },
+    "decision_blocks": {
+        "compare": {
+            "kicker": "Compare Your Options",
+            "title": "Private Transfer, Shared Shuttle or Rental Car?",
+            "intro": "Three common ways to reach Tamarindo from Liberia Airport.",
+            "columns": [
+                {
+                    "title": "Private transfer",
+                    "items": [
+                        "Vehicle and driver for your group only",
+                        "Arranged in both directions on this route",
+                        "Priced by quote for your dates and group",
+                        "Direct to your hotel with no shared stops"
+                    ]
+                },
+                {
+                    "title": "Shared shuttle",
+                    "items": [
+                        "Often the budget-friendly choice",
+                        "Typically involves waiting for other passengers and multiple hotel stops before Tamarindo"
+                    ]
+                },
+                {
+                    "title": "Rental car",
+                    "items": [
+                        "You set your own schedule and stops",
+                        "You handle the driving and navigation on unfamiliar roads",
+                        "Parking in Tamarindo can be limited"
+                    ]
+                }
+            ],
+            "cta": {
+                "text": "Read the Liberia Airport Transportation Guide",
+                "url": "blog/liberia-airport-transfer-guide"
+            }
+        }
+    },
+    "hotel_pickup": {
+        "kicker": "Request a Quote",
+        "title": "Request a Quote for Your Transfer",
+        "text": "Send us your hotel name, direction (airport to Tamarindo or back), date, flight details and group size. We will confirm availability and reply with a quote.",
+        "text_2": "Pricing is by quote for this route. No fixed price is published.",
+        "cta_text": "Request a Quote via WhatsApp",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo%21%20I%27d%20like%20a%20quote%20for%20private%20transportation%20between%20Liberia%20Airport%20%28LIR%29%20and%20Tamarindo."
+    },
+    "about_section": {
+        "kicker": "Planning Your Arrival",
+        "title": "Liberia Airport Transportation Guide",
+        "text": "Read our guide to getting from Liberia Airport to your resort: private transfers, shared shuttles, taxis and what to expect on arrival.",
+        "cta": {
+            "text": "Read the Liberia Airport Guide",
+            "url": "blog/liberia-airport-transfer-guide"
+        }
+    },
+    "hotel_crosslink": {
+        "kicker": "Private Tours",
+        "title": "Plan Private Tours During Your Stay",
+        "text": "Wild Papagayo arranges private tours and day trips throughout Guanacaste — volcano hikes, rainforest tours, wildlife watching and more. If you are staying in Tamarindo, let us know and we can suggest tours that work from your location.",
+        "cta_text": "View All Private Tours",
+        "cta_url": "tours"
+    },
+    "section_order": [
+        "INTRO_SECTION",
+        "CONTENT_BLOCK:route_facts",
+        "CONTENT_BLOCK:how_it_works",
+        "DECISION_BLOCK:compare",
+        "CONTENT_BLOCK:vehicles_luggage_family",
+        "CONTENT_BLOCK:return_leg",
+        "PICKUP_SECTION",
+        "ABOUT_SECTION",
+        "HOTEL_CROSSLINK",
+        "FAQ_SECTION"
+    ],
+    "faq": [
+        {
+            "q": "Is this a private transfer or a shared shuttle?",
+            "a": "It is a private transfer. The vehicle and driver are for your group only and are not shared with other travelers."
+        },
+        {
+            "q": "How long is the drive from Liberia Airport to Tamarindo?",
+            "a": "Approximately 1 hour and 20 minutes to central Tamarindo in normal conditions. Properties near Playa Grande or Playa Avellanas (including JW Marriott Guanacaste Resort & Spa) take approximately 1 hour and 35 minutes. These are planning estimates."
+        },
+        {
+            "q": "How much does a private transfer from Liberia Airport to Tamarindo cost?",
+            "a": "Pricing is by quote. No fixed price is published for this route. Send your dates, direction, group size and flight details on WhatsApp and we will reply with a quote."
+        },
+        {
+            "q": "Which hotels in Tamarindo do you serve?",
+            "a": "Hotels served include Tamarindo Diria Beach Resort, Hotel Occidental Tamarindo, Wyndham Tamarindo, Cala Luna Boutique Hotel and other properties in the Tamarindo and Playa Langosta area. JW Marriott Guanacaste Resort & Spa is also served; it is located approximately 15 minutes north of central Tamarindo near Playa Conchal. If your property is not listed, include its name when you request a quote."
+        },
+        {
+            "q": "Do you serve JW Marriott Guanacaste Resort & Spa?",
+            "a": "Yes. The JW Marriott Guanacaste Resort & Spa is located near Playa Conchal, approximately 15 minutes north of central Tamarindo. Drive time from Liberia Airport is approximately 1 hour and 35 minutes in normal conditions."
+        },
+        {
+            "q": "Can I book a return transfer from Tamarindo to Liberia Airport?",
+            "a": "Yes. Return transportation from Tamarindo to Liberia Airport is arranged on this same route. Tell us your departure flight time and hotel name when you request your quote."
+        },
+        {
+            "q": "Where will my driver meet me at the airport?",
+            "a": "In the arrivals area at LIR, with a sign bearing your name. Exact meeting details are confirmed with your booking."
+        },
+        {
+            "q": "What happens if my flight is delayed?",
+            "a": "The first 60 minutes of waiting are at no charge. For longer delays we work with you to adjust the plan."
+        },
+        {
+            "q": "Can I request a child seat?",
+            "a": "You can ask for one when you request your quote, and we will confirm availability."
+        },
+        {
+            "q": "How do I book?",
+            "a": "Via WhatsApp. Send us your travel dates, direction, group size and flight number. We will confirm availability and reply with a quote."
+        },
+        {
+            "q": "What is the cancellation policy?",
+            "a": "A 25% deposit confirms your transfer and the balance is due no later than 72 hours before pickup; bookings made within 72 hours are paid in full. Cancellations within 72 hours of pickup are non-refundable, subject to any mandatory consumer rights. See our Booking & Cancellation Policy for details."
+        }
+    ],
+    "final_cta": {
+        "kicker": "LIBERIA AIRPORT AND TAMARINDO",
+        "title": "Ready to Request a Quote?",
+        "text": "Tell us your hotel name, direction, date, flight details and group size, and we will confirm availability and send you a quote.",
+        "cta_primary_text": "Request a Quote",
+        "cta_secondary_text": "Ask a Question First",
+        "whatsapp_message": "Hello Wild Papagayo! I'd like a quote for private transportation between Liberia Airport (LIR) and Tamarindo."
+    }
+}
