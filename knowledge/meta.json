@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "project": "Wild Papagayo Knowledge Graph",
+  "language": "en",
+  "id_policy": "lowercase-kebab-case; IDs are permanent once published",
+  "entity_types": [
+    "destination",
+    "hotel",
+    "tour",
+    "airport",
+    "activity",
+    "season",
+    "traveler_profile",
+    "transportation"
+  ],
+  "relation_policy": "Relationships use entity IDs, never display names",
+  "generated_from": "Current Wild Papagayo website and blog content"
+}

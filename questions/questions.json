@@ -1,0 +1,822 @@
+[
+  {
+    "id": "q-coco-vs-samara-for-five-weeks",
+    "question": "For a five-week January stay, is Playa Coco or Samara better for a couple in their 60s who enjoys beaches, local restaurants, drinks, and live music?",
+    "working_title": "Playa Coco vs Samara: Which Beach Town Is Better for Your Costa Rica Vacation?",
+    "source": "facebook",
+    "source_note": "Real traveler question about a five-week January stay.",
+    "intent": "commercial-investigation",
+    "content_type": "comparison-guide",
+    "priority": 96,
+    "status": "published",
+    "article_slug": "playa-coco-vs-samara-which-is-better",
+    "destination_ids": [
+      "playa-coco",
+      "samara"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "beach",
+      "dining",
+      "live-music"
+    ],
+    "season_ids": [
+      "january",
+      "dry-season"
+    ],
+    "traveler_profile_ids": [
+      "couples",
+      "seniors"
+    ],
+    "transportation_ids": [],
+    "business_goal": "Generate destination-planning and transportation inquiries.",
+    "notes": "Keep the recommendation balanced and explain who should choose each town."
+  },
+  {
+    "id": "q-lir-arenal-waldorf-september-itinerary",
+    "question": "What activities are near Amor Arenal, where should travelers stop between Liberia Airport, Arenal, and Waldorf Astoria, how long are the drives, and will September rain affect activities?",
+    "working_title": "Liberia Airport to Arenal and Papagayo: Drive Times, Stops and September Tips",
+    "source": "facebook",
+    "source_note": "Real itinerary question involving Amor Arenal and Waldorf Astoria.",
+    "intent": "commercial-investigation",
+    "content_type": "itinerary-guide",
+    "priority": 100,
+    "status": "published",
+    "article_slug": "liberia-airport-to-arenal-papagayo-drive-times-stops",
+    "destination_ids": [
+      "liberia",
+      "la-fortuna",
+      "playa-hermosa",
+      "papagayo"
+    ],
+    "hotel_ids": [
+      "waldorf-astoria-costa-rica"
+    ],
+    "tour_ids": [
+      "arenalhangingbridges",
+      "arenalhotsprings"
+    ],
+    "activity_ids": [
+      "hanging-bridges",
+      "waterfalls",
+      "hot-springs",
+      "airport-transfer"
+    ],
+    "season_ids": [
+      "september",
+      "green-season"
+    ],
+    "traveler_profile_ids": [
+      "first-time-visitors",
+      "couples",
+      "luxury"
+    ],
+    "transportation_ids": [
+      "private-airport-transfer",
+      "private-driver"
+    ],
+    "business_goal": "Convert a complex multi-hotel itinerary into private transfer and tour inquiries.",
+    "notes": "Verify drive times and suggested stops before publication."
+  },
+  {
+    "id": "q-liberia-airport-to-hotel-options",
+    "question": "What is the easiest way to get from Liberia Airport to a hotel in Guanacaste?",
+    "working_title": "How to Get From Liberia Airport to Your Hotel Without Stress",
+    "source": "team",
+    "source_note": "Recurring transportation question.",
+    "intent": "transactional",
+    "content_type": "transportation-guide",
+    "priority": 98,
+    "status": "published",
+    "article_slug": "liberia-airport-transfer-guide",
+    "destination_ids": [
+      "liberia",
+      "guanacaste",
+      "papagayo",
+      "playa-coco",
+      "tamarindo"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "airport-transfer"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "first-time-visitors",
+      "families",
+      "couples",
+      "groups"
+    ],
+    "transportation_ids": [
+      "private-airport-transfer",
+      "shared-shuttle",
+      "rental-car"
+    ],
+    "business_goal": "Generate direct airport-transfer bookings.",
+    "notes": "Maintain accurate destination travel-time ranges."
+  },
+  {
+    "id": "q-flight-hotel-package-or-separate",
+    "question": "Should travelers book flights and hotels together or separately for a Costa Rica vacation?",
+    "working_title": "Should You Book Flights and Hotels Together?",
+    "source": "team",
+    "source_note": "Common first-time visitor planning question.",
+    "intent": "commercial-investigation",
+    "content_type": "booking-guide",
+    "priority": 84,
+    "status": "published",
+    "article_slug": "costa-rica-flight-hotel-booking-guide",
+    "destination_ids": [
+      "guanacaste",
+      "rincon-de-la-vieja"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [
+      "buenavistamegacombo"
+    ],
+    "activity_ids": [
+      "airport-transfer"
+    ],
+    "season_ids": [
+      "september",
+      "green-season"
+    ],
+    "traveler_profile_ids": [
+      "first-time-visitors"
+    ],
+    "transportation_ids": [
+      "private-airport-transfer",
+      "rental-car"
+    ],
+    "business_goal": "Reach early-stage planners and lead them toward transfers and tours.",
+    "notes": "Update airline and booking-platform examples periodically."
+  },
+  {
+    "id": "q-small-private-tour-vs-large-group",
+    "question": "Are private or small-group Costa Rica tours better than large bus tours?",
+    "working_title": "How to Experience Costa Rica Without the Crowds",
+    "source": "team",
+    "source_note": "Core Wild Papagayo positioning question.",
+    "intent": "commercial-investigation",
+    "content_type": "experience-guide",
+    "priority": 88,
+    "status": "published",
+    "article_slug": "ditching-the-crowds",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "hiking",
+      "wildlife-watching"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "adventure",
+      "first-time-visitors"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Differentiate private guided experiences from mass-market tours.",
+    "notes": "Use firsthand local-expert examples."
+  },
+  {
+    "id": "q-rent-car-at-riu-guanacaste",
+    "question": "Do I need to rent a car if I am staying at Hotel Riu Guanacaste?",
+    "working_title": "Do You Need a Rental Car at Riu Guanacaste?",
+    "source": "facebook",
+    "source_note": "Frequently repeated resort transportation question.",
+    "intent": "commercial-investigation",
+    "content_type": "hotel-transportation-guide",
+    "priority": 94,
+    "status": "published",
+    "article_slug": "do-you-need-a-rental-car-at-riu-guanacaste",
+    "destination_ids": [
+      "papagayo"
+    ],
+    "hotel_ids": [
+      "hotel-riu-guanacaste"
+    ],
+    "tour_ids": [],
+    "activity_ids": [
+      "airport-transfer"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "families",
+      "couples",
+      "first-time-visitors"
+    ],
+    "transportation_ids": [
+      "rental-car",
+      "private-airport-transfer",
+      "private-driver"
+    ],
+    "business_goal": "Generate resort transfer and private-driver inquiries.",
+    "notes": "Compare total rental costs with using transfers and tour pickup."
+  },
+  {
+    "id": "q-is-rio-celeste-worth-it",
+    "question": "Is Río Celeste worth visiting from the Papagayo area?",
+    "working_title": "Is Río Celeste Worth the Drive From Papagayo?",
+    "source": "facebook",
+    "source_note": "Common day-trip value question.",
+    "intent": "commercial-investigation",
+    "content_type": "tour-decision-guide",
+    "priority": 93,
+    "status": "published",
+    "article_slug": "is-rio-celeste-worth-the-drive-from-papagayo",
+    "destination_ids": [
+      "papagayo",
+      "rio-celeste",
+      "bijagua"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [
+      "celesteriver"
+    ],
+    "activity_ids": [
+      "waterfalls",
+      "hiking",
+      "wildlife-watching"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "couples",
+      "families",
+      "adventure"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Convert research traffic into Río Celeste tour bookings.",
+    "notes": "Explain drive time, trail conditions and who may prefer another excursion."
+  },
+  {
+    "id": "q-september-rain-costa-rica-activities",
+    "question": "Will September rain ruin tours and outdoor activities in Guanacaste and Arenal?",
+    "working_title": "Costa Rica in September: Will Rain Affect Your Tours?",
+    "source": "facebook",
+    "source_note": "Recurring Green Season concern.",
+    "intent": "informational",
+    "content_type": "seasonal-guide",
+    "priority": 92,
+    "status": "published",
+    "article_slug": "costa-rica-in-september-will-rain-ruin-your-tours",
+    "destination_ids": [
+      "guanacaste",
+      "la-fortuna",
+      "papagayo"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "hiking",
+      "waterfalls",
+      "wildlife-watching",
+      "hanging-bridges"
+    ],
+    "season_ids": [
+      "september",
+      "green-season"
+    ],
+    "traveler_profile_ids": [
+      "first-time-visitors",
+      "families",
+      "couples"
+    ],
+    "transportation_ids": [],
+    "business_goal": "Reduce weather anxiety and preserve September bookings.",
+    "notes": "Avoid guarantees; explain regional and daily variability."
+  },
+  {
+    "id": "q-lir-or-sjo-for-guanacaste",
+    "question": "Should I fly into Liberia Airport or San José Airport for a Guanacaste vacation?",
+    "working_title": "Liberia or San José Airport: Which Is Better for Guanacaste?",
+    "source": "google",
+    "source_note": "High-intent airport comparison topic.",
+    "intent": "commercial-investigation",
+    "content_type": "airport-comparison",
+    "priority": 95,
+    "status": "published",
+    "article_slug": "liberia-or-san-jos-airport-which-is-better-for-guanacaste",
+    "destination_ids": [
+      "guanacaste",
+      "liberia",
+      "papagayo",
+      "tamarindo"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "airport-transfer"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "first-time-visitors"
+    ],
+    "transportation_ids": [
+      "private-airport-transfer",
+      "rental-car"
+    ],
+    "business_goal": "Capture travelers before they finalize flights and transfers.",
+    "notes": "Provide destination-specific comparisons rather than one universal answer."
+  },
+  {
+    "id": "q-uber-at-liberia-airport",
+    "question": "Is Uber available and reliable at Liberia Airport?",
+    "working_title": "Is Uber Available at Liberia Airport? What Travelers Should Know",
+    "source": "facebook",
+    "source_note": "Frequently repeated airport-arrival question.",
+    "intent": "transactional",
+    "content_type": "transportation-faq-guide",
+    "priority": 91,
+    "status": "published",
+    "article_slug": "is-uber-available-at-liberia-airport-what-to-know",
+    "destination_ids": [
+      "liberia",
+      "guanacaste"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "airport-transfer"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "first-time-visitors",
+      "couples"
+    ],
+    "transportation_ids": [
+      "private-airport-transfer",
+      "private-driver"
+    ],
+    "business_goal": "Offer pre-arranged transfers as the dependable alternative.",
+    "notes": "Verify current pickup rules and availability before publishing."
+  },
+  {
+    "id": "q-best-sloth-tour-from-papagayo",
+    "question": "What is the best sloth tour from Papagayo?",
+    "working_title": "Best Sloth Tours From Papagayo: A Local Comparison",
+    "source": "facebook",
+    "source_note": "High-conversion wildlife question.",
+    "intent": "transactional",
+    "content_type": "tour-comparison",
+    "priority": 97,
+    "status": "published",
+    "article_slug": "best-sloth-tours-from-papagayo-a-local-comparison",
+    "destination_ids": [
+      "papagayo",
+      "bijagua",
+      "la-fortuna"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [
+      "hangingbridgessloths",
+      "slothadventure",
+      "slothchocolatetour"
+    ],
+    "activity_ids": [
+      "sloth-watching",
+      "wildlife-watching",
+      "hanging-bridges",
+      "chocolate"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "families",
+      "couples",
+      "seniors",
+      "first-time-visitors"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Generate direct sloth-tour bookings.",
+    "notes": "Compare walking difficulty, drive time, included experiences and suitability."
+  },
+  {
+    "id": "q-best-tours-from-four-seasons-papagayo",
+    "question": "What are the best day tours from Four Seasons Papagayo?",
+    "working_title": "Best Private Tours From Four Seasons Papagayo",
+    "source": "email",
+    "source_note": "Recurring luxury-resort inquiry.",
+    "intent": "transactional",
+    "content_type": "hotel-tour-guide",
+    "priority": 99,
+    "status": "published",
+    "article_slug": "best-private-day-tours-from-four-seasons-papagayo",
+    "destination_ids": [
+      "papagayo"
+    ],
+    "hotel_ids": [
+      "four-seasons-papagayo"
+    ],
+    "tour_ids": [
+      "buenavistamegacombo",
+      "celesteriver",
+      "hangingbridgessloths",
+      "paloverderiverboattour"
+    ],
+    "activity_ids": [
+      "wildlife-watching",
+      "waterfalls",
+      "ziplining",
+      "boat-tour"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "luxury",
+      "families",
+      "couples"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Generate high-value private-tour bookings from a priority hotel.",
+    "notes": "Use premium positioning and realistic door-to-door timing."
+  },
+  {
+    "id": "q-best-tours-from-riu-guanacaste",
+    "question": "What are the best excursions from Riu Guanacaste?",
+    "working_title": "Best Tours From Riu Guanacaste: Local Recommendations",
+    "source": "whatsapp",
+    "source_note": "Frequent guest question.",
+    "intent": "transactional",
+    "content_type": "hotel-tour-guide",
+    "priority": 99,
+    "status": "published",
+    "article_slug": "best-tours-from-riu-guanacaste-local-recommendations",
+    "destination_ids": [
+      "papagayo"
+    ],
+    "hotel_ids": [
+      "hotel-riu-guanacaste"
+    ],
+    "tour_ids": [
+      "buenavistamegacombo",
+      "hangingbridgessloths",
+      "celesteriver",
+      "paloverderiverboattour"
+    ],
+    "activity_ids": [
+      "wildlife-watching",
+      "waterfalls",
+      "ziplining",
+      "boat-tour"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "families",
+      "couples",
+      "groups"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Generate tour bookings from a high-volume resort.",
+    "notes": "Include family-friendly and lower-mobility choices."
+  },
+  {
+    "id": "q-private-driver-or-rental-car-guanacaste",
+    "question": "Is it better to rent a car or hire a private driver in Guanacaste?",
+    "working_title": "Rental Car vs Private Driver in Guanacaste: Honest Cost and Convenience Comparison",
+    "source": "facebook",
+    "source_note": "Common transportation comparison.",
+    "intent": "commercial-investigation",
+    "content_type": "transportation-comparison",
+    "priority": 93,
+    "status": "published",
+    "article_slug": "rental-car-vs-private-driver-in-guanacaste-honest-guide",
+    "destination_ids": [
+      "guanacaste",
+      "papagayo",
+      "playa-coco",
+      "tamarindo"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "airport-transfer"
+    ],
+    "season_ids": [
+      "green-season",
+      "dry-season"
+    ],
+    "traveler_profile_ids": [
+      "families",
+      "couples",
+      "first-time-visitors",
+      "groups"
+    ],
+    "transportation_ids": [
+      "rental-car",
+      "private-driver",
+      "private-airport-transfer"
+    ],
+    "business_goal": "Convert comparison traffic into private transportation inquiries.",
+    "notes": "Compare insurance, parking, road familiarity, flexibility and total trip usage."
+  },
+  {
+    "id": "q-hanging-bridges-and-waterfall-one-day",
+    "question": "Can travelers visit hanging bridges and a waterfall in the same day near Arenal?",
+    "working_title": "Can You Do Arenal Hanging Bridges and a Waterfall in One Day?",
+    "source": "facebook",
+    "source_note": "Itinerary-combination question.",
+    "intent": "commercial-investigation",
+    "content_type": "day-itinerary",
+    "priority": 90,
+    "status": "published",
+    "article_slug": "arenal-hanging-bridges-and-a-waterfall-in-one-day",
+    "destination_ids": [
+      "la-fortuna"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [
+      "arenalhangingbridges"
+    ],
+    "activity_ids": [
+      "hanging-bridges",
+      "waterfalls",
+      "hiking"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "couples",
+      "families",
+      "adventure"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Generate custom Arenal itinerary and transfer inquiries.",
+    "notes": "Explain pacing and seasonal daylight/rain considerations."
+  },
+  {
+    "id": "q-costa-rica-cash-or-credit-cards",
+    "question": "Should travelers bring cash, use US dollars, or rely on credit cards in Costa Rica?",
+    "working_title": "Cash, Colones or Credit Cards: What to Use in Costa Rica",
+    "source": "facebook",
+    "source_note": "High-volume first-time visitor question.",
+    "intent": "informational",
+    "content_type": "money-guide",
+    "priority": 78,
+    "status": "published",
+    "article_slug": "cash-colones-or-cards-what-to-use-in-costa-rica",
+    "destination_ids": [
+      "guanacaste"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "first-time-visitors"
+    ],
+    "transportation_ids": [],
+    "business_goal": "Build trust with early-stage travelers and support broader internal linking.",
+    "notes": "Include small local purchases, tips, card acceptance and exchange-rate caution."
+  },
+  {
+    "id": "q-what-to-pack-green-season",
+    "question": "What should travelers pack for Guanacaste and Arenal during Green Season?",
+    "working_title": "Costa Rica Green Season Packing List: Guanacaste and Arenal",
+    "source": "whatsapp",
+    "source_note": "Recurring pre-tour question.",
+    "intent": "informational",
+    "content_type": "packing-guide",
+    "priority": 82,
+    "status": "published",
+    "article_slug": "green-season-packing-list-guanacaste-arenal",
+    "destination_ids": [
+      "guanacaste",
+      "la-fortuna",
+      "papagayo"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "hiking",
+      "waterfalls",
+      "wildlife-watching"
+    ],
+    "season_ids": [
+      "green-season",
+      "may",
+      "june",
+      "july",
+      "august",
+      "september",
+      "october",
+      "november"
+    ],
+    "traveler_profile_ids": [
+      "families",
+      "couples",
+      "adventure",
+      "first-time-visitors"
+    ],
+    "transportation_ids": [],
+    "business_goal": "Improve trip readiness and create natural links to tours.",
+    "notes": "Separate beach, rainforest and transfer-day essentials."
+  },
+  {
+    "id": "q-papagayo-safe-for-families",
+    "question": "Is Papagayo safe for families visiting Costa Rica?",
+    "working_title": "Is Papagayo Safe for Families? A Practical Local Guide",
+    "source": "facebook",
+    "source_note": "Common safety reassurance question.",
+    "intent": "informational",
+    "content_type": "safety-guide",
+    "priority": 80,
+    "status": "published",
+    "article_slug": "is-papagayo-safe-for-families-a-practical-local-guide",
+    "destination_ids": [
+      "papagayo",
+      "guanacaste"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [
+      "beach"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "families",
+      "first-time-visitors"
+    ],
+    "transportation_ids": [
+      "private-airport-transfer"
+    ],
+    "business_goal": "Build confidence and support family tour and transfer conversions.",
+    "notes": "Use practical precautions without making absolute safety guarantees."
+  },
+  {
+    "id": "q-best-waterfall-near-papagayo",
+    "question": "What is the best waterfall day trip from Papagayo?",
+    "working_title": "Best Waterfalls Near Papagayo: Which Day Trip Should You Choose?",
+    "source": "facebook",
+    "source_note": "High-intent excursion question.",
+    "intent": "transactional",
+    "content_type": "tour-comparison",
+    "priority": 95,
+    "status": "published",
+    "article_slug": "best-waterfalls-near-papagayo-which-day-trip-to-pick",
+    "destination_ids": [
+      "papagayo",
+      "rio-celeste",
+      "rincon-de-la-vieja"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [
+      "celesteriver",
+      "waterfalllovers",
+      "waterfallpumas",
+      "laleona"
+    ],
+    "activity_ids": [
+      "waterfalls",
+      "hiking",
+      "wildlife-watching"
+    ],
+    "season_ids": [
+      "green-season",
+      "dry-season"
+    ],
+    "traveler_profile_ids": [
+      "couples",
+      "families",
+      "adventure"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Generate waterfall-tour bookings.",
+    "notes": "Compare drive time, walking difficulty, swimming access and seasonality."
+  },
+  {
+    "id": "q-five-hours-private-driver-llanos-cortes",
+    "question": "Can travelers hire a private driver for five to six hours from Papagayo to visit a waterfall and stop for lunch?",
+    "working_title": "Private Driver From Papagayo: Waterfall and Lunch Half-Day Itinerary",
+    "source": "email",
+    "source_note": "Based on a direct customer transportation inquiry.",
+    "intent": "transactional",
+    "content_type": "private-driver-itinerary",
+    "priority": 89,
+    "status": "published",
+    "article_slug": "private-driver-from-papagayo-waterfall-lunch-half-day",
+    "destination_ids": [
+      "papagayo",
+      "liberia",
+      "guanacaste"
+    ],
+    "hotel_ids": [
+      "four-seasons-papagayo"
+    ],
+    "tour_ids": [],
+    "activity_ids": [
+      "waterfalls",
+      "dining"
+    ],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "families",
+      "luxury",
+      "couples"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Generate custom hourly-driver inquiries.",
+    "notes": "Do not publish a fixed price without current operational approval."
+  },
+  {
+    "id": "q-playas-del-coco-solo-female-safety-night",
+    "question": "Is it safe to walk around Playas del Coco at night as a solo female traveler in her 30s?",
+    "working_title": "Is Playas del Coco Safe at Night for Solo Female Travelers?",
+    "source": "reddit",
+    "source_note": "",
+    "intent": "informational",
+    "content_type": "faq-guide",
+    "priority": 68,
+    "seo_potential": 62,
+    "competition": "Low",
+    "commercial_intent": "Medium",
+    "status": "published",
+    "article_slug": "is-playas-del-coco-safe-at-night-for-solo-female-travelers",
+    "destination_ids": [
+      "playa-coco",
+      "guanacaste"
+    ],
+    "hotel_ids": [],
+    "tour_ids": [],
+    "activity_ids": [],
+    "season_ids": [],
+    "traveler_profile_ids": [
+      "first-time-visitors"
+    ],
+    "transportation_ids": [
+      "private-driver",
+      "private-airport-transfer"
+    ],
+    "business_goal": "Convert safety-conscious solo travelers into private driver and transfer bookings for stress-free evening travel.",
+    "notes": "Give honest, balanced safety guidance with concrete tips (well-lit main strip, avoid dark beach areas) and position private drivers as the safe late-night option."
+  },
+  {
+    "id": "q-rio-celeste-tapir-valley-tour-guanacaste",
+    "question": "I am planning to go to Costa Rica next summer and I’m thinking about spending some timeï¿¼ at Guanacaste, staying at planet Hollywood. ï¿¼ I am very interested in exploring around the Rio Celeste or Rincon area with an add-on option to go to the tapir Valley. Has anyone been to tapir Valley? ï¿¼ I know that it’s near the Rio Celeste, I am looking for a tour that could possibly take us to both places. Any recommendations? ï¿¼",
+    "working_title": "Rio Celeste & Tapir Valley Tour from Guanacaste",
+    "source": "facebook",
+    "source_note": "Suggested FAQ: Can you visit Tapir Valley and Rio Celeste in the same day? | How far is Rio Celeste from Guanacaste beaches? | Is Rio Celeste worth visiting in the green season?",
+    "intent": "commercial-investigation",
+    "content_type": "how-to-guide",
+    "priority": 75,
+    "seo_potential": 58,
+    "competition": "Low",
+    "commercial_intent": "High",
+    "status": "pending",
+    "article_slug": "",
+    "destination_ids": [
+      "rio-celeste",
+      "bijagua",
+      "rincon-de-la-vieja",
+      "guanacaste"
+    ],
+    "hotel_ids": [
+      "planet-hollywood-costa-rica"
+    ],
+    "tour_ids": [
+      "celesteriver",
+      "tubingceleste",
+      "floatingtenorio",
+      "sensoriarainforest",
+      "hikingrinconnationalpark"
+    ],
+    "activity_ids": [
+      "waterfalls",
+      "hiking",
+      "wildlife-watching",
+      "tubing"
+    ],
+    "season_ids": [
+      "green-season",
+      "june",
+      "july",
+      "august"
+    ],
+    "traveler_profile_ids": [
+      "couples",
+      "adventure",
+      "first-time-visitors"
+    ],
+    "transportation_ids": [
+      "private-driver"
+    ],
+    "business_goal": "Convert the traveler into a booking for a private full-day Rio Celeste tour with an add-on Tapir Valley stop and round-trip transport from their Guanacaste hotel.",
+    "notes": "Clarify that Tapir Valley is a private reserve near Bijagua requiring separate booking, and pitch a private-driver combo pairing celesteriver with a Tapir Valley add-on since no packaged tour covers both."
+  }
+]

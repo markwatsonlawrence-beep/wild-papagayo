@@ -1,0 +1,492 @@
+[
+  {
+    "from_type": "hotel",
+    "from_id": "riu-guanacaste",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "papagayo"
+  },
+  {
+    "from_type": "hotel",
+    "from_id": "riu-palace-costa-rica",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "papagayo"
+  },
+  {
+    "from_type": "hotel",
+    "from_id": "four-seasons-papagayo",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "papagayo"
+  },
+  {
+    "from_type": "hotel",
+    "from_id": "andaz-papagayo",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "papagayo"
+  },
+  {
+    "from_type": "hotel",
+    "from_id": "secrets-papagayo",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "papagayo"
+  },
+  {
+    "from_type": "hotel",
+    "from_id": "planet-hollywood-costa-rica",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "papagayo"
+  },
+  {
+    "from_type": "hotel",
+    "from_id": "waldorf-astoria-costa-rica-punta-cacique",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "playa-hermosa"
+  },
+  {
+    "from_type": "hotel",
+    "from_id": "amor-arenal",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "la-fortuna"
+  },
+  {
+    "from_type": "hotel",
+    "from_id": "buena-vista-del-rincon",
+    "relation": "located_in",
+    "to_type": "destination",
+    "to_id": "rincon-de-la-vieja"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "arenalhangingbridges",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "la-fortuna"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "arenalhangingbridges",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "hanging-bridges"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "arenalhangingbridges",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "wildlife-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "arenalhotsprings",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "la-fortuna"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "arenalhotsprings",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "hot-springs"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "atvmountainride",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "atvmountainride",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "atv"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "borinque4senses",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "buenavistamegacombo",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "rincon-de-la-vieja"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "buenavistamegacombo",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "ziplining"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "buenavistamegacombo",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "tubing"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "buenavistamegacombo",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "horseback-riding"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "buenavistamegacombo",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "hot-springs"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "canyonadventurepark",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "canyoningtubing",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "celesteriver",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "rio-celeste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "celesteriver",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "bijagua"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "celesteriver",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "waterfalls"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "celesteriver",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "hiking"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "celesteriver",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "wildlife-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "coloradoriverrafting",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "congotrail",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "congotrailcanopy",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "costaricahighlights",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "floatingtenorio",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "haciendaaromal",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "haciendaguachipelin",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "hangingbridgessloths",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "la-fortuna"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "hangingbridgessloths",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "hanging-bridges"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "hangingbridgessloths",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "sloth-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "hangingbridgessloths",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "wildlife-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "hikingrinconnationalpark",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "rincon-de-la-vieja"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "hikingrinconnationalpark",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "hiking"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "hikingrinconnationalpark",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "wildlife-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "horsebackaromal",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "laleona",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "miravallesspa",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "monteverdehangingbridgescoffee",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "monteverde"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "monteverdehangingbridgescoffee",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "hanging-bridges"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "monteverdehangingbridgescoffee",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "coffee"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "monteverdtreetopwalk",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "paloverdeculturalviejo",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "paloverderiverboattour",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "paloverderiverboattour",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "boat-tour"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "paloverderiverboattour",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "wildlife-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "sensoriarainforest",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "slothadventure",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "bijagua"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "slothadventure",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "rio-celeste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "slothadventure",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "sloth-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "slothadventure",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "wildlife-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "slothchocolatetour",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "bijagua"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "slothchocolatetour",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "rio-celeste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "slothchocolatetour",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "sloth-watching"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "slothchocolatetour",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "chocolate"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "tenoriorafting",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "tubingceleste",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "waterfalllovers",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "waterfalllovers",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "waterfalls"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "waterfallpumas",
+    "relation": "available_in",
+    "to_type": "destination",
+    "to_id": "guanacaste"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "waterfallpumas",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "waterfalls"
+  },
+  {
+    "from_type": "tour",
+    "from_id": "waterfallpumas",
+    "relation": "includes",
+    "to_type": "activity",
+    "to_id": "wildlife-watching"
+  }
+]

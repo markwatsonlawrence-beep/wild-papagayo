@@ -1,0 +1,61 @@
+[
+  {
+    "id": "private-airport-transfer",
+    "name": "Private Airport Transfer",
+    "activity_ids": [
+      "airport-transfer"
+    ],
+    "page_url": "../transport.html",
+    "operating_facts": {
+      "status": "OWNER_CONFIRMED_FINAL",
+      "confirmed_date": "2026-09-29",
+      "finalized_date": "2026-09-29",
+      "applies_to": "Wild Papagayo private transfers in general: airport transfers, hotel-to-hotel and destination-to-destination private transportation. Route-specific rules (for example the LIR <-> La Fortuna landing) still win where they are stricter.",
+      "publication_status": "NOT_YET_PUBLISHED_ON_TRANSPORT. Content and form-change specification are FINAL and ready to implement. Deferred until after the ENTITY-TRANSFER-002 Day-28 checkpoint (2026-10-18) AND the BLOG-BABY-NO-CAR-001 Day-28 checkpoint (~2026-10-19), since both experiments currently hold files this improvement would otherwise touch or that inform the same page family. Plan: seo-intelligence/reports/transport-private-transportation-during-stay-plan.md",
+      "lunch_stop": {
+        "fact": "A customer on a private transfer may request a lunch stop (example: Papagayo -> La Fortuna with a lunch stop). The driver's waiting time during the lunch stop is included. The meal itself is paid directly by the traveler.",
+        "do_not_claim": ["unlimited stop duration", "unlimited stops", "any restaurant guarantee", "meals included in the transportation price", "reservations included", "a specific restaurant", "a universal timing guarantee"]
+      },
+      "grocery_stop": {
+        "fact": "Grocery stops may be requested. Availability and any applicable conditions or cost depend on the specific transportation service, route and circumstances, and are confirmed with the quote.",
+        "final_policy": "REQUEST_BASED (Option C, owner-approved 2026-09-29). The customer indicates a grocery stop is desired; the website must not automatically add a universal fee. A route-specific price could exist in the future only if explicitly established by the owner.",
+        "not_universal_policy": "The /transport booking form currently shows a $40 grocery stop, maximum one per trip, applied automatically to the estimate on every route. That is NOT confirmed as universal policy and contradicts the final policy above. Flagged NEEDS_REVIEW; exact future form-change spec in the plan report (Section 5)."
+      },
+      "multi_leg_transportation": {
+        "fact": "Wild Papagayo can coordinate multiple transportation legs for the same trip/vacation (pattern: airport -> first hotel -> second hotel -> airport), organized together with Wild Papagayo. Pricing can be quoted as an overall transportation price or by individual leg/transfer; both are valid.",
+        "requires_confirmation": "Route feasibility and the quote are confirmed per request.",
+        "do_not_claim": ["a fixed/guaranteed package discount", "a universal package rate", "unlimited destinations", "unlimited routes", "nationwide guaranteed/automatic coverage", "every route automatically available"]
+      },
+      "additional_requested_stops": {
+        "fact": "Additional requested stops may be possible. Feasibility, waiting conditions and any applicable cost depend on the route and the specific request, and are confirmed in the quote.",
+        "do_not_claim": ["any universal free waiting allowance (30, 45 or 60 minutes or other) for requested discretionary stops"],
+        "not_to_be_confused_with": "The separately confirmed airport flight-delay rule (first 60 minutes of waiting at no charge, in the booking/cancellation policy and the LIR <-> La Fortuna landing). That applies to airport pickups, not to discretionary stops."
+      },
+      "child_seats": {
+        "fact": "Infant car seats and booster seats are available on request at no additional charge. Wild Papagayo asks for the child's age and weight. Customers may bring their own seat. Request the seat at the quote stage; availability is confirmed.",
+        "do_not_claim": ["brands", "models", "certification", "weight limits", "rear-facing or forward-facing guarantees", "ISOFIX or LATCH", "installation guarantees", "vehicle-specific compatibility", "quantities available"]
+      },
+      "coverage_statement": {
+        "fact": "We arrange private transportation between many of the destinations we serve in Guanacaste and on other established routes, with each itinerary confirmed individually.",
+        "final_policy": "CONSERVATIVE_COVERAGE (owner-approved 2026-09-29). English may be refined for naturalness but the meaning must not expand.",
+        "do_not_claim": ["anywhere in Costa Rica", "all Costa Rica destinations", "nationwide service", "any specific destination list not already published elsewhere"]
+      }
+    }
+  },
+  {
+    "id": "private-driver",
+    "name": "Private Driver",
+    "page_url": "../transport.html",
+    "operating_facts_source": "private-airport-transfer.operating_facts (same owner-confirmed 2026-09-29 facts; kept in one place to avoid drift)"
+  },
+  {
+    "id": "shared-shuttle",
+    "name": "Shared Shuttle",
+    "page_url": null
+  },
+  {
+    "id": "rental-car",
+    "name": "Rental Car",
+    "page_url": null
+  }
+]

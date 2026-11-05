@@ -1,0 +1,14 @@
+Wild Engine - Knowledge Repository Report
+Generated: 2026-09-25 22:00:44
+Destinations: 11
+Airports: 2
+Tours: 31
+Errors: 0
+Warnings: 3
+
+WARNINGS
+- monteverde.json: add at least 4 FAQ entries
+- samara.json: add at least 4 FAQ entries
+- tamarindo.json: add at least 4 FAQ entries
+
+Validation passed.

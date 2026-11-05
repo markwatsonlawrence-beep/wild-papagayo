@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Wild Intelligence Hotel Master Record",
+  "type": "object",
+  "required": [
+    "identity",
+    "location",
+    "official_sources",
+    "official_facts",
+    "editorial",
+    "wild_insights",
+    "gallery",
+    "recommendations",
+    "faq",
+    "seo",
+    "verification",
+    "workflow"
+  ],
+  "notes": "This schema documents the required top-level sections. PowerShell validators enforce practical field and relationship rules."
+}

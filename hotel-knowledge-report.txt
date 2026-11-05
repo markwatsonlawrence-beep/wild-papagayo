@@ -1,0 +1,19 @@
+Wild Engine - Hotel Knowledge Graph Report
+Generated: 2026-10-04 18:25:32
+Hotels: 21
+Errors: 6
+Warnings: 2
+
+ERRORS
+- the-westin-reserva-conchal.json: missing required field 'category'
+- the-westin-reserva-conchal.json: missing required field 'destination_id'
+- the-westin-reserva-conchal.json: missing required field 'description'
+- w-costa-rica-reserva-conchal.json: missing required field 'category'
+- w-costa-rica-reserva-conchal.json: missing required field 'destination_id'
+- w-costa-rica-reserva-conchal.json: missing required field 'description'
+
+WARNINGS
+- the-westin-reserva-conchal.json: hero_image is empty; add an approved hotel image before publishing
+- w-costa-rica-reserva-conchal.json: hero_image is empty; add an approved hotel image before publishing
+
+Validation failed.

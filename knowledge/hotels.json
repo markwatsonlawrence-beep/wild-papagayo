@@ -1,0 +1,82 @@
+[
+  {
+    "id": "andaz-costa-rica",
+    "name": "Andaz Peninsula Papagayo Resort, Costa Rica",
+    "destination_id": "papagayo",
+    "aliases": [
+      "Andaz Peninsula Papagayo Resort, Costa Rica"
+    ]
+  },
+  {
+    "id": "el-mangroove-hotel",
+    "name": "el Mangroove Hotel",
+    "destination_id": "papagayo",
+    "aliases": [
+      "el Mangroove Hotel"
+    ]
+  },
+  {
+    "id": "four-seasons-papagayo",
+    "name": "Four Seasons Peninsula Papagayo",
+    "destination_id": "papagayo",
+    "aliases": [
+      "Four Seasons Resort Costa Rica at Peninsula Papagayo"
+    ]
+  },
+  {
+    "id": "hotel-belmar",
+    "name": "Hotel Belmar",
+    "destination_id": "monteverde",
+    "aliases": [
+      "Hotel Belmar"
+    ]
+  },
+  {
+    "id": "hotel-bosque-del-mar",
+    "name": "Hotel Bosque del Mar",
+    "destination_id": "playa-hermosa",
+    "aliases": [
+      "Hotel Bosque del Mar"
+    ]
+  },
+  {
+    "id": "hotel-riu-guanacaste",
+    "name": "Hotel Riu Guanacaste",
+    "destination_id": "papagayo",
+    "aliases": [
+      "Hotel Riu Guanacaste"
+    ]
+  },
+  {
+    "id": "nekajui-peninsula-papagayo-a-ritz",
+    "name": "Nekajui, A Ritz-Carlton Reserve",
+    "destination_id": "papagayo",
+    "aliases": [
+      "Nekajui, A Ritz-Carlton Reserve"
+    ]
+  },
+  {
+    "id": "planet-hollywood-costa-rica",
+    "name": "Planet Hollywood Costa Rica",
+    "destination_id": "papagayo",
+    "aliases": [
+      "Planet Hollywood Costa Rica"
+    ]
+  },
+  {
+    "id": "secrets-papagayo-costa-rica",
+    "name": "Secrets Papagayo Costa Rica",
+    "destination_id": "papagayo",
+    "aliases": [
+      "Secrets Papagayo Costa Rica"
+    ]
+  },
+  {
+    "id": "waldorf-astoria-costa-rica",
+    "name": "Waldorf Astoria Costa Rica Punta Cacique",
+    "destination_id": "playa-hermosa",
+    "aliases": [
+      "Waldorf Astoria Costa Rica Punta Cacique"
+    ]
+  }
+]

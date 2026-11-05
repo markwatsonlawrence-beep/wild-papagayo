@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hanging-bridges",
+    "name": "Hanging Bridges"
+  },
+  {
+    "id": "wildlife-watching",
+    "name": "Wildlife Watching"
+  },
+  {
+    "id": "sloth-watching",
+    "name": "Sloth Watching"
+  },
+  {
+    "id": "waterfalls",
+    "name": "Waterfalls"
+  },
+  {
+    "id": "hiking",
+    "name": "Hiking"
+  },
+  {
+    "id": "hot-springs",
+    "name": "Hot Springs"
+  },
+  {
+    "id": "ziplining",
+    "name": "Ziplining"
+  },
+  {
+    "id": "tubing",
+    "name": "River Tubing"
+  },
+  {
+    "id": "rafting",
+    "name": "Whitewater Rafting"
+  },
+  {
+    "id": "horseback-riding",
+    "name": "Horseback Riding"
+  },
+  {
+    "id": "boat-tour",
+    "name": "Boat Tour"
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee Experience"
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate Experience"
+  },
+  {
+    "id": "atv",
+    "name": "ATV Riding"
+  },
+  {
+    "id": "beach",
+    "name": "Beach Time"
+  },
+  {
+    "id": "live-music",
+    "name": "Live Music"
+  },
+  {
+    "id": "dining",
+    "name": "Dining"
+  },
+  {
+    "id": "airport-transfer",
+    "name": "Airport Transfer"
+  },
+  {
+    "id": "turtle-watching",
+    "name": "Turtle Watching"
+  },
+  {
+    "id": "night-tour",
+    "name": "Night Tour"
+  }
+]

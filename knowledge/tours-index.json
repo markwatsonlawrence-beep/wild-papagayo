@@ -1,0 +1,194 @@
+{
+  "version": "1.0",
+  "generated": "2026-07-11",
+  "total_tours": 32,
+  "tour_ids": [
+    "arenalhangingbridges",
+    "arenalhotsprings",
+    "atvmountainride",
+    "borinque4senses",
+    "buenavistamegacombo",
+    "canyonadventurepark",
+    "canyoningtubing",
+    "celesteriver",
+    "coloradoriverrafting",
+    "congotrail",
+    "congotrailcanopy",
+    "costaricahighlights",
+    "floatingtenorio",
+    "haciendaaromal",
+    "haciendaguachipelin",
+    "hangingbridgessloths",
+    "hikingrinconnationalpark",
+    "horsebackaromal",
+    "laleona",
+    "miravallesspa",
+    "monteverdehangingbridgescoffee",
+    "monteverdtreetopwalk",
+    "paloverdeculturalviejo",
+    "paloverderiverboattour",
+    "sensoriarainforest",
+    "slothadventure",
+    "slothchocolatetour",
+    "tenoriorafting",
+    "tubingceleste",
+    "waterfalllovers",
+    "waterfallpumas"
+  ],
+  "by_destination": {
+    "bijagua": [
+      "celesteriver",
+      "slothadventure",
+      "slothchocolatetour"
+    ],
+    "guanacaste": [
+      "atvmountainride",
+      "borinque4senses",
+      "canyonadventurepark",
+      "canyoningtubing",
+      "coloradoriverrafting",
+      "congotrail",
+      "congotrailcanopy",
+      "costaricahighlights",
+      "floatingtenorio",
+      "haciendaaromal",
+      "haciendaguachipelin",
+      "horsebackaromal",
+      "laleona",
+      "miravallesspa",
+      "monteverdtreetopwalk",
+      "paloverdeculturalviejo",
+      "paloverderiverboattour",
+      "sensoriarainforest",
+      "tenoriorafting",
+      "tubingceleste",
+      "waterfalllovers",
+      "waterfallpumas"
+    ],
+    "la-fortuna": [
+      "arenalhangingbridges",
+      "arenalhotsprings",
+      "hangingbridgessloths"
+    ],
+    "monteverde": [
+      "monteverdehangingbridgescoffee"
+    ],
+    "rincon-de-la-vieja": [
+      "buenavistamegacombo",
+      "hikingrinconnationalpark"
+    ],
+    "rio-celeste": [
+      "celesteriver",
+      "slothadventure",
+      "slothchocolatetour"
+    ]
+  },
+  "by_category": {
+    "Adventure": [
+      "buenavistamegacombo",
+      "haciendaguachipelin"
+    ],
+    "Experience": [
+      "atvmountainride",
+      "borinque4senses",
+      "canyonadventurepark",
+      "canyoningtubing",
+      "coloradoriverrafting",
+      "congotrail",
+      "congotrailcanopy",
+      "floatingtenorio",
+      "haciendaaromal",
+      "horsebackaromal",
+      "laleona",
+      "miravallesspa",
+      "monteverdehangingbridgescoffee",
+      "monteverdtreetopwalk",
+      "sensoriarainforest",
+      "slothchocolatetour",
+      "tenoriorafting",
+      "tubingceleste",
+      "waterfalllovers",
+      "waterfallpumas"
+    ],
+    "Rainforest & Wildlife": [
+      "arenalhangingbridges"
+    ],
+    "Signature Journey": [
+      "costaricahighlights"
+    ],
+    "Volcano & Hiking": [
+      "hikingrinconnationalpark"
+    ],
+    "Waterfall & Hiking": [
+      "celesteriver"
+    ],
+    "Wellness & Nature": [
+      "arenalhotsprings"
+    ],
+    "Wildlife": [
+      "slothadventure"
+    ],
+    "Wildlife & Culture": [
+      "paloverdeculturalviejo",
+      "paloverderiverboattour"
+    ],
+    "Wildlife & Nature": [
+      "hangingbridgessloths"
+    ]
+  },
+  "by_activity": {
+    "atv": [
+      "atvmountainride"
+    ],
+    "boat-tour": [
+      "paloverderiverboattour"
+    ],
+    "chocolate": [
+      "slothchocolatetour"
+    ],
+    "coffee": [
+      "monteverdehangingbridgescoffee"
+    ],
+    "hanging-bridges": [
+      "arenalhangingbridges",
+      "hangingbridgessloths",
+      "monteverdehangingbridgescoffee"
+    ],
+    "hiking": [
+      "celesteriver",
+      "hikingrinconnationalpark"
+    ],
+    "horseback-riding": [
+      "buenavistamegacombo"
+    ],
+    "hot-springs": [
+      "arenalhotsprings",
+      "buenavistamegacombo"
+    ],
+    "sloth-watching": [
+      "hangingbridgessloths",
+      "slothadventure",
+      "slothchocolatetour"
+    ],
+    "tubing": [
+      "buenavistamegacombo"
+    ],
+    "waterfalls": [
+      "celesteriver",
+      "waterfalllovers",
+      "waterfallpumas"
+    ],
+    "wildlife-watching": [
+      "arenalhangingbridges",
+      "celesteriver",
+      "hangingbridgessloths",
+      "hikingrinconnationalpark",
+      "paloverderiverboattour",
+      "slothadventure",
+      "waterfallpumas"
+    ],
+    "ziplining": [
+      "buenavistamegacombo"
+    ]
+  }
+}

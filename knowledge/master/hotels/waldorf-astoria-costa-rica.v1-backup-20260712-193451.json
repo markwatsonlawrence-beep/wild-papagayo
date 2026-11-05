@@ -1,0 +1,137 @@
+{
+    "id":  "waldorf-astoria-costa-rica",
+    "name":  "Waldorf Astoria Costa Rica Punta Cacique",
+    "slug":  "waldorf-astoria-costa-rica",
+    "brand":  "Waldorf Astoria",
+    "category":  "Luxury Oceanfront Resort",
+    "luxury_level":  "Ultra Private",
+    "destination_id":  "playa-hermosa",
+    "location_label":  "Punta Cacique, Playa Penca",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  25,
+                             "max":  35,
+                             "label":  "Approximately 25–35 minutes from Guanacaste Airport (LIR), depending on traffic."
+                         },
+    "tour_pickup_zone":  "playa-hermosa",
+    "official_url":  "https://www.hilton.com/en/hotels/lirguwa-waldorf-astoria-costa-rica-punta-cacique/",
+    "hero_image":  "images/about home 1.webp",
+    "hero_image_alt":  "Waldorf Astoria Costa Rica Punta Cacique overlooking Playa Penca",
+    "description":  "Waldorf Astoria Costa Rica Punta Cacique is a secluded luxury resort overlooking Playa Penca on Guanacaste\u0027s Pacific coast. Its short airport transfer, oceanfront setting, spa and refined resort experience make it especially appealing to couples, families and travelers seeking privacy with convenient access to nearby beach towns and private excursions.",
+    "hero_description":  "A secluded oceanfront escape at Punta Cacique with refined design and a short transfer from Guanacaste Airport.",
+    "local_insight":  "Waldorf Astoria Punta Cacique is especially appealing for travelers who value privacy, ocean views and a convenient arrival day. Its position near Playa Hermosa and Playas del Coco also creates useful options for private transfers and day tours.",
+    "best_for":  [
+                     "Luxury travelers",
+                     "Couples",
+                     "Honeymoons",
+                     "Families",
+                     "Wellness",
+                     "Short airport transfers"
+                 ],
+    "hotel_scores":  {
+                         "families":  4,
+                         "couples":  5,
+                         "wellness":  5,
+                         "adventure_access":  4,
+                         "walkability":  2,
+                         "nightlife":  2,
+                         "private":  5
+                     },
+    "featured_tours":  [
+                           "hangingbridgessloths",
+                           "paloverderiverboattour",
+                           "celesteriver"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide",
+                             "playa-coco-vs-samara-which-is-better"
+                         ],
+    "nearby_destinations":  [
+                                "playa-hermosa",
+                                "playa-coco",
+                                "papagayo"
+                            ],
+    "faq":  [
+                {
+                    "q":  "How far is Waldorf Astoria Costa Rica from Guanacaste Airport?",
+                    "a":  "The resort is approximately 17 miles from Guanacaste Airport (LIR). Driving time is commonly around 25 to 35 minutes, depending on traffic."
+                },
+                {
+                    "q":  "Where is Waldorf Astoria Costa Rica located?",
+                    "a":  "The resort is located at Punta Cacique on Playa Penca, along Guanacaste\u0027s Northern Pacific coast."
+                },
+                {
+                    "q":  "Can tours pick up at Waldorf Astoria Punta Cacique?",
+                    "a":  "Private excursions and transfers can be planned from the resort, with pickup details confirmed according to the selected experience and travel date."
+                }
+            ],
+    "source_notes":  [
+                         "Hilton\u0027s official location page places the resort on Playa Penca at Punta Cacique, 17 miles from Daniel Oduber Quirós International Airport.",
+                         "Hilton has described the resort as approximately 25 minutes from the airport; transfer time remains traffic-dependent."
+                     ],
+    "status":  "review",
+    "verification":  {
+                         "status":  "reviewed",
+                         "last_verified":  "2026-07-11",
+                         "official_source":  "https://www.hilton.com/en/hotels/lirguwa-waldorf-astoria-costa-rica-punta-cacique/",
+                         "note":  "Official hotel details should be rechecked before publication; transfer times are Wild Papagayo operational estimates and may vary."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v1.0",
+    "experience_highlights":  [
+                                  {
+                                      "title":  "Excellent Location",
+                                      "description":  "Easy access to Costa Rica\u0027s top attractions."
+                                  },
+                                  {
+                                      "title":  "Nature",
+                                      "description":  "Surrounded by tropical landscapes."
+                                  },
+                                  {
+                                      "title":  "Private Experiences",
+                                      "description":  "Ideal starting point for customized adventures."
+                                  },
+                                  {
+                                      "title":  "Relaxation",
+                                      "description":  "Perfect balance between exploration and rest."
+                                  }
+                              ],
+    "local_tips":  [
+                       "Book tours early.",
+                       "Use sunscreen.",
+                       "Carry cash for small stops.",
+                       "Ask Wild Papagayo for local recommendations."
+                   ],
+    "suggested_stay":  [
+                           {
+                               "day":  1,
+                               "title":  "Arrival",
+                               "description":  "Transfer and relax."
+                           },
+                           {
+                               "day":  2,
+                               "title":  "Adventure",
+                               "description":  "Recommended full-day experience."
+                           },
+                           {
+                               "day":  3,
+                               "title":  "Beach",
+                               "description":  "Relax and enjoy the area."
+                           },
+                           {
+                               "day":  4,
+                               "title":  "Departure",
+                               "description":  "Private airport transfer."
+                           }
+                       ],
+    "planning":  {
+                     "ideal_stay":  "4-6 nights",
+                     "transportation":  "Private Transfer",
+                     "airport":  "LIR"
+                 },
+    "wild_recommendation":  {
+                                "score":  5,
+                                "summary":  "Recommended by Wild Papagayo."
+                            },
+    "template":  "experience"
+}

@@ -1,0 +1,136 @@
+{
+    "id":  "andaz-costa-rica",
+    "name":  "Andaz Peninsula Papagayo Resort, Costa Rica",
+    "slug":  "andaz-costa-rica",
+    "brand":  "Andaz by Hyatt",
+    "category":  "Luxury Eco Resort",
+    "luxury_level":  "Private",
+    "destination_id":  "papagayo",
+    "location_label":  "Peninsula Papagayo",
+    "province":  "Guanacaste",
+    "airport_id":  "lir",
+    "transfer_minutes":  {
+                             "min":  35,
+                             "max":  50,
+                             "label":  "Approximately 35–50 minutes from Guanacaste Airport (LIR), depending on traffic."
+                         },
+    "tour_pickup_zone":  "papagayo",
+    "official_url":  "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica",
+    "hero_image":  "images/luxury-costa-rica-tours-hero.webp",
+    "hero_image_alt":  "Andaz Peninsula Papagayo Resort surrounded by tropical forest in Guanacaste",
+    "description":  "Andaz Peninsula Papagayo Resort is a design-forward luxury property set within the private Peninsula Papagayo. Its beaches, golf access, dining and activity program make it a good match for travelers who want an upscale resort experience with a relaxed Costa Rican identity and convenient access to private day tours.",
+    "hero_description":  "A design-forward luxury resort with a relaxed Costa Rican spirit inside Peninsula Papagayo.",
+    "local_insight":  "Andaz is a strong match for travelers who want upscale comfort without an overly formal atmosphere. Its Papagayo location makes it easy to combine beach time, dining and private day trips across Guanacaste.",
+    "best_for":  [
+                     "Couples",
+                     "Families",
+                     "Design-conscious travelers",
+                     "Beach stays",
+                     "Golf",
+                     "Food lovers"
+                 ],
+    "hotel_scores":  {
+                         "families":  4,
+                         "couples":  5,
+                         "wellness":  4,
+                         "adventure_access":  4,
+                         "walkability":  2,
+                         "nightlife":  2,
+                         "private":  5
+                     },
+    "featured_tours":  [
+                           "hangingbridgessloths",
+                           "paloverderiverboattour",
+                           "buenavistamegacombo"
+                       ],
+    "related_articles":  [
+                             "liberia-airport-transfer-guide"
+                         ],
+    "nearby_destinations":  [
+                                "papagayo",
+                                "playa-hermosa",
+                                "playa-coco"
+                            ],
+    "faq":  [
+                {
+                    "q":  "Which airport should I use for Andaz Costa Rica?",
+                    "a":  "Guanacaste Airport (LIR) is the closest practical international airport. Private transportation can be arranged directly to the resort."
+                },
+                {
+                    "q":  "Can I visit waterfalls and wildlife areas from Andaz?",
+                    "a":  "Yes. Full-day private tours can connect the resort with wildlife, rainforest, waterfall and volcano experiences across Guanacaste."
+                },
+                {
+                    "q":  "Do I need a rental car at Andaz Papagayo?",
+                    "a":  "Not necessarily. Travelers who plan to stay at the resort and use organized private tours can often manage the trip with airport transfers and excursion transportation."
+                }
+            ],
+    "source_notes":  [
+                         "The official Hyatt page describes a luxury eco resort within the private 1,400-acre Peninsula Papagayo, with three beaches, golf, dining and an extensive activity program.",
+                         "Transfer time is presented as an operational estimate and can vary with traffic and the exact airport pickup time."
+                     ],
+    "status":  "review",
+    "verification":  {
+                         "status":  "reviewed",
+                         "last_verified":  "2026-07-11",
+                         "official_source":  "https://www.hyatt.com/andaz/en-US/liraz-andaz-peninsula-papagayo-resort-costa-rica",
+                         "note":  "Official hotel details should be rechecked before publication; transfer times are Wild Papagayo operational estimates and may vary."
+                     },
+    "editorial_standard":  "Wild Papagayo Hotel Gold Standard v1.0",
+    "experience_highlights":  [
+                                  {
+                                      "title":  "Excellent Location",
+                                      "description":  "Easy access to Costa Rica\u0027s top attractions."
+                                  },
+                                  {
+                                      "title":  "Nature",
+                                      "description":  "Surrounded by tropical landscapes."
+                                  },
+                                  {
+                                      "title":  "Private Experiences",
+                                      "description":  "Ideal starting point for customized adventures."
+                                  },
+                                  {
+                                      "title":  "Relaxation",
+                                      "description":  "Perfect balance between exploration and rest."
+                                  }
+                              ],
+    "local_tips":  [
+                       "Book tours early.",
+                       "Use sunscreen.",
+                       "Carry cash for small stops.",
+                       "Ask Wild Papagayo for local recommendations."
+                   ],
+    "suggested_stay":  [
+                           {
+                               "day":  1,
+                               "title":  "Arrival",
+                               "description":  "Transfer and relax."
+                           },
+                           {
+                               "day":  2,
+                               "title":  "Adventure",
+                               "description":  "Recommended full-day experience."
+                           },
+                           {
+                               "day":  3,
+                               "title":  "Beach",
+                               "description":  "Relax and enjoy the area."
+                           },
+                           {
+                               "day":  4,
+                               "title":  "Departure",
+                               "description":  "Private airport transfer."
+                           }
+                       ],
+    "planning":  {
+                     "ideal_stay":  "4-6 nights",
+                     "transportation":  "Private Transfer",
+                     "airport":  "LIR"
+                 },
+    "wild_recommendation":  {
+                                "score":  5,
+                                "summary":  "Recommended by Wild Papagayo."
+                            },
+    "template":  "experience"
+}

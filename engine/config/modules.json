@@ -1,0 +1,122 @@
+[
+  {
+    "id": "knowledge-repository",
+    "name": "Knowledge Repository Validation",
+    "script": "knowledge-repository-validator.ps1",
+    "stage": 10,
+    "required": true,
+    "enabled": true
+  },
+  {
+    "id": "question-engine",
+    "name": "Question Engine",
+    "script": "question-engine.ps1",
+    "stage": 20,
+    "required": false,
+    "enabled": true
+  },
+  {
+    "id": "recommendation-engine",
+    "name": "Recommendation Engine",
+    "script": "recommendation-engine.ps1",
+    "stage": 25,
+    "required": true,
+    "enabled": true
+  },
+  {
+    "id": "content-build",
+    "name": "Blog and Destination Build",
+    "script": "blog-generator.ps1",
+    "stage": 30,
+    "required": true,
+    "enabled": true
+  },
+  {
+    "id": "hotel-legacy-publish",
+    "name": "Hotel Legacy Publish (sync master -> legacy)",
+    "script": "hotel-legacy-publish-all.ps1",
+    "stage": 33,
+    "required": true,
+    "enabled": true
+  },
+  {
+    "id": "hotel-engine",
+    "name": "Hotel Engine",
+    "script": "hotel-generator.ps1",
+    "stage": 35,
+    "required": true,
+    "enabled": true
+  },
+  {
+    "id": "tour-engine",
+    "name": "Tour Engine",
+    "script": "tour-generator.ps1",
+    "stage": 36,
+    "required": true,
+    "enabled": true
+  },
+  {
+    "id": "month-engine",
+    "name": "Month Engine",
+    "script": "month-generator.ps1",
+    "stage": 40,
+    "required": false,
+    "enabled": true
+  },
+  {
+    "id": "category-engine",
+    "name": "Category Engine",
+    "script": "category-generator.ps1",
+    "stage": 45,
+    "required": false,
+    "enabled": true
+  },
+  {
+    "id": "tour-finder",
+    "name": "Tour Finder Quiz",
+    "script": "tool-finder-generator.ps1",
+    "stage": 50,
+    "required": false,
+    "enabled": true
+  },
+  {
+    "id": "assistant-knowledge",
+    "name": "AI Assistant Knowledge Compiler",
+    "script": "assistant-knowledge-generator.ps1",
+    "stage": 55,
+    "required": false,
+    "enabled": true
+  },
+  {
+    "id": "content-validator",
+    "name": "Content Link Validator",
+    "script": "content-link-validator.ps1",
+    "stage": 60,
+    "required": false,
+    "enabled": true
+  },
+  {
+    "id": "experience-profiles",
+    "name": "Experience Profile Engine",
+    "script": "experience-profile-generator.ps1",
+    "stage": 51,
+    "required": false,
+    "enabled": true
+  },
+  {
+    "id": "destination-finder",
+    "name": "Destination Finder (Experience Match)",
+    "script": "destination-finder-generator.ps1",
+    "stage": 52,
+    "required": false,
+    "enabled": true
+  },
+  {
+    "id": "destination-health",
+    "name": "Destination Health Report",
+    "script": "destination-health-report.ps1",
+    "stage": 65,
+    "required": false,
+    "enabled": true
+  }
+]

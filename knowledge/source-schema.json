@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Wild Data Engine Source Configuration",
+  "type": "object",
+  "required": ["entity_type", "entity_id", "display_name", "official_domains", "sources"],
+  "properties": {
+    "entity_type": {"type": "string"},
+    "entity_id": {"type": "string"},
+    "display_name": {"type": "string"},
+    "official_domains": {"type": "array", "items": {"type": "string"}},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "url"],
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"type": "string"},
+          "url": {"type": "string"},
+          "priority": {"type": "integer", "minimum": 0, "maximum": 100}
+        }
+      }
+    }
+  }
+}

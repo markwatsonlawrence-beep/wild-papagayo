@@ -1,0 +1,9 @@
+Wild Engine - Hotel Engine Validation
+Generated: 2026-10-02 20:04:07
+Errors: 3
+Warnings: 0
+
+ERRORS
+- bahia-pez-vela-resort.json: generated page missing
+- the-westin-reserva-conchal-an-all-inclusive-golf-resort-spa.json: generated page missing
+- w-costa-rica-resort.json: generated page missing

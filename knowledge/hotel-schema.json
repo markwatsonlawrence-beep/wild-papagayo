@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wildpapagayo.com/schemas/hotel-profile-v1.json",
+  "title": "Wild Papagayo Hotel Profile",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "slug",
+    "brand",
+    "category",
+    "destination_id",
+    "airport_id",
+    "transfer_minutes",
+    "description",
+    "best_for",
+    "featured_tours",
+    "status"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string", "minLength": 3},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "brand": {"type": "string"},
+    "category": {"type": "string"},
+    "luxury_level": {"type": "string"},
+    "destination_id": {"type": "string"},
+    "location_label": {"type": "string"},
+    "province": {"type": "string"},
+    "airport_id": {"type": "string"},
+    "transfer_minutes": {
+      "type": "object",
+      "required": ["min", "max", "label"],
+      "properties": {
+        "min": {"type": "integer", "minimum": 0},
+        "max": {"type": "integer", "minimum": 0},
+        "label": {"type": "string"}
+      }
+    },
+    "tour_pickup_zone": {"type": "string"},
+    "official_url": {"type": "string"},
+    "hero_image": {"type": "string"},
+    "hero_image_alt": {"type": "string"},
+    "description": {"type": "string", "minLength": 80},
+    "best_for": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "hotel_scores": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 1, "maximum": 5}
+    },
+    "featured_tours": {"type": "array", "items": {"type": "string"}},
+    "related_articles": {"type": "array", "items": {"type": "string"}},
+    "nearby_destinations": {"type": "array", "items": {"type": "string"}},
+    "faq": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["q", "a"],
+        "properties": {
+          "q": {"type": "string"},
+          "a": {"type": "string"}
+        }
+      }
+    },
+    "source_notes": {"type": "array", "items": {"type": "string"}},
+    "status": {"enum": ["draft", "review", "published"]}
+  }
+}

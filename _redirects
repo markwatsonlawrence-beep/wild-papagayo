@@ -1,0 +1,24 @@
+# Canonicalize domain: force apex + https, eliminate www/http duplicate indexing
+https://www.wildpapagayo.com/* https://wildpapagayo.com/:splat 301!
+http://www.wildpapagayo.com/*  https://wildpapagayo.com/:splat 301!
+http://wildpapagayo.com/*      https://wildpapagayo.com/:splat 301!
+
+/blog/best-tours-from-four-seasons-peninsula-papagayo.html /blog/best-private-day-tours-from-four-seasons-papagayo.html 301
+/blog/best-tours-from-four-seasons-peninsula-papagayo /blog/best-private-day-tours-from-four-seasons-papagayo 301
+/blog/rental-car-vs-private-driver-in-guanacaste-honest-guide.html /categories/transportation-transfers.html 301
+/hotels/luxury-nature-retreat-treehouse-hotel-in-costa-rica.html /hotels/suitree-experience-hotel-costa-rica.html 301
+/profiles/luxury.html /profiles/private.html 301
+/packages/volcano-luxury.html /packages/volcano-private.html 301
+/categories/trip-planning-logistics.html /categories/trip-planning.html 301
+/categories/trip-planning-logistics /categories/trip-planning 301
+/categories/trip-planning-transportation.html /categories/transportation-transfers.html 301
+/categories/trip-planning-transportation /categories/transportation-transfers 301
+/liberia-airport-guide.html /blog/liberia-airport-transfer-guide 308
+/liberia-airport-guide /blog/liberia-airport-transfer-guide 308
+/volcano-tours.html /private-tours/volcano-tours 301
+/volcano-tours /private-tours/volcano-tours 301
+
+/tours/is-ostional-turtle-watching-worth-it-from-papagayo.html /tours/ostionalturtles 301
+/tours/is-ostional-turtle-watching-worth-it-from-papagayo /tours/ostionalturtles 301
+
+/blogs /Blogs 301

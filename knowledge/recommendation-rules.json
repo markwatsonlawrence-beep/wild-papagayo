@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "limits": {
+    "hotel_tours": 5,
+    "destination_tours": 5,
+    "blog_tours": 4,
+    "tour_related_tours": 4
+  },
+  "weights": {
+    "explicit_hotel_featured_tour": 50,
+    "tour_featured_hotel": 45,
+    "shared_pickup_zone": 25,
+    "hotel_destination_match": 20,
+    "hotel_nearby_destination_match": 15,
+    "destination_featured_tour": 50,
+    "tour_destination_match": 40,
+    "tour_nearby_destination_match": 15,
+    "blog_destination_match": 35,
+    "blog_explicit_tour": 60,
+    "blog_tag_activity_match": 12,
+    "same_tour_category": 25,
+    "shared_tour_destination": 20,
+    "shared_tour_activity": 15,
+    "shared_featured_hotel": 8,
+    "active_tour_bonus": 5,
+    "priced_tour_bonus": 2
+  },
+  "minimum_scores": {
+    "hotel_tours": 10,
+    "destination_tours": 10,
+    "blog_tours": 10,
+    "tour_related_tours": 15
+  }
+}

@@ -1,0 +1,29 @@
+Wild Papagayo Question Engine Report
+Generated: 2026-09-25 22:00:45
+Questions: 22
+Errors: 4
+Warnings: 0
+
+STATUS COUNTS
+- pending: 1
+- published: 21
+
+SOURCE COUNTS
+- email: 2
+- facebook: 13
+- google: 1
+- reddit: 1
+- team: 3
+- whatsapp: 2
+
+TOP EDITORIAL PRIORITIES
+- [75] Rio Celeste & Tapir Valley Tour from Guanacaste | status=pending | id=q-rio-celeste-tapir-valley-tour-guanacaste
+
+ERRORS
+- [q-lir-arenal-waldorf-september-itinerary] Unknown traveler_profile_ids reference: 'luxury'.
+- [q-best-tours-from-four-seasons-papagayo] Unknown traveler_profile_ids reference: 'luxury'.
+- [q-private-driver-or-rental-car-guanacaste] article_slug 'rental-car-vs-private-driver-in-guanacaste-honest-guide' does not exist in blog-data.json.
+- [q-five-hours-private-driver-llanos-cortes] Unknown traveler_profile_ids reference: 'luxury'.
+
+WARNINGS
+- None

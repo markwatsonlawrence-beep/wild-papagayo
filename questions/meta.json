@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "project": "Wild Papagayo Question Engine",
+  "language": "en",
+  "status_values": ["pending", "idea", "researching", "drafting", "review", "scheduled", "published", "archived"],
+  "intent_values": ["informational", "commercial-investigation", "transactional", "navigational"],
+  "source_values": ["facebook", "whatsapp", "email", "reddit", "tripadvisor", "google", "customer-call", "team"],
+  "priority_scale": "1-100; higher means publish sooner",
+  "id_policy": "lowercase-kebab-case; permanent once created"
+}

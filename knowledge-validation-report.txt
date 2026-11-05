@@ -1,0 +1,59 @@
+﻿Wild Papagayo Knowledge Graph Validation
+Generated: 2026-09-29 19:33:41
+
+Articles: 57
+Destinations: 15
+Hotels: 10
+Tours: 31
+Activities: 18
+
+Errors: 46
+Warnings: 0
+
+ERRORS
+Article 'arenal-hanging-bridges-and-a-waterfall-in-one-day' references missing hotel ID 'amor-arenal' in hotel_ids
+Article 'costa-rica-with-an-11-month-old-where-should-you-stay' references missing activity ID 'family-beach-day' in activity_ids
+Article 'costa-rica-with-an-11-month-old-where-should-you-stay' references missing season ID 'late-green-season' in season_ids
+Article 'costa-rica-with-an-11-month-old-where-should-you-stay' references missing traveler_profile ID 'traveling-with-baby' in traveler_profile_ids
+Article 'costa-rica-flight-hotel-booking-guide' references missing hotel ID 'buena-vista-del-rincon' in hotel_ids
+Article 'liberia-airport-to-arenal-papagayo-drive-times-stops' references missing hotel ID 'amor-arenal' in hotel_ids
+Article 'liberia-airport-to-arenal-papagayo-drive-times-stops' references missing traveler_profile ID 'luxury' in traveler_profile_ids
+Article 'best-private-day-tours-from-four-seasons-papagayo' references missing traveler_profile ID 'luxury' in traveler_profile_ids
+Article 'private-driver-from-papagayo-waterfall-lunch-half-day' references missing traveler_profile ID 'luxury' in traveler_profile_ids
+Article 'is-ostional-turtle-watching-worth-it-from-papagayo' references missing activity ID 'turtle-watching' in activity_ids
+Article 'is-ostional-turtle-watching-worth-it-from-papagayo' references missing activity ID 'night-tour' in activity_ids
+Article 'is-ostional-turtle-watching-worth-it-from-papagayo' references missing tour ID 'ostionalturtles' in tour_ids
+Article 'things-to-do-in-papagayo-costa-rica' references missing tour ID 'oropendolahotsprings' in tour_ids
+Article 'best-tours-from-riu-palace-costa-rica' references missing hotel ID 'hotel-riu-palace-costa-rica-hotel-en-playa-matapalo-costa-rica' in hotel_ids
+Article 'best-tours-from-bahia-pez-vela-resort' references missing hotel ID 'bahia-pez-vela-resort' in hotel_ids
+Tour page missing for 'arenalhangingbridges': ../tours/arenalhangingbridges
+Tour page missing for 'arenalhotsprings': ../tours/arenalhotsprings
+Tour page missing for 'atvmountainride': ../tours/atvmountainride
+Tour page missing for 'borinque4senses': ../tours/borinque4senses
+Tour page missing for 'buenavistamegacombo': ../tours/buenavistamegacombo
+Tour page missing for 'canyonadventurepark': ../tours/canyonadventurepark
+Tour page missing for 'canyoningtubing': ../tours/canyoningtubing
+Tour page missing for 'celesteriver': ../tours/celesteriver
+Tour page missing for 'coloradoriverrafting': ../tours/coloradoriverrafting
+Tour page missing for 'congotrail': ../tours/congotrail
+Tour page missing for 'congotrailcanopy': ../tours/congotrailcanopy
+Tour page missing for 'costaricahighlights': ../tours/costaricahighlights
+Tour page missing for 'floatingtenorio': ../tours/floatingtenorio
+Tour page missing for 'haciendaaromal': ../tours/haciendaaromal
+Tour page missing for 'haciendaguachipelin': ../tours/haciendaguachipelin
+Tour page missing for 'hangingbridgessloths': ../tours/hangingbridgessloths
+Tour page missing for 'hikingrinconnationalpark': ../tours/hikingrinconnationalpark
+Tour page missing for 'horsebackaromal': ../tours/horsebackaromal
+Tour page missing for 'laleona': ../tours/laleona
+Tour page missing for 'miravallesspa': ../tours/miravallesspa
+Tour page missing for 'monteverdehangingbridgescoffee': ../tours/monteverdehangingbridgescoffee
+Tour page missing for 'monteverdtreetopwalk': ../tours/monteverdtreetopwalk
+Tour page missing for 'paloverdeculturalviejo': ../tours/paloverdeculturalviejo
+Tour page missing for 'paloverderiverboattour': ../tours/paloverderiverboattour
+Tour page missing for 'sensoriarainforest': ../tours/sensoriarainforest
+Tour page missing for 'slothadventure': ../tours/slothadventure
+Tour page missing for 'slothchocolatetour': ../tours/slothchocolatetour
+Tour page missing for 'tenoriorafting': ../tours/tenoriorafting
+Tour page missing for 'tubingceleste': ../tours/tubingceleste
+Tour page missing for 'waterfalllovers': ../tours/waterfalllovers
+Tour page missing for 'waterfallpumas': ../tours/waterfallpumas
