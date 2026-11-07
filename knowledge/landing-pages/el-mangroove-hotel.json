@@ -1,0 +1,151 @@
+{
+    "id": "el-mangroove-hotel",
+    "slug": "el-mangroove-hotel",
+    "hotel_id": "el-mangroove-hotel",
+    "page_url": "private-tours/el-mangroove-hotel",
+    "canonical_url": "https://wildpapagayo.com/private-tours/el-mangroove-hotel",
+    "seo_title": "Private Tours from el Mangroove Hotel | Gulf of Papagayo, Guanacaste",
+    "seo_description": "Private day tours from el Mangroove Hotel on the Gulf of Papagayo, with direct hotel pickup, bilingual local guides and exclusive experiences across Guanacaste and northern Costa Rica.",
+    "og_image": "images/family-beach-sunset-papagayo.webp",
+    "h1": "Private Tours from el Mangroove Hotel, Gulf of Papagayo",
+    "hero": {
+        "eyebrow_line_1": "EL MANGROOVE · GULF OF PAPAGAYO",
+        "eyebrow_line_2": "Beyond the Resort. Privately.",
+        "subtext": "Private day tours from el Mangroove Hotel with direct hotel pickup, local bilingual guides and experiences reserved exclusively for your group.",
+        "cta_primary_text": "Find My Private Tour",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying at el Mangroove Hotel and would like to plan a private tour.",
+        "image": "images/family-beach-sunset-papagayo.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Direct Hotel Pickup",
+        "Local Bilingual Guides",
+        "Flexible Itineraries",
+        "Personal Concierge"
+    ],
+    "intro_section": {
+        "kicker": "Beyond the Resort",
+        "title": "Explore Beyond el Mangroove Hotel",
+        "paragraphs": [
+            "El Mangroove is a contemporary luxury resort on the Gulf of Papagayo, approximately 30 to 40 minutes from Liberia airport (LIR). Its beachfront setting, multi-bedroom villas and design-forward approach make it a natural base for families, groups and adventure-minded travelers looking to explore Guanacaste's national parks and natural landmarks.",
+            "Wild Papagayo organizes private tours with direct pickup from el Mangroove Hotel. Every experience departs from and returns to the resort, with no shared buses, no other travel groups and no fixed schedule to follow.",
+            "Day trips range from about eight to twelve hours in Costa Rica's cloud forests, wildlife reserves, volcanic landscapes and national parks. Exact pickup time is confirmed after booking based on your selected experience and travel date."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Signature Experiences",
+        "title": "Six Private Tours from el Mangroove Hotel",
+        "cta": { "text": "Explore All Private Tours", "url": "tours" },
+        "tours": [
+            { "id": "slothadventure", "best_for": "Wildlife · Easy", "note": "Encounter sloths in their natural habitat with a certified naturalist guide. Lunch included. Sightings are frequent but not guaranteed. About 8 hours." },
+            { "id": "monteverdehangingbridgescoffee", "best_for": "Cloud Forest · Easy", "note": "Selvatura suspension bridges, butterfly garden and interactive coffee plantation tour in Monteverde Cloud Forest. Breakfast and lunch included. About 12 hours." },
+            { "id": "monteverdtreetopwalk", "best_for": "Canopy Walk · Moderate", "note": "Walk the treetops of Monteverde Cloud Forest along a guided suspension trail with panoramic forest views. Breakfast and lunch included. About 12 hours." },
+            { "id": "hikingrinconnationalpark", "best_for": "Volcano · Easy to Moderate", "note": "Las Pailas Trail through fumaroles and mud pots at Rincón de la Vieja. Classic (waterfall) or Plus (hot springs) options. About 8 hours. Runs Tuesday through Sunday — park closed Mondays." },
+            { "id": "celesteriver", "best_for": "Blue River · Moderate", "note": "Full-day hike to Río Celeste at Tenorio Volcano National Park. Swimming is not permitted in the river. Park entrance fee included. About 9 hours. Minimum age 8." },
+            { "id": "miravallesspa", "best_for": "Volcano Wellness · Easy to Moderate", "note": "Three cascading waterfalls, volcanic mud treatment and natural hot springs at Miravalles Volcano. Lunch and all entrance fees included. About 8 hours." }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Plan Your Trip",
+        "title": "Choose Your Tour by Travel Style",
+        "want_header": "Best For...",
+        "rows": [
+            { "want": "Wildlife & sloth encounter", "tour_id": "slothadventure" },
+            { "want": "Cloud forest & coffee", "tour_id": "monteverdehangingbridgescoffee" },
+            { "want": "Treetop canopy walk", "tour_id": "monteverdtreetopwalk" },
+            { "want": "Volcano hiking", "tour_id": "hikingrinconnationalpark" },
+            { "want": "Blue river hike", "tour_id": "celesteriver" },
+            { "want": "Volcano wellness & spa", "tour_id": "miravallesspa" }
+        ]
+    },
+    "hotel_pickup": {
+        "kicker": "Hotel Pickup",
+        "title": "Direct Pickup From el Mangroove Hotel",
+        "text": "Your private experience begins at el Mangroove Hotel on the Gulf of Papagayo. Wild Papagayo coordinates hotel pickup based on your selected tour and planned departure time, with a private vehicle and guide reserved for your group.",
+        "text_2": "At the end of your experience, your driver returns you directly to the resort. To get started, send us a WhatsApp message with your hotel, your planned travel dates and the experience you're considering.",
+        "cta_text": "Plan a Tour From el Mangroove Hotel",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20el%20Mangroove%20Hotel%20and%20would%20like%20to%20plan%20a%20private%20tour."
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Costa Rica's Top Experiences from el Mangroove Hotel?",
+        "origin_label": "el Mangroove Hotel",
+        "note": "As general Gulf of Papagayo area planning context — not el Mangroove-specific measurements. Actual travel time depends on the hotel pickup location, route, and road conditions. Your Wild Papagayo guide can recommend the best departure time from the resort for your itinerary.",
+        "source_note": "Travel time estimates based on verified driving distances in the Gulf of Papagayo and Guanacaste region.",
+        "rows": [
+            { "destination": "Rincón de la Vieja (Las Pailas)", "min": 93, "max": 118, "best_for": "Volcano & hiking" },
+            { "destination": "Río Celeste (Tenorio Volcano NP)", "min": 110, "max": 140, "best_for": "Nature & scenery" },
+            { "destination": "Palo Verde National Park", "min": 87, "max": 112, "best_for": "Wildlife" }
+        ]
+    },
+    "audience_sections": [
+        {
+            "kicker": "For Families",
+            "title": "Private Tours for Families at el Mangroove Hotel",
+            "intro": "El Mangroove's multi-bedroom villas — from two-bedroom to four-bedroom options up to 4,500 square feet — make it one of the more practical bases in Papagayo for family travel. Wild Papagayo private tours extend that experience into Guanacaste's national parks and wildlife areas, with no shared buses and no other groups joining yours.",
+            "groups": [
+                { "title": "Wildlife Days", "text": "Sloth Adventure Tour and Hanging Bridges & Sloths are both popular with families for wildlife encounters, easy forest walks and suspension bridges — a genuinely different day from beach time at the resort." },
+                { "title": "Cloud Forest Days", "text": "Monteverde Hanging Bridges & Coffee Tour and Monteverde Treetop Walk take families into the cloud forest for bridge walks, butterfly gardens and an introduction to Costa Rica's coffee culture. Breakfast and lunch included on both." },
+                { "title": "Active Days", "text": "Rincón de la Vieja Hiking is suitable for families with older children who want a full day in a volcanic national park. Celeste River Hike is recommended for minimum age 8." }
+            ]
+        },
+        {
+            "kicker": "For Adventure Seekers",
+            "title": "Private Day Trips for Adventure Travelers at el Mangroove",
+            "intro": "El Mangroove's adventure access score is among the highest of any hotel in the region. Wild Papagayo extends that into Guanacaste's volcanic parks and jungle reserves — private, guided, with hotel pickup.",
+            "groups": [
+                { "title": "Volcanic Landscapes", "text": "Rincón de la Vieja Hiking and Miravalles Volcano Waterfalls & Spa both explore active volcanic terrain — fumaroles, mud pots, waterfalls and thermal water — on full-day guided experiences." },
+                { "title": "River & Forest", "text": "Celeste River Hike at Tenorio Volcano National Park is a full-day moderate hike through primary forest to one of Costa Rica's most photographed natural landmarks." },
+                { "title": "Wildlife & Nature", "text": "Sloth Adventure Tour and Monteverde Treetop Walk round out the program for adventure travelers who want biodiversity and forest immersion over pure adrenaline." }
+            ]
+        }
+    ],
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why a Private Tour from el Mangroove?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private experiences from the Gulf of Papagayo.",
+        "items": [
+            { "title": "Private Transportation", "text": "Your own vehicle for the day — no shared buses, no unplanned stops." },
+            { "title": "Dedicated Local Guide", "text": "Focused entirely on your group, whether it's two people or a large family." },
+            { "title": "Direct Hotel Pickup", "text": "Start from el Mangroove Hotel, return to el Mangroove Hotel." },
+            { "title": "Flexible Pacing", "text": "No fixed shared-tour schedule — the day moves at your group's pace." },
+            { "title": "Personal Concierge", "text": "Help planning before the experience, from choosing a tour to confirming departure logistics." },
+            { "title": "Experienced Operator", "text": "Local team with direct knowledge of Guanacaste's national parks, routes and conditions." }
+        ]
+    },
+    "airport_section": {
+        "kicker": "Airport Transportation",
+        "title": "Liberia Airport Transportation to el Mangroove Hotel",
+        "text": "Wild Papagayo can also coordinate private transportation between Guanacaste Airport (LIR) and el Mangroove Hotel, approximately 30 to 40 minutes away. Arrange airport transfers and private day tours with the same local team.",
+        "cta_text": "View Liberia Airport Transportation Guide",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "hotel_crosslink": {
+        "kicker": "Hotel Guide",
+        "title": "Staying at el Mangroove Hotel?",
+        "text": "Explore our el Mangroove Hotel guide for hotel information, transportation, nearby experiences and planning your stay on the Gulf of Papagayo.",
+        "cta_text": "View el Mangroove Hotel Guide",
+        "cta_url": "hotels/el-mangroove-hotel"
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "TOUR_SELECTOR", "PICKUP_SECTION", "TRAVEL_TIMES", "AUDIENCE_SECTIONS", "WHY_PRIVATE", "AIRPORT_SECTION", "HOTEL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "Can Wild Papagayo arrange pickup directly from el Mangroove Hotel?", "a": "Yes. Wild Papagayo coordinates direct hotel pickup from el Mangroove on the Gulf of Papagayo. Exact pickup time is confirmed after booking based on your selected tour and travel date." },
+        { "q": "What private tours are available from el Mangroove Hotel?", "a": "Six tours are featured in this guide: Sloth Adventure Tour, Monteverde Hanging Bridges & Coffee Tour, Monteverde Treetop Walk, Rincón de la Vieja Hiking, Celeste River Hike and Miravalles Volcano Waterfalls & Spa. All include direct hotel pickup." },
+        { "q": "How far is el Mangroove Hotel from Liberia Airport?", "a": "El Mangroove is approximately 30 to 40 minutes by private transfer from Guanacaste Airport (LIR) in Liberia." },
+        { "q": "Is el Mangroove Hotel suitable for families?", "a": "Yes. El Mangroove offers multi-bedroom villas from two to four bedrooms, including a four-bedroom villa of approximately 4,500 square feet — a practical option for families and larger groups." },
+        { "q": "How long is the drive from el Mangroove to Rincón de la Vieja?", "a": "As general Gulf of Papagayo area planning context, approximately 93 to 118 minutes each way. Actual travel time depends on road conditions and the specific pickup location. The hiking tour takes about 8 hours and runs Tuesday through Sunday, as the national park is closed on Mondays." },
+        { "q": "Are tours from el Mangroove Hotel private?", "a": "Yes. Every Wild Papagayo experience is reserved exclusively for your group. No shared buses, no other travelers added to your group." },
+        { "q": "What are the best tours from el Mangroove for adventure travelers?", "a": "Rincón de la Vieja Hiking and Celeste River Hike are both recommended for adventure-focused guests. Miravalles Volcano Waterfalls & Spa combines volcanic terrain with a spa day if you want something less strenuous but still immersive. All three include direct hotel pickup." }
+    ],
+    "final_cta": {
+        "kicker": "ONE FREE DAY CAN SHOW YOU A DIFFERENT SIDE OF COSTA RICA.",
+        "title": "Tell Us How You'd Like to Spend It",
+        "text": "Tell us who you're traveling with, how much time you have and what you'd most like to experience. We'll help you choose a private journey that fits naturally into your stay at el Mangroove Hotel.",
+        "cta_primary_text": "Plan My Private Experience",
+        "cta_secondary_text": "Chat With a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying at el Mangroove Hotel and would love help planning a private experience for my free day."
+    }
+}

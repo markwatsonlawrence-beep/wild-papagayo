@@ -1,0 +1,166 @@
+{
+    "id": "hotel-bosque-del-mar",
+    "slug": "hotel-bosque-del-mar",
+    "hotel_id": "hotel-bosque-del-mar",
+    "page_url": "private-tours/hotel-bosque-del-mar",
+    "canonical_url": "https://wildpapagayo.com/private-tours/hotel-bosque-del-mar",
+    "seo_title": "Private Tours from Hotel Bosque del Mar | Playa Hermosa, Guanacaste",
+    "seo_description": "Private day tours from Hotel Bosque del Mar, Playa Hermosa, with direct hotel pickup, bilingual local guides and exclusive experiences across Guanacaste and northern Costa Rica.",
+    "og_image": "images/playa-hermosa-guanacaste-family.webp",
+    "h1": "Private Tours from Hotel Bosque del Mar, Playa Hermosa",
+    "hero": {
+        "eyebrow_line_1": "HOTEL BOSQUE DEL MAR · PLAYA HERMOSA",
+        "eyebrow_line_2": "Beyond the Beach. Privately.",
+        "subtext": "Private day tours from Hotel Bosque del Mar with direct hotel pickup, local bilingual guides and experiences reserved exclusively for your group.",
+        "cta_primary_text": "Find My Private Tour",
+        "cta_primary_url": "#featured-tours",
+        "cta_secondary_text": "Ask a Local Expert",
+        "cta_secondary_whatsapp": "Hello Wild Papagayo! I'm staying at Hotel Bosque del Mar in Playa Hermosa and would like to plan a private tour.",
+        "image": "images/playa-hermosa-guanacaste-family.webp"
+    },
+    "trust_strip": [
+        "100% Private",
+        "Direct Hotel Pickup",
+        "Local Bilingual Guides",
+        "Flexible Itineraries",
+        "Personal Concierge"
+    ],
+    "intro_section": {
+        "kicker": "Beyond the Beach",
+        "title": "Explore Beyond Hotel Bosque del Mar",
+        "paragraphs": [
+            "Hotel Bosque del Mar is a boutique beachfront hotel on Playa Hermosa, Guanacaste, approximately 26 to 33 minutes from Liberia airport (LIR). Its beach-town setting, tropical gardens and walkable restaurants make it one of the most relaxed bases in the region for private day trips into northern Costa Rica.",
+            "Wild Papagayo organizes private tours with direct pickup from Hotel Bosque del Mar. Every experience departs from and returns to the hotel, with no shared buses, no other travel groups and no fixed schedule to follow.",
+            "Day trips range from about six hours to full days of eight to twelve hours in Costa Rica's national parks, volcanic landscapes, cloud forest and wildlife reserves. Exact pickup time is confirmed after booking based on your selected experience and travel date."
+        ]
+    },
+    "featured_tours": {
+        "kicker": "Signature Experiences",
+        "title": "Six Private Tours from Hotel Bosque del Mar",
+        "cta": { "text": "Explore All Private Tours", "url": "tours" },
+        "tours": [
+            { "id": "hangingbridgessloths", "best_for": "Wildlife · Easy", "note": "Three suspension bridges, Llanos de Cortez waterfall and a sloth encounter. Lunch included. Sightings are frequent but not guaranteed. About 9 hours." },
+            { "id": "miravallesspa", "best_for": "Volcano Wellness · Easy to Moderate", "note": "Three cascading waterfalls, volcanic mud treatment and natural hot springs at Miravalles Volcano. Lunch and all entrance fees included. About 8 hours." },
+            { "id": "hikingrinconnationalpark", "best_for": "Volcano · Easy to Moderate", "note": "Las Pailas Trail through fumaroles and mud pots at Rincón de la Vieja. Classic (waterfall) or Plus (hot springs) options. About 8 hours. Runs Tuesday through Sunday — park closed Mondays." },
+            { "id": "celesteriver", "best_for": "Blue River · Moderate", "note": "Full-day hike to Río Celeste at Tenorio Volcano National Park. Swimming is not permitted in the river. Park entrance fee included. About 9 hours. Minimum age 8." },
+            { "id": "monteverdehangingbridgescoffee", "best_for": "Cloud Forest · Easy", "note": "Selvatura suspension bridges, butterfly garden and interactive coffee plantation tour in Monteverde Cloud Forest. Breakfast and lunch included. About 12 hours." },
+            { "id": "waterfallpumas", "best_for": "Shorter Day · Easy", "note": "Swim at Llanos del Cortes waterfall, then visit Las Pumas Wildlife Rescue Center — pumas, jaguars, ocelots and monkeys. Lunch included. About 6 hours." }
+        ]
+    },
+    "tour_selector": {
+        "kicker": "Plan Your Trip",
+        "title": "Choose Your Tour by Travel Style",
+        "want_header": "Best For...",
+        "rows": [
+            { "want": "Wellness day at a volcano", "tour_id": "miravallesspa" },
+            { "want": "Volcano hiking & fumaroles", "tour_id": "hikingrinconnationalpark" },
+            { "want": "Wildlife & suspension bridges", "tour_id": "hangingbridgessloths" },
+            { "want": "Blue river hike", "tour_id": "celesteriver" },
+            { "want": "Cloud forest & coffee", "tour_id": "monteverdehangingbridgescoffee" },
+            { "want": "Shorter half-day option", "tour_id": "waterfallpumas" }
+        ]
+    },
+    "hotel_pickup": {
+        "kicker": "Hotel Pickup",
+        "title": "Direct Pickup From Hotel Bosque del Mar",
+        "text": "Your private experience begins at Hotel Bosque del Mar in Playa Hermosa. Wild Papagayo coordinates hotel pickup based on your selected tour and planned departure time, with a private vehicle and guide reserved for your group.",
+        "text_2": "At the end of your experience, your driver returns you directly to the hotel. To get started, send us a WhatsApp message with your hotel, your planned travel dates and the experience you're considering.",
+        "cta_text": "Plan a Tour From Hotel Bosque del Mar",
+        "cta_url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Hotel%20Bosque%20del%20Mar%20in%20Playa%20Hermosa%20and%20would%20like%20to%20plan%20a%20private%20tour."
+    },
+    "travel_times": {
+        "kicker": "Plan Your Day",
+        "title": "How Far Are Costa Rica's Top Experiences from Hotel Bosque del Mar?",
+        "origin_label": "Hotel Bosque del Mar",
+        "note": "These are verified driving-distance estimates for the general Papagayo and Guanacaste region — not measurements specific to Hotel Bosque del Mar. Playa Hermosa is approximately 10–15 km further south than Peninsula Papagayo resorts, so actual travel times from this hotel may be 10–15 minutes longer than the figures shown. Actual time also depends on route and road conditions.",
+        "source_note": "Travel time estimates based on verified driving distances in the Papagayo region. Add approximately 10–15 minutes for pickup from Playa Hermosa.",
+        "rows": [
+            { "destination": "Rincón de la Vieja (Las Pailas)", "min": 93, "max": 118, "best_for": "Volcano & hiking" },
+            { "destination": "Río Celeste (Tenorio Volcano NP)", "min": 110, "max": 140, "best_for": "Nature & scenery" },
+            { "destination": "Palo Verde National Park", "min": 87, "max": 112, "best_for": "Wildlife" }
+        ]
+    },
+    "audience_sections": [
+        {
+            "kicker": "For Couples",
+            "title": "Private Tours for Couples at Hotel Bosque del Mar",
+            "intro": "Hotel Bosque del Mar is a boutique beachfront hotel suited to couples who want a quieter beach-town base. Every Wild Papagayo tour is private — no other travelers on your schedule, with the experience adapting to your pace.",
+            "groups": [
+                { "title": "Nature & Scenery", "text": "Miravalles Volcano Waterfalls & Spa and Celeste River Hike offer full days in natural settings that feel nothing like a resort day — volcanic mud, blue water and tropical forest at close range." },
+                { "title": "Wildlife & Adventure", "text": "Hanging Bridges & Sloths and Rincón de la Vieja Hiking are ideal for couples who want a mix of wildlife encounters, forest walks and volcanic landscapes." },
+                { "title": "Relaxed Pace", "text": "Waterfall & Las Pumas is the shorter option — about six hours — for couples who want to explore Guanacaste without filling the full day." }
+            ]
+        },
+        {
+            "kicker": "For Families",
+            "title": "Private Tours for Families Staying at Hotel Bosque del Mar",
+            "intro": "Several Wild Papagayo experiences are well suited to families with children. All tours are private, so your group travels at its own pace with a dedicated bilingual guide.",
+            "groups": [
+                { "title": "Wildlife Encounters", "text": "Hanging Bridges & Sloths and Waterfall & Las Pumas are family favorites — a mix of suspension bridges, waterfalls and rescued wildlife at Las Pumas center, including pumas, jaguars and monkeys." },
+                { "title": "Active Days", "text": "Rincón de la Vieja Hiking and Celeste River Hike are suitable for older children and families comfortable with full-day hikes through national parks. Minimum age 8 for Celeste River." },
+                { "title": "Learning Experiences", "text": "Monteverde Hanging Bridges & Coffee Tour combines cloud forest wildlife with a guided coffee and chocolate plantation tour — an engaging day for families curious about Costa Rica's food culture." }
+            ]
+        }
+    ],
+    "why_private": {
+        "kicker": "Why It Matters",
+        "title": "Why a Private Tour from Hotel Bosque del Mar?",
+        "tagline": "Book Direct. Explore Privately.",
+        "tagline_text": "Work directly with a local Costa Rican operator specializing in private experiences from Playa Hermosa and the Papagayo region.",
+        "items": [
+            { "title": "Private Transportation", "text": "Your own vehicle for the day — no shared buses or unplanned stops." },
+            { "title": "Dedicated Local Guide", "text": "Focused entirely on your group — no divided attention." },
+            { "title": "Direct Hotel Pickup", "text": "Start from Hotel Bosque del Mar, return to Hotel Bosque del Mar." },
+            { "title": "Flexible Pacing", "text": "No fixed shared-tour schedule — the day moves at your pace." },
+            { "title": "Personal Concierge", "text": "Help planning before the experience, from choosing a tour to confirming logistics." },
+            { "title": "Experienced Operator", "text": "Local team with direct knowledge of Guanacaste's national parks and routes." }
+        ]
+    },
+    "airport_section": {
+        "kicker": "Airport Transportation",
+        "title": "Liberia Airport Transportation to Hotel Bosque del Mar",
+        "text": "Wild Papagayo can also coordinate private transportation between Guanacaste Airport (LIR) and Hotel Bosque del Mar, approximately 26 to 33 minutes away. Arrange airport transfers and private day tours with the same local team.",
+        "cta_text": "View Liberia Airport Transportation Guide",
+        "cta_url": "blog/liberia-airport-transfer-guide"
+    },
+    "hotel_crosslink": {
+        "kicker": "Hotel Guide",
+        "title": "Staying at Hotel Bosque del Mar?",
+        "text": "Explore our Hotel Bosque del Mar guide for hotel information, transportation, nearby experiences and planning your stay in Playa Hermosa, Guanacaste.",
+        "cta_text": "View Hotel Bosque del Mar Guide",
+        "cta_url": "hotels/hotel-bosque-del-mar"
+    },
+    "content_blocks": {
+        "planning_context": {
+            "kicker": "Plan Your Day",
+            "title": "How Far Are Costa Rica's Top Experiences from Playa Hermosa?",
+            "paragraphs": [
+                "Playa Hermosa is a practical base for private day trips into Guanacaste's national parks and natural landmarks. All destinations served from Hotel Bosque del Mar are reachable in a single day, though exact travel time depends on the specific pickup location, destination and road conditions on the day of your tour.",
+                "Shorter routes — Rincón de la Vieja, Miravalles, Palo Verde — allow morning departures with ample time at the destination. Longer routes — Río Celeste and Monteverde — are full-day commitments with earlier starts. Your Wild Papagayo guide will confirm the recommended pickup time from Hotel Bosque del Mar when your booking is finalized.",
+                "To plan your itinerary or ask about departure logistics for a specific tour, send us a message."
+            ],
+            "cta": {
+                "text": "Ask About Departure Times",
+                "url": "https://wa.me/50688566325?text=Hello%20Wild%20Papagayo!%20I%27m%20staying%20at%20Hotel%20Bosque%20del%20Mar%20and%20would%20like%20to%20know%20more%20about%20departure%20times%20for%20my%20private%20tour."
+            }
+        }
+    },
+    "section_order": ["INTRO_SECTION", "FEATURED_TOURS", "TOUR_SELECTOR", "PICKUP_SECTION", "CONTENT_BLOCK:planning_context", "AUDIENCE_SECTIONS", "WHY_PRIVATE", "AIRPORT_SECTION", "HOTEL_CROSSLINK", "FAQ_SECTION"],
+    "faq": [
+        { "q": "Can Wild Papagayo arrange pickup directly from Hotel Bosque del Mar?", "a": "Yes. Wild Papagayo coordinates direct hotel pickup from Hotel Bosque del Mar in Playa Hermosa. Exact pickup time is confirmed after booking based on your selected tour and travel date." },
+        { "q": "What private tours are available from Hotel Bosque del Mar?", "a": "Six tours are featured in this guide: Hanging Bridges & Sloths, Miravalles Volcano Waterfalls & Spa, Rincón de la Vieja Hiking, Celeste River Hike, Monteverde Hanging Bridges & Coffee Tour, and Waterfall & Las Pumas. All include direct hotel pickup." },
+        { "q": "How far is Hotel Bosque del Mar from Liberia Airport?", "a": "About 26 to 33 minutes by private transfer from Guanacaste Airport (LIR), roughly 24.4 km away." },
+        { "q": "Do I need a rental car if I'm staying at Hotel Bosque del Mar?", "a": "Not necessarily. Guests who use organized private tours and airport transfers can typically manage the trip without renting a car." },
+        { "q": "How long is the drive from Hotel Bosque del Mar to Rincón de la Vieja?", "a": "Travel time from Playa Hermosa depends on the specific pickup location and road conditions on the day. Your Wild Papagayo guide will confirm the recommended departure time when your booking is finalized. The Rincón de la Vieja Hiking tour itself takes about 8 hours and runs Tuesday through Sunday — the national park is closed on Mondays." },
+        { "q": "Are tours from Hotel Bosque del Mar private?", "a": "Yes. Every Wild Papagayo experience is reserved exclusively for your group. No shared buses, no other travelers added to your group." },
+        { "q": "What is the best private tour from Hotel Bosque del Mar for couples?", "a": "Miravalles Volcano Waterfalls & Spa and Celeste River Hike are both popular with couples for their full-day natural settings. Hanging Bridges & Sloths is a strong option for wildlife and suspension bridges. For a shorter day, Waterfall & Las Pumas takes about 6 hours." }
+    ],
+    "final_cta": {
+        "kicker": "ONE FREE DAY CAN SHOW YOU A DIFFERENT SIDE OF COSTA RICA.",
+        "title": "Tell Us How You'd Like to Spend It",
+        "text": "Tell us who you're traveling with, how much time you have and what you'd most like to experience. We'll help you choose a private journey that fits naturally into your stay at Hotel Bosque del Mar.",
+        "cta_primary_text": "Plan My Private Experience",
+        "cta_secondary_text": "Chat With a Local Expert",
+        "whatsapp_message": "Hello Wild Papagayo! I'm staying at Hotel Bosque del Mar in Playa Hermosa and would love help planning a private experience for my free day."
+    }
+}
